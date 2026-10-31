@@ -146,7 +146,7 @@ Numeracja prowadzi od fizyki zjawisk, przez elementy instalacji i ochronę, do p
 
 - **Odnośniki** sprawdza [tools/check_links.py](tools/check_links.py): przy każdym pushu odnośniki wewnętrzne (pliki i kotwice), raz w tygodniu także linki zewnętrzne.
 - **Obrazy** sprawdza [tools/check_images.py](tools/check_images.py): czy plik istnieje, czy ma tekst alternatywny i czy każde zdjęcie z `assets/foto/` ma wpis w [assets/CREDITS.md](assets/CREDITS.md). Skrypt wypisuje też listę zdjęć oznaczonych jako `📷 DO ZROBIENIA`.
-- Zdjęcia z Wikimedia Commons pobiera [tools/commons.py](tools/commons.py) — razem z autorem i licencją.
+- Zdjęcia z Wikimedia Commons pobiera [tools/commons.py](tools/commons.py) — razem z autorem i licencją. Lista źródeł zdjęć jest w [assets/foto/ZDJECIA.tsv](assets/foto/ZDJECIA.tsv); po jej zmianie brakujące pliki pobiera automatycznie GitHub Actions ([zdjecia.yml](.github/workflows/zdjecia.yml)).
 - Wzory są pisane pod renderer GitHuba (MathJax): przecinek dziesiętny jako `{,}` (np. `0{,}4\ \mathrm{s}`), jednostki pismem prostym.
 
 ---

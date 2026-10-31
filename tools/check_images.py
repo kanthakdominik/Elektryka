@@ -7,6 +7,9 @@ Błędy:
 - zdjęcie z assets/foto/ nie ma wpisu w assets/CREDITS.md,
 - obraz jest osadzony z zewnętrznego serwera (zdjęcia trzymamy w repozytorium).
 
+Zdjęcie z listy assets/foto/ZDJECIA.tsv, którego jeszcze nie ma, to tylko ostrzeżenie (⏳):
+pobiera je workflow „Pobieranie zdjęć z Wikimedia Commons”.
+
 Informacyjnie wypisuje znaczniki „📷 DO ZROBIENIA” i pliki w assets/, których nikt nie używa.
 
 Użycie: python3 tools/check_images.py [--todo]
@@ -19,6 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FOTO = ROOT / "assets" / "foto"
 CREDITS = ROOT / "assets" / "CREDITS.md"
+LISTA = FOTO / "ZDJECIA.tsv"
 IMG_MD = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 IMG_HTML = re.compile(r"<img\b[^>]*>", re.I)
 ATTR = re.compile(r'(\w+)\s*=\s*"([^"]*)"')
@@ -44,9 +48,18 @@ def credited() -> set:
     return names
 
 
+def na_liscie() -> set:
+    """Zdjęcia z assets/foto/ZDJECIA.tsv — pobiera je GitHub Actions po pushu."""
+    if not LISTA.exists():
+        return set()
+    return {line.split("\t", 1)[0].strip() for line in LISTA.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.startswith("#")}
+
+
 def main() -> int:
-    errors, todos, used = [], [], set()
+    errors, waiting, todos, used = [], [], [], set()
     credits = credited()
+    lista = na_liscie()
     for f in md_files():
         rel = f.relative_to(ROOT)
         in_fence = False
@@ -73,7 +86,10 @@ def main() -> int:
                 path = (f.parent / urllib.parse.unquote(src)).resolve()
                 used.add(path)
                 if not path.exists():
-                    errors.append(f"{where}: brak pliku {src}")
+                    if FOTO in path.parents and path.name in lista:
+                        waiting.append(f"{where}: {path.name} czeka na pobranie przez GitHub Actions")
+                    else:
+                        errors.append(f"{where}: brak pliku {src}")
                 elif FOTO in path.parents and path.name not in credits:
                     errors.append(f"{where}: {path.name} nie ma wpisu w assets/CREDITS.md")
 
@@ -83,6 +99,8 @@ def main() -> int:
 
     for e in errors:
         print("❌", e)
+    for w in waiting:
+        print("⏳", w)
     for p in unused:
         print("ℹ️  nieużywany plik:", p.relative_to(ROOT))
     if "--todo" in sys.argv:

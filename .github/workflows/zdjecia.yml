@@ -1,0 +1,50 @@
+name: Pobieranie zdjęć z Wikimedia Commons
+
+# Po zmianie listy assets/foto/ZDJECIA.tsv pobiera brakujące zdjęcia,
+# dopisuje autorów i licencje do assets/CREDITS.md i commituje wynik.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/foto/ZDJECIA.tsv"
+      - "tools/commons.py"
+      - "tools/fetch_photos.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zdjecia
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pobierz brakujące zdjęcia
+        id: fetch
+        run: python3 tools/fetch_photos.py
+        continue-on-error: true
+      - name: Zapisz zdjęcia w repozytorium
+        run: |
+          git add assets/foto assets/CREDITS.md
+          if git diff --cached --quiet; then
+            echo "Brak nowych zdjęć."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Zdjęcia z Wikimedia Commons (automatycznie)"
+            git pull --rebase
+            git push
+          fi
+      - name: Zgłoś błędy pobierania
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::error::Nie udało się pobrać części zdjęć — szczegóły w kroku „Pobierz brakujące zdjęcia”."
+          exit 1

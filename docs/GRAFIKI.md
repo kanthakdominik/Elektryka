@@ -25,7 +25,9 @@ Zdjęcia producentów (katalogi, karty katalogowe) **tylko jako linki** w sekcji
 
 3. Wstaw do tematu z tekstem alternatywnym i podpisem „Na co patrzeć”.
 
-Skrypt pobiera wersję o szerokości do 1200 px, żeby repozytorium nie puchło.
+Skrypt pobiera wersję o szerokości do 1280 px, żeby repozytorium nie puchło, i dopisuje plik do listy `assets/foto/ZDJECIA.tsv`.
+
+**Bez dostępu do Commons na własnym komputerze** wystarczy dopisać wiersz `nazwa-pliku.jpg<TAB>File:Tytuł na Commons.jpg` do `assets/foto/ZDJECIA.tsv` i zrobić push — workflow [zdjecia.yml](../.github/workflows/zdjecia.yml) pobierze brakujące pliki, dopisze autorów do CREDITS i zacommituje wynik. Zdjęcie z listy, którego jeszcze nie ma, `check_images.py` zgłasza jako ⏳, a nie jako błąd.
 
 ## Nazwy plików
 
