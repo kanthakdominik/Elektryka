@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 430" width="840" height="430" role="img" aria-labelledby="t d">
+  <title id="t">Klasy ochronności urządzeń</title>
+  <desc id="d">Cztery klasy ochronności. Klasa 0: tylko izolacja podstawowa i brak zacisku ochronnego, nie stosuje się. Klasa I: izolacja podstawowa i obudowa połączona z przewodem ochronnym PE, symbol uziemienia w kółku, wtyczka ze stykiem ochronnym. Klasa II: izolacja podwójna lub wzmocniona, bez PE, symbol dwóch kwadratów jeden w drugim, płaska wtyczka. Klasa III: zasilanie bardzo niskim napięciem bezpiecznym SELV lub PELV, do 50 V prądu przemiennego, symbol rombu z cyfrą III. Przykłady: pralka i czajnik to klasa I, suszarka i ładowarka to klasa II, lampka 12 V z zasilacza SELV to klasa III.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="430" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Klasy ochronności urządzeń (PN-EN 61140)</text>
+<rect x="30" y="60" width="185" height="320" rx="8" class="ramka"/>
+<text x="122" y="92" class="podt" text-anchor="middle" style="font-size:18px">Klasa 0</text>
+<text x="122" y="150" class="duze" text-anchor="middle" style="fill:#7f8c8d">—</text>
+<text x="122" y="225" class="opis" text-anchor="middle">tylko izolacja</text>
+<text x="122" y="245" class="opis" text-anchor="middle">podstawowa,</text>
+<text x="122" y="265" class="opis" text-anchor="middle">brak zacisku PE</text>
+<text x="122" y="310" class="podt" text-anchor="middle" style="fill:#c0392b">nie stosuje się</text>
+<text x="122" y="335" class="male" text-anchor="middle">brak symbolu</text>
+<rect x="230" y="60" width="185" height="320" rx="8" class="ramka"/>
+<text x="322" y="92" class="podt" text-anchor="middle" style="font-size:18px">Klasa I</text>
+<circle cx="322" cy="150" r="34" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="322" y1="128" x2="322" y2="148" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="302.0" y1="148" x2="342.0" y2="148" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="309.0" y1="157" x2="335.0" y2="157" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="316.0" y1="166" x2="328.0" y2="166" stroke="#1a1a1a" stroke-width="3"/>
+<text x="322" y="225" class="opis" text-anchor="middle">izolacja podstawowa</text>
+<text x="322" y="245" class="opis" text-anchor="middle">+ obudowa</text>
+<text x="322" y="265" class="opis" text-anchor="middle">połączona z PE</text>
+<text x="322" y="310" class="podt" text-anchor="middle" style="fill:#1a1a1a">wtyczka z PE</text>
+<text x="322" y="335" class="male" text-anchor="middle">zacisk PE</text>
+<rect x="430" y="60" width="185" height="320" rx="8" class="ramka"/>
+<text x="522" y="92" class="podt" text-anchor="middle" style="font-size:18px">Klasa II</text>
+<rect x="488" y="116" width="68" height="68" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="504" y="132" width="36" height="36" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<text x="522" y="225" class="opis" text-anchor="middle">izolacja podwójna</text>
+<text x="522" y="245" class="opis" text-anchor="middle">lub wzmocniona,</text>
+<text x="522" y="265" class="opis" text-anchor="middle">bez PE</text>
+<text x="522" y="310" class="podt" text-anchor="middle" style="fill:#1a1a1a">płaska wtyczka</text>
+<text x="522" y="335" class="male" text-anchor="middle"></text>
+<rect x="630" y="60" width="185" height="320" rx="8" class="ramka"/>
+<text x="722" y="92" class="podt" text-anchor="middle" style="font-size:18px">Klasa III</text>
+<path d="M722 110 L762 150 L722 190 L682 150 Z" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<text x="722" y="159" class="podt" text-anchor="middle" style="font-size:22px">III</text>
+<text x="722" y="225" class="opis" text-anchor="middle">zasilanie bardzo</text>
+<text x="722" y="245" class="opis" text-anchor="middle">niskim napięciem</text>
+<text x="722" y="265" class="opis" text-anchor="middle">SELV/PELV</text>
+<text x="722" y="310" class="podt" text-anchor="middle" style="fill:#1a1a1a">≤ 50 V AC</text>
+<text x="722" y="335" class="male" text-anchor="middle"></text>
+<text x="420" y="410" class="male" text-anchor="middle">Przykłady: I — pralka, czajnik, piekarnik; II — suszarka do włosów, ładowarka, wiertarka; III — lampka 12 V z zasilacza SELV.</text>
+</svg>

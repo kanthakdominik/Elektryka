@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" width="840" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Selektywność zabezpieczeń</title>
+  <desc id="d">Dwa przypadki tej samej instalacji: zabezpieczenie przedlicznikowe gG 25 A, a za nim trzy wyłączniki nadprądowe B10, B16 i B16. Zwarcie w obwodzie drugiego B16. Po lewej selektywnie: zadziałał tylko B16 obwodu z usterką, a pozostałe obwody mają prąd. Po prawej nieselektywnie: przepaliła się wkładka przedlicznikowa i ciemno jest w całym mieszkaniu. Selektywność zapewnia odpowiednia różnica prądów lub czasów i sprawdzenie w tabelach producenta.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="440" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Selektywność: wyłącza się tylko to, co trzeba</text>
+<rect x="20" y="50" width="390" height="340" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="215" y="76" class="podt" text-anchor="middle" style="fill:#1e8449">Selektywnie</text>
+<rect x="160.0" y="95" width="110" height="40" rx="6" fill="#ffffff" stroke="#555" stroke-width="1.8"/>
+<text x="215" y="120.0" class="opis" text-anchor="middle">gG 25 A</text>
+<text x="279" y="120" class="male" text-anchor="start">przedlicznikowe</text>
+<line x1="215" y1="135" x2="215" y2="165" stroke="#555" stroke-width="2"/>
+<line x1="85" y1="165" x2="345" y2="165" stroke="#555" stroke-width="2"/>
+<line x1="85" y1="165" x2="85" y2="190" stroke="#555" stroke-width="2"/>
+<rect x="43.0" y="190" width="84" height="40" rx="6" fill="#ffffff" stroke="#555" stroke-width="1.8"/>
+<text x="85" y="215.0" class="opis" text-anchor="middle">B10</text>
+<line x1="85" y1="230" x2="85" y2="290" stroke="#555" stroke-width="2"/>
+<circle cx="85" cy="306" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="75.2" y1="296.2" x2="94.8" y2="315.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="75.2" y1="315.8" x2="94.8" y2="296.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="215" y1="165" x2="215" y2="190" stroke="#555" stroke-width="2"/>
+<rect x="173.0" y="190" width="84" height="40" rx="6" fill="#d5f5e3" stroke="#1e8449" stroke-width="1.8"/>
+<text x="215" y="215.0" class="opis" text-anchor="middle">B16</text>
+<line x1="215" y1="230" x2="215" y2="290" stroke="#555" stroke-width="2"/>
+<circle cx="215" cy="306" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="205.2" y1="296.2" x2="224.8" y2="315.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="205.2" y1="315.8" x2="224.8" y2="296.2" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="215" cy="306" r="18" fill="#1a1a1a" fill-opacity="0.35"/>
+<path d="M223 245 l14 10 l-9 4 l14 12" fill="none" stroke="#c0392b" stroke-width="3"/>
+<text x="243" y="262" class="male" text-anchor="start" style="fill:#c0392b">zwarcie</text>
+<line x1="345" y1="165" x2="345" y2="190" stroke="#555" stroke-width="2"/>
+<rect x="303.0" y="190" width="84" height="40" rx="6" fill="#ffffff" stroke="#555" stroke-width="1.8"/>
+<text x="345" y="215.0" class="opis" text-anchor="middle">B16</text>
+<line x1="345" y1="230" x2="345" y2="290" stroke="#555" stroke-width="2"/>
+<circle cx="345" cy="306" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="335.2" y1="296.2" x2="354.8" y2="315.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="335.2" y1="315.8" x2="354.8" y2="296.2" stroke="#1a1a1a" stroke-width="2"/>
+<text x="215" y="350" class="male" text-anchor="middle">Zadziałał tylko B16 obwodu z usterką.</text>
+<text x="215" y="368" class="male" text-anchor="middle">Reszta mieszkania ma prąd.</text>
+<rect x="430" y="50" width="390" height="340" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="625" y="76" class="podt" text-anchor="middle" style="fill:#c0392b">Nieselektywnie</text>
+<rect x="570.0" y="95" width="110" height="40" rx="6" fill="#fadbd8" stroke="#c0392b" stroke-width="1.8"/>
+<text x="625" y="120.0" class="opis" text-anchor="middle">gG 25 A</text>
+<text x="689" y="120" class="male" text-anchor="start">przedlicznikowe</text>
+<line x1="625" y1="135" x2="625" y2="165" stroke="#555" stroke-width="2"/>
+<line x1="495" y1="165" x2="755" y2="165" stroke="#555" stroke-width="2"/>
+<line x1="495" y1="165" x2="495" y2="190" stroke="#555" stroke-width="2"/>
+<rect x="453.0" y="190" width="84" height="40" rx="6" fill="#ffffff" stroke="#555" stroke-width="1.8"/>
+<text x="495" y="215.0" class="opis" text-anchor="middle">B10</text>
+<line x1="495" y1="230" x2="495" y2="290" stroke="#555" stroke-width="2"/>
+<circle cx="495" cy="306" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="485.2" y1="296.2" x2="504.8" y2="315.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="485.2" y1="315.8" x2="504.8" y2="296.2" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="495" cy="306" r="18" fill="#1a1a1a" fill-opacity="0.35"/>
+<line x1="625" y1="165" x2="625" y2="190" stroke="#555" stroke-width="2"/>
+<rect x="583.0" y="190" width="84" height="40" rx="6" fill="#ffffff" stroke="#555" stroke-width="1.8"/>
+<text x="625" y="215.0" class="opis" text-anchor="middle">B16</text>
+<line x1="625" y1="230" x2="625" y2="290" stroke="#555" stroke-width="2"/>
+<circle cx="625" cy="306" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="615.2" y1="296.2" x2="634.8" y2="315.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="615.2" y1="315.8" x2="634.8" y2="296.2" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="625" cy="306" r="18" fill="#1a1a1a" fill-opacity="0.35"/>
+<path d="M633 245 l14 10 l-9 4 l14 12" fill="none" stroke="#c0392b" stroke-width="3"/>
+<text x="653" y="262" class="male" text-anchor="start" style="fill:#c0392b">zwarcie</text>
+<line x1="755" y1="165" x2="755" y2="190" stroke="#555" stroke-width="2"/>
+<rect x="713.0" y="190" width="84" height="40" rx="6" fill="#ffffff" stroke="#555" stroke-width="1.8"/>
+<text x="755" y="215.0" class="opis" text-anchor="middle">B16</text>
+<line x1="755" y1="230" x2="755" y2="290" stroke="#555" stroke-width="2"/>
+<circle cx="755" cy="306" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="745.2" y1="296.2" x2="764.8" y2="315.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="745.2" y1="315.8" x2="764.8" y2="296.2" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="755" cy="306" r="18" fill="#1a1a1a" fill-opacity="0.35"/>
+<text x="625" y="350" class="male" text-anchor="middle">Przepaliła się wkładka przedlicznikowa.</text>
+<text x="625" y="368" class="male" text-anchor="middle">Ciemno w całym mieszkaniu.</text>
+<text x="420" y="420" class="male" text-anchor="middle">Selektywność zapewnia dobór: odpowiednio duża różnica prądów lub czasów i sprawdzenie w tabelach producenta.</text>
+</svg>

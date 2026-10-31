@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 445" width="840" height="445" role="img" aria-labelledby="t d">
+  <title id="t">Stopień ochrony IP</title>
+  <desc id="d">Kod IP składa się z dwóch cyfr. Pierwsza opisuje ochronę przed ciałami stałymi i dotykiem: 0 brak, 1 ciała co najmniej 50 mm czyli dłoń, 2 ciała co najmniej 12,5 mm czyli palec, 3 co najmniej 2,5 mm czyli narzędzie, 4 co najmniej 1 mm czyli drut, 5 pyłoochronna, 6 pyłoszczelna. Druga cyfra opisuje ochronę przed wodą: 0 brak, 1 krople pionowe, 2 krople pod kątem do 15 stopni, 3 natryskiwanie, 4 bryzganie z każdej strony, 5 strumień, 6 silny strumień, 7 chwilowe zanurzenie, 8 ciągłe zanurzenie. X oznacza cechę niebadaną. Typowo pokój IP20, łazienka IPX4, na zewnątrz co najmniej IP44, strefa 0 łazienki IPX7.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="445" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Stopień ochrony IP (PN-EN 60529)</text>
+<text x="420" y="92" class="duze" text-anchor="middle" style="font-size:46px;letter-spacing:4px">IP 4 4</text>
+<line x1="400" y1="102" x2="230" y2="140" stroke="#555" stroke-width="1.5"/><path d="M230.0 140.0 L237.3 134.8 L238.9 141.6 Z" fill="#555"/>
+<line x1="450" y1="102" x2="610" y2="140" stroke="#555" stroke-width="1.5"/><path d="M610.0 140.0 L601.1 141.5 L602.7 134.7 Z" fill="#555"/>
+<rect x="40" y="150" width="370" height="230" rx="8" class="ramka"/>
+<text x="56" y="176" class="podt" text-anchor="start">1. cyfra: ciała stałe i dotyk</text>
+<text x="56" y="202" class="opis" text-anchor="start">0 — brak ochrony</text>
+<text x="56" y="226" class="opis" text-anchor="start">1 — ciała ≥ 50 mm (dłoń)</text>
+<text x="56" y="250" class="opis" text-anchor="start">2 — ciała ≥ 12,5 mm (palec)</text>
+<text x="56" y="274" class="opis" text-anchor="start">3 — ciała ≥ 2,5 mm (narzędzie)</text>
+<text x="56" y="298" class="opis" text-anchor="start">4 — ciała ≥ 1 mm (drut)</text>
+<text x="56" y="322" class="opis" text-anchor="start">5 — pyłoochronna</text>
+<text x="56" y="346" class="opis" text-anchor="start">6 — pyłoszczelna</text>
+<rect x="430" y="150" width="370" height="230" rx="8" class="ramka"/>
+<text x="446" y="176" class="podt" text-anchor="start">2. cyfra: woda</text>
+<text x="446" y="200" class="opis" text-anchor="start">0 — brak ochrony</text>
+<text x="446" y="221" class="opis" text-anchor="start">1 — krople padające pionowo</text>
+<text x="446" y="242" class="opis" text-anchor="start">2 — krople pod kątem do 15°</text>
+<text x="446" y="263" class="opis" text-anchor="start">3 — natryskiwanie (deszcz do 60°)</text>
+<text x="446" y="284" class="opis" text-anchor="start">4 — bryzganie z każdej strony</text>
+<text x="446" y="305" class="opis" text-anchor="start">5 — strumień wody</text>
+<text x="446" y="326" class="opis" text-anchor="start">6 — silny strumień</text>
+<text x="446" y="347" class="opis" text-anchor="start">7 — chwilowe zanurzenie</text>
+<text x="446" y="368" class="opis" text-anchor="start">8 — ciągłe zanurzenie</text>
+<text x="420" y="410" class="male" text-anchor="middle">X zamiast cyfry = cecha niebadana (np. IPX4). Typowo: pokój IP20, łazienka IPX4,</text>
+<text x="420" y="428" class="male" text-anchor="middle">na zewnątrz co najmniej IP44, w strefie 0 łazienki IPX7.</text>
+</svg>

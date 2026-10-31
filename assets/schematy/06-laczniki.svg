@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 550" width="840" height="550" role="img" aria-labelledby="t d">
+  <title id="t">Łączniki oświetleniowe 1, 5, 6 i 7</title>
+  <desc id="d">Cztery schematy. Łącznik 1, jednobiegunowy: przerywa fazę L idącą do jednej lampy, przewód N idzie do lampy bezpośrednio. Łącznik 5, świecznikowy: jedna faza wchodzi do łącznika i przez dwa klawisze zasila dwie grupy żarówek. Łącznik 6, schodowy: dwa przełączniki połączone dwiema żyłami korespondencyjnymi sterują jedną lampą z dwóch miejsc. Łącznik 7, krzyżowy: wstawiany między dwa łączniki schodowe, przełącza żyły korespondencyjne prosto albo na krzyż, co pozwala sterować z trzech i więcej miejsc.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="550" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Łączniki oświetleniowe — numeracja i schematy</text>
+<rect x="20" y="50" width="390" height="230" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="34" y="74" class="podt" text-anchor="start">1 — jednobiegunowy</text>
+<text x="34" y="266" class="male" text-anchor="start">jedno źródło światła, jedno miejsce</text>
+<text x="40" y="115" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<line x1="55" y1="110" x2="150" y2="110" stroke="#8b4513" stroke-width="2"/>
+<circle cx="150" cy="110" r="4" fill="#1a1a1a"/>
+<line x1="150" y1="110" x2="190" y2="88" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="195" cy="110" r="4" fill="#1a1a1a"/>
+<line x1="195" y1="110" x2="330" y2="110" stroke="#8b4513" stroke-width="2"/>
+<circle cx="330" cy="160" r="16" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="318.8" y1="148.8" x2="341.2" y2="171.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="318.8" y1="171.2" x2="341.2" y2="148.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="330" y1="110" x2="330" y2="144" stroke="#8b4513" stroke-width="2"/>
+<line x1="330" y1="176" x2="330" y2="190" stroke="#1f5fbf" stroke-width="2"/>
+<line x1="55" y1="190" x2="330" y2="190" stroke="#1f5fbf" stroke-width="2"/>
+<text x="40" y="195" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<text x="172" y="140" class="male" text-anchor="middle">łącznik</text>
+<text x="172" y="156" class="male" text-anchor="middle">w fazie L!</text>
+<rect x="430" y="50" width="390" height="230" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="444" y="74" class="podt" text-anchor="start">5 — świecznikowy</text>
+<text x="444" y="266" class="male" text-anchor="start">dwie grupy żarówek, dwa klawisze, jedno miejsce</text>
+<text x="450" y="115" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<line x1="465" y1="110" x2="540" y2="110" stroke="#8b4513" stroke-width="2"/>
+<circle cx="540" cy="110" r="4" fill="#1a1a1a"/>
+<line x1="540" y1="110" x2="540" y2="150" stroke="#8b4513" stroke-width="2"/>
+<circle cx="540" cy="110" r="4" fill="#1a1a1a"/>
+<line x1="540" y1="110" x2="580" y2="88" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="540" cy="150" r="4" fill="#1a1a1a"/>
+<line x1="540" y1="150" x2="580" y2="128" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="585" cy="110" r="4" fill="#1a1a1a"/>
+<circle cx="585" cy="150" r="4" fill="#1a1a1a"/>
+<line x1="585" y1="110" x2="690" y2="110" stroke="#8b4513" stroke-width="2"/>
+<line x1="585" y1="150" x2="770" y2="150" stroke="#8b4513" stroke-width="2"/>
+<circle cx="690" cy="170" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="680.2" y1="160.2" x2="699.8" y2="179.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="680.2" y1="179.8" x2="699.8" y2="160.2" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="770" cy="170" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="760.2" y1="160.2" x2="779.8" y2="179.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="760.2" y1="179.8" x2="779.8" y2="160.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="690" y1="110" x2="690" y2="156" stroke="#8b4513" stroke-width="2"/>
+<line x1="690" y1="184" x2="690" y2="200" stroke="#1f5fbf" stroke-width="2"/>
+<line x1="770" y1="184" x2="770" y2="200" stroke="#1f5fbf" stroke-width="2"/>
+<line x1="465" y1="200" x2="770" y2="200" stroke="#1f5fbf" stroke-width="2"/>
+<text x="450" y="205" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<rect x="20" y="300" width="390" height="230" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="34" y="324" class="podt" text-anchor="start">6 — schodowy (przełącznik)</text>
+<text x="34" y="516" class="male" text-anchor="start">jedno światło sterowane z dwóch miejsc</text>
+<text x="40" y="375" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<line x1="55" y1="370" x2="110" y2="370" stroke="#8b4513" stroke-width="2"/>
+<circle cx="110" cy="370" r="4" fill="#1a1a1a"/>
+<line x1="110" y1="370" x2="150" y2="352" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="155" cy="350" r="4" fill="#1a1a1a"/>
+<circle cx="245" cy="350" r="4" fill="#1a1a1a"/>
+<line x1="155" y1="350" x2="245" y2="350" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="155" cy="390" r="4" fill="#1a1a1a"/>
+<circle cx="245" cy="390" r="4" fill="#1a1a1a"/>
+<line x1="155" y1="390" x2="245" y2="390" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="290" cy="370" r="4" fill="#1a1a1a"/>
+<line x1="290" y1="370" x2="250" y2="352" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="200" y="412" class="male" text-anchor="middle">korespondencja</text>
+<text x="200" y="426" class="male" text-anchor="middle">(2 żyły)</text>
+<line x1="290" y1="370" x2="340" y2="370" stroke="#8b4513" stroke-width="2"/>
+<circle cx="340" cy="410" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="330.2" y1="400.2" x2="349.8" y2="419.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="330.2" y1="419.8" x2="349.8" y2="400.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="340" y1="424" x2="340" y2="450" stroke="#1f5fbf" stroke-width="2"/>
+<line x1="55" y1="450" x2="340" y2="450" stroke="#1f5fbf" stroke-width="2"/>
+<text x="40" y="455" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<rect x="430" y="300" width="390" height="230" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="444" y="324" class="podt" text-anchor="start">7 — krzyżowy</text>
+<text x="444" y="516" class="male" text-anchor="start">trzy i więcej miejsc: 6 — 7 — … — 6</text>
+<text x="450" y="375" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<line x1="465" y1="370" x2="500" y2="370" stroke="#8b4513" stroke-width="2"/>
+<circle cx="500" cy="370" r="4" fill="#1a1a1a"/>
+<line x1="500" y1="370" x2="535" y2="352" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="540" cy="350" r="4" fill="#1a1a1a"/>
+<line x1="540" y1="350" x2="590" y2="350" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="590" cy="350" r="4" fill="#1a1a1a"/>
+<circle cx="650" cy="350" r="4" fill="#1a1a1a"/>
+<line x1="650" y1="350" x2="700" y2="350" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="700" cy="350" r="4" fill="#1a1a1a"/>
+<circle cx="540" cy="390" r="4" fill="#1a1a1a"/>
+<line x1="540" y1="390" x2="590" y2="390" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="590" cy="390" r="4" fill="#1a1a1a"/>
+<circle cx="650" cy="390" r="4" fill="#1a1a1a"/>
+<line x1="650" y1="390" x2="700" y2="390" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="700" cy="390" r="4" fill="#1a1a1a"/>
+<rect x="580" y="338" width="80" height="64" rx="6" fill="none" stroke="#7f8c8d" stroke-dasharray="4 3"/>
+<line x1="590" y1="350" x2="650" y2="350" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="590" y1="390" x2="650" y2="390" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="590" y1="350" x2="650" y2="390" stroke="#bbbbbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="590" y1="390" x2="650" y2="350" stroke="#bbbbbb" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="620" y="418" class="male" text-anchor="middle">7: prosto albo na krzyż</text>
+<circle cx="745" cy="370" r="4" fill="#1a1a1a"/>
+<line x1="745" y1="370" x2="705" y2="352" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="745" y1="370" x2="780" y2="370" stroke="#8b4513" stroke-width="2"/>
+<circle cx="780" cy="410" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="770.2" y1="400.2" x2="789.8" y2="419.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="770.2" y1="419.8" x2="789.8" y2="400.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="780" y1="424" x2="780" y2="450" stroke="#1f5fbf" stroke-width="2"/>
+<line x1="465" y1="450" x2="780" y2="450" stroke="#1f5fbf" stroke-width="2"/>
+<text x="450" y="455" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" width="840" height="490" role="img" aria-labelledby="t d">
+  <title id="t">Kabel ułożony w ziemi</title>
+  <desc id="d">Przekrój wykopu: kabel niskiego napięcia na głębokości 0,7 metra, na warstwie piasku około 10 centymetrów i przysypany piaskiem około 10 centymetrów. Około 25 centymetrów nad kablem niebieska folia ostrzegawcza. Wyżej grunt rodzimy bez kamieni. Pod drogą i wjazdem oraz przy skrzyżowaniach kabel prowadzi się w rurze osłonowej.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="490" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Kabel w ziemi — przekrój wykopu (nn, typowo)</text>
+<rect x="40" y="90" width="760" height="360" fill="#c9a77c"/>
+<rect x="40" y="82" width="760" height="8" fill="#6aa84f"/>
+<rect x="250" y="90" width="220" height="330" fill="#d9bf98" stroke="#8d6e4a" stroke-dasharray="6 4"/>
+<rect x="250" y="338" width="220" height="82" fill="#f3e3b5"/>
+<rect x="250" y="420" width="220" height="0" fill="#f3e3b5"/>
+<circle cx="360" cy="379" r="14" fill="#2c3e50"/>
+<line x1="270" y1="275.625" x2="450" y2="275.625" stroke="#2e86de" stroke-width="5"/>
+<line x1="220" y1="90" x2="220" y2="378.75" stroke="#333" stroke-width="1.3"/><path d="M220.0 378.8 L216.5 370.5 L223.5 370.5 Z" fill="#333"/><path d="M220.0 90.0 L223.5 98.3 L216.5 98.3 Z" fill="#333"/>
+<text x="210" y="234.375" class="podt" text-anchor="end">0,7 m</text>
+<text x="210" y="252.375" class="male" text-anchor="end">(min. dla nn)</text>
+<line x1="374" y1="378.75" x2="520" y2="378.75" stroke="#333" stroke-width="1"/>
+<text x="528" y="383.75" class="opis" text-anchor="start">kabel (np. YKY 0,6/1 kV)</text>
+<line x1="450" y1="275.625" x2="520" y2="275.625" stroke="#333" stroke-width="1"/>
+<text x="528" y="280.625" class="opis" text-anchor="start">folia ostrzegawcza — niebieska dla nn</text>
+<text x="528" y="298.625" class="male" text-anchor="start">ok. 25 cm nad kablem</text>
+<line x1="470" y1="428.25" x2="520" y2="410.75" stroke="#333" stroke-width="1"/>
+<text x="528" y="415.75" class="opis" text-anchor="start">podsypka i zasypka z piasku, ok. 10 cm</text>
+<text x="528" y="433.75" class="male" text-anchor="start">pod i nad kablem</text>
+<text x="528" y="120" class="opis" text-anchor="start">grunt rodzimy (bez kamieni i gruzu)</text>
+<text x="420" y="475" class="male" text-anchor="middle">Pod drogą, wjazdem, przy skrzyżowaniach z innymi sieciami — w rurze osłonowej, wg projektu i N SEP-E-004.</text>
+</svg>

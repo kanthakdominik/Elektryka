@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 525" width="840" height="525" role="img" aria-labelledby="t d">
+  <title id="t">Jak czytać oznaczenia literowe przewodów</title>
+  <desc id="d">Oznaczenie YDYp 3 razy 2,5 450/750 V: Y izolacja żył z PVC, D żyła jednodrutowa, Y powłoka z PVC, p płaski, 3 żyły po 2,5 milimetra kwadratowego, napięcie znamionowe 450/750 V. Oznaczenie H07V-K 1 razy 4: H norma zharmonizowana, 07 oznacza 450/750 V, V izolacja PVC, K linka do instalacji stałych, jedna żyła 4 milimetry kwadratowe. W ramce inne litery: L linka, K kabel, A aluminium, żo z żyłą ochronną, U drut, F linka giętka, 05 300/500 V, N2XH izolacja XLPE bezhalogenowa, OMY przewód oponowy mieszkaniowy.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="525" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Jak czytać oznaczenie przewodu</text>
+<text x="40" y="64" class="podt" text-anchor="start">Polskie: YDYp 3×2,5 450/750 V</text>
+<rect x="40" y="74" width="90" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="85.0" y="112" class="podt" text-anchor="middle" style="font-size:24px">Y</text>
+<text x="85.0" y="146" class="male" text-anchor="middle">izolacja</text>
+<text x="85.0" y="162" class="male" text-anchor="middle">żył: PVC</text>
+<rect x="140" y="74" width="90" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="185.0" y="112" class="podt" text-anchor="middle" style="font-size:24px">D</text>
+<text x="185.0" y="146" class="male" text-anchor="middle">żyła</text>
+<text x="185.0" y="162" class="male" text-anchor="middle">jednodrutowa</text>
+<rect x="240" y="74" width="90" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="285.0" y="112" class="podt" text-anchor="middle" style="font-size:24px">Y</text>
+<text x="285.0" y="146" class="male" text-anchor="middle">powłoka:</text>
+<text x="285.0" y="162" class="male" text-anchor="middle">PVC</text>
+<rect x="340" y="74" width="90" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="385.0" y="112" class="podt" text-anchor="middle" style="font-size:24px">p</text>
+<text x="385.0" y="146" class="male" text-anchor="middle">płaski</text>
+<rect x="440" y="74" width="130" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="505.0" y="112" class="podt" text-anchor="middle" style="font-size:24px">3×2,5</text>
+<text x="505.0" y="146" class="male" text-anchor="middle">3 żyły</text>
+<text x="505.0" y="162" class="male" text-anchor="middle">po 2,5 mm²</text>
+<rect x="580" y="74" width="200" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="680.0" y="112" class="podt" text-anchor="middle" style="font-size:24px">450/750 V</text>
+<text x="680.0" y="146" class="male" text-anchor="middle">napięcie znamionowe</text>
+<text x="680.0" y="162" class="male" text-anchor="middle">U₀/U</text>
+<text x="40" y="214" class="podt" text-anchor="start">Europejskie: H07V-K 1×4</text>
+<rect x="40" y="224" width="90" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="85.0" y="262" class="podt" text-anchor="middle" style="font-size:24px">H</text>
+<text x="85.0" y="296" class="male" text-anchor="middle">norma</text>
+<text x="85.0" y="312" class="male" text-anchor="middle">zharmonizo-</text>
+<text x="85.0" y="328" class="male" text-anchor="middle">wana (UE)</text>
+<rect x="140" y="224" width="90" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="185.0" y="262" class="podt" text-anchor="middle" style="font-size:24px">07</text>
+<text x="185.0" y="296" class="male" text-anchor="middle">450/750 V</text>
+<rect x="240" y="224" width="90" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="285.0" y="262" class="podt" text-anchor="middle" style="font-size:24px">V</text>
+<text x="285.0" y="296" class="male" text-anchor="middle">izolacja:</text>
+<text x="285.0" y="312" class="male" text-anchor="middle">PVC</text>
+<rect x="340" y="224" width="90" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="385.0" y="262" class="podt" text-anchor="middle" style="font-size:24px">K</text>
+<text x="385.0" y="296" class="male" text-anchor="middle">linka do</text>
+<text x="385.0" y="312" class="male" text-anchor="middle">instalacji</text>
+<text x="385.0" y="328" class="male" text-anchor="middle">stałych</text>
+<rect x="440" y="224" width="130" height="50" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="505.0" y="262" class="podt" text-anchor="middle" style="font-size:24px">1×4</text>
+<text x="505.0" y="296" class="male" text-anchor="middle">1 żyła</text>
+<text x="505.0" y="312" class="male" text-anchor="middle">4 mm²</text>
+<rect x="40" y="355" width="760" height="150" rx="8" class="ramka"/>
+<text x="56" y="380" class="podt" text-anchor="start">Inne litery, które spotkasz</text>
+<text x="56" y="404" class="male" text-anchor="start">L — linka (żyła wielodrutowa), np. YLY</text>
+<text x="56" y="426" class="male" text-anchor="start">K (polskie) — kabel, np. YKY 0,6/1 kV</text>
+<text x="56" y="448" class="male" text-anchor="start">A na początku — żyły aluminiowe, np. YAKY</text>
+<text x="56" y="470" class="male" text-anchor="start">żo — z żyłą ochronną żółto-zieloną, okrągły</text>
+<text x="420" y="404" class="male" text-anchor="start">U — drut, R — linka sztywna, F — linka giętka</text>
+<text x="420" y="426" class="male" text-anchor="start">05 — 300/500 V (np. H05VV-F, przewód do odbiorników)</text>
+<text x="420" y="448" class="male" text-anchor="start">N2XH — izolacja XLPE (2X), bezhalogenowy (H)</text>
+<text x="420" y="470" class="male" text-anchor="start">OMY — przewód oponowy mieszkaniowy</text>
+</svg>

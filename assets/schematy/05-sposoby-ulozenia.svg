@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 530" width="840" height="530" role="img" aria-labelledby="t d">
+  <title id="t">Sposoby układania przewodów i ich obciążalność</title>
+  <desc id="d">Cztery sposoby ułożenia przewodu miedzianego 2,5 milimetra kwadratowego i jego obciążalność długotrwała przy 30 stopniach, dwie żyły obciążone, izolacja PVC: A1 żyły w rurce w ścianie z izolacją cieplną — 19,5 A; B1 żyły w rurce na ścianie lub w murze — 24 A; C przewód wielożyłowy w tynku lub na ścianie — 27 A; E przewód wielożyłowy w powietrzu na korytku — 30 A. Im lepiej odprowadzane ciepło, tym większy dopuszczalny prąd.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="530" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Ten sam przewód 2,5 mm² — różna obciążalność</text>
+<rect x="30" y="55" width="185" height="150" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<rect x="45" y="70" width="40" height="120" fill="url(#kresk)"/>
+<rect x="85" y="70" width="70" height="120" fill="#fef5d4" stroke="#e1c16e"/>
+<text x="120" y="186" class="male" text-anchor="middle">ocieplenie</text>
+<circle cx="120" cy="125" r="24" fill="#ffffff" stroke="#7f8c8d" stroke-width="2"/>
+<circle cx="112" cy="119" r="7" fill="#8b4513"/>
+<circle cx="128" cy="119" r="7" fill="#3498db"/>
+<circle cx="120" cy="133" r="7" fill="#27ae60"/>
+<text x="122" y="232" class="podt" text-anchor="middle" style="font-size:22px">A1</text>
+<text x="122" y="254" class="male" text-anchor="middle">żyły w rurce w ścianie</text>
+<text x="122" y="270" class="male" text-anchor="middle">z izolacją cieplną</text>
+<rect x="87" y="372" width="70" height="98" rx="4" fill="#f39c12"/>
+<text x="122" y="364.5" class="podt" text-anchor="middle">19,5 A</text>
+<rect x="230" y="55" width="185" height="150" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<rect x="245" y="70" width="60" height="120" fill="url(#kresk)"/>
+<circle cx="330" cy="125" r="24" fill="#ffffff" stroke="#7f8c8d" stroke-width="2"/>
+<circle cx="322" cy="119" r="7" fill="#8b4513"/>
+<circle cx="338" cy="119" r="7" fill="#3498db"/>
+<circle cx="330" cy="133" r="7" fill="#27ae60"/>
+<text x="322" y="232" class="podt" text-anchor="middle" style="font-size:22px">B1</text>
+<text x="322" y="254" class="male" text-anchor="middle">żyły w rurce</text>
+<text x="322" y="270" class="male" text-anchor="middle">na ścianie lub w murze</text>
+<rect x="287" y="350" width="70" height="120" rx="4" fill="#f39c12"/>
+<text x="322" y="342" class="podt" text-anchor="middle">24 A</text>
+<rect x="430" y="55" width="185" height="150" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<rect x="445" y="70" width="80" height="120" fill="url(#kresk)"/>
+<rect x="525" y="70" width="12" height="120" fill="#f4f1ea" stroke="#d0c8b8"/>
+<rect x="518" y="100" width="16" height="50" rx="5" fill="#dfe2e3" stroke="#7f8c8d" stroke-width="1.5"/>
+<circle cx="526" cy="110" r="5" fill="#c87533"/>
+<circle cx="526" cy="125" r="5" fill="#c87533"/>
+<circle cx="526" cy="140" r="5" fill="#c87533"/>
+<text x="522" y="232" class="podt" text-anchor="middle" style="font-size:22px">C</text>
+<text x="522" y="254" class="male" text-anchor="middle">przewód wielożyłowy</text>
+<text x="522" y="270" class="male" text-anchor="middle">w tynku lub na ścianie</text>
+<rect x="487" y="335" width="70" height="135" rx="4" fill="#f39c12"/>
+<text x="522" y="327" class="podt" text-anchor="middle">27 A</text>
+<rect x="630" y="55" width="185" height="150" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<line x1="655" y1="160" x2="790" y2="160" stroke="#7f8c8d" stroke-width="4"/>
+<rect x="662" y="161" width="8" height="5" fill="#ffffff"/>
+<rect x="680" y="161" width="8" height="5" fill="#ffffff"/>
+<rect x="698" y="161" width="8" height="5" fill="#ffffff"/>
+<rect x="716" y="161" width="8" height="5" fill="#ffffff"/>
+<rect x="734" y="161" width="8" height="5" fill="#ffffff"/>
+<rect x="752" y="161" width="8" height="5" fill="#ffffff"/>
+<rect x="770" y="161" width="8" height="5" fill="#ffffff"/>
+<circle cx="722" cy="138" r="20" fill="#dfe2e3" stroke="#7f8c8d" stroke-width="1.5"/>
+<circle cx="714" cy="133" r="5" fill="#c87533"/>
+<circle cx="730" cy="133" r="5" fill="#c87533"/>
+<circle cx="722" cy="146" r="5" fill="#c87533"/>
+<path d="M692 110 q 6 -10 0 -20 q -6 -10 0 -20" fill="none" stroke="#e67e22" stroke-width="1.5"/>
+<path d="M722 110 q 6 -10 0 -20 q -6 -10 0 -20" fill="none" stroke="#e67e22" stroke-width="1.5"/>
+<path d="M752 110 q 6 -10 0 -20 q -6 -10 0 -20" fill="none" stroke="#e67e22" stroke-width="1.5"/>
+<text x="722" y="232" class="podt" text-anchor="middle" style="font-size:22px">E</text>
+<text x="722" y="254" class="male" text-anchor="middle">przewód wielożyłowy</text>
+<text x="722" y="270" class="male" text-anchor="middle">w powietrzu, na korytku</text>
+<rect x="687" y="320" width="70" height="150" rx="4" fill="#f39c12"/>
+<text x="722" y="312" class="podt" text-anchor="middle">30 A</text>
+<line x1="40" y1="470" x2="800" y2="470" stroke="#555" stroke-width="1.5"/>
+<text x="420" y="495" class="male" text-anchor="middle">Obciążalność długotrwała Iz: Cu, izolacja PVC, 2 żyły obciążone, 30 °C (PN-HD 60364-5-52)</text>
+<text x="420" y="513" class="male" text-anchor="middle">Więcej ciepła odprowadzone = większy dopuszczalny prąd.</text>
+</svg>

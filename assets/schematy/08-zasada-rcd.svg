@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" width="840" height="490" role="img" aria-labelledby="t d">
+  <title id="t">Zasada działania wyłącznika różnicowoprądowego</title>
+  <desc id="d">Przewody L i N przechodzą przez rdzeń przekładnika sumującego. Uzwojenie wtórne zasila przekaźnik, który zwalnia zamek styków w L i N. Przewód ochronny PE od obudowy odbiornika omija przekładnik. Gdy instalacja jest sprawna, prąd płynący w L wraca przez N, więc strumień w rdzeniu jest zerowy. Gdy część prądu ucieka przez upływ do PE albo przez człowieka do ziemi, prądy w L i N się różnią, w rdzeniu powstaje strumień i przekaźnik wyłącza, gdy różnica osiągnie próg, na przykład 30 mA. Przycisk TEST łączy przez rezystor L za przekładnikiem z N przed nim, tworząc sztuczną różnicę.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="490" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Jak działa wyłącznik różnicowoprądowy</text>
+<text x="30" y="135" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<text x="30" y="195" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<line x1="50" y1="130" x2="120" y2="130" stroke="#8b4513" stroke-width="3"/>
+<circle cx="120" cy="130" r="4" fill="#1a1a1a"/>
+<line x1="120" y1="130" x2="155" y2="114" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="160" cy="130" r="4" fill="#1a1a1a"/>
+<line x1="160" y1="130" x2="640" y2="130" stroke="#8b4513" stroke-width="3"/>
+<line x1="50" y1="190" x2="120" y2="190" stroke="#1f5fbf" stroke-width="3"/>
+<circle cx="120" cy="190" r="4" fill="#1a1a1a"/>
+<line x1="120" y1="190" x2="155" y2="174" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="160" cy="190" r="4" fill="#1a1a1a"/>
+<line x1="160" y1="190" x2="640" y2="190" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="137" y1="122" x2="137" y2="182" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<ellipse cx="300" cy="160.0" rx="26" ry="62" fill="none" stroke="#7f8c8d" stroke-width="12"/>
+<text x="300" y="70" class="male" text-anchor="middle">przekładnik sumujący</text>
+<line x1="300" y1="222" x2="300" y2="270" stroke="#7f8c8d" stroke-width="2"/>
+<rect x="240" y="270" width="120" height="44" rx="6" fill="#fef5e7" stroke="#e67e22" stroke-width="1.8"/>
+<text x="300" y="297" class="opis" text-anchor="middle">przekaźnik</text>
+<line x1="240" y1="292" x2="137" y2="292" stroke="#e67e22" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="137" y1="292" x2="137" y2="194" stroke="#e67e22" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="145" y="335" class="male" text-anchor="start">wyzwala zamek</text>
+<line x1="400" y1="130" x2="400" y2="230" stroke="#555" stroke-width="1.5"/>
+<rect x="392" y="230" width="16" height="30" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+<line x1="400" y1="260" x2="400" y2="345" stroke="#555" stroke-width="1.5"/>
+<line x1="400" y1="345" x2="210" y2="345" stroke="#555" stroke-width="1.5"/>
+<line x1="210" y1="345" x2="210" y2="190" stroke="#555" stroke-width="1.5"/>
+<text x="416" y="252" class="male" text-anchor="start">TEST: rezystor omija</text>
+<text x="416" y="268" class="male" text-anchor="start">przekładnik</text>
+<rect x="640" y="105" width="130" height="110" rx="8" fill="#d6dbdf" stroke="#566573" stroke-width="2"/>
+<text x="705" y="160" class="opis" text-anchor="middle">odbiornik</text>
+<text x="705" y="178" class="male" text-anchor="middle">(obudowa</text>
+<text x="705" y="193" class="male" text-anchor="middle">metalowa)</text>
+<line x1="705" y1="215" x2="705" y2="330" stroke="#27ae60" stroke-width="3"/>
+<text x="715" y="300" class="podt" text-anchor="start" style="fill:#1e8449">PE</text>
+<line x1="705" y1="330" x2="470" y2="330" stroke="#27ae60" stroke-width="3"/>
+<text x="560" y="350" class="male" text-anchor="middle">PE omija przekładnik</text>
+<path d="M640 135 l-18 14 l10 4 l-16 14" fill="none" stroke="#c0392b" stroke-width="3"/>
+<text x="600" y="162" class="male" text-anchor="end" style="fill:#c0392b">upływ</text>
+<rect x="40" y="380" width="760" height="90" rx="8" class="ramka"/>
+<text x="56" y="408" class="opis" text-anchor="start">Sprawnie: prąd w L wraca przez N → IL = IN → strumień w rdzeniu = 0 → nic się nie dzieje.</text>
+<text x="56" y="434" class="opis" text-anchor="start">Upływ (do PE albo przez człowieka do ziemi): IL − IN = IΔ → w rdzeniu powstaje strumień →</text>
+<text x="56" y="456" class="opis" text-anchor="start">przekaźnik zwalnia zamek, gdy IΔ osiągnie próg (≤ IΔn, np. 30 mA).</text>
+</svg>

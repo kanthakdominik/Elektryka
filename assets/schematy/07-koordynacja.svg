@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 445" width="840" height="445" role="img" aria-labelledby="t d">
+  <title id="t">Koordynacja zabezpieczenia z przewodem</title>
+  <desc id="d">Oś prądu od 0 do 32 amperów. Zaznaczone: prąd obliczeniowy IB 13 A, prąd znamionowy zabezpieczenia In 16 A (wyłącznik B16), obciążalność przewodu Iz 19,5 A (2,5 milimetra kwadratowego w ułożeniu A1), prąd zadziałania I2 równy 1,45 razy In czyli 23,2 A oraz granica 1,45 razy Iz czyli 28,3 A. Warunki: IB nie większy niż In nie większy niż Iz oraz I2 nie większy niż 1,45 Iz. Dla wyłączników I2 wynosi 1,45 In, więc wystarczy In nie większy niż Iz; dla wkładek gG I2 wynosi 1,6 In, więc In nie większy niż 0,9 Iz.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="445" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Koordynacja zabezpieczenia z przewodem</text>
+<line x1="60" y1="150" x2="764" y2="150" stroke="#555" stroke-width="2"/>
+<line x1="60" y1="145" x2="60" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="60" y="172" class="male" text-anchor="middle">0 A</text>
+<line x1="148" y1="145" x2="148" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="148" y="172" class="male" text-anchor="middle">4 A</text>
+<line x1="236" y1="145" x2="236" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="236" y="172" class="male" text-anchor="middle">8 A</text>
+<line x1="324" y1="145" x2="324" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="324" y="172" class="male" text-anchor="middle">12 A</text>
+<line x1="412" y1="145" x2="412" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="412" y="172" class="male" text-anchor="middle">16 A</text>
+<line x1="500" y1="145" x2="500" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="500" y="172" class="male" text-anchor="middle">20 A</text>
+<line x1="588" y1="145" x2="588" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="588" y="172" class="male" text-anchor="middle">24 A</text>
+<line x1="676" y1="145" x2="676" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="676" y="172" class="male" text-anchor="middle">28 A</text>
+<line x1="764" y1="145" x2="764" y2="155" stroke="#555" stroke-width="1.5"/>
+<text x="764" y="172" class="male" text-anchor="middle">32 A</text>
+<circle cx="346" cy="150" r="7" fill="#1f5fbf"/>
+<line x1="346" y1="150" x2="346" y2="112" stroke="#1f5fbf" stroke-width="1.5"/>
+<text x="346" y="100" class="podt" text-anchor="middle" style="fill:#1f5fbf">IB</text>
+<text x="346" y="66" class="male" text-anchor="middle">prąd obliczeniowy</text>
+<text x="346" y="82" class="male" text-anchor="middle">(pobór odbiorników)</text>
+<circle cx="412" cy="150" r="7" fill="#1e8449"/>
+<line x1="412" y1="180" x2="412" y2="192" stroke="#1e8449" stroke-width="1.5"/>
+<text x="412" y="210" class="podt" text-anchor="middle" style="fill:#1e8449">In</text>
+<text x="412" y="228" class="male" text-anchor="middle">prąd znamionowy</text>
+<text x="412" y="244" class="male" text-anchor="middle">zabezpieczenia (B16)</text>
+<circle cx="489" cy="150" r="7" fill="#e67e22"/>
+<line x1="489.0" y1="150" x2="489.0" y2="112" stroke="#e67e22" stroke-width="1.5"/>
+<text x="489.0" y="100" class="podt" text-anchor="middle" style="fill:#e67e22">Iz</text>
+<text x="489.0" y="66" class="male" text-anchor="middle">obciążalność</text>
+<text x="489.0" y="82" class="male" text-anchor="middle">2,5 mm², A1</text>
+<circle cx="570" cy="150" r="7" fill="#8e44ad"/>
+<line x1="570.4" y1="180" x2="570.4" y2="192" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="570.4" y="210" class="podt" text-anchor="middle" style="fill:#8e44ad">I2</text>
+<text x="570.4" y="228" class="male" text-anchor="middle">prąd zadziałania</text>
+<text x="570.4" y="244" class="male" text-anchor="middle">= 1,45·In</text>
+<circle cx="683" cy="150" r="7" fill="#c0392b"/>
+<line x1="682.6" y1="150" x2="682.6" y2="112" stroke="#c0392b" stroke-width="1.5"/>
+<text x="682.6" y="100" class="podt" text-anchor="middle" style="fill:#c0392b">1,45·Iz</text>
+<text x="682.6" y="66" class="male" text-anchor="middle">granica dla I2</text>
+<text x="682.6" y="82" class="male" text-anchor="middle"></text>
+<rect x="60" y="285" width="720" height="110" rx="8" class="ramka"/>
+<text x="290" y="322" class="duze" text-anchor="middle" style="font-size:28px">IB ≤ In ≤ Iz</text>
+<text x="560" y="322" class="duze" text-anchor="middle" style="font-size:28px">I2 ≤ 1,45·Iz</text>
+<text x="420" y="352" class="opis" text-anchor="middle">Dla wyłączników nadprądowych I2 = 1,45·In, więc wystarczy In ≤ Iz.</text>
+<text x="420" y="375" class="opis" text-anchor="middle">Dla wkładek gG (In ≥ 16 A) I2 = 1,6·In, więc In ≤ 0,9·Iz.</text>
+<text x="420" y="425" class="opis" text-anchor="middle">Przykład: 13 A ≤ 16 A ≤ 19,5 A oraz 23,2 A ≤ 28,3 A — warunki spełnione.</text>
+</svg>

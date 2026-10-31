@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="840" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Podział obwodów między wyłączniki różnicowoprądowe</title>
+  <desc id="d">Schemat rozdzielnicy mieszkania: za rozłącznikiem głównym dwa wyłączniki różnicowoprądowe 40 A 30 mA typu A i dwa wyłączniki RCBO B16 30 mA typu A. Pod RCD 1: oświetlenie pokoi B10 i gniazda w dwóch pokojach B16. Pod RCD 2: oświetlenie kuchni, łazienki i przedpokoju B10 oraz gniazda w kuchni i łazience B16. Pralka i lodówka na osobnych RCBO. Zasady: oświetlenie i gniazda jednego pomieszczenia na różnych różnicówkach, lodówka na osobnym RCBO, suma prądów upływowych za jedną różnicówką do około 0,3 prądu znamionowego różnicowego, jeden RCD na całe mieszkanie to najgorszy wariant.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="460" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Przykładowy podział obwodów mieszkania między różnicówki</text>
+<rect x="335.0" y="55" width="170" height="36" rx="6" fill="#ffffff" stroke="#555" stroke-width="1.8"/>
+<text x="420" y="78.0" class="opis" text-anchor="middle">rozłącznik główny</text>
+<line x1="420" y1="91" x2="420" y2="115" stroke="#555" stroke-width="2"/>
+<line x1="110" y1="115" x2="740" y2="115" stroke="#555" stroke-width="2"/>
+<line x1="110" y1="115" x2="110" y2="140" stroke="#555" stroke-width="2"/>
+<rect x="35.0" y="140" width="150" height="54" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.8"/>
+<text x="110" y="162" class="podt" text-anchor="middle">RCD 1</text>
+<text x="110" y="182" class="male" text-anchor="middle">40 A / 30 mA, A</text>
+<line x1="110" y1="194" x2="110" y2="215" stroke="#555" stroke-width="2"/>
+<line x1="50" y1="215" x2="170" y2="215" stroke="#555" stroke-width="2"/>
+<text x="50" y="230" class="male" text-anchor="start">B10 oświetl. pokoje</text>
+<text x="50" y="250" class="male" text-anchor="start">B16 gniazda pokój 1</text>
+<text x="50" y="270" class="male" text-anchor="start">B16 gniazda pokój 2</text>
+<line x1="370" y1="115" x2="370" y2="140" stroke="#555" stroke-width="2"/>
+<rect x="295.0" y="140" width="150" height="54" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.8"/>
+<text x="370" y="162" class="podt" text-anchor="middle">RCD 2</text>
+<text x="370" y="182" class="male" text-anchor="middle">40 A / 30 mA, A</text>
+<line x1="370" y1="194" x2="370" y2="215" stroke="#555" stroke-width="2"/>
+<line x1="310" y1="215" x2="430" y2="215" stroke="#555" stroke-width="2"/>
+<text x="310" y="230" class="male" text-anchor="start">B10 oświetl. kuchnia,</text>
+<text x="310" y="250" class="male" text-anchor="start">łazienka, przedpokój</text>
+<text x="310" y="270" class="male" text-anchor="start">B16 gniazda kuchnia</text>
+<text x="310" y="290" class="male" text-anchor="start">B16 gniazda łazienka</text>
+<line x1="610" y1="115" x2="610" y2="140" stroke="#555" stroke-width="2"/>
+<rect x="555.0" y="140" width="110" height="54" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.8"/>
+<text x="610" y="162" class="podt" text-anchor="middle">RCBO</text>
+<text x="610" y="182" class="male" text-anchor="middle">B16 / 30 mA, A</text>
+<line x1="610" y1="194" x2="610" y2="215" stroke="#555" stroke-width="2"/>
+<text x="610" y="230" class="male" text-anchor="middle">pralka</text>
+<line x1="740" y1="115" x2="740" y2="140" stroke="#555" stroke-width="2"/>
+<rect x="685.0" y="140" width="110" height="54" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="1.8"/>
+<text x="740" y="162" class="podt" text-anchor="middle">RCBO</text>
+<text x="740" y="182" class="male" text-anchor="middle">B16 / 30 mA, A</text>
+<line x1="740" y1="194" x2="740" y2="215" stroke="#555" stroke-width="2"/>
+<text x="740" y="230" class="male" text-anchor="middle">lodówka</text>
+<rect x="40" y="335" width="760" height="110" rx="8" class="ramka"/>
+<text x="56" y="360" class="male" text-anchor="start">• Oświetlenie i gniazda jednego pomieszczenia — na różnych RCD: po zadziałaniu jednego nie jesteś po ciemku.</text>
+<text x="56" y="382" class="male" text-anchor="start">• Urządzenia, których wyłączenie boli (lodówka, zamrażarka) — najlepiej na osobnym RCBO.</text>
+<text x="56" y="404" class="male" text-anchor="start">• Suma prądów upływowych za jedną różnicówką ≤ ok. 0,3·IΔn (dla 30 mA — ok. 9 mA).</text>
+<text x="56" y="426" class="male" text-anchor="start">• Jeden RCD na całe mieszkanie to najgorszy wariant: każda usterka gasi wszystko.</text>
+</svg>

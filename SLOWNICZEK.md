@@ -52,5 +52,21 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Napięcie krokowe | Napięcie między stopami w pobliżu miejsca wpływu prądu do ziemi | napięcie krokowe, $U_S$ | step voltage | 04 |
 | Napięcie dopuszczalne długotrwale | 50 V AC / 120 V DC w warunkach normalnych | $U_L$ | conventional touch voltage limit | 04 |
 | Łuk elektryczny | Prąd przez zjonizowane powietrze, plazma tysięcy °C | łuk, zwarcie łukowe | arc flash | 04 |
+| Żyła | Metal w przewodzie, którym płynie prąd | żyła przewodząca (drut, linka) | conductor (solid, stranded) | 05 |
+| Przewód a kabel | Przewód — do budynków; kabel — mocniejszy, także do ziemi | przewód / kabel | wire / cable | 05 |
+| Sposób ułożenia | Litera opisująca, jak przewód oddaje ciepło (A1, B1, C, E) | sposób odniesienia | reference installation method | 05 |
+| Bezhalogenowy | Przewód, który w pożarze nie wydziela żrącego dymu | HF, LSZH | halogen-free, low smoke zero halogen | 05 |
+| Puszka rozgałęźna | Puszka do łączenia przewodów na trasie | puszka odgałęźna | junction box | 06 |
+| Złączka | Element do łączenia żył zamiast skręcania | osprzęt połączeniowy | terminal block, splicing connector | 06 |
+| Łącznik schodowy | Przełącznik do sterowania światłem z dwóch miejsc | łącznik „6” | two-way switch | 06 |
+| Łącznik krzyżowy | Łącznik do trzeciego i kolejnego miejsca sterowania | łącznik „7” | intermediate switch | 06 |
+| Wkładka gG | Bezpiecznik do ochrony przewodów przed przeciążeniem i zwarciem | wkładka topikowa pełnozakresowa | gG fuse link | 07 |
+| Zdolność zwarciowa | Największy prąd zwarcia, który aparat bezpiecznie przerwie | znamionowa zdolność zwarciowa, I_cn | rated short-circuit capacity | 07 |
+| Prąd obliczeniowy | Ile prądu naprawdę pobiorą odbiorniki obwodu | prąd obliczeniowy, I_B | design current | 07 |
+| Prąd zadziałania | Prąd, przy którym zabezpieczenie na pewno zadziała w czasie umownym | prąd umowny zadziałania, I_2 | conventional operating current | 07 |
+| Prąd różnicowy | Prąd „uciekający” poza L i N | prąd różnicowy, I_Δ; znamionowy I_Δn | residual current | 08 |
+| Typ A (RCD) | Różnicówka wykrywająca też prąd pulsujący z elektroniki | RCD typu A (AC, A, F, B) | type A RCD | 08 |
+| RCBO | Różnicówka i „eska” w jednym aparacie | wyłącznik różnicowoprądowy z członem nadprądowym | RCBO | 08 |
+| Prąd upływowy | Prąd płynący do PE w sprawnym urządzeniu (filtry, izolacja) | prąd przewodu ochronnego | leakage / protective conductor current | 08 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->
