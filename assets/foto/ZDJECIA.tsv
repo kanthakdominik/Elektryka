@@ -3,18 +3,14 @@
 # Lokalnie: python3 tools/fetch_photos.py (albo pojedynczo: python3 tools/commons.py "File:…" nazwa.jpg).
 # Moduł 00
 00-wskaznik-dwubiegunowy.jpg	File:Duspol combi.jpg
-00-wskaznik-dwubiegunowy-solenoidowy.jpg	File:Wigginton voltage tester.jpg
 00-neonowka-swieci.jpg	File:Buscapolo en funcionamiento con el polo vivo.JPG
-00-neonowka.jpg	File:Neon Test Lamp.jpg
 00-wylacznik-glowny-zablokowany.jpg	File:Glavno stikalo, zavarovano pred neželenim vklopom.JPG
-00-zawieszka-blokujaca.svg	File:Lockout-tagout hasp.svg
 00-wkretaki-izolowane.jpg	File:Swisstools Screwdrivers ESD VDE.jpg
-00-wkretak-1000v.jpg	File:Lux 1000V PP.jpg
+00-szczypce-1000v.jpg	File:Lux 1000V PP.jpg
 00-gniazdo-podlaczenie.jpg	File:Schuko socket wiring.JPG
-00-zlaczki-al-cu.jpg	File:Transistive terminals for AL-CU junction.JPG
+21-zlaczki-al-cu.jpg	File:Transistive terminals for AL-CU junction.JPG
 00-porzucona-instalacja.jpg	File:Exposed and abandoned electrical wiring in the old garage.jpg
 00-przedluzacz-skorodowany.jpg	File:Corroded Soviet extension cord.jpg
-00-przedluzacz-domowej-roboty.jpg	File:DIY extension cord.jpg
 00-licznik-otwarty.jpg	File:Drehstromzaehler offen.jpg
 # Moduł 01
 01-multimetr.jpg	File:Digital Multimeter (To measure Voltage, Current and Resistance).jpg
@@ -22,14 +18,11 @@
 01-czajnik-wnetrze.jpg	File:Waterboiler-internal.jpg
 01-licznik-indukcyjny.jpg	File:Mechanical electricity meter 1965 (1).jpg
 01-licznik-elektroniczny.jpg	File:Intelligenter zaehler- Smart meter.jpg
-01-lancuch-swietlny.jpg	File:Lichterkette (Haus vom Nikolaus).JPG
-01-listwa-zasilajaca.jpg	File:Power strip for Euro plug and schuko.jpg
 01-przedluzacz-z-listwa.jpg	File:Awesome extension cord with power strip.jpg
 01-beben-przedluzacza.jpg	File:Brennenstuhl-Kabeltrommel.jpg
 01-drut-miedziany.jpg	File:Copper wire, 1 mm thick, 5.5 cm long.jpg
-01-rezystancja-kabla.jpg	File:Copper cable resistance.jpg
-01-wylacznik-nadpradowy-zalaczony.jpg	File:Leitungsschutzschalter-an.jpg
-01-wylacznik-nadpradowy-wylaczony.jpg	File:Leitungsschutzschalter-aus.jpg
+01-wylacznik-nadpradowy-wnetrze.jpg	File:Leitungsschutzschalter-an.jpg
+07-wylacznik-nadpradowy-wnetrze-wylaczony.jpg	File:Leitungsschutzschalter-aus.jpg
 01-komora-gaszeniowa.jpg	File:Deionkammer Leitungsschutzschalter.jpg
 01-wylacznik-b16-3p.jpg	File:GE 3-pole circuit breaker B16.JPG
 01-przewody-kolorowe.jpg	File:Bunte-kabel.jpg

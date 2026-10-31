@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 300" width="440" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Tablica ostrzegawcza „Nie załączać — pracują ludzie”</title>
+  <desc id="d">Biała tablica z czerwoną ramką i znakiem błyskawicy, napis „Nie załączać! Pracują ludzie” oraz pola na nazwisko, telefon i datę osoby, która wyłączyła obwód.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; }
+    .glowny { font-size: 34px; font-weight: bold; fill: #c0392b; text-anchor: middle; }
+    .drugi { font-size: 24px; font-weight: bold; fill: #1a1a1a; text-anchor: middle; }
+    .pole { font-size: 15px; fill: #333333; }
+  </style>
+  <rect width="440" height="300" fill="#ffffff"/>
+  <rect x="10" y="10" width="420" height="280" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="10"/>
+  <!-- trójkąt z błyskawicą -->
+  <path d="M220 30 L258 96 L182 96 Z" fill="#f4d03f" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M224 46 L208 74 L220 74 L212 92 L234 64 L222 64 L230 46 Z" fill="#1a1a1a"/>
+  <text x="220" y="146" class="glowny">NIE ZAŁĄCZAĆ!</text>
+  <text x="220" y="182" class="drugi">PRACUJĄ LUDZIE</text>
+  <text x="40" y="222" class="pole">Wyłączył: ...........................................</text>
+  <text x="40" y="248" class="pole">Telefon: ..............................................</text>
+  <text x="40" y="274" class="pole">Data i godzina: ...................................</text>
+</svg>

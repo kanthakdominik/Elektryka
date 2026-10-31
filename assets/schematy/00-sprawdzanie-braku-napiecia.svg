@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" width="820" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Sprawdzanie braku napięcia w trzech krokach</title>
+  <desc id="d">Krok 1: sprawdź wskaźnik dwubiegunowy na gniazdku, o którym wiesz, że jest pod napięciem. Krok 2: w miejscu pracy zmierz między L i N, L i PE oraz N i PE — wszędzie ma być brak napięcia. Krok 3: ponownie sprawdź wskaźnik na znanym źródle; dopiero wtedy wynik z kroku 2 jest wiarygodny.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .krok { font-size: 15.5px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .etyk { font-size: 14px; font-weight: bold; }
+    .panel { fill: #f6f7f9; stroke: #b8bec8; stroke-width: 1.5; }
+  </style>
+  <rect width="820" height="420" fill="#ffffff"/>
+  <text x="410" y="32" class="tytul" text-anchor="middle">Sprawdzanie braku napięcia: sprawdź — zmierz — sprawdź</text>
+
+  <!-- panel 1 -->
+  <rect x="15" y="50" width="250" height="355" rx="10" class="panel"/>
+  <text x="140" y="80" class="krok" text-anchor="middle">1. Sprawdź wskaźnik</text>
+  <!-- gniazdo pod napięciem -->
+  <text x="140" y="104" class="opis" text-anchor="middle">na gniazdku, które na pewno</text>
+  <text x="140" y="121" class="opis" text-anchor="middle">jest pod napięciem</text>
+  <rect x="70" y="135" width="140" height="130" rx="16" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <circle cx="140" cy="200" r="46" fill="#eceff3" stroke="#555" stroke-width="2"/>
+  <circle cx="118" cy="203" r="7" fill="#333"/><circle cx="162" cy="203" r="7" fill="#333"/>
+  <rect x="135" y="155" width="10" height="20" rx="3" fill="#2e8b57"/>
+  <!-- sondy -->
+  <line x1="118" y1="203" x2="96" y2="320" stroke="#c0392b" stroke-width="4"/>
+  <line x1="162" y1="203" x2="184" y2="320" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="80" y="318" width="120" height="44" rx="8" fill="#f4d03f" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="140" y="345" class="etyk" text-anchor="middle">230 V ✓</text>
+  <text x="140" y="390" class="opis" text-anchor="middle">wskaźnik działa</text>
+
+  <!-- panel 2 -->
+  <rect x="285" y="50" width="250" height="355" rx="10" class="panel"/>
+  <text x="410" y="80" class="krok" text-anchor="middle">2. Zmierz w miejscu pracy</text>
+  <!-- trzy przewody -->
+  <line x1="330" y1="110" x2="330" y2="230" stroke="#8b4513" stroke-width="7"/>
+  <line x1="410" y1="110" x2="410" y2="230" stroke="#1f5fbf" stroke-width="7"/>
+  <line x1="490" y1="110" x2="490" y2="230" stroke="#2e8b57" stroke-width="7"/>
+  <line x1="490" y1="110" x2="490" y2="230" stroke="#f4d03f" stroke-width="7" stroke-dasharray="10 10"/>
+  <text x="330" y="250" class="etyk" text-anchor="middle">L</text>
+  <text x="410" y="250" class="etyk" text-anchor="middle">N</text>
+  <text x="490" y="250" class="etyk" text-anchor="middle">PE</text>
+  <text x="410" y="282" class="opis" text-anchor="middle">L–N:  0 V</text>
+  <text x="410" y="304" class="opis" text-anchor="middle">L–PE: 0 V</text>
+  <text x="410" y="326" class="opis" text-anchor="middle">N–PE: 0 V</text>
+  <text x="410" y="358" class="opis" text-anchor="middle">trójfazowo także L1–L2,</text>
+  <text x="410" y="376" class="opis" text-anchor="middle">L2–L3, L1–L3 i każda L–N, L–PE</text>
+  <text x="410" y="394" class="opis" text-anchor="middle">(łącznie 10 par)</text>
+
+  <!-- panel 3 -->
+  <rect x="555" y="50" width="250" height="355" rx="10" class="panel"/>
+  <text x="680" y="80" class="krok" text-anchor="middle">3. Sprawdź wskaźnik znowu</text>
+  <text x="680" y="104" class="opis" text-anchor="middle">na tym samym znanym</text>
+  <text x="680" y="121" class="opis" text-anchor="middle">źródle napięcia</text>
+  <rect x="610" y="135" width="140" height="130" rx="16" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <circle cx="680" cy="200" r="46" fill="#eceff3" stroke="#555" stroke-width="2"/>
+  <circle cx="658" cy="203" r="7" fill="#333"/><circle cx="702" cy="203" r="7" fill="#333"/>
+  <rect x="675" y="155" width="10" height="20" rx="3" fill="#2e8b57"/>
+  <line x1="658" y1="203" x2="636" y2="320" stroke="#c0392b" stroke-width="4"/>
+  <line x1="702" y1="203" x2="724" y2="320" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="620" y="318" width="120" height="44" rx="8" fill="#f4d03f" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="680" y="345" class="etyk" text-anchor="middle">230 V ✓</text>
+  <text x="680" y="382" class="opis" text-anchor="middle">nadal działa — więc „0 V”</text>
+  <text x="680" y="399" class="opis" text-anchor="middle">z kroku 2 to prawda</text>
+
+  <g fill="#7a8494"><path d="M268 220 L282 228 L268 236 Z"/><path d="M538 220 L552 228 L538 236 Z"/></g>
+</svg>

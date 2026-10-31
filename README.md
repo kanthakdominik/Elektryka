@@ -64,8 +64,8 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 
 | # | Moduł | Oznaczenia | Tematów | Status |
 |---|-------|------------|---------|--------|
-| 00 | [Zanim dotkniesz czegokolwiek](modules/00-bezpieczenstwo-najpierw/README.md) | 🟢🏠📋 | 4 | 🔲 szkielet |
-| 01 | [Prąd, napięcie, opór, moc i energia](modules/01-prad-napiecie-opor/README.md) | 🟢 | 7 | 🔲 szkielet |
+| 00 | [Zanim dotkniesz czegokolwiek](modules/00-bezpieczenstwo-najpierw/README.md) | 🟢🏠📋 | 4 | ✅ pełny |
+| 01 | [Prąd, napięcie, opór, moc i energia](modules/01-prad-napiecie-opor/README.md) | 🟢 | 7 | ✅ pełny |
 | 02 | [Prąd przemienny i sieć 230/400 V](modules/02-prad-przemienny-230-400/README.md) | 🟢📋 | 5 | 🔲 szkielet |
 | 03 | [Elektromagnetyzm w praktyce](modules/03-elektromagnetyzm-w-praktyce/README.md) | 🟢 | 4 | 🔲 szkielet |
 | 04 | [Prąd a człowiek](modules/04-prad-a-czlowiek/README.md) | 🟢📋 | 5 | 🔲 szkielet |

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Przeciążenie a zwarcie</title>
+  <desc id="d">Po lewej przeciążenie: do jednego obwodu z wyłącznikiem B16 podłączono czajnik, grzejnik i mikrofalówkę. Płynie około 22,6 ampera, czyli o 40 procent za dużo. Przewód grzeje się powoli, a wyłącznik zadziała członem termicznym po czasie od kilku minut do ponad godziny. Po prawej zwarcie: przewód L zetknął się z N z pominięciem odbiornika. Prąd jest ograniczony tylko oporem przewodów i sieci i sięga setek amperów. Wyłącznik zadziała w ułamku sekundy członem elektromagnetycznym.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 17px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #333333; }
+    .prad { font-size: 15px; font-weight: bold; fill: #c0392b; }
+  </style>
+  <rect width="860" height="420" fill="#ffffff"/>
+  <text x="430" y="32" class="tytul" text-anchor="middle">Dwie różne awarie, dwa różne człony wyłącznika</text>
+
+  <!-- przeciążenie -->
+  <rect x="15" y="50" width="405" height="355" rx="10" fill="#fef9e7" stroke="#d4ac0d" stroke-width="1.5"/>
+  <text x="217" y="78" class="podt" text-anchor="middle">PRZECIĄŻENIE</text>
+  <rect x="35" y="100" width="44" height="70" rx="5" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <text x="57" y="140" class="male" text-anchor="middle">B16</text>
+  <line x1="79" y1="115" x2="395" y2="115" stroke="#8b4513" stroke-width="4"/>
+  <line x1="79" y1="225" x2="395" y2="225" stroke="#1f5fbf" stroke-width="4"/>
+  <g stroke="#1a1a1a" stroke-width="2.5">
+    <line x1="160" y1="115" x2="160" y2="145"/><line x1="160" y1="195" x2="160" y2="225"/>
+    <line x1="260" y1="115" x2="260" y2="145"/><line x1="260" y1="195" x2="260" y2="225"/>
+    <line x1="360" y1="115" x2="360" y2="145"/><line x1="360" y1="195" x2="360" y2="225"/>
+  </g>
+  <rect x="122" y="145" width="76" height="50" rx="6" fill="#fdebd0" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="222" y="145" width="76" height="50" rx="6" fill="#fdebd0" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="322" y="145" width="76" height="50" rx="6" fill="#fdebd0" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="160" y="166" class="male" text-anchor="middle">czajnik</text><text x="160" y="182" class="male" text-anchor="middle">2000 W</text>
+  <text x="260" y="166" class="male" text-anchor="middle">grzejnik</text><text x="260" y="182" class="male" text-anchor="middle">2000 W</text>
+  <text x="360" y="166" class="male" text-anchor="middle">mikrofala</text><text x="360" y="182" class="male" text-anchor="middle">1200 W</text>
+  <text x="115" y="107" class="prad">I ≈ 22,6 A</text>
+  <text x="35" y="262" class="opis">• prąd za duży o ok. 40 %, ale „normalną drogą”</text>
+  <text x="35" y="284" class="opis">• przewód nagrzewa się powoli</text>
+  <text x="35" y="306" class="opis">• zadziała człon termiczny (bimetal)</text>
+  <text x="35" y="328" class="opis">• czas: od kilku minut do ponad godziny</text>
+  <text x="35" y="358" class="opis" font-weight="bold">Przyczyna: za dużo odbiorników</text>
+  <text x="35" y="378" class="opis" font-weight="bold">w jednym obwodzie.</text>
+
+  <!-- zwarcie -->
+  <rect x="440" y="50" width="405" height="355" rx="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="642" y="78" class="podt" text-anchor="middle">ZWARCIE</text>
+  <rect x="460" y="100" width="44" height="70" rx="5" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <text x="482" y="140" class="male" text-anchor="middle">B16</text>
+  <line x1="504" y1="115" x2="820" y2="115" stroke="#8b4513" stroke-width="4"/>
+  <line x1="504" y1="225" x2="820" y2="225" stroke="#1f5fbf" stroke-width="4"/>
+  <line x1="780" y1="115" x2="780" y2="145" stroke="#1a1a1a" stroke-width="2.5"/><line x1="780" y1="195" x2="780" y2="225" stroke="#1a1a1a" stroke-width="2.5"/>
+  <rect x="742" y="145" width="76" height="50" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="780" y="174" class="male" text-anchor="middle">odbiornik</text>
+  <!-- miejsce zwarcia -->
+  <path d="M640 115 L628 150 L648 160 L632 225" fill="none" stroke="#c0392b" stroke-width="4"/>
+  <circle cx="638" cy="160" r="22" fill="#f5b041" fill-opacity="0.55"/>
+  <path d="M626 140 L634 154 L624 156 L640 178" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="664" y="166" class="male">L dotyka N</text>
+  <text x="540" y="107" class="prad">I ≈ setki A</text>
+  <text x="460" y="262" class="opis">• prąd omija odbiornik — ogranicza go tylko</text>
+  <text x="460" y="280" class="opis">   opór przewodów, sieci i transformatora</text>
+  <text x="460" y="302" class="opis">• łuk, stopiony metal, ryzyko pożaru</text>
+  <text x="460" y="324" class="opis">• zadziała człon elektromagnetyczny</text>
+  <text x="460" y="346" class="opis">• czas: ułamek sekundy</text>
+  <text x="460" y="372" class="opis" font-weight="bold">Przyczyna: uszkodzona izolacja,</text>
+  <text x="460" y="392" class="opis" font-weight="bold">przewiercony przewód, woda, błąd montażu.</text>
+</svg>

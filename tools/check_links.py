@@ -86,6 +86,7 @@ def check_internal(src: Path, target: str):
 
 
 def check_external(url: str):
+    url = urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~")
     for method in ("HEAD", "GET"):
         req = urllib.request.Request(url, method=method, headers={"User-Agent": UA})
         try:

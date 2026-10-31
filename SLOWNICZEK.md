@@ -26,5 +26,16 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Charakterystyka | Jak szybko wyłącznik reaguje na duży prąd (B, C, D) | charakterystyka czasowo-prądowa | tripping curve | 07 |
 | Selektywność | Wyłącza się tylko zabezpieczenie najbliżej usterki | selektywność | selectivity / discrimination | 07 |
 | Izolacja | Materiał, który nie przepuszcza prądu | izolacja podstawowa / podwójna / wzmocniona | insulation | 12 |
+| Potencjał | „Ciśnienie” elektryczne w punkcie względem punktu odniesienia | potencjał elektryczny, φ | electric potential | 01 |
+| Rezystywność | Opór materiału: przewód 1 m o przekroju 1 mm² | rezystywność, ρ | resistivity | 01 |
+| Spadek napięcia | Napięcie „zgubione” na przewodach | spadek napięcia, ΔU | voltage drop | 01 |
+| Kilowatogodzina | Energia pobrana przez 1 kW w ciągu godziny — jednostka na rachunku | kWh (3,6 MJ) | kilowatt-hour | 01 |
+| Prąd zwarciowy | Prąd płynący przy zwarciu, ograniczony tylko impedancją pętli | prąd zwarciowy, $I_k$ | short-circuit current | 01, 07 |
+| Komora gaszeniowa | Płytki w wyłączniku, które dzielą i gaszą łuk | komora gaszeniowa | arc chute | 01, 07 |
+| Neonówka | Wkrętak z lampką — obwód zamyka ciało człowieka | wskaźnik jednobiegunowy | single-pole voltage tester | 00 |
+| Wskaźnik dwubiegunowy | Przyrząd z dwiema sondami do sprawdzania braku napięcia | dwubiegunowy wskaźnik napięcia (PN-EN 61243-3) | two-pole voltage detector | 00 |
+| Napięcie fantomowe | „Duch” napięcia na wyłączonym przewodzie obok przewodu pod napięciem | napięcie indukowane | ghost (phantom) voltage | 00 |
+| Pięć zasad | Wyłącz, zabezpiecz, sprawdź, uziem i zewrzyj, osłoń | pięć zasad bezpieczeństwa (PN-EN 50110-1) | five safety rules | 00 |
+| Plomba | Zabezpieczenie operatora na liczniku i złączu | oznaczenie zabezpieczające | seal | 00, 14 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

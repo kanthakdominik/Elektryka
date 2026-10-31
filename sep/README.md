@@ -84,7 +84,7 @@ Wyjątek dotyczy tylko obsługi — nie montażu, naprawy ani pomiarów. To czę
 | 6. Wynik | „Pozytywny” albo „negatywny”, większością głosów | § 11 |
 | 7. Świadectwo | Wydawane w ciągu 14 dni od egzaminu | § 13 |
 
-Świadectwa są wydawane na 5 lat — przed upływem tego terminu trzeba ponownie przystąpić do egzaminu. Sprawdź aktualne brzmienie art. 54 Prawa energetycznego, bo zasady przedłużania bywały zmieniane.
+Świadectwo traci ważność po upływie **5 lat** od dnia wydania (art. 54 ust. 1aa Prawa energetycznego) — żeby dalej pracować, trzeba ponownie zdać egzamin. Pracodawca, inspektor pracy lub Prezes URE mogą zażądać ponownego sprawdzenia kwalifikacji wcześniej, jeśli urządzenia są eksploatowane niezgodnie z przepisami (art. 54 ust. 1b).
 
 ## Jak się przygotować z tego repozytorium
 

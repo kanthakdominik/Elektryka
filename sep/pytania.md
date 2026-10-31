@@ -4,17 +4,53 @@ Pytania w formie, w jakiej zadaje je komisja na egzaminie ustnym. Lista startowa
 
 [← sep/](README.md)
 
+Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jest w sekcji „Pytania SEP” tematu, do którego prowadzi link.
+
 **Jak ćwiczyć:** przeczytaj pytanie, odpowiedz na głos pełnymi zdaniami (co to jest → do czego służy → jak działa → przykład), dopiero potem rozwiń odpowiedź. Odhaczaj pytania, na które odpowiadasz bez wahania.
 
 ---
 
 ## Bezpieczeństwo i BHP — (d)
 
-- [ ] Wymień pięć zasad bezpiecznej pracy przy urządzeniach elektrycznych w kolejności. → [00](../modules/00-bezpieczenstwo-najpierw/README.md), [28](../modules/28-bhp-przy-urzadzeniach/README.md)
-- [ ] Czym sprawdzisz brak napięcia i dlaczego nie śrubokrętem z neonówką? → [00](../modules/00-bezpieczenstwo-najpierw/README.md), [22](../modules/22-przyrzady-pomiarowe/README.md)
+- [ ] ✅ Wymień pięć zasad bezpiecznej pracy przy urządzeniach elektrycznych w kolejności. → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep), [28](../modules/28-bhp-przy-urzadzeniach/README.md)
+- [ ] ✅ Na czym polega zabezpieczenie przed ponownym załączeniem? → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep)
+- [ ] ✅ Kiedy w instalacji nN zakłada się uziemienie i zwarcie? → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep)
+- [ ] ✅ Dlaczego po wyłączeniu wyłącznika głównego rozdzielnica nie jest w całości bez napięcia? → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep)
+- [ ] ✅ Jaka jest kolejność czynności po zakończeniu pracy? → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep)
+- [ ] ✅ Jakim przyrządem sprawdza się brak napięcia? → [00.02](../modules/00-bezpieczenstwo-najpierw/00.02-sprawdzanie-braku-napiecia-probnik-dwubiegunowy.md#pytania-sep)
+- [ ] ✅ Dlaczego wskaźnik napięcia sprawdza się przed pomiarem i po nim? → [00.02](../modules/00-bezpieczenstwo-najpierw/00.02-sprawdzanie-braku-napiecia-probnik-dwubiegunowy.md#pytania-sep)
+- [ ] ✅ Dlaczego wkrętak z neonówką nie nadaje się do sprawdzania braku napięcia? → [00.02](../modules/00-bezpieczenstwo-najpierw/00.02-sprawdzanie-braku-napiecia-probnik-dwubiegunowy.md#pytania-sep)
+- [ ] ✅ Między którymi przewodami sprawdza się brak napięcia w obwodzie trójfazowym? → [00.02](../modules/00-bezpieczenstwo-najpierw/00.02-sprawdzanie-braku-napiecia-probnik-dwubiegunowy.md#pytania-sep)
+- [ ] ✅ Co to jest napięcie indukowane na odłączonym przewodzie? → [00.02](../modules/00-bezpieczenstwo-najpierw/00.02-sprawdzanie-braku-napiecia-probnik-dwubiegunowy.md#pytania-sep)
 - [ ] Co to jest polecenie na wykonanie pracy i kiedy jest wymagane na piśmie? → [28](../modules/28-bhp-przy-urzadzeniach/README.md)
 - [ ] Jakie prace zalicza się do prac w warunkach szczególnego zagrożenia? → [28](../modules/28-bhp-przy-urzadzeniach/README.md)
 - [ ] Jaki sprzęt ochronny stosuje się przy pracach przy urządzeniach elektrycznych i jak się go sprawdza? → [28](../modules/28-bhp-przy-urzadzeniach/README.md)
+
+## Podstawy elektrotechniki — (a)
+
+- [ ] ✅ Co to jest prąd elektryczny i w jakich jednostkach się go mierzy? → [01.01](../modules/01-prad-napiecie-opor/01.01-ladunek-i-prad-co-wlasciwie-plynie-w-przewodzie.md#pytania-sep)
+- [ ] ✅ Jak mierzy się prąd w obwodzie? → [01.01](../modules/01-prad-napiecie-opor/01.01-ladunek-i-prad-co-wlasciwie-plynie-w-przewodzie.md#pytania-sep)
+- [ ] ✅ Dlaczego cęgi założone na cały przewód L+N pokazują prawie zero? → [01.01](../modules/01-prad-napiecie-opor/01.01-ladunek-i-prad-co-wlasciwie-plynie-w-przewodzie.md#pytania-sep)
+- [ ] ✅ Co to jest napięcie i jak się je mierzy? → [01.02](../modules/01-prad-napiecie-opor/01.02-napiecie-roznica-cisnien-miedzy-dwoma-punktami.md#pytania-sep)
+- [ ] ✅ Jakie napięcia występują w instalacji nN w budynku mieszkalnym? → [01.02](../modules/01-prad-napiecie-opor/01.02-napiecie-roznica-cisnien-miedzy-dwoma-punktami.md#pytania-sep)
+- [ ] ✅ Jakie są dopuszczalne odchylenia napięcia zasilającego? → [01.02](../modules/01-prad-napiecie-opor/01.02-napiecie-roznica-cisnien-miedzy-dwoma-punktami.md#pytania-sep)
+- [ ] ✅ Podaj prawo Ohma i wyjaśnij jego znaczenie. → [01.03](../modules/01-prad-napiecie-opor/01.03-opor-i-prawo-ohma.md#pytania-sep)
+- [ ] ✅ Od czego zależy rezystancja przewodu? → [01.03](../modules/01-prad-napiecie-opor/01.03-opor-i-prawo-ohma.md#pytania-sep)
+- [ ] ✅ Dlaczego przewód aluminiowy musi mieć większy przekrój niż miedziany? → [01.03](../modules/01-prad-napiecie-opor/01.03-opor-i-prawo-ohma.md#pytania-sep)
+- [ ] ✅ Jaka jest zależność między mocą, napięciem i prądem; jednostki mocy i energii? → [01.04](../modules/01-prad-napiecie-opor/01.04-moc-i-energia-waty-kilowatogodziny-i-rachunek.md#pytania-sep)
+- [ ] ✅ Jak zmieni się moc grzejnika przy spadku napięcia z 230 V do 207 V? → [01.04](../modules/01-prad-napiecie-opor/01.04-moc-i-energia-waty-kilowatogodziny-i-rachunek.md#pytania-sep)
+- [ ] ✅ Jaki prąd pobiera odbiornik 3 kW przy 230 V? → [01.04](../modules/01-prad-napiecie-opor/01.04-moc-i-energia-waty-kilowatogodziny-i-rachunek.md#pytania-sep)
+- [ ] ✅ Czym różni się połączenie szeregowe od równoległego? → [01.05](../modules/01-prad-napiecie-opor/01.05-polaczenie-szeregowe-i-rownolegle.md#pytania-sep)
+- [ ] ✅ Jak są połączone odbiorniki w instalacji domowej i co z tego wynika? → [01.05](../modules/01-prad-napiecie-opor/01.05-polaczenie-szeregowe-i-rownolegle.md#pytania-sep)
+- [ ] ✅ Dlaczego łącznik oświetlenia włącza się w przewód fazowy? → [01.05](../modules/01-prad-napiecie-opor/01.05-polaczenie-szeregowe-i-rownolegle.md#pytania-sep)
+- [ ] ✅ Co to jest spadek napięcia i od czego zależy? → [01.06](../modules/01-prad-napiecie-opor/01.06-grzanie-przewodow-i-spadek-napiecia.md#pytania-sep)
+- [ ] ✅ Jakie są dopuszczalne spadki napięcia w instalacji mieszkaniowej? → [01.06](../modules/01-prad-napiecie-opor/01.06-grzanie-przewodow-i-spadek-napiecia.md#pytania-sep)
+- [ ] ✅ Dlaczego luźne połączenia są niebezpieczne? → [01.06](../modules/01-prad-napiecie-opor/01.06-grzanie-przewodow-i-spadek-napiecia.md#pytania-sep)
+- [ ] ✅ Dlaczego bęben przedłużacza należy rozwinąć? → [01.06](../modules/01-prad-napiecie-opor/01.06-grzanie-przewodow-i-spadek-napiecia.md#pytania-sep)
+- [ ] ✅ Czym różni się przeciążenie od zwarcia? → [01.07](../modules/01-prad-napiecie-opor/01.07-przeciazenie-a-zwarcie-dwie-rozne-awarie.md#pytania-sep)
+- [ ] ✅ Jakie człony ma wyłącznik nadprądowy i na co reaguje każdy z nich? → [01.07](../modules/01-prad-napiecie-opor/01.07-przeciazenie-a-zwarcie-dwie-rozne-awarie.md#pytania-sep)
+- [ ] ✅ Od czego zależy wartość prądu zwarciowego? → [01.07](../modules/01-prad-napiecie-opor/01.07-przeciazenie-a-zwarcie-dwie-rozne-awarie.md#pytania-sep)
+- [ ] ✅ Co oznacza oznaczenie B16 na wyłączniku? → [01.07](../modules/01-prad-napiecie-opor/01.07-przeciazenie-a-zwarcie-dwie-rozne-awarie.md#pytania-sep)
 
 ## Prąd a człowiek i ochrona przeciwporażeniowa — (a), (d)
 
@@ -71,10 +107,13 @@ Pytania w formie, w jakiej zadaje je komisja na egzaminie ustnym. Lista startowa
 
 ## Eksploatacja — (b), (c)
 
-- [ ] Co obejmuje eksploatacja urządzeń? Wymień rodzaje prac. → [29](../modules/29-eksploatacja/README.md)
+- [ ] ✅ Co obejmuje eksploatacja urządzeń? Wymień rodzaje prac. → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep), [29](../modules/29-eksploatacja/README.md)
 - [ ] Co powinna zawierać instrukcja eksploatacji? → [29](../modules/29-eksploatacja/README.md)
 - [ ] Czym różnią się oględziny od przeglądu? → [29](../modules/29-eksploatacja/README.md)
-- [ ] Kiedy świadectwo kwalifikacyjne nie jest wymagane? → [sep/README.md](README.md#kiedy-świadectwo-nie-jest-potrzebne)
+- [ ] ✅ Kiedy świadectwo kwalifikacyjne nie jest wymagane? → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep)
+- [ ] ✅ Na jaki okres wydaje się świadectwo kwalifikacyjne? → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep)
+- [ ] ✅ Jak często bada się instalację w budynku i kto może to robić? → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep)
+- [ ] ✅ Kiedy instalację trzeba poddać sprawdzeniu odbiorczemu? → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep)
 
 ## Awaria, pożar, pierwsza pomoc — (d), (e)
 
@@ -82,7 +121,10 @@ Pytania w formie, w jakiej zadaje je komisja na egzaminie ustnym. Lista startowa
 - [ ] Opisz postępowanie przy porażeniu po uwolnieniu poszkodowanego. → [31](../modules/31-pierwsza-pomoc/README.md)
 - [ ] Jakimi gaśnicami gasi się urządzenia elektryczne pod napięciem i z jakiej odległości? → [30](../modules/30-pozar-i-awaria/README.md)
 - [ ] Do czego służy przeciwpożarowy wyłącznik prądu? → [30](../modules/30-pozar-i-awaria/README.md)
-- [ ] Jak postępujesz, gdy z rozdzielnicy wydobywa się dym? → [30](../modules/30-pozar-i-awaria/README.md)
+- [ ] ✅ Jak postępujesz, gdy z rozdzielnicy wydobywa się dym? → [00.04](../modules/00-bezpieczenstwo-najpierw/00.04-czerwone-flagi-kiedy-przerwac-prace-i-wezwac.md#pytania-sep), [30](../modules/30-pozar-i-awaria/README.md)
+- [ ] ✅ Jakie objawy świadczą o przerwie w przewodzie N w instalacji trójfazowej? → [00.04](../modules/00-bezpieczenstwo-najpierw/00.04-czerwone-flagi-kiedy-przerwac-prace-i-wezwac.md#pytania-sep)
+- [ ] ✅ W jakich sytuacjach przerwiesz rozpoczętą pracę? → [00.04](../modules/00-bezpieczenstwo-najpierw/00.04-czerwone-flagi-kiedy-przerwac-prace-i-wezwac.md#pytania-sep)
+- [ ] ✅ Jak postąpisz, widząc zerwany przewód linii napowietrznej? → [00.04](../modules/00-bezpieczenstwo-najpierw/00.04-czerwone-flagi-kiedy-przerwac-prace-i-wezwac.md#pytania-sep)
 
 ## Przepisy — (a)–(e)
 
