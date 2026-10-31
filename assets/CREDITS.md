@@ -65,3 +65,12 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `08-rcbo-chint.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Differential_residual_current_circuit_interrupter.JPG) |
 | `08-rcbo-abb.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ABB_DS201.JPG) |
 | `08-fi-schutzschalter.jpg` | nieznany autor | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FI-Schutzschalter.jpg) |
+| `09-ogranicznik-szyna.jpg` | WagnerTh | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%C3%9Cberspannungschutz_f%C3%BCr_die_Verteilerinstallation_auf_der_Hutschiene.jpg) |
+| `09-ogranicznik-imo.jpg` | Stan Zurek, Editor-in-Chief of Encyclopedia Magnetica, E-Magnetica.pl | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IMO_SPD_40-275_Surge_Protection_Device_E-Magnetica.jpg) |
+| `09-warystor.jpg` | Soumyapatra13 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Metal_Oxide_Varistor.jpg) |
+| `09-warystor-s14k385.jpg` | Michael Schmid | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Varistor_S14K385_photo.jpg) |
+| `09-listwa-przepieciowa-wnetrze.jpg` | Black Stripe | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Surge_protector_plug_circuitry_back_%26_front.jpg) |
+| `09-piorun.jpg` | The Modern Polymath | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cloud-to-ground_lightning_strike.jpg) |
+| `09-uszkodzenie-piorun.jpg` | Cgoodwin | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lightning_damage_2.JPG) |
+| `09-lps-4-przewody.jpg` | AnonymousUnknown author | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lightning_protection_system_using_4_ground-conductors.jpg) |
+| `09-lps-strzecha.jpg` | AnonymousUnknown author | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lightning_protection_system_for_thatched_roofs.jpg) |
