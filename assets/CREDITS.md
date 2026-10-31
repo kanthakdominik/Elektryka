@@ -44,30 +44,24 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `04-luk-3000v.jpg` | Achim Grochowski | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lichtbogen_3000_Volt.jpg) |
 | `04-tablica-nie-dotykac.svg` | Miko101 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Baczno%C5%9B%C4%87!_Nie_dotyka%C4%87_przewod%C3%B3w!_(1975).svg) |
 | `04-linie-po-burzy.png` | Brian0918 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IceStormPowerLines.png) |
-| `05-abmantelnie-nym` | Uwe Schwöbel | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AbmantelnNYM.jpg) |
-| `05-nym-i-podrobki` | BPK | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NYM_cable_and_clones.JPG) |
-| `05-linka-lampowa` | Scott Ehardt | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stranded_lamp_wire.jpg) |
-| `05-zlaczki-al-cu-zaciski` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Transistive_terminals_for_AL-CU_junction.JPG) |
-| `06-gniazdo-typ-e` | Electro-world-standard | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:European_cee7-7_plug_cee7-5_socket_type_E.jpg) |
-| `06-gniazdo-schuko-opis` | Chameleon, bran & plugwash | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuko_plug_and_socket_annotated.png) |
-| `06-lacznik-schodowy-budowa` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Construction_of_2-way_light_switch.JPG) |
-| `06-puszka-podtynkowa` | Robesware | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Unterputzdose_innen_mit_Kabel.jpg) |
-| `06-puszka-g-k` | Uwe Schwöbel | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hohlwanddose.jpg) |
-| `06-puszka-natynkowa-wago` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:External_junction_box_with_Wago_222_terminals.JPG) |
-| `06-zlaczka-dzwigniowa` | Lucasbosch | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wago_221-413_splicing_connector_with_stranded_wire.jpg) |
-| `06-zlaczki-dzwigniowe` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:WAGO_221_terminals.JPG) |
-| `06-zlaczka-wciskowa` | Fredquint | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spring_Clamp_-_Push_Wire_Lighting_Connector_(WAGO_224).jpg) |
-| `06-przedluzacz-ip44` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DIY_outdoor_IP44_extension_cord.JPG) |
-| `06-wtyczka-cee` | Stephan Nachtsheim de:User:Stephan N | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CEE-Stecker.jpg) |
-| `07-wkladki-diazed` | Cherubino | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DIAZED_fuses.jpg) |
-| `07-wkladka-neozed` | D01-Neozed-16A.gif: http://en.wikipedia.org/w/index.php?title=User:Troyg001 derivative work: Jjeka (talk) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:D01-Neozed-16A.png) |
-| `07-wkladki-nh` | Widar23 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NH_000_00.jpg) |
-| `07-rozdzielnica-nh` | Nogo | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NH-Sicherungen_Hauptverteilung.jpg) |
-| `07-wylacznik-nadpradowy-zal` | Cherubino | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leitungsschutzschalter-an.jpg) |
-| `07-wylacznik-nadpradowy-wyl` | Cherubino | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leitungsschutzschalter-aus.jpg) |
-| `08-rcd-4p-ge` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:General_Electric_RCD_30mA_400V_63A.JPG) |
-| `08-rcd-4p-abb` | VoltCrafter | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aktueller_ABB_F204A_40A_0,03A_(30mAh)_FI_RCD_4_Polig_(L1_L2_L3_%2B_N)_mit_Schaltstellungsanzeige.png) |
-| `08-rcd-wnetrze` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Differential_residual_current_circuit_interrupter.JPG) |
-| `08-rcbo-abb` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ABB_DS201.JPG) |
-| `08-rcd-podlaczenie` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:RCD_wiring.JPG) |
-| `08-fi-schutzschalter` | nieznany autor | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FI-Schutzschalter.jpg) |
+| `05-abmantelnie-nym.jpg` | Uwe Schwöbel | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AbmantelnNYM.jpg) |
+| `05-linka-lampowa.jpg` | Scott Ehardt | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stranded_lamp_wire.jpg) |
+| `06-gniazdo-schuko-opis.png` | Chameleon, bran & plugwash | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuko_plug_and_socket_annotated.png) |
+| `06-lacznik-schodowy-budowa.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Construction_of_2-way_light_switch.JPG) |
+| `06-puszka-podtynkowa.jpg` | Robesware | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Unterputzdose_innen_mit_Kabel.jpg) |
+| `06-puszka-g-k.jpg` | Uwe Schwöbel | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hohlwanddose.jpg) |
+| `06-puszka-natynkowa-wago.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:External_junction_box_with_Wago_222_terminals.JPG) |
+| `06-zlaczka-dzwigniowa.jpg` | Lucasbosch | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wago_221-413_splicing_connector_with_stranded_wire.jpg) |
+| `06-zlaczki-dzwigniowe.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:WAGO_221_terminals.JPG) |
+| `06-zlaczka-wciskowa.jpg` | Fredquint | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spring_Clamp_-_Push_Wire_Lighting_Connector_(WAGO_224).jpg) |
+| `06-przedluzacz-ip44.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DIY_outdoor_IP44_extension_cord.JPG) |
+| `06-wtyczka-cee.jpg` | Stephan Nachtsheim de:User:Stephan N | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CEE-Stecker.jpg) |
+| `07-wkladki-diazed.jpg` | Cherubino | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DIAZED_fuses.jpg) |
+| `07-wkladka-neozed.png` | D01-Neozed-16A.gif: http://en.wikipedia.org/w/index.php?title=User:Troyg001 derivative work: Jjeka (talk) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:D01-Neozed-16A.png) |
+| `07-wkladki-nh.jpg` | Widar23 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NH_000_00.jpg) |
+| `07-rozdzielnica-nh.jpg` | Nogo | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NH-Sicherungen_Hauptverteilung.jpg) |
+| `07-wylacznik-nadpradowy-zal.jpg` | Cherubino | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leitungsschutzschalter-an.jpg) |
+| `08-rcd-4p-abb.png` | VoltCrafter | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aktueller_ABB_F204A_40A_0,03A_(30mAh)_FI_RCD_4_Polig_(L1_L2_L3_%2B_N)_mit_Schaltstellungsanzeige.png) |
+| `08-rcbo-chint.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Differential_residual_current_circuit_interrupter.JPG) |
+| `08-rcbo-abb.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ABB_DS201.JPG) |
+| `08-fi-schutzschalter.jpg` | nieznany autor | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FI-Schutzschalter.jpg) |
