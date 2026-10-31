@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Jak działa silnik elektryczny</title>
+  <desc id="d">Po lewej: przewód z prądem w polu magnesu jest wypychany siłą F równą B razy I razy l. W środku: stojan silnika trójfazowego z trzema parami uzwojeń U, V, W przesuniętymi o 120 stopni; prądy trójfazowe tworzą pole magnetyczne, które wiruje i ciągnie za sobą wirnik. Po prawej tabela prędkości synchronicznych dla 50 Hz: 3000, 1500, 1000 i 750 obrotów na minutę oraz typowe prędkości rzeczywiste nieco mniejsze z powodu poślizgu.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+  </style>
+  <rect width="880" height="420" fill="#ffffff"/>
+  <text x="440" y="30" class="tytul" text-anchor="middle">Silnik: pole magnetyczne pcha przewód z prądem</text>
+
+  <!-- siła Lorentza -->
+  <text x="140" y="64" class="podt" text-anchor="middle">Siła na przewód</text>
+  <rect x="60" y="80" width="160" height="40" fill="#c0392b"/><text x="140" y="106" class="podt" text-anchor="middle" style="fill:#ffffff">N</text>
+  <rect x="60" y="250" width="160" height="40" fill="#1f5fbf"/><text x="140" y="276" class="podt" text-anchor="middle" style="fill:#ffffff">S</text>
+  <g stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="5 4"><line x1="90" y1="120" x2="90" y2="250"/><line x1="140" y1="120" x2="140" y2="165"/><line x1="140" y1="205" x2="140" y2="250"/><line x1="190" y1="120" x2="190" y2="250"/></g>
+  <circle cx="140" cy="185" r="18" fill="#d68910" stroke="#1a1a1a" stroke-width="2"/>
+  <g stroke="#1a1a1a" stroke-width="2.5"><line x1="131" y1="176" x2="149" y2="194"/><line x1="149" y1="176" x2="131" y2="194"/></g>
+  <line x1="160" y1="185" x2="225" y2="185" stroke="#1e8449" stroke-width="4"/><path d="M222 177 L238 185 L222 193 Z" fill="#1e8449"/>
+  <text x="240" y="178" class="podt" style="fill:#1e8449">F</text>
+  <text x="140" y="320" class="opis" text-anchor="middle">F = B · I · l</text>
+  <text x="140" y="340" class="male" text-anchor="middle">pole · prąd · długość przewodu</text>
+  <text x="140" y="358" class="male" text-anchor="middle">(× = prąd płynie „od nas”)</text>
+
+  <!-- stojan -->
+  <text x="450" y="64" class="podt" text-anchor="middle">Wirujące pole w stojanie</text>
+  <circle cx="450" cy="215" r="120" fill="#eceff3" stroke="#555" stroke-width="3"/>
+  <circle cx="450" cy="215" r="70" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <circle cx="450" cy="215" r="55" fill="#d5d8dc" stroke="#7f8c8d" stroke-width="2"/>
+  <text x="450" y="219" class="male" text-anchor="middle">wirnik</text>
+  <g font-size="14" font-weight="bold">
+    <rect x="437" y="104" width="26" height="22" fill="#8b4513"/><text x="450" y="120" text-anchor="middle" style="fill:#ffffff">U</text>
+    <rect x="437" y="304" width="26" height="22" fill="#8b4513" opacity="0.6"/><text x="450" y="320" text-anchor="middle" style="fill:#ffffff">U</text>
+    <rect x="532" y="250" width="26" height="22" fill="#1a1a1a"/><text x="545" y="266" text-anchor="middle" style="fill:#ffffff">V</text>
+    <rect x="342" y="158" width="26" height="22" fill="#1a1a1a" opacity="0.6"/><text x="355" y="174" text-anchor="middle" style="fill:#ffffff">V</text>
+    <rect x="342" y="250" width="26" height="22" fill="#7f8c8d"/><text x="355" y="266" text-anchor="middle" style="fill:#ffffff">W</text>
+    <rect x="532" y="158" width="26" height="22" fill="#7f8c8d" opacity="0.6"/><text x="545" y="174" text-anchor="middle" style="fill:#ffffff">W</text>
+  </g>
+  <path d="M450 215 L450 168" stroke="#c0392b" stroke-width="4"/><path d="M443 172 L450 158 L457 172 Z" fill="#c0392b"/>
+  <path d="M480 150 A75 75 0 0 1 518 200" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <path d="M512 196 L520 210 L526 194 Z" fill="#c0392b"/>
+  <text x="450" y="360" class="opis" text-anchor="middle">trzy uzwojenia co 120° + trzy fazy</text>
+  <text x="450" y="378" class="opis" text-anchor="middle">→ pole obraca się z prędkością synchroniczną,</text>
+  <text x="450" y="396" class="opis" text-anchor="middle">wirnik „goni” je z lekkim poślizgiem</text>
+
+  <!-- tabela -->
+  <rect x="650" y="80" width="215" height="230" rx="8" fill="#f6f7f9" stroke="#b8bec8"/>
+  <text x="757" y="104" class="podt" text-anchor="middle">Prędkości przy 50 Hz</text>
+  <text x="680" y="132" class="male" text-anchor="middle">p</text><text x="745" y="132" class="male" text-anchor="middle">synchr.</text><text x="818" y="132" class="male" text-anchor="middle">rzeczyw.</text>
+  <text x="780" y="146" class="male" text-anchor="middle">[obr/min]</text>
+  <line x1="660" y1="154" x2="855" y2="154" stroke="#b8bec8"/>
+  <text x="680" y="178" class="opis">1</text><text x="725" y="178" class="opis">3000</text><text x="795" y="178" class="opis">~2850</text>
+  <text x="680" y="204" class="opis">2</text><text x="725" y="204" class="opis">1500</text><text x="795" y="204" class="opis">~1450</text>
+  <text x="680" y="230" class="opis">3</text><text x="725" y="230" class="opis">1000</text><text x="795" y="230" class="opis">~960</text>
+  <text x="680" y="256" class="opis">4</text><text x="725" y="256" class="opis">750</text><text x="795" y="256" class="opis">~720</text>
+  <text x="668" y="284" class="male">p — liczba par biegunów</text><text x="668" y="300" class="male">n = 60 · f / p</text>
+</svg>

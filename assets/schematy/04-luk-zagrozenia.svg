@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Zagrożenia od łuku elektrycznego</title>
+  <desc id="d">Łuk elektryczny w środku, a wokół sześć zagrożeń: bardzo wysoka temperatura plazmy, oślepiające światło i promieniowanie ultrafioletowe, fala ciśnienia i hałas, rozprysk stopionego metalu, toksyczne gazy i dym oraz zapalenie się odzieży.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 14.5px; font-weight: bold; }
+    .opis { font-size: 11.8px; fill: #333333; }
+    .box { fill: #f6f7f9; stroke: #b8bec8; stroke-width: 1.5; }
+  </style>
+  <defs>
+    <radialGradient id="luk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#d6eaf8"/>
+      <stop offset="70%" stop-color="#85c1e9" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="860" height="420" fill="#ffffff"/>
+  <text x="430" y="30" class="tytul" text-anchor="middle">Łuk elektryczny to nie tylko porażenie</text>
+
+  <circle cx="430" cy="220" r="95" fill="url(#luk)"/>
+  <rect x="360" y="205" width="40" height="30" fill="#7f8c8d"/><rect x="460" y="205" width="40" height="30" fill="#7f8c8d"/>
+  <path d="M400 220 L412 208 L420 230 L432 206 L442 232 L452 210 L460 220" fill="none" stroke="#2e86c1" stroke-width="3"/>
+  <text x="430" y="290" class="podt" text-anchor="middle">łuk</text>
+
+  <rect x="20" y="60" width="300" height="80" rx="8" class="box"/>
+  <text x="34" y="84" class="podt">Temperatura</text>
+  <text x="34" y="104" class="opis">plazma łuku ma kilka–kilkanaście tysięcy °C;</text>
+  <text x="34" y="122" class="opis">oparzenia nawet z odległości kilkudziesięciu cm</text>
+
+  <rect x="20" y="170" width="300" height="80" rx="8" class="box"/>
+  <text x="34" y="194" class="podt">Światło i UV</text>
+  <text x="34" y="214" class="opis">oślepienie, oparzenie rogówki i skóry</text>
+  <text x="34" y="232" class="opis">(jak przy spawaniu bez maski)</text>
+
+  <rect x="20" y="280" width="300" height="80" rx="8" class="box"/>
+  <text x="34" y="304" class="podt">Fala ciśnienia i huk</text>
+  <text x="34" y="324" class="opis">odrzuca, przewraca (upadek z drabiny),</text>
+  <text x="34" y="342" class="opis">uszkadza słuch</text>
+
+  <rect x="545" y="60" width="300" height="80" rx="8" class="box"/>
+  <text x="559" y="84" class="podt">Stopiony metal</text>
+  <text x="559" y="104" class="opis">rozprysk kropli miedzi i stali,</text>
+  <text x="559" y="122" class="opis">wypala skórę i oczy</text>
+
+  <rect x="545" y="170" width="300" height="80" rx="8" class="box"/>
+  <text x="559" y="194" class="podt">Gazy i dym</text>
+  <text x="559" y="214" class="opis">pary metali i spalonych tworzyw,</text>
+  <text x="559" y="232" class="opis">groźne w ciasnych pomieszczeniach</text>
+
+  <rect x="545" y="280" width="300" height="80" rx="8" class="box"/>
+  <text x="559" y="304" class="podt">Odzież</text>
+  <text x="559" y="324" class="opis">syntetyki topią się i przyklejają do skóry;</text>
+  <text x="559" y="342" class="opis">bawełna lub odzież trudnopalna — bezpieczniej</text>
+
+  <text x="430" y="400" class="opis" text-anchor="middle">Najczęstsze przyczyny w domu: zwarcie narzędziem w rozdzielnicy, multimetr ustawiony na prąd, załączanie „na zwarcie”.</text>
+</svg>

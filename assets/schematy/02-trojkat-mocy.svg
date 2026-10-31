@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="760" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Trójkąt mocy: czynna, bierna i pozorna</title>
+  <desc id="d">Trójkąt prostokątny: przyprostokątna pozioma to moc czynna P w watach, pionowa to moc bierna Q w warach, przeciwprostokątna to moc pozorna S w woltoamperach, kąt φ między S i P. Wzory i przykład silnika: 230 V, 5 A, cos φ 0,8 daje 1150 VA, 920 W i 690 var.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+  </style>
+  <rect width="760" height="480" fill="#ffffff"/>
+<text x="380" y="32" class="tytul" text-anchor="middle">Trójkąt mocy</text>
+  <path d="M80 320 L480 320 L480 80 Z" fill="#fef5e7" stroke="#d68910" stroke-width="2"/>
+  <line x1="80" y1="320" x2="480" y2="320" stroke="#1e8449" stroke-width="6"/>
+  <line x1="480" y1="320" x2="480" y2="80" stroke="#1f5fbf" stroke-width="6"/>
+  <line x1="80" y1="320" x2="480" y2="80" stroke="#c0392b" stroke-width="6"/>
+  <path d="M150 320 A70 70 0 0 0 136.0 278.0" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="162" y="306" class="podt">φ</text>
+  <text x="280.0" y="348" class="podt" text-anchor="middle" style="fill:#1e8449">P — moc czynna [W]</text>
+  <text x="280.0" y="366" class="male" text-anchor="middle">zamienia się w ciepło, światło, ruch</text>
+  <text x="494" y="200.0" class="podt" style="fill:#1f5fbf">Q — moc bierna [var]</text>
+  <text x="494" y="218.0" class="male">„krąży” między siecią</text>
+  <text x="494" y="234.0" class="male">a polem magnetycznym silnika</text>
+  <text x="250.0" y="186.0" class="podt" text-anchor="end" style="fill:#c0392b">S — moc pozorna [VA]</text>
+  <text x="250.0" y="204.0" class="male" text-anchor="end">to „widzą” przewody i zabezpieczenia</text>
+  <rect x="80" y="372" width="600" height="92" rx="8" fill="#f6f7f9" stroke="#b8bec8"/>
+  <text x="98" y="396" class="opis">S = U · I</text>
+  <text x="230" y="396" class="opis">P = U · I · cos φ</text>
+  <text x="400" y="396" class="opis">Q = U · I · sin φ</text>
+  <text x="560" y="396" class="opis">S² = P² + Q²</text>
+  <text x="98" y="422" class="opis">Przykład: silnik 230 V, 5 A, cos φ = 0,8 → S = 1150 VA, P = 920 W, Q = 690 var.</text>
+  <text x="98" y="446" class="opis">Grzałka: cos φ = 1 → Q = 0, S = P.</text>
+</svg>

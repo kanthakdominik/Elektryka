@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Zasada działania transformatora</title>
+  <desc id="d">Stalowy rdzeń w kształcie ramki z dwoma uzwojeniami. Uzwojenie pierwotne ma N1 zwojów i jest zasilane napięciem U1, uzwojenie wtórne ma N2 zwojów i daje napięcie U2. Strumień magnetyczny w rdzeniu łączy uzwojenia, które nie są połączone elektrycznie. Stosunek napięć równa się stosunkowi liczby zwojów, prądy zmieniają się odwrotnie. Przykład: 230 V na 12 V.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+  </style>
+  <rect width="820" height="400" fill="#ffffff"/>
+  <text x="410" y="30" class="tytul" text-anchor="middle">Transformator: dwa uzwojenia na wspólnym rdzeniu</text>
+
+  <!-- rdzeń -->
+  <path d="M150 70 H470 V310 H150 Z M200 120 V260 H420 V120 Z" fill="#aab7b8" fill-rule="evenodd" stroke="#555" stroke-width="2"/>
+  <!-- strumień -->
+  <path d="M175 95 H445 V285 H175 Z" fill="none" stroke="#1f5fbf" stroke-width="2.5" stroke-dasharray="10 7"/>
+  <g fill="#1f5fbf"><path d="M300 89 L316 95 L300 101 Z"/><path d="M316 279 L300 285 L316 291 Z"/></g>
+  <text x="310" y="84" class="opis" text-anchor="middle" style="fill:#1f5fbf">strumień magnetyczny Φ</text>
+
+  <!-- uzwojenie pierwotne -->
+  <g fill="none" stroke="#b9770e" stroke-width="6">
+    <path d="M140 140 H210"/><path d="M140 160 H210"/><path d="M140 180 H210"/><path d="M140 200 H210"/><path d="M140 220 H210"/><path d="M140 240 H210"/>
+  </g>
+  <line x1="140" y1="140" x2="80" y2="140" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="140" y1="240" x2="80" y2="240" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="80" cy="140" r="5" fill="#1a1a1a"/><circle cx="80" cy="240" r="5" fill="#1a1a1a"/>
+  <text x="60" y="196" class="podt" text-anchor="middle">U₁</text>
+  <text x="175" y="275" class="opis" text-anchor="middle">N₁ zwojów</text>
+
+  <!-- uzwojenie wtórne -->
+  <g fill="none" stroke="#b9770e" stroke-width="6">
+    <path d="M410 170 H480"/><path d="M410 190 H480"/><path d="M410 210 H480"/>
+  </g>
+  <line x1="480" y1="170" x2="540" y2="170" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="480" y1="210" x2="540" y2="210" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="540" cy="170" r="5" fill="#1a1a1a"/><circle cx="540" cy="210" r="5" fill="#1a1a1a"/>
+  <text x="562" y="196" class="podt" text-anchor="middle">U₂</text>
+  <text x="445" y="245" class="opis" text-anchor="middle">N₂ zwojów</text>
+
+  <!-- wzory -->
+  <rect x="600" y="80" width="200" height="150" rx="8" fill="#f6f7f9" stroke="#b8bec8"/>
+  <text x="700" y="112" class="podt" text-anchor="middle">U₁ / U₂ = N₁ / N₂</text>
+  <text x="700" y="140" class="podt" text-anchor="middle">I₁ / I₂ = N₂ / N₁</text>
+  <text x="700" y="172" class="opis" text-anchor="middle">moc po obu stronach</text>
+  <text x="700" y="190" class="opis" text-anchor="middle">prawie taka sama:</text>
+  <text x="700" y="210" class="opis" text-anchor="middle">U₁ · I₁ ≈ U₂ · I₂</text>
+
+  <text x="40" y="345" class="opis">Przykład: 230 V → 12 V, czyli N₁ : N₂ ≈ 19 : 1. Gdy strona 12 V pobiera 2 A, sieć dostarcza ok. 0,1 A.</text>
+  <text x="40" y="368" class="opis">Uzwojenia łączy tylko pole magnetyczne — nie ma między nimi połączenia elektrycznego (separacja).</text>
+  <text x="40" y="391" class="opis">Na prąd stały transformator nie działa: pole musi się zmieniać, żeby indukować napięcie.</text>
+</svg>

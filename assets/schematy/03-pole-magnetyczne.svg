@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Pole magnetyczne przewodu, cewki i pary przewodów</title>
+  <desc id="d">Trzy rysunki. Pierwszy: przekrój przewodu z prądem i koncentryczne linie pola wokół niego, kierunek zgodny z regułą prawej dłoni. Drugi: cewka, wewnątrz której linie pola są równoległe i skupione; z rdzeniem stalowym pole jest wielokrotnie silniejsze. Trzeci: dwa przewody z prądami w przeciwnych kierunkach, jak L i N w kablu — ich pola na zewnątrz prawie się znoszą.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13px; fill: #333333; }
+    .pole { fill: none; stroke: #1f5fbf; stroke-width: 1.8; }
+  </style>
+  <rect width="880" height="400" fill="#ffffff"/>
+  <text x="440" y="30" class="tytul" text-anchor="middle">Prąd wytwarza pole magnetyczne</text>
+
+  <!-- 1: przewód -->
+  <text x="140" y="66" class="podt" text-anchor="middle">Przewód</text>
+  <circle cx="140" cy="190" r="100" class="pole"/>
+  <circle cx="140" cy="190" r="70" class="pole"/>
+  <circle cx="140" cy="190" r="42" class="pole"/>
+  <g fill="#1f5fbf"><path d="M240 184 L246 196 L234 196 Z"/><path d="M40 196 L46 184 L34 184 Z"/><path d="M134 90 L146 84 L146 96 Z" transform="rotate(180 140 90)"/></g>
+  <circle cx="140" cy="190" r="16" fill="#d68910" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="140" cy="190" r="4" fill="#1a1a1a"/>
+  <text x="140" y="318" class="opis" text-anchor="middle">prąd płynie „do nas” (kropka)</text>
+  <text x="140" y="336" class="opis" text-anchor="middle">pole krąży wokół przewodu;</text>
+  <text x="140" y="354" class="opis" text-anchor="middle">im dalej, tym słabsze</text>
+
+  <!-- 2: cewka -->
+  <text x="440" y="66" class="podt" text-anchor="middle">Cewka</text>
+  <rect x="360" y="165" width="160" height="50" fill="#d5d8dc" stroke="#7f8c8d" stroke-width="1.5"/>
+  <g fill="none" stroke="#b9770e" stroke-width="5">
+    <ellipse cx="375" cy="190" rx="9" ry="40"/><ellipse cx="400" cy="190" rx="9" ry="40"/><ellipse cx="425" cy="190" rx="9" ry="40"/>
+    <ellipse cx="450" cy="190" rx="9" ry="40"/><ellipse cx="475" cy="190" rx="9" ry="40"/><ellipse cx="500" cy="190" rx="9" ry="40"/>
+  </g>
+  <path class="pole" d="M520 180 C 600 150, 600 110, 440 110 C 280 110, 280 150, 360 180"/>
+  <path class="pole" d="M520 200 C 600 230, 600 270, 440 270 C 280 270, 280 230, 360 200"/>
+  <path class="pole" d="M520 175 C 640 120, 620 85, 440 85 C 260 85, 240 120, 360 175"/>
+  <g fill="#1f5fbf"><path d="M444 104 L432 110 L444 116 Z"/><path d="M444 264 L432 270 L444 276 Z"/></g>
+  <text x="545" y="194" class="podt" style="fill:#c0392b">N</text>
+  <text x="322" y="194" class="podt" style="fill:#1f5fbf">S</text>
+  <text x="440" y="318" class="opis" text-anchor="middle">zwoje sumują pole — cewka działa jak magnes;</text>
+  <text x="440" y="336" class="opis" text-anchor="middle">stalowy rdzeń wzmacnia pole wielokrotnie</text>
+  <text x="440" y="354" class="opis" text-anchor="middle">→ elektromagnes (przekaźnik, stycznik)</text>
+
+  <!-- 3: L i N -->
+  <text x="740" y="66" class="podt" text-anchor="middle">L i N w jednym kablu</text>
+  <circle cx="710" cy="190" r="45" class="pole" stroke-dasharray="5 5"/>
+  <circle cx="770" cy="190" r="45" class="pole" stroke-dasharray="5 5"/>
+  <circle cx="710" cy="190" r="16" fill="#8b4513" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="710" cy="190" r="4" fill="#ffffff"/>
+  <circle cx="770" cy="190" r="16" fill="#1f5fbf" stroke="#1a1a1a" stroke-width="2"/>
+  <g stroke="#ffffff" stroke-width="2.5"><line x1="764" y1="184" x2="776" y2="196"/><line x1="776" y1="184" x2="764" y2="196"/></g>
+  <text x="710" y="225" class="podt" text-anchor="middle" style="fill:#8b4513">L</text>
+  <text x="770" y="225" class="podt" text-anchor="middle" style="fill:#1f5fbf">N</text>
+  <text x="740" y="300" class="opis" text-anchor="middle">prądy w przeciwnych kierunkach</text>
+  <text x="740" y="318" class="opis" text-anchor="middle">→ pola na zewnątrz prawie się znoszą</text>
+  <text x="740" y="336" class="opis" text-anchor="middle">(cęgi na całym kablu pokazują ~0,</text>
+  <text x="740" y="354" class="opis" text-anchor="middle">na tym opiera się różnicówka)</text>
+</svg>

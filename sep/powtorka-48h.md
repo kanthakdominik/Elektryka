@@ -24,7 +24,13 @@ _(uzupełniane z modułów 28, 30, 31)_
 
 ## Wartości graniczne ochrony przeciwporażeniowej
 
-_(do uzupełnienia z modułów 04, 08, 12)_
+- **Progi prądu AC 50 Hz:** odczuwanie 0,5 mA · samouwolnienie ok. 10 mA · migotanie komór od ok. 40–50 mA (> 1 s) lub ok. 500 mA (10 ms). ([04.01](../modules/04-prad-a-czlowiek/04.01-jak-prad-dziala-na-organizm-progi-odczuwania.md))
+- **Skutki zależą od:** prądu, czasu, drogi (F: lewa ręka–stopy 1,0; ręka–ręka 0,4; klatka–lewa ręka 1,5; stopa–stopa 0,04), częstotliwości, warunków. ([04.02](../modules/04-prad-a-czlowiek/04.02-droga-przeplywu-czas-i-czestotliwosc.md))
+- **$U_L$:** 50 V AC / 120 V DC — warunki normalne; 25 V AC / 60 V DC — zwiększone zagrożenie. Ucieczka ze strefy napięcia krokowego: drobne kroki, stopy razem. ([04.03](../modules/04-prad-a-czlowiek/04.03-napiecie-dotykowe-i-krokowe-napiecia.md))
+- **Czasy wyłączenia (230 V):** TN 0,4 s, TT 0,2 s — obwody odbiorcze (gniazda ≤ 63 A, stałe ≤ 32 A); rozdzielcze TN 5 s, TT 1 s. **$Z_s \cdot I_a \le U_0$**; B16 → $Z_s$ ≤ 2,88 Ω, C16 → ≤ 1,44 Ω. ([04.04](../modules/04-prad-a-czlowiek/04.04-maksymalne-czasy-samoczynnego-wylaczenia.md))
+- **RCD 30 mA:** gniazda ≤ 32 A; zadziałanie ≤ 300 ms przy 30 mA, ≤ 40 ms przy 150 mA.
+
+_(uzupełniane z modułów 08 i 12)_
 
 ## Zabezpieczenia i przewody
 
@@ -32,7 +38,7 @@ _(do uzupełnienia z modułów 04, 08, 12)_
 - **Prądy umowne:** 1,13 $I_n$ — nie zadziała przez 1 h; 1,45 $I_n$ — zadziała w < 1 h. **Natychmiast:** B 3–5 $I_n$, C 5–10 $I_n$, D 10–20 $I_n$.
 - **Opór przewodu:** $R = \rho l / S$; Cu 0,0175, Al 0,0286 Ω·mm²/m. ([01.03](../modules/01-prad-napiecie-opor/01.03-opor-i-prawo-ohma.md))
 - **Spadek napięcia:** ≤ 3 % od licznika do odbiornika (N SEP-E-002). ([01.06](../modules/01-prad-napiecie-opor/01.06-grzanie-przewodow-i-spadek-napiecia.md))
-- **Napięcie sieci:** 230/400 V, ±10 % (207–253 V), 50 Hz ±1 %. ([01.02](../modules/01-prad-napiecie-opor/01.02-napiecie-roznica-cisnien-miedzy-dwoma-punktami.md))
+- **Napięcie sieci:** 230/400 V (400 = 230·√3), ±10 % (207–253 V), 50 Hz ±1 %, szczyt 230 V ≈ 325 V. Barwy: L1 brązowy, L2 czarny, L3 szary, N niebieski, PE żółto-zielony. ([01.02](../modules/01-prad-napiecie-opor/01.02-napiecie-roznica-cisnien-miedzy-dwoma-punktami.md))
 
 _(uzupełniane z modułów 05, 07, 16)_
 

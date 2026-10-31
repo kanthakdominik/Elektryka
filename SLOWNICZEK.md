@@ -37,5 +37,20 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Napięcie fantomowe | „Duch” napięcia na wyłączonym przewodzie obok przewodu pod napięciem | napięcie indukowane | ghost (phantom) voltage | 00 |
 | Pięć zasad | Wyłącz, zabezpiecz, sprawdź, uziem i zewrzyj, osłoń | pięć zasad bezpieczeństwa (PN-EN 50110-1) | five safety rules | 00 |
 | Plomba | Zabezpieczenie operatora na liczniku i złączu | oznaczenie zabezpieczające | seal | 00, 14 |
+| Wartość skuteczna | Wartość „grzejąca” jak prąd stały; 230 V to wartość skuteczna | wartość skuteczna (RMS) | RMS value | 02 |
+| Napięcie międzyfazowe | Napięcie między dwiema fazami, 400 V | napięcie przewodowe, $U$ | line-to-line voltage | 02 |
+| Kolejność faz | Kolejność L1–L2–L3, decyduje o kierunku obrotów silnika | kolejność faz | phase sequence | 02, 24 |
+| Moc bierna | Moc „krążąca” między siecią a cewkami i kondensatorami | Q, var | reactive power | 02 |
+| Współczynnik mocy | Jaka część mocy pozornej to moc czynna | cos φ | power factor | 02 |
+| Harmoniczne | Składowe 150, 250, 350 Hz… w odkształconym prądzie | wyższe harmoniczne, THD | harmonics | 02 |
+| Przekładnia | Stosunek napięć (zwojów) transformatora | przekładnia, $U_1/U_2$ | turns ratio | 03 |
+| Stycznik | Elektromagnetyczny łącznik obwodów mocy | stycznik, K | contactor | 03, 10, 24 |
+| Styk zwierny / rozwierny | Zamyka się / otwiera się po zasileniu cewki | NO / NC | normally open / closed | 03 |
+| Poślizg | O ile wirnik „spóźnia się” za polem | poślizg, s | slip | 03, 24 |
+| Próg samouwolnienia | Prąd, powyżej którego nie da się puścić przewodu (ok. 10 mA) | próg samouwolnienia | let-go threshold | 04 |
+| Migotanie komór | Chaotyczna praca serca, brak krążenia | fibrylacja komór | ventricular fibrillation | 04 |
+| Napięcie krokowe | Napięcie między stopami w pobliżu miejsca wpływu prądu do ziemi | napięcie krokowe, $U_S$ | step voltage | 04 |
+| Napięcie dopuszczalne długotrwale | 50 V AC / 120 V DC w warunkach normalnych | $U_L$ | conventional touch voltage limit | 04 |
+| Łuk elektryczny | Prąd przez zjonizowane powietrze, plazma tysięcy °C | łuk, zwarcie łukowe | arc flash | 04 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

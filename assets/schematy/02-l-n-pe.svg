@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" width="880" height="470" role="img" aria-labelledby="t d">
+  <title id="t">Role przewodów L, N i PE</title>
+  <desc id="d">Transformator w stacji zasila budynek przewodem L i przewodem ochronno-neutralnym PEN, uziemionym w stacji. W budynku PEN rozdziela się na N i PE. W normalnej pracy prąd płynie przewodem L do grzałki i wraca przewodem N. Przewód PE łączy metalową obudowę urządzenia z punktem rozdziału. Gdy faza dotknie obudowy, prąd zwarciowy płynie przez PE i wyłącznik w rozdzielnicy wyłącza obwód.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+  </style>
+  <rect width="880" height="470" fill="#ffffff"/>
+  <text x="440" y="30" class="tytul" text-anchor="middle">L, N i PE — trzy przewody, trzy różne zadania</text>
+
+  <!-- transformator -->
+  <rect x="25" y="95" width="110" height="185" rx="10" fill="#f6f7f9" stroke="#555" stroke-width="1.5"/>
+  <text x="80" y="82" class="male" text-anchor="middle">stacja transformatorowa</text>
+  <path d="M95 125 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="95" y1="125" x2="95" y2="120" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="95" y1="120" x2="135" y2="120" stroke="#8b4513" stroke-width="5"/>
+  <line x1="95" y1="245" x2="95" y2="255" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="95" y1="255" x2="135" y2="255" stroke="#1f5fbf" stroke-width="5"/>
+  <line x1="60" y1="255" x2="95" y2="255" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="60" y1="255" x2="60" y2="300" stroke="#1a1a1a" stroke-width="2"/>
+  <g stroke="#1a1a1a" stroke-width="2"><line x1="46" y1="300" x2="74" y2="300"/><line x1="51" y1="306" x2="69" y2="306"/><line x1="56" y1="312" x2="64" y2="312"/></g>
+  <text x="30" y="332" class="male">uziemienie w stacji</text>
+  <text x="40" y="190" class="male">230 V</text>
+
+  <!-- L -->
+  <line x1="135" y1="120" x2="690" y2="120" stroke="#8b4513" stroke-width="5"/>
+  <text x="150" y="110" class="podt" style="fill:#8b4513">L</text>
+  <!-- wyłącznik w rozdzielnicy -->
+  <rect x="440" y="104" width="44" height="32" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="462" y="125" class="male" text-anchor="middle">B16</text>
+
+  <!-- PEN i rozdział -->
+  <line x1="135" y1="255" x2="300" y2="255" stroke="#1f5fbf" stroke-width="6"/>
+  <line x1="135" y1="255" x2="300" y2="255" stroke="#9acd32" stroke-width="3" stroke-dasharray="10 8"/>
+  <text x="170" y="245" class="podt">PEN</text>
+  <text x="160" y="278" class="male">sieć i przyłącze</text>
+  <circle cx="300" cy="255" r="6" fill="#1a1a1a"/>
+  <line x1="300" y1="255" x2="690" y2="255" stroke="#1f5fbf" stroke-width="5"/>
+  <text x="330" y="245" class="podt" style="fill:#1f5fbf">N</text>
+  <line x1="300" y1="255" x2="300" y2="380" stroke="#2e8b57" stroke-width="5"/>
+  <line x1="300" y1="255" x2="300" y2="380" stroke="#f4d03f" stroke-width="5" stroke-dasharray="10 10"/>
+  <line x1="300" y1="380" x2="740" y2="380" stroke="#2e8b57" stroke-width="5"/>
+  <line x1="300" y1="380" x2="740" y2="380" stroke="#f4d03f" stroke-width="5" stroke-dasharray="10 10"/>
+  <text x="330" y="370" class="podt" style="fill:#1e8449">PE</text>
+  <line x1="300" y1="380" x2="260" y2="380" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="260" y1="380" x2="260" y2="410" stroke="#1a1a1a" stroke-width="2"/>
+  <g stroke="#1a1a1a" stroke-width="2"><line x1="246" y1="410" x2="274" y2="410"/><line x1="251" y1="416" x2="269" y2="416"/><line x1="256" y1="422" x2="264" y2="422"/></g>
+  <text x="200" y="444" class="male">punkt rozdziału PEN i uziom budynku (moduł 11)</text>
+
+  <!-- odbiornik -->
+  <rect x="640" y="85" width="200" height="270" rx="12" fill="#eceff3" stroke="#555" stroke-width="5"/>
+  <text x="740" y="76" class="male" text-anchor="middle">metalowa obudowa (klasa I)</text>
+  <line x1="690" y1="120" x2="740" y2="120" stroke="#8b4513" stroke-width="4"/>
+  <line x1="690" y1="255" x2="740" y2="255" stroke="#1f5fbf" stroke-width="4"/>
+  <line x1="740" y1="120" x2="740" y2="150" stroke="#1a1a1a" stroke-width="2.5"/>
+  <rect x="725" y="150" width="30" height="75" fill="#fdebd0" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="740" y1="225" x2="740" y2="255" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="768" y="192" class="male">grzałka</text>
+  <line x1="740" y1="355" x2="740" y2="380" stroke="#2e8b57" stroke-width="5"/>
+
+  <!-- prąd roboczy -->
+  <g fill="#1e8449"><path d="M560 112 L576 120 L560 128 Z"/><path d="M576 247 L560 255 L576 263 Z"/></g>
+  <text x="530" y="100" class="opis" style="fill:#1e8449;font-weight:bold">prąd roboczy</text>
+
+  <!-- uszkodzenie -->
+  <path d="M700 120 L690 150 L700 160 L640 170" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="645" cy="170" r="10" fill="#f5b041" fill-opacity="0.7"/>
+  <path d="M640 200 C 600 260, 600 330, 640 375" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="7 6"/>
+  <path d="M520 392 L500 392" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <path d="M505 386 L493 392 L505 398 Z" fill="#c0392b"/>
+  <text x="475" y="408" class="opis" style="fill:#c0392b;font-weight:bold">prąd uszkodzenia wraca przez PE</text>
+  <text x="475" y="425" class="opis" style="fill:#c0392b">→ duży prąd → B16 wyłącza</text>
+  <text x="560" y="182" class="male" style="fill:#c0392b" text-anchor="end">faza dotyka obudowy</text>
+</svg>

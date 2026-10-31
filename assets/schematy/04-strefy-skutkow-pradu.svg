@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 650" width="880" height="650" role="img" aria-labelledby="t d">
+  <title id="t">Strefy skutków prądu przemiennego 50 Hz dla człowieka</title>
+  <desc id="d">Wykres w skali logarytmicznej: na osi poziomej prąd od 0,1 do 10 000 miliamperów, na pionowej czas od 10 milisekund do 10 sekund. Strefa AC-1 do 0,5 mA — prąd odczuwalny. AC-2 do krzywej b — skurcze, zwykle bez szkód. AC-3 do krzywej c1 — niemożność puszczenia, trudności z oddychaniem. AC-4 powyżej c1 — migotanie komór. Krzywa c1 spada od około 500 mA przy 10 ms do około 40 mA przy czasach powyżej kilku sekund. Zaznaczono linię 30 mA różnicówki i czas 0,4 s.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+  </style>
+  <rect width="880" height="650" fill="#ffffff"/>
+<text x="440" y="32" class="tytul" text-anchor="middle">Skutki prądu 50 Hz w zależności od wartości i czasu (uproszczone)</text>
+  <line x1="110.0" y1="70" x2="110.0" y2="470" class="siatka"/>
+  <text x="110.0" y="490" class="male" text-anchor="middle">0,1</text>
+  <line x1="240.0" y1="70" x2="240.0" y2="470" class="siatka"/>
+  <text x="240.0" y="490" class="male" text-anchor="middle">1</text>
+  <line x1="370.0" y1="70" x2="370.0" y2="470" class="siatka"/>
+  <text x="370.0" y="490" class="male" text-anchor="middle">10</text>
+  <line x1="500.0" y1="70" x2="500.0" y2="470" class="siatka"/>
+  <text x="500.0" y="490" class="male" text-anchor="middle">100</text>
+  <line x1="630.0" y1="70" x2="630.0" y2="470" class="siatka"/>
+  <text x="630.0" y="490" class="male" text-anchor="middle">1000</text>
+  <line x1="760.0" y1="70" x2="760.0" y2="470" class="siatka"/>
+  <text x="760.0" y="490" class="male" text-anchor="middle">10 000</text>
+  <line x1="110" y1="470.0" x2="760" y2="470.0" class="siatka"/>
+  <text x="102" y="474.0" class="male" text-anchor="end">10 ms</text>
+  <line x1="110" y1="336.7" x2="760" y2="336.7" class="siatka"/>
+  <text x="102" y="340.7" class="male" text-anchor="end">100 ms</text>
+  <line x1="110" y1="203.3" x2="760" y2="203.3" class="siatka"/>
+  <text x="102" y="207.3" class="male" text-anchor="end">1 s</text>
+  <line x1="110" y1="70.0" x2="760" y2="70.0" class="siatka"/>
+  <text x="102" y="74.0" class="male" text-anchor="end">10 s</text>
+  <text x="435.0" y="512" class="opis" text-anchor="middle">prąd rażenia [mA] (skala logarytmiczna)</text>
+  <text x="30" y="270.0" class="opis" text-anchor="middle" transform="rotate(-90 30 270.0)">czas przepływu</text>
+  <path d="M590.9 470.0 L584.9 336.7 L578.3 273.1 L500.0 232.9 L460.9 203.3 L448.3 139.7 L448.3 70.0 L760.0 70.0 L760.0 470.0 Z" fill="#f5b7b1" opacity="0.7"/>
+  <path d="M539.1 470.0 L500.0 406.4 L448.3 336.7 L392.9 243.5 L370.0 203.3 L341.2 139.7 L330.9 70.0 L448.3 70.0 L448.3 139.7 L460.9 203.3 L500.0 232.9 L578.3 273.1 L584.9 336.7 L590.9 470.0 Z" fill="#fad7a0" opacity="0.7"/>
+  <path d="M200.9 470.0 L200.9 70.0 L330.9 70.0 L341.2 139.7 L370.0 203.3 L392.9 243.5 L448.3 336.7 L500.0 406.4 L539.1 470.0 Z" fill="#fcf3cf" opacity="0.8"/>
+  <path d="M110.0 470.0 L110.0 70.0 L200.9 70.0 L200.9 470.0 Z" fill="#d5f5e3" opacity="0.8"/>
+  <path d="M200.9 470.0 L200.9 70.0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M539.1 470.0 L500.0 406.4 L448.3 336.7 L392.9 243.5 L370.0 203.3 L341.2 139.7 L330.9 70.0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M590.9 470.0 L584.9 336.7 L578.3 273.1 L500.0 232.9 L460.9 203.3 L448.3 139.7 L448.3 70.0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="205.9" y="446.5" class="male">a</text>
+  <text x="544.1" y="454.8" class="male">b</text>
+  <text x="595.9" y="454.8" class="male">c₁</text>
+  <text x="154.5" y="273.1" class="podt" text-anchor="middle">AC-1</text>
+  <text x="284.5" y="273.1" class="podt" text-anchor="middle">AC-2</text>
+  <text x="403.2" y="150.3" class="podt" text-anchor="middle">AC-3</text>
+  <text x="669.1" y="273.1" class="podt" text-anchor="middle">AC-4</text>
+  <rect x="110" y="521" width="14" height="14" fill="#d5f5e3" stroke="#999"/>
+  <text x="132" y="533" class="male">AC-1: prąd odczuwalny</text>
+  <rect x="110" y="541" width="14" height="14" fill="#fcf3cf" stroke="#999"/>
+  <text x="132" y="553" class="male">AC-2: skurcze mięśni, zwykle bez szkód</text>
+  <rect x="110" y="561" width="14" height="14" fill="#fad7a0" stroke="#999"/>
+  <text x="132" y="573" class="male">AC-3: nie da się puścić, trudności z oddychaniem, odwracalne zaburzenia serca</text>
+  <rect x="110" y="581" width="14" height="14" fill="#f5b7b1" stroke="#999"/>
+  <text x="132" y="593" class="male">AC-4: migotanie komór, zatrzymanie krążenia, oparzenia</text>
+  <line x1="432.0" y1="70" x2="432.0" y2="470" stroke="#1f5fbf" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="428.0" y="84" class="male" text-anchor="end" style="fill:#1f5fbf">30 mA — różnicówka</text>
+  <line x1="110" y1="256.4" x2="760" y2="256.4" stroke="#1e8449" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="116" y="250.4" class="male" style="fill:#1e8449">0,4 s (TN, 230 V)</text>
+  <text x="440" y="630" class="male" text-anchor="middle">Droga prądu: lewa ręka — stopy. Kształt krzywych przybliżony na podstawie IEC TS 60479-1, rys. 20; służy do nauki, nie do obliczeń.</text>
+</svg>
