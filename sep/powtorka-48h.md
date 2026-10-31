@@ -55,6 +55,14 @@ _(uzupełniane z modułu 12)_
 
 _(uzupełniane z modułu 16)_
 
+## Przepięcia i ochrona odgromowa
+
+- **Źródła:** uderzenie w budynek, w linię, w pobliżu (indukcja), przełączenia. Udary: **10/350 μs** — piorun (typ 1, $I_{imp}$), **8/20 μs** — indukowane (typ 2, $I_n$). ([09.01](../modules/09-ochrona-przeciwprzepieciowa/09.01-skad-biora-sie-przepiecia.md))
+- **Kategorie (230/400 V):** IV 6 kV · III 4 kV · II 2,5 kV · I 1,5 kV. Ochrona wymagana przy zagrożeniu życia, usługach publicznych, działalności, wielu osobach; poza tym ocena ryzyka — bez niej ochrona obowiązkowa. ([09.02](../modules/09-ochrona-przeciwprzepieciowa/09.02-kategorie-wytrzymalosci-udarowej-iiv.md))
+- **SPD:** typ 1 przy instalacji odgromowej (≥ 12,5 kA/biegun), typ 2 w rozdzielnicy (In ≥ 5 kA), typ 3 przy odbiorniku; $U_C$ 275 V; czerwony wskaźnik = wymiana. ([09.03](../modules/09-ochrona-przeciwprzepieciowa/09.03-ograniczniki-przepiec-typu-1-2-i-3.md))
+- **Montaż:** a + b ≤ 0,5 m (≈ 1 kV/m), przed RCD, 3+1 w TT i przed RCD, PE ≥ 6 mm² (T2) / 16 mm² (T1), ochrona do ok. 10 m. ([09.04](../modules/09-ochrona-przeciwprzepieciowa/09.04-montaz-ogranicznika-dlugosc-polaczen-i.md))
+- **Instalacja odgromowa:** zwody, przewody odprowadzające, złącza kontrolne, uziom; klasy I–IV; kontrola co 5 lat (art. 62 Prawa budowlanego). ([09.05](../modules/09-ochrona-przeciwprzepieciowa/09.05-ochrona-odgromowa-budynku-podstawy.md))
+
 ## Pomiary
 
 _(do uzupełnienia z modułu 23)_

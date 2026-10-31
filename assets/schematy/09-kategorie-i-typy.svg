@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 525" width="840" height="525" role="img" aria-labelledby="t d">
+  <title id="t">Kategorie wytrzymałości udarowej i typy ograniczników</title>
+  <desc id="d">Cztery słupki malejącej wysokości: kategoria IV — 6 kV — złącze, licznik i zabezpieczenie przedlicznikowe; kategoria III — 4 kV — rozdzielnica, aparaty, przewody i gniazda; kategoria II — 2,5 kV — odbiorniki takie jak AGD i elektronarzędzia; kategoria I — 1,5 kV — wrażliwa elektronika chroniona dodatkowym ogranicznikiem. Między nimi ograniczniki: typ 1 przy złączu i głównej szynie uziemiającej, typ 2 w rozdzielnicy, typ 3 przy odbiorniku. Każdy kolejny ogranicznik obniża przepięcie do poziomu, który wytrzyma następna kategoria.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="525" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Kategorie wytrzymałości udarowej i strefy ograniczników</text>
+<rect x="40" y="90" width="175" height="240" rx="6" fill="#922b21" fill-opacity="0.85"/>
+<text x="127" y="122" class="podt" text-anchor="middle" style="font-size:26px;fill:#ffffff">IV</text>
+<text x="127" y="146" class="podt" text-anchor="middle" style="fill:#ffffff">6 kV</text>
+<text x="127" y="352" class="male" text-anchor="middle">złącze, licznik,</text>
+<text x="127" y="368" class="male" text-anchor="middle">zabezpieczenie przedlicznikowe</text>
+<rect x="235" y="170" width="175" height="160" rx="6" fill="#ca6f1e" fill-opacity="0.85"/>
+<text x="322" y="202" class="podt" text-anchor="middle" style="font-size:26px;fill:#ffffff">III</text>
+<text x="322" y="226" class="podt" text-anchor="middle" style="fill:#ffffff">4 kV</text>
+<text x="322" y="352" class="male" text-anchor="middle">rozdzielnica, aparaty,</text>
+<text x="322" y="368" class="male" text-anchor="middle">przewody, gniazda</text>
+<rect x="430" y="230" width="175" height="100" rx="6" fill="#b7950b" fill-opacity="0.85"/>
+<text x="517" y="262" class="podt" text-anchor="middle" style="font-size:26px;fill:#ffffff">II</text>
+<text x="517" y="286" class="podt" text-anchor="middle" style="fill:#ffffff">2,5 kV</text>
+<text x="517" y="352" class="male" text-anchor="middle">odbiorniki: AGD,</text>
+<text x="517" y="368" class="male" text-anchor="middle">elektronarzędzia</text>
+<rect x="625" y="270" width="175" height="60" rx="6" fill="#1e8449" fill-opacity="0.85"/>
+<text x="712" y="302" class="podt" text-anchor="middle" style="font-size:26px;fill:#ffffff">I</text>
+<text x="712" y="326" class="podt" text-anchor="middle" style="fill:#ffffff">1,5 kV</text>
+<text x="712" y="352" class="male" text-anchor="middle">wrażliwa elektronika</text>
+<text x="712" y="368" class="male" text-anchor="middle">(przez dodatkowy SPD)</text>
+<line x1="40" y1="330" x2="805" y2="330" stroke="#555" stroke-width="1.5"/>
+<text x="420" y="395" class="male" text-anchor="middle">Napięcie udarowe, które urządzenie musi wytrzymać (sieć 230/400 V)</text>
+<rect x="193" y="415" width="64" height="40" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="225" y="441" class="podt" text-anchor="middle">T1</text>
+<text x="225" y="474" class="male" text-anchor="middle">przy złączu / GSU</text>
+<rect x="388" y="415" width="64" height="40" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="420" y="441" class="podt" text-anchor="middle">T2</text>
+<text x="420" y="474" class="male" text-anchor="middle">rozdzielnica</text>
+<rect x="583" y="415" width="64" height="40" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="615" y="441" class="podt" text-anchor="middle">T3</text>
+<text x="615" y="474" class="male" text-anchor="middle">przy odbiorniku</text>
+<text x="420" y="505" class="opis" text-anchor="middle">Każdy kolejny ogranicznik obniża przepięcie do poziomu, który wytrzyma następna kategoria.</text>
+</svg>

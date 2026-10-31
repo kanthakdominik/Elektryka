@@ -68,5 +68,10 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Typ A (RCD) | Różnicówka wykrywająca też prąd pulsujący z elektroniki | RCD typu A (AC, A, F, B) | type A RCD | 08 |
 | RCBO | Różnicówka i „eska” w jednym aparacie | wyłącznik różnicowoprądowy z członem nadprądowym | RCBO | 08 |
 | Prąd upływowy | Prąd płynący do PE w sprawnym urządzeniu (filtry, izolacja) | prąd przewodu ochronnego | leakage / protective conductor current | 08 |
+| Przepięcie | Bardzo krótki impuls napięcia, tysiące woltów | przepięcie przejściowe | transient overvoltage | 09 |
+| Kategoria przepięciowa | Jak odporne na przepięcia jest urządzenie w danym miejscu | kategoria wytrzymałości udarowej I–IV, U_W | overvoltage category | 09 |
+| Warystor | Element przewodzący dopiero powyżej pewnego napięcia | warystor tlenkowy | metal oxide varistor, MOV | 09 |
+| Poziom ochrony | Do jakiego napięcia ogranicznik ścina przepięcie | napięciowy poziom ochrony, U_P | voltage protection level | 09 |
+| Instalacja odgromowa | Zwody, przewody odprowadzające i uziom — „piorunochron” | urządzenie piorunochronne, LPS | lightning protection system | 09 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

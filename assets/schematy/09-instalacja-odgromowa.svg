@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="840" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Elementy instalacji odgromowej</title>
+  <desc id="d">Dom z instalacją odgromową: zwody na kalenicy i krawędziach dachu przejmują uderzenie, przewody odprowadzające po ścianach prowadzą prąd do ziemi przez złącza kontrolne służące do pomiarów, uziom otokowy lub fundamentowy rozprowadza prąd w gruncie. W budynku główna szyna uziemiająca jest połączona z uziomem, a ogranicznik przepięć typu 1 łączy przewody zasilania z połączeniem wyrównawczym.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="500" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Instalacja odgromowa — elementy</text>
+<rect x="20" y="420" width="800" height="70" fill="#c9a77c"/>
+<rect x="20" y="412" width="800" height="8" fill="#6aa84f"/>
+<rect x="230" y="230" width="300" height="182" fill="#fdf6e3" stroke="#7f8c8d" stroke-width="2"/>
+<path d="M210 230 L380.0 120 L550 230 Z" fill="#c0392b" fill-opacity="0.25" stroke="#7f8c8d" stroke-width="2"/>
+<line x1="380.0" y1="120" x2="380.0" y2="90" stroke="#555" stroke-width="3"/>
+<line x1="210" y1="230" x2="380.0" y2="118" stroke="#555" stroke-width="3" stroke-dasharray="1 0"/>
+<line x1="380.0" y1="118" x2="550" y2="230" stroke="#555" stroke-width="3"/>
+<line x1="220" y1="232" x2="220" y2="412" stroke="#555" stroke-width="3"/>
+<rect x="213" y="360" width="14" height="14" fill="#ffffff" stroke="#555" stroke-width="2"/>
+<line x1="540" y1="232" x2="540" y2="412" stroke="#555" stroke-width="3"/>
+<rect x="533" y="360" width="14" height="14" fill="#ffffff" stroke="#555" stroke-width="2"/>
+<ellipse cx="380.0" cy="450" rx="210" ry="18" fill="none" stroke="#555" stroke-width="3"/>
+<line x1="220" y1="412" x2="220" y2="448" stroke="#555" stroke-width="3"/>
+<line x1="540" y1="412" x2="540" y2="448" stroke="#555" stroke-width="3"/>
+<rect x="270" y="350" width="70" height="30" rx="4" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+<text x="305" y="370" class="podt" text-anchor="middle">GSU</text>
+<line x1="305" y1="380" x2="305" y2="440" stroke="#1e8449" stroke-width="2.5"/>
+<rect x="370" y="340" width="60" height="40" rx="4" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="400" y="366" class="male" text-anchor="middle">SPD T1</text>
+<line x1="370" y1="365" x2="340" y2="365" stroke="#1e8449" stroke-width="2"/>
+<line x1="430" y1="360" x2="570" y2="360" stroke="#333" stroke-width="2"/>
+<text x="575" y="345" class="male" text-anchor="start">zasilanie</text>
+<line x1="385.0" y1="105" x2="600" y2="90" stroke="#333" stroke-width="1"/>
+<text x="605" y="94" class="opis" text-anchor="start">zwody — przejmują uderzenie</text>
+<line x1="542" y1="290" x2="600" y2="210" stroke="#333" stroke-width="1"/>
+<text x="605" y="214" class="opis" text-anchor="start">przewody odprowadzające</text>
+<line x1="547" y1="367" x2="600" y2="290" stroke="#333" stroke-width="1"/>
+<text x="605" y="294" class="opis" text-anchor="start">złącze kontrolne (pomiary)</text>
+<line x1="590" y1="462" x2="600" y2="470" stroke="#333" stroke-width="1"/>
+<text x="605" y="474" class="opis" text-anchor="start">uziom otokowy</text>
+<text x="605" y="488" class="male" text-anchor="start">lub fundamentowy</text>
+<text x="40" y="250" class="opis" text-anchor="start">połączenie wyrównawcze:</text>
+<text x="40" y="270" class="opis" text-anchor="start">GSU + ogranicznik typu 1</text>
+<line x1="190" y1="280" x2="270" y2="360" stroke="#333" stroke-width="1"/>
+</svg>

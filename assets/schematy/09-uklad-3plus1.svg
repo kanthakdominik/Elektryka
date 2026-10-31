@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" width="840" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Układy podłączenia ograniczników 3+0 i 3+1</title>
+  <desc id="d">Dwa schematy. Po lewej układ 3+0: trzy warystory między fazami L1, L2, L3 a przewodem PEN, stosowany w miejscu podziału przewodu PEN; dalej w układzie TN-S i w TT stosuje się 3+1 lub 4+0. Po prawej układ 3+1 (CT2): trzy warystory między fazami a przewodem N oraz iskiernik sumujący między N a PE, stosowany w układzie TT i przed wyłącznikiem różnicowoprądowym. W układzie 3+1 uszkodzony warystor nie tworzy połączenia fazy z PE.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="440" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Podłączenie ograniczników w rozdzielnicy: 3+0 i 3+1</text>
+<rect x="20" y="50" width="390" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="215" y="76" class="podt" text-anchor="middle">3+0 — w miejscu podziału PEN</text>
+<text x="34" y="115" class="podt" text-anchor="start" style="fill:#8b4513">L1</text>
+<line x1="65" y1="110" x2="390" y2="110" stroke="#8b4513" stroke-width="3"/>
+<text x="34" y="145" class="podt" text-anchor="start" style="fill:#222">L2</text>
+<line x1="65" y1="140" x2="390" y2="140" stroke="#222" stroke-width="3"/>
+<text x="34" y="175" class="podt" text-anchor="start" style="fill:#95a5a6">L3</text>
+<line x1="65" y1="170" x2="390" y2="170" stroke="#95a5a6" stroke-width="3"/>
+<text x="34" y="345" class="podt" text-anchor="start" style="fill:#1e8449">PEN</text>
+<line x1="75" y1="340" x2="390" y2="340" stroke="#27ae60" stroke-width="3"/>
+<circle cx="110" cy="110" r="4" fill="#1a1a1a"/>
+<line x1="110" y1="110" x2="110" y2="240" stroke="#8b4513" stroke-width="2.5"/>
+<rect x="92" y="240" width="36" height="46" rx="4" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="110" y="268" class="podt" text-anchor="middle">V</text>
+<circle cx="180" cy="140" r="4" fill="#1a1a1a"/>
+<line x1="180" y1="140" x2="180" y2="240" stroke="#222" stroke-width="2.5"/>
+<rect x="162" y="240" width="36" height="46" rx="4" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="180" y="268" class="podt" text-anchor="middle">V</text>
+<circle cx="250" cy="170" r="4" fill="#1a1a1a"/>
+<line x1="250" y1="170" x2="250" y2="240" stroke="#95a5a6" stroke-width="2.5"/>
+<rect x="232" y="240" width="36" height="46" rx="4" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="250" y="268" class="podt" text-anchor="middle">V</text>
+<line x1="110" y1="286" x2="110" y2="340" stroke="#27ae60" stroke-width="2.5"/>
+<circle cx="110" cy="340" r="4" fill="#1a1a1a"/>
+<line x1="180" y1="286" x2="180" y2="340" stroke="#27ae60" stroke-width="2.5"/>
+<circle cx="180" cy="340" r="4" fill="#1a1a1a"/>
+<line x1="250" y1="286" x2="250" y2="340" stroke="#27ae60" stroke-width="2.5"/>
+<circle cx="250" cy="340" r="4" fill="#1a1a1a"/>
+<text x="320" y="260" class="male" text-anchor="middle">warystory</text>
+<text x="320" y="276" class="male" text-anchor="middle">L–PEN</text>
+<rect x="430" y="50" width="390" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="625" y="76" class="podt" text-anchor="middle">3+1 (CT2) — TT i przed RCD</text>
+<text x="444" y="115" class="podt" text-anchor="start" style="fill:#8b4513">L1</text>
+<line x1="475" y1="110" x2="800" y2="110" stroke="#8b4513" stroke-width="3"/>
+<text x="444" y="145" class="podt" text-anchor="start" style="fill:#222">L2</text>
+<line x1="475" y1="140" x2="800" y2="140" stroke="#222" stroke-width="3"/>
+<text x="444" y="175" class="podt" text-anchor="start" style="fill:#95a5a6">L3</text>
+<line x1="475" y1="170" x2="800" y2="170" stroke="#95a5a6" stroke-width="3"/>
+<text x="444" y="205" class="podt" text-anchor="start" style="fill:#3498db">N</text>
+<line x1="475" y1="200" x2="800" y2="200" stroke="#3498db" stroke-width="3"/>
+<text x="444" y="345" class="podt" text-anchor="start" style="fill:#1e8449">PE</text>
+<line x1="485" y1="340" x2="800" y2="340" stroke="#27ae60" stroke-width="3"/>
+<circle cx="520" cy="110" r="4" fill="#1a1a1a"/>
+<line x1="520" y1="110" x2="520" y2="240" stroke="#8b4513" stroke-width="2.5"/>
+<rect x="502" y="240" width="36" height="46" rx="4" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="520" y="268" class="podt" text-anchor="middle">V</text>
+<circle cx="590" cy="140" r="4" fill="#1a1a1a"/>
+<line x1="590" y1="140" x2="590" y2="240" stroke="#222" stroke-width="2.5"/>
+<rect x="572" y="240" width="36" height="46" rx="4" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="590" y="268" class="podt" text-anchor="middle">V</text>
+<circle cx="660" cy="170" r="4" fill="#1a1a1a"/>
+<line x1="660" y1="170" x2="660" y2="240" stroke="#95a5a6" stroke-width="2.5"/>
+<rect x="642" y="240" width="36" height="46" rx="4" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="660" y="268" class="podt" text-anchor="middle">V</text>
+<line x1="520" y1="286" x2="520" y2="292" stroke="#1f5fbf" stroke-width="2.5"/>
+<line x1="590" y1="286" x2="590" y2="292" stroke="#1f5fbf" stroke-width="2.5"/>
+<line x1="660" y1="286" x2="660" y2="292" stroke="#1f5fbf" stroke-width="2.5"/>
+<line x1="520" y1="292" x2="730" y2="292" stroke="#1f5fbf" stroke-width="2.5"/>
+<circle cx="730" cy="200" r="4" fill="#1a1a1a"/>
+<circle cx="730" cy="292" r="4" fill="#1a1a1a"/>
+<line x1="730" y1="200" x2="730" y2="300" stroke="#3498db" stroke-width="2.5"/>
+<rect x="715" y="300" width="30" height="34" rx="4" fill="#fef5e7" stroke="#e67e22" stroke-width="2"/>
+<text x="730" y="322" class="podt" text-anchor="middle">G</text>
+<line x1="730" y1="334" x2="730" y2="340" stroke="#27ae60" stroke-width="2.5"/>
+<circle cx="730" cy="340" r="4" fill="#1a1a1a"/>
+<text x="754" y="312" class="male" text-anchor="start">iskiernik</text>
+<text x="754" y="328" class="male" text-anchor="start">N–PE</text>
+<text x="590" y="228" class="male" text-anchor="middle">warystory L–N</text>
+<text x="420" y="405" class="male" text-anchor="middle">V — warystor, G — iskiernik sumujący. Za podziałem PEN (TN-S) i w TT: 3+1 albo 4+0. W 3+1 uszkodzony</text>
+<text x="420" y="423" class="male" text-anchor="middle">warystor nie łączy fazy z PE, dlatego ten układ stosuje się w TT i przed wyłącznikiem różnicowoprądowym.</text>
+</svg>

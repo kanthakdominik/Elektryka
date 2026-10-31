@@ -146,7 +146,17 @@ Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jes
 - [ ] ✅ Jak postępować, gdy wyłącznik różnicowoprądowy samoczynnie wyłącza obwód? → [08.06](../modules/08-wylaczniki-roznicowopradowe/08.06-dlaczego-roznicowka-wybija-przyczyny-i-szukanie.md#pytania-sep)
 - [ ] ✅ Jak zapewnić selektywność wyłączników różnicowoprądowych połączonych szeregowo? → [08.07](../modules/08-wylaczniki-roznicowopradowe/08.07-podzial-obwodow-miedzy-wylaczniki.md#pytania-sep)
 - [ ] ✅ Dlaczego nie zaleca się stosowania jednego wyłącznika różnicowoprądowego dla całej instalacji mieszkania? → [08.07](../modules/08-wylaczniki-roznicowopradowe/08.07-podzial-obwodow-miedzy-wylaczniki.md#pytania-sep)
-- [ ] Omów ograniczniki przepięć typu 1, 2 i 3. → [09](../modules/09-ochrona-przeciwprzepieciowa/README.md)
+- [ ] ✅ Jakie są przyczyny powstawania przepięć w instalacjach niskiego napięcia? → [09.01](../modules/09-ochrona-przeciwprzepieciowa/09.01-skad-biora-sie-przepiecia.md#pytania-sep)
+- [ ] ✅ Czym różni się udar prądowy 10/350 μs od 8/20 μs? → [09.01](../modules/09-ochrona-przeciwprzepieciowa/09.01-skad-biora-sie-przepiecia.md#pytania-sep)
+- [ ] ✅ Co oznaczają kategorie wytrzymałości udarowej (kategorie przepięciowe) urządzeń? → [09.02](../modules/09-ochrona-przeciwprzepieciowa/09.02-kategorie-wytrzymalosci-udarowej-iiv.md#pytania-sep)
+- [ ] ✅ Kiedy wymagana jest ochrona przed przepięciami w instalacji budynku? → [09.02](../modules/09-ochrona-przeciwprzepieciowa/09.02-kategorie-wytrzymalosci-udarowej-iiv.md#pytania-sep)
+- [ ] ✅ Jakie typy ograniczników przepięć stosuje się w instalacjach niskiego napięcia i gdzie się je instaluje? → [09.03](../modules/09-ochrona-przeciwprzepieciowa/09.03-ograniczniki-przepiec-typu-1-2-i-3.md#pytania-sep)
+- [ ] ✅ Jakie są podstawowe parametry ogranicznika przepięć? → [09.03](../modules/09-ochrona-przeciwprzepieciowa/09.03-ograniczniki-przepiec-typu-1-2-i-3.md#pytania-sep)
+- [ ] ✅ Jak działa warystor w ograniczniku przepięć? → [09.03](../modules/09-ochrona-przeciwprzepieciowa/09.03-ograniczniki-przepiec-typu-1-2-i-3.md#pytania-sep)
+- [ ] ✅ Jakie zasady obowiązują przy montażu ograniczników przepięć? → [09.04](../modules/09-ochrona-przeciwprzepieciowa/09.04-montaz-ogranicznika-dlugosc-polaczen-i.md#pytania-sep)
+- [ ] ✅ Dlaczego przewody przyłączające ogranicznik przepięć muszą być jak najkrótsze? → [09.04](../modules/09-ochrona-przeciwprzepieciowa/09.04-montaz-ogranicznika-dlugosc-polaczen-i.md#pytania-sep)
+- [ ] ✅ Z jakich elementów składa się instalacja odgromowa? → [09.05](../modules/09-ochrona-przeciwprzepieciowa/09.05-ochrona-odgromowa-budynku-podstawy.md#pytania-sep)
+- [ ] ✅ Jakie badania wykonuje się w instalacji piorunochronnej i jak często? → [09.05](../modules/09-ochrona-przeciwprzepieciowa/09.05-ochrona-odgromowa-budynku-podstawy.md#pytania-sep)
 
 ## Przewody i instalacje w budynkach — (a), (c)
 

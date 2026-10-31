@@ -78,7 +78,7 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 | 06 | [Osprzęt instalacyjny](modules/06-osprzet-instalacyjny/README.md) | 🏠 | 6 | ✅ pełny |
 | 07 | [Zabezpieczenia nadprądowe](modules/07-zabezpieczenia-nadpradowe/README.md) | 🏠📋 | 7 | ✅ pełny |
 | 08 | [Wyłączniki różnicowoprądowe](modules/08-wylaczniki-roznicowopradowe/README.md) | 🏠📋 | 7 | ✅ pełny |
-| 09 | [Ochrona przeciwprzepięciowa](modules/09-ochrona-przeciwprzepieciowa/README.md) | 🏠📋 | 5 | 🔲 szkielet |
+| 09 | [Ochrona przeciwprzepięciowa](modules/09-ochrona-przeciwprzepieciowa/README.md) | 🏠📋 | 5 | ✅ pełny |
 | 10 | [Aparatura modułowa](modules/10-aparatura-modulowa/README.md) | 🏠 | 6 | 🔲 szkielet |
 
 ### III. Systemy ochrony

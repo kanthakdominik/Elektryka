@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 540" width="840" height="540" role="img" aria-labelledby="t d">
+  <title id="t">Źródła przepięć</title>
+  <desc id="d">Rysunek domu zasilanego linią napowietrzną z czterema źródłami przepięć: 1 — uderzenie pioruna w budynek lub instalację odgromową, największa energia; 2 — uderzenie w linię zasilającą lub w jej pobliżu, fala biegnie do budynku; 3 — uderzenie w pobliżu, pole elektromagnetyczne indukuje napięcia w przewodach; 4 — przepięcia łączeniowe przy załączaniu silników i transformatorów oraz zadziałaniu bezpieczników.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="540" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Skąd biorą się przepięcia</text>
+<rect x="20" y="380" width="800" height="20" fill="#a3c585"/>
+<rect x="430" y="240" width="220" height="140" fill="#fdf6e3" stroke="#7f8c8d" stroke-width="2"/>
+<path d="M415 240 L540.0 170 L665 240 Z" fill="#c0392b" fill-opacity="0.25" stroke="#7f8c8d" stroke-width="2"/>
+<line x1="60" y1="380" x2="60" y2="190" stroke="#6e4b2a" stroke-width="6"/>
+<line x1="35" y1="200" x2="85" y2="200" stroke="#6e4b2a" stroke-width="4"/>
+<line x1="250" y1="380" x2="250" y2="190" stroke="#6e4b2a" stroke-width="6"/>
+<line x1="225" y1="200" x2="275" y2="200" stroke="#6e4b2a" stroke-width="4"/>
+<path d="M35 200 Q155 225 275 200" fill="none" stroke="#333" stroke-width="2"/>
+<path d="M275 200 Q360 225 430 270" fill="none" stroke="#333" stroke-width="2"/>
+<text x="160" y="250" class="male" text-anchor="middle">linia zasilająca nn</text>
+<path d="M530.0 70.0 L512.5 117.5 L532.5 117.5 L515.0 170.0 L557.5 107.5 L537.5 107.5 L552.5 70.0 Z" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+<circle cx="590" cy="90" r="14" fill="#2c3e50"/>
+<text x="590" y="95" class="podt" text-anchor="middle" style="fill:#ffffff">1</text>
+<path d="M150.0 95.0 L134.6 136.8 L152.2 136.8 L136.8 183.0 L174.2 128.0 L156.6 128.0 L169.8 95.0 Z" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+<circle cx="110" cy="110" r="14" fill="#2c3e50"/>
+<text x="110" y="115" class="podt" text-anchor="middle" style="fill:#ffffff">2</text>
+<path d="M745.0 160.0 L728.2 205.6 L747.4 205.6 L730.6 256.0 L771.4 196.0 L752.2 196.0 L766.6 160.0 Z" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+<circle cx="800" cy="175" r="14" fill="#2c3e50"/>
+<text x="800" y="180" class="podt" text-anchor="middle" style="fill:#ffffff">3</text>
+<path d="M730 380 A30 15.0 0 0 1 790 380" fill="none" stroke="#f39c12" stroke-width="1.5" stroke-dasharray="4 3"/>
+<path d="M705 380 A55 27.5 0 0 1 815 380" fill="none" stroke="#f39c12" stroke-width="1.5" stroke-dasharray="4 3"/>
+<path d="M680 380 A80 40.0 0 0 1 840 380" fill="none" stroke="#f39c12" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="465" y="300" width="60" height="50" rx="6" fill="#d6dbdf" stroke="#566573"/>
+<text x="495" y="330" class="male" text-anchor="middle">silnik</text>
+<path d="M535 325 l8 -10 l-6 0 l8 -12" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="600" cy="320" r="14" fill="#2c3e50"/>
+<text x="600" y="325" class="podt" text-anchor="middle" style="fill:#ffffff">4</text>
+<rect x="20" y="415" width="800" height="110" rx="8" class="ramka"/>
+<text x="36" y="440" class="opis" text-anchor="start">1 — uderzenie w budynek lub instalację odgromową — największa energia</text>
+<text x="36" y="464" class="opis" text-anchor="start">2 — uderzenie w linię zasilającą lub w jej pobliżu — fala biegnie do budynku</text>
+<text x="36" y="488" class="opis" text-anchor="start">3 — uderzenie w pobliżu — pole indukuje napięcia w przewodach</text>
+<text x="36" y="512" class="opis" text-anchor="start">4 — przełączenia: silniki, transformatory, zadziałanie bezpieczników</text>
+</svg>
