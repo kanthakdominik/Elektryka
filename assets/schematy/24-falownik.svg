@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 480" width="840" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Przemiennik częstotliwości</title>
+  <desc id="d">Schemat blokowy falownika: sieć trójfazowa 400 V 50 Hz, prostownik diodowy zamieniający prąd przemienny na stały, obwód pośredni DC z kondensatorami około 560 V, falownik z tranzystorami IGBT wytwarzający napięcie o regulowanej częstotliwości metodą PWM, silnik. Pod spodem przebiegi: sinusoida sieci, napięcie stałe, impulsy PWM. Wykres: moc pompy lub wentylatora rośnie z sześcianem prędkości, przy 80 procentach obrotów potrzeba około 51 procent mocy. Uwagi instalacyjne: różnicówka typu B lub F według producenta, duże prądy upływu, przewód ekranowany, słabsze chłodzenie przy małych obrotach, napięcie w obwodzie DC po wyłączeniu.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="480" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Przemiennik częstotliwości (falownik) — co jest w środku</text>
+<rect x="40" y="60" width="130" height="80" rx="8" fill="#ecf0f1" stroke="#555" stroke-width="1.4"/>
+<text x="105" y="92" class="podt" text-anchor="middle">sieć</text>
+<text x="105" y="116" class="male" text-anchor="middle">3~ 400 V 50 Hz</text>
+<rect x="200" y="60" width="130" height="80" rx="8" fill="#fdebd0" stroke="#555" stroke-width="1.4"/>
+<text x="265" y="92" class="podt" text-anchor="middle">prostownik</text>
+<text x="265" y="116" class="male" text-anchor="middle">diody: AC → DC</text>
+<rect x="360" y="60" width="130" height="80" rx="8" fill="#fcf3cf" stroke="#555" stroke-width="1.4"/>
+<text x="425" y="92" class="podt" text-anchor="middle">obwód DC</text>
+<text x="425" y="116" class="male" text-anchor="middle">ok. 560 V DC</text>
+<rect x="520" y="60" width="130" height="80" rx="8" fill="#d6eaf8" stroke="#555" stroke-width="1.4"/>
+<text x="585" y="92" class="podt" text-anchor="middle">falownik</text>
+<text x="585" y="116" class="male" text-anchor="middle">IGBT, PWM</text>
+<rect x="680" y="60" width="130" height="80" rx="8" fill="#e9f7ef" stroke="#555" stroke-width="1.4"/>
+<text x="745" y="92" class="podt" text-anchor="middle">silnik</text>
+<text x="745" y="116" class="male" text-anchor="middle">0–50 Hz (i więcej)</text>
+<line x1="170" y1="100" x2="200" y2="100" stroke="#555" stroke-width="2"/><path d="M200.0 100.0 L191.7 103.5 L191.7 96.5 Z" fill="#555"/>
+<line x1="330" y1="100" x2="360" y2="100" stroke="#555" stroke-width="2"/><path d="M360.0 100.0 L351.7 103.5 L351.7 96.5 Z" fill="#555"/>
+<line x1="490" y1="100" x2="520" y2="100" stroke="#555" stroke-width="2"/><path d="M520.0 100.0 L511.7 103.5 L511.7 96.5 Z" fill="#555"/>
+<line x1="650" y1="100" x2="680" y2="100" stroke="#555" stroke-width="2"/><path d="M680.0 100.0 L671.7 103.5 L671.7 96.5 Z" fill="#555"/>
+<line x1="40" y1="190" x2="170" y2="190" stroke="#bbb" stroke-width="1"/>
+<path d="M40.0 190.0 L41.3 187.2 L42.6 184.5 L43.9 181.9 L45.2 179.4 L46.5 177.1 L47.8 174.9 L49.1 173.0 L50.4 171.4 L51.7 170.1 L53.0 169.1 L54.3 168.4 L55.6 168.0 L56.9 168.0 L58.2 168.4 L59.5 169.1 L60.8 170.1 L62.1 171.4 L63.4 173.0 L64.7 174.9 L66.0 177.1 L67.3 179.4 L68.6 181.9 L69.9 184.5 L71.2 187.2 L72.5 190.0 L73.8 192.8 L75.1 195.5 L76.4 198.1 L77.7 200.6 L79.0 202.9 L80.3 205.1 L81.6 207.0 L82.9 208.6 L84.2 209.9 L85.5 210.9 L86.8 211.6 L88.1 212.0 L89.4 212.0 L90.7 211.6 L92.0 210.9 L93.3 209.9 L94.6 208.6 L95.9 207.0 L97.2 205.1 L98.5 202.9 L99.8 200.6 L101.1 198.1 L102.4 195.5 L103.7 192.8 L105.0 190.0 L106.3 187.2 L107.6 184.5 L108.9 181.9 L110.2 179.4 L111.5 177.1 L112.8 174.9 L114.1 173.0 L115.4 171.4 L116.7 170.1 L118.0 169.1 L119.3 168.4 L120.6 168.0 L121.9 168.0 L123.2 168.4 L124.5 169.1 L125.8 170.1 L127.1 171.4 L128.4 173.0 L129.7 174.9 L131.0 177.1 L132.3 179.4 L133.6 181.9 L134.9 184.5 L136.2 187.2 L137.5 190.0 L138.8 192.8 L140.1 195.5 L141.4 198.1 L142.7 200.6 L144.0 202.9 L145.3 205.1 L146.6 207.0 L147.9 208.6 L149.2 209.9 L150.5 210.9 L151.8 211.6 L153.1 212.0 L154.4 212.0 L155.7 211.6 L157.0 210.9 L158.3 209.9 L159.6 208.6 L160.9 207.0 L162.2 205.1 L163.5 202.9 L164.8 200.6 L166.1 198.1 L167.4 195.5 L168.7 192.8 L170.0 190.0" fill="none" stroke="#c0392b" stroke-width="2"/>
+<line x1="360" y1="190" x2="490" y2="190" stroke="#bbb" stroke-width="1"/>
+<line x1="360" y1="166" x2="490" y2="166" stroke="#c0392b" stroke-width="2.5"/>
+<line x1="680" y1="190" x2="810" y2="190" stroke="#bbb" stroke-width="1"/>
+<rect x="680" y="168" width="0.5" height="22" fill="#2e86c1"/>
+<rect x="685" y="168" width="1.6965783214377888" height="22" fill="#2e86c1"/>
+<rect x="690" y="168" width="2.823615860218843" height="22" fill="#2e86c1"/>
+<rect x="695" y="168" width="3.815613291203976" height="22" fill="#2e86c1"/>
+<rect x="700" y="168" width="4.614919329468282" height="22" fill="#2e86c1"/>
+<rect x="705" y="168" width="5.175081213427074" height="22" fill="#2e86c1"/>
+<rect x="710" y="168" width="5.46354437049027" height="22" fill="#2e86c1"/>
+<rect x="715" y="168" width="5.46354437049027" height="22" fill="#2e86c1"/>
+<rect x="720" y="168" width="5.175081213427074" height="22" fill="#2e86c1"/>
+<rect x="725" y="168" width="4.614919329468282" height="22" fill="#2e86c1"/>
+<rect x="730" y="168" width="3.815613291203976" height="22" fill="#2e86c1"/>
+<rect x="735" y="168" width="2.8236158602188435" height="22" fill="#2e86c1"/>
+<rect x="740" y="168" width="1.6965783214377885" height="22" fill="#2e86c1"/>
+<rect x="745" y="168" width="0.5000000000000007" height="22" fill="#2e86c1"/>
+<rect x="750" y="190" width="1.6965783214377872" height="22" fill="#2e86c1"/>
+<rect x="755" y="190" width="2.8236158602188404" height="22" fill="#2e86c1"/>
+<rect x="760" y="190" width="3.8156132912039764" height="22" fill="#2e86c1"/>
+<rect x="765" y="190" width="4.6149193294682815" height="22" fill="#2e86c1"/>
+<rect x="770" y="190" width="5.175081213427074" height="22" fill="#2e86c1"/>
+<rect x="775" y="190" width="5.46354437049027" height="22" fill="#2e86c1"/>
+<rect x="780" y="190" width="5.46354437049027" height="22" fill="#2e86c1"/>
+<rect x="785" y="190" width="5.175081213427074" height="22" fill="#2e86c1"/>
+<rect x="790" y="190" width="4.614919329468282" height="22" fill="#2e86c1"/>
+<rect x="795" y="190" width="3.8156132912039777" height="22" fill="#2e86c1"/>
+<rect x="800" y="190" width="2.823615860218842" height="22" fill="#2e86c1"/>
+<rect x="805" y="190" width="1.696578321437789" height="22" fill="#2e86c1"/>
+<text x="210" y="250" class="podt" text-anchor="middle">Pompa / wentylator: moc ∝ (prędkość)³</text>
+<line x1="60" y1="450" x2="360" y2="450" stroke="#555" stroke-width="1.5"/>
+<line x1="60" y1="450" x2="60" y2="280" stroke="#555" stroke-width="1.5"/>
+<path d="M60.0 450.0 L66.0 450.0 L72.0 450.0 L78.0 450.0 L84.0 449.9 L90.0 449.8 L96.0 449.7 L102.0 449.5 L108.0 449.3 L114.0 449.0 L120.0 448.6 L126.0 448.2 L132.0 447.6 L138.0 447.0 L144.0 446.3 L150.0 445.4 L156.0 444.4 L162.0 443.3 L168.0 442.1 L174.0 440.7 L180.0 439.1 L186.0 437.4 L192.0 435.5 L198.0 433.5 L204.0 431.2 L210.0 428.8 L216.0 426.1 L222.0 423.2 L228.0 420.1 L234.0 416.8 L240.0 413.3 L246.0 409.5 L252.0 405.4 L258.0 401.1 L264.0 396.5 L270.0 391.7 L276.0 386.5 L282.0 381.1 L288.0 375.4 L294.0 369.3 L300.0 363.0 L306.0 356.3 L312.0 349.2 L318.0 341.9 L324.0 334.1 L330.0 326.1 L336.0 317.6 L342.0 308.8 L348.0 299.6 L354.0 290.0 L360.0 280.0" fill="none" stroke="#27ae60" stroke-width="3"/>
+<line x1="300.0" y1="450" x2="300.0" y2="362.96" stroke="#555" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="60" y1="362.96" x2="300.0" y2="362.96" stroke="#555" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="300.0" y="468" class="male" text-anchor="middle">80 % obrotów</text>
+<text x="54" y="366.96" class="male" text-anchor="end">51 %</text>
+<text x="368" y="454" class="male" text-anchor="start">100 %</text>
+<text x="54" y="284" class="male" text-anchor="end">100 %</text>
+<text x="420" y="270" class="male" text-anchor="start">W instalacji pamiętaj:</text>
+<text x="420" y="292" class="male" text-anchor="start">• RCD: typ B (lub F, jeśli producent dopuszcza) —</text>
+<text x="420" y="314" class="male" text-anchor="start">  prądy upływu z DC i wysokiej częstotliwości;</text>
+<text x="420" y="336" class="male" text-anchor="start">• duży prąd upływu przez filtry EMC — osobny RCD,</text>
+<text x="420" y="358" class="male" text-anchor="start">  czasem 100–300 mA tam, gdzie wolno;</text>
+<text x="420" y="380" class="male" text-anchor="start">• przewód silnikowy ekranowany, ekran z obu stron do PE;</text>
+<text x="420" y="402" class="male" text-anchor="start">• przy małych obrotach silnik słabiej się chłodzi;</text>
+<text x="420" y="424" class="male" text-anchor="start">• po wyłączeniu w obwodzie DC jest napięcie —</text>
+<text x="420" y="446" class="male" text-anchor="start">  odczekaj czas z instrukcji przed otwarciem.</text>
+</svg>

@@ -125,7 +125,6 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `22-termowizja-praca.jpg` | U.S. Navy photo by Photographer's Mate 3rd Class Konstandinos Goumenidis | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:US_Navy_050524-N-8213G-009_Electrician%27s_Mate_Fireman_Kenneth_Kimbrell_from_Temple,_Texas,_checks_the_fuse_temperature_on_an_infrared_thermal_camera_used_for_maintenance.jpg) |
 | `23-miernik-izolacji.jpg` | Megger Ltd. | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MIT520_by_Megger.jpg) |
 | `23-induktor.jpg` | Tambo | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Megger.jpeg) |
-| `24-tabliczka.jpg` | Rotkaeppchen68 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Typenschild_eines_Drehstromasynchronmotors.jpg) |
 | `24-tabliczka-2.jpg` | Denis Apel | CC BY-SA 2.0 de | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Typenschild-Drehstrom-Asynchronmaschine_apel.jpg) |
 | `24-przekaznik-termiczny.jpg` | Mik81 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Motorschutzrelais.jpg) |
 | `24-wylacznik-silnikowy.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thermo-Magnetic_interrupter_from_motor-protective_circuit_breaker.JPG) |

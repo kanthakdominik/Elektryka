@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 455" width="840" height="455" role="img" aria-labelledby="t d">
+  <title id="t">Kolejność badań odbiorczych</title>
+  <desc id="d">Kolejność sprawdzenia odbiorczego według PN-HD 60364-6. Najpierw oględziny bez napięcia. Potem próby bez napięcia: ciągłość przewodów ochronnych i wyrównawczych prądem co najmniej 0,2 A, rezystancja izolacji 500 V DC co najmniej 1 MΩ, ochrona SELV, PELV lub separacja, rezystancja podłóg i ścian gdy wymagana. Następnie pod napięciem: samoczynne wyłączenie zasilania (pętla zwarcia, uziemienie w TT), badanie wyłączników różnicowoprądowych, biegunowość, kolejność faz, próby funkcjonalne i spadek napięcia. Przy wyniku negatywnym usterkę usuwa się i powtarza ten pomiar oraz wcześniejsze, na które mogła wpłynąć.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="455" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Sprawdzenie odbiorcze instalacji — kolejność (PN-HD 60364-6)</text>
+<rect x="30" y="55" width="380" height="52" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="44" y="77" class="podt" text-anchor="start">Oględziny</text>
+<text x="44" y="97" class="male" text-anchor="start">bez napięcia: dobór, oznaczenia, osłony, połączenia</text>
+<rect x="30" y="117" width="380" height="52" rx="8" fill="#e9f7ef" stroke="#239b56" stroke-width="1.4"/>
+<text x="44" y="139" class="podt" text-anchor="start">1. Ciągłość przewodów</text>
+<text x="44" y="159" class="male" text-anchor="start">PE i połączeń wyrównawczych, ≥ 0,2 A</text>
+<rect x="30" y="179" width="380" height="52" rx="8" fill="#e9f7ef" stroke="#239b56" stroke-width="1.4"/>
+<text x="44" y="201" class="podt" text-anchor="start">2. Rezystancja izolacji</text>
+<text x="44" y="221" class="male" text-anchor="start">500 V DC, ≥ 1 MΩ</text>
+<rect x="30" y="241" width="380" height="52" rx="8" fill="#e9f7ef" stroke="#239b56" stroke-width="1.4"/>
+<text x="44" y="263" class="podt" text-anchor="start">3. SELV, PELV, separacja</text>
+<text x="44" y="283" class="male" text-anchor="start">oddzielenie obwodów</text>
+<rect x="30" y="303" width="380" height="52" rx="8" fill="#e9f7ef" stroke="#239b56" stroke-width="1.4"/>
+<text x="44" y="325" class="podt" text-anchor="start">4. Rezystancja podłóg i ścian</text>
+<text x="44" y="345" class="male" text-anchor="start">tylko gdy wymagana</text>
+<rect x="30" y="365" width="380" height="52" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="44" y="387" class="podt" text-anchor="start">5. Samoczynne wyłączenie</text>
+<text x="44" y="407" class="male" text-anchor="start">pętla zwarcia, uziemienie (TT)</text>
+<rect x="430" y="55" width="380" height="52" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="444" y="77" class="podt" text-anchor="start">6. Ochrona uzupełniająca</text>
+<text x="444" y="97" class="male" text-anchor="start">badanie RCD</text>
+<rect x="430" y="117" width="380" height="52" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="444" y="139" class="podt" text-anchor="start">7. Biegunowość</text>
+<text x="444" y="159" class="male" text-anchor="start">łączniki 1P w L</text>
+<rect x="430" y="179" width="380" height="52" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="444" y="201" class="podt" text-anchor="start">8. Kolejność faz</text>
+<text x="444" y="221" class="male" text-anchor="start">instalacje wielofazowe</text>
+<rect x="430" y="241" width="380" height="52" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="444" y="263" class="podt" text-anchor="start">9. Próby funkcjonalne</text>
+<text x="444" y="283" class="male" text-anchor="start">działanie aparatów, TEST</text>
+<rect x="430" y="303" width="380" height="52" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="444" y="325" class="podt" text-anchor="start">10. Spadek napięcia</text>
+<text x="444" y="345" class="male" text-anchor="start">gdy wymagany</text>
+<text x="225" y="440" class="podt" text-anchor="middle" style="fill:#239b56">bez napięcia</text>
+<text x="625" y="440" class="podt" text-anchor="middle" style="fill:#e67e22">pod napięciem</text>
+<rect x="430" y="372" width="380" height="52" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="444" y="394" class="male" text-anchor="start">Wynik negatywny → popraw i powtórz ten pomiar</text>
+<text x="444" y="414" class="male" text-anchor="start">oraz wcześniejsze, na które usterka mogła wpłynąć.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" width="840" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Kolejność faz</title>
+  <desc id="d">Wskaźnik kolejności faz z trzema przewodami pomiarowymi L1, L2, L3 i wskazaniem R, czyli prawego pola wirującego. Opis: R lub zgodnie z ruchem wskazówek zegara oznacza prawidłową kolejność L1, L2, L3; L lub przeciwnie oznacza zamienione dwie fazy; brak fazy — dioda nie świeci. Sprawdza się gniazda trójfazowe, zaciski silników, pomp i sprężarek, po każdej przeróbce zasilania. Zła kolejność powoduje obroty w przeciwną stronę; poprawka przez zamianę dwóch faz po wyłączeniu napięcia.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="420" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Kolejność faz — wskaźnik pola wirującego</text>
+<rect x="80" y="70" width="200" height="260" rx="20" fill="#f9e79f" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="180" cy="160" r="55" fill="#ffffff" stroke="#555" stroke-width="2"/>
+<path d="M180 105 A55 55 0 0 1 235 160" fill="none" stroke="#27ae60" stroke-width="6"/>
+<path d="M232 150 l3 14 l10 -10 Z" fill="#27ae60"/>
+<text x="180" y="166" class="duze" text-anchor="middle" style="fill:#27ae60">R</text>
+<circle cx="120" cy="250" r="9" fill="#d5f5e3" stroke="#555"/>
+<text x="120" y="280" class="male" text-anchor="middle" style="font-weight:bold">L1</text>
+<line x1="120" y1="330" x2="120" y2="380" stroke="#8b4513" stroke-width="4"/>
+<circle cx="180" cy="250" r="9" fill="#d5f5e3" stroke="#555"/>
+<text x="180" y="280" class="male" text-anchor="middle" style="font-weight:bold">L2</text>
+<line x1="180" y1="330" x2="180" y2="380" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="240" cy="250" r="9" fill="#d5f5e3" stroke="#555"/>
+<text x="240" y="280" class="male" text-anchor="middle" style="font-weight:bold">L3</text>
+<line x1="240" y1="330" x2="240" y2="380" stroke="#7f8c8d" stroke-width="4"/>
+<text x="180" y="400" class="male" text-anchor="middle">przewody pomiarowe L1, L2, L3</text>
+<text x="330" y="90" class="male" text-anchor="start">Co pokazuje:</text>
+<text x="330" y="111" class="male" text-anchor="start">• R / zgodnie z ruchem wskazówek zegara — kolejność prawidłowa</text>
+<text x="330" y="132" class="male" text-anchor="start">  (L1 → L2 → L3), tzw. prawe pole wirujące;</text>
+<text x="330" y="153" class="male" text-anchor="start">• L / przeciwnie — dwie fazy zamienione;</text>
+<text x="330" y="174" class="male" text-anchor="start">• brak jednej fazy — dioda fazy nie świeci.</text>
+<text x="330" y="195" class="male" text-anchor="start"></text>
+<text x="330" y="216" class="male" text-anchor="start">Gdzie sprawdzać:</text>
+<text x="330" y="237" class="male" text-anchor="start">• gniazda trójfazowe CEE (wszystkie w instalacji — ta sama kolejność),</text>
+<text x="330" y="258" class="male" text-anchor="start">• zaciski zasilania silników, pomp, sprężarek,</text>
+<text x="330" y="279" class="male" text-anchor="start">• po każdej przeróbce zasilania i rozdzielnicy.</text>
+<text x="330" y="300" class="male" text-anchor="start"></text>
+<text x="330" y="321" class="male" text-anchor="start">Dlaczego: zła kolejność = silnik kręci się w drugą stronę</text>
+<text x="330" y="342" class="male" text-anchor="start">(pompa nie tłoczy, wentylator ssie zamiast tłoczyć, piła</text>
+<text x="330" y="363" class="male" text-anchor="start">rzuca materiałem). Poprawka: zamiana dwóch faz w gnieździe</text>
+<text x="330" y="384" class="male" text-anchor="start">lub na zasilaniu — po wyłączeniu napięcia.</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="840" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Silniki jednofazowe</title>
+  <desc id="d">Po lewej silnik kondensatorowy: uzwojenie główne między L i N oraz uzwojenie pomocnicze z kondensatorem C połączone równolegle; kondensator przesuwa prąd i tworzy namiastkę pola wirującego; uszkodzony kondensator powoduje buczenie bez rozruchu. Po prawej silnik trójfazowy 230/400 V połączony w trójkąt i zasilany z jednej fazy 230 V z kondensatorem pracy około 70 µF na kilowat między jednym narożnikiem a fazą; moc spada do około dwóch trzecich. Pod spodem inne rodzaje silników jednofazowych oraz lepsza alternatywa: falownik z zasilaniem jednofazowym i wyjściem trójfazowym 230 V.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="460" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Silniki jednofazowe i silnik trójfazowy na jednej fazie</text>
+<rect x="20" y="50" width="390" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="215" y="76" class="podt" text-anchor="middle">Silnik kondensatorowy</text>
+<line x1="60" y1="110" x2="360" y2="110" stroke="#8b4513" stroke-width="3"/>
+<text x="50" y="115" class="male" text-anchor="end" style="fill:#8b4513;font-weight:bold">L</text>
+<line x1="60" y1="300" x2="360" y2="300" stroke="#1f5fbf" stroke-width="3"/>
+<text x="50" y="305" class="male" text-anchor="end" style="fill:#1f5fbf;font-weight:bold">N</text>
+<line x1="140" y1="110" x2="140" y2="130" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M140 130 A10 10 0 0 1 140 150" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M140 150 A10 10 0 0 1 140 170" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M140 170 A10 10 0 0 1 140 190" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M140 190 A10 10 0 0 1 140 210" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="140" y1="210" x2="140" y2="300" stroke="#1a1a1a" stroke-width="2"/>
+<text x="124" y="170" class="male" text-anchor="end">główne</text>
+<line x1="280" y1="110" x2="280" y2="140" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="266" y1="140" x2="294" y2="140" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="266" y1="150" x2="294" y2="150" stroke="#1a1a1a" stroke-width="3"/>
+<text x="300" y="150" class="podt" text-anchor="start">C</text>
+<line x1="280" y1="150" x2="280" y2="170" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M280 170 A10 10 0 0 1 280 190" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M280 190 A10 10 0 0 1 280 210" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M280 210 A10 10 0 0 1 280 230" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M280 230 A10 10 0 0 1 280 250" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="280" y1="250" x2="280" y2="300" stroke="#1a1a1a" stroke-width="2"/>
+<text x="264" y="210" class="male" text-anchor="end">pomocnicze</text>
+<text x="40" y="330" class="male" text-anchor="start">Kondensator przesuwa prąd w uzwojeniu pomocniczym</text>
+<text x="40" y="348" class="male" text-anchor="start">→ namiastka pola wirującego. Uszkodzony C: buczy, nie rusza.</text>
+<rect x="430" y="50" width="390" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="625" y="76" class="podt" text-anchor="middle">Silnik 3~ na 230 V (układ Steinmetza)</text>
+<path d="M625.0 130.0 L564.4 235.0 L685.6 235.0 Z" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="625.0" cy="130.0" r="5" fill="#1a1a1a"/>
+<circle cx="564.3782217350893" cy="235.0" r="5" fill="#1a1a1a"/>
+<circle cx="685.6217782649107" cy="235.00000000000003" r="5" fill="#1a1a1a"/>
+<path d="M470 110 L625.0 110 L625.0 130.0" fill="none" stroke="#8b4513" stroke-width="3"/>
+<text x="460" y="115" class="male" text-anchor="end" style="fill:#8b4513;font-weight:bold">L</text>
+<path d="M470 300 L564.3782217350893 300 L564.3782217350893 235.0" fill="none" stroke="#1f5fbf" stroke-width="3"/>
+<text x="460" y="305" class="male" text-anchor="end" style="fill:#1f5fbf;font-weight:bold">N</text>
+<path d="M685.6217782649107 235.00000000000003 L745.6217782649107 235.00000000000003 L745.6217782649107 135" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="731.6217782649107" y1="135" x2="759.6217782649107" y2="135" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="731.6217782649107" y1="125" x2="759.6217782649107" y2="125" stroke="#1a1a1a" stroke-width="3"/>
+<path d="M745.6217782649107 125 L745.6217782649107 110 L625.0 110" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<text x="757.6217782649107" y="98" class="male" text-anchor="end">C ≈ 70 µF/kW</text>
+<text x="445" y="330" class="male" text-anchor="start">Silnik 230/400 V w Δ, kondensator pracy ok. 70 µF na kW.</text>
+<text x="445" y="348" class="male" text-anchor="start">Moc spada do ok. ⅔, rozruch słaby — rozwiązanie awaryjne.</text>
+<rect x="20" y="395" width="800" height="52" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="40" y="417" class="male" text-anchor="start">Inne: silnik z kondensatorem rozruchowym i wyłącznikiem odśrodkowym (sprężarki), z biegunami zwartymi (małe wentylatory),</text>
+<text x="40" y="437" class="male" text-anchor="start">komutatorowy (wiertarki, odkurzacze). Lepsze od Steinmetza: falownik zasilany 1 × 230 V, wyjście 3 × 230 V do silnika w Δ.</text>
+</svg>

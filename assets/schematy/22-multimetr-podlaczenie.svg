@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" width="840" height="490" role="img" aria-labelledby="t d">
+  <title id="t">Multimetr — podłączenie</title>
+  <desc id="d">Trzy panele. Napięcie: multimetr równolegle do odbiornika, przewód czarny w gnieździe COM, czerwony w V, pokazuje 230 V. Prąd: obwód przerwany i multimetr włączony szeregowo, czerwony przewód w gnieździe A. Rezystancja: element odłączony od zasilania, przewody w COM i V. Ostrzeżenia: przewód w gnieździe A przy pomiarze napięcia daje zwarcie przez miernik; prąd w instalacji mierzy się cęgami; rezystancję i ciągłość tylko bez napięcia.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="490" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Multimetr — jak podłączyć do pomiaru napięcia, prądu i rezystancji</text>
+<rect x="20" y="50" width="260" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="150" y="76" class="podt" text-anchor="middle">Napięcie — równolegle</text>
+<rect x="90" y="230" width="120" height="120" rx="10" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.8"/>
+<rect x="100" y="240" width="100" height="32" rx="3" fill="#d5f5e3" stroke="#555"/>
+<text x="150.0" y="262" class="podt" text-anchor="middle">230 V</text>
+<circle cx="108.0" cy="328" r="7" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="108.0" y="316" class="male" text-anchor="middle">COM</text>
+<circle cx="150.0" cy="328" r="7" fill="#c0392b" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="150.0" y="316" class="male" text-anchor="middle">V Ω</text>
+<circle cx="192.0" cy="328" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="192.0" y="316" class="male" text-anchor="middle">A</text>
+<line x1="40" y1="110" x2="260" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="40" y1="170" x2="260" y2="170" stroke="#1f5fbf" stroke-width="3"/>
+<circle cx="245" cy="140" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="235.2" y1="130.2" x2="254.8" y2="149.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="235.2" y1="149.8" x2="254.8" y2="130.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="245" y1="110" x2="245" y2="126" stroke="#8b4513" stroke-width="2"/>
+<line x1="245" y1="154" x2="245" y2="170" stroke="#1f5fbf" stroke-width="2"/>
+<path d="M108.0 328 L108.0 200 L80 200 L80 170" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M150.0 328 L150.0 190 L170 190 L170 110" fill="none" stroke="#c0392b" stroke-width="2"/>
+<circle cx="80" cy="170" r="4" fill="#1a1a1a"/><circle cx="170" cy="110" r="4" fill="#1a1a1a"/>
+<rect x="295" y="50" width="260" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="425" y="76" class="podt" text-anchor="middle">Prąd — szeregowo</text>
+<rect x="365" y="230" width="120" height="120" rx="10" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.8"/>
+<rect x="375" y="240" width="100" height="32" rx="3" fill="#d5f5e3" stroke="#555"/>
+<text x="425.0" y="262" class="podt" text-anchor="middle">2,1 A</text>
+<circle cx="383.0" cy="328" r="7" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="383.0" y="316" class="male" text-anchor="middle">COM</text>
+<circle cx="425.0" cy="328" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="425.0" y="316" class="male" text-anchor="middle">V Ω</text>
+<circle cx="467.0" cy="328" r="7" fill="#c0392b" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="467.0" y="316" class="male" text-anchor="middle">A</text>
+<line x1="315" y1="110" x2="375" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="445" y1="110" x2="535" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="315" y1="170" x2="535" y2="170" stroke="#1f5fbf" stroke-width="3"/>
+<circle cx="520" cy="140" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="510.2" y1="130.2" x2="529.8" y2="149.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="510.2" y1="149.8" x2="529.8" y2="130.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="520" y1="110" x2="520" y2="126" stroke="#8b4513" stroke-width="2"/>
+<line x1="520" y1="154" x2="520" y2="170" stroke="#1f5fbf" stroke-width="2"/>
+<text x="410" y="102" class="male" text-anchor="middle" style="fill:#c0392b">przerwany obwód</text>
+<path d="M383.0 328 L383.0 190 L445 190 L445 110" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M467.0 328 L467.0 200 L375 200 L375 110" fill="none" stroke="#c0392b" stroke-width="2"/>
+<rect x="570" y="50" width="260" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="700" y="76" class="podt" text-anchor="middle">Rezystancja — bez napięcia</text>
+<rect x="640" y="230" width="120" height="120" rx="10" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.8"/>
+<rect x="650" y="240" width="100" height="32" rx="3" fill="#d5f5e3" stroke="#555"/>
+<text x="700.0" y="262" class="podt" text-anchor="middle">48 Ω</text>
+<circle cx="658.0" cy="328" r="7" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="658.0" y="316" class="male" text-anchor="middle">COM</text>
+<circle cx="700.0" cy="328" r="7" fill="#c0392b" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="700.0" y="316" class="male" text-anchor="middle">V Ω</text>
+<circle cx="742.0" cy="328" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="742.0" y="316" class="male" text-anchor="middle">A</text>
+<rect x="660" y="125" width="80" height="26" rx="4" fill="#fdebd0" stroke="#1a1a1a"/>
+<text x="700" y="143" class="male" text-anchor="middle">element</text>
+<path d="M658.0 328 L658.0 200 L640 200 L640 138 L660 138" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M700.0 328 L700.0 190 L760 190 L760 138 L740 138" fill="none" stroke="#c0392b" stroke-width="2"/>
+<text x="700" y="110" class="male" text-anchor="middle" style="fill:#c0392b">obwód odłączony od zasilania</text>
+<rect x="20" y="395" width="800" height="80" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="40" y="418" class="male" text-anchor="start">⚠ Przewód w gnieździe A i pomiar napięcia = zwarcie przez miernik (bezpiecznik miernika, łuk, oparzenie).</text>
+<text x="40" y="440" class="male" text-anchor="start">Po pomiarze prądu od razu przełóż przewód z gniazda A do V. Prąd w instalacji mierz cęgami (22.03), nie szeregowo.</text>
+<text x="40" y="462" class="male" text-anchor="start">Rezystancję i ciągłość mierzysz tylko w obwodzie bez napięcia — inaczej wynik jest fałszywy, a miernik może się uszkodzić.</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 445" width="840" height="445" role="img" aria-labelledby="t d">
+  <title id="t">Tabliczka znamionowa silnika</title>
+  <desc id="d">Przykładowa tabliczka znamionowa silnika trójfazowego z siedmioma ponumerowanymi polami i ich opisem: 1 silnik trójfazowy, typ; 2 napięcia 230/400 V trójkąt/gwiazda i 50 Hz; 3 prądy 5,6 i 3,2 A dla trójkąta i gwiazdy — nastawa przekaźnika termicznego; 4 moc mechaniczna 1,5 kW na wale i praca ciągła S1; 5 współczynnik mocy 0,80 i obroty 1420 na minutę, czyli silnik czterobiegunowy; 6 stopień ochrony IP55 i klasa izolacji F; 7 klasa sprawności IE3, sprawność 85,3 procent i sposób chłodzenia IC411. Pod spodem obliczenie: moc pobierana około 1,77 kW, sprawność około 85 procent, prąd 3,2 A z mocy na wale i sprawności, poślizg około 5,3 procent.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="445" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Tabliczka znamionowa silnika — co oznacza każde pole</text>
+<rect x="60" y="60" width="380" height="250" rx="10" fill="#d5d8dc" stroke="#1a1a1a" stroke-width="2"/>
+<text x="80" y="92" class="podt" text-anchor="start">3~ Mot.</text>
+<text x="280" y="92" class="podt" text-anchor="start">Typ  M2QA 90L4</text>
+<text x="80" y="123" class="podt" text-anchor="start">230/400 V  Δ/Y</text>
+<text x="280" y="123" class="podt" text-anchor="start">50 Hz</text>
+<text x="80" y="154" class="podt" text-anchor="start">5,6 / 3,2 A</text>
+<text x="280" y="154" class="podt" text-anchor="start"></text>
+<text x="80" y="185" class="podt" text-anchor="start">1,5 kW</text>
+<text x="280" y="185" class="podt" text-anchor="start">S1</text>
+<text x="80" y="216" class="podt" text-anchor="start">cos φ 0,80</text>
+<text x="280" y="216" class="podt" text-anchor="start">1420 1/min</text>
+<text x="80" y="247" class="podt" text-anchor="start">IP55</text>
+<text x="280" y="247" class="podt" text-anchor="start">Isol. Kl. F</text>
+<text x="80" y="278" class="podt" text-anchor="start">IE3  85,3 %</text>
+<text x="280" y="278" class="podt" text-anchor="start">IC411</text>
+<circle cx="490" cy="87" r="11" fill="#2e86c1"/>
+<text x="490" y="91" class="male" text-anchor="middle" style="fill:#ffffff;font-weight:bold">1</text>
+<text x="510" y="92" class="male" text-anchor="start">silnik trójfazowy, typ i wielkość mechaniczna</text>
+<circle cx="490" cy="118" r="11" fill="#2e86c1"/>
+<text x="490" y="122" class="male" text-anchor="middle" style="fill:#ffffff;font-weight:bold">2</text>
+<text x="510" y="123" class="male" text-anchor="start">napięcia: Δ dla 230 V, Y dla 400 V; częstotliwość</text>
+<circle cx="490" cy="149" r="11" fill="#2e86c1"/>
+<text x="490" y="153" class="male" text-anchor="middle" style="fill:#ffffff;font-weight:bold">3</text>
+<text x="510" y="154" class="male" text-anchor="start">prąd znamionowy przy Δ / przy Y → nastawa termika</text>
+<circle cx="490" cy="180" r="11" fill="#2e86c1"/>
+<text x="490" y="184" class="male" text-anchor="middle" style="fill:#ffffff;font-weight:bold">4</text>
+<text x="510" y="185" class="male" text-anchor="start">moc MECHANICZNA na wale; S1 — praca ciągła</text>
+<circle cx="490" cy="211" r="11" fill="#2e86c1"/>
+<text x="490" y="215" class="male" text-anchor="middle" style="fill:#ffffff;font-weight:bold">5</text>
+<text x="510" y="216" class="male" text-anchor="start">cos φ; obroty 1420 → 4 bieguny (1500 synchr.)</text>
+<circle cx="490" cy="242" r="11" fill="#2e86c1"/>
+<text x="490" y="246" class="male" text-anchor="middle" style="fill:#ffffff;font-weight:bold">6</text>
+<text x="510" y="247" class="male" text-anchor="start">stopień ochrony; klasa izolacji F (155 °C)</text>
+<circle cx="490" cy="273" r="11" fill="#2e86c1"/>
+<text x="490" y="277" class="male" text-anchor="middle" style="fill:#ffffff;font-weight:bold">7</text>
+<text x="510" y="278" class="male" text-anchor="start">klasa sprawności i sprawność; sposób chłodzenia</text>
+<rect x="20" y="330" width="800" height="100" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="40" y="355" class="male" text-anchor="start">Moc pobierana z sieci: P = √3 · U · I · cos φ = 1,73 · 400 · 3,2 · 0,80 ≈ 1,77 kW (więcej niż 1,5 kW na wale).</text>
+<text x="40" y="377" class="male" text-anchor="start">Sprawność: η = 1,5 / 1,77 ≈ 85 % — zgodnie z tabliczką (85,3 %, różnica z zaokrągleń).</text>
+<text x="40" y="399" class="male" text-anchor="start">Prąd z mocy na wale: I = P / (√3 · U · cos φ · η) = 1500 / (1,73 · 400 · 0,80 · 0,853) ≈ 3,2 A.</text>
+<text x="40" y="421" class="male" text-anchor="start">Poślizg: (1500 − 1420) / 1500 ≈ 5,3 %.</text>
+</svg>

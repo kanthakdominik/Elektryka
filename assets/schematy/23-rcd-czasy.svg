@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 445" width="840" height="445" role="img" aria-labelledby="t d">
+  <title id="t">Czasy zadziałania RCD</title>
+  <desc id="d">Wykres maksymalnych czasów zadziałania wyłącznika różnicowoprądowego w funkcji krotności prądu różnicowego. Przy połowie IΔn wyłącznik nie może zadziałać. RCD ogólnego typu: przy IΔn co najwyżej 300 ms, przy 2 IΔn 150 ms, przy 5 IΔn 40 ms. RCD selektywny typu S: przy IΔn od 130 do 500 ms, przy 2 IΔn od 60 do 200 ms, przy 5 IΔn od 50 do 150 ms. Zadziałanie musi nastąpić między 0,5 IΔn a IΔn; napięcie dotykowe przy IΔn nie może przekraczać 50 V.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="445" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Badanie RCD — dopuszczalne czasy zadziałania</text>
+<line x1="90" y1="360" x2="730" y2="360" stroke="#555" stroke-width="1.5"/>
+<line x1="90" y1="360" x2="90" y2="80" stroke="#555" stroke-width="1.5"/>
+<line x1="90" y1="338.46153846153845" x2="730" y2="338.46153846153845" stroke="#eaecee" stroke-width="1"/>
+<text x="82" y="342.46153846153845" class="male" text-anchor="end">40 ms</text>
+<line x1="90" y1="279.2307692307692" x2="730" y2="279.2307692307692" stroke="#eaecee" stroke-width="1"/>
+<text x="82" y="283.2307692307692" class="male" text-anchor="end">150 ms</text>
+<line x1="90" y1="198.46153846153848" x2="730" y2="198.46153846153848" stroke="#eaecee" stroke-width="1"/>
+<text x="82" y="202.46153846153848" class="male" text-anchor="end">300 ms</text>
+<line x1="90" y1="90.76923076923077" x2="730" y2="90.76923076923077" stroke="#eaecee" stroke-width="1"/>
+<text x="82" y="94.76923076923077" class="male" text-anchor="end">500 ms</text>
+<line x1="141.2" y1="360" x2="141.2" y2="366" stroke="#555" stroke-width="1.5"/>
+<text x="141.2" y="382" class="male" text-anchor="middle" style="font-weight:bold">0,5 IΔn</text>
+<line x1="269.20000000000005" y1="360" x2="269.20000000000005" y2="366" stroke="#555" stroke-width="1.5"/>
+<text x="269.20000000000005" y="382" class="male" text-anchor="middle" style="font-weight:bold">IΔn</text>
+<line x1="442.0" y1="360" x2="442.0" y2="366" stroke="#555" stroke-width="1.5"/>
+<text x="442.0" y="382" class="male" text-anchor="middle" style="font-weight:bold">2 IΔn</text>
+<line x1="666.0" y1="360" x2="666.0" y2="366" stroke="#555" stroke-width="1.5"/>
+<text x="666.0" y="382" class="male" text-anchor="middle" style="font-weight:bold">5 IΔn</text>
+<rect x="241.20000000000005" y="198.46153846153848" width="56" height="161.53846153846152" fill="#3498db" fill-opacity="0.35" stroke="#2e86c1"/>
+<text x="237.20000000000005" y="192.46153846153848" class="male" text-anchor="end" style="fill:#2e86c1;font-weight:bold">≤ 300</text>
+<rect x="414.0" y="279.2307692307692" width="56" height="80.76923076923077" fill="#3498db" fill-opacity="0.35" stroke="#2e86c1"/>
+<text x="410.0" y="273.2307692307692" class="male" text-anchor="end" style="fill:#2e86c1;font-weight:bold">≤ 150</text>
+<rect x="638.0" y="338.46153846153845" width="56" height="21.538461538461547" fill="#3498db" fill-opacity="0.35" stroke="#2e86c1"/>
+<text x="634.0" y="332.46153846153845" class="male" text-anchor="end" style="fill:#2e86c1;font-weight:bold">≤ 40</text>
+<rect x="293.20000000000005" y="90.76923076923077" width="20" height="199.23076923076923" fill="#e67e22" fill-opacity="0.45" stroke="#d35400"/>
+<text x="317.20000000000005" y="94.76923076923077" class="male" text-anchor="start" style="fill:#d35400;font-weight:bold">130–500</text>
+<rect x="466.0" y="252.30769230769232" width="20" height="75.38461538461536" fill="#e67e22" fill-opacity="0.45" stroke="#d35400"/>
+<text x="490.0" y="256.3076923076923" class="male" text-anchor="start" style="fill:#d35400;font-weight:bold">60–200</text>
+<rect x="690.0" y="279.2307692307692" width="20" height="53.84615384615387" fill="#e67e22" fill-opacity="0.45" stroke="#d35400"/>
+<text x="714.0" y="283.2307692307692" class="male" text-anchor="start" style="fill:#d35400;font-weight:bold">50–150</text>
+<text x="141.2" y="220.0" class="male" text-anchor="middle" style="fill:#c0392b">nie może</text>
+<text x="141.2" y="236.0" class="male" text-anchor="middle" style="fill:#c0392b">zadziałać</text>
+<rect x="560" y="60" width="16" height="16" fill="#3498db" fill-opacity="0.35" stroke="#2e86c1"/>
+<text x="582" y="73" class="male" text-anchor="start">RCD ogólnego typu: maks. czas</text>
+<rect x="560" y="84" width="16" height="16" fill="#e67e22" fill-opacity="0.45" stroke="#d35400"/>
+<text x="582" y="97" class="male" text-anchor="start">RCD selektywny (S): przedział</text>
+<text x="420" y="410" class="male" text-anchor="middle">Typ AC przy prądzie sinusoidalnym; dla typu A także prądem pulsującym. Zadziałanie musi nastąpić między 0,5 IΔn a IΔn.</text>
+<text x="420" y="430" class="male" text-anchor="middle">Miernik podaje też napięcie dotykowe U_B przy IΔn — nie może przekraczać 50 V.</text>
+</svg>

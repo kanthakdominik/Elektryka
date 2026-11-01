@@ -122,5 +122,20 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Mostek N–bolec | Bolec gniazda połączony z N | „zerowanie” w gnieździe | neutral-to-earth bridge | 21 |
 | Złączka Al/Cu | Złączka dopuszczona do aluminium i miedzi | — | Al/Cu connector | 21 |
 | Modernizacja częściowa | Poprawa wybranych elementów starej instalacji | — | partial rewiring | 21 |
+| Kategoria pomiarowa | Gdzie wolno mierzyć przyrządem | CAT I–IV (PN-EN 61010) | measurement category | 22 |
+| Cęgi prądowe | Miernik prądu obejmujący przewód | cęgi pomiarowe | clamp meter | 22 |
+| Wskaźnik dwubiegunowy | Przyrząd do sprawdzania braku napięcia | wskaźnik napięcia (PN-EN 61243-3) | two-pole voltage tester | 22 |
+| Miernik parametrów instalacji | Miernik wielofunkcyjny do pomiarów instalacji | przyrząd wg PN-EN 61557 | multifunction installation tester | 22 |
+| Termowizja | Obraz temperatur w podczerwieni | termografia | thermography | 22 |
+| Oględziny | Sprawdzenie wzrokowe bez przyrządów | oględziny (PN-HD 60364-6) | visual inspection | 23 |
+| Rezystancja izolacji | Opór izolacji między żyłami i do PE | $R_{iso}$ | insulation resistance | 23 |
+| Impedancja pętli zwarcia | „Opór” drogi prądu zwarcia L–PE | $Z_s$ | earth fault loop impedance | 23 |
+| Napięcie dotykowe (przy badaniu RCD) | Napięcie na PE przy prądzie IΔn | $U_B$ | touch voltage | 23 |
+| Protokół z pomiarów | Dokument z wynikami i oceną | sprawozdanie | test report | 23 |
+| Poślizg | O ile wirnik jest wolniejszy od pola | $s$ | slip | 24 |
+| Gwiazda / trójkąt | Sposoby połączenia uzwojeń | Y / Δ | star / delta | 24 |
+| Przekaźnik termiczny | Zabezpieczenie silnika przed przeciążeniem | przekaźnik przeciążeniowy | thermal overload relay | 24 |
+| Przemiennik częstotliwości | Falownik regulujący prędkość silnika | VFD | variable frequency drive | 24 |
+| Softstart | Układ łagodnego rozruchu | — | soft starter | 24 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

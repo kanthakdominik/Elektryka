@@ -106,14 +106,14 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 
 | # | Moduł | Oznaczenia | Tematów | Status |
 |---|-------|------------|---------|--------|
-| 22 | [Przyrządy pomiarowe](modules/22-przyrzady-pomiarowe/README.md) | 🏠📋 | 6 | 🔲 szkielet |
-| 23 | [Pomiary odbiorcze i okresowe](modules/23-pomiary-odbiorcze-i-okresowe/README.md) | 📋 | 8 | 🔲 szkielet |
+| 22 | [Przyrządy pomiarowe](modules/22-przyrzady-pomiarowe/README.md) | 🏠📋 | 6 | ✅ pełny |
+| 23 | [Pomiary odbiorcze i okresowe](modules/23-pomiary-odbiorcze-i-okresowe/README.md) | 📋 | 8 | ✅ pełny |
 
 ### VI. Odbiorniki i nowe technologie
 
 | # | Moduł | Oznaczenia | Tematów | Status |
 |---|-------|------------|---------|--------|
-| 24 | [Silniki i napędy](modules/24-silniki-i-napedy/README.md) | 📋 | 8 | 🔲 szkielet |
+| 24 | [Silniki i napędy](modules/24-silniki-i-napedy/README.md) | 📋 | 8 | ✅ pełny |
 | 25 | [Transformatory, zasilacze, UPS i agregaty](modules/25-transformatory-ups-agregaty/README.md) | 🏠📋 | 5 | 🔲 szkielet |
 | 26 | [Fotowoltaika, pompy ciepła, wallboxy i magazyny energii](modules/26-fotowoltaika-pompy-wallboxy/README.md) | 🏠📋 | 6 | 🔲 szkielet |
 | 27 | [Inteligentny dom](modules/27-inteligentny-dom/README.md) | 🏠 | 4 | 🔲 szkielet |

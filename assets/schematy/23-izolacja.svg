@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" width="840" height="490" role="img" aria-labelledby="t d">
+  <title id="t">Pomiar rezystancji izolacji</title>
+  <desc id="d">Obwód z rozdzielnicy z wyłączonym wyłącznikiem. Lampy wykręcone, wtyczki wyjęte. Przewody L i N zwarte ze sobą na końcu, miernik izolacji 500 V DC podłączony między zwarte L i N a przewód PE, wynik ponad 200 MΩ. Tabela według PN-HD 60364-6: SELV i PELV — 250 V, minimum 0,5 MΩ; obwody do 500 V w tym FELV — 500 V, minimum 1 MΩ; powyżej 500 V — 1000 V, minimum 1 MΩ. Przed pomiarem: obwód wyłączony, odbiorniki i elektronika odłączone, ograniczniki przepięć odłączone lub pomiar 250 V, nikt nie dotyka instalacji; po pomiarze rozładować obwód.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="490" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Pomiar rezystancji izolacji obwodu</text>
+<rect x="30" y="60" width="160" height="260" rx="10" fill="#fbfcfc" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="110" y="82" class="male" text-anchor="middle">rozdzielnica</text>
+<rect x="90" y="100" width="40" height="60" rx="4" fill="#ffffff" stroke="#555"/>
+<text x="110" y="135" class="male" text-anchor="middle" style="fill:#c0392b;font-weight:bold">OFF</text>
+<line x1="110" y1="160" x2="110" y2="190" stroke="#8b4513" stroke-width="3"/>
+<line x1="110" y1="190" x2="640" y2="190" stroke="#8b4513" stroke-width="3"/>
+<line x1="60" y1="230" x2="640" y2="230" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="60" y1="270" x2="640" y2="270" stroke="#27ae60" stroke-width="3"/>
+<line x1="60" y1="270" x2="640" y2="270" stroke="#f1c40f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="40" y="235" class="male" text-anchor="start" style="fill:#1f5fbf;font-weight:bold">N</text>
+<text x="30" y="275" class="male" text-anchor="start" style="fill:#1e8449;font-weight:bold">PE</text>
+<rect x="380" y="300" width="80" height="34" rx="5" fill="#eaecee" stroke="#7f8c8d" stroke-dasharray="4 3"/>
+<text x="420" y="322" class="male" text-anchor="middle">lampy wykręcone</text>
+<rect x="520" y="300" width="80" height="34" rx="5" fill="#eaecee" stroke="#7f8c8d" stroke-dasharray="4 3"/>
+<text x="560" y="322" class="male" text-anchor="middle">wtyczki wyjęte</text>
+<path d="M640 190 L660 190 L660 230 L640 230" fill="none" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="668" y="214" class="male" text-anchor="start">L i N</text>
+<text x="668" y="230" class="male" text-anchor="start">zwarte</text>
+<rect x="300" y="60" width="140" height="90" rx="10" fill="#f9e79f" stroke="#1a1a1a" stroke-width="1.8"/>
+<rect x="310" y="70" width="120" height="34" rx="3" fill="#d5f5e3" stroke="#555"/>
+<text x="370" y="94" class="podt" text-anchor="middle">> 200 MΩ</text>
+<text x="370" y="126" class="male" text-anchor="middle" style="font-weight:bold">500 V DC</text>
+<path d="M330 150 L330 190" fill="none" stroke="#c0392b" stroke-width="2"/>
+<circle cx="330" cy="190" r="4" fill="#1a1a1a"/>
+<path d="M410 150 L410 270" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="410" cy="270" r="4" fill="#1a1a1a"/>
+<rect x="30" y="358" width="460" height="24" fill="#eaecee"/>
+<text x="40" y="375" class="male" text-anchor="start" style="font-weight:bold">obwód</text>
+<text x="220" y="375" class="male" text-anchor="start" style="font-weight:bold">napięcie probiercze</text>
+<text x="380" y="375" class="male" text-anchor="start" style="font-weight:bold">minimum</text>
+<text x="40" y="399" class="male" text-anchor="start">SELV, PELV</text>
+<text x="220" y="399" class="male" text-anchor="start">250 V DC</text>
+<text x="380" y="399" class="male" text-anchor="start">0,5 MΩ</text>
+<text x="40" y="423" class="male" text-anchor="start">do 500 V (w tym FELV)</text>
+<text x="220" y="423" class="male" text-anchor="start">500 V DC</text>
+<text x="380" y="423" class="male" text-anchor="start">1,0 MΩ</text>
+<text x="40" y="447" class="male" text-anchor="start">powyżej 500 V</text>
+<text x="220" y="447" class="male" text-anchor="start">1000 V DC</text>
+<text x="380" y="447" class="male" text-anchor="start">1,0 MΩ</text>
+<text x="520" y="370" class="male" text-anchor="start">Przed pomiarem:</text>
+<text x="520" y="390" class="male" text-anchor="start">• obwód wyłączony, brak napięcia,</text>
+<text x="520" y="410" class="male" text-anchor="start">• odbiorniki i elektronika odłączone,</text>
+<text x="520" y="430" class="male" text-anchor="start">• SPD odłączone (lub pomiar 250 V),</text>
+<text x="520" y="450" class="male" text-anchor="start">• nikt nie dotyka instalacji.</text>
+<text x="520" y="470" class="male" text-anchor="start">Po pomiarze — rozładuj obwód.</text>
+</svg>

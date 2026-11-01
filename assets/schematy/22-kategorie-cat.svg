@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 505" width="840" height="505" role="img" aria-labelledby="t d">
+  <title id="t">Kategorie pomiarowe CAT</title>
+  <desc id="d">Cztery strefy od źródła do odbiornika. CAT IV: przyłącze, złącze, licznik i zabezpieczenie przedlicznikowe. CAT III: rozdzielnice, wewnętrzna linia zasilająca, instalacja stała i silniki trójfazowe. CAT II: gniazda wtyczkowe i odbiorniki do nich. CAT I: elektronika zasilana z chronionych źródeł. Im bliżej źródła, tym większa energia możliwych udarów. Tabela napięć udarowych według PN-EN 61010: przy 600 V — CAT II 4 kV, CAT III 6 kV, CAT IV 8 kV; przy 1000 V — CAT II 6 kV, CAT III 8 kV. Przyrząd i przewody muszą mieć kategorię co najmniej taką jak miejsce pomiaru.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="505" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Kategorie pomiarowe CAT — im bliżej źródła, tym wyżej</text>
+<rect x="20" y="50" width="192" height="210" rx="10" fill="#fadbd8" stroke="#c0392b" stroke-width="1.4"/>
+<text x="116" y="80" class="duze" text-anchor="middle" style="fill:#c0392b;font-size:28px">CAT IV</text>
+<text x="116" y="215" class="male" text-anchor="middle">przyłącze, złącze, licznik,</text>
+<text x="116" y="232" class="male" text-anchor="middle">zabezpieczenie</text>
+<text x="116" y="249" class="male" text-anchor="middle">przedlicznikowe</text>
+<rect x="222" y="50" width="192" height="210" rx="10" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="318" y="80" class="duze" text-anchor="middle" style="fill:#e67e22;font-size:28px">CAT III</text>
+<text x="318" y="215" class="male" text-anchor="middle">rozdzielnice, WLZ, instalacja</text>
+<text x="318" y="232" class="male" text-anchor="middle">stała, silniki 3-faz.</text>
+<rect x="424" y="50" width="192" height="210" rx="10" fill="#fcf3cf" stroke="#d4ac0d" stroke-width="1.4"/>
+<text x="520" y="80" class="duze" text-anchor="middle" style="fill:#d4ac0d;font-size:28px">CAT II</text>
+<text x="520" y="215" class="male" text-anchor="middle">gniazda wtyczkowe</text>
+<text x="520" y="232" class="male" text-anchor="middle">i odbiorniki do nich</text>
+<rect x="626" y="50" width="192" height="210" rx="10" fill="#d5f5e3" stroke="#27ae60" stroke-width="1.4"/>
+<text x="722" y="80" class="duze" text-anchor="middle" style="fill:#27ae60;font-size:28px">CAT I</text>
+<text x="722" y="215" class="male" text-anchor="middle">elektronika zasilana</text>
+<text x="722" y="232" class="male" text-anchor="middle">z chronionych źródeł</text>
+<rect x="85" y="100" width="60" height="80" rx="4" fill="#ffffff" stroke="#555"/>
+<text x="115" y="145" class="podt" text-anchor="middle">kWh</text>
+<rect x="282" y="95" width="80" height="95" rx="4" fill="#ffffff" stroke="#555"/>
+<rect x="290" y="115" width="12" height="30" rx="2" fill="#d5d8dc" stroke="#555"/>
+<rect x="308" y="115" width="12" height="30" rx="2" fill="#d5d8dc" stroke="#555"/>
+<rect x="326" y="115" width="12" height="30" rx="2" fill="#d5d8dc" stroke="#555"/>
+<rect x="344" y="115" width="12" height="30" rx="2" fill="#d5d8dc" stroke="#555"/>
+<text x="322" y="175" class="male" text-anchor="middle">rozdzielnica</text>
+<rect x="490" y="105" width="56" height="56" rx="8" fill="#ffffff" stroke="#555"/>
+<circle cx="518" cy="133" r="18" fill="#f2f3f4" stroke="#555"/>
+<circle cx="510" cy="133" r="3" fill="#555"/><circle cx="526" cy="133" r="3" fill="#555"/>
+<rect x="690" y="110" width="70" height="50" rx="4" fill="#ffffff" stroke="#555"/>
+<rect x="700" y="120" width="50" height="30" fill="#aed6f1"/>
+<line x1="30" y1="285" x2="810" y2="285" stroke="#7f8c8d" stroke-width="2"/><path d="M810.0 285.0 L801.7 288.5 L801.7 281.5 Z" fill="#7f8c8d"/>
+<text x="420" y="305" class="male" text-anchor="middle">kierunek od źródła do odbiornika: maleje energia możliwych udarów</text>
+<text x="420" y="340" class="podt" text-anchor="middle">Szczytowe napięcie udarowe, które przyrząd musi wytrzymać (PN-EN 61010)</text>
+<rect x="170" y="352" width="500" height="26" fill="#eaecee"/>
+<text x="180" y="370" class="male" text-anchor="start" style="font-weight:bold">napięcie pracy</text>
+<text x="340" y="370" class="male" text-anchor="start" style="font-weight:bold">CAT II</text>
+<text x="460" y="370" class="male" text-anchor="start" style="font-weight:bold">CAT III</text>
+<text x="580" y="370" class="male" text-anchor="start" style="font-weight:bold">CAT IV</text>
+<text x="180" y="396" class="male" text-anchor="start" style="font-weight:bold">600 V</text>
+<text x="340" y="396" class="male" text-anchor="start">4 kV</text>
+<text x="460" y="396" class="male" text-anchor="start">6 kV</text>
+<text x="580" y="396" class="male" text-anchor="start">8 kV</text>
+<text x="180" y="422" class="male" text-anchor="start" style="font-weight:bold">1000 V</text>
+<text x="340" y="422" class="male" text-anchor="start">6 kV</text>
+<text x="460" y="422" class="male" text-anchor="start">8 kV</text>
+<text x="580" y="422" class="male" text-anchor="start">—</text>
+<rect x="20" y="440" width="800" height="50" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="420" y="461" class="male" text-anchor="middle">Przyrząd i przewody pomiarowe muszą mieć kategorię co najmniej taką jak miejsce pomiaru.</text>
+<text x="420" y="480" class="male" text-anchor="middle">Multimetr „CAT II 600 V” nie nadaje się do rozdzielnicy — tam CAT III, przy złączu CAT IV.</text>
+</svg>
