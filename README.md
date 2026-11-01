@@ -124,9 +124,9 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 |---|-------|------------|---------|--------|
 | 28 | [BHP przy urządzeniach elektrycznych](modules/28-bhp-przy-urzadzeniach/README.md) | 📋 | 6 | ✅ pełny |
 | 29 | [Eksploatacja urządzeń i instalacji](modules/29-eksploatacja/README.md) | 📋 | 5 | ✅ pełny |
-| 30 | [Pożar i awaria](modules/30-pozar-i-awaria/README.md) | 📋 | 5 | 🔲 szkielet |
-| 31 | [Pierwsza pomoc przy porażeniu](modules/31-pierwsza-pomoc/README.md) | 📋 | 5 | 🔲 szkielet |
-| 32 | [Przepisy i normy](modules/32-przepisy-i-normy/README.md) | 📋 | 6 | 🔲 szkielet |
+| 30 | [Pożar i awaria](modules/30-pozar-i-awaria/README.md) | 📋 | 5 | ✅ pełny |
+| 31 | [Pierwsza pomoc przy porażeniu](modules/31-pierwsza-pomoc/README.md) | 📋 | 5 | ✅ pełny |
+| 32 | [Przepisy i normy](modules/32-przepisy-i-normy/README.md) | 📋 | 6 | ✅ pełny |
 
 ### VIII. Rozszerzenia (opcjonalne)
 

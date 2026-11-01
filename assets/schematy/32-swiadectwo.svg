@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 475" width="840" height="475" role="img" aria-labelledby="t d">
+  <title id="t">Świadectwo kwalifikacyjne</title>
+  <desc id="d">Cztery elementy świadectwa: grupa (G1 elektryczne, G2 cieplne, G3 gazowe), stanowisko (E eksploatacja — wykonuje, D dozór — kieruje i nadzoruje), rodzaj urządzeń według punktów załącznika 1 (np. G1 punkt 2 — urządzenia do 1 kV), zakres prac (obsługa, konserwacja, remont, naprawa, montaż, demontaż, czynności kontrolno-pomiarowe). Świadectwo wydaje komisja kwalifikacyjna, ważne 5 lat; bez niego nie wolno samodzielnie eksploatować urządzeń, pod nadzorem mogą pracować wymienione grupy osób; przy eksploatacji niezgodnej z przepisami sprawdzenie powtarza się. Przykład dla elektryka domowego: G1, E lub D, punkt 2 i często 13.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="475" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Świadectwo kwalifikacyjne — z czego się składa</text>
+<rect x="20" y="55" width="194" height="190" rx="8" fill="#e8daef" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="117" y="82" class="podt" text-anchor="middle">GRUPA</text>
+<text x="117" y="112" class="male" text-anchor="middle">G1 — elektryczne</text>
+<text x="117" y="134" class="male" text-anchor="middle">G2 — cieplne</text>
+<text x="117" y="156" class="male" text-anchor="middle">G3 — gazowe</text>
+<text x="218" y="155" class="tytul" text-anchor="middle">×</text>
+<rect x="222" y="55" width="194" height="190" rx="8" fill="#d6eaf8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="319" y="82" class="podt" text-anchor="middle">STANOWISKO</text>
+<text x="319" y="112" class="male" text-anchor="middle">E — eksploatacja</text>
+<text x="319" y="134" class="male" text-anchor="middle">(wykonuje)</text>
+<text x="319" y="156" class="male" text-anchor="middle">D — dozór</text>
+<text x="319" y="178" class="male" text-anchor="middle">(kieruje, nadzoruje)</text>
+<text x="420" y="155" class="tytul" text-anchor="middle">×</text>
+<rect x="424" y="55" width="194" height="190" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="521" y="82" class="podt" text-anchor="middle">RODZAJ URZĄDZEŃ</text>
+<text x="521" y="112" class="male" text-anchor="middle">punkty z załącznika 1</text>
+<text x="521" y="134" class="male" text-anchor="middle">np. G1 pkt 2:</text>
+<text x="521" y="156" class="male" text-anchor="middle">urządzenia ≤ 1 kV</text>
+<text x="622" y="155" class="tytul" text-anchor="middle">×</text>
+<rect x="626" y="55" width="194" height="190" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="723" y="82" class="podt" text-anchor="middle">ZAKRES PRAC</text>
+<text x="723" y="112" class="male" text-anchor="middle">obsługa, konserwacja,</text>
+<text x="723" y="134" class="male" text-anchor="middle">remont, naprawa, montaż,</text>
+<text x="723" y="156" class="male" text-anchor="middle">demontaż, kontrolno-</text>
+<text x="723" y="178" class="male" text-anchor="middle">pomiarowe</text>
+<rect x="20" y="260" width="800" height="120" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="36" y="284" class="male" text-anchor="start">• Wydaje komisja kwalifikacyjna (np. przy SEP) po egzaminie; ważność 5 lat (Prawo energetyczne, art. 54 ust. 1aa).</text>
+<text x="36" y="308" class="male" text-anchor="start">• Bez świadectwa pracodawcy nie wolno zatrudniać przy samodzielnej eksploatacji (art. 54 ust. 2);</text>
+<text x="36" y="332" class="male" text-anchor="start">  pod nadzorem mogą pracować m.in. praktykanci, uczniowie, przedstawiciele organów nadzoru, serwis specjalistyczny.</text>
+<text x="36" y="356" class="male" text-anchor="start">• Eksploatacja niezgodna z przepisami → ponowne sprawdzenie kwalifikacji (art. 54 ust. 1b).</text>
+<rect x="20" y="390" width="800" height="70" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="40" y="414" class="male" text-anchor="start">Przykład typowego elektryka instalacji domowych: G1, E (i/lub D), pkt 2 (≤ 1 kV) + często pkt 13 (automatyka),</text>
+<text x="40" y="436" class="male" text-anchor="start">zakres: obsługa, konserwacja, remont, naprawa, montaż, demontaż, kontrolno-pomiarowe.</text>
+</svg>

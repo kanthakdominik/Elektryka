@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" width="840" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Uwolnienie porażonego</title>
+  <desc id="d">Dwa panele. Niskie napięcie do 1 kV: wyłączyć zasilanie wtyczką, wyłącznikiem lub bezpiecznikiem; jeśli nie da się szybko, stanąć na suchym izolującym podłożu i odsunąć przewód lub porażonego suchym drewnianym lub plastikowym przedmiotem albo ciągnąć za suchą odzież jedną ręką; uważać na upadek porażonego; potem 112, ocena stanu, RKO, AED. Wysokie napięcie: nie podchodzić, zatrzymać innych i zachować odległość, wezwać 112 i pogotowie energetyczne 991, bo linię musi wyłączyć energetyka; kij i gumowe buty nie chronią; ratować dopiero po potwierdzeniu wyłączenia; opuszczać strefę drobnymi krokami. Zasada: nie zostać drugą ofiarą.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="420" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Uwolnienie porażonego spod działania prądu</text>
+<rect x="20" y="50" width="395" height="330" rx="8" fill="#eafaf1" stroke="#27ae60" stroke-width="1.4"/>
+<text x="217" y="76" class="podt" text-anchor="middle" style="fill:#1e8449">Niskie napięcie (do 1 kV) — dom, warsztat</text>
+<text x="36" y="104" class="male" text-anchor="start">1. Wyłącz zasilanie: wtyczka, wyłącznik,</text>
+<text x="36" y="130" class="male" text-anchor="start">   bezpiecznik, wyłącznik główny.</text>
+<text x="36" y="156" class="male" text-anchor="start">2. Nie da się szybko wyłączyć?</text>
+<text x="36" y="182" class="male" text-anchor="start">   • stań na czymś suchym i izolującym</text>
+<text x="36" y="208" class="male" text-anchor="start">     (deska, gruba guma, sterta gazet),</text>
+<text x="36" y="234" class="male" text-anchor="start">   • odsuń przewód lub porażonego suchym</text>
+<text x="36" y="260" class="male" text-anchor="start">     drewnianym / plastikowym przedmiotem,</text>
+<text x="36" y="286" class="male" text-anchor="start">   • albo ciągnij za suchą odzież — jedną</text>
+<text x="36" y="312" class="male" text-anchor="start">     ręką, nie dotykając skóry.</text>
+<text x="36" y="338" class="male" text-anchor="start">3. Uważaj na upadek porażonego (drabina!).</text>
+<text x="36" y="364" class="male" text-anchor="start">4. Potem: 112, ocena, RKO, AED (31.02–31.04).</text>
+<rect x="425" y="50" width="395" height="330" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="622" y="76" class="podt" text-anchor="middle" style="fill:#922b21">Wysokie napięcie (linie, stacje)</text>
+<text x="441" y="104" class="male" text-anchor="start">1. NIE podchodź — łuk może przeskoczyć,</text>
+<text x="441" y="130" class="male" text-anchor="start">   a wokół jest napięcie krokowe.</text>
+<text x="441" y="156" class="male" text-anchor="start">2. Zatrzymaj innych, zachowaj odległość</text>
+<text x="441" y="182" class="male" text-anchor="start">   (kilka–kilkanaście metrów).</text>
+<text x="441" y="208" class="male" text-anchor="start">3. Dzwoń 112 i pogotowie energetyczne 991:</text>
+<text x="441" y="234" class="male" text-anchor="start">   linię musi wyłączyć i uziemić energetyka.</text>
+<text x="441" y="260" class="male" text-anchor="start">4. Drewniany kij i gumowe buty</text>
+<text x="441" y="286" class="male" text-anchor="start">   NIE chronią przy wysokim napięciu.</text>
+<text x="441" y="312" class="male" text-anchor="start">5. Ratujesz dopiero po potwierdzeniu</text>
+<text x="441" y="338" class="male" text-anchor="start">   wyłączenia.</text>
+<text x="441" y="364" class="male" text-anchor="start">6. Wychodząc ze strefy: drobne kroki, stopy razem.</text>
+<text x="420" y="405" class="male" text-anchor="middle" style="font-weight:bold">Zasada: nie zostań drugą ofiarą. Najpierw odłącz prąd albo odizoluj siebie — dopiero potem dotykaj.</text>
+</svg>

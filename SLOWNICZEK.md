@@ -169,5 +169,17 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Instrukcja eksploatacji | Jak obsługiwać, sprawdzać i naprawiać urządzenie | § 4 rozp. BHP | operating instructions | 29 |
 | Oględziny | Sprawdzenie zmysłami bez demontażu | — | visual inspection | 29 |
 | Przegląd | Oględziny + sprawdzenia + pomiary + konserwacja | — | inspection and maintenance | 29 |
+| Gaśnica śniegowa | Gaśnica z dwutlenkiem węgla | GS, CO₂ | CO₂ extinguisher | 30 |
+| Grupy pożarów | Klasyfikacja według palącego się materiału | A, B, C, D, F (PN-EN 2) | fire classes | 30 |
+| Przeciwpożarowy wyłącznik prądu | Wyłącza zasilanie budynku przy pożarze | PWP, WT § 183 | fire-fighter's switch | 30 |
+| AED | Automatyczny defibrylator zewnętrzny | — | automated external defibrillator | 31 |
+| Migotanie komór | Chaotyczne drżenie serca bez pompowania | VF | ventricular fibrillation | 31 |
+| Pozycja bezpieczna | Ułożenie nieprzytomnego, który oddycha | pozycja boczna ustalona | recovery position | 31 |
+| RKO | Uciskanie klatki i oddechy ratownicze | resuscytacja krążeniowo-oddechowa | CPR | 31 |
+| Grupa G1 | Urządzenia elektroenergetyczne w świadectwie | załącznik nr 1 rozp. z 2022 r. | group 1 (electrical) | 32 |
+| Kontrola okresowa | Obowiązkowy przegląd budynku | Prawo budowlane, art. 62 | periodic inspection | 32 |
+| PN-HD 60364 | Norma instalacji niskiego napięcia | HD CENELEC | IEC 60364 | 32 |
+| Świadectwo kwalifikacyjne | „Uprawnienia SEP”, ważne 5 lat | art. 54 Prawa energetycznego | qualification certificate | 32 |
+| Warunki techniczne | Rozporządzenie o wymaganiach dla budynków | WT | building technical regulations | 32 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

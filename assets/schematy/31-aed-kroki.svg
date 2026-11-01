@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 485" width="840" height="485" role="img" aria-labelledby="t d">
+  <title id="t">AED</title>
+  <desc id="d">Po lewej sylwetka tułowia z położeniem elektrod: pierwsza pod prawym obojczykiem przy mostku, druga na lewym boku pod pachą, na suchej odsłoniętej skórze. Po prawej pięć kroków: włączyć AED i słuchać poleceń; odsłonić klatkę i nakleić elektrody, drugi ratownik w tym czasie uciska; analiza rytmu — nikt nie dotyka; wyładowanie, jeśli zalecane, po upewnieniu się, że nikt nie dotyka; od razu RKO 30:2 przez 2 minuty. Każda minuta zwłoki zmniejsza szansę przeżycia o około 10 procent.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="485" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">AED krok po kroku</text>
+<g transform="translate(0,40)">
+<path d="M120 90 Q120 70 160 66 L280 66 Q320 70 320 90 L330 330 L110 330 Z" fill="#fdebd0" stroke="#a04000" stroke-width="2"/>
+<circle cx="220" cy="48" r="30" fill="#fdebd0" stroke="#a04000" stroke-width="2"/>
+<line x1="220" y1="110" x2="220" y2="230" stroke="#a04000" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="228" y="180" class="male" text-anchor="start">mostek</text>
+<rect x="150" y="96" width="56" height="40" rx="6" fill="#d6eaf8" stroke="#2e86c1" stroke-width="2"/>
+<text x="178" y="121" class="podt" text-anchor="middle">1</text>
+<rect x="270" y="210" width="44" height="60" rx="6" fill="#d6eaf8" stroke="#2e86c1" stroke-width="2" transform="rotate(-15 292 240)"/>
+<text x="292" y="246" class="podt" text-anchor="middle">2</text>
+</g>
+<text x="220" y="396" class="male" text-anchor="middle">elektroda 1: pod prawym obojczykiem, przy mostku</text>
+<text x="220" y="416" class="male" text-anchor="middle">elektroda 2: lewy bok, pod pachą</text>
+<text x="220" y="436" class="male" text-anchor="middle">na suchą, odsłoniętą skórę</text>
+<rect x="400" y="60" width="420" height="58" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="416" y="84" class="podt" text-anchor="start">1. Włącz AED</text>
+<text x="416" y="105" class="male" text-anchor="start">otwórz pokrywę / naciśnij przycisk; słuchaj poleceń</text>
+<rect x="400" y="132" width="420" height="58" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="416" y="156" class="podt" text-anchor="start">2. Odsłoń klatkę, naklej elektrody</text>
+<text x="416" y="177" class="male" text-anchor="start">drugi ratownik w tym czasie uciska</text>
+<rect x="400" y="204" width="420" height="58" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="416" y="228" class="podt" text-anchor="start">3. Analiza — nikt nie dotyka</text>
+<text x="416" y="249" class="male" text-anchor="start">AED sam ocenia rytm serca</text>
+<rect x="400" y="276" width="420" height="58" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="416" y="300" class="podt" text-anchor="start">4. Wyładowanie, jeśli zalecane</text>
+<text x="416" y="321" class="male" text-anchor="start">upewnij się, że nikt nie dotyka; naciśnij przycisk</text>
+<rect x="400" y="348" width="420" height="58" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="416" y="372" class="podt" text-anchor="start">5. Od razu RKO 30:2</text>
+<text x="416" y="393" class="male" text-anchor="start">przez 2 min, do kolejnej analizy; nie odklejaj elektrod</text>
+<text x="420" y="470" class="male" text-anchor="middle">Każda minuta zwłoki z defibrylacją zmniejsza szansę przeżycia o ok. 10 % — AED nie da się „źle” użyć: nie wyładuje, gdy nie trzeba.</text>
+</svg>

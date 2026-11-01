@@ -1,6 +1,6 @@
 # 31 — Pierwsza pomoc przy porażeniu
 
-> **Część VII** · **Oznaczenia:** 📋 · **Ścieżki:** SEP · **Szacowany czas:** ok. 3 h · **Status:** 🔲 szkielet
+> **Część VII** · **Oznaczenia:** 📋 · **Ścieżki:** SEP · **Szacowany czas:** ok. 3 h · **Status:** ✅ pełny
 
 ## Po co ten moduł
 
@@ -19,15 +19,29 @@ Pytanie, które pada niemal na każdym egzaminie: jak uwolnić porażonego i co 
 
 | # | Temat | Status |
 |---|-------|--------|
-| 31.01 | [Uwolnienie porażonego spod działania prądu](31.01-uwolnienie-porazonego-spod-dzialania-pradu.md) | 🔲 |
-| 31.02 | [Ocena stanu i wezwanie pomocy](31.02-ocena-stanu-i-wezwanie-pomocy.md) | 🔲 |
-| 31.03 | [Resuscytacja krążeniowo-oddechowa](31.03-resuscytacja-krazeniowo-oddechowa.md) | 🔲 |
-| 31.04 | [AED](31.04-aed.md) | 🔲 |
-| 31.05 | [Oparzenia elektryczne — dlaczego zawsze do lekarza](31.05-oparzenia-elektryczne-dlaczego-zawsze-do-lekarza.md) | 🔲 |
+| 31.01 | [Uwolnienie porażonego spod działania prądu](31.01-uwolnienie-porazonego-spod-dzialania-pradu.md) | ✅ |
+| 31.02 | [Ocena stanu i wezwanie pomocy](31.02-ocena-stanu-i-wezwanie-pomocy.md) | ✅ |
+| 31.03 | [Resuscytacja krążeniowo-oddechowa](31.03-resuscytacja-krazeniowo-oddechowa.md) | ✅ |
+| 31.04 | [AED](31.04-aed.md) | ✅ |
+| 31.05 | [Oparzenia elektryczne — dlaczego zawsze do lekarza](31.05-oparzenia-elektryczne-dlaczego-zawsze-do-lekarza.md) | ✅ |
 
 ## Po tym module potrafisz
 
-_(do uzupełnienia)_
+- uwolnić porażonego spod działania prądu przy niskim napięciu i wiedzieć, czego nie robić przy wysokim,
+- ocenić stan poszkodowanego według ERC 2025, wezwać pomoc i ułożyć w pozycji bezpiecznej,
+- prowadzić RKO 30:2 (5–6 cm, 100–120/min) i resuscytację tylko uciśnięciami,
+- użyć AED: elektrody, analiza, wyładowanie, powrót do RKO,
+- udzielić pierwszej pomocy przy oparzeniu elektrycznym i wyjaśnić, dlaczego porażony zawsze idzie do lekarza.
+
+## Zdjęcia i schematy w module
+
+| Temat | Obrazy |
+|-------|--------|
+| 31.01 | uwolnienie nN i WN (schemat), zerwane linie |
+| 31.02 | algorytm BLS (schemat), pozycja bezpieczna — dwa rysunki |
+| 31.03 | algorytm BLS (schemat), przekrój: ucisk mostka |
+| 31.04 | AED krok po kroku (schemat), AED na elewacji, AED w szafce |
+| 31.05 | oparzenie elektryczne (schemat), łuk elektryczny |
 
 ## Powtórka
 

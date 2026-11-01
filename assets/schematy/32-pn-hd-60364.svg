@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 485" width="840" height="485" role="img" aria-labelledby="t d">
+  <title id="t">Struktura PN-HD 60364</title>
+  <desc id="d">Tabela części normy PN-HD 60364 z odnośnikami do modułów: część 1 — zakres i wymagania podstawowe; 4-41 — ochrona przed porażeniem; 4-42 i 4-43 — skutki cieplne i przetężenia; 4-44 i 5-534 — przepięcia; 5-51 i 5-52 — dobór wyposażenia i oprzewodowanie; 5-53 — aparatura i RCD; 5-54 — uziemienia i przewody ochronne; 5-55 i 5-56 — inne wyposażenie i instalacje bezpieczeństwa; 6 — sprawdzanie; 7-7xx — miejsca szczególne; 8-82 — instalacje prosumenckie. HD to dokument harmonizacyjny CENELEC.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="485" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">PN-HD 60364 — jak zbudowana jest norma instalacyjna</text>
+<rect x="20" y="55" width="800" height="30" rx="5" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="32" y="75" class="male" text-anchor="start" style="font-weight:bold">Część 1</text>
+<text x="200" y="75" class="male" text-anchor="start">zakres, przedmiot, wymagania podstawowe</text>
+<text x="810" y="75" class="male" text-anchor="end" style="fill:#2e86c1"></text>
+<rect x="20" y="91" width="800" height="30" rx="5" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="32" y="111" class="male" text-anchor="start" style="font-weight:bold">Część 4-41</text>
+<text x="200" y="111" class="male" text-anchor="start">ochrona przed porażeniem: SWZ, RCD, SELV, separacja</text>
+<text x="810" y="111" class="male" text-anchor="end" style="fill:#2e86c1">moduł 04, 12</text>
+<rect x="20" y="127" width="800" height="30" rx="5" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="32" y="147" class="male" text-anchor="start" style="font-weight:bold">Część 4-42 / 4-43</text>
+<text x="200" y="147" class="male" text-anchor="start">ochrona przed skutkami cieplnymi / przed prądem przetężeniowym</text>
+<text x="810" y="147" class="male" text-anchor="end" style="fill:#2e86c1">moduł 07, 30</text>
+<rect x="20" y="163" width="800" height="30" rx="5" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="32" y="183" class="male" text-anchor="start" style="font-weight:bold">Część 4-44 / 5-534</text>
+<text x="200" y="183" class="male" text-anchor="start">przepięcia, ograniczniki przepięć</text>
+<text x="810" y="183" class="male" text-anchor="end" style="fill:#2e86c1">moduł 09</text>
+<rect x="20" y="199" width="800" height="30" rx="5" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="32" y="219" class="male" text-anchor="start" style="font-weight:bold">Część 5-51 / 5-52</text>
+<text x="200" y="219" class="male" text-anchor="start">dobór wyposażenia; oprzewodowanie, obciążalność</text>
+<text x="810" y="219" class="male" text-anchor="end" style="fill:#2e86c1">moduł 05, 16</text>
+<rect x="20" y="235" width="800" height="30" rx="5" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="32" y="255" class="male" text-anchor="start" style="font-weight:bold">Część 5-53</text>
+<text x="200" y="255" class="male" text-anchor="start">aparatura łączeniowa, zabezpieczenia, RCD</text>
+<text x="810" y="255" class="male" text-anchor="end" style="fill:#2e86c1">moduł 08, 10</text>
+<rect x="20" y="271" width="800" height="30" rx="5" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="32" y="291" class="male" text-anchor="start" style="font-weight:bold">Część 5-54</text>
+<text x="200" y="291" class="male" text-anchor="start">uziemienia i przewody ochronne</text>
+<text x="810" y="291" class="male" text-anchor="end" style="fill:#2e86c1">moduł 13</text>
+<rect x="20" y="307" width="800" height="30" rx="5" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="32" y="327" class="male" text-anchor="start" style="font-weight:bold">Część 5-55 / 5-56</text>
+<text x="200" y="327" class="male" text-anchor="start">inne wyposażenie; instalacje bezpieczeństwa</text>
+<text x="810" y="327" class="male" text-anchor="end" style="fill:#2e86c1">moduł 18, 25</text>
+<rect x="20" y="343" width="800" height="30" rx="5" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="32" y="363" class="male" text-anchor="start" style="font-weight:bold">Część 6</text>
+<text x="200" y="363" class="male" text-anchor="start">sprawdzanie — odbiorcze i okresowe</text>
+<text x="810" y="363" class="male" text-anchor="end" style="fill:#2e86c1">moduł 23</text>
+<rect x="20" y="379" width="800" height="30" rx="5" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="32" y="399" class="male" text-anchor="start" style="font-weight:bold">Część 7-7xx</text>
+<text x="200" y="399" class="male" text-anchor="start">miejsca szczególne: 701 łazienka, 704 budowa, 712 PV, 722 EV…</text>
+<text x="810" y="399" class="male" text-anchor="end" style="fill:#2e86c1">moduł 17, 26</text>
+<rect x="20" y="415" width="800" height="30" rx="5" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="32" y="435" class="male" text-anchor="start" style="font-weight:bold">Część 8-82</text>
+<text x="200" y="435" class="male" text-anchor="start">instalacje prosumenckie</text>
+<text x="810" y="435" class="male" text-anchor="end" style="fill:#2e86c1">moduł 26</text>
+<text x="420" y="470" class="male" text-anchor="middle">HD = dokument harmonizacyjny CENELEC: kraje mogą mieć różnice krajowe, ale główne wymagania są wspólne.</text>
+</svg>

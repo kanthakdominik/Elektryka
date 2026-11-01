@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 495" width="840" height="495" role="img" aria-labelledby="t d">
+  <title id="t">Przeciwpożarowy wyłącznik prądu</title>
+  <desc id="d">Schemat: ze złącza zasilanie przechodzi przez przeciwpożarowy wyłącznik prądu do rozdzielnicy głównej budynku; obwody niezbędne w czasie pożaru (pompy pożarowe, oddymianie, oświetlenie ewakuacyjne) zasilane są przed wyłącznikiem. Wyłącznik sterowany czerwonym przyciskiem przy wejściu. Zasady: odcina wszystkie obwody poza niezbędnymi; wymagany w obiektach powyżej 1000 m³ i ze strefą zagrożoną wybuchem; umieszczony przy wejściu lub złączu i oznakowany; nie może samoczynnie załączać agregatu poza oświetleniem awaryjnym; trzeba pamiętać o PV, UPS i magazynach.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="495" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Przeciwpożarowy wyłącznik prądu (PWP)</text>
+<rect x="30" y="70" width="110" height="50" rx="8" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="85.0" y="95.0" class="podt" text-anchor="middle">złącze</text>
+<text x="85.0" y="115.0" class="male" text-anchor="middle">od OSD</text>
+<line x1="140" y1="95" x2="200" y2="95" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="200" y1="95" x2="200" y2="300" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="230" y="70" width="190" height="60" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="325.0" y="100.0" class="podt" text-anchor="middle">PWP</text>
+<text x="325.0" y="120.0" class="male" text-anchor="middle">wyłącznik z wyzwalaczem</text>
+<line x1="200" y1="100" x2="230" y2="100" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="420" y1="100" x2="470" y2="100" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="470" y="70" width="170" height="60" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="555.0" y="100.0" class="podt" text-anchor="middle">RG budynku</text>
+<text x="555.0" y="120.0" class="male" text-anchor="middle">wszystkie obwody</text>
+<line x1="200" y1="300" x2="470" y2="300" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="470" y="270" width="300" height="60" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="620.0" y="300.0" class="opis" text-anchor="middle">obwody niezbędne w pożarze</text>
+<text x="620.0" y="320.0" class="male" text-anchor="middle">pompy ppoż., oddymianie, oświetlenie ewak.</text>
+<text x="330" y="290" class="male" text-anchor="middle">zasilane przed PWP</text>
+<rect x="290" y="170" width="70" height="70" rx="6" fill="#c0392b" stroke="#7b241c" stroke-width="2"/>
+<circle cx="325" cy="205" r="18" fill="#ffffff" stroke="#7b241c" stroke-width="2"/>
+<text x="325" y="260" class="male" text-anchor="middle">przycisk przy wejściu</text>
+<line x1="325" y1="170" x2="325" y2="130" stroke="#7b241c" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="338" y="155" class="male" text-anchor="start">sterowanie</text>
+<rect x="30" y="350" width="790" height="130" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="46" y="374" class="male" text-anchor="start">• Odcina dopływ prądu do wszystkich obwodów, z wyjątkiem tych, które muszą działać w czasie pożaru.</text>
+<text x="46" y="396" class="male" text-anchor="start">• Wymagany m.in. w obiektach / strefach pożarowych > 1000 m³ i ze strefą zagrożoną wybuchem (WT, § 183).</text>
+<text x="46" y="418" class="male" text-anchor="start">• Przy głównym wejściu lub złączu, oznakowany. Nie może samoczynnie załączać agregatu (poza oświetleniem awaryjnym).</text>
+<text x="46" y="440" class="male" text-anchor="start">• Pamiętaj o innych źródłach: PV (strona DC!), UPS, magazyn energii — PWP musi je obejmować lub trzeba je oznaczyć.</text>
+<text x="46" y="462" class="male" text-anchor="start">• W domu jednorodzinnym rolę PWP pełni zwykle wyłącznik główny / zabezpieczenie w złączu — wiedz, gdzie są.</text>
+</svg>

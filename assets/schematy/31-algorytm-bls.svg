@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 505" width="840" height="505" role="img" aria-labelledby="t d">
+  <title id="t">Algorytm BLS</title>
+  <desc id="d">Schemat postępowania według wytycznych ERC 2025: sprawdzić bezpieczeństwo (prąd wyłączony); ocenić, czy poszkodowany reaguje; zadzwonić na 112 i posłać po AED; udrożnić drogi oddechowe i ocenić oddech nie dłużej niż 10 sekund. Jeśli oddycha prawidłowo — pozycja bezpieczna, kontrola oddechu, po porażeniu zawsze do szpitala. Jeśli nie oddycha lub oddech jest agonalny — 30 uciśnięć na dolną połowę mostka na głębokość 5–6 cm w tempie 100–120 na minutę, 2 oddechy, 30:2 bez przerw dłuższych niż 10 sekund, AED gdy tylko dostępny. Nie przerywać do przyjazdu zespołu ratownictwa, wybudzenia poszkodowanego lub wyczerpania.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="505" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Podstawowe zabiegi resuscytacyjne — dorosły (ERC 2025)</text>
+<rect x="230" y="50" width="380" height="48" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="420" y="70" class="podt" text-anchor="middle">Bezpiecznie?</text>
+<text x="420" y="89" class="male" text-anchor="middle">prąd wyłączony, Ty i świadkowie bezpieczni</text>
+<line x1="420" y1="98" x2="420" y2="112" stroke="#555" stroke-width="1.5"/><path d="M420.0 112.0 L416.5 103.7 L423.5 103.7 Z" fill="#555"/>
+<rect x="230" y="112" width="380" height="48" rx="8" fill="#fef9e7" stroke="#d4ac0d" stroke-width="1.4"/>
+<text x="420" y="132" class="podt" text-anchor="middle">Reaguje?</text>
+<text x="420" y="151" class="male" text-anchor="middle">potrząśnij za ramiona, zapytaj głośno</text>
+<line x1="420" y1="160" x2="420" y2="174" stroke="#555" stroke-width="1.5"/><path d="M420.0 174.0 L416.5 165.7 L423.5 165.7 Z" fill="#555"/>
+<rect x="230" y="174" width="380" height="48" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="420" y="194" class="podt" text-anchor="middle">112 + AED</text>
+<text x="420" y="213" class="male" text-anchor="middle">zadzwoń (głośnik), poślij kogoś po AED</text>
+<line x1="420" y1="222" x2="420" y2="236" stroke="#555" stroke-width="1.5"/><path d="M420.0 236.0 L416.5 227.7 L423.5 227.7 Z" fill="#555"/>
+<rect x="230" y="236" width="380" height="48" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="420" y="256" class="podt" text-anchor="middle">Udrożnij i oceń oddech</text>
+<text x="420" y="275" class="male" text-anchor="middle">odegnij głowę, unieś brodę; patrz–słuchaj–czuj ≤ 10 s</text>
+<line x1="420" y1="298" x2="420" y2="314" stroke="#555" stroke-width="1.5"/>
+<line x1="200" y1="314" x2="640" y2="314" stroke="#555" stroke-width="1.5"/>
+<line x1="200" y1="314" x2="200" y2="334" stroke="#555" stroke-width="1.5"/><path d="M200.0 334.0 L196.5 325.7 L203.5 325.7 Z" fill="#555"/>
+<line x1="640" y1="314" x2="640" y2="334" stroke="#555" stroke-width="1.5"/><path d="M640.0 334.0 L636.5 325.7 L643.5 325.7 Z" fill="#555"/>
+<rect x="30" y="334" width="340" height="130" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="200" y="356" class="podt" text-anchor="middle" style="fill:#1e8449">Oddycha prawidłowo</text>
+<text x="46" y="380" class="male" text-anchor="start">• pozycja bezpieczna (boczna),</text>
+<text x="46" y="402" class="male" text-anchor="start">• kontroluj oddech, okryj,</text>
+<text x="46" y="424" class="male" text-anchor="start">• czekaj na ZRM — po porażeniu</text>
+<text x="46" y="446" class="male" text-anchor="start">  ZAWSZE do szpitala.</text>
+<rect x="400" y="334" width="420" height="130" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="610" y="356" class="podt" text-anchor="middle" style="fill:#922b21">Nie oddycha / oddech agonalny</text>
+<text x="416" y="380" class="male" text-anchor="start">• 30 uciśnięć: środek klatki (dolna połowa mostka),</text>
+<text x="416" y="402" class="male" text-anchor="start">  głębokość 5–6 cm, tempo 100–120/min,</text>
+<text x="416" y="424" class="male" text-anchor="start">• 2 oddechy (jeśli umiesz) → 30:2 bez przerw > 10 s,</text>
+<text x="416" y="446" class="male" text-anchor="start">• AED — jak tylko jest; wykonuj jego polecenia.</text>
+<text x="420" y="490" class="male" text-anchor="middle">Nie przerywaj, dopóki: przyjedzie ZRM, poszkodowany wyraźnie się wybudzi i oddycha, albo opadniesz z sił.</text>
+</svg>

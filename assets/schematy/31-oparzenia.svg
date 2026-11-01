@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 435" width="840" height="435" role="img" aria-labelledby="t d">
+  <title id="t">Oparzenia elektryczne</title>
+  <desc id="d">Sylwetka człowieka z punktem wejścia prądu na dłoni i wyjścia na stopie oraz przerywaną drogą prądu przez ciało. Dlaczego zawsze do lekarza: mała rana na skórze, a w środku zniszczone mięśnie i naczynia; rozpad mięśni i mioglobina zagrażają nerkom; zaburzenia rytmu serca mogą wystąpić później; łuk parzy oczy, twarz i drogi oddechowe; urazy od upadku. Pierwsza pomoc po odłączeniu prądu: najpierw oddech i krążenie, chłodzenie wodą od razu, zdjęcie biżuterii, jałowy opatrunek bez maści, wezwanie pomocy i ochrona przed wychłodzeniem.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="435" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Oparzenie elektryczne — małe na skórze, duże w środku</text>
+<circle cx="160" cy="80" r="24" fill="#fdebd0" stroke="#a04000" stroke-width="2"/>
+<path d="M130 110 L190 110 L200 250 L120 250 Z" fill="#fdebd0" stroke="#a04000" stroke-width="2"/>
+<line x1="130" y1="115" x2="70" y2="190" stroke="#a04000" stroke-width="10"/>
+<line x1="190" y1="115" x2="240" y2="190" stroke="#a04000" stroke-width="10"/>
+<line x1="140" y1="250" x2="130" y2="380" stroke="#a04000" stroke-width="12"/>
+<line x1="180" y1="250" x2="190" y2="380" stroke="#a04000" stroke-width="12"/>
+<path d="M70 190 Q120 160 150 170 Q170 200 160 250 Q150 320 130 380" fill="none" stroke="#c0392b" stroke-width="4" stroke-dasharray="8 5"/>
+<circle cx="70" cy="190" r="7" fill="#c0392b"/>
+<circle cx="130" cy="380" r="7" fill="#c0392b"/>
+<text x="40" y="215" class="male" text-anchor="middle" style="fill:#c0392b;font-weight:bold">wejście</text>
+<text x="130" y="402" class="male" text-anchor="middle" style="fill:#c0392b;font-weight:bold">wyjście</text>
+<text x="205" y="300" class="male" text-anchor="start">droga prądu:</text>
+<text x="205" y="318" class="male" text-anchor="start">mięśnie,</text>
+<text x="205" y="336" class="male" text-anchor="start">naczynia,</text>
+<text x="205" y="354" class="male" text-anchor="start">serce, nerwy</text>
+<rect x="330" y="55" width="490" height="175" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="346" y="80" class="male" text-anchor="start">Dlaczego zawsze do lekarza:</text>
+<text x="346" y="104" class="male" text-anchor="start">• na skórze mała rana, w środku zniszczone mięśnie i naczynia,</text>
+<text x="346" y="128" class="male" text-anchor="start">• rozpad mięśni → mioglobina → zagrożenie dla nerek,</text>
+<text x="346" y="152" class="male" text-anchor="start">• zaburzenia rytmu serca mogą wystąpić później,</text>
+<text x="346" y="176" class="male" text-anchor="start">• oparzenia łukiem: oczy, twarz, drogi oddechowe,</text>
+<text x="346" y="200" class="male" text-anchor="start">• uraz od upadku lub skurczu (kręgosłup, kości).</text>
+<rect x="330" y="245" width="490" height="175" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="346" y="270" class="male" text-anchor="start">Pierwsza pomoc (po odłączeniu prądu):</text>
+<text x="346" y="294" class="male" text-anchor="start">• najpierw oddech i krążenie (31.02–31.04),</text>
+<text x="346" y="318" class="male" text-anchor="start">• chłodź oparzenie letnią/chłodną wodą od razu (nie lodem),</text>
+<text x="346" y="342" class="male" text-anchor="start">• zdejmij biżuterię, zegarek (obrzęk),</text>
+<text x="346" y="366" class="male" text-anchor="start">• przykryj jałowym opatrunkiem, bez maści i smarowania,</text>
+<text x="346" y="390" class="male" text-anchor="start">• 112 / szpital, chroń przed wychłodzeniem.</text>
+</svg>

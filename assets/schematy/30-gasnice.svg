@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 495" width="840" height="495" role="img" aria-labelledby="t d">
+  <title id="t">Gaśnice do urządzeń elektrycznych</title>
+  <desc id="d">U góry grupy pożarów: A ciała stałe, B ciecze, C gazy, D metale, F tłuszcze. Tabela: gaśnica proszkowa ABC lub BC — do urządzeń pod napięciem do 1000 V z odległości co najmniej 1 m; gaśnica śniegowa CO2 — klasy B i C, do 1000 V z odległości 1 m, bardzo zimna, w małym pomieszczeniu wypiera tlen; gaśnica pianowa lub wodna — tylko gdy etykieta dopuszcza gaszenie urządzeń pod napięciem; woda z hydrantu — nie; koc gaśniczy — małe pożary po wyłączeniu. Najpierw wyłączyć zasilanie, gasić od strony nawietrznej krótkimi seriami; ogniwa litowe wymagają chłodzenia wodą po odłączeniu i wezwania straży.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="495" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Czym gasić urządzenia elektryczne</text>
+<rect x="20" y="50" width="154" height="70" rx="6" fill="#fdfefe" stroke="#aab7b8" stroke-width="1.4"/>
+<text x="42" y="92" class="tytul" text-anchor="middle" style="fill:#c0392b">A</text>
+<text x="64" y="78" class="male" text-anchor="start" style="font-weight:bold">ciała stałe</text>
+<text x="64" y="98" class="male" text-anchor="start">drewno, papier</text>
+<rect x="182" y="50" width="154" height="70" rx="6" fill="#fdfefe" stroke="#aab7b8" stroke-width="1.4"/>
+<text x="204" y="92" class="tytul" text-anchor="middle" style="fill:#c0392b">B</text>
+<text x="226" y="78" class="male" text-anchor="start" style="font-weight:bold">ciecze</text>
+<text x="226" y="98" class="male" text-anchor="start">benzyna, olej</text>
+<rect x="344" y="50" width="154" height="70" rx="6" fill="#fdfefe" stroke="#aab7b8" stroke-width="1.4"/>
+<text x="366" y="92" class="tytul" text-anchor="middle" style="fill:#c0392b">C</text>
+<text x="388" y="78" class="male" text-anchor="start" style="font-weight:bold">gazy</text>
+<text x="388" y="98" class="male" text-anchor="start">propan, metan</text>
+<rect x="506" y="50" width="154" height="70" rx="6" fill="#fdfefe" stroke="#aab7b8" stroke-width="1.4"/>
+<text x="528" y="92" class="tytul" text-anchor="middle" style="fill:#c0392b">D</text>
+<text x="550" y="78" class="male" text-anchor="start" style="font-weight:bold">metale</text>
+<text x="550" y="98" class="male" text-anchor="start">magnez, sód, lit*</text>
+<rect x="668" y="50" width="154" height="70" rx="6" fill="#fdfefe" stroke="#aab7b8" stroke-width="1.4"/>
+<text x="690" y="92" class="tytul" text-anchor="middle" style="fill:#c0392b">F</text>
+<text x="712" y="78" class="male" text-anchor="start" style="font-weight:bold">tłuszcze</text>
+<text x="712" y="98" class="male" text-anchor="start">olej kuchenny</text>
+<rect x="20" y="134" width="800" height="40" fill="#eaecee" stroke="#d5d8dc"/>
+<text x="30" y="160" class="male" text-anchor="start" style="font-weight:bold">Środek</text>
+<text x="220" y="160" class="male" text-anchor="start" style="font-weight:bold">Klasy</text>
+<text x="320" y="160" class="male" text-anchor="start" style="font-weight:bold">Urządzenia pod napięciem</text>
+<text x="560" y="160" class="male" text-anchor="start" style="font-weight:bold">Uwagi</text>
+<rect x="20" y="176" width="800" height="40" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="202" class="male" text-anchor="start" style="font-weight:bold">gaśnica proszkowa</text>
+<text x="220" y="202" class="male" text-anchor="start">ABC / BC</text>
+<text x="320" y="202" class="male" text-anchor="start" style="fill:#1e8449;font-weight:bold">TAK — do 1000 V, z odl. ≥ 1 m</text>
+<text x="560" y="202" class="male" text-anchor="start">pyli, brudzi elektronikę</text>
+<rect x="20" y="218" width="800" height="40" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="244" class="male" text-anchor="start" style="font-weight:bold">gaśnica śniegowa (CO₂)</text>
+<text x="220" y="244" class="male" text-anchor="start">B, C</text>
+<text x="320" y="244" class="male" text-anchor="start" style="fill:#1e8449;font-weight:bold">TAK — do 1000 V, z odl. ≥ 1 m</text>
+<text x="560" y="244" class="male" text-anchor="start">−80 °C; w małym pom. wypiera tlen</text>
+<rect x="20" y="260" width="800" height="40" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="286" class="male" text-anchor="start" style="font-weight:bold">gaśnica pianowa / wodna</text>
+<text x="220" y="286" class="male" text-anchor="start">A, B (F)</text>
+<text x="320" y="286" class="male" text-anchor="start">tylko gdy etykieta dopuszcza</text>
+<text x="560" y="286" class="male" text-anchor="start">bez takiego napisu — NIE</text>
+<rect x="20" y="302" width="800" height="40" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="328" class="male" text-anchor="start" style="font-weight:bold">woda (hydrant)</text>
+<text x="220" y="328" class="male" text-anchor="start">A</text>
+<text x="320" y="328" class="male" text-anchor="start" style="fill:#c0392b;font-weight:bold">NIE</text>
+<text x="560" y="328" class="male" text-anchor="start">przewodzi; dopiero po wyłączeniu</text>
+<rect x="20" y="344" width="800" height="40" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="370" class="male" text-anchor="start" style="font-weight:bold">koc gaśniczy</text>
+<text x="220" y="370" class="male" text-anchor="start">małe A, B, F</text>
+<text x="320" y="370" class="male" text-anchor="start">po wyłączeniu</text>
+<text x="560" y="370" class="male" text-anchor="start">rzucaj „od siebie”</text>
+<rect x="20" y="420" width="800" height="60" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="40" y="444" class="male" text-anchor="start">Najpierw wyłącz zasilanie (wyłącznik główny, PWP), potem gaś: od strony nawietrznej, od krawędzi, krótkimi seriami.</text>
+<text x="40" y="466" class="male" text-anchor="start">* Ogniwa litowe (magazyny, e-hulajnogi): gaśnica ich nie „wyłączy” — chłodzenie dużą ilością wody po odłączeniu, wezwać PSP.</text>
+</svg>

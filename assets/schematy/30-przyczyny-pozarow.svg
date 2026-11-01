@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 485" width="840" height="485" role="img" aria-labelledby="t d">
+  <title id="t">Przyczyny pożarów od instalacji</title>
+  <desc id="d">Tabela przyczyn pożarów i zabezpieczeń: luźne połączenie — grzanie bez zadziałania wyłącznika, chroni dokręcanie, termowizja, AFDD; przeciążenie — wyłącznik dobrany do przewodu; uszkodzona izolacja i prąd upływu do ziemi — RCD do 300 mA i pomiary izolacji; łuk szeregowy — AFDD; zwarcie — wyłączniki i bezpieczniki; przepięcie — ograniczniki przepięć; sprzęt i użytkowanie — obwody wydzielone. Najczęstsza przyczyna w domach to grzejące się połączenie, którego wyłącznik nadprądowy nie wykrywa.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="485" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Skąd biorą się pożary od instalacji — i co przed nimi chroni</text>
+<rect x="20" y="44" width="800" height="46" fill="#eaecee" stroke="#d5d8dc"/>
+<text x="30" y="72" class="male" text-anchor="start" style="font-weight:bold">Przyczyna</text>
+<text x="190" y="72" class="male" text-anchor="start" style="font-weight:bold">Co się dzieje</text>
+<text x="540" y="72" class="male" text-anchor="start" style="font-weight:bold">Co chroni</text>
+<rect x="20" y="94" width="800" height="46" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="122" class="male" text-anchor="start" style="font-weight:bold">luźne połączenie</text>
+<text x="190" y="122" class="male" text-anchor="start">opór styku, P = I²R, grzanie bez zadziałania MCB</text>
+<text x="540" y="122" class="male" text-anchor="start" style="fill:#1e8449">dokręcanie momentem, termowizja, AFDD</text>
+<rect x="20" y="144" width="800" height="46" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="172" class="male" text-anchor="start" style="font-weight:bold">przeciążenie</text>
+<text x="190" y="172" class="male" text-anchor="start">przewód długo ponad Iz, izolacja się starzeje</text>
+<text x="540" y="172" class="male" text-anchor="start" style="fill:#1e8449">MCB dobrany do przewodu (16.02)</text>
+<rect x="20" y="194" width="800" height="46" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="222" class="male" text-anchor="start" style="font-weight:bold">uszkodzona izolacja</text>
+<text x="190" y="222" class="male" text-anchor="start">prąd upływu do ziemi, łuk doziemny</text>
+<text x="540" y="222" class="male" text-anchor="start" style="fill:#1e8449">RCD (ppoż. ≤ 300 mA), pomiary izolacji</text>
+<rect x="20" y="244" width="800" height="46" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="272" class="male" text-anchor="start" style="font-weight:bold">łuk szeregowy</text>
+<text x="190" y="272" class="male" text-anchor="start">przetarta żyła, wtyczka — prąd mniejszy niż In</text>
+<text x="540" y="272" class="male" text-anchor="start" style="fill:#1e8449">AFDD (10.05)</text>
+<rect x="20" y="294" width="800" height="46" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="322" class="male" text-anchor="start" style="font-weight:bold">zwarcie</text>
+<text x="190" y="322" class="male" text-anchor="start">łuk, rozprysk metalu, zapłon otoczenia</text>
+<text x="540" y="322" class="male" text-anchor="start" style="fill:#1e8449">MCB / bezpieczniki, Zs w normie</text>
+<rect x="20" y="344" width="800" height="46" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="372" class="male" text-anchor="start" style="font-weight:bold">przepięcie</text>
+<text x="190" y="372" class="male" text-anchor="start">przebicie izolacji, zniszczenie elektroniki</text>
+<text x="540" y="372" class="male" text-anchor="start" style="fill:#1e8449">SPD typu 1/2/3 (09)</text>
+<rect x="20" y="394" width="800" height="46" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="422" class="male" text-anchor="start" style="font-weight:bold">sprzęt i użytkowanie</text>
+<text x="190" y="422" class="male" text-anchor="start">listwa w listwie, bęben nierozwinięty, ładowarki</text>
+<text x="540" y="422" class="male" text-anchor="start" style="fill:#1e8449">obwody wydzielone, zdrowy rozsądek</text>
+<text x="420" y="470" class="male" text-anchor="middle" style="font-weight:bold">Najczęstszy winowajca w domach: połączenie, które się grzeje — wyłącznik nadprądowy go „nie widzi”.</text>
+</svg>
