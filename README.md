@@ -79,14 +79,14 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 | 07 | [Zabezpieczenia nadprądowe](modules/07-zabezpieczenia-nadpradowe/README.md) | 🏠📋 | 7 | ✅ pełny |
 | 08 | [Wyłączniki różnicowoprądowe](modules/08-wylaczniki-roznicowopradowe/README.md) | 🏠📋 | 7 | ✅ pełny |
 | 09 | [Ochrona przeciwprzepięciowa](modules/09-ochrona-przeciwprzepieciowa/README.md) | 🏠📋 | 5 | ✅ pełny |
-| 10 | [Aparatura modułowa](modules/10-aparatura-modulowa/README.md) | 🏠 | 6 | 🔲 szkielet |
+| 10 | [Aparatura modułowa](modules/10-aparatura-modulowa/README.md) | 🏠 | 6 | ✅ pełny |
 
 ### III. Systemy ochrony
 
 | # | Moduł | Oznaczenia | Tematów | Status |
 |---|-------|------------|---------|--------|
-| 11 | [Układy sieci: TN, TT, IT](modules/11-uklady-sieci/README.md) | 🟢📋 | 6 | 🔲 szkielet |
-| 12 | [Ochrona przeciwporażeniowa](modules/12-ochrona-przeciwporazeniowa/README.md) | 📋 | 6 | 🔲 szkielet |
+| 11 | [Układy sieci: TN, TT, IT](modules/11-uklady-sieci/README.md) | 🟢📋 | 6 | ✅ pełny |
+| 12 | [Ochrona przeciwporażeniowa](modules/12-ochrona-przeciwporazeniowa/README.md) | 📋 | 6 | ✅ pełny |
 | 13 | [Uziemienia i połączenia wyrównawcze](modules/13-uziemienia-i-wyrownanie/README.md) | 🏠📋 | 6 | 🔲 szkielet |
 
 ### IV. Dom i mieszkanie

@@ -73,5 +73,19 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Warystor | Element przewodzący dopiero powyżej pewnego napięcia | warystor tlenkowy | metal oxide varistor, MOV | 09 |
 | Poziom ochrony | Do jakiego napięcia ogranicznik ścina przepięcie | napięciowy poziom ochrony, U_P | voltage protection level | 09 |
 | Instalacja odgromowa | Zwody, przewody odprowadzające i uziom — „piorunochron” | urządzenie piorunochronne, LPS | lightning protection system | 09 |
+| Rozłącznik | Aparat do załączania i wyłączania prądu roboczego, bez wyzwalaczy | rozłącznik (izolacyjny) | switch-disconnector | 10 |
+| Stycznik | Elektromagnetyczny łącznik sterowany cewką | stycznik | contactor | 10 |
+| Przekaźnik bistabilny | Zmienia stan po każdym impulsie z przycisku | łącznik zdalnie sterowany impulsowy | impulse relay / latching relay | 10 |
+| Detektor iskrzenia | Wyłącza obwód, w którym iskrzy | AFDD | arc fault detection device | 10 |
+| Układ sieci | Sposób połączenia źródła i obudów z ziemią | TN-C, TN-S, TN-C-S, TT, IT | earthing system | 11 |
+| Punkt podziału PEN | Miejsce rozdzielenia PEN na N i PE | — | PEN split point | 11 |
+| Kontrola stanu izolacji | Urządzenie sygnalizujące spadek izolacji w sieci IT | IMD | insulation monitoring device | 11 |
+| Ochrona podstawowa | Żeby nie dotknąć części pod napięciem | dawniej: przed dotykiem bezpośrednim | basic protection | 12 |
+| Ochrona przy uszkodzeniu | Gdy zawiedzie izolacja | dawniej: przed dotykiem pośrednim | fault protection | 12 |
+| Ochrona uzupełniająca | Ostatnia warstwa: RCD 30 mA, połączenia dodatkowe | — | additional protection | 12 |
+| Część przewodząca obca | Metal spoza instalacji: rury, grzejniki | część przewodząca obca | extraneous conductive part | 12 |
+| SELV / PELV | Bardzo niskie napięcie bezpieczne / ochronne | ≤ 50 V AC | SELV / PELV | 12 |
+| Separacja elektryczna | Zasilanie z transformatora separacyjnego, bez uziemienia | — | electrical separation | 12 |
+| Zerowanie | Dawna nazwa ochrony w TN | samoczynne wyłączenie w TN | — | 12 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

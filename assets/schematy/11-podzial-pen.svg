@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" width="840" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Rozdzielenie przewodu PEN</title>
+  <desc id="d">Wnętrze rozdzielnicy. Przewód PEN z sieci jest przyłączony najpierw do szyny PE, która jest uziemiona i połączona z główną szyną uziemiającą. Z szyny PE mostek prowadzi do szyny N. Fazy i przewód N przechodzą przez wyłącznik różnicowoprądowy do obwodów, PE biegnie do obwodów osobno, z pominięciem RCD. Zasady: PEN najpierw na szynę PE, potem mostek do N; za punktem podziału N i PE nigdy się nie łączą; PEN ma przekrój co najmniej 10 mm² Cu lub 16 mm² Al i nie przechodzi przez RCD ani łącznik.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="420" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Rozdzielenie PEN w rozdzielnicy (TN-C → TN-S)</text>
+<rect x="40" y="60" width="760" height="340" rx="10" fill="#fbfcfc" stroke="#aab7b8" stroke-width="2"/>
+<text x="60" y="84" class="male" text-anchor="start">rozdzielnica (lub złącze)</text>
+<line x1="0" y1="300" x2="160" y2="300" stroke="#27ae60" stroke-width="4"/>
+<line x1="0" y1="300" x2="160" y2="300" stroke="#3498db" stroke-width="2" stroke-dasharray="10 10"/>
+<text x="20" y="290" class="podt" text-anchor="start" style="fill:#1e8449">PEN z sieci</text>
+<line x1="0" y1="120" x2="560" y2="120" stroke="#8b4513" stroke-width="3"/>
+<text x="20" y="115" class="male" text-anchor="start" style="fill:#8b4513">L1</text>
+<line x1="0" y1="145" x2="560" y2="145" stroke="#222222" stroke-width="3"/>
+<text x="20" y="140" class="male" text-anchor="start" style="fill:#222222">L2</text>
+<line x1="0" y1="170" x2="560" y2="170" stroke="#7f8c8d" stroke-width="3"/>
+<text x="20" y="165" class="male" text-anchor="start" style="fill:#7f8c8d">L3</text>
+<rect x="160" y="290" width="200" height="20" rx="3" fill="#27ae60"/>
+<text x="260" y="335" class="podt" text-anchor="middle" style="fill:#1e8449">szyna PE (najpierw)</text>
+<line x1="340" y1="290" x2="340" y2="230" stroke="#27ae60" stroke-width="4"/>
+<rect x="320" y="210" width="200" height="20" rx="3" fill="#3498db"/>
+<text x="420" y="250" class="podt" text-anchor="middle" style="fill:#1f5fbf">szyna N</text>
+<text x="300" y="262" class="male" text-anchor="end">mostek PE → N</text>
+<line x1="190" y1="310" x2="190" y2="380" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="190" y1="380" x2="190" y2="394" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="177.0" y1="394" x2="203.0" y2="394" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="181.5" y1="400" x2="198.5" y2="400" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="186.0" y1="406" x2="194.0" y2="406" stroke="#1a1a1a" stroke-width="2"/>
+<text x="210" y="395" class="male" text-anchor="start">uziom / GSU</text>
+<rect x="600" y="100" width="70" height="140" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="635" y="175" class="podt" text-anchor="middle">RCD</text>
+<line x1="560" y1="120" x2="600" y2="120" stroke="#8b4513" stroke-width="3"/>
+<line x1="560" y1="145" x2="600" y2="145" stroke="#222222" stroke-width="3"/>
+<line x1="560" y1="170" x2="600" y2="170" stroke="#7f8c8d" stroke-width="3"/>
+<line x1="520" y1="220" x2="600" y2="220" stroke="#3498db" stroke-width="3"/>
+<line x1="670" y1="120" x2="790" y2="120" stroke="#8b4513" stroke-width="3"/>
+<line x1="670" y1="145" x2="790" y2="145" stroke="#222222" stroke-width="3"/>
+<line x1="670" y1="170" x2="790" y2="170" stroke="#7f8c8d" stroke-width="3"/>
+<line x1="670" y1="220" x2="790" y2="220" stroke="#3498db" stroke-width="3"/>
+<line x1="360" y1="300" x2="790" y2="300" stroke="#27ae60" stroke-width="3" stroke-dasharray="12 4 3 4"/>
+<text x="780" y="290" class="male" text-anchor="end">PE do obwodów</text>
+<text x="780" y="210" class="male" text-anchor="end">N do obwodów</text>
+<rect x="430" y="320" width="362" height="68" rx="6" fill="#fdecea" stroke="#c0392b"/>
+<text x="442" y="342" class="male" text-anchor="start">PEN najpierw na szynę PE, potem mostek do N.</text>
+<text x="442" y="360" class="male" text-anchor="start">Za punktem podziału N i PE już nigdy się nie łączą.</text>
+<text x="442" y="378" class="male" text-anchor="start">PEN ≥ 10 mm² Cu / 16 mm² Al; bez RCD i łączników.</text>
+</svg>

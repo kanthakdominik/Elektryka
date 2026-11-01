@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Układ sieci TN-C</title>
+  <desc id="d">Schemat układu TN-C: punkt neutralny transformatora uziemiony, przewody L1, L2, L3 i jeden przewód ochronno-neutralny PEN, do którego przyłączona jest obudowa odbiornika i jego zacisk N. Przerwa w PEN powoduje pojawienie się napięcia na obudowach; w układzie TN-C nie stosuje się wyłączników różnicowoprądowych.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="860" height="400" fill="#ffffff"/>
+<rect x="40" y="65" width="125" height="150" rx="8" fill="none" stroke="#b3b6b7" stroke-dasharray="5 4"/>
+<text x="102" y="232" class="male" text-anchor="middle">transformator</text>
+<line x1="70" y1="90" x2="70" y2="180" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M70.0 90.0 L74.4 84.0 L83.1 96.0 L91.9 84.0 L100.6 96.0 L109.4 84.0 L118.1 96.0 L126.9 84.0 L135.6 96.0 L140.0 90.0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="140" y1="90" x2="790" y2="90" stroke="#8b4513" stroke-width="3"/>
+<text x="800" y="95" class="podt" text-anchor="start" style="fill:#8b4513">L1</text>
+<path d="M70.0 115.0 L74.4 109.0 L83.1 121.0 L91.9 109.0 L100.6 121.0 L109.4 109.0 L118.1 121.0 L126.9 109.0 L135.6 121.0 L140.0 115.0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="140" y1="115" x2="790" y2="115" stroke="#222222" stroke-width="3"/>
+<text x="800" y="120" class="podt" text-anchor="start" style="fill:#222222">L2</text>
+<path d="M70.0 140.0 L74.4 134.0 L83.1 146.0 L91.9 134.0 L100.6 146.0 L109.4 134.0 L118.1 146.0 L126.9 134.0 L135.6 146.0 L140.0 140.0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="140" y1="140" x2="790" y2="140" stroke="#7f8c8d" stroke-width="3"/>
+<text x="800" y="145" class="podt" text-anchor="start" style="fill:#7f8c8d">L3</text>
+<circle cx="70" cy="180" r="4.5" fill="#1a1a1a"/>
+<line x1="70" y1="180" x2="70" y2="300" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="70" y1="300" x2="70" y2="314" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="57.0" y1="314" x2="83.0" y2="314" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="61.5" y1="320" x2="78.5" y2="320" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="66.0" y1="326" x2="74.0" y2="326" stroke="#1a1a1a" stroke-width="2"/>
+<text x="92" y="330" class="male" text-anchor="start">uziemienie robocze</text>
+<line x1="70" y1="180" x2="140" y2="180" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="140" y1="180" x2="790" y2="180" stroke="#27ae60" stroke-width="4"/>
+<line x1="140" y1="180" x2="790" y2="180" stroke="#3498db" stroke-width="2" stroke-dasharray="10 10"/>
+<text x="800" y="185" class="podt" text-anchor="start" style="fill:#1e8449">PEN</text>
+<rect x="560" y="240" width="130" height="66" rx="8" fill="#d6dbdf" stroke="#566573" stroke-width="2.5"/>
+<text x="625" y="270" class="opis" text-anchor="middle">odbiornik</text>
+<text x="625" y="288" class="male" text-anchor="middle">(obudowa metalowa)</text>
+<circle cx="590" cy="90" r="4.5" fill="#1a1a1a"/>
+<line x1="590" y1="90" x2="590" y2="240" stroke="#8b4513" stroke-width="2"/>
+<circle cx="680" cy="180" r="4.5" fill="#1a1a1a"/>
+<line x1="680" y1="180" x2="680" y2="240" stroke="#1e8449" stroke-width="3"/>
+<circle cx="620" cy="180" r="4.5" fill="#1a1a1a"/>
+<line x1="620" y1="180" x2="620" y2="240" stroke="#3498db" stroke-width="2"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Układ TN-C</text>
+<text x="420" y="355" class="opis" text-anchor="middle">Jeden przewód PEN pełni funkcję N i PE.</text>
+<text x="420" y="375" class="opis" text-anchor="middle">Przerwa w PEN = napięcie na obudowach. Bez RCD.</text>
+</svg>

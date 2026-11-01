@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 455" width="840" height="455" role="img" aria-labelledby="t d">
+  <title id="t">Przekaźnik bistabilny i stycznik</title>
+  <desc id="d">Dwa schematy. Po lewej przekaźnik bistabilny: trzy przyciski połączone równolegle podają impuls na cewkę przekaźnika, a jego styk zmienia stan po każdym impulsie i zapala lub gasi lampę. Po prawej stycznik: zegar lub sygnał taryfowy zasila cewkę stycznika, a jego styk główny jest zwarty, dopóki cewka jest zasilona, i włącza grzałkę podgrzewacza. Mały prąd w obwodzie sterowania przełącza duży prąd w obwodzie głównym.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="455" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Przekaźnik bistabilny i stycznik — obwód sterowania i obwód główny</text>
+<rect x="20" y="50" width="390" height="360" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="215" y="76" class="podt" text-anchor="middle">Przekaźnik bistabilny: światło z kilku miejsc</text>
+<rect x="430" y="50" width="390" height="360" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="625" y="76" class="podt" text-anchor="middle">Stycznik: podgrzewacz w taniej taryfie</text>
+<text x="32" y="115" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<line x1="50" y1="110" x2="390" y2="110" stroke="#8b4513" stroke-width="3"/>
+<text x="32" y="375" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<line x1="50" y1="370" x2="390" y2="370" stroke="#3498db" stroke-width="3"/>
+<circle cx="80" cy="110" r="4.5" fill="#1a1a1a"/>
+<line x1="80" y1="110" x2="80" y2="140" stroke="#8b4513" stroke-width="2"/>
+<circle cx="80" cy="140" r="3" fill="#1a1a1a"/>
+<line x1="70" y1="152" x2="90" y2="152" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="80" y1="152" x2="80" y2="146" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="80" cy="165" r="3" fill="#1a1a1a"/>
+<line x1="80" y1="165" x2="80" y2="190" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="80" cy="190" r="4.5" fill="#1a1a1a"/>
+<circle cx="130" cy="110" r="4.5" fill="#1a1a1a"/>
+<line x1="130" y1="110" x2="130" y2="140" stroke="#8b4513" stroke-width="2"/>
+<circle cx="130" cy="140" r="3" fill="#1a1a1a"/>
+<line x1="120" y1="152" x2="140" y2="152" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="130" y1="152" x2="130" y2="146" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="130" cy="165" r="3" fill="#1a1a1a"/>
+<line x1="130" y1="165" x2="130" y2="190" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="130" cy="190" r="4.5" fill="#1a1a1a"/>
+<circle cx="180" cy="110" r="4.5" fill="#1a1a1a"/>
+<line x1="180" y1="110" x2="180" y2="140" stroke="#8b4513" stroke-width="2"/>
+<circle cx="180" cy="140" r="3" fill="#1a1a1a"/>
+<line x1="170" y1="152" x2="190" y2="152" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="180" y1="152" x2="180" y2="146" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="180" cy="165" r="3" fill="#1a1a1a"/>
+<line x1="180" y1="165" x2="180" y2="190" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="180" cy="190" r="4.5" fill="#1a1a1a"/>
+<text x="130" y="135" class="male" text-anchor="middle">przyciski</text>
+<line x1="80" y1="190" x2="180" y2="190" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="130" y1="190" x2="130" y2="230" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="110" y="230" width="40" height="40" fill="#fef5e7" stroke="#e67e22" stroke-width="2"/>
+<text x="130" y="255" class="male" text-anchor="middle">A1</text>
+<text x="160" y="300" class="male" text-anchor="start">cewka</text>
+<line x1="130" y1="270" x2="130" y2="370" stroke="#3498db" stroke-width="2"/>
+<circle cx="130" cy="370" r="4.5" fill="#1a1a1a"/>
+<line x1="150" y1="250" x2="270" y2="250" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="290" cy="110" r="4.5" fill="#1a1a1a"/>
+<line x1="290" y1="110" x2="290" y2="220" stroke="#8b4513" stroke-width="2"/>
+<circle cx="290" cy="220" r="4" fill="#1a1a1a"/>
+<line x1="290" y1="220" x2="272" y2="254" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="290" cy="262" r="4" fill="#1a1a1a"/>
+<line x1="290" y1="262" x2="290" y2="300" stroke="#8b4513" stroke-width="2"/>
+<circle cx="290" cy="318" r="16" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="278.8" y1="306.8" x2="301.2" y2="329.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="278.8" y1="329.2" x2="301.2" y2="306.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="290" y1="334" x2="290" y2="370" stroke="#3498db" stroke-width="2"/>
+<circle cx="290" cy="370" r="4.5" fill="#1a1a1a"/>
+<text x="310" y="240" class="male" text-anchor="start">styk</text>
+<text x="310" y="256" class="male" text-anchor="start">(zmienia stan</text>
+<text x="310" y="272" class="male" text-anchor="start">po każdym</text>
+<text x="310" y="288" class="male" text-anchor="start">impulsie)</text>
+<text x="442" y="115" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<line x1="460" y1="110" x2="800" y2="110" stroke="#8b4513" stroke-width="3"/>
+<text x="442" y="375" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<line x1="460" y1="370" x2="800" y2="370" stroke="#3498db" stroke-width="3"/>
+<circle cx="510" cy="110" r="4.5" fill="#1a1a1a"/>
+<line x1="510" y1="110" x2="510" y2="160" stroke="#8b4513" stroke-width="2"/>
+<rect x="480" y="160" width="60" height="50" rx="6" fill="#e8f8f5" stroke="#1e8449" stroke-width="2"/>
+<text x="510" y="182" class="male" text-anchor="middle">zegar</text>
+<text x="510" y="198" class="male" text-anchor="middle">/ sygnał</text>
+<line x1="510" y1="210" x2="510" y2="240" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="490" y="240" width="40" height="40" fill="#fef5e7" stroke="#e67e22" stroke-width="2"/>
+<text x="510" y="265" class="male" text-anchor="middle">A1</text>
+<line x1="510" y1="280" x2="510" y2="370" stroke="#3498db" stroke-width="2"/>
+<circle cx="510" cy="370" r="4.5" fill="#1a1a1a"/>
+<text x="510" y="300" class="male" text-anchor="middle">cewka</text>
+<line x1="530" y1="260" x2="660" y2="260" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="680" cy="110" r="4.5" fill="#1a1a1a"/>
+<line x1="680" y1="110" x2="680" y2="230" stroke="#8b4513" stroke-width="3"/>
+<circle cx="680" cy="230" r="4" fill="#1a1a1a"/>
+<line x1="680" y1="230" x2="662" y2="264" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="680" cy="272" r="4" fill="#1a1a1a"/>
+<line x1="680" y1="272" x2="680" y2="300" stroke="#8b4513" stroke-width="3"/>
+<rect x="650" y="300" width="60" height="40" rx="5" fill="#fadbd8" stroke="#c0392b" stroke-width="2"/>
+<text x="680" y="325" class="male" text-anchor="middle">grzałka</text>
+<line x1="680" y1="340" x2="680" y2="370" stroke="#3498db" stroke-width="3"/>
+<circle cx="680" cy="370" r="4.5" fill="#1a1a1a"/>
+<text x="700" y="250" class="male" text-anchor="start">styk główny</text>
+<text x="700" y="266" class="male" text-anchor="start">(zwarty, dopóki</text>
+<text x="700" y="282" class="male" text-anchor="start">cewka zasilona)</text>
+<text x="420" y="435" class="opis" text-anchor="middle">Mały prąd w obwodzie sterowania (przyciski, zegar) przełącza duży prąd w obwodzie głównym.</text>
+</svg>

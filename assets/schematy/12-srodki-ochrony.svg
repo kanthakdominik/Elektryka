@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Poziomy ochrony przeciwporażeniowej</title>
+  <desc id="d">Trzy kolumny. Ochrona podstawowa — żeby nie dotknąć części czynnych: izolacja podstawowa, obudowy i osłony co najmniej IP2X, bariery i przeszkody, umieszczenie poza zasięgiem ręki. Ochrona przy uszkodzeniu — gdy zawiedzie izolacja: samoczynne wyłączenie zasilania, izolacja podwójna, separacja elektryczna, połączenia wyrównawcze. Ochrona uzupełniająca — gdy zawiodą obie: wyłączniki różnicowoprądowe do 30 mA i połączenia wyrównawcze miejscowe dodatkowe. Środki łączące oba poziomy: SELV i PELV oraz izolacja podwójna lub wzmocniona.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="400" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Ochrona przeciwporażeniowa — trzy poziomy</text>
+<rect x="30" y="60" width="250" height="230" rx="10" fill="#d6eaf8" stroke="#7f8c8d"/>
+<text x="155" y="90" class="podt" text-anchor="middle">Ochrona podstawowa</text>
+<text x="155" y="112" class="male" text-anchor="middle">nie dotkniesz części czynnych</text>
+<text x="50" y="150" class="opis" text-anchor="start">• izolacja podstawowa</text>
+<text x="50" y="180" class="opis" text-anchor="start">• obudowy i osłony (IP2X)</text>
+<text x="50" y="210" class="opis" text-anchor="start">• bariery, przeszkody</text>
+<text x="50" y="240" class="opis" text-anchor="start">• umieszczenie poza zasięgiem</text>
+<rect x="295" y="60" width="250" height="230" rx="10" fill="#fdebd0" stroke="#7f8c8d"/>
+<text x="420" y="90" class="podt" text-anchor="middle">Ochrona przy uszkodzeniu</text>
+<text x="420" y="112" class="male" text-anchor="middle">gdy izolacja zawiedzie</text>
+<text x="315" y="150" class="opis" text-anchor="start">• samoczynne wyłączenie</text>
+<text x="315" y="180" class="opis" text-anchor="start">• izolacja podwójna</text>
+<text x="315" y="210" class="opis" text-anchor="start">• separacja elektryczna</text>
+<text x="315" y="240" class="opis" text-anchor="start">• połączenia wyrównawcze</text>
+<rect x="560" y="60" width="250" height="230" rx="10" fill="#d5f5e3" stroke="#7f8c8d"/>
+<text x="685" y="90" class="podt" text-anchor="middle">Ochrona uzupełniająca</text>
+<text x="685" y="112" class="male" text-anchor="middle">gdy zawiodą obie powyższe</text>
+<text x="580" y="150" class="opis" text-anchor="start">• RCD ≤ 30 mA</text>
+<text x="580" y="180" class="opis" text-anchor="start">• połączenia wyrównawcze</text>
+<text x="580" y="210" class="opis" text-anchor="start">  miejscowe dodatkowe</text>
+<rect x="30" y="310" width="780" height="70" rx="10" fill="#f4ecf7" stroke="#7f8c8d"/>
+<text x="420" y="338" class="podt" text-anchor="middle">Środki łączące oba poziomy (podstawowa + przy uszkodzeniu):</text>
+<text x="420" y="362" class="opis" text-anchor="middle">SELV i PELV (bardzo niskie napięcie) · izolacja podwójna lub wzmocniona</text>
+</svg>

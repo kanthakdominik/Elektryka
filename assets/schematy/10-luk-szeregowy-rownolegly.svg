@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 350" width="840" height="350" role="img" aria-labelledby="t d">
+  <title id="t">Łuk szeregowy i równoległy</title>
+  <desc id="d">Dwa schematy obwodu z odbiornikiem. Po lewej łuk szeregowy w przewodzie L na luźnym zacisku lub pękniętej żyle: prąd nie przekracza prądu odbiornika, więc nie wykrywa go ani wyłącznik nadprądowy, ani różnicowoprądowy, wykrywa go AFDD. Po prawej łuk równoległy między L a N przez uszkodzoną izolację: prąd jest duży, ale przerywany, wyłącznik nadprądowy często reaguje za późno, a różnicowoprądowy tylko przy łuku do PE; AFDD go wykrywa.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="350" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Iskrzenie szeregowe i równoległe — co je wykrywa</text>
+<rect x="20" y="50" width="390" height="250" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="215" y="76" class="podt" text-anchor="middle">Łuk szeregowy</text>
+<line x1="50" y1="120" x2="380" y2="120" stroke="#8b4513" stroke-width="3"/>
+<line x1="50" y1="220" x2="380" y2="220" stroke="#3498db" stroke-width="3"/>
+<text x="34" y="125" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<text x="34" y="225" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<rect x="320" y="140" width="50" height="60" rx="5" fill="#d6dbdf" stroke="#566573" stroke-width="2"/>
+<line x1="345" y1="120" x2="345" y2="140" stroke="#8b4513" stroke-width="2"/>
+<line x1="345" y1="200" x2="345" y2="220" stroke="#3498db" stroke-width="2"/>
+<rect x="430" y="50" width="390" height="250" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="625" y="76" class="podt" text-anchor="middle">Łuk równoległy (L–N, L–PE)</text>
+<line x1="460" y1="120" x2="790" y2="120" stroke="#8b4513" stroke-width="3"/>
+<line x1="460" y1="220" x2="790" y2="220" stroke="#3498db" stroke-width="3"/>
+<text x="444" y="125" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<text x="444" y="225" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<rect x="730" y="140" width="50" height="60" rx="5" fill="#d6dbdf" stroke="#566573" stroke-width="2"/>
+<line x1="755" y1="120" x2="755" y2="140" stroke="#8b4513" stroke-width="2"/>
+<line x1="755" y1="200" x2="755" y2="220" stroke="#3498db" stroke-width="2"/>
+<rect x="150" y="108" width="40" height="24" fill="#ffffff"/>
+<path d="M150 120 l8 -8 l6 14 l6 -14 l6 14 l6 -14 l8 8" fill="none" stroke="#e67e22" stroke-width="3"/>
+<text x="170" y="100" class="male" text-anchor="middle">luźny zacisk / pęknięta żyła</text>
+<text x="215" y="255" class="male" text-anchor="middle">prąd ≤ prąd odbiornika</text>
+<text x="215" y="273" class="male" text-anchor="middle">MCB: nie widzi · RCD: nie widzi</text>
+<text x="215" y="291" class="male" text-anchor="middle">AFDD: wykrywa</text>
+<path d="M580 120 l-8 18 l14 6 l-8 18 l14 6 l-8 18 l14 6 l-8 28" fill="none" stroke="#e67e22" stroke-width="3"/>
+<text x="600" y="165" class="male" text-anchor="start">uszkodzona</text>
+<text x="600" y="181" class="male" text-anchor="start">izolacja</text>
+<text x="625" y="255" class="male" text-anchor="middle">prąd duży, ale przerywany</text>
+<text x="625" y="273" class="male" text-anchor="middle">MCB: często za późno · RCD: tylko do PE</text>
+<text x="625" y="291" class="male" text-anchor="middle">AFDD: wykrywa</text>
+<text x="420" y="330" class="opis" text-anchor="middle">AFDD analizuje kształt prądu (zakłócenia wysokiej częstotliwości charakterystyczne dla łuku).</text>
+</svg>

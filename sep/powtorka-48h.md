@@ -35,7 +35,13 @@ _(uzupełniane z modułów 28, 30, 31)_
 - **TEST** sprawdza mechanizm, nie PE i nie czas — to robi miernik. Selektywność RCD: wyżej typ S i IΔn ≥ 3×. Suma upływu za RCD ≤ 0,3 IΔn. ([08.05](../modules/08-wylaczniki-roznicowopradowe/08.05-przycisk-test-i-okresowe-sprawdzanie.md), [08.07](../modules/08-wylaczniki-roznicowopradowe/08.07-podzial-obwodow-miedzy-wylaczniki.md))
 - **Klasy ochronności:** 0 — tylko izolacja podstawowa; I — + PE; II — izolacja podwójna/wzmocniona, bez PE (kwadrat w kwadracie); III — SELV/PELV ≤ 50 V AC. ([06.06](../modules/06-osprzet-instalacyjny/06.06-klasy-ochronnosci-urzadzen-0-i-ii-iii.md))
 
-_(uzupełniane z modułu 12)_
+- **Układy sieci:** 1. litera — źródło (T uziemione, I izolowane), 2. — obudowy (T własny uziom, N przez przewód do punktu neutralnego), S/C — osobne N i PE / wspólny PEN. W Polsce zwykle TN-C-S. ([11.01](../modules/11-uklady-sieci/11.01-co-oznaczaja-litery-w-nazwie-ukladu-sieci.md))
+- **PEN:** ≥ 10 mm² Cu / 16 mm² Al, nigdy przez łącznik ani RCD; rozdział: PEN → szyna PE → mostek → N, punkt podziału uziemiony, dalej N i PE nigdy razem. Przerwa PEN przed podziałem → do ~400 V na fazie. ([11.04](../modules/11-uklady-sieci/11.04-uklad-tn-c-s-i-punkt-rozdzialu-pen.md))
+- **TT:** $R_A \cdot I_{\Delta n} \le 50$ V, czas 0,2 s (odbiorcze) / 1 s, RCD konieczny, N odłączany, bez mostka N–PE. **IT:** pierwsze zwarcie sygnalizowane (IMD), drugie wyłączane. ([11.05](../modules/11-uklady-sieci/11.05-uklad-tt.md), [11.06](../modules/11-uklady-sieci/11.06-uklad-it.md))
+- **Trzy poziomy ochrony:** podstawowa (izolacja, obudowy IP2X, góra IP4X; przeszkody i poza zasięgiem — tylko dla wykwalifikowanych), przy uszkodzeniu (PE + połączenia wyrównawcze + samoczynne wyłączenie; izolacja podwójna; separacja), uzupełniająca (RCD ≤ 30 mA, połączenia miejscowe dodatkowe). ([12.01](../modules/12-ochrona-przeciwporazeniowa/12.01-ochrona-podstawowa-izolacja-obudowy-przegrody.md), [12.02](../modules/12-ochrona-przeciwporazeniowa/12.02-ochrona-przy-uszkodzeniu-samoczynne-wylaczenie.md))
+- **Ocena pomiaru pętli z zapasem:** $Z_s \le \tfrac{2}{3} U_0/I_a$ — B16 → 1,92 Ω, C16 → 0,96 Ω. ([12.03](../modules/12-ochrona-przeciwporazeniowa/12.03-warunek-skutecznosci-samoczynnego-wylaczenia.md))
+- **SELV/PELV:** ≤ 50 V AC / 120 V DC; SELV nieuziemione, PELV może być uziemione, FELV nie chroni; bez ochrony podstawowej do 25 V AC (sucho) / 12 V AC. **Separacja:** transformator separacyjny, 1 odbiornik, bez uziemienia, ≤ 500 V. ([12.04](../modules/12-ochrona-przeciwporazeniowa/12.04-izolacja-podwojna-separacja-elektryczna-selv-i.md))
+- **Dawne nazwy:** dotyk bezpośredni → ochrona podstawowa; dotyk pośredni / ochrona dodatkowa → przy uszkodzeniu; zerowanie → wyłączenie w TN; uziemienie ochronne → w TT; sieć ochronna → IT. ([12.06](../modules/12-ochrona-przeciwporazeniowa/12.06-dawne-nazwy-zerowanie-uziemienie-ochronne.md))
 
 ## Zabezpieczenia i przewody
 
@@ -52,6 +58,8 @@ _(uzupełniane z modułu 12)_
 - **Zdolność zwarciowa:** $I_{cn}$ (6000 w prostokącie) ≥ spodziewany prąd zwarcia $U_0/Z_s$ albo ochrona wsteczna; klasa ograniczania energii 3. ([07.05](../modules/07-zabezpieczenia-nadpradowe/07.05-zdolnosc-zwarciowa-6-ka-10-ka.md))
 - **IP:** 1. cyfra — ciała stałe (2 palec, 4 drut, 6 pyłoszczelna), 2. cyfra — woda (4 bryzgi, 7 zanurzenie); łazienka strefy 1–2 IPX4, strefa 0 IPX7. ([06.05](../modules/06-osprzet-instalacyjny/06.05-stopnie-ochrony-ip.md))
 - **Osprzęt:** łącznik zawsze w fazie L; gniazdo — PE na bolec, L lewy otwór (bolec u góry); połączenia w dostępnych puszkach, złączkami, nie skrętką. ([06.01](../modules/06-osprzet-instalacyjny/06.01-gniazda-wtyczkowe-jednofazowe-z-bolcem.md), [06.02](../modules/06-osprzet-instalacyjny/06.02-laczniki-jednobiegunowy-dwubiegunowy.md), [06.04](../modules/06-osprzet-instalacyjny/06.04-zlaczki-i-laczenie-przewodow-dlaczego-nie.md))
+
+- **Aparatura:** odłącznik — przerwa izolacyjna bez obciążenia; rozłącznik — prąd roboczy; wyłącznik — także zwarcia. Stycznik trzyma, dopóki cewka zasilona; bistabilny zmienia stan po impulsie. Zgaszona kontrolka ≠ brak napięcia. AFDD wykrywa łuk szeregowy, którego nie widzi MCB ani RCD. Moc z licznika: $P = 3600 n/(C t)$. ([10.01](../modules/10-aparatura-modulowa/10.01-rozlacznik-izolacyjny-wylacznik-glowny.md), [10.05](../modules/10-aparatura-modulowa/10.05-detektory-iskrzenia-afdd.md), [10.06](../modules/10-aparatura-modulowa/10.06-podliczniki-energii.md))
 
 _(uzupełniane z modułu 16)_
 
