@@ -85,3 +85,19 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `11-zlacze-stare.jpg` | Lokilech | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HausAnschlusskasten_alt_(2).jpg) |
 | `11-tablica-europejska.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wiring_of_European_fuse_box.JPG) |
 | `12-transformator-12v.jpg` | Abdull | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electronic_transformer_low_voltage_halogen_lamps.jpg) |
+| `13-uziom-fundamentowy.jpg` | O. Brill | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fundamenterder.jpg) |
+| `13-uziom-fundamentowy-stacja.jpg` | Krokofant | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trafostation_Fundamenterder.jpg) |
+| `13-gsu-tn-c.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Technical_diagram_of_the_main_earthing_busbar_in_TN-C_system.JPG) |
+| `13-gsu-tt.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Technical_diagram_of_the_main_earthing_busbar_in_TT_and_IT_systems.JPG) |
+| `13-uziom-pretowy.jpg` | nieznany autor | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HomeEarthRodAustralia1.jpg) |
+| `13-rura-wodna-uziemienie.jpg` | z22 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Metal_water_pipe_as_grounding_electrode.jpg) |
+| `13-erdungsstab.jpg` | derped | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Erdungsstab.JPG) |
+| `14-przylacza-budynku.jpg` | Cschirp | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hausanschluss_Fernwaerme_Wasser_Strom_Telefon_FTTH.jpg) |
+| `14-licznik-3f.jpg` | Ali@gwc.org.uk at en.wikipedia | CC BY-SA 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ThreePhaseElectricityMeter.jpg) |
+| `14-licznik-smart.jpg` | EVB Energy Ltd (no mention of the photographer required) | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Intelligenter_zaehler-_Smart_meter.jpg) |
+| `15-rozdzielnica-otwarta.jpg` | Santeri Viinamäki | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Opened_distribution_board.jpg) |
+| `15-unterverteilung.jpg` | Uwe Schwöbel | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Unterverteilung.jpg) |
+| `15-verteiler.jpg` | Magnus Mertens (User:Magmer~commonswiki) | CC BY-SA 2.0 de | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Verteiler.jpg) |
+| `15-grzebien-hager.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hager_busbar_10mm_for_circuit_breakers.JPG) |
+| `15-wylaczniki-szyna.jpg` | Santeri Viinamäki | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MCB_Circuit_breakers_for_DIN_rail.jpg) |
+| `15-szyna-th35.jpg` | Ulfbastel | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Din_rail.jpg) |
