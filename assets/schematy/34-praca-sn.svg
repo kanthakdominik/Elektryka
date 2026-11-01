@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 465" width="840" height="465" role="img" aria-labelledby="t d">
+  <title id="t">Praca przy SN</title>
+  <desc id="d">Tabela odstępów minimalnych z § 23 ust. 3 rozporządzenia BHP: 3 kV — 60 i 1120 mm, 6 kV — 90 i 1120, 10 kV — 120 i 1150, 15 kV — 160 i 1160, 20 kV — 220 i 1220, 30 kV — 320 i 1320 mm (granica prac pod napięciem i w pobliżu). Kolejność pracy na wyłączonym urządzeniu SN: polecenie pisemne i zespół, wyłączenie z widoczną przerwą, blokady i tablice, wskaźnik SN sprawdzony przed i po, brak napięcia na wszystkich fazach, uziemienie i zwarcie z każdej strony z widocznym uziemieniem, osłony, dopuszczenie i zakończenie. Napięcie może wrócić z drugiej strony pętli, przez transformator od strony nN, przez indukcję lub z ładunku kabla; podczas burzy przerwa w pracach na liniach.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="465" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Praca przy urządzeniach SN — odstępy i kolejność</text>
+<rect x="20" y="50" width="340" height="32" fill="#eaecee" stroke="#d5d8dc"/>
+<text x="36" y="72" class="male" text-anchor="start" style="font-weight:bold">Un [kV]</text>
+<text x="140" y="72" class="male" text-anchor="start" style="font-weight:bold">DL [mm]</text>
+<text x="250" y="72" class="male" text-anchor="start" style="font-weight:bold">DV [mm]</text>
+<rect x="20" y="84" width="340" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="36" y="106" class="male" text-anchor="start" style="font-weight:bold">3</text>
+<text x="140" y="106" class="male" text-anchor="start">60</text>
+<text x="250" y="106" class="male" text-anchor="start">1120</text>
+<rect x="20" y="118" width="340" height="32" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="36" y="140" class="male" text-anchor="start" style="font-weight:bold">6</text>
+<text x="140" y="140" class="male" text-anchor="start">90</text>
+<text x="250" y="140" class="male" text-anchor="start">1120</text>
+<rect x="20" y="152" width="340" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="36" y="174" class="male" text-anchor="start" style="font-weight:bold">10</text>
+<text x="140" y="174" class="male" text-anchor="start">120</text>
+<text x="250" y="174" class="male" text-anchor="start">1150</text>
+<rect x="20" y="186" width="340" height="32" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="36" y="208" class="male" text-anchor="start" style="font-weight:bold">15</text>
+<text x="140" y="208" class="male" text-anchor="start">160</text>
+<text x="250" y="208" class="male" text-anchor="start">1160</text>
+<rect x="20" y="220" width="340" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="36" y="242" class="male" text-anchor="start" style="font-weight:bold">20</text>
+<text x="140" y="242" class="male" text-anchor="start">220</text>
+<text x="250" y="242" class="male" text-anchor="start">1220</text>
+<rect x="20" y="254" width="340" height="32" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="36" y="276" class="male" text-anchor="start" style="font-weight:bold">30</text>
+<text x="140" y="276" class="male" text-anchor="start">320</text>
+<text x="250" y="276" class="male" text-anchor="start">1320</text>
+<text x="190" y="318" class="male" text-anchor="middle">§ 23 ust. 3 rozporządzenia BHP</text>
+<text x="190" y="336" class="male" text-anchor="middle">DL — granica prac pod napięciem</text>
+<text x="190" y="354" class="male" text-anchor="middle">DV — granica prac w pobliżu</text>
+<rect x="380" y="50" width="440" height="320" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="600" y="74" class="podt" text-anchor="middle">Kolejność przy pracy na wyłączonym</text>
+<text x="398" y="102" class="male" text-anchor="start">polecenie pisemne, zespół ≥ 2 osoby</text>
+<text x="398" y="130" class="male" text-anchor="start">wyłączenie z widoczną przerwą (odłącznik)</text>
+<text x="398" y="158" class="male" text-anchor="start">blokady napędów, tablice „Nie załączać”</text>
+<text x="398" y="186" class="male" text-anchor="start">wskaźnik SN sprawdzony przed i po</text>
+<text x="398" y="214" class="male" text-anchor="start">brak napięcia na wszystkich fazach</text>
+<text x="398" y="242" class="male" text-anchor="start">uziemienie i zwarcie — z każdej strony,</text>
+<text x="398" y="270" class="male" text-anchor="start">  co najmniej jedno widoczne z miejsca pracy</text>
+<text x="398" y="298" class="male" text-anchor="start">osłony i oznaczenie strefy pracy</text>
+<text x="398" y="326" class="male" text-anchor="start">dopuszczenie, praca, zakończenie</text>
+<rect x="20" y="380" width="800" height="70" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="40" y="404" class="male" text-anchor="start">Napięcie może wrócić: z drugiej strony pętli, przez transformator od strony nN (agregat!), indukcja od linii równoległej,</text>
+<text x="40" y="426" class="male" text-anchor="start">ładunek kabla. Dlatego uziemienie z KAŻDEJ strony, z której może przyjść napięcie; podczas burzy — przerwa w pracach na liniach.</text>
+</svg>

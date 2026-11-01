@@ -132,8 +132,8 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 
 | # | Moduł | Oznaczenia | Tematów | Status |
 |---|-------|------------|---------|--------|
-| 33 | [Dozór (D)](modules/33-dozor/README.md) | 📋 | 6 | 🔲 szkielet |
-| 34 | [Sieci SN i stacje transformatorowe](modules/34-sieci-sn-i-stacje/README.md) | 📋 | 5 | 🔲 szkielet |
+| 33 | [Dozór (D)](modules/33-dozor/README.md) | 📋 | 6 | ✅ pełny |
+| 34 | [Sieci SN i stacje transformatorowe](modules/34-sieci-sn-i-stacje/README.md) | 📋 | 5 | ✅ pełny |
 <!-- mapa:end -->
 
 🔲 szkielet — lista tematów i układ sekcji · 🟡 w trakcie — część tematów wypełniona · ✅ pełny — wyjaśnienia, zdjęcia, schematy, pytania z odpowiedziami, źródła

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 465" width="840" height="465" role="img" aria-labelledby="t d">
+  <title id="t">Jakość energii i przerwy</title>
+  <desc id="d">Tabela parametrów jakości energii dla grup przyłączeniowych III–V według § 45 ust. 5: częstotliwość 50 Hz ±1 procent przez 99,5 procent tygodnia, napięcie ±10 procent przez 95 procent tygodnia, wskaźnik migotania Plt nie większy niż 1, asymetria 0–2 procent, THD do 8 procent. Pasek rodzajów przerw: przemijające do 1 s, krótkie do 3 min, długie do 12 h, bardzo długie do 24 h, katastrofalne powyżej 24 h. Dla grup IV i V: przerwa planowana jednorazowo do 16 h, nieplanowana do 24 h, rocznie planowane do 35 h, nieplanowane do 48 h; zawiadomienie o planowanej przerwie co najmniej 5 dni wcześniej; reklamacja do 14 dni.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="465" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Jakość energii i przerwy — grupy przyłączeniowe IV i V</text>
+<rect x="20" y="50" width="800" height="32" fill="#eaecee" stroke="#d5d8dc"/>
+<text x="30" y="72" class="male" text-anchor="start" style="font-weight:bold">Parametr (§ 45 ust. 5, grupy III–V)</text>
+<text x="330" y="72" class="male" text-anchor="start" style="font-weight:bold">Wymaganie</text>
+<rect x="20" y="84" width="800" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="106" class="male" text-anchor="start" style="font-weight:bold">częstotliwość</text>
+<text x="330" y="106" class="male" text-anchor="start">50 Hz ± 1 % przez 99,5 % tygodnia; 47–52 Hz zawsze</text>
+<rect x="20" y="118" width="800" height="32" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="140" class="male" text-anchor="start" style="font-weight:bold">napięcie (średnie 10-min)</text>
+<text x="330" y="140" class="male" text-anchor="start">± 10 % Un przez 95 % tygodnia</text>
+<rect x="20" y="152" width="800" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="174" class="male" text-anchor="start" style="font-weight:bold">migotanie światła Plt</text>
+<text x="330" y="174" class="male" text-anchor="start">≤ 1 przez 95 % tygodnia</text>
+<rect x="20" y="186" width="800" height="32" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="208" class="male" text-anchor="start" style="font-weight:bold">asymetria napięć</text>
+<text x="330" y="208" class="male" text-anchor="start">0–2 %</text>
+<rect x="20" y="220" width="800" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="242" class="male" text-anchor="start" style="font-weight:bold">odkształcenie THD</text>
+<text x="330" y="242" class="male" text-anchor="start">≤ 8 %</text>
+<text x="420" y="290" class="podt" text-anchor="middle">Rodzaje przerw według czasu (§ 47 ust. 2)</text>
+<rect x="20" y="305" width="156" height="56" rx="6" fill="#e9f7ef" stroke="#aab7b8"/>
+<text x="98" y="328" class="male" text-anchor="middle" style="font-weight:bold">przemijające</text>
+<text x="98" y="348" class="male" text-anchor="middle">≤ 1 s</text>
+<rect x="180" y="305" width="156" height="56" rx="6" fill="#fef9e7" stroke="#aab7b8"/>
+<text x="258" y="328" class="male" text-anchor="middle" style="font-weight:bold">krótkie</text>
+<text x="258" y="348" class="male" text-anchor="middle">1 s – 3 min</text>
+<rect x="340" y="305" width="156" height="56" rx="6" fill="#fdebd0" stroke="#aab7b8"/>
+<text x="418" y="328" class="male" text-anchor="middle" style="font-weight:bold">długie</text>
+<text x="418" y="348" class="male" text-anchor="middle">3 min – 12 h</text>
+<rect x="500" y="305" width="156" height="56" rx="6" fill="#fadbd8" stroke="#aab7b8"/>
+<text x="578" y="328" class="male" text-anchor="middle" style="font-weight:bold">bardzo długie</text>
+<text x="578" y="348" class="male" text-anchor="middle">12 – 24 h</text>
+<rect x="660" y="305" width="156" height="56" rx="6" fill="#f5b7b1" stroke="#aab7b8"/>
+<text x="738" y="328" class="male" text-anchor="middle" style="font-weight:bold">katastrofalne</text>
+<text x="738" y="348" class="male" text-anchor="middle">&gt; 24 h</text>
+<rect x="20" y="375" width="800" height="75" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="40" y="398" class="male" text-anchor="start">Dopuszczalne dla grup IV i V (§ 47 ust. 5): jednorazowo planowana ≤ 16 h, nieplanowana ≤ 24 h;</text>
+<text x="40" y="418" class="male" text-anchor="start">rocznie (długie + bardzo długie): planowane ≤ 35 h, nieplanowane ≤ 48 h. O planowanej przerwie — ≥ 5 dni wcześniej.</text>
+<text x="40" y="438" class="male" text-anchor="start">Reklamacja: odpowiedź do 14 dni; za niedotrzymanie standardów — bonifikata wg taryfy (§ 49).</text>
+</svg>

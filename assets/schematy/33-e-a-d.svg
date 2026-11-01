@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 465" width="840" height="465" role="img" aria-labelledby="t d">
+  <title id="t">Eksploatacja a dozór</title>
+  <desc id="d">Dwa panele. E — wykonuje: obsługa, konserwacja, remonty, montaż, pomiary; funkcje dopuszczającego i kierującego zespołem; praca według instrukcji i poleceń; zgłaszanie usterek; pomiary z zakresem kontrolno-pomiarowym. D — kieruje i nadzoruje: organizuje prace i wydaje polecenia; odpowiada za stan techniczny i dokumentację; planuje przeglądy i pomiary; dba o kwalifikacje; przeprowadza kontrolę okresową budynku; zna przepisy o przyłączaniu, jakości energii i dysponowaniu mocą. Egzamin D obejmuje zakres E i dodatkowe przepisy.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="465" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Eksploatacja (E) a dozór (D) — kto co robi</text>
+<rect x="20" y="50" width="395" height="330" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="217" y="76" class="podt" text-anchor="middle" style="fill:#1e8449">E — wykonuje</text>
+<text x="36" y="104" class="male" text-anchor="start">• obsługa, konserwacja, remonty, montaż,</text>
+<text x="36" y="131" class="male" text-anchor="start">  pomiary — „ręce”,</text>
+<text x="36" y="158" class="male" text-anchor="start">• dopuszczający, kierujący zespołem,</text>
+<text x="36" y="185" class="male" text-anchor="start">  członek zespołu,</text>
+<text x="36" y="212" class="male" text-anchor="start">• pracuje według instrukcji i poleceń,</text>
+<text x="36" y="239" class="male" text-anchor="start">• zgłasza usterki i zagrożenia,</text>
+<text x="36" y="266" class="male" text-anchor="start">• wykonuje pomiary (z zakresem</text>
+<text x="36" y="293" class="male" text-anchor="start">  kontrolno-pomiarowym).</text>
+<rect x="425" y="50" width="395" height="330" rx="8" fill="#e8daef" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="622" y="76" class="podt" text-anchor="middle" style="fill:#6c3483">D — kieruje i nadzoruje</text>
+<text x="441" y="104" class="male" text-anchor="start">• organizuje prace, wydaje polecenia</text>
+<text x="441" y="131" class="male" text-anchor="start">  (poleceniodawca, koordynujący),</text>
+<text x="441" y="158" class="male" text-anchor="start">• odpowiada za stan techniczny urządzeń</text>
+<text x="441" y="185" class="male" text-anchor="start">  i dokumentację (instrukcje, zapisy),</text>
+<text x="441" y="212" class="male" text-anchor="start">• planuje przeglądy, remonty, pomiary,</text>
+<text x="441" y="239" class="male" text-anchor="start">• dba o kwalifikacje i szkolenia ludzi,</text>
+<text x="441" y="266" class="male" text-anchor="start">• przeprowadza kontrolę okresową</text>
+<text x="441" y="293" class="male" text-anchor="start">  instalacji budynku (art. 62 ust. 5 PB),</text>
+<text x="441" y="320" class="male" text-anchor="start">• zna przepisy o przyłączaniu, ruchu,</text>
+<text x="441" y="347" class="male" text-anchor="start">  jakości energii i dysponowaniu mocą.</text>
+<rect x="20" y="390" width="800" height="60" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="420" y="414" class="male" text-anchor="middle">Egzamin D = całość zakresu E + przepisy z § 6 ust. 1 pkt 2 lit. a–i rozporządzenia z 2022 r.</text>
+<text x="420" y="436" class="male" text-anchor="middle">Wiele osób ma oba świadectwa: E do wykonywania prac i D do kierowania nimi.</text>
+</svg>

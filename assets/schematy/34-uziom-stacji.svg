@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 470" width="840" height="470" role="img" aria-labelledby="t d">
+  <title id="t">Uziom stacji SN</title>
+  <desc id="d">Przekrój terenu wokół stacji SN z uziomem: przy zwarciu doziemnym prąd wpływa do uziomu i podnosi potencjał stacji i gruntu, tworząc lejek potencjału. Człowiek dotykający obudowy ma napięcie dotykowe, a idący obok — napięcie krokowe. Dopuszczalne napięcie dotykowe zależy od czasu trwania zwarcia według PN-EN 50522. Środki: mała rezystancja uziomu, otok wyrównujący potencjał, izolujące podłoże, szybkie zabezpieczenia; przy zerwanym przewodzie nie podchodzić.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="470" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Zwarcie doziemne w stacji SN — napięcie dotykowe i krokowe</text>
+<line x1="60" y1="300" x2="780" y2="300" stroke="#8d6e63" stroke-width="3"/>
+<rect x="330" y="170" width="160" height="80" rx="8" fill="#ecf0f1" stroke="#555" stroke-width="1.4"/>
+<text x="410.0" y="210.0" class="podt" text-anchor="middle">stacja</text>
+<text x="410.0" y="230.0" class="male" text-anchor="middle">obudowa uziemiona</text>
+<line x1="410" y1="250" x2="410" y2="300" stroke="#2e9e3e" stroke-width="3"/>
+<line x1="320" y1="320" x2="500" y2="320" stroke="#2e9e3e" stroke-width="3"/>
+<text x="385" y="340" class="male" text-anchor="middle">uziom stacji (otok, pręty)</text>
+<path d="M60.0 131.1 L70.0 130.5 L80.0 129.9 L90.0 129.2 L100.0 128.4 L110.0 127.7 L120.0 126.8 L130.0 125.9 L140.0 124.9 L150.0 123.8 L160.0 122.7 L170.0 121.4 L180.0 120.1 L190.0 118.6 L200.0 116.9 L210.0 115.1 L220.0 113.1 L230.0 110.8 L240.0 108.3 L250.0 105.4 L260.0 102.1 L270.0 98.3 L280.0 93.9 L290.0 88.8 L300.0 82.6 L310.0 75.2 L320.0 66.0 L330.0 66.0 L340.0 66.0 L350.0 66.0 L360.0 66.0 L370.0 66.0 L380.0 66.0 L390.0 66.0 L400.0 66.0 L410.0 66.0 L420.0 66.0 L430.0 66.0 L440.0 66.0 L450.0 66.0 L460.0 66.0 L470.0 66.0 L480.0 66.0 L490.0 66.0 L500.0 66.0 L510.0 75.2 L520.0 82.6 L530.0 88.8 L540.0 93.9 L550.0 98.3 L560.0 102.1 L570.0 105.4 L580.0 108.3 L590.0 110.8 L600.0 113.1 L610.0 115.1 L620.0 116.9 L630.0 118.6 L640.0 120.1 L650.0 121.4 L660.0 122.7 L670.0 123.8 L680.0 124.9 L690.0 125.9 L700.0 126.8 L710.0 127.7 L720.0 128.4 L730.0 129.2 L740.0 129.9 L750.0 130.5 L760.0 131.1 L770.0 131.7 L780.0 132.3" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+<line x1="60" y1="150" x2="780" y2="150" stroke="#bbb" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="120" y="140" class="male" text-anchor="middle" style="fill:#c0392b">potencjał gruntu</text>
+<circle cx="520" cy="238" r="9" fill="none" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="247" x2="520" y2="278" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="258" x2="504" y2="250" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="258" x2="534" y2="268" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="278" x2="510" y2="300" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="278" x2="530" y2="300" stroke="#555" stroke-width="2.5"/>
+<line x1="534" y1="268" x2="490" y2="230" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="520" y="330" class="male" text-anchor="middle" style="font-weight:bold">dotykowe</text>
+<circle cx="650" cy="238" r="9" fill="none" stroke="#555" stroke-width="2.5"/>
+<line x1="650" y1="247" x2="650" y2="278" stroke="#555" stroke-width="2.5"/>
+<line x1="650" y1="258" x2="634" y2="250" stroke="#555" stroke-width="2.5"/>
+<line x1="650" y1="258" x2="664" y2="268" stroke="#555" stroke-width="2.5"/>
+<line x1="650" y1="278" x2="640" y2="300" stroke="#555" stroke-width="2.5"/>
+<line x1="650" y1="278" x2="660" y2="300" stroke="#555" stroke-width="2.5"/>
+<line x1="640" y1="300" x2="640" y2="312" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="660" y1="300" x2="660" y2="312" stroke="#1a1a1a" stroke-width="2"/>
+<text x="650" y="330" class="male" text-anchor="middle" style="font-weight:bold">krokowe</text>
+<rect x="20" y="345" width="800" height="110" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="36" y="368" class="male" text-anchor="start">• Prąd zwarcia doziemnego wpływa do uziomu → podnosi potencjał stacji i gruntu (lejek potencjału).</text>
+<text x="36" y="391" class="male" text-anchor="start">• Dopuszczalne napięcie dotykowe zależy od czasu zwarcia: im szybsze wyłączenie, tym wyższe (PN-EN 50522).</text>
+<text x="36" y="414" class="male" text-anchor="start">• Środki: mała rezystancja uziomu, otok wyrównujący potencjał, izolujące podłoże (żwir, asfalt), szybkie zabezpieczenia.</text>
+<text x="36" y="437" class="male" text-anchor="start">• Przy zerwanym przewodzie SN: nie podchodzić, drobne kroki, 991 / 112 (04.03, 31.01).</text>
+</svg>

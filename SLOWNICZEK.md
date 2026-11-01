@@ -181,5 +181,16 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | PN-HD 60364 | Norma instalacji niskiego napięcia | HD CENELEC | IEC 60364 | 32 |
 | Świadectwo kwalifikacyjne | „Uprawnienia SEP”, ważne 5 lat | art. 54 Prawa energetycznego | qualification certificate | 32 |
 | Warunki techniczne | Rozporządzenie o wymaganiach dla budynków | WT | building technical regulations | 32 |
+| Grupa przyłączeniowa | Kategoria przyłączanego podmiotu (I–VI) | rozp. systemowe 2023, § 3 | connection group | 33 |
+| IRiESD | Instrukcja ruchu i eksploatacji sieci dystrybucyjnej | — | distribution grid code | 33 |
+| Kompensacja mocy biernej | Wytwarzanie mocy biernej na miejscu (kondensatory) | tg φ₀ = 0,4 | reactive power compensation | 33 |
+| Moc umowna | Moc zamówiona u operatora | — | contracted capacity | 33 |
+| Stopień zasilania | Dopuszczalny poziom poboru przy ograniczeniach | 11–20 | supply restriction level | 33 |
+| Cewka Petersena | Dławik kompensujący prąd zwarcia doziemnego | sieć kompensowana | arc suppression coil | 34 |
+| GPZ | Stacja 110 kV/SN | główny punkt zasilający | primary substation | 34 |
+| Odłącznik | Łącznik dający widoczną przerwę, bez prądu | PN-EN 62271-102 | disconnector | 34 |
+| Rozłącznik | Łącznik prądów roboczych | PN-EN 62271-103 | switch-disconnector | 34 |
+| Uziemnik | Łącznik uziemiający wyłączony obwód | PN-EN 62271-102 | earthing switch | 34 |
+| Wyłącznik (SN) | Łącznik wyłączający prądy zwarciowe | PN-EN 62271-100 | circuit-breaker | 34 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

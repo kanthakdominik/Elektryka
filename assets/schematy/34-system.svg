@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" width="840" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Poziomy napięć w systemie</title>
+  <desc id="d">Ciąg: elektrownia z generatorami 10–24 kV, sieć przesyłowa 400 i 220 kV, główny punkt zasilający 110/15 kV, sieć średniego napięcia 15–20 kV, stacja SN/nN 15/0,4 kV, sieć niskiego napięcia 230/400 V do domu. Przesyłem zarządza OSP (PSE), dystrybucją — OSD. Uwagi: typowe napięcia SN 15, 20 i 30 kV; linie napowietrzne i kablowe; sieci pracują promieniowo z otwartym punktem podziału w pętli; punkt neutralny SN izolowany, kompensowany cewką Petersena lub uziemiony przez rezystor; transformator Dyn5 z uziemionym punktem neutralnym nN daje układ TN.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="420" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Od elektrowni do gniazdka — poziomy napięć</text>
+<rect x="20" y="70" width="126" height="70" rx="8" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="83" y="98" class="male" text-anchor="middle" style="font-weight:bold">elektrownia</text>
+<text x="83" y="120" class="male" text-anchor="middle">10–24 kV</text>
+<line x1="146" y1="105" x2="156" y2="105" stroke="#555" stroke-width="1.5"/><path d="M156.0 105.0 L147.7 108.5 L147.7 101.5 Z" fill="#555"/>
+<rect x="156" y="70" width="126" height="70" rx="8" fill="#e8daef" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="219" y="98" class="male" text-anchor="middle" style="font-weight:bold">sieć przesyłowa</text>
+<text x="219" y="120" class="male" text-anchor="middle">400 / 220 kV</text>
+<line x1="282" y1="105" x2="292" y2="105" stroke="#555" stroke-width="1.5"/><path d="M292.0 105.0 L283.7 108.5 L283.7 101.5 Z" fill="#555"/>
+<rect x="292" y="70" width="126" height="70" rx="8" fill="#d6eaf8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="355" y="98" class="male" text-anchor="middle" style="font-weight:bold">GPZ</text>
+<text x="355" y="120" class="male" text-anchor="middle">110 / 15 kV</text>
+<line x1="418" y1="105" x2="428" y2="105" stroke="#555" stroke-width="1.5"/><path d="M428.0 105.0 L419.7 108.5 L419.7 101.5 Z" fill="#555"/>
+<rect x="428" y="70" width="126" height="70" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="491" y="98" class="male" text-anchor="middle" style="font-weight:bold">sieć SN</text>
+<text x="491" y="120" class="male" text-anchor="middle">15–20 kV</text>
+<line x1="554" y1="105" x2="564" y2="105" stroke="#555" stroke-width="1.5"/><path d="M564.0 105.0 L555.7 108.5 L555.7 101.5 Z" fill="#555"/>
+<rect x="564" y="70" width="126" height="70" rx="8" fill="#fef9e7" stroke="#d4ac0d" stroke-width="1.4"/>
+<text x="627" y="98" class="male" text-anchor="middle" style="font-weight:bold">stacja SN/nN</text>
+<text x="627" y="120" class="male" text-anchor="middle">15 / 0,4 kV</text>
+<line x1="690" y1="105" x2="700" y2="105" stroke="#555" stroke-width="1.5"/><path d="M700.0 105.0 L691.7 108.5 L691.7 101.5 Z" fill="#555"/>
+<rect x="700" y="70" width="126" height="70" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="763" y="98" class="male" text-anchor="middle" style="font-weight:bold">sieć nN → dom</text>
+<text x="763" y="120" class="male" text-anchor="middle">230 / 400 V</text>
+<path d="M156 150 L156 165 L420 165 L420 150" fill="none" stroke="#8e44ad" stroke-width="2"/>
+<text x="288" y="182" class="male" text-anchor="middle" style="fill:#6c3483">OSP — PSE (przesył, 110 kV w części)</text>
+<path d="M430 150 L430 165 L830 165 L830 150" fill="none" stroke="#e67e22" stroke-width="2"/>
+<text x="630" y="182" class="male" text-anchor="middle" style="fill:#a04000">OSD — dystrybucja (110 kV, SN, nN)</text>
+<rect x="20" y="205" width="800" height="200" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="36" y="230" class="male" text-anchor="start">• Napięcia SN w Polsce: najczęściej 15 kV, także 20 kV, 30 kV (rzadziej 6 i 10 kV w zakładach).</text>
+<text x="36" y="254" class="male" text-anchor="start">• Linie SN: napowietrzne (słupy, izolatory, przewody gołe lub w osłonie) i kablowe (miasta).</text>
+<text x="36" y="278" class="male" text-anchor="start">• Sieci SN pracują promieniowo, choć często są zbudowane w pętli z otwartym punktem podziału</text>
+<text x="36" y="302" class="male" text-anchor="start">  — przy awarii można przełączyć zasilanie z drugiej strony.</text>
+<text x="36" y="326" class="male" text-anchor="start">• Punkt neutralny SN: izolowany, uziemiony przez dławik (cewka Petersena — sieć kompensowana)</text>
+<text x="36" y="350" class="male" text-anchor="start">  lub przez rezystor; od tego zależą prądy zwarć doziemnych i sposób ich wyłączania.</text>
+<text x="36" y="374" class="male" text-anchor="start">• Strona nN stacji: transformator zwykle Dyn5, punkt neutralny uziemiony → układ TN.</text>
+</svg>

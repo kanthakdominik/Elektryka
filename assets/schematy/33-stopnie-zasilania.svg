@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 475" width="840" height="475" role="img" aria-labelledby="t d">
+  <title id="t">Stopnie zasilania</title>
+  <desc id="d">Wykres słupkowy stopni zasilania od 11 do 20: stopień 11 to pobór do mocy umownej, kolejne stopnie stopniowo ograniczają dopuszczalną moc, stopień 20 to minimum bezpieczeństwa. Ograniczenia dotyczą odbiorców z mocą umowną co najmniej 300 kW, nie gospodarstw domowych. Komunikaty publikuje PSE na stronie i w radiowym Programie 1 o 7:55 i 19:55; OSD powiadamia indywidualnie. Osoba dozoru zna przydzielone moce i ma plan wyłączeń odbiorników.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="475" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Stopnie zasilania — ograniczenia w poborze mocy</text>
+<rect x="60" y="60" width="54" height="260" fill="#27ae60" opacity="0.8"/>
+<text x="87" y="340" class="podt" text-anchor="middle">11</text>
+<rect x="130" y="84" width="54" height="236" fill="#e67e22" opacity="0.8"/>
+<text x="157" y="340" class="podt" text-anchor="middle">12</text>
+<rect x="200" y="108" width="54" height="212" fill="#e67e22" opacity="0.8"/>
+<text x="227" y="340" class="podt" text-anchor="middle">13</text>
+<rect x="270" y="132" width="54" height="188" fill="#e67e22" opacity="0.8"/>
+<text x="297" y="340" class="podt" text-anchor="middle">14</text>
+<rect x="340" y="156" width="54" height="164" fill="#e67e22" opacity="0.8"/>
+<text x="367" y="340" class="podt" text-anchor="middle">15</text>
+<rect x="410" y="180" width="54" height="140" fill="#e67e22" opacity="0.8"/>
+<text x="437" y="340" class="podt" text-anchor="middle">16</text>
+<rect x="480" y="204" width="54" height="116" fill="#e67e22" opacity="0.8"/>
+<text x="507" y="340" class="podt" text-anchor="middle">17</text>
+<rect x="550" y="228" width="54" height="92" fill="#e67e22" opacity="0.8"/>
+<text x="577" y="340" class="podt" text-anchor="middle">18</text>
+<rect x="620" y="252" width="54" height="68" fill="#e67e22" opacity="0.8"/>
+<text x="647" y="340" class="podt" text-anchor="middle">19</text>
+<rect x="690" y="276" width="54" height="44" fill="#c0392b" opacity="0.8"/>
+<text x="717" y="340" class="podt" text-anchor="middle">20</text>
+<text x="87" y="50" class="male" text-anchor="middle" style="fill:#1e8449;font-weight:bold">moc umowna</text>
+<text x="717" y="250" class="male" text-anchor="middle" style="fill:#922b21;font-weight:bold">minimum</text>
+<text x="717" y="266" class="male" text-anchor="middle" style="fill:#922b21;font-weight:bold">bezpieczeństwa</text>
+<text x="420" y="362" class="male" text-anchor="middle">stopień zasilania</text>
+<rect x="20" y="375" width="800" height="85" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="36" y="398" class="male" text-anchor="start">• Dotyczy odbiorców z mocą umowną ≥ 300 kW (nie gospodarstw domowych); w planie określa się moc dla każdego stopnia.</text>
+<text x="36" y="420" class="male" text-anchor="start">• Komunikaty PSE: strona internetowa, radiowy Program 1 o 7:55 i 19:55; OSD powiadamia odbiorców indywidualnie.</text>
+<text x="36" y="442" class="male" text-anchor="start">• Dozór: zna przydzielone moce, ma plan wyłączeń odbiorników i potrafi go szybko wykonać.</text>
+</svg>

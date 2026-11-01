@@ -405,3 +405,23 @@ Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jes
 - [ ] ✅ Jakie wymagania stawiają warunki techniczne budynków instalacji elektrycznej? → [32.04](../modules/32-przepisy-i-normy/32.04-warunki-techniczne-budynkow-instalacja.md#pytania-sep)
 - [ ] ✅ Jakie przepisy regulują bezpieczeństwo pracy przy urządzeniach elektrycznych? → [32.05](../modules/32-przepisy-i-normy/32.05-bhp-przy-urzadzeniach-energetycznych.md#pytania-sep)
 - [ ] ✅ Jakie normy dotyczą instalacji elektrycznych niskiego napięcia w budynkach? → [32.06](../modules/32-przepisy-i-normy/32.06-normy-pn-hd-60364-i-pozostale.md#pytania-sep)
+
+## Dozór (D) — § 6 ust. 1 pkt 2
+
+- [ ] ✅ Czym różni się zakres egzaminu na stanowisku dozoru od zakresu na stanowisku eksploatacji? → [33.01](../modules/33-dozor/33.01-zakres-egzaminu-na-stanowisku-dozoru.md#pytania-sep)
+- [ ] ✅ Jakie są obowiązki osoby na stanowisku dozoru? → [33.02](../modules/33-dozor/33.02-obowiazki-osoby-dozoru.md#pytania-sep)
+- [ ] ✅ Jakie parametry jakościowe energii elektrycznej musi dotrzymać operator dla odbiorców przyłączonych do sieci niskiego napięcia? → [33.03](../modules/33-dozor/33.03-przylaczanie-do-sieci-i-dostarczanie-energii.md#pytania-sep)
+- [ ] ✅ Jak przebiega przyłączenie obiektu do sieci dystrybucyjnej? → [33.03](../modules/33-dozor/33.03-przylaczanie-do-sieci-i-dostarczanie-energii.md#pytania-sep)
+- [ ] ✅ Jak należy prowadzić dokumentację techniczną i eksploatacyjną urządzeń? → [33.04](../modules/33-dozor/33.04-prowadzenie-dokumentacji-technicznej-i.md#pytania-sep)
+- [ ] ✅ Na czym polega kompensacja mocy biernej i dlaczego się ją stosuje? → [33.05](../modules/33-dozor/33.05-racjonalne-uzytkowanie-energii.md#pytania-sep)
+- [ ] ✅ Jakie działania służą racjonalnemu użytkowaniu energii elektrycznej w zakładzie? → [33.05](../modules/33-dozor/33.05-racjonalne-uzytkowanie-energii.md#pytania-sep)
+- [ ] ✅ Co oznaczają stopnie zasilania i jak postępuje odbiorca przy ich wprowadzeniu? → [33.06](../modules/33-dozor/33.06-dysponowanie-moca-i-postepowanie-przy.md#pytania-sep)
+
+## Sieci SN i stacje — (a), (b), (d)
+
+- [ ] ✅ Jak zbudowane są i jak pracują sieci średniego napięcia? → [34.01](../modules/34-sieci-sn-i-stacje/34.01-sieci-sredniego-napiecia-budowa.md#pytania-sep)
+- [ ] ✅ Z jakich elementów składa się stacja transformatorowa SN/nN? → [34.02](../modules/34-sieci-sn-i-stacje/34.02-stacje-transformatorowe-sn-nn.md#pytania-sep)
+- [ ] ✅ Czym różni się odłącznik, rozłącznik i wyłącznik? → [34.03](../modules/34-sieci-sn-i-stacje/34.03-laczniki-sn-odlacznik-rozlacznik-wylacznik.md#pytania-sep)
+- [ ] ✅ W jakiej kolejności wyłącza się i załącza pole z wyłącznikiem i odłącznikiem? → [34.03](../modules/34-sieci-sn-i-stacje/34.03-laczniki-sn-odlacznik-rozlacznik-wylacznik.md#pytania-sep)
+- [ ] ✅ Jakie środki ochrony przeciwporażeniowej stosuje się w urządzeniach o napięciu powyżej 1 kV? → [34.04](../modules/34-sieci-sn-i-stacje/34.04-ochrona-przeciwporazeniowa-powyzej-1-kv.md#pytania-sep)
+- [ ] ✅ Jakie czynności wykonuje się przed rozpoczęciem pracy przy wyłączonej linii średniego napięcia? → [34.05](../modules/34-sieci-sn-i-stacje/34.05-zasady-pracy-przy-urzadzeniach-sn.md#pytania-sep)

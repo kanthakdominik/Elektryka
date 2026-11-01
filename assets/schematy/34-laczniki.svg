@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 465" width="840" height="465" role="img" aria-labelledby="t d">
+  <title id="t">Łączniki SN</title>
+  <desc id="d">Tabela łączników: odłącznik nie łączy prądu roboczego ani zwarciowego, daje widoczną przerwę izolacyjną; rozłącznik łączy prąd roboczy, zwarcie co najwyżej załącza, zwykle z widoczną przerwą; wyłącznik łączy prąd roboczy i wyłącza zwarcia w komorze gaszeniowej, współpracuje z zabezpieczeniami; uziemnik uziemia wyłączony obwód. Kolejność wyłączania: wyłącznik, odłącznik, sprawdzenie braku napięcia, uziemienie. Kolejność załączania: zdjęcie uziemień, odłącznik, wyłącznik. Blokady uniemożliwiają ruch odłącznikiem przy zamkniętym wyłączniku.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="465" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Łączniki SN: odłącznik, rozłącznik, wyłącznik, uziemnik</text>
+<rect x="20" y="50" width="800" height="36" fill="#eaecee" stroke="#d5d8dc"/>
+<text x="30" y="72" class="male" text-anchor="start" style="font-weight:bold">Łącznik</text>
+<text x="150" y="72" class="male" text-anchor="start" style="font-weight:bold">Prąd roboczy</text>
+<text x="320" y="72" class="male" text-anchor="start" style="font-weight:bold">Prąd zwarciowy</text>
+<text x="470" y="72" class="male" text-anchor="start" style="font-weight:bold">Widoczna przerwa</text>
+<text x="610" y="72" class="male" text-anchor="start" style="font-weight:bold">Do czego</text>
+<rect x="20" y="88" width="800" height="36" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="110" class="male" text-anchor="start" style="font-weight:bold">odłącznik</text>
+<text x="150" y="110" class="male" text-anchor="start">NIE (bez obciążenia)</text>
+<text x="320" y="110" class="male" text-anchor="start">NIE</text>
+<text x="470" y="110" class="male" text-anchor="start">TAK</text>
+<text x="610" y="110" class="male" text-anchor="start">bezpieczna przerwa izolacyjna</text>
+<rect x="20" y="126" width="800" height="36" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="148" class="male" text-anchor="start" style="font-weight:bold">rozłącznik</text>
+<text x="150" y="148" class="male" text-anchor="start">TAK</text>
+<text x="320" y="148" class="male" text-anchor="start">tylko załącza*</text>
+<text x="470" y="148" class="male" text-anchor="start">zwykle TAK</text>
+<text x="610" y="148" class="male" text-anchor="start">łączenie obciążenia</text>
+<rect x="20" y="164" width="800" height="36" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="186" class="male" text-anchor="start" style="font-weight:bold">wyłącznik</text>
+<text x="150" y="186" class="male" text-anchor="start">TAK</text>
+<text x="320" y="186" class="male" text-anchor="start">TAK — wyłącza</text>
+<text x="470" y="186" class="male" text-anchor="start">NIE (komora)</text>
+<text x="610" y="186" class="male" text-anchor="start">zabezpieczenia, zwarcia</text>
+<rect x="20" y="202" width="800" height="36" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="224" class="male" text-anchor="start" style="font-weight:bold">uziemnik</text>
+<text x="150" y="224" class="male" text-anchor="start">—</text>
+<text x="320" y="224" class="male" text-anchor="start">zał. na zwarcie*</text>
+<text x="470" y="224" class="male" text-anchor="start">—</text>
+<text x="610" y="224" class="male" text-anchor="start">uziemienie wyłączonego obwodu</text>
+<text x="30" y="256" class="male" text-anchor="start">* zależnie od wykonania (zdolność załączania na zwarcie); rozłącznik z bezpiecznikami wyłącza zwarcia bezpiecznikiem.</text>
+<rect x="20" y="275" width="395" height="175" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="217" y="300" class="podt" text-anchor="middle" style="fill:#922b21">Wyłączanie</text>
+<text x="36" y="326" class="male" text-anchor="start">1. wyłącznik (przerywa prąd),</text>
+<text x="36" y="352" class="male" text-anchor="start">2. odłącznik (widoczna przerwa),</text>
+<text x="36" y="378" class="male" text-anchor="start">3. sprawdzenie braku napięcia,</text>
+<text x="36" y="404" class="male" text-anchor="start">4. uziemnik / uziemiacz przenośny.</text>
+<rect x="425" y="275" width="395" height="175" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="622" y="300" class="podt" text-anchor="middle" style="fill:#1e8449">Załączanie</text>
+<text x="441" y="326" class="male" text-anchor="start">1. zdjęcie uziemień, otwarcie uziemnika,</text>
+<text x="441" y="352" class="male" text-anchor="start">2. odłącznik (bez prądu),</text>
+<text x="441" y="378" class="male" text-anchor="start">3. wyłącznik (załącza prąd).</text>
+<text x="441" y="404" class="male" text-anchor="start">Blokady: odłącznika nie da się ruszyć</text>
+<text x="441" y="430" class="male" text-anchor="start">przy zamkniętym wyłączniku.</text>
+</svg>

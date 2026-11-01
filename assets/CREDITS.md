@@ -176,5 +176,3 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `34-transformator-przekroj.jpg` | nieznany autor | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DMM_%C3%96ltransformator_Schnittmodell.jpg) |
 | `34-transformator-suchy.jpg` | nieznany autor | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DMM_86-531_Gie%C3%9Fharz-Trockentransformator.jpg) |
 | `34-slup-sn.jpg` | Stefan.p21 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sieniec_slup_sredniego_napiecia.jpg) |
-| `34-sn-nn.jpg` | Mehdi.dhakouani at English Wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:L22_-_SN,_NN_(EN).jpg) |
-| `33-dyspozytornia.png` | John G. Kemeny et al | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Control_room_operators.png) |

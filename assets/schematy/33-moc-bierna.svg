@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="840" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Moc bierna i kompensacja</title>
+  <desc id="d">Trójkąt mocy: moc czynna P poziomo, moc bierna Q pionowo, moc pozorna S jako przeciwprostokątna. Kondensatory kompensują część mocy biernej Qc, zmniejszając S. Wzory tg φ = Q/P i cos φ = P/S; typowo w umowie lub taryfie tg φ0 = 0,4, czyli cos φ około 0,93; ponad tę wartość odbiorca płaci za ponadumowny pobór energii biernej. Kompensacja zmniejsza prąd, straty i spadki napięcia; przekompensowanie też bywa płatne, dlatego baterie mają regulator.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="460" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Moc bierna i jej kompensacja</text>
+<line x1="80" y1="330" x2="480" y2="330" stroke="#2e86c1" stroke-width="3"/><path d="M480.0 330.0 L471.7 333.5 L471.7 326.5 Z" fill="#2e86c1"/>
+<text x="280.0" y="354" class="male" text-anchor="middle" style="fill:#2e86c1;font-weight:bold">P — moc czynna (praca)</text>
+<line x1="480" y1="330" x2="480" y2="70" stroke="#c0392b" stroke-width="3"/><path d="M480.0 70.0 L483.5 78.3 L476.5 78.3 Z" fill="#c0392b"/>
+<text x="468" y="84" class="male" text-anchor="end" style="fill:#c0392b;font-weight:bold">Q przed</text>
+<line x1="80" y1="330" x2="480" y2="70" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="230" y="190" class="male" text-anchor="middle" style="fill:#7f8c8d">S przed</text>
+<line x1="80" y1="330" x2="480" y2="170" stroke="#27ae60" stroke-width="3"/>
+<text x="340" y="260" class="male" text-anchor="middle" style="fill:#1e8449;font-weight:bold">S po</text>
+<path d="M478 170 L478 70" stroke="#e67e22" stroke-width="6"/>
+<text x="468" y="156" class="male" text-anchor="end" style="fill:#d35400;font-weight:bold">Qc (kondensatory)</text>
+<rect x="530" y="60" width="290" height="280" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="546" y="86" class="male" text-anchor="start">tg φ = Q / P</text>
+<text x="546" y="106" class="male" text-anchor="start"></text>
+<text x="546" y="126" class="male" text-anchor="start">cos φ = P / S</text>
+<text x="546" y="146" class="male" text-anchor="start"></text>
+<text x="546" y="166" class="male" text-anchor="start">Typowo w umowie / taryfie:</text>
+<text x="546" y="186" class="male" text-anchor="start">tg φ₀ = 0,4  (cos φ ≈ 0,93)</text>
+<text x="546" y="206" class="male" text-anchor="start"></text>
+<text x="546" y="226" class="male" text-anchor="start">Powyżej → opłata za</text>
+<text x="546" y="246" class="male" text-anchor="start">ponadumowny pobór</text>
+<text x="546" y="266" class="male" text-anchor="start">energii biernej.</text>
+<text x="546" y="286" class="male" text-anchor="start"></text>
+<text x="546" y="306" class="male" text-anchor="start">Kompensacja: baterie</text>
+<text x="546" y="326" class="male" text-anchor="start">kondensatorów z regulatorem.</text>
+<rect x="20" y="360" width="800" height="85" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="36" y="384" class="male" text-anchor="start">• Mniejsza moc pozorna S → mniejszy prąd → mniejsze straty i spadki napięcia, mniejszy transformator.</text>
+<text x="36" y="406" class="male" text-anchor="start">• Silniki, transformatory, oprawy z dławikami pobierają moc bierną indukcyjną; kondensatory ją „oddają”.</text>
+<text x="36" y="428" class="male" text-anchor="start">• Przekompensowanie (pojemnościowe) też bywa płatne — regulator dobiera stopnie baterii do obciążenia.</text>
+</svg>

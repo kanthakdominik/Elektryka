@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="840" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Przyłączenie do sieci</title>
+  <desc id="d">Sześć kroków przyłączenia: wniosek o warunki przyłączenia, wydanie warunków przez operatora, umowa o przyłączenie z opłatą, budowa przyłącza przez OSD i instalacji przez odbiorcę, zgłoszenie gotowości z protokołem pomiarów, montaż licznika i umowa sprzedaży. Tabela grup przyłączeniowych: I powyżej 110 kV, II 110 kV, III powyżej 1 kV i poniżej 110 kV, IV do 1 kV powyżej 40 kW lub 63 A, V do 1 kV do 40 kW i 63 A, VI przyłącze tymczasowe. Dom jednorodzinny to zwykle grupa V.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="460" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Przyłączenie do sieci — od wniosku do zasilania</text>
+<rect x="20" y="50" width="470" height="46" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="36" y="70" class="podt" text-anchor="start">1. Wniosek o warunki przyłączenia</text>
+<text x="36" y="88" class="male" text-anchor="start">moc przyłączeniowa, rodzaj obiektu, plan zabudowy</text>
+<line x1="255" y1="96" x2="255" y2="106" stroke="#555" stroke-width="1.5"/><path d="M255.0 106.0 L251.5 97.7 L258.5 97.7 Z" fill="#555"/>
+<rect x="20" y="106" width="470" height="46" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="36" y="126" class="podt" text-anchor="start">2. Warunki przyłączenia (OSD)</text>
+<text x="36" y="144" class="male" text-anchor="start">miejsce przyłączenia, zabezpieczenia, układ pomiarowy</text>
+<line x1="255" y1="152" x2="255" y2="162" stroke="#555" stroke-width="1.5"/><path d="M255.0 162.0 L251.5 153.7 L258.5 153.7 Z" fill="#555"/>
+<rect x="20" y="162" width="470" height="46" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="36" y="182" class="podt" text-anchor="start">3. Umowa o przyłączenie + opłata</text>
+<text x="36" y="200" class="male" text-anchor="start">zakres prac OSD i odbiorcy, terminy</text>
+<line x1="255" y1="208" x2="255" y2="218" stroke="#555" stroke-width="1.5"/><path d="M255.0 218.0 L251.5 209.7 L258.5 209.7 Z" fill="#555"/>
+<rect x="20" y="218" width="470" height="46" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="36" y="238" class="podt" text-anchor="start">4. Budowa przyłącza i instalacji</text>
+<text x="36" y="256" class="male" text-anchor="start">OSD: przyłącze, złącze; odbiorca: WLZ, instalacja</text>
+<line x1="255" y1="264" x2="255" y2="274" stroke="#555" stroke-width="1.5"/><path d="M255.0 274.0 L251.5 265.7 L258.5 265.7 Z" fill="#555"/>
+<rect x="20" y="274" width="470" height="46" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="36" y="294" class="podt" text-anchor="start">5. Zgłoszenie gotowości</text>
+<text x="36" y="312" class="male" text-anchor="start">oświadczenie + protokół pomiarów instalacji</text>
+<line x1="255" y1="320" x2="255" y2="330" stroke="#555" stroke-width="1.5"/><path d="M255.0 330.0 L251.5 321.7 L258.5 321.7 Z" fill="#555"/>
+<rect x="20" y="330" width="470" height="46" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="36" y="350" class="podt" text-anchor="start">6. Licznik i umowa sprzedaży</text>
+<text x="36" y="368" class="male" text-anchor="start">montaż układu pomiarowego, umowa kompleksowa → zasilanie</text>
+<rect x="510" y="50" width="310" height="32" fill="#eaecee" stroke="#d5d8dc"/>
+<text x="520" y="72" class="male" text-anchor="start" style="font-weight:bold">Grupa</text>
+<text x="580" y="72" class="male" text-anchor="start" style="font-weight:bold">Kogo dotyczy</text>
+<rect x="510" y="84" width="310" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="520" y="106" class="male" text-anchor="start" style="font-weight:bold">I</text>
+<text x="580" y="106" class="male" text-anchor="start">&gt; 110 kV</text>
+<rect x="510" y="118" width="310" height="32" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="520" y="140" class="male" text-anchor="start" style="font-weight:bold">II</text>
+<text x="580" y="140" class="male" text-anchor="start">110 kV</text>
+<rect x="510" y="152" width="310" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="520" y="174" class="male" text-anchor="start" style="font-weight:bold">III</text>
+<text x="580" y="174" class="male" text-anchor="start">&gt; 1 kV i &lt; 110 kV (SN)</text>
+<rect x="510" y="186" width="310" height="32" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="520" y="208" class="male" text-anchor="start" style="font-weight:bold">IV</text>
+<text x="580" y="208" class="male" text-anchor="start">≤ 1 kV, &gt; 40 kW lub &gt; 63 A</text>
+<rect x="510" y="220" width="310" height="32" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="520" y="242" class="male" text-anchor="start" style="font-weight:bold">V</text>
+<text x="580" y="242" class="male" text-anchor="start">≤ 1 kV, ≤ 40 kW i ≤ 63 A</text>
+<rect x="510" y="254" width="310" height="32" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="520" y="276" class="male" text-anchor="start" style="font-weight:bold">VI</text>
+<text x="580" y="276" class="male" text-anchor="start">przyłącze tymczasowe</text>
+<text x="665" y="320" class="male" text-anchor="middle">grupy przyłączeniowe</text>
+<text x="665" y="338" class="male" text-anchor="middle">(rozporządzenie systemowe, § 3)</text>
+<rect x="20" y="395" width="800" height="50" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="420" y="418" class="male" text-anchor="middle">Dom jednorodzinny: zwykle grupa V. Mikroinstalacja PV: zgłoszenie do OSD zamiast warunków (26.03).</text>
+<text x="420" y="436" class="male" text-anchor="middle">Podstawa: Prawo energetyczne art. 7, rozp. MKiŚ z 22.03.2023 (szczegółowe warunki funkcjonowania systemu), IRiESD.</text>
+</svg>
