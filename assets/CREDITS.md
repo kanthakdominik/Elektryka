@@ -109,3 +109,14 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `18-sciemniacz-wtyczkowy.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuko_dimmer.JPG) |
 | `18-diody-smd.jpg` | BrentMauriello | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SMD-LED-comparison-5050-2835-3528-3014-Flexfireleds.jpg) |
 | `18-lacznik-wnetrze.jpg` | Scott Ehardt | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Light_switch_inside_explained.jpg) |
+| `19-tulejki.jpg` | Simon A. Eugster | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg) |
+| `19-zaciskarka-tulejek.jpg` | SeanMiller | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crimp_Tool_For_Bootlace_Ferrules.jpg) |
+| `19-h07rn-tulejki.jpg` | Bahntech | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gummischlauchleitung_H07RN-F_5G6_Aderendh%C3%BClsen_CEE_2012_04_03.jpg) |
+| `19-wkretak-dynamometryczny.jpg` | Ralf Pfeifer | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Drehmomentschrauber.jpg) |
+| `19-gniazdo-schuko-podlaczenie.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuko_socket_wiring.JPG) |
+| `19-gniazda-z-przeslonami.jpg` | FF-UK | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuko_(CEE_7-3)_socket-outlets,_with_and_without_shutters.jpg) |
+| `19-wykrywacz.jpg` | Tilt u | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mitsutomo_Intelligent_Multidetector.jpg) |
+| `20-wtyczka-luk.jpg` | Shaddack | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:220V_plug_arc_damage.jpg) |
+| `21-bezpieczniki-stare.jpg` | ktulu87 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fuse_box_in_old_house.JPG) |
+| `21-tablica-stara.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Old_USSR_fuse_box.JPG) |
+| `21-wkladka-stara.jpg` | Jarlhelm | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Used_older_fuse_(Panzersicherung).jpg) |
