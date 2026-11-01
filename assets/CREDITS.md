@@ -165,3 +165,16 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `31-pozycja-boczna.jpg` | Rama | CC BY-SA 3.0 fr | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Recovery_position.jpg) |
 | `31-pozycja-boczna-2.jpg` | Image created by Rama | CC BY-SA 3.0 fr | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Recovery_position_maneuver.jpg) |
 | `32-dziennik-ustaw.png` | Myself | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DziennikUstawHeading.png) |
+| `34-stacja-kontenerowa.jpg` | Pavvel70 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kontenerowa_stacja_transformatorowa.jpg) |
+| `34-stacja-stlmb.png` | Pavvel70 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stacja_transformatorowa_typu_STLmb-8.png) |
+| `34-stacja-wiezowa.jpg` | Julo | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trafostacja-ulDluga.jpg) |
+| `34-stacja-slupowa.jpg` | Bidgee | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pole_mounted_Transformer.jpg) |
+| `34-rozlacznik-slupowy.jpg` | Vesa Linja-aho | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20_kV_switch_disconnector_Kirkkonummi_FI_20130410.jpg) |
+| `34-odlacznik-slupowy.jpg` | Threecharlie | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Medium_voltage_disconnecting_switch_on_utility_pole_(2)_(Rovigo).jpg) |
+| `34-wylacznik-prozniowy.jpg` | User:Cwalker99 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vacuum_circuit_breaker.jpeg) |
+| `34-transformator-630.jpg` | Franciscus at Dutch Wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Transformator_630_kVA.JPG) |
+| `34-transformator-przekroj.jpg` | nieznany autor | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DMM_%C3%96ltransformator_Schnittmodell.jpg) |
+| `34-transformator-suchy.jpg` | nieznany autor | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DMM_86-531_Gie%C3%9Fharz-Trockentransformator.jpg) |
+| `34-slup-sn.jpg` | Stefan.p21 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sieniec_slup_sredniego_napiecia.jpg) |
+| `34-sn-nn.jpg` | Mehdi.dhakouani at English Wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:L22_-_SN,_NN_(EN).jpg) |
+| `33-dyspozytornia.png` | John G. Kemeny et al | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Control_room_operators.png) |
