@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 455" width="840" height="455" role="img" aria-labelledby="t d">
+  <title id="t">Droga energii od sieci do rozdzielnicy</title>
+  <desc id="d">Dwa łańcuchy bloków. Dom jednorodzinny: sieć niskiego napięcia, przyłącze kablowe lub napowietrzne, złącze z zabezpieczeniem i licznikiem, wewnętrzna linia zasilająca, rozdzielnica w domu; granica własności zwykle na zaciskach w złączu. Budynek wielorodzinny: sieć, złącze budynku, rozdzielnica główna, pion WLZ na klatce, tablica licznikowa, rozdzielnica mieszkania; część wspólna należy do zarządcy lub operatora. Licznik i zabezpieczenie przedlicznikowe w domu są w złączu kablowo-pomiarowym, w bloku — na tablicy na klatce; należą do operatora.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="455" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Od sieci do gniazdka — dom i blok</text>
+<text x="20" y="75" class="podt" text-anchor="start">Dom jednorodzinny</text>
+<rect x="20" y="90" width="140" height="56" rx="6" fill="#f2f3f4" stroke="#7f8c8d" stroke-width="2"/>
+<text x="90.0" y="118.0" class="podt" text-anchor="middle" style="font-size:13.5px">sieć nn</text>
+<text x="90.0" y="135.0" class="male" text-anchor="middle">linia / szafka</text>
+<rect x="175" y="90" width="140" height="56" rx="6" fill="#f2f3f4" stroke="#7f8c8d" stroke-width="2"/>
+<text x="245.0" y="118.0" class="podt" text-anchor="middle" style="font-size:13.5px">przyłącze</text>
+<text x="245.0" y="135.0" class="male" text-anchor="middle">kabel lub linia</text>
+<rect x="330" y="90" width="140" height="56" rx="6" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+<text x="400.0" y="118.0" class="podt" text-anchor="middle" style="font-size:13.5px">złącze (ZK/ZKP)</text>
+<text x="400.0" y="135.0" class="male" text-anchor="middle">zabezp. + licznik</text>
+<rect x="485" y="90" width="140" height="56" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="555.0" y="118.0" class="podt" text-anchor="middle" style="font-size:13.5px">WLZ</text>
+<text x="555.0" y="135.0" class="male" text-anchor="middle">do domu</text>
+<rect x="640" y="90" width="140" height="56" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="710.0" y="118.0" class="podt" text-anchor="middle" style="font-size:13.5px">rozdzielnica</text>
+<text x="710.0" y="135.0" class="male" text-anchor="middle">w domu</text>
+<line x1="160" y1="118" x2="175" y2="118" stroke="#555" stroke-width="2"/><path d="M175.0 118.0 L166.7 121.5 L166.7 114.5 Z" fill="#555"/>
+<line x1="315" y1="118" x2="330" y2="118" stroke="#555" stroke-width="2"/><path d="M330.0 118.0 L321.7 121.5 L321.7 114.5 Z" fill="#555"/>
+<line x1="470" y1="118" x2="485" y2="118" stroke="#555" stroke-width="2"/><path d="M485.0 118.0 L476.7 121.5 L476.7 114.5 Z" fill="#555"/>
+<line x1="625" y1="118" x2="640" y2="118" stroke="#555" stroke-width="2"/><path d="M640.0 118.0 L631.7 121.5 L631.7 114.5 Z" fill="#555"/>
+<line x1="320" y1="80" x2="320" y2="165" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="320" y="180" class="male" text-anchor="middle" style="fill:#c0392b">granica własności (zwykle zaciski w złączu)</text>
+<text x="20" y="230" class="podt" text-anchor="start">Budynek wielorodzinny</text>
+<rect x="20" y="245" width="125" height="56" rx="6" fill="#f2f3f4" stroke="#7f8c8d" stroke-width="2"/>
+<text x="82.5" y="278.0" class="podt" text-anchor="middle" style="font-size:13.5px">sieć nn</text>
+<rect x="155" y="245" width="125" height="56" rx="6" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+<text x="217.5" y="273.0" class="podt" text-anchor="middle" style="font-size:13.5px">złącze</text>
+<text x="217.5" y="290.0" class="male" text-anchor="middle">budynku</text>
+<rect x="290" y="245" width="125" height="56" rx="6" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+<text x="352.5" y="273.0" class="podt" text-anchor="middle" style="font-size:13.5px">rozdzielnica</text>
+<text x="352.5" y="290.0" class="male" text-anchor="middle">główna (RG)</text>
+<rect x="425" y="245" width="125" height="56" rx="6" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+<text x="487.5" y="273.0" class="podt" text-anchor="middle" style="font-size:13.5px">WLZ</text>
+<text x="487.5" y="290.0" class="male" text-anchor="middle">pion klatki</text>
+<rect x="560" y="245" width="125" height="56" rx="6" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+<text x="622.5" y="273.0" class="podt" text-anchor="middle" style="font-size:13.5px">tablica</text>
+<text x="622.5" y="290.0" class="male" text-anchor="middle">licznikowa</text>
+<rect x="695" y="245" width="125" height="56" rx="6" fill="#eaf2fb" stroke="#1f5fbf" stroke-width="2"/>
+<text x="757.5" y="273.0" class="podt" text-anchor="middle" style="font-size:13.5px">rozdzielnica</text>
+<text x="757.5" y="290.0" class="male" text-anchor="middle">mieszkania</text>
+<line x1="145" y1="273" x2="155" y2="273" stroke="#555" stroke-width="2"/><path d="M155.0 273.0 L146.7 276.5 L146.7 269.5 Z" fill="#555"/>
+<line x1="280" y1="273" x2="290" y2="273" stroke="#555" stroke-width="2"/><path d="M290.0 273.0 L281.7 276.5 L281.7 269.5 Z" fill="#555"/>
+<line x1="415" y1="273" x2="425" y2="273" stroke="#555" stroke-width="2"/><path d="M425.0 273.0 L416.7 276.5 L416.7 269.5 Z" fill="#555"/>
+<line x1="550" y1="273" x2="560" y2="273" stroke="#555" stroke-width="2"/><path d="M560.0 273.0 L551.7 276.5 L551.7 269.5 Z" fill="#555"/>
+<line x1="685" y1="273" x2="695" y2="273" stroke="#555" stroke-width="2"/><path d="M695.0 273.0 L686.7 276.5 L686.7 269.5 Z" fill="#555"/>
+<text x="420" y="330" class="male" text-anchor="middle">Pomarańczowe — część wspólna budynku (zarządca / OSD), niebieskie — instalacja odbiorcy.</text>
+<rect x="20" y="350" width="800" height="90" rx="8" class="ramka"/>
+<text x="36" y="376" class="male" text-anchor="start">Licznik i zabezpieczenie przedlicznikowe: dom — w złączu kablowo-pomiarowym (ZKP) na granicy działki;</text>
+<text x="36" y="398" class="male" text-anchor="start">blok — na tablicy licznikowej na klatce. Licznik i plomby należą do operatora sieci (OSD).</text>
+<text x="36" y="420" class="male" text-anchor="start">WLZ — wewnętrzna linia zasilająca: przewody od złącza do licznika / rozdzielnicy.</text>
+</svg>

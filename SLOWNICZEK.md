@@ -87,5 +87,15 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | SELV / PELV | Bardzo niskie napięcie bezpieczne / ochronne | ≤ 50 V AC | SELV / PELV | 12 |
 | Separacja elektryczna | Zasilanie z transformatora separacyjnego, bez uziemienia | — | electrical separation | 12 |
 | Zerowanie | Dawna nazwa ochrony w TN | samoczynne wyłączenie w TN | — | 12 |
+| Uziom fundamentowy | Taśma lub pręt w betonie fundamentu | uziom fundamentowy | foundation earth electrode | 13 |
+| Rezystancja uziemienia | Opór uziomu dla prądu wpływającego do ziemi | R_E, R_A | earth resistance | 13 |
+| Połączenia wyrównawcze | Przewody łączące metalowe części, żeby miały ten sam potencjał | połączenia wyrównawcze ochronne | protective equipotential bonding | 13 |
+| Przyłącze | Odcinek sieci od linii operatora do złącza | przyłącze | service connection | 14 |
+| Złącze | Skrzynka na granicy sieci i instalacji | złącze (ZK, ZKP) | service box / cut-out | 14 |
+| OSD | Operator sieci, do której jesteś przyłączony | operator systemu dystrybucyjnego | DSO | 14 |
+| Moc przyłączeniowa | Moc, na którą zbudowano przyłącze | moc przyłączeniowa | connection capacity | 14 |
+| Szyna TH35 | Szyna montażowa aparatów modułowych | szyna DIN (PN-EN 60715) | DIN rail | 15 |
+| Grzebień | Listwa łącząca zaciski wielu aparatów | szyna łączeniowa | busbar comb | 15 |
+| Schemat jednokreskowy | Rozdzielnica narysowana jedną linią na tor | schemat zasadniczy uproszczony | single-line diagram | 15 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

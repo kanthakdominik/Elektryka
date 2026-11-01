@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 515" width="840" height="515" role="img" aria-labelledby="t d">
+  <title id="t">Budowa rozdzielnicy mieszkaniowej</title>
+  <desc id="d">Widok rozdzielnicy z trzema rzędami szyny TH35. W pierwszym rzędzie rozłącznik, ogranicznik przepięć, wyłącznik różnicowoprądowy i cztery wyłączniki nadprądowe połączone grzebieniem. W drugim rzędzie drugi wyłącznik różnicowoprądowy, trzy wyłączniki nadprądowe, dwa RCBO i wolne miejsca rezerwy z zaślepkami. W trzecim rzędzie dwie osobne listwy N, po jednej dla każdej różnicówki, i wspólna listwa PE. Maskownica zakrywa wszystko poza dźwigniami, opis obwodów na drzwiczkach.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="515" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Budowa rozdzielnicy mieszkaniowej</text>
+<g transform="translate(-120 0)">
+<rect x="150" y="55" width="540" height="420" rx="12" fill="#fbfcfc" stroke="#7f8c8d" stroke-width="3"/>
+<rect x="175" y="154" width="490" height="12" fill="#aab7b8"/>
+<rect x="175" y="264" width="490" height="12" fill="#aab7b8"/>
+<rect x="175" y="374" width="490" height="12" fill="#aab7b8"/>
+<rect x="185" y="120" width="64" height="80" rx="4" fill="#f2f3f4" stroke="#566573" stroke-width="1.5"/>
+<rect x="212.0" y="148" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="217.0" y="194" class="male" text-anchor="middle" style="font-size:10px">rozł.</text>
+<rect x="251" y="120" width="64" height="80" rx="4" fill="#eaf2fb" stroke="#566573" stroke-width="1.5"/>
+<rect x="278.0" y="148" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="283.0" y="194" class="male" text-anchor="middle" style="font-size:10px">SPD</text>
+<rect x="317" y="120" width="64" height="80" rx="4" fill="#eaf2fb" stroke="#566573" stroke-width="1.5"/>
+<rect x="344.0" y="148" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="349.0" y="194" class="male" text-anchor="middle" style="font-size:10px">RCD</text>
+<rect x="383" y="120" width="32" height="80" rx="4" fill="#fff" stroke="#566573" stroke-width="1.5"/>
+<rect x="394.0" y="148" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="399.0" y="194" class="male" text-anchor="middle" style="font-size:10px">B10</text>
+<rect x="417" y="120" width="32" height="80" rx="4" fill="#fff" stroke="#566573" stroke-width="1.5"/>
+<rect x="428.0" y="148" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="433.0" y="194" class="male" text-anchor="middle" style="font-size:10px">B16</text>
+<rect x="451" y="120" width="32" height="80" rx="4" fill="#fff" stroke="#566573" stroke-width="1.5"/>
+<rect x="462.0" y="148" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="467.0" y="194" class="male" text-anchor="middle" style="font-size:10px">B16</text>
+<rect x="485" y="120" width="32" height="80" rx="4" fill="#fff" stroke="#566573" stroke-width="1.5"/>
+<rect x="496.0" y="148" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="501.0" y="194" class="male" text-anchor="middle" style="font-size:10px">B16</text>
+<rect x="383" y="114" width="132" height="8" rx="2" fill="#c87533"/>
+<rect x="185" y="230" width="64" height="80" rx="4" fill="#eaf2fb" stroke="#566573" stroke-width="1.5"/>
+<rect x="212.0" y="258" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="217.0" y="304" class="male" text-anchor="middle" style="font-size:10px">RCD</text>
+<rect x="251" y="230" width="32" height="80" rx="4" fill="#fff" stroke="#566573" stroke-width="1.5"/>
+<rect x="262.0" y="258" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="267.0" y="304" class="male" text-anchor="middle" style="font-size:10px">B10</text>
+<rect x="285" y="230" width="32" height="80" rx="4" fill="#fff" stroke="#566573" stroke-width="1.5"/>
+<rect x="296.0" y="258" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="301.0" y="304" class="male" text-anchor="middle" style="font-size:10px">B16</text>
+<rect x="319" y="230" width="32" height="80" rx="4" fill="#fff" stroke="#566573" stroke-width="1.5"/>
+<rect x="330.0" y="258" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="335.0" y="304" class="male" text-anchor="middle" style="font-size:10px">B16</text>
+<rect x="353" y="230" width="64" height="80" rx="4" fill="#eaf2fb" stroke="#566573" stroke-width="1.5"/>
+<rect x="380.0" y="258" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="385.0" y="304" class="male" text-anchor="middle" style="font-size:10px">RCBO</text>
+<rect x="419" y="230" width="64" height="80" rx="4" fill="#eaf2fb" stroke="#566573" stroke-width="1.5"/>
+<rect x="446.0" y="258" width="10" height="22" rx="2" fill="#2c3e50"/>
+<text x="451.0" y="304" class="male" text-anchor="middle" style="font-size:10px">RCBO</text>
+<rect x="485" y="250" width="30" height="40" rx="3" fill="#ecf0f1" stroke="#bdc3c7" stroke-dasharray="3 3"/>
+<rect x="519" y="250" width="30" height="40" rx="3" fill="#ecf0f1" stroke="#bdc3c7" stroke-dasharray="3 3"/>
+<rect x="553" y="250" width="30" height="40" rx="3" fill="#ecf0f1" stroke="#bdc3c7" stroke-dasharray="3 3"/>
+<rect x="587" y="250" width="30" height="40" rx="3" fill="#ecf0f1" stroke="#bdc3c7" stroke-dasharray="3 3"/>
+<rect x="621" y="250" width="30" height="40" rx="3" fill="#ecf0f1" stroke="#bdc3c7" stroke-dasharray="3 3"/>
+
+<rect x="185" y="350" width="200" height="22" rx="3" fill="#3498db"/>
+<text x="285" y="366" class="male" text-anchor="middle" style="fill:#ffffff">listwa N (RCD 1)</text>
+<rect x="395" y="350" width="120" height="22" rx="3" fill="#3498db"/>
+<text x="455" y="366" class="male" text-anchor="middle" style="fill:#ffffff">N (RCD 2)</text>
+<rect x="185" y="390" width="460" height="22" rx="3" fill="#27ae60"/>
+<text x="415" y="406" class="male" text-anchor="middle" style="fill:#ffffff">listwa PE</text>
+</g>
+<text x="605" y="75" class="male" text-anchor="start">obudowa (np. II klasa ochronności)</text>
+<text x="605" y="118" class="male" text-anchor="start">grzebień — szyna łączeniowa</text>
+<text x="605" y="164" class="male" text-anchor="start">aparaty na szynie TH35</text>
+<text x="605" y="274" class="male" text-anchor="start">rezerwa — zaślepki</text>
+<text x="605" y="366" class="male" text-anchor="start">osobne listwy N dla RCD</text>
+<text x="605" y="406" class="male" text-anchor="start">listwa PE (wspólna)</text>
+<text x="420" y="500" class="opis" text-anchor="middle">Maskownica zakrywa wszystko poza dźwigniami; w puste miejsca — zaślepki. Opis obwodów na drzwiczkach.</text>
+</svg>

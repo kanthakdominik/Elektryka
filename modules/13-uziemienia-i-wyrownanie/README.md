@@ -1,6 +1,6 @@
 # 13 — Uziemienia i połączenia wyrównawcze
 
-> **Część III** · **Oznaczenia:** 🏠📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 5 h · **Status:** 🔲 szkielet
+> **Część III** · **Oznaczenia:** 🏠📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 5 h · **Status:** ✅ pełny
 
 ## Po co ten moduł
 
@@ -20,16 +20,31 @@ Uziom, szyna wyrównawcza i żółto-zielone połączenia z rurami — co robią
 
 | # | Temat | Status |
 |---|-------|--------|
-| 13.01 | [Uziom: fundamentowy, otokowy, prętowy](13.01-uziom-fundamentowy-otokowy-pretowy.md) | 🔲 |
-| 13.02 | [Rezystancja uziemienia — od czego zależy](13.02-rezystancja-uziemienia-od-czego-zalezy.md) | 🔲 |
-| 13.03 | [Główna szyna uziemiająca](13.03-glowna-szyna-uziemiajaca.md) | 🔲 |
-| 13.04 | [Połączenia wyrównawcze ochronne główne](13.04-polaczenia-wyrownawcze-ochronne-glowne.md) | 🔲 |
-| 13.05 | [Połączenia wyrównawcze miejscowe](13.05-polaczenia-wyrownawcze-miejscowe.md) | 🔲 |
-| 13.06 | [Przekroje przewodów ochronnych i wyrównawczych](13.06-przekroje-przewodow-ochronnych-i-wyrownawczych.md) | 🔲 |
+| 13.01 | [Uziom: fundamentowy, otokowy, prętowy](13.01-uziom-fundamentowy-otokowy-pretowy.md) | ✅ |
+| 13.02 | [Rezystancja uziemienia — od czego zależy](13.02-rezystancja-uziemienia-od-czego-zalezy.md) | ✅ |
+| 13.03 | [Główna szyna uziemiająca](13.03-glowna-szyna-uziemiajaca.md) | ✅ |
+| 13.04 | [Połączenia wyrównawcze ochronne główne](13.04-polaczenia-wyrownawcze-ochronne-glowne.md) | ✅ |
+| 13.05 | [Połączenia wyrównawcze miejscowe](13.05-polaczenia-wyrownawcze-miejscowe.md) | ✅ |
+| 13.06 | [Przekroje przewodów ochronnych i wyrównawczych](13.06-przekroje-przewodow-ochronnych-i-wyrownawczych.md) | ✅ |
 
 ## Po tym module potrafisz
 
-_(do uzupełnienia)_
+- rozróżnić uziom fundamentowy, otokowy i prętowy i wiedzieć, z czego wolno je wykonać,
+- oszacować rezystancję uziomu i wskazać, jak ją zmniejszyć,
+- opisać główną szynę uziemiającą i co się do niej łączy,
+- wykonać połączenia wyrównawcze główne i miejscowe i dobrać ich przekroje,
+- dobrać przekroje PE, PEN, przewodów uziemiających i wyrównawczych.
+
+## Zdjęcia i schematy w module
+
+| Temat | Obrazy |
+|-------|--------|
+| 13.01 | rodzaje uziomów (schemat), wyprowadzenie uziomu fundamentowego, uziom prętowy |
+| 13.02 | rezystancja pręta a długość i grunt (wykres) |
+| 13.03 | GSU (schemat), schemat połączeń GSU, wyprowadzenie bednarki |
+| 13.04 | opaska na rurze wodnej, GSU |
+| 13.05 | połączenia wyrównawcze w łazience (schemat) |
+| 13.06 | — |
 
 ## Powtórka
 

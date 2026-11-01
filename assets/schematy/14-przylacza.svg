@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" width="840" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Przyłącze napowietrzne i kablowe</title>
+  <desc id="d">Dwa rysunki. Po lewej przyłącze napowietrzne: z linii na słupie przewód izolowany, na przykład AsXSn, biegnie do uchwytu na ścianie budynku, a stamtąd do złącza kablowego ZK na ścianie. Po prawej przyłącze kablowe: z szafki sieci kabel w ziemi, na przykład YAKXS, prowadzi do złącza kablowo-pomiarowego ZKP w ogrodzeniu, a z niego wewnętrzna linia zasilająca do domu. Przyłącze buduje i utrzymuje operator sieci; za złączem zaczyna się instalacja odbiorcy.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="420" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Przyłącze napowietrzne i kablowe</text>
+<rect x="20" y="50" width="390" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="215" y="76" class="podt" text-anchor="middle">Napowietrzne</text>
+<rect x="30" y="300" width="370" height="70" fill="#c9a77c"/>
+<rect x="430" y="50" width="390" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="625" y="76" class="podt" text-anchor="middle">Kablowe</text>
+<rect x="440" y="300" width="370" height="70" fill="#c9a77c"/>
+<line x1="70" y1="300" x2="70" y2="110" stroke="#6e4b2a" stroke-width="8"/>
+<line x1="50" y1="120" x2="90" y2="120" stroke="#6e4b2a" stroke-width="4"/>
+<rect x="250" y="160" width="140" height="140" fill="#fdf6e3" stroke="#7f8c8d" stroke-width="2"/>
+<path d="M90 122 Q170 160 250 175" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<text x="175" y="112" class="male" text-anchor="middle">przewód izolowany</text>
+<text x="175" y="128" class="male" text-anchor="middle">(np. AsXSn)</text>
+<circle cx="252" cy="175" r="5" fill="#7f8c8d"/>
+<line x1="258" y1="175" x2="285" y2="175" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="285" y1="175" x2="285" y2="230" stroke="#1a1a1a" stroke-width="2.5"/>
+<rect x="265" y="230" width="44" height="50" rx="4" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+<text x="287" y="260" class="podt" text-anchor="middle">ZK</text>
+<text x="300" y="160" class="male" text-anchor="start">uchwyt</text>
+<rect x="460" y="230" width="60" height="70" rx="4" fill="#d6dbdf" stroke="#566573" stroke-width="2"/>
+<text x="490" y="270" class="male" text-anchor="middle">szafka</text>
+<text x="490" y="286" class="male" text-anchor="middle">sieci</text>
+<rect x="660" y="160" width="140" height="140" fill="#fdf6e3" stroke="#7f8c8d" stroke-width="2"/>
+<rect x="600" y="235" width="44" height="65" rx="4" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+<text x="622" y="272" class="podt" text-anchor="middle">ZKP</text>
+<text x="622" y="225" class="male" text-anchor="middle">w ogrodzeniu</text>
+<path d="M490 300 L490 340 L622 340 L622 300" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<text x="556" y="360" class="male" text-anchor="middle">kabel w ziemi (np. YAKXS)</text>
+<path d="M644 270 L700 270 L700 330 L740 330 L740 300" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="740" y="345" class="male" text-anchor="middle">WLZ do domu</text>
+<text x="420" y="405" class="opis" text-anchor="middle">Przyłącze buduje i utrzymuje operator sieci. Za złączem zaczyna się instalacja odbiorcy.</text>
+</svg>

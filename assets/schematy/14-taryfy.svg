@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Strefy czasowe taryf G11, G12, G12w</title>
+  <desc id="d">Paski doby od 0 do 24. G11: jedna cena przez całą dobę. G12 (przykład): strefa tania w nocy od 22 do 6 i po południu od 13 do 15, droga w pozostałych godzinach. G12w: w dni robocze jak G12, w weekend cała doba w strefie taniej. Dokładne godziny stref ustala operator w swojej taryfie.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="400" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Taryfy G11 i G12 — przykładowe strefy doby</text>
+<text x="20" y="102" class="podt" text-anchor="start" style="font-size:13px">G11</text>
+<rect x="140" y="70" width="660" height="46" fill="#d6eaf8" stroke="#ffffff" stroke-width="2"/>
+<text x="470.0" y="98" class="male" text-anchor="middle">jedna cena przez całą dobę</text>
+<text x="20" y="172" class="podt" text-anchor="start" style="font-size:13px">G12</text>
+<rect x="140" y="140" width="165" height="46" fill="#d5f5e3" stroke="#ffffff" stroke-width="2"/>
+<text x="222.5" y="168" class="male" text-anchor="middle">tania</text>
+<rect x="305" y="140" width="192" height="46" fill="#fadbd8" stroke="#ffffff" stroke-width="2"/>
+<text x="401.25" y="168" class="male" text-anchor="middle">droga</text>
+<rect x="498" y="140" width="55" height="46" fill="#d5f5e3" stroke="#ffffff" stroke-width="2"/>
+<text x="525.0" y="168" class="male" text-anchor="middle">tania</text>
+<rect x="552" y="140" width="192" height="46" fill="#fadbd8" stroke="#ffffff" stroke-width="2"/>
+<text x="648.75" y="168" class="male" text-anchor="middle">droga</text>
+<rect x="745" y="140" width="55" height="46" fill="#d5f5e3" stroke="#ffffff" stroke-width="2"/>
+<text x="772.5" y="168" class="male" text-anchor="middle">tania</text>
+<text x="20" y="242" class="podt" text-anchor="start" style="font-size:13px">G12w pn–pt</text>
+<rect x="140" y="210" width="165" height="46" fill="#d5f5e3" stroke="#ffffff" stroke-width="2"/>
+<rect x="305" y="210" width="192" height="46" fill="#fadbd8" stroke="#ffffff" stroke-width="2"/>
+<text x="401.25" y="238" class="male" text-anchor="middle">dzień roboczy</text>
+<rect x="498" y="210" width="55" height="46" fill="#d5f5e3" stroke="#ffffff" stroke-width="2"/>
+<rect x="552" y="210" width="192" height="46" fill="#fadbd8" stroke="#ffffff" stroke-width="2"/>
+<text x="648.75" y="238" class="male" text-anchor="middle">jak G12</text>
+<rect x="745" y="210" width="55" height="46" fill="#d5f5e3" stroke="#ffffff" stroke-width="2"/>
+<text x="20" y="300" class="podt" text-anchor="start" style="font-size:13px">G12w sb–nd</text>
+<rect x="140" y="270" width="660" height="46" fill="#d5f5e3" stroke="#ffffff" stroke-width="2"/>
+<text x="470.0" y="298" class="male" text-anchor="middle">weekend: cała doba w strefie taniej</text>
+<line x1="140.0" y1="330" x2="140.0" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="140.0" y="352" class="male" text-anchor="middle">0:00</text>
+<line x1="222.5" y1="330" x2="222.5" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="222.5" y="352" class="male" text-anchor="middle">3:00</text>
+<line x1="305.0" y1="330" x2="305.0" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="305.0" y="352" class="male" text-anchor="middle">6:00</text>
+<line x1="387.5" y1="330" x2="387.5" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="387.5" y="352" class="male" text-anchor="middle">9:00</text>
+<line x1="470.0" y1="330" x2="470.0" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="470.0" y="352" class="male" text-anchor="middle">12:00</text>
+<line x1="552.5" y1="330" x2="552.5" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="552.5" y="352" class="male" text-anchor="middle">15:00</text>
+<line x1="635.0" y1="330" x2="635.0" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="635.0" y="352" class="male" text-anchor="middle">18:00</text>
+<line x1="717.5" y1="330" x2="717.5" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="717.5" y="352" class="male" text-anchor="middle">21:00</text>
+<line x1="800.0" y1="330" x2="800.0" y2="336" stroke="#555" stroke-width="1.5"/>
+<text x="800.0" y="352" class="male" text-anchor="middle">24:00</text>
+<text x="420" y="385" class="male" text-anchor="middle">Godziny stref ustala operator w taryfie — sprawdź dokładne godziny dla swojego OSD i pory roku.</text>
+</svg>

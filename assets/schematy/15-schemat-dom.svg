@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 505" width="900" height="505" role="img" aria-labelledby="t d">
+  <title id="t">Dom jednorodzinny — rozdzielnica główna (przykład)</title>
+  <desc id="d">Schemat jednokreskowy rozdzielnicy głównej domu: zasilanie WLZ ze złącza przewodem 5 razy 16 milimetrów kwadratowych, rozłącznik główny 63 A 3P, ogranicznik przepięć typu 1+2. RCD 1 4P 40 A 30 mA: oświetlenie parteru, gniazda parteru, gniazda kuchni. RCD 2 4P 40 A 30 mA: oświetlenie piętra, gniazda piętra, łazienki. Osobno: płyta indukcyjna 3P za RCD, pompa ciepła C16 3P za RCD typu wg producenta, wyłącznik C20 3P zasilający podrozdzielnicę garażu przewodem 5 razy 4, obwód zewnętrzny RCBO.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="900" height="505" fill="#ffffff"/>
+<text x="450.0" y="32" class="tytul" text-anchor="middle">Dom jednorodzinny — rozdzielnica główna (przykład)</text>
+<text x="74" y="62" class="male" text-anchor="start">WLZ ze złącza: 5×16 mm²</text>
+<line x1="60" y1="70" x2="60" y2="82" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="60" y1="108" x2="60" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="60" y1="108" x2="48" y2="84" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="54" y1="82" x2="66" y2="82" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="60" cy="82" r="3" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="70" y="102" class="male" text-anchor="start">rozłącznik 63 A 3P</text>
+<line x1="60" y1="120" x2="60" y2="195" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="60" y1="132" x2="130" y2="132" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="60" cy="132" r="3.5" fill="#1a1a1a"/>
+<rect x="120" y="132" width="20" height="30" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="126" y1="138" x2="134" y2="156" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="130" y1="162" x2="130" y2="172" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="130" y1="172" x2="130" y2="184" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="118.0" y1="184" x2="142.0" y2="184" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="122.5" y1="189" x2="137.5" y2="189" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="126.5" y1="194" x2="133.5" y2="194" stroke="#1a1a1a" stroke-width="2"/>
+<text x="144" y="152" class="male" text-anchor="start">SPD T1+T2</text>
+<line x1="60" y1="195" x2="60" y2="205" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="60" y1="205" x2="819.0" y2="205" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="204.0" y1="205" x2="204.0" y2="215" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="204.0" y1="215" x2="204.0" y2="227" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="204.0" y1="253" x2="204.0" y2="265" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="204.0" y1="253" x2="192.0" y2="229" stroke="#1a1a1a" stroke-width="2.2"/>
+<ellipse cx="204.0" cy="259" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="218.0" y="235" class="male" text-anchor="start">RCD 1 4P</text>
+<text x="218.0" y="249" class="male" text-anchor="start">40 A / 30 mA, A</text>
+<line x1="204.0" y1="265" x2="204.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="81.0" y1="275" x2="327.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="81.0" y1="275" x2="81.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="81.0" y1="275" x2="81.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="81.0" y1="313" x2="81.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="81.0" y1="313" x2="69.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="77.0" y1="283" x2="85.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="85.0" y1="283" x2="77.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="81.0" y1="325" x2="81.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="75.0" y1="349" x2="87.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="75.0" y1="357" x2="87.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="75.0" y1="365" x2="87.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="81.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">B10</text>
+<text x="81.0" y="417" class="male" text-anchor="middle">3×1,5</text>
+<text x="81.0" y="434" class="male" text-anchor="middle">oświetl.</text>
+<text x="81.0" y="449" class="male" text-anchor="middle">parter</text>
+<line x1="163.0" y1="275" x2="163.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="163.0" y1="275" x2="163.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="163.0" y1="313" x2="163.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="163.0" y1="313" x2="151.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="159.0" y1="283" x2="167.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="167.0" y1="283" x2="159.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="163.0" y1="325" x2="163.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="157.0" y1="349" x2="169.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="157.0" y1="357" x2="169.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="157.0" y1="365" x2="169.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="163.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<text x="163.0" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="163.0" y="434" class="male" text-anchor="middle">gniazda</text>
+<text x="163.0" y="449" class="male" text-anchor="middle">parter</text>
+<line x1="245.0" y1="275" x2="245.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="245.0" y1="275" x2="245.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="245.0" y1="313" x2="245.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="245.0" y1="313" x2="233.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="241.0" y1="283" x2="249.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="249.0" y1="283" x2="241.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="245.0" y1="325" x2="245.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="239.0" y1="349" x2="251.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="239.0" y1="357" x2="251.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="239.0" y1="365" x2="251.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="245.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<text x="245.0" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="245.0" y="434" class="male" text-anchor="middle">gniazda</text>
+<text x="245.0" y="449" class="male" text-anchor="middle">kuchnia</text>
+<line x1="327.0" y1="275" x2="327.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="327.0" y1="275" x2="327.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="327.0" y1="313" x2="327.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="327.0" y1="313" x2="315.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="323.0" y1="283" x2="331.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="331.0" y1="283" x2="323.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="327.0" y1="325" x2="327.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="321.0" y1="341" x2="333.0" y2="333" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="321.0" y1="349" x2="333.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="321.0" y1="357" x2="333.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="321.0" y1="365" x2="333.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="321.0" y1="373" x2="333.0" y2="365" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="327.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">B16 3P</text>
+<text x="327.0" y="417" class="male" text-anchor="middle">5×2,5</text>
+<text x="327.0" y="434" class="male" text-anchor="middle">płyta</text>
+<text x="327.0" y="449" class="male" text-anchor="middle">indukcyjna</text>
+<line x1="491.0" y1="205" x2="491.0" y2="215" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="491.0" y1="215" x2="491.0" y2="227" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="491.0" y1="253" x2="491.0" y2="265" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="491.0" y1="253" x2="479.0" y2="229" stroke="#1a1a1a" stroke-width="2.2"/>
+<ellipse cx="491.0" cy="259" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="505.0" y="235" class="male" text-anchor="start">RCD 2 4P</text>
+<text x="505.0" y="249" class="male" text-anchor="start">40 A / 30 mA, A</text>
+<line x1="491.0" y1="265" x2="491.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="409.0" y1="275" x2="573.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="409.0" y1="275" x2="409.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="409.0" y1="275" x2="409.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="409.0" y1="313" x2="409.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="409.0" y1="313" x2="397.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="405.0" y1="283" x2="413.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="413.0" y1="283" x2="405.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="409.0" y1="325" x2="409.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="403.0" y1="349" x2="415.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="403.0" y1="357" x2="415.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="403.0" y1="365" x2="415.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="409.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">B10</text>
+<text x="409.0" y="417" class="male" text-anchor="middle">3×1,5</text>
+<text x="409.0" y="434" class="male" text-anchor="middle">oświetl.</text>
+<text x="409.0" y="449" class="male" text-anchor="middle">piętro</text>
+<line x1="491.0" y1="275" x2="491.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="491.0" y1="275" x2="491.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="491.0" y1="313" x2="491.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="491.0" y1="313" x2="479.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="487.0" y1="283" x2="495.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="495.0" y1="283" x2="487.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="491.0" y1="325" x2="491.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="485.0" y1="349" x2="497.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="485.0" y1="357" x2="497.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="485.0" y1="365" x2="497.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="491.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<text x="491.0" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="491.0" y="434" class="male" text-anchor="middle">gniazda</text>
+<text x="491.0" y="449" class="male" text-anchor="middle">piętro</text>
+<line x1="573.0" y1="275" x2="573.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="573.0" y1="275" x2="573.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="573.0" y1="313" x2="573.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="573.0" y1="313" x2="561.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="569.0" y1="283" x2="577.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="577.0" y1="283" x2="569.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="573.0" y1="325" x2="573.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="567.0" y1="349" x2="579.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="567.0" y1="357" x2="579.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="567.0" y1="365" x2="579.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="573.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<text x="573.0" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="573.0" y="434" class="male" text-anchor="middle">łazienki</text>
+<circle cx="655.0" cy="205" r="0"/>
+<circle cx="737.0" cy="205" r="0"/>
+<circle cx="819.0" cy="205" r="0"/>
+<line x1="655.0" y1="205" x2="655.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="655.0" y1="275" x2="655.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="655.0" y1="313" x2="655.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="655.0" y1="313" x2="643.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="651.0" y1="283" x2="659.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="659.0" y1="283" x2="651.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<ellipse cx="655.0" cy="319" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<line x1="655.0" y1="325" x2="655.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="649.0" y1="349" x2="661.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="649.0" y1="357" x2="661.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="649.0" y1="365" x2="661.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="655.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">RCBO</text>
+<text x="655.0" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="655.0" y="434" class="male" text-anchor="middle">na zewnątrz</text>
+<text x="655.0" y="449" class="male" text-anchor="middle">30 mA</text>
+<line x1="737.0" y1="205" x2="737.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="737.0" y1="275" x2="737.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="737.0" y1="313" x2="737.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="737.0" y1="313" x2="725.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="733.0" y1="283" x2="741.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="741.0" y1="283" x2="733.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="737.0" y1="325" x2="737.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="731.0" y1="341" x2="743.0" y2="333" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="731.0" y1="349" x2="743.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="731.0" y1="357" x2="743.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="731.0" y1="365" x2="743.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="731.0" y1="373" x2="743.0" y2="365" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="737.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">C16 3P</text>
+<text x="737.0" y="417" class="male" text-anchor="middle">5×2,5</text>
+<text x="737.0" y="434" class="male" text-anchor="middle">pompa ciepła</text>
+<text x="737.0" y="449" class="male" text-anchor="middle">(RCD wg prod.)</text>
+<line x1="819.0" y1="205" x2="819.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="819.0" y1="275" x2="819.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="819.0" y1="313" x2="819.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="819.0" y1="313" x2="807.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="815.0" y1="283" x2="823.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="823.0" y1="283" x2="815.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="819.0" y1="325" x2="819.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="813.0" y1="341" x2="825.0" y2="333" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="813.0" y1="349" x2="825.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="813.0" y1="357" x2="825.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="813.0" y1="365" x2="825.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="813.0" y1="373" x2="825.0" y2="365" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="819.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">C20 3P</text>
+<text x="819.0" y="417" class="male" text-anchor="middle">5×4</text>
+<text x="819.0" y="434" class="male" text-anchor="middle">podrozdz.</text>
+<text x="819.0" y="449" class="male" text-anchor="middle">garaż</text>
+<text x="450.0" y="490" class="male" text-anchor="middle">Pompa ciepła i garaż — z RCD dobranym wg instrukcji urządzeń i podziału w podrozdzielnicy (moduły 08, 26).</text>
+</svg>

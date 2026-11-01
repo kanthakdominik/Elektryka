@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="840" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Główna szyna uziemiająca</title>
+  <desc id="d">Zielona szyna GSU, do której od góry są przyłączone: przewód PE lub PEN z rozdzielnicy głównej, metalowa rura wodna przy wejściu do budynku, rura gazowa za wstawką izolacyjną, rury ogrzewania, metalowa konstrukcja budynku. Od dołu: przewód uziemiający do uziomu fundamentowego lub otokowego, instalacja odgromowa, ograniczniki przepięć i ekrany anten oraz teletechniki. Każde połączenie osobno, rozłączalne tylko narzędziem. Przewody połączeń wyrównawczych głównych mają co najmniej 6 milimetrów kwadratowych miedzi.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="500" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Główna szyna uziemiająca (GSU) — co się do niej łączy</text>
+<rect x="100" y="230" width="640" height="34" rx="4" fill="#27ae60"/>
+<text x="420" y="252" class="podt" text-anchor="middle" style="fill:#ffffff">GSU — główna szyna uziemiająca</text>
+<line x1="160" y1="230" x2="160" y2="140" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="160" cy="230" r="5" fill="#1a1a1a"/>
+<text x="160" y="120" class="podt" text-anchor="middle">PE / PEN</text>
+<text x="160" y="102" class="male" text-anchor="middle">z rozdzielnicy głównej</text>
+<line x1="290" y1="230" x2="290" y2="140" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="290" cy="230" r="5" fill="#1a1a1a"/>
+<text x="290" y="120" class="podt" text-anchor="middle">woda</text>
+<text x="290" y="102" class="male" text-anchor="middle">rura przy wejściu</text>
+<line x1="420" y1="230" x2="420" y2="140" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="420" cy="230" r="5" fill="#1a1a1a"/>
+<text x="420" y="120" class="podt" text-anchor="middle">gaz</text>
+<text x="420" y="102" class="male" text-anchor="middle">za wstawką izolacyjną</text>
+<line x1="550" y1="230" x2="550" y2="140" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="550" cy="230" r="5" fill="#1a1a1a"/>
+<text x="550" y="120" class="podt" text-anchor="middle">CO</text>
+<text x="550" y="102" class="male" text-anchor="middle">rury ogrzewania</text>
+<line x1="680" y1="230" x2="680" y2="140" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="680" cy="230" r="5" fill="#1a1a1a"/>
+<text x="680" y="120" class="podt" text-anchor="middle">konstrukcja</text>
+<text x="680" y="102" class="male" text-anchor="middle">zbrojenie, stal</text>
+<line x1="200" y1="264" x2="200" y2="340" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="200" cy="264" r="5" fill="#1a1a1a"/>
+<text x="200" y="362" class="podt" text-anchor="middle">uziom</text>
+<text x="200" y="380" class="male" text-anchor="middle">fundamentowy / otokowy</text>
+<line x1="360" y1="264" x2="360" y2="340" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="360" cy="264" r="5" fill="#1a1a1a"/>
+<text x="360" y="362" class="podt" text-anchor="middle">instalacja</text>
+<text x="360" y="380" class="male" text-anchor="middle">odgromowa</text>
+<line x1="520" y1="264" x2="520" y2="340" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="520" cy="264" r="5" fill="#1a1a1a"/>
+<text x="520" y="362" class="podt" text-anchor="middle">SPD</text>
+<text x="520" y="380" class="male" text-anchor="middle">typ 1 / 2</text>
+<line x1="680" y1="264" x2="680" y2="340" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="12 4 3 4"/>
+<circle cx="680" cy="264" r="5" fill="#1a1a1a"/>
+<text x="680" y="362" class="podt" text-anchor="middle">antena,</text>
+<text x="680" y="380" class="male" text-anchor="middle">teletechnika</text>
+<line x1="200" y1="388" x2="200" y2="400" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="188.0" y1="400" x2="212.0" y2="400" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="192.5" y1="405" x2="207.5" y2="405" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="196.5" y1="410" x2="203.5" y2="410" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="20" y="420" width="800" height="70" rx="8" class="ramka"/>
+<text x="36" y="444" class="male" text-anchor="start">Każde połączenie osobno, rozłączalne tylko narzędziem. GSU blisko złącza / rozdzielnicy głównej, dostępna.</text>
+<text x="36" y="466" class="male" text-anchor="start">Przewody połączeń wyrównawczych głównych: ≥ 6 mm² Cu (połowa największego PE, nie więcej niż 25 mm² Cu).</text>
+</svg>

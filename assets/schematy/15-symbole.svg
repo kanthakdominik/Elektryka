@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 365" width="840" height="365" role="img" aria-labelledby="t d">
+  <title id="t">Symbole schematu jednokreskowego</title>
+  <desc id="d">Tabela symboli. Pierwszy rząd: rozłącznik główny, bezpiecznik, wyłącznik nadprądowy z krzyżykiem na styku, wyłącznik różnicowoprądowy z elipsą przekładnika, licznik energii jako prostokąt z napisem kWh, ogranicznik przepięć z uziemieniem. Drugi rząd: RCBO jako wyłącznik nadprądowy z elipsą przekładnika, przewód z trzema ukośnymi kreskami oznaczającymi trzy żyły, gniazdo z bolcem, oprawa oświetleniowa jako koło z krzyżykiem, uziemienie, silnik trójfazowy jako koło z literą M zasilany przewodem pięciożyłowym. Symbole uproszczone według PN-EN 60617.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="365" fill="#ffffff"/>
+<text x="420" y="32" class="tytul" text-anchor="middle">Symbole na schemacie jednokreskowym rozdzielnicy</text>
+<line x1="80" y1="70" x2="80" y2="82" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="80" y1="108" x2="80" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="80" y1="108" x2="68" y2="84" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="74" y1="82" x2="86" y2="82" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="80" cy="82" r="3" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="80" y="160" class="opis" text-anchor="middle">rozłącznik</text>
+<text x="80" y="177" class="male" text-anchor="middle">główny</text>
+<line x1="215" y1="70" x2="215" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="209" y="82" width="12" height="26" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="215" y1="82" x2="215" y2="108" stroke="#1a1a1a" stroke-width="2"/>
+<text x="215" y="160" class="opis" text-anchor="middle">bezpiecznik</text>
+<text x="215" y="177" class="male" text-anchor="middle">(wkładka)</text>
+<line x1="350" y1="70" x2="350" y2="82" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="350" y1="108" x2="350" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="350" y1="108" x2="338" y2="84" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="346" y1="78" x2="354" y2="86" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="354" y1="78" x2="346" y2="86" stroke="#1a1a1a" stroke-width="2"/>
+<text x="350" y="160" class="opis" text-anchor="middle">wyłącznik</text>
+<text x="350" y="177" class="male" text-anchor="middle">nadprądowy</text>
+<line x1="485" y1="70" x2="485" y2="82" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="485" y1="108" x2="485" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="485" y1="108" x2="473" y2="84" stroke="#1a1a1a" stroke-width="2.2"/>
+<ellipse cx="485" cy="114" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="485" y="160" class="opis" text-anchor="middle">wyłącznik</text>
+<text x="485" y="177" class="male" text-anchor="middle">różnicowoprądowy</text>
+<line x1="620" y1="70" x2="620" y2="78" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="602" y="78" width="36" height="34" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="620" y="100" class="male" text-anchor="middle">kWh</text>
+<line x1="620" y1="112" x2="620" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+<text x="620" y="160" class="opis" text-anchor="middle">licznik</text>
+<text x="620" y="177" class="male" text-anchor="middle">energii</text>
+<rect x="745" y="70" width="20" height="30" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="751" y1="76" x2="759" y2="94" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="755" y1="100" x2="755" y2="110" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="755" y1="110" x2="755" y2="122" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="743.0" y1="122" x2="767.0" y2="122" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="747.5" y1="127" x2="762.5" y2="127" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="751.5" y1="132" x2="758.5" y2="132" stroke="#1a1a1a" stroke-width="2"/>
+<text x="769" y="90" class="male" text-anchor="start">SPD</text>
+<text x="755" y="160" class="opis" text-anchor="middle">ogranicznik</text>
+<text x="755" y="177" class="male" text-anchor="middle">przepięć</text>
+<line x1="80" y1="210" x2="80" y2="222" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="80" y1="248" x2="80" y2="260" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="80" y1="248" x2="68" y2="224" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="76" y1="218" x2="84" y2="226" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="84" y1="218" x2="76" y2="226" stroke="#1a1a1a" stroke-width="2"/>
+<ellipse cx="80" cy="254" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="80" y="300" class="opis" text-anchor="middle">RCBO</text>
+<text x="80" y="317" class="male" text-anchor="middle">(MCB + RCD)</text>
+<line x1="215" y1="210" x2="215" y2="260" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="209" y1="231" x2="221" y2="223" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="209" y1="239" x2="221" y2="231" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="209" y1="247" x2="221" y2="239" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="229" y="240" class="male" text-anchor="start">3</text>
+<text x="215" y="300" class="opis" text-anchor="middle">przewód</text>
+<text x="215" y="317" class="male" text-anchor="middle">3 kreski = 3 żyły</text>
+<line x1="350" y1="210" x2="350" y2="240" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M334 256 A16 16 0 0 1 366 256" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="334" y1="256" x2="366" y2="256" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="350" y1="240" x2="350" y2="240" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="336" y1="246" x2="364" y2="246" stroke="#1a1a1a" stroke-width="0"/>
+<text x="350" y="300" class="opis" text-anchor="middle">gniazdo</text>
+<text x="350" y="317" class="male" text-anchor="middle">z bolcem</text>
+<line x1="340" y1="240" x2="360" y2="240" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="485" y1="210" x2="485" y2="240" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="485" cy="255" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="475.2" y1="245.2" x2="494.8" y2="264.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="475.2" y1="264.8" x2="494.8" y2="245.2" stroke="#1a1a1a" stroke-width="2"/>
+<text x="485" y="300" class="opis" text-anchor="middle">oprawa</text>
+<text x="485" y="317" class="male" text-anchor="middle">oświetleniowa</text>
+<line x1="620" y1="210" x2="620" y2="240" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="620" y1="240" x2="620" y2="252" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="608.0" y1="252" x2="632.0" y2="252" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="612.5" y1="257" x2="627.5" y2="257" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="616.5" y1="262" x2="623.5" y2="262" stroke="#1a1a1a" stroke-width="2"/>
+<text x="620" y="300" class="opis" text-anchor="middle">uziemienie</text>
+<line x1="755" y1="210" x2="755" y2="235" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="749" y1="210" x2="761" y2="202" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="749" y1="218" x2="761" y2="210" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="749" y1="226" x2="761" y2="218" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="749" y1="234" x2="761" y2="226" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="749" y1="242" x2="761" y2="234" stroke="#1a1a1a" stroke-width="1.5"/>
+<circle cx="755" cy="255" r="20" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="755" y="260" class="podt" text-anchor="middle">M</text>
+<text x="755" y="300" class="opis" text-anchor="middle">silnik 3f</text>
+<text x="755" y="317" class="male" text-anchor="middle">(5 żył: L1–L3, N, PE)</text>
+<text x="420" y="350" class="male" text-anchor="middle">Symbole uproszczone wg PN-EN 60617; producenci i projektanci stosują drobne odmiany.</text>
+</svg>

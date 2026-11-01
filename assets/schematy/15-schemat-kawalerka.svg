@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 505" width="840" height="505" role="img" aria-labelledby="t d">
+  <title id="t">Kawalerka — zasilanie jednofazowe (przykład)</title>
+  <desc id="d">Schemat jednokreskowy rozdzielnicy kawalerki zasilanej jednofazowo: zasilanie z licznika przewodem 3 razy 10 milimetrów kwadratowych, rozłącznik główny 40 A 1P+N, ogranicznik przepięć typu 2. Dalej dwie grupy: RCD 1 40 A 30 mA typu A z obwodami oświetlenia B10 1,5 milimetra kwadratowego i gniazd pokoju B16 2,5; RCD 2 40 A 30 mA typu A z obwodami oświetlenia kuchni i łazienki B10, gniazd kuchni B16 i gniazd łazienki B16. Osobny RCBO B16 30 mA dla pralki i lodówki.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="505" fill="#ffffff"/>
+<text x="420.0" y="32" class="tytul" text-anchor="middle">Kawalerka — zasilanie jednofazowe (przykład)</text>
+<text x="74" y="62" class="male" text-anchor="start">z licznika: 3×10 mm²</text>
+<line x1="60" y1="70" x2="60" y2="82" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="60" y1="108" x2="60" y2="120" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="60" y1="108" x2="48" y2="84" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="54" y1="82" x2="66" y2="82" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="60" cy="82" r="3" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="70" y="102" class="male" text-anchor="start">rozłącznik 40 A 1P+N</text>
+<line x1="60" y1="120" x2="60" y2="195" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="60" y1="132" x2="130" y2="132" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="60" cy="132" r="3.5" fill="#1a1a1a"/>
+<rect x="120" y="132" width="20" height="30" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="126" y1="138" x2="134" y2="156" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="130" y1="162" x2="130" y2="172" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="130" y1="172" x2="130" y2="184" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="118.0" y1="184" x2="142.0" y2="184" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="122.5" y1="189" x2="137.5" y2="189" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="126.5" y1="194" x2="133.5" y2="194" stroke="#1a1a1a" stroke-width="2"/>
+<text x="144" y="152" class="male" text-anchor="start">SPD T2</text>
+<line x1="60" y1="195" x2="60" y2="205" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="60" y1="205" x2="745.7142857142857" y2="205" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="148.57142857142856" y1="205" x2="148.57142857142856" y2="215" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="148.57142857142856" y1="215" x2="148.57142857142856" y2="227" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="148.57142857142856" y1="253" x2="148.57142857142856" y2="265" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="148.57142857142856" y1="253" x2="136.57142857142856" y2="229" stroke="#1a1a1a" stroke-width="2.2"/>
+<ellipse cx="148.57142857142856" cy="259" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="162.57142857142856" y="235" class="male" text-anchor="start">RCD 1</text>
+<text x="162.57142857142856" y="249" class="male" text-anchor="start">40 A / 30 mA, A</text>
+<line x1="148.57142857142856" y1="265" x2="148.57142857142856" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="94.28571428571428" y1="275" x2="202.85714285714286" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="94.28571428571428" y1="275" x2="94.28571428571428" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="94.28571428571428" y1="275" x2="94.28571428571428" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="94.28571428571428" y1="313" x2="94.28571428571428" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="94.28571428571428" y1="313" x2="82.28571428571428" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="90.28571428571428" y1="283" x2="98.28571428571428" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="98.28571428571428" y1="283" x2="90.28571428571428" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="94.28571428571428" y1="325" x2="94.28571428571428" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="88.28571428571428" y1="349" x2="100.28571428571428" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="88.28571428571428" y1="357" x2="100.28571428571428" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="88.28571428571428" y1="365" x2="100.28571428571428" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="94.28571428571428" y="400" class="male" text-anchor="middle" style="font-weight:bold">B10</text>
+<text x="94.28571428571428" y="417" class="male" text-anchor="middle">3×1,5</text>
+<text x="94.28571428571428" y="434" class="male" text-anchor="middle">oświetlenie</text>
+<text x="94.28571428571428" y="449" class="male" text-anchor="middle">pokój</text>
+<line x1="202.85714285714286" y1="275" x2="202.85714285714286" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="202.85714285714286" y1="275" x2="202.85714285714286" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="202.85714285714286" y1="313" x2="202.85714285714286" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="202.85714285714286" y1="313" x2="190.85714285714286" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="198.85714285714286" y1="283" x2="206.85714285714286" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="206.85714285714286" y1="283" x2="198.85714285714286" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="202.85714285714286" y1="325" x2="202.85714285714286" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="196.85714285714286" y1="349" x2="208.85714285714286" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="196.85714285714286" y1="357" x2="208.85714285714286" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="196.85714285714286" y1="365" x2="208.85714285714286" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="202.85714285714286" y="400" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<text x="202.85714285714286" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="202.85714285714286" y="434" class="male" text-anchor="middle">gniazda</text>
+<text x="202.85714285714286" y="449" class="male" text-anchor="middle">pokój</text>
+<line x1="420.0" y1="205" x2="420.0" y2="215" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="420.0" y1="215" x2="420.0" y2="227" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="420.0" y1="253" x2="420.0" y2="265" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="420.0" y1="253" x2="408.0" y2="229" stroke="#1a1a1a" stroke-width="2.2"/>
+<ellipse cx="420.0" cy="259" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<text x="434.0" y="235" class="male" text-anchor="start">RCD 2</text>
+<text x="434.0" y="249" class="male" text-anchor="start">40 A / 30 mA, A</text>
+<line x1="420.0" y1="265" x2="420.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="311.42857142857144" y1="275" x2="528.5714285714286" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="311.42857142857144" y1="275" x2="311.42857142857144" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="311.42857142857144" y1="275" x2="311.42857142857144" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="311.42857142857144" y1="313" x2="311.42857142857144" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="311.42857142857144" y1="313" x2="299.42857142857144" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="307.42857142857144" y1="283" x2="315.42857142857144" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="315.42857142857144" y1="283" x2="307.42857142857144" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="311.42857142857144" y1="325" x2="311.42857142857144" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="305.42857142857144" y1="349" x2="317.42857142857144" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="305.42857142857144" y1="357" x2="317.42857142857144" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="305.42857142857144" y1="365" x2="317.42857142857144" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="311.42857142857144" y="400" class="male" text-anchor="middle" style="font-weight:bold">B10</text>
+<text x="311.42857142857144" y="417" class="male" text-anchor="middle">3×1,5</text>
+<text x="311.42857142857144" y="434" class="male" text-anchor="middle">oświetlenie</text>
+<text x="311.42857142857144" y="449" class="male" text-anchor="middle">kuchnia, łaz.</text>
+<line x1="420.0" y1="275" x2="420.0" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="420.0" y1="275" x2="420.0" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="420.0" y1="313" x2="420.0" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="420.0" y1="313" x2="408.0" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="416.0" y1="283" x2="424.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="424.0" y1="283" x2="416.0" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="420.0" y1="325" x2="420.0" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="414.0" y1="349" x2="426.0" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="414.0" y1="357" x2="426.0" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="414.0" y1="365" x2="426.0" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="420.0" y="400" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<text x="420.0" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="420.0" y="434" class="male" text-anchor="middle">gniazda</text>
+<text x="420.0" y="449" class="male" text-anchor="middle">kuchnia</text>
+<line x1="528.5714285714286" y1="275" x2="528.5714285714286" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="528.5714285714286" y1="275" x2="528.5714285714286" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="528.5714285714286" y1="313" x2="528.5714285714286" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="528.5714285714286" y1="313" x2="516.5714285714286" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="524.5714285714286" y1="283" x2="532.5714285714286" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="532.5714285714286" y1="283" x2="524.5714285714286" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="528.5714285714286" y1="325" x2="528.5714285714286" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="522.5714285714286" y1="349" x2="534.5714285714286" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="522.5714285714286" y1="357" x2="534.5714285714286" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="522.5714285714286" y1="365" x2="534.5714285714286" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="528.5714285714286" y="400" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<text x="528.5714285714286" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="528.5714285714286" y="434" class="male" text-anchor="middle">gniazda</text>
+<text x="528.5714285714286" y="449" class="male" text-anchor="middle">łazienka</text>
+<circle cx="637.1428571428571" cy="205" r="0"/>
+<circle cx="745.7142857142857" cy="205" r="0"/>
+<line x1="637.1428571428571" y1="205" x2="637.1428571428571" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="637.1428571428571" y1="275" x2="637.1428571428571" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="637.1428571428571" y1="313" x2="637.1428571428571" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="637.1428571428571" y1="313" x2="625.1428571428571" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="633.1428571428571" y1="283" x2="641.1428571428571" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="641.1428571428571" y1="283" x2="633.1428571428571" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<ellipse cx="637.1428571428571" cy="319" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<line x1="637.1428571428571" y1="325" x2="637.1428571428571" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="631.1428571428571" y1="349" x2="643.1428571428571" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="631.1428571428571" y1="357" x2="643.1428571428571" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="631.1428571428571" y1="365" x2="643.1428571428571" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="637.1428571428571" y="400" class="male" text-anchor="middle" style="font-weight:bold">RCBO B16</text>
+<text x="637.1428571428571" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="637.1428571428571" y="434" class="male" text-anchor="middle">pralka</text>
+<text x="637.1428571428571" y="449" class="male" text-anchor="middle">30 mA, A</text>
+<line x1="745.7142857142857" y1="205" x2="745.7142857142857" y2="275" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="745.7142857142857" y1="275" x2="745.7142857142857" y2="287" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="745.7142857142857" y1="313" x2="745.7142857142857" y2="325" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="745.7142857142857" y1="313" x2="733.7142857142857" y2="289" stroke="#1a1a1a" stroke-width="2.2"/>
+<line x1="741.7142857142857" y1="283" x2="749.7142857142857" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="749.7142857142857" y1="283" x2="741.7142857142857" y2="291" stroke="#1a1a1a" stroke-width="2"/>
+<ellipse cx="745.7142857142857" cy="319" rx="9" ry="4" fill="none" stroke="#1f5fbf" stroke-width="2"/>
+<line x1="745.7142857142857" y1="325" x2="745.7142857142857" y2="375" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="739.7142857142857" y1="349" x2="751.7142857142857" y2="341" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="739.7142857142857" y1="357" x2="751.7142857142857" y2="349" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="739.7142857142857" y1="365" x2="751.7142857142857" y2="357" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="745.7142857142857" y="400" class="male" text-anchor="middle" style="font-weight:bold">RCBO B16</text>
+<text x="745.7142857142857" y="417" class="male" text-anchor="middle">3×2,5</text>
+<text x="745.7142857142857" y="434" class="male" text-anchor="middle">lodówka</text>
+<text x="745.7142857142857" y="449" class="male" text-anchor="middle">30 mA, A</text>
+<text x="420.0" y="490" class="male" text-anchor="middle">Wartości przykładowe — rzeczywisty dobór wg mocy, długości obwodów i warunków ułożenia (moduły 05, 07, 16).</text>
+</svg>

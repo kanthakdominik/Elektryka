@@ -71,6 +71,14 @@ _(uzupełniane z modułu 16)_
 - **Montaż:** a + b ≤ 0,5 m (≈ 1 kV/m), przed RCD, 3+1 w TT i przed RCD, PE ≥ 6 mm² (T2) / 16 mm² (T1), ochrona do ok. 10 m. ([09.04](../modules/09-ochrona-przeciwprzepieciowa/09.04-montaz-ogranicznika-dlugosc-polaczen-i.md))
 - **Instalacja odgromowa:** zwody, przewody odprowadzające, złącza kontrolne, uziom; klasy I–IV; kontrola co 5 lat (art. 62 Prawa budowlanego). ([09.05](../modules/09-ochrona-przeciwprzepieciowa/09.05-ochrona-odgromowa-budynku-podstawy.md))
 
+## Uziemienia, przyłącze, rozdzielnica
+
+- **Uziomy:** fundamentowy (w ławach, najlepszy), otokowy (≥ 0,5 m głęb., ~1 m od ścian), prętowy; stal ocynkowana: taśma 90 mm² / 3 mm, pręt Ø16; rur gazowych nie wolno. Zalecane < 10 Ω; TT: $R_A \cdot I_{\Delta n} \le 50$ V. ([13.01](../modules/13-uziemienia-i-wyrownanie/13.01-uziom-fundamentowy-otokowy-pretowy.md), [13.02](../modules/13-uziemienia-i-wyrownanie/13.02-rezystancja-uziemienia-od-czego-zalezy.md))
+- **GSU:** uziom, PE/PEN, woda, gaz (za wstawką izolacyjną), CO, konstrukcja, LPS, SPD; każdy przewód osobno, odłączanie narzędziem. ([13.03](../modules/13-uziemienia-i-wyrownanie/13.03-glowna-szyna-uziemiajaca.md))
+- **Przekroje:** PE = S (S ≤ 16), 16 (do 35), S/2 (> 35); PE osobny 2,5 / 4 mm² Cu; PEN ≥ 10 Cu / 16 Al; uziemiający ≥ 6 Cu / 50 Fe (z LPS 16 Cu), bez Al; wyrównawczy główny ≥ ½ PE, min 6, max 25 mm² Cu; miejscowy 2,5 / 4 mm² Cu; warunek $R \le 50\ \mathrm{V}/I_a$. ([13.06](../modules/13-uziemienia-i-wyrownanie/13.06-przekroje-przewodow-ochronnych-i-wyrownawczych.md))
+- **Przyłącze → złącze → licznik → WLZ → rozdzielnica.** Przyłącze buduje OSD; granica własności zwykle na zaciskach w złączu; licznik i zabezpieczenie przedlicznikowe należą do OSD (plomby). Moc 3-faz. ≈ 0,69·In kW. Spadek: WLZ ~0,5 %, od licznika ≤ 3 %. Moc umowna ≤ przyłączeniowa. ([14.02](../modules/14-od-slupa-do-gniazdka/14.02-zlacze-i-granica-wlasnosci.md), [14.04](../modules/14-od-slupa-do-gniazdka/14.04-wewnetrzna-linia-zasilajaca-wlz.md), [14.05](../modules/14-od-slupa-do-gniazdka/14.05-moc-przylaczeniowa-i-taryfy.md))
+- **Rozdzielnica:** rozłącznik, SPD, ≥ 2 grupy RCD 30 mA (A) z osobnymi listwami N, wspólna PE, B10/1,5 oświetlenie, B16/2,5 gniazda, RCBO dla lodówki/pralki, rezerwa 20–30 %, schemat i opisy. Podłączanie PE → N → L. ([15.01](../modules/15-rozdzielnica-mieszkaniowa/15.01-budowa-rozdzielnicy-obudowa-szyna-th35-listwy-n.md), [15.07](../modules/15-rozdzielnica-mieszkaniowa/15.07-montaz-i-porzadek-przewodow-w-rozdzielnicy.md))
+
 ## Pomiary
 
 _(do uzupełnienia z modułu 23)_

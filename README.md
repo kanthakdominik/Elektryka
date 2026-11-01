@@ -87,14 +87,14 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 |---|-------|------------|---------|--------|
 | 11 | [Układy sieci: TN, TT, IT](modules/11-uklady-sieci/README.md) | 🟢📋 | 6 | ✅ pełny |
 | 12 | [Ochrona przeciwporażeniowa](modules/12-ochrona-przeciwporazeniowa/README.md) | 📋 | 6 | ✅ pełny |
-| 13 | [Uziemienia i połączenia wyrównawcze](modules/13-uziemienia-i-wyrownanie/README.md) | 🏠📋 | 6 | 🔲 szkielet |
+| 13 | [Uziemienia i połączenia wyrównawcze](modules/13-uziemienia-i-wyrownanie/README.md) | 🏠📋 | 6 | ✅ pełny |
 
 ### IV. Dom i mieszkanie
 
 | # | Moduł | Oznaczenia | Tematów | Status |
 |---|-------|------------|---------|--------|
-| 14 | [Od słupa do gniazdka](modules/14-od-slupa-do-gniazdka/README.md) | 🏠📋 | 5 | 🔲 szkielet |
-| 15 | [Rozdzielnica mieszkaniowa](modules/15-rozdzielnica-mieszkaniowa/README.md) | 🏠📋 | 7 | 🔲 szkielet |
+| 14 | [Od słupa do gniazdka](modules/14-od-slupa-do-gniazdka/README.md) | 🏠📋 | 5 | ✅ pełny |
+| 15 | [Rozdzielnica mieszkaniowa](modules/15-rozdzielnica-mieszkaniowa/README.md) | 🏠📋 | 7 | ✅ pełny |
 | 16 | [Planowanie obwodów](modules/16-planowanie-obwodow/README.md) | 🏠📋 | 6 | 🔲 szkielet |
 | 17 | [Pomieszczenia i miejsca szczególne](modules/17-pomieszczenia-szczegolne/README.md) | 🏠📋 | 5 | 🔲 szkielet |
 | 18 | [Oświetlenie](modules/18-oswietlenie/README.md) | 🏠 | 6 | 🔲 szkielet |
