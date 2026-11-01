@@ -131,3 +131,18 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `24-falownik.jpg` | Sarah Adrita | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Siemens_VFD.jpg) |
 | `24-falownik-pompa.jpg` | KSB Aktiengesellschaft, Frankenthal | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:KSB_09_Etanorm_mit_Motor_und_Frequenzumrichter.jpg) |
 | `24-silnik-kondensator.png` | Elcap | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Motor-with-run-capacitor.png) |
+| `25-zasilacz-impulsowy.jpg` | Phiarc | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mean_Well_HRP-100_smps.jpg) |
+| `25-zasilacz-pc-pcb.jpg` | Hans Haase | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:XT-PC-Power-Supply-PCB-IMG_0436.JPG) |
+| `25-ups.jpg` | MSDN.WhiteKnight | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:APC_Back-UPS_ES525.jpg) |
+| `25-ups-wnetrze.jpg` | Hundehalter | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apc_ups_rs500_08.jpg) |
+| `25-agregat.jpg` | Thiemo Schuff | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tragbares_stromaggregat.jpg) |
+| `25-agregat-stacjonarny.jpg` | User:Mattes | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bayreuth_-_Notstromaggregat.jpg) |
+| `26-pv-dach.jpg` | Gray Watson User:E090 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Solar_panels_on_house_roof.jpg) |
+| `26-mc4.jpg` | Multi-Contact AG | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MC4_connector.jpg) |
+| `26-mc4-budowa.jpg` | Orion Lawlor | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MC4_Connector_Front_and_Top_View.jpg) |
+| `26-panel-tyl.jpg` | Veikk0.ma | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:165W_solar_panel,_back.jpg) |
+| `26-falownik-pv.jpg` | Asurnipal | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Inverter_Fronius_%3D_Sun_Technics_STW_3600-01ASD.jpg) |
+| `26-pompa-ciepla.jpg` | Mueller felix | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Waermepumpe_Au%C3%9Feneinheit_mit_Elekroauto.jpg) |
+| `26-pompa-snieg.jpg` | PeterEastern | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ecodan_outdoor_unit_in_the_snow.jpg) |
+| `26-magazyn.jpg` | Kenneth Lund | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Batterie_Powerwall_de_Tesla.jpg) |
+| `26-wtyczki-ev.jpg` | Paul Sladen | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Iec-type2-ccs-combo2-and-iec-type2-charging-connectors-side-by-side.jpg) |
