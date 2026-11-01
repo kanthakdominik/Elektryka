@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 485" width="840" height="485" role="img" aria-labelledby="t d">
+  <title id="t">Rozdzielnica budowlana</title>
+  <desc id="d">Rozdzielnica budowlana w żółtej obudowie o stopniu ochrony co najmniej IP44. U góry rozłącznik główny z możliwością zablokowania kłódką. Pod nim dwa wyłączniki różnicowoprądowe: 30 miliamperów dla obwodów gniazd do 32 amperów i do 500 miliamperów dla obwodów powyżej 32 amperów. Dalej wyłączniki nadprądowe B16, B16, C16 i trójfazowy C32. Na dole gniazda z klapkami: zwykłe 230 V 16 A, CEE niebieskie 16 A i czerwone pięciobiegunowe 16 i 32 A. Z boku: zasilanie z przyłącza budowy, przewody giętkie w izolacji gumowej typu H07RN-F, regularne przeglądy, obudowa zamykana na klucz. Wymagania według PN-HD 60364-7-704 i PN-EN 61439-4.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="485" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Rozdzielnica budowlana — co musi mieć</text>
+<rect x="250" y="60" width="340" height="380" rx="12" fill="#f9e79f" stroke="#b7950b" stroke-width="3"/>
+<text x="420" y="86" class="male" text-anchor="middle">obudowa IP44 lub wyższa, odporna na uderzenia</text>
+<rect x="300" y="105" width="240" height="46" rx="5" fill="#fdebd0" stroke="#555" stroke-width="1.5"/>
+<text x="420.0" y="125" class="male" text-anchor="middle" style="font-weight:bold">rozłącznik główny</text>
+<text x="420.0" y="142" class="male" text-anchor="middle">z możliwością zablokowania kłódką</text>
+<line x1="420" y1="151" x2="420" y2="175" stroke="#555" stroke-width="2"/>
+<rect x="270" y="175" width="140" height="46" rx="5" fill="#d6eaf8" stroke="#555" stroke-width="1.5"/>
+<text x="340.0" y="195" class="male" text-anchor="middle" style="font-weight:bold">RCD 30 mA</text>
+<text x="340.0" y="212" class="male" text-anchor="middle">gniazda ≤ 32 A</text>
+<rect x="430" y="175" width="140" height="46" rx="5" fill="#e8daef" stroke="#555" stroke-width="1.5"/>
+<text x="500.0" y="195" class="male" text-anchor="middle" style="font-weight:bold">RCD ≤ 500 mA</text>
+<text x="500.0" y="212" class="male" text-anchor="middle">obwody > 32 A</text>
+<line x1="340" y1="160" x2="340" y2="175" stroke="#555" stroke-width="2"/>
+<line x1="500" y1="160" x2="500" y2="175" stroke="#555" stroke-width="2"/>
+<line x1="340" y1="160" x2="500" y2="160" stroke="#555" stroke-width="2"/>
+<rect x="270" y="245" width="44" height="46" rx="5" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+<text x="292.0" y="265" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<rect x="318" y="245" width="44" height="46" rx="5" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+<text x="340.0" y="265" class="male" text-anchor="middle" style="font-weight:bold">B16</text>
+<rect x="366" y="245" width="44" height="46" rx="5" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+<text x="388.0" y="265" class="male" text-anchor="middle" style="font-weight:bold">C16</text>
+<rect x="430" y="245" width="140" height="46" rx="5" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+<text x="500.0" y="265" class="male" text-anchor="middle" style="font-weight:bold">C32 / 3-faz.</text>
+<circle cx="290" cy="345" r="22" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="290" cy="345" r="12" fill="#ffffff" stroke="#1a1a1a"/>
+<text x="290" y="385" class="male" text-anchor="middle">230 V</text>
+<circle cx="366" cy="345" r="22" fill="#3498db" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="366" cy="345" r="12" fill="#ffffff" stroke="#1a1a1a"/>
+<text x="366" y="385" class="male" text-anchor="middle">CEE 16 A</text>
+<circle cx="446" cy="345" r="22" fill="#c0392b" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="446" cy="345" r="12" fill="#ffffff" stroke="#1a1a1a"/>
+<text x="446" y="385" class="male" text-anchor="middle">CEE 16 A</text>
+<circle cx="530" cy="345" r="22" fill="#c0392b" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="530" cy="345" r="12" fill="#ffffff" stroke="#1a1a1a"/>
+<text x="530" y="385" class="male" text-anchor="middle">CEE 32 A</text>
+<text x="290" y="400" class="male" text-anchor="middle">16 A</text>
+<text x="366" y="400" class="male" text-anchor="middle">1-faz.</text>
+<text x="446" y="400" class="male" text-anchor="middle">3-faz.</text>
+<text x="530" y="400" class="male" text-anchor="middle">3-faz.</text>
+<text x="420" y="426" class="male" text-anchor="middle">gniazda z klapkami, IP44</text>
+<text x="30" y="120" class="male" text-anchor="start">zasilana z przyłącza budowy</text>
+<text x="30" y="139" class="male" text-anchor="start">(licznik w złączu, osobna umowa)</text>
+<text x="30" y="158" class="male" text-anchor="start"></text>
+<text x="30" y="177" class="male" text-anchor="start">przewody giętkie w gumie,</text>
+<text x="30" y="196" class="male" text-anchor="start">np. H07RN-F / OnPd —</text>
+<text x="30" y="215" class="male" text-anchor="start">odporne na ścieranie i wodę</text>
+<text x="610" y="120" class="male" text-anchor="start">przeglądy i pomiary</text>
+<text x="610" y="139" class="male" text-anchor="start">regularnie — budowa</text>
+<text x="610" y="158" class="male" text-anchor="start">niszczy instalację</text>
+<text x="610" y="177" class="male" text-anchor="start"></text>
+<text x="610" y="196" class="male" text-anchor="start">zamykana na klucz;</text>
+<text x="610" y="215" class="male" text-anchor="start">otwiera tylko</text>
+<text x="610" y="234" class="male" text-anchor="start">uprawniony elektryk</text>
+<text x="420" y="470" class="male" text-anchor="middle">Wymagania wg PN-HD 60364-7-704; rozdzielnice budowlane — PN-EN 61439-4.</text>
+</svg>

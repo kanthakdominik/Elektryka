@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 480" width="840" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Barwa i strumień światła LED</title>
+  <desc id="d">Pasek barwy światła od ciepłej 2700 kelwinów, przez 3000 i neutralną 4000, do zimnej 6500 kelwinów, z zastosowaniami. Tabela odpowiedników: tradycyjna żarówka 25, 40, 60, 75 i 100 watów daje około 250, 470, 806, 1055 i 1521 lumenów, co w LED odpowiada typowo 2,5 do 3, 4 do 5, 7 do 8, 9 do 11 i 13 do 15 watom. Co jeszcze sprawdzić: współczynnik oddawania barw Ra co najmniej 80, napis ściemnialna, rodzaj trzonka i klasę energetyczną w nowej skali A do G.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="480" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Jak czytać opakowanie żarówki LED</text>
+<defs><linearGradient id="kel" x1="0" x2="1"><stop offset="0" stop-color="#ffb347"/><stop offset="0.35" stop-color="#ffe0a3"/><stop offset="0.6" stop-color="#fff7e6"/><stop offset="1" stop-color="#cfe4ff"/></linearGradient></defs>
+<text x="40" y="70" class="podt" text-anchor="start">Barwa światła (temperatura barwowa)</text>
+<rect x="40" y="82" width="760" height="40" rx="8" fill="url(#kel)" stroke="#b3b6b7"/>
+<line x1="115" y1="122" x2="115" y2="132" stroke="#555" stroke-width="1.5"/>
+<text x="115" y="148" class="male" text-anchor="middle" style="font-weight:bold">2700 K</text>
+<text x="115" y="166" class="male" text-anchor="middle">ciepła — salon, sypialnia</text>
+<line x1="290" y1="122" x2="290" y2="132" stroke="#555" stroke-width="1.5"/>
+<text x="290" y="148" class="male" text-anchor="middle" style="font-weight:bold">3000 K</text>
+<text x="290" y="166" class="male" text-anchor="middle">ciepła biała</text>
+<line x1="480" y1="122" x2="480" y2="132" stroke="#555" stroke-width="1.5"/>
+<text x="480" y="148" class="male" text-anchor="middle" style="font-weight:bold">4000 K</text>
+<text x="480" y="166" class="male" text-anchor="middle">neutralna — kuchnia, łazienka, warsztat</text>
+<line x1="740" y1="122" x2="740" y2="132" stroke="#555" stroke-width="1.5"/>
+<text x="740" y="148" class="male" text-anchor="middle" style="font-weight:bold">6500 K</text>
+<text x="740" y="166" class="male" text-anchor="middle">zimna — dzienna</text>
+<text x="40" y="210" class="podt" text-anchor="start">Jasność to lumeny [lm], nie waty</text>
+<rect x="40" y="221" width="760" height="28" fill="#eaecee"/>
+<text x="60" y="240" class="male" text-anchor="start" style="font-weight:bold">tradycyjna żarówka</text>
+<text x="210" y="240" class="male" text-anchor="start">25 W</text>
+<text x="330" y="240" class="male" text-anchor="start">40 W</text>
+<text x="450" y="240" class="male" text-anchor="start">60 W</text>
+<text x="570" y="240" class="male" text-anchor="start">75 W</text>
+<text x="690" y="240" class="male" text-anchor="start">100 W</text>
+<text x="60" y="268" class="male" text-anchor="start" style="font-weight:bold">strumień ok.</text>
+<text x="210" y="268" class="male" text-anchor="start" style="font-weight:bold">250 lm</text>
+<text x="330" y="268" class="male" text-anchor="start" style="font-weight:bold">470 lm</text>
+<text x="450" y="268" class="male" text-anchor="start" style="font-weight:bold">806 lm</text>
+<text x="570" y="268" class="male" text-anchor="start" style="font-weight:bold">1055 lm</text>
+<text x="690" y="268" class="male" text-anchor="start" style="font-weight:bold">1521 lm</text>
+<text x="60" y="296" class="male" text-anchor="start" style="font-weight:bold">LED (typowo)</text>
+<text x="210" y="296" class="male" text-anchor="start">2,5–3 W</text>
+<text x="330" y="296" class="male" text-anchor="start">4–5 W</text>
+<text x="450" y="296" class="male" text-anchor="start">7–8 W</text>
+<text x="570" y="296" class="male" text-anchor="start">9–11 W</text>
+<text x="690" y="296" class="male" text-anchor="start">13–15 W</text>
+<text x="40" y="350" class="podt" text-anchor="start">Co jeszcze sprawdzić</text>
+<circle cx="50" cy="374" r="4" fill="#2e86c1"/>
+<text x="64" y="378" class="male" text-anchor="start" style="font-weight:bold">Ra / CRI ≥ 80</text>
+<text x="330" y="378" class="male" text-anchor="start">oddawanie barw; ≥ 90 tam, gdzie kolory są ważne</text>
+<circle cx="50" cy="398" r="4" fill="#2e86c1"/>
+<text x="64" y="402" class="male" text-anchor="start" style="font-weight:bold">„ściemnialna” (dimmable)</text>
+<text x="330" y="402" class="male" text-anchor="start">bez tego napisu nie podłączaj pod ściemniacz</text>
+<circle cx="50" cy="422" r="4" fill="#2e86c1"/>
+<text x="64" y="426" class="male" text-anchor="start" style="font-weight:bold">trzonek E27 / E14 / GU10 / G9</text>
+<text x="330" y="426" class="male" text-anchor="start">musi pasować do oprawy</text>
+<circle cx="50" cy="446" r="4" fill="#2e86c1"/>
+<text x="64" y="450" class="male" text-anchor="start" style="font-weight:bold">klasa energetyczna A–G</text>
+<text x="330" y="450" class="male" text-anchor="start">nowa skala od 2021 r. — A to bardzo rzadko</text>
+</svg>

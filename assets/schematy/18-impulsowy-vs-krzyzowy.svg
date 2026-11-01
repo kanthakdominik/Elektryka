@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 445" width="840" height="445" role="img" aria-labelledby="t d">
+  <title id="t">Krzyżowe czy impulsowy</title>
+  <desc id="d">Porównanie dwóch sposobów sterowania światłem z czterech miejsc. Po lewej łańcuch łączników 6, 7, 7, 6: między łącznikami po dwie żyły korespondencyjne, każdy dodatkowy punkt to kolejny łącznik krzyżowy, prąd lampy płynie przez wszystkie styki. Po prawej cztery przyciski zwierne połączone równolegle wysyłają impuls do przekaźnika bistabilnego w rozdzielnicy, który przełącza lampę; do przycisku wystarcza przewód dwużyłowy i łatwo dodać kolejne przyciski lub automatykę.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="445" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Światło z 4 miejsc: łączniki krzyżowe czy przekaźnik?</text>
+<text x="210" y="65" class="podt" text-anchor="middle">6 — 7 — 7 — 6</text>
+<rect x="25" y="110" width="50" height="60" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="50" y="146" class="podt" text-anchor="middle">6</text>
+<rect x="125" y="110" width="50" height="60" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="150" y="146" class="podt" text-anchor="middle">7</text>
+<rect x="225" y="110" width="50" height="60" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="250" y="146" class="podt" text-anchor="middle">7</text>
+<rect x="325" y="110" width="50" height="60" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="350" y="146" class="podt" text-anchor="middle">6</text>
+<line x1="75" y1="130" x2="125" y2="130" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="75" y1="150" x2="125" y2="150" stroke="#7f8c8d" stroke-width="2.5"/>
+<line x1="175" y1="130" x2="225" y2="130" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="175" y1="150" x2="225" y2="150" stroke="#7f8c8d" stroke-width="2.5"/>
+<line x1="275" y1="130" x2="325" y2="130" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="275" y1="150" x2="325" y2="150" stroke="#7f8c8d" stroke-width="2.5"/>
+<line x1="50" y1="170" x2="50" y2="210" stroke="#8b4513" stroke-width="2.5"/>
+<text x="50" y="228" class="male" text-anchor="middle">L</text>
+<line x1="350" y1="170" x2="350" y2="210" stroke="#8b4513" stroke-width="2.5"/>
+<circle cx="350" cy="226" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="340.2" y1="216.2" x2="359.8" y2="235.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="340.2" y1="235.8" x2="359.8" y2="216.2" stroke="#1a1a1a" stroke-width="2"/>
+<text x="30" y="280" class="male" text-anchor="start">• między łącznikami 2 żyły (+ PE)</text>
+<text x="30" y="302" class="male" text-anchor="start">• tylko zwykłe łączniki, bez elektroniki</text>
+<text x="30" y="324" class="male" text-anchor="start">• każdy kolejny punkt = łącznik 7</text>
+<text x="30" y="346" class="male" text-anchor="start">• ciężko szukać usterki w długim łańcuchu</text>
+<text x="30" y="368" class="male" text-anchor="start">• obciążenie płynie przez wszystkie styki</text>
+<text x="630" y="65" class="podt" text-anchor="middle">4 przyciski + przekaźnik impulsowy</text>
+<line x1="450" y1="110" x2="790" y2="110" stroke="#8b4513" stroke-width="2.5"/>
+<text x="800" y="114" class="male" text-anchor="start">L</text>
+<line x1="470" y1="110" x2="470" y2="124" stroke="#8b4513" stroke-width="2.5"/>
+<rect x="454" y="124" width="32" height="32" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="470" cy="140" r="7" fill="#d5d8dc" stroke="#1a1a1a"/>
+<line x1="470" y1="156" x2="470" y2="180" stroke="#e67e22" stroke-width="2.5"/>
+<line x1="545" y1="110" x2="545" y2="124" stroke="#8b4513" stroke-width="2.5"/>
+<rect x="529" y="124" width="32" height="32" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="545" cy="140" r="7" fill="#d5d8dc" stroke="#1a1a1a"/>
+<line x1="545" y1="156" x2="545" y2="180" stroke="#e67e22" stroke-width="2.5"/>
+<line x1="620" y1="110" x2="620" y2="124" stroke="#8b4513" stroke-width="2.5"/>
+<rect x="604" y="124" width="32" height="32" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="620" cy="140" r="7" fill="#d5d8dc" stroke="#1a1a1a"/>
+<line x1="620" y1="156" x2="620" y2="180" stroke="#e67e22" stroke-width="2.5"/>
+<line x1="695" y1="110" x2="695" y2="124" stroke="#8b4513" stroke-width="2.5"/>
+<rect x="679" y="124" width="32" height="32" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="695" cy="140" r="7" fill="#d5d8dc" stroke="#1a1a1a"/>
+<line x1="695" y1="156" x2="695" y2="180" stroke="#e67e22" stroke-width="2.5"/>
+<line x1="470" y1="180" x2="760" y2="180" stroke="#e67e22" stroke-width="2.5"/>
+<text x="615" y="198" class="male" text-anchor="middle" style="fill:#e67e22">sterowanie — 1 żyła wspólna</text>
+<rect x="740" y="210" width="60" height="60" rx="6" fill="#d6eaf8" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="770" y="236" class="podt" text-anchor="middle">BIS</text>
+<text x="770" y="254" class="male" text-anchor="middle">w rozdz.</text>
+<line x1="760" y1="180" x2="760" y2="210" stroke="#e67e22" stroke-width="2.5"/>
+<line x1="770" y1="270" x2="770" y2="290" stroke="#8b4513" stroke-width="2.5"/>
+<circle cx="770" cy="306" r="14" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="760.2" y1="296.2" x2="779.8" y2="315.8" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="760.2" y1="315.8" x2="779.8" y2="296.2" stroke="#1a1a1a" stroke-width="2"/>
+<text x="450" y="280" class="male" text-anchor="start">• przyciski łączone równolegle — ile chcesz</text>
+<text x="450" y="302" class="male" text-anchor="start">• do przycisku wystarczy przewód 2-żyłowy</text>
+<text x="450" y="324" class="male" text-anchor="start">• przekaźnik (BIS) w rozdzielnicy lub puszce</text>
+<text x="450" y="346" class="male" text-anchor="start">• łatwo dodać „wyłącz wszystko” lub automat</text>
+<text x="450" y="368" class="male" text-anchor="start">• cichy klik w przekaźniku przy każdym impulsie</text>
+<line x1="420" y1="60" x2="420" y2="400" stroke="#d5d8dc" stroke-width="1.5"/>
+<text x="420" y="430" class="male" text-anchor="middle">Przy 3+ miejscach przekaźnik impulsowy zwykle wygrywa: prostsze okablowanie i łatwiejsza rozbudowa.</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="840" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Kuchnia — rozmieszczenie gniazd</title>
+  <desc id="d">Widok ściany kuchni: szafki dolne z blatem na 90 centymetrach, zlew i płyta, szafki górne, okap i lodówka. Nad blatem cztery gniazda na wysokości około 110 centymetrów, nie tuż nad zlewem. Za urządzeniami w szafkach dolnych gniazda na około 40 centymetrach dla zmywarki i piekarnika. Pod płytą na wysokości około 70 centymetrów puszka przyłączeniowa płyty, zasilanej trójfazowo przewodem pięciożyłowym. Gniazdo okapu w szafce okapowej, gniazdo lodówki nad nią. Płyta, piekarnik i zmywarka mają osobne obwody. Wysokości to praktyka, nie przepis.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="460" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Kuchnia — gniazda, obwody i wysokości</text>
+<rect x="40" y="82.0" width="760" height="338.0" fill="#fbf7ef" stroke="#b3b6b7"/>
+<line x1="30" y1="420" x2="810" y2="420" stroke="#5d4037" stroke-width="4"/>
+<rect x="60" y="308.2" width="600" height="111.8" fill="#e5e8e8" stroke="#7f8c8d" stroke-width="1.5"/>
+<rect x="55" y="303.0" width="610" height="5.2" fill="#6e2c00"/>
+<rect x="64" y="313.4" width="112" height="101.4" fill="none" stroke="#aab7b8"/>
+<rect x="184" y="313.4" width="112" height="101.4" fill="none" stroke="#aab7b8"/>
+<rect x="304" y="313.4" width="112" height="101.4" fill="none" stroke="#aab7b8"/>
+<rect x="424" y="313.4" width="112" height="101.4" fill="none" stroke="#aab7b8"/>
+<rect x="544" y="313.4" width="112" height="101.4" fill="none" stroke="#aab7b8"/>
+<rect x="200" y="300.4" width="90" height="6" fill="#85929e"/>
+<text x="245" y="295.2" class="male" text-anchor="middle">zlew</text>
+<rect x="440" y="300.4" width="100" height="6" fill="#1a1a1a"/>
+<text x="490" y="295.2" class="male" text-anchor="middle">płyta</text>
+<rect x="60" y="134.0" width="360" height="91.0" fill="#e5e8e8" stroke="#7f8c8d"/>
+<path d="M450 225.0 L530 225.0 L520 173.0 L460 173.0 Z" fill="#b2babb" stroke="#7f8c8d"/>
+<rect x="560" y="134.0" width="100" height="91.0" fill="#e5e8e8" stroke="#7f8c8d"/>
+<rect x="680" y="173.0" width="100" height="247.0" fill="#f2f3f4" stroke="#7f8c8d" stroke-width="1.5"/>
+<text x="730" y="290.0" class="male" text-anchor="middle">lodówka</text>
+<circle cx="100" cy="277.0" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="96.4" cy="277.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="103.6" cy="277.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="150" cy="277.0" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="146.4" cy="277.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="153.6" cy="277.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="340" cy="277.0" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="336.4" cy="277.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="343.6" cy="277.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="600" cy="277.0" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="596.4" cy="277.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="603.6" cy="277.0" r="1.8" fill="#1a1a1a"/>
+<line x1="40" y1="277.0" x2="70" y2="277.0" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="36" y="281.0" class="male" text-anchor="end">110</text>
+<circle cx="490" cy="153.5" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="486.4" cy="153.5" r="1.8" fill="#1a1a1a"/>
+<circle cx="493.6" cy="153.5" r="1.8" fill="#1a1a1a"/>
+<text x="505" y="144.39999999999998" class="male" text-anchor="start">okap</text>
+<circle cx="120" cy="368.0" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="116.4" cy="368.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="123.6" cy="368.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="490" cy="368.0" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="486.4" cy="368.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="493.6" cy="368.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="610" cy="368.0" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="606.4" cy="368.0" r="1.8" fill="#1a1a1a"/>
+<circle cx="613.6" cy="368.0" r="1.8" fill="#1a1a1a"/>
+<text x="120" y="396.6" class="male" text-anchor="middle">zmywarka</text>
+<text x="490" y="396.6" class="male" text-anchor="middle">piekarnik</text>
+<text x="610" y="396.6" class="male" text-anchor="middle">(wolne)</text>
+<circle cx="730" cy="153.5" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="726.4" cy="153.5" r="1.8" fill="#1a1a1a"/>
+<circle cx="733.6" cy="153.5" r="1.8" fill="#1a1a1a"/>
+<line x1="40" y1="368.0" x2="70" y2="368.0" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="36" y="372.0" class="male" text-anchor="end">40</text>
+<rect x="478" y="320.0" width="24" height="18" rx="3" fill="#c0392b" stroke="#1a1a1a"/>
+<text x="510" y="333.0" class="male" text-anchor="start">puszka płyty 3-faz.</text>
+<text x="36" y="333.0" class="male" text-anchor="end">70</text>
+<line x1="40" y1="329.0" x2="70" y2="329.0" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="245" y="283.0" class="podt" text-anchor="middle" style="fill:#c0392b">✗</text>
+<text x="245" y="257.5" class="male" text-anchor="middle" style="fill:#c0392b">nie nad zlewem</text>
+<text x="130" y="95.0" class="male" text-anchor="start">Nad blatem 3–4 gniazda podwójne (np. 100–115 cm nad podłogą)</text>
+<text x="130" y="113.0" class="male" text-anchor="start">Płyta, piekarnik, zmywarka — każde na własnym obwodzie</text>
+<text x="420" y="446" class="male" text-anchor="middle">Wysokości to praktyka, nie przepis: liczy się dostęp i to, żeby gniazdo nie wypadło za szafką ani nad zlewem.</text>
+</svg>

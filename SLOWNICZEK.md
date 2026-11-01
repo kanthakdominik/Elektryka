@@ -97,5 +97,19 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Szyna TH35 | Szyna montażowa aparatów modułowych | szyna DIN (PN-EN 60715) | DIN rail | 15 |
 | Grzebień | Listwa łącząca zaciski wielu aparatów | szyna łączeniowa | busbar comb | 15 |
 | Schemat jednokreskowy | Rozdzielnica narysowana jedną linią na tor | schemat zasadniczy uproszczony | single-line diagram | 15 |
+| Obwód wydzielony | Obwód dla jednego dużego odbiornika | obwód odbiorczy jednego urządzenia | dedicated circuit | 16 |
+| Prąd obliczeniowy | Ile prądu realnie płynie w obwodzie | prąd obliczeniowy $I_B$ | design current | 16 |
+| Spadek napięcia | O ile mniej napięcia jest na końcu przewodu | $\Delta U$ | voltage drop | 16 |
+| Strefa instalacyjna | Pas ściany, w którym prowadzi się przewody | strefa instalacyjna | installation zone | 16 |
+| Strefy łazienki 0, 1, 2 | Przestrzenie wokół wanny/prysznica | strefy wg PN-HD 60364-7-701 | bathroom zones | 17 |
+| Gniazdo golarki | Gniazdo z transformatorem separacyjnym | zespół zasilający do golarek | shaver supply unit | 17 |
+| Rozdzielnica budowlana | Skrzynka z zabezpieczeniami na budowie | ACS (PN-EN 61439-4) | assembly for construction site | 17 |
+| RDC-DD | Moduł wykrywający 6 mA prądu stałego | urządzenie do wykrywania prądu różnicowego DC | residual direct current detecting device | 17 |
+| Łącznik schodowy / krzyżowy | Sterowanie światłem z 2 / 3+ miejsc | łącznik 6 / 7 | two-way / intermediate switch | 18 |
+| Przekaźnik impulsowy | Przekaźnik zmieniający stan po każdym impulsie | przekaźnik bistabilny | impulse relay | 18 |
+| Ściemniacz RL / RC | Obcina początek / koniec półokresu | leading / trailing edge | leading / trailing edge dimmer | 18 |
+| Zasilacz CV / CC | Stałe napięcie / stały prąd dla LED | driver LED | constant voltage / current driver | 18 |
+| Strumień świetlny | Ile światła daje źródło | $\Phi$ [lm] | luminous flux | 18 |
+| Temperatura barwowa | Ciepła lub zimna barwa światła | CCT [K] | colour temperature | 18 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

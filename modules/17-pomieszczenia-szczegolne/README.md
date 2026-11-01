@@ -1,6 +1,6 @@
 # 17 — Pomieszczenia i miejsca szczególne
 
-> **Część IV** · **Oznaczenia:** 🏠📋 · **Ścieżki:** dom · **Szacowany czas:** ok. 5 h · **Status:** 🔲 szkielet
+> **Część IV** · **Oznaczenia:** 🏠📋 · **Ścieżki:** dom · **Szacowany czas:** ok. 5 h · **Status:** ✅ pełny
 
 ## Po co ten moduł
 
@@ -20,15 +20,29 @@ Woda i elektryczność: strefy w łazience, kuchnia, garaż, ogród. Tu przepisy
 
 | # | Temat | Status |
 |---|-------|--------|
-| 17.01 | [Łazienka: strefy 0, 1 i 2](17.01-lazienka-strefy-0-1-i-2.md) | 🔲 |
-| 17.02 | [Kuchnia](17.02-kuchnia.md) | 🔲 |
-| 17.03 | [Garaż i warsztat](17.03-garaz-i-warsztat.md) | 🔲 |
-| 17.04 | [Instalacje zewnętrzne i ogród](17.04-instalacje-zewnetrzne-i-ogrod.md) | 🔲 |
-| 17.05 | [Tymczasowa instalacja na budowie](17.05-tymczasowa-instalacja-na-budowie.md) | 🔲 |
+| 17.01 | [Łazienka: strefy 0, 1 i 2](17.01-lazienka-strefy-0-1-i-2.md) | ✅ |
+| 17.02 | [Kuchnia](17.02-kuchnia.md) | ✅ |
+| 17.03 | [Garaż i warsztat](17.03-garaz-i-warsztat.md) | ✅ |
+| 17.04 | [Instalacje zewnętrzne i ogród](17.04-instalacje-zewnetrzne-i-ogrod.md) | ✅ |
+| 17.05 | [Tymczasowa instalacja na budowie](17.05-tymczasowa-instalacja-na-budowie.md) | ✅ |
 
 ## Po tym module potrafisz
 
-_(do uzupełnienia)_
+- wyznaczyć strefy 0, 1 i 2 w łazience i dobrać do nich osprzęt, IP i ochronę,
+- zaplanować instalację w kuchni — obwody, gniazda, puszkę płyty,
+- wykonać instalację w garażu i warsztacie, z gniazdem CEE i obwodem wallboxa,
+- ułożyć kabel w ziemi i dobrać osprzęt na zewnątrz budynku,
+- opisać wymagania dla rozdzielnicy i instalacji na placu budowy.
+
+## Zdjęcia i schematy w module
+
+| Temat | Obrazy |
+|-------|--------|
+| 17.01 | strefy łazienki (schemat), połączenia wyrównawcze (schemat), gniazdo golarki, transformator SELV |
+| 17.02 | kuchnia (schemat), płyta indukcyjna |
+| 17.03 | typy RCD (schemat), wallbox, wtyczka CEE |
+| 17.04 | kabel w ziemi (schemat), lampa ogrodowa IP44, przedłużacz w gumie |
+| 17.05 | rozdzielnica budowlana (schemat), wtyczka CEE, przedłużacz w gumie |
 
 ## Powtórka
 

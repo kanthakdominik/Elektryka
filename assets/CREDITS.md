@@ -106,7 +106,6 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `17-lampa-ogrodowa.jpg` | Timpo | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Garden_light_led.jpg) |
 | `18-led-filament.jpg` | Raimond Spekking | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:LED_filament_light_bulb_E27,_6W,_810lm,_2700K,_EGB_539575-8432.jpg) |
 | `18-led-e27.jpg` | Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribble). Email the author: David R. Tribble A | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:LED-E27-Light-Bulb-1134.jpg) |
-| `18-sciemniacz.jpg` | Fully done by Dmitry G hands | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Universal_dimmer.jpg) |
 | `18-sciemniacz-wtyczkowy.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuko_dimmer.JPG) |
 | `18-diody-smd.jpg` | BrentMauriello | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SMD-LED-comparison-5050-2835-3528-3014-Flexfireleds.jpg) |
 | `18-lacznik-wnetrze.jpg` | Scott Ehardt | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Light_switch_inside_explained.jpg) |

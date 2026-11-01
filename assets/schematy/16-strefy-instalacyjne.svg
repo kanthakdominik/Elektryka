@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 525" width="840" height="525" role="img" aria-labelledby="t d">
+  <title id="t">Strefy instalacyjne w ścianie</title>
+  <desc id="d">Widok ściany z drzwiami i oknem. Niebieskie pasy poziome to strefy instalacyjne: 15 do 45 cm pod sufitem, 100 do 130 cm nad podłogą i 15 do 45 cm nad podłogą. Pomarańczowe pasy pionowe biegną 10 do 30 cm od krawędzi drzwi, okien i narożników. Czerwone przewody biegną tylko w strefach, prosto: poziomo pod sufitem i pionowo do łącznika na wysokości około 105 cm oraz do gniazd na wysokości około 30 cm. Przewód poprowadzony na skos jest oznaczony jako błąd.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="525" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Strefy instalacyjne — gdzie wolno prowadzić przewody w ścianie</text>
+<rect x="60" y="60" width="720" height="340" fill="#fbf7ef" stroke="#7f8c8d" stroke-width="2"/>
+<line x1="40" y1="400" x2="800" y2="400" stroke="#5d4037" stroke-width="5"/>
+<line x1="40" y1="60" x2="800" y2="60" stroke="#7f8c8d" stroke-width="5"/>
+<rect x="73.07692307692308" y="60" width="26.153846153846146" height="340" fill="#f39c12" fill-opacity="0.22" stroke="#f39c12" stroke-width="1.2"/>
+<rect x="273.0769230769231" y="60" width="26.153846153846132" height="340" fill="#f39c12" fill-opacity="0.22" stroke="#f39c12" stroke-width="1.2"/>
+<rect x="430.7692307692308" y="60" width="26.153846153846132" height="340" fill="#f39c12" fill-opacity="0.22" stroke="#f39c12" stroke-width="1.2"/>
+<rect x="653.0769230769231" y="60" width="26.15384615384619" height="340" fill="#f39c12" fill-opacity="0.22" stroke="#f39c12" stroke-width="1.2"/>
+<rect x="740.7692307692307" y="60" width="26.15384615384619" height="340" fill="#f39c12" fill-opacity="0.22" stroke="#f39c12" stroke-width="1.2"/>
+<rect x="60" y="79.61538461538458" width="720" height="39.23076923076928" fill="#3498db" fill-opacity="0.18" stroke="#3498db" stroke-width="1.2"/>
+<rect x="60" y="230.0" width="720" height="39.230769230769226" fill="#3498db" fill-opacity="0.18" stroke="#3498db" stroke-width="1.2"/>
+<rect x="60" y="341.15384615384613" width="720" height="39.230769230769226" fill="#3498db" fill-opacity="0.18" stroke="#3498db" stroke-width="1.2"/>
+<rect x="150" y="131.9230769230769" width="110" height="268.0769230769231" fill="#d7ccc8" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="246" cy="262.6923076923077" r="4" fill="#6d4c41"/>
+<rect x="470" y="99.23076923076923" width="170" height="183.0769230769231" fill="#d6eaf8" stroke="#5d6d7e" stroke-width="2"/>
+<line x1="555.0" y1="99.23076923076923" x2="555.0" y2="282.3076923076923" stroke="#5d6d7e" stroke-width="2"/>
+<line x1="60" y1="79.61538461538458" x2="780" y2="79.61538461538458" stroke="#c0392b" stroke-width="3"/>
+<line x1="286.15384615384613" y1="79.61538461538458" x2="286.15384615384613" y2="262.6923076923077" stroke="#c0392b" stroke-width="3"/>
+<line x1="753.8461538461538" y1="79.61538461538458" x2="753.8461538461538" y2="360.7692307692308" stroke="#c0392b" stroke-width="3"/>
+<line x1="443.84615384615387" y1="79.61538461538458" x2="443.84615384615387" y2="360.7692307692308" stroke="#c0392b" stroke-width="3"/>
+<line x1="443.84615384615387" y1="360.7692307692308" x2="753.8461538461538" y2="360.7692307692308" stroke="#c0392b" stroke-width="3"/>
+<rect x="278.15384615384613" y="254.69230769230768" width="16" height="16" rx="2" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="282.15384615384613" y1="266.6923076923077" x2="290.15384615384613" y2="258.6923076923077" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="413.84615384615387" cy="360.7692307692308" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="410.24615384615385" cy="360.7692307692308" r="1.8" fill="#1a1a1a"/>
+<circle cx="417.4461538461539" cy="360.7692307692308" r="1.8" fill="#1a1a1a"/>
+<circle cx="700" cy="360.7692307692308" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="696.4" cy="360.7692307692308" r="1.8" fill="#1a1a1a"/>
+<circle cx="703.6" cy="360.7692307692308" r="1.8" fill="#1a1a1a"/>
+<line x1="413.84615384615387" y1="360.7692307692308" x2="443.84615384615387" y2="360.7692307692308" stroke="#c0392b" stroke-width="3"/>
+<line x1="320" y1="138.46153846153845" x2="420" y2="321.53846153846155" stroke="#7b241c" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="330" y="246.92307692307693" class="male" text-anchor="middle" style="fill:#7b241c;font-weight:bold">✗ na skos</text>
+<text x="44" y="256.6923076923077" class="male" text-anchor="end">105</text>
+<text x="44" y="354.7692307692308" class="male" text-anchor="end">30</text>
+<line x1="46" y1="262.6923076923077" x2="60" y2="262.6923076923077" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="46" y1="360.7692307692308" x2="60" y2="360.7692307692308" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="60" y="425" width="26" height="16" fill="#3498db" fill-opacity="0.3" stroke="#3498db" stroke-width="1.2"/>
+<text x="94" y="438" class="male" text-anchor="start">strefy poziome: 15–45 cm pod sufitem, 100–130 cm, 15–45 cm nad podłogą</text>
+<rect x="60" y="449" width="26" height="16" fill="#f39c12" fill-opacity="0.35" stroke="#f39c12" stroke-width="1.2"/>
+<text x="94" y="462" class="male" text-anchor="start">strefy pionowe: 10–30 cm od krawędzi drzwi, okien i narożników</text>
+<line x1="60" y1="481" x2="86" y2="481" stroke="#c0392b" stroke-width="3"/>
+<text x="94" y="486" class="male" text-anchor="start">przewód w strefie — prosto, poziomo albo pionowo; łącznik ok. 105 cm, gniazdo ok. 30 cm nad podłogą</text>
+<text x="420" y="513" class="male" text-anchor="middle">Wymiary wg DIN 18015-3 (Niemcy); w Polsce N SEP-E-002 opisuje tę samą zasadę. Zawsze: prosto, równolegle do krawędzi.</text>
+</svg>

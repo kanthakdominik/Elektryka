@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 540" width="840" height="540" role="img" aria-labelledby="t d">
+  <title id="t">Układ schodowy — montaż</title>
+  <desc id="d">Praktyczny montaż układu schodowego. Z lewej zasilanie L, N i PE do puszki przy lampie. Faza L idzie do zacisku wspólnego łącznika A. Z łącznika A dwie żyły korespondencyjne, czarna i szara, biegną do łącznika B. Zacisk wspólny łącznika B wraca do lampy. N i PE idą prosto do lampy. Do każdego łącznika wystarczy przewód trzy- lub czterożyłowy; żyły żółto-zielonej nie wolno używać jako korespondencji.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="540" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Układ schodowy w praktyce — co gdzie leży</text>
+<text x="30" y="85" class="podt" text-anchor="start" style="fill:#8b4513">L</text>
+<text x="30" y="105" class="podt" text-anchor="start" style="fill:#1f5fbf">N</text>
+<text x="26" y="125" class="podt" text-anchor="start" style="fill:#1e8449">PE</text>
+<rect x="330" y="55" width="180" height="120" rx="10" fill="#f8f9f9" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="338" y="71" class="male" text-anchor="start" style="fill:#7f8c8d">puszka przy lampie</text>
+<rect x="200" y="300" width="230" height="130" rx="10" fill="#f8f9f9" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="208" y="316" class="male" text-anchor="start" style="fill:#7f8c8d">łącznik A (6)</text>
+<rect x="560" y="300" width="230" height="130" rx="10" fill="#f8f9f9" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="568" y="316" class="male" text-anchor="start" style="fill:#7f8c8d">łącznik B (6)</text>
+<line x1="52" y1="80" x2="350" y2="80" stroke="#8b4513" stroke-width="3"/>
+<line x1="52" y1="100" x2="410" y2="100" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="52" y1="120" x2="460" y2="120" stroke="#1e8449" stroke-width="3"/>
+<line x1="350" y1="80" x2="350" y2="330" stroke="#8b4513" stroke-width="3"/>
+<line x1="410" y1="100" x2="410" y2="222" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="460" y1="120" x2="460" y2="205" stroke="#1e8449" stroke-width="3"/>
+<circle cx="460" cy="205" r="4" fill="#1e8449"/>
+<text x="468" y="209" class="male" text-anchor="start">PE oprawy</text>
+<circle cx="410" cy="240" r="18" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="397.4" y1="227.4" x2="422.6" y2="252.6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="397.4" y1="252.6" x2="422.6" y2="227.4" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="350" cy="350" r="5" fill="#1a1a1a"/>
+<text x="358" y="345" class="male" text-anchor="start">wspólny</text>
+<circle cx="350" cy="350" r="4" fill="#1a1a1a"/>
+<line x1="350" y1="350" x2="300" y2="382" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="290" cy="390" r="5" fill="#1a1a1a"/>
+<circle cx="290" cy="410" r="5" fill="#1a1a1a"/>
+<line x1="350" y1="330" x2="350" y2="350" stroke="#8b4513" stroke-width="3"/>
+<line x1="290" y1="390" x2="290" y2="460" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="290" y1="410" x2="270" y2="410" stroke="#7f8c8d" stroke-width="3"/>
+<line x1="270" y1="410" x2="270" y2="475" stroke="#7f8c8d" stroke-width="3"/>
+<line x1="290" y1="460" x2="650" y2="460" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="270" y1="475" x2="670" y2="475" stroke="#7f8c8d" stroke-width="3"/>
+<text x="470" y="452" class="male" text-anchor="middle">korespondencja 1 (czarna)</text>
+<text x="470" y="494" class="male" text-anchor="middle">korespondencja 2 (szara)</text>
+<circle cx="650" cy="390" r="5" fill="#1a1a1a"/>
+<circle cx="670" cy="410" r="5" fill="#1a1a1a"/>
+<line x1="650" y1="390" x2="650" y2="460" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="670" y1="410" x2="670" y2="475" stroke="#7f8c8d" stroke-width="3"/>
+<circle cx="710" cy="350" r="5" fill="#1a1a1a"/>
+<circle cx="710" cy="350" r="4" fill="#1a1a1a"/>
+<line x1="710" y1="350" x2="655" y2="386" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="718" y="345" class="male" text-anchor="start">wspólny</text>
+<line x1="710" y1="350" x2="710" y2="240" stroke="#8b4513" stroke-width="3"/>
+<line x1="710" y1="240" x2="428" y2="240" stroke="#8b4513" stroke-width="3"/>
+<text x="600" y="232" class="male" text-anchor="middle">przewód do lampy (brązowy/czarny)</text>
+<text x="540" y="80" class="male" text-anchor="start">Do łącznika: przewód 3- lub 4-żyłowy.</text>
+<text x="540" y="98" class="male" text-anchor="start">Żyły żółto-zielonej nie używaj</text>
+<text x="540" y="116" class="male" text-anchor="start">jako korespondencji ani fazy —</text>
+<text x="540" y="134" class="male" text-anchor="start">zostaw jako PE albo zaizoluj.</text>
+<text x="420" y="525" class="male" text-anchor="middle">Faza L na „wspólny” łącznika A, „wspólny” łącznika B do lampy, między łącznikami dwie korespondencje.</text>
+</svg>

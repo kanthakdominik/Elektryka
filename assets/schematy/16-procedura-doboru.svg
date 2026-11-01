@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 495" width="840" height="495" role="img" aria-labelledby="t d">
+  <title id="t">Procedura doboru przewodu i zabezpieczenia</title>
+  <desc id="d">Sześć kroków w dwóch kolumnach. Krok 1: prąd obliczeniowy I_B z mocy. Krok 2: zabezpieczenie o prądzie znamionowym I_n nie mniejszym niż I_B, na przykład B16. Krok 3: przekrój, którego obciążalność I_z po uwzględnieniu współczynników jest nie mniejsza niż I_n, na przykład 2,5 milimetra kwadratowego. Krok 4: warunek przeciążeniowy I_2 nie większe niż 1,45 I_z, dla wyłączników nadprądowych spełniony automatycznie, gdy I_n nie większe niż I_z. Krok 5: spadek napięcia, zalecany do 3 procent dla oświetlenia i 5 procent dla innych odbiorów. Krok 6: samoczynne wyłączenie zasilania, impedancja pętli razy prąd zadziałania nie większa niż U0. Na dole: łańcuch I_B ≤ I_n ≤ I_z; jeśli krok nie wychodzi, zwiększ przekrój lub skróć obwód.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="495" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Dobór przewodu i zabezpieczenia — 6 kroków</text>
+<rect x="40" y="60" width="360" height="96" rx="10" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.6"/>
+<circle cx="70" cy="90" r="18" fill="#2e86c1"/>
+<text x="70" y="96" class="podt" text-anchor="middle" style="fill:#ffffff">1</text>
+<text x="100" y="90" class="podt" text-anchor="start">Prąd obliczeniowy I_B</text>
+<text x="100" y="115" class="male" text-anchor="start">z mocy: I_B = P / (U·cos φ)</text>
+<text x="100" y="137" class="male" text-anchor="start" style="fill:#2e86c1;font-weight:bold">2 kW, 230 V → ok. 8,7 A</text>
+<rect x="440" y="60" width="360" height="96" rx="10" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.6"/>
+<circle cx="470" cy="90" r="18" fill="#2e86c1"/>
+<text x="470" y="96" class="podt" text-anchor="middle" style="fill:#ffffff">2</text>
+<text x="500" y="90" class="podt" text-anchor="start">Zabezpieczenie I_n ≥ I_B</text>
+<text x="500" y="115" class="male" text-anchor="start">typowy szereg: 6, 10, 13, 16, 20, 25, 32 A</text>
+<text x="500" y="137" class="male" text-anchor="start" style="fill:#2e86c1;font-weight:bold">wybieramy B16 (gniazda)</text>
+<rect x="40" y="180" width="360" height="96" rx="10" fill="#e9f7ef" stroke="#239b56" stroke-width="1.6"/>
+<circle cx="70" cy="210" r="18" fill="#239b56"/>
+<text x="70" y="216" class="podt" text-anchor="middle" style="fill:#ffffff">3</text>
+<text x="100" y="210" class="podt" text-anchor="start">Przekrój: I_z ≥ I_n</text>
+<text x="100" y="235" class="male" text-anchor="start">obciążalność z tabeli × współczynniki</text>
+<text x="100" y="257" class="male" text-anchor="start" style="fill:#239b56;font-weight:bold">2,5 mm² w B1/C: 24–27 A</text>
+<rect x="440" y="180" width="360" height="96" rx="10" fill="#e9f7ef" stroke="#239b56" stroke-width="1.6"/>
+<circle cx="470" cy="210" r="18" fill="#239b56"/>
+<text x="470" y="216" class="podt" text-anchor="middle" style="fill:#ffffff">4</text>
+<text x="500" y="210" class="podt" text-anchor="start">Przeciążenie: I₂ ≤ 1,45·I_z</text>
+<text x="500" y="235" class="male" text-anchor="start">dla wyłącznika nadprądowego spełnione,</text>
+<text x="500" y="257" class="male" text-anchor="start" style="fill:#239b56;font-weight:bold">gdy I_n ≤ I_z (I₂ = 1,45·I_n)</text>
+<rect x="40" y="300" width="360" height="96" rx="10" fill="#fef5e7" stroke="#d68910" stroke-width="1.6"/>
+<circle cx="70" cy="330" r="18" fill="#d68910"/>
+<text x="70" y="336" class="podt" text-anchor="middle" style="fill:#ffffff">5</text>
+<text x="100" y="330" class="podt" text-anchor="start">Spadek napięcia ΔU</text>
+<text x="100" y="355" class="male" text-anchor="start">liczony od licznika do odbiornika</text>
+<text x="100" y="377" class="male" text-anchor="start" style="fill:#d68910;font-weight:bold">zalecane ≤ 3% oświetl., ≤ 5% inne</text>
+<rect x="440" y="300" width="360" height="96" rx="10" fill="#fdedec" stroke="#c0392b" stroke-width="1.6"/>
+<circle cx="470" cy="330" r="18" fill="#c0392b"/>
+<text x="470" y="336" class="podt" text-anchor="middle" style="fill:#ffffff">6</text>
+<text x="500" y="330" class="podt" text-anchor="start">Samoczynne wyłączenie</text>
+<text x="500" y="355" class="male" text-anchor="start">Z_s · I_a ≤ U₀ (0,4 s), RCD 30 mA</text>
+<text x="500" y="377" class="male" text-anchor="start" style="fill:#c0392b;font-weight:bold">pomiar pętli po wykonaniu</text>
+<line x1="402" y1="108" x2="436" y2="108" stroke="#7f8c8d" stroke-width="2"/><path d="M436.0 108.0 L427.7 111.5 L427.7 104.5 Z" fill="#7f8c8d"/>
+<path d="M620 158 L620 168 L220 168 L220 174" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+<path d="M220 179 l-6 -9 l12 0 Z" fill="#7f8c8d"/>
+<line x1="402" y1="228" x2="436" y2="228" stroke="#7f8c8d" stroke-width="2"/><path d="M436.0 228.0 L427.7 231.5 L427.7 224.5 Z" fill="#7f8c8d"/>
+<path d="M620 278 L620 288 L220 288 L220 294" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+<path d="M220 299 l-6 -9 l12 0 Z" fill="#7f8c8d"/>
+<line x1="402" y1="348" x2="436" y2="348" stroke="#7f8c8d" stroke-width="2"/><path d="M436.0 348.0 L427.7 351.5 L427.7 344.5 Z" fill="#7f8c8d"/>
+<rect x="40" y="425" width="760" height="56" rx="8" fill="#f8f9f9" stroke="#b3b6b7"/>
+<text x="420" y="448" class="opis" text-anchor="middle">Łańcuch: I_B ≤ I_n ≤ I_z. Jeśli któryś krok nie wychodzi — zwiększ przekrój</text>
+<text x="420" y="468" class="opis" text-anchor="middle">albo skróć obwód i wróć na początek. Dopiero potem kup przewód.</text>
+</svg>
