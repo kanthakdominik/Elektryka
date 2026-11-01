@@ -72,3 +72,18 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `09-piorun.jpg` | The Modern Polymath | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cloud-to-ground_lightning_strike.jpg) |
 | `09-uszkodzenie-piorun.jpg` | Cgoodwin | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lightning_damage_2.JPG) |
 | `09-lps-4-przewody.jpg` | AnonymousUnknown author | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lightning_protection_system_using_4_ground-conductors.jpg) |
+| `10-rozlacznik.jpg` | nieznany autor | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lasttrennschalter.JPG) |
+| `10-przekaznik-abb.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ABB_E256-230.JPG) |
+| `10-stromstoss.jpg` | Unknown authorUnknown author | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stromsto%C3%9Fschaltung.jpg) |
+| `10-automat-schodowy.jpg` | Nogo | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treppenlicht-zeitschalter.jpg) |
+| `10-zmierzchowy.jpg` | Serpicozaure | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Interrupteur_cr%C3%A9pusculaire.JPG) |
+| `10-stycznik-iek.jpg` | Kae | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Contactor_DIN_IEK.jpg) |
+| `10-stycznik-nch8.jpg` | Dmitry G | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Contactor_NCH8-63.JPG) |
+| `10-licznik-1f.jpg` | nieznany autor | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wechselstromzaehler.JPG) |
+| `10-licznik-3f-otwarty.jpg` | MdE | CC BY-SA 3.0 de | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Drehstromzaehler_offen.jpg) |
+| `10-afci.jpg` | ZStoler | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arc_Fault_Circuit_Interrupter.jpg) |
+| `11-zlacze.jpg` | This file was made by User:Sven Translation If this image contains text, it can be translated easily into your language. | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hausanschlusskasten_100A_500V.jpg) |
+| `11-zlacze-stare.jpg` | Lokilech | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HausAnschlusskasten_alt_(2).jpg) |
+| `11-tablica-europejska.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wiring_of_European_fuse_box.JPG) |
+| `12-transformator-12v.jpg` | Abdull | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electronic_transformer_low_voltage_halogen_lamps.jpg) |
+| `12-wtyczka-golarki.jpg` | FF-UK | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:BS_4573_shaver_plug_compared_to_Europlug.jpg) |
