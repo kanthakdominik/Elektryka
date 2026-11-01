@@ -155,3 +155,17 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `28-blokada-kluczowa.jpg` | Wtshymanski | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG) |
 | `29-badania-rozdzielnia.jpg` | MTA Capital Construction Mega Projects | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Systems_testing_in_the_service_switchgear_room_of_a_power_substation_located_in_Queens._(CS179,_08-13-2018)_(44048210052).jpg) |
 | `29-elektryk-gniazdo.jpg` | Santeri Viinamäki | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electrician_installing_socket.jpg) |
+| `30-gasnica-abc.jpg` | nieznany autor | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FireExtinguisherABC.jpg) |
+| `30-gasnica-co2.jpg` | Reioa1 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carbon_dioxide_fire_extinguisher.jpg) |
+| `30-gasnica-proszkowa.jpg` | James E. Petts | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chubb_dry_powder_(blue)_fire_extinguisher.jpg) |
+| `30-gasnica-scienna.jpg` | Mibrahim74 | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fire_extinguisher_in_wall_mount.jpg) |
+| `30-wylacznik-strazacki-pv.jpg` | Asurnipal | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Feuerwehrschalter-EATON-P-SOL30.JPG) |
+| `31-aed.jpg` | Warszawska róg Szerokiej w Tomaszowie Mazowieckim w województwie łódzkim, PL, EU. CC0 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Automated_external_defibrillator_(AED)_Automatyczny_defibrylator_zewn%C4%99trzny,_Tomasz%C3%B3w_Mazowiecki,_Poland.jpg) |
+| `31-aed-krakow.png` | Promiteusz | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Defibrylator_AED_na_zewn%C4%85trz_budynku_Uniwersytetu_Rolniczego_w_Krakowie.png) |
+| `31-aed-elektrody.png` | User:Tokino | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AED_pad_position.png) |
+| `31-aed-trening.jpg` | おむこさん志望 | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Medtronic_aed_training_kit.jpg) |
+| `31-rko.jpg` | OpenStax College | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2002_CPR_Technique.jpg) |
+| `31-rko-manekin.jpg` | US Air Force / 445th Airlift Wing, Maj. Ted Theopolos | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CPR_Dummy-Air_Force.JPG) |
+| `31-pozycja-boczna.jpg` | Rama | CC BY-SA 3.0 fr | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Recovery_position.jpg) |
+| `31-pozycja-boczna-2.jpg` | Image created by Rama | CC BY-SA 3.0 fr | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Recovery_position_maneuver.jpg) |
+| `32-dziennik-ustaw.png` | Myself | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DziennikUstawHeading.png) |
