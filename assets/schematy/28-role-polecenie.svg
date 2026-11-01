@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="840" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Role przy pracy na polecenie</title>
+  <desc id="d">Pionowy łańcuch ról: poleceniodawca wydaje polecenie (świadectwo D), koordynujący uzgadnia przełączenia (D), dopuszczający przygotowuje strefę pracy i dopuszcza (E), kierujący zespołem przejmuje strefę i prowadzi pracę (E), zespół co najmniej dwuosobowy przy pracach w warunkach szczególnego zagrożenia. Treść polecenia pisemnego: numer, osoby, zakres i strefa pracy, warunki i środki ochrony, daty, przerwy i warunki wznowienia; przechowywanie co najmniej 90 dni. Zasady: najwyżej dwie funkcje naraz, dopuszczający i kierujący to różne osoby poza pracami pod napięciem, gdy kierujący opuszcza strefę, praca staje.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="460" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Praca na polecenie pisemne — kto za co odpowiada</text>
+<rect x="30" y="55" width="430" height="60" rx="8" fill="#e8daef" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="48" y="81" class="podt" text-anchor="start">poleceniodawca</text>
+<text x="48" y="102" class="male" text-anchor="start">wydaje polecenie; świadectwo D</text>
+<line x1="245" y1="115" x2="245" y2="133" stroke="#555" stroke-width="2"/><path d="M245.0 133.0 L241.5 124.7 L248.5 124.7 Z" fill="#555"/>
+<rect x="30" y="133" width="430" height="60" rx="8" fill="#d6eaf8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="48" y="159" class="podt" text-anchor="start">koordynujący</text>
+<text x="48" y="180" class="male" text-anchor="start">uzgadnia przełączenia i kolejność; świadectwo D</text>
+<line x1="245" y1="193" x2="245" y2="211" stroke="#555" stroke-width="2"/><path d="M245.0 211.0 L241.5 202.7 L248.5 202.7 Z" fill="#555"/>
+<rect x="30" y="211" width="430" height="60" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="48" y="237" class="podt" text-anchor="start">dopuszczający</text>
+<text x="48" y="258" class="male" text-anchor="start">przygotowuje strefę pracy i dopuszcza; świadectwo E</text>
+<line x1="245" y1="271" x2="245" y2="289" stroke="#555" stroke-width="2"/><path d="M245.0 289.0 L241.5 280.7 L248.5 280.7 Z" fill="#555"/>
+<rect x="30" y="289" width="430" height="60" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="48" y="315" class="podt" text-anchor="start">kierujący zespołem</text>
+<text x="48" y="336" class="male" text-anchor="start">przejmuje strefę, prowadzi pracę; świadectwo E</text>
+<line x1="245" y1="349" x2="245" y2="367" stroke="#555" stroke-width="2"/><path d="M245.0 367.0 L241.5 358.7 L248.5 358.7 Z" fill="#555"/>
+<rect x="30" y="367" width="430" height="60" rx="8" fill="#f4f6f7" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="48" y="393" class="podt" text-anchor="start">zespół</text>
+<text x="48" y="414" class="male" text-anchor="start">co najmniej 2 osoby przy szczególnym zagrożeniu</text>
+<rect x="480" y="55" width="340" height="270" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="495" y="80" class="male" text-anchor="start">Polecenie pisemne zawiera:</text>
+<text x="495" y="103" class="male" text-anchor="start">• numer polecenia,</text>
+<text x="495" y="126" class="male" text-anchor="start">• kto organizuje i wykonuje pracę,</text>
+<text x="495" y="149" class="male" text-anchor="start">• zakres pracy i strefę pracy,</text>
+<text x="495" y="172" class="male" text-anchor="start">• warunki i środki ochrony,</text>
+<text x="495" y="195" class="male" text-anchor="start">• daty rozpoczęcia i zakończenia,</text>
+<text x="495" y="218" class="male" text-anchor="start">  przerwy i warunki wznowienia.</text>
+<text x="495" y="241" class="male" text-anchor="start"></text>
+<text x="495" y="264" class="male" text-anchor="start">Przechowuje się je co najmniej</text>
+<text x="495" y="287" class="male" text-anchor="start">90 dni od zakończenia pracy.</text>
+<rect x="480" y="335" width="340" height="110" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="495" y="360" class="male" text-anchor="start">• Najwyżej 2 funkcje naraz.</text>
+<text x="495" y="382" class="male" text-anchor="start">• Dopuszczający ≠ kierujący zespołem</text>
+<text x="495" y="404" class="male" text-anchor="start">  (wyjątek: prace pod napięciem).</text>
+<text x="495" y="426" class="male" text-anchor="start">• Kierujący wychodzi → praca staje.</text>
+</svg>

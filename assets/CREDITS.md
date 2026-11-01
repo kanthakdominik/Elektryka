@@ -146,17 +146,12 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `26-magazyn.jpg` | Kenneth Lund | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Batterie_Powerwall_de_Tesla.jpg) |
 | `26-wtyczki-ev.jpg` | Paul Sladen | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Iec-type2-ccs-combo2-and-iec-type2-charging-connectors-side-by-side.jpg) |
 | `27-knx-aktor.jpg` | Phiarc | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MDT_AKD-0201.02.jpg) |
-| `27-knx-demo.jpg` | Ordercrazy | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Embedded_World_KNX_TP_Demo_Board.jpg) |
-| `27-smart-modul.jpg` | nieznany autor | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smartswitch6000.jpg) |
 | `27-puszka-przekaznik.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:How_to_install_SKX_junction_box_for_memory_relay_switches.JPG) |
 | `28-rekawice.png` | Powerfox | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electrical_safety_gloves.png) |
 | `28-rekawice-2.png` | Klein Tools | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electrician_Gloves_Klein_Tools.png) |
-| `28-uziemiacz.jpg` | Rynacher at German Wikipedia | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Erdungsstange.JPG) |
 | `28-uziemiacz-tramwaj.jpg` | TeWeBs | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:StrBahn_Erdungsstange.JPG) |
 | `28-drabina.jpg` | Zipacna1 | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Step-ladder.JPG) |
 | `28-blokada-hamulec.jpg` | Wtshymanski | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lockout_on_hoist_brake.JPG) |
 | `28-blokada-kluczowa.jpg` | Wtshymanski | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG) |
-| `28-blokada-wylacznik.jpg` | Svetina D at Slovenian Wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glavno_stikalo,_zavarovano_pred_ne%C5%BEelenim_vklopom.JPG) |
-| `29-termowizja-rozdzielnica.jpg` | U.S. Navy photo by Photographer's Mate 3rd Class Konstandinos Goumenidis | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:US_Navy_050524-N-8213G-009_Electrician%27s_Mate_Fireman_Kenneth_Kimbrell_from_Temple,_Texas,_checks_the_fuse_temperature_on_an_infrared_thermal_camera_used_for_maintenance.jpg) |
 | `29-badania-rozdzielnia.jpg` | MTA Capital Construction Mega Projects | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Systems_testing_in_the_service_switchgear_room_of_a_power_substation_located_in_Queens._(CS179,_08-13-2018)_(44048210052).jpg) |
 | `29-elektryk-gniazdo.jpg` | Santeri Viinamäki | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electrician_installing_socket.jpg) |

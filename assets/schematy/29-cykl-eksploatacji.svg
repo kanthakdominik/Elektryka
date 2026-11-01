@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 475" width="840" height="475" role="img" aria-labelledby="t d">
+  <title id="t">Cykl eksploatacji</title>
+  <desc id="d">Pionowy ciąg etapów: przyjęcie do eksploatacji (odbiór, pomiary, dokumentacja, instrukcja), obsługa, oględziny, przeglądy i pomiary, konserwacja, naprawa lub remont, z powrotem do pracy, a na końcu wycofanie z eksploatacji. Każdy etap zostawia ślad w dokumentacji.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="475" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Cykl życia urządzenia w eksploatacji</text>
+<rect x="120" y="55" width="600" height="50" rx="8" fill="#d6eaf8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="140" y="77" class="podt" text-anchor="start">przyjęcie do eksploatacji</text>
+<text x="140" y="96" class="male" text-anchor="start">odbiór, pomiary, dokumentacja, instrukcja</text>
+<line x1="420" y1="105" x2="420" y2="121" stroke="#555" stroke-width="2"/><path d="M420.0 121.0 L416.5 112.7 L423.5 112.7 Z" fill="#555"/>
+<rect x="120" y="121" width="600" height="50" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="140" y="143" class="podt" text-anchor="start">obsługa</text>
+<text x="140" y="162" class="male" text-anchor="start">uruchamianie, nadzór pracy, zatrzymywanie, przełączenia</text>
+<line x1="420" y1="171" x2="420" y2="187" stroke="#555" stroke-width="2"/><path d="M420.0 187.0 L416.5 178.7 L423.5 178.7 Z" fill="#555"/>
+<rect x="120" y="187" width="600" height="50" rx="8" fill="#fef9e7" stroke="#d4ac0d" stroke-width="1.4"/>
+<text x="140" y="209" class="podt" text-anchor="start">oględziny</text>
+<text x="140" y="228" class="male" text-anchor="start">ocena „na oko”, zwykle w czasie pracy</text>
+<line x1="420" y1="237" x2="420" y2="253" stroke="#555" stroke-width="2"/><path d="M420.0 253.0 L416.5 244.7 L423.5 244.7 Z" fill="#555"/>
+<rect x="120" y="253" width="600" height="50" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="140" y="275" class="podt" text-anchor="start">przeglądy i pomiary</text>
+<text x="140" y="294" class="male" text-anchor="start">oględziny + sprawdzenia + pomiary, zwykle po wyłączeniu</text>
+<line x1="420" y1="303" x2="420" y2="319" stroke="#555" stroke-width="2"/><path d="M420.0 319.0 L416.5 310.7 L423.5 310.7 Z" fill="#555"/>
+<rect x="120" y="319" width="600" height="50" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="140" y="341" class="podt" text-anchor="start">konserwacja / naprawa / remont</text>
+<text x="140" y="360" class="male" text-anchor="start">usuwanie zużycia i uszkodzeń</text>
+<line x1="420" y1="369" x2="420" y2="385" stroke="#555" stroke-width="2"/><path d="M420.0 385.0 L416.5 376.7 L423.5 376.7 Z" fill="#555"/>
+<rect x="120" y="385" width="600" height="50" rx="8" fill="#e8daef" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="140" y="407" class="podt" text-anchor="start">wycofanie z eksploatacji</text>
+<text x="140" y="426" class="male" text-anchor="start">odłączenie, demontaż, wpis w dokumentacji</text>
+<path d="M720 344 L770 344 L770 146 L722 146" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M722 146 l10 -6 l0 12 Z" fill="#555"/>
+<text x="778" y="232" class="male" text-anchor="start">powrót</text>
+<text x="778" y="248" class="male" text-anchor="start">do pracy</text>
+<text x="420" y="462" class="male" text-anchor="middle">Każdy etap zostawia ślad w dokumentacji eksploatacyjnej: protokół, wpis, zapis wyników.</text>
+</svg>

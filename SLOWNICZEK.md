@@ -152,5 +152,22 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Pompa ciepła | Urządzenie przepompowujące ciepło z otoczenia | — | heat pump | 26 |
 | RDC-DD | Wykrywanie prądu stałego 6 mA w wallboxie | IEC 62955 | residual direct current detecting device | 26 |
 | Wallbox | Domowa stacja ładowania samochodu (Mode 3) | punkt ładowania | wallbox, EV charger | 26 |
+| DALI | Magistrala sterowania oprawami | IEC 62386 | Digital Addressable Lighting Interface | 27 |
+| KNX | Magistrala automatyki budynku, 30 V SELV | EN 50090 | KNX bus | 27 |
+| Modbus RTU | Protokół komunikacji szeregowej po RS-485 | — | Modbus RTU | 27 |
+| Moduł przekaźnikowy | Sterownik z przekaźnikiem do puszki | — | in-wall relay module | 27 |
+| Terminator | Rezystor 120 Ω na końcu linii RS-485 | — | termination resistor | 27 |
+| Dopuszczający | Przygotowuje strefę pracy i dopuszcza zespół | świadectwo E | person authorising work | 28 |
+| Kierujący zespołem | Prowadzi pracę zespołu | świadectwo E | team leader | 28 |
+| Polecenie pisemne | Dokument, na podstawie którego wykonuje się pracę niebezpieczną | § 28 rozp. BHP | written work order, permit to work | 28 |
+| Poleceniodawca | Wydaje polecenie | świadectwo D | person issuing the work order | 28 |
+| Praca pod napięciem | Praca z dotykaniem części czynnych lub w strefie DL | PPN | live working | 28 |
+| Rękawice elektroizolacyjne | Rękawice do pracy przy napięciu, klasy 00–4 | PN-EN 60903 | insulating gloves | 28 |
+| Strefa pracy | Przygotowane miejsce wykonywania pracy | § 2 rozp. BHP | work zone | 28 |
+| Dokumentacja powykonawcza | Projekt z naniesionymi zmianami z budowy | — | as-built documentation | 29 |
+| Eksploatacja | Obsługa, konserwacja, remont, naprawa, montaż, demontaż, pomiary | rozp. z 2022 r., § 4 | operation and maintenance | 29 |
+| Instrukcja eksploatacji | Jak obsługiwać, sprawdzać i naprawiać urządzenie | § 4 rozp. BHP | operating instructions | 29 |
+| Oględziny | Sprawdzenie zmysłami bez demontażu | — | visual inspection | 29 |
+| Przegląd | Oględziny + sprawdzenia + pomiary + konserwacja | — | inspection and maintenance | 29 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

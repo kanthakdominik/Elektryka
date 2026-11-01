@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 450" width="840" height="450" role="img" aria-labelledby="t d">
+  <title id="t">Oględziny a przegląd</title>
+  <desc id="d">Tabela porównawcza. Oględziny: urządzenie zwykle w ruchu i pod napięciem, ocena wzrokiem, słuchem, węchem i temperaturą, bez demontażu, częściej, wynik to zapis spostrzeżeń; przykład w domu — przegrzana listwa, zapach, test RCD. Przegląd: urządzenie zwykle wyłączone, oględziny plus sprawdzenia i pomiary, z otwieraniem, dokręcaniem i czyszczeniem, rzadziej, wynik to protokół z oceną; przykład — pomiary okresowe co 5 lat. Zakres i terminy określa instrukcja eksploatacji.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="450" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Oględziny a przegląd</text>
+<rect x="20" y="44" width="800" height="48" fill="#eaecee" stroke="#d5d8dc"/>
+<text x="30" y="73" class="male" text-anchor="start" style="font-weight:bold"></text>
+<text x="200" y="73" class="podt" text-anchor="start" style="font-weight:bold">Oględziny</text>
+<text x="520" y="73" class="podt" text-anchor="start" style="font-weight:bold">Przegląd</text>
+<rect x="20" y="96" width="800" height="48" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="125" class="male" text-anchor="start" style="font-weight:bold">Stan urządzenia</text>
+<text x="200" y="125" class="male" text-anchor="start">zwykle w ruchu, pod napięciem</text>
+<text x="520" y="125" class="male" text-anchor="start">zwykle wyłączone, przygotowane</text>
+<rect x="20" y="148" width="800" height="48" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="177" class="male" text-anchor="start" style="font-weight:bold">Co się robi</text>
+<text x="200" y="177" class="male" text-anchor="start">patrzenie, słuchanie, zapach, temperatura</text>
+<text x="520" y="177" class="male" text-anchor="start">oględziny + sprawdzenia + pomiary</text>
+<rect x="20" y="200" width="800" height="48" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="229" class="male" text-anchor="start" style="font-weight:bold">Demontaż</text>
+<text x="200" y="229" class="male" text-anchor="start">bez demontażu, bez otwierania</text>
+<text x="520" y="229" class="male" text-anchor="start">otwieranie, dokręcanie, czyszczenie</text>
+<rect x="20" y="252" width="800" height="48" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="281" class="male" text-anchor="start" style="font-weight:bold">Częstotliwość</text>
+<text x="200" y="281" class="male" text-anchor="start">częściej (wg instrukcji)</text>
+<text x="520" y="281" class="male" text-anchor="start">rzadziej (wg instrukcji, przepisów)</text>
+<rect x="20" y="304" width="800" height="48" fill="#ffffff" stroke="#d5d8dc"/>
+<text x="30" y="333" class="male" text-anchor="start" style="font-weight:bold">Wynik</text>
+<text x="200" y="333" class="male" text-anchor="start">zapis spostrzeżeń, zgłoszenie usterek</text>
+<text x="520" y="333" class="male" text-anchor="start">protokół z wynikami i oceną</text>
+<rect x="20" y="356" width="800" height="48" fill="#f8f9f9" stroke="#d5d8dc"/>
+<text x="30" y="385" class="male" text-anchor="start" style="font-weight:bold">Przykład w domu</text>
+<text x="200" y="385" class="male" text-anchor="start">przegrzana listwa, zapach, TEST RCD</text>
+<text x="520" y="385" class="male" text-anchor="start">pomiary okresowe co 5 lat (art. 62)</text>
+<line x1="190" y1="44" x2="190" y2="408" stroke="#d5d8dc" stroke-width="1"/>
+<line x1="510" y1="44" x2="510" y2="408" stroke="#d5d8dc" stroke-width="1"/>
+<text x="420" y="435" class="male" text-anchor="middle">Zakres i terminy oględzin i przeglądów określa instrukcja eksploatacji (dla budynku — także Prawo budowlane, art. 62).</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 430" width="840" height="430" role="img" aria-labelledby="t d">
+  <title id="t">Przewód N w puszce łącznika</title>
+  <desc id="d">Dwa panele. Po lewej: z puszki pod sufitem do łącznika idą tylko dwa przewody — faza i przewód przełączany; moduł bez N zasila się prądem płynącym przez lampę, przez co LED mogą się żarzyć. Po prawej: do łącznika doprowadzony jest także N (przewód trzyżyłowy) — moduły smart i czujniki działają poprawnie. Gdy N brak: moduł przy lampie, moduł dwuprzewodowy z bypassem, przekaźnik w rozdzielnicy lub nowy przewód. Nigdy nie wolno brać N z przewodu ochronnego PE.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="430" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Przewód neutralny w puszce łącznika — dlaczego go brakuje</text>
+<rect x="20" y="50" width="390" height="300" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="215" y="76" class="podt" text-anchor="middle">Bez N (instalacje starsze i wiele nowych)</text>
+<rect x="50" y="100" width="330" height="50" rx="6" fill="#f8f9f9" stroke="#aab7b8" stroke-width="1.4"/>
+<text x="60" y="118" class="male" text-anchor="start">puszka pod sufitem</text>
+<line x1="60" y1="135" x2="140" y2="135" stroke="#8b4513" stroke-width="3"/>
+<line x1="60" y1="142" x2="320" y2="142" stroke="#1f5fbf" stroke-width="3"/>
+<circle cx="340" cy="200" r="16" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="328.8" y1="188.8" x2="351.2" y2="211.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="328.8" y1="211.2" x2="351.2" y2="188.8" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M320 142 L350 142 L350 186" fill="none" stroke="#1f5fbf" stroke-width="3"/>
+<path d="M220 135 L330 135 L330 186" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="140" y1="135" x2="140" y2="230" stroke="#8b4513" stroke-width="3"/>
+<line x1="220" y1="135" x2="220" y2="230" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="110" y="230" width="140" height="60" rx="6" fill="#fdfefe" stroke="#555" stroke-width="1.4"/>
+<text x="180" y="256" class="male" text-anchor="middle">puszka łącznika</text>
+<text x="180" y="276" class="male" text-anchor="middle" style="font-weight:bold">tylko L i przełączany</text>
+<text x="40" y="312" class="male" text-anchor="start">Klasycznie: do łącznika tylko 2 żyły. Moduł bez N</text>
+<text x="40" y="330" class="male" text-anchor="start">zasila się prądem płynącym przez lampę → LED</text>
+<text x="40" y="348" class="male" text-anchor="start">żarzą się lub migają; czasem potrzebny bypass.</text>
+<rect x="430" y="50" width="390" height="300" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="625" y="76" class="podt" text-anchor="middle">Z N (dobra praktyka w nowych instalacjach)</text>
+<rect x="460" y="100" width="330" height="50" rx="6" fill="#f8f9f9" stroke="#aab7b8" stroke-width="1.4"/>
+<text x="470" y="118" class="male" text-anchor="start">puszka pod sufitem</text>
+<line x1="470" y1="135" x2="550" y2="135" stroke="#8b4513" stroke-width="3"/>
+<line x1="470" y1="142" x2="730" y2="142" stroke="#1f5fbf" stroke-width="3"/>
+<circle cx="750" cy="200" r="16" fill="#fffbe6" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="738.8" y1="188.8" x2="761.2" y2="211.2" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="738.8" y1="211.2" x2="761.2" y2="188.8" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M730 142 L760 142 L760 186" fill="none" stroke="#1f5fbf" stroke-width="3"/>
+<path d="M630 135 L740 135 L740 186" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="550" y1="135" x2="550" y2="230" stroke="#8b4513" stroke-width="3"/>
+<line x1="630" y1="135" x2="630" y2="230" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="590" y1="142" x2="590" y2="230" stroke="#1f5fbf" stroke-width="3"/>
+<rect x="520" y="230" width="140" height="60" rx="6" fill="#fdfefe" stroke="#555" stroke-width="1.4"/>
+<text x="590" y="256" class="male" text-anchor="middle">puszka łącznika</text>
+<text x="590" y="276" class="male" text-anchor="middle" style="font-weight:bold">L, N, przełączany</text>
+<text x="450" y="312" class="male" text-anchor="start">Przewód 3-żyłowy do łącznika (lub 4- przy</text>
+<text x="450" y="330" class="male" text-anchor="start">schodowym): N jest na miejscu — moduł smart,</text>
+<text x="450" y="348" class="male" text-anchor="start">czujnik ruchu, ściemniacz 3-przewodowy działają.</text>
+<rect x="20" y="360" width="800" height="60" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="40" y="384" class="male" text-anchor="start">Brak N: moduł przy lampie (puszka sufitowa), moduł 2-przewodowy z bypassem, przekaźnik w rozdzielnicy, nowy przewód.</text>
+<text x="40" y="406" class="male" text-anchor="start" style="fill:#922b21">Nigdy: „N” wzięty z PE (żółto-zielonego) — prąd roboczy w przewodzie ochronnym, wybija RCD, zagrożenie przy przerwie PE.</text>
+</svg>

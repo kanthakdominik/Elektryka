@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 465" width="840" height="465" role="img" aria-labelledby="t d">
+  <title id="t">Sprzęt ochronny</title>
+  <desc id="d">Tabela klas rękawic elektroizolacyjnych według PN-EN 60903: klasa 00 — 500 V, 0 — 1000 V, 1 — 7,5 kV, 2 — 17 kV, 3 — 26,5 kV, 4 — 36 kV, z kolorami etykiet; do instalacji 230/400 V klasa 00 lub 0. Lista kontrolna przed użyciem: data badania, klasa, oględziny, próba powietrzna rękawic, test wskaźnika napięcia, wycofanie uszkodzonego sprzętu. Sprzęt elektroizolacyjny podlega ewidencji i badaniom okresowym według producenta; podział na sprzęt zasadniczy, dodatkowy i ochronę osobistą.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="465" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Sprzęt ochronny: co sprawdzić przed użyciem</text>
+<rect x="30" y="55" width="370" height="30" fill="#eaecee"/>
+<text x="40" y="75" class="male" text-anchor="start" style="font-weight:bold">Klasa</text>
+<text x="150" y="75" class="male" text-anchor="start" style="font-weight:bold">Napięcie AC</text>
+<text x="270" y="75" class="male" text-anchor="start" style="font-weight:bold">Kolor etykiety</text>
+<text x="40" y="105" class="male" text-anchor="start">00</text>
+<text x="150" y="105" class="male" text-anchor="start">500 V</text>
+<text x="270" y="105" class="male" text-anchor="start">beżowy</text>
+<text x="40" y="135" class="male" text-anchor="start">0</text>
+<text x="150" y="135" class="male" text-anchor="start">1000 V</text>
+<text x="270" y="135" class="male" text-anchor="start">czerwony</text>
+<text x="40" y="165" class="male" text-anchor="start">1</text>
+<text x="150" y="165" class="male" text-anchor="start">7,5 kV</text>
+<text x="270" y="165" class="male" text-anchor="start">biały</text>
+<text x="40" y="195" class="male" text-anchor="start">2</text>
+<text x="150" y="195" class="male" text-anchor="start">17 kV</text>
+<text x="270" y="195" class="male" text-anchor="start">żółty</text>
+<text x="40" y="225" class="male" text-anchor="start">3</text>
+<text x="150" y="225" class="male" text-anchor="start">26,5 kV</text>
+<text x="270" y="225" class="male" text-anchor="start">zielony</text>
+<text x="40" y="255" class="male" text-anchor="start">4</text>
+<text x="150" y="255" class="male" text-anchor="start">36 kV</text>
+<text x="270" y="255" class="male" text-anchor="start">pomarańczowy</text>
+<text x="30" y="300" class="male" text-anchor="start">Rękawice elektroizolacyjne wg PN-EN 60903.</text>
+<text x="30" y="318" class="male" text-anchor="start">Do instalacji 230/400 V — klasa 00 lub 0.</text>
+<rect x="430" y="55" width="390" height="270" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="445" y="80" class="male" text-anchor="start">Przed każdym użyciem:</text>
+<text x="445" y="103" class="male" text-anchor="start">1. data następnego badania — nieprzekroczona,</text>
+<text x="445" y="126" class="male" text-anchor="start">2. oznaczenie klasy / napięcia pasuje do pracy,</text>
+<text x="445" y="149" class="male" text-anchor="start">3. oględziny: pęknięcia, przetarcia, zabrudzenia,</text>
+<text x="445" y="172" class="male" text-anchor="start">   wilgoć, ślady łuku,</text>
+<text x="445" y="195" class="male" text-anchor="start">4. rękawice — próba powietrzna (zwinięcie</text>
+<text x="445" y="218" class="male" text-anchor="start">   mankietu: czy trzymają powietrze),</text>
+<text x="445" y="241" class="male" text-anchor="start">5. wskaźnik napięcia — test na znanym</text>
+<text x="445" y="264" class="male" text-anchor="start">   źródle przed i po pomiarze,</text>
+<text x="445" y="287" class="male" text-anchor="start">6. uszkodzony sprzęt → wycofać i oznaczyć.</text>
+<rect x="30" y="340" width="790" height="110" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="45" y="365" class="male" text-anchor="start">Sprzęt elektroizolacyjny i wskaźniki: ewidencja i badania okresowe wg dokumentacji producenta (rozp. BHP, § 26).</text>
+<text x="45" y="391" class="male" text-anchor="start">Zasadniczy: rękawice, wskaźniki, drążki, narzędzia izolowane. Dodatkowy: obuwie, dywaniki, pomosty izolacyjne.</text>
+<text x="45" y="417" class="male" text-anchor="start">Ochrona osobista: hełm, osłona twarzy, odzież trudnopalna (łuk). Zwykłe rękawice robocze NIE są izolacyjne.</text>
+</svg>

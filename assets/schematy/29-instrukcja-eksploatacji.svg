@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 485" width="840" height="485" role="img" aria-labelledby="t d">
+  <title id="t">Instrukcja eksploatacji</title>
+  <desc id="d">Lista jedenastu elementów instrukcji eksploatacji: charakterystyka urządzeń; układy automatyki, pomiarów, sygnalizacji, zabezpieczeń i sterowania; rysunki i schematy opisane po polsku; uruchamianie, obsługa i zatrzymanie w warunkach normalnych; postępowanie przy awariach; wymagania eksploatacyjne i terminy oględzin, przeglądów, prób i pomiarów; wymagania BHP i przeciwpożarowe; zagrożenia i ich usuwanie; organizacja prac; środki ochrony; wymagania kwalifikacyjne. Instrukcję opracowuje i aktualizuje pracodawca.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="485" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Co zawiera instrukcja eksploatacji (§ 4 rozporządzenia BHP)</text>
+<circle cx="45" cy="67" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="72" class="male" text-anchor="middle" style="font-weight:bold">1</text>
+<text x="70" y="72" class="opis" text-anchor="start">charakterystyka urządzeń</text>
+<circle cx="45" cy="103" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="108" class="male" text-anchor="middle" style="font-weight:bold">2</text>
+<text x="70" y="108" class="opis" text-anchor="start">układy automatyki, pomiarów, sygnalizacji, zabezpieczeń, sterowania</text>
+<circle cx="45" cy="139" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="144" class="male" text-anchor="middle" style="font-weight:bold">3</text>
+<text x="70" y="144" class="opis" text-anchor="start">rysunki, schematy, wykresy — opisane po polsku</text>
+<circle cx="45" cy="175" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="180" class="male" text-anchor="middle" style="font-weight:bold">4</text>
+<text x="70" y="180" class="opis" text-anchor="start">uruchamianie, obsługa i zatrzymanie w warunkach normalnych</text>
+<circle cx="45" cy="211" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="216" class="male" text-anchor="middle" style="font-weight:bold">5</text>
+<text x="70" y="216" class="opis" text-anchor="start">postępowanie przy awariach i zakłóceniach</text>
+<circle cx="45" cy="247" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="252" class="male" text-anchor="middle" style="font-weight:bold">6</text>
+<text x="70" y="252" class="opis" text-anchor="start">wymagania eksploatacyjne, terminy oględzin, przeglądów, prób i pomiarów</text>
+<circle cx="45" cy="283" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="288" class="male" text-anchor="middle" style="font-weight:bold">7</text>
+<text x="70" y="288" class="opis" text-anchor="start">wymagania BHP i ochrony przeciwpożarowej</text>
+<circle cx="45" cy="319" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="324" class="male" text-anchor="middle" style="font-weight:bold">8</text>
+<text x="70" y="324" class="opis" text-anchor="start">zagrożenia dla życia, zdrowia i środowiska oraz ich usuwanie</text>
+<circle cx="45" cy="355" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="360" class="male" text-anchor="middle" style="font-weight:bold">9</text>
+<text x="70" y="360" class="opis" text-anchor="start">organizacja prac eksploatacyjnych</text>
+<circle cx="45" cy="391" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="396" class="male" text-anchor="middle" style="font-weight:bold">10</text>
+<text x="70" y="396" class="opis" text-anchor="start">środki ochrony: zbiorowej, indywidualnej, pomocy, łączności</text>
+<circle cx="45" cy="427" r="13" fill="#d6eaf8" stroke="#2e86c1"/>
+<text x="45" y="432" class="male" text-anchor="middle" style="font-weight:bold">11</text>
+<text x="70" y="432" class="opis" text-anchor="start">wymagania kwalifikacyjne dla obsługi</text>
+<text x="420" y="470" class="male" text-anchor="middle">Instrukcję opracowuje i aktualizuje pracodawca (właściciel urządzeń).</text>
+</svg>

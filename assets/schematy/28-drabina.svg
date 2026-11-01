@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 470" width="840" height="470" role="img" aria-labelledby="t d">
+  <title id="t">Drabina przy pracach elektrycznych</title>
+  <desc id="d">Drabina przystawna oparta o ścianę z podestem: kąt około 75 stopni, czyli odsunięcie podstawy o jedną część na cztery części wysokości, górny koniec wystaje około 0,75 m ponad podest. Zasady: drabina z materiału nieprzewodzącego przy pracach w pobliżu napięcia, sprawdzenie przed wejściem, trzy punkty podparcia, nie stawać na ostatnich szczeblach, praca na wysokości od 1 m według przepisów BHP, porażenie na drabinie grozi upadkiem.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="470" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Drabina przy pracach elektrycznych</text>
+<line x1="60" y1="420" x2="420" y2="420" stroke="#555" stroke-width="3"/>
+<line x1="340" y1="80" x2="340" y2="420" stroke="#555" stroke-width="3"/>
+<rect x="340" y="80" width="20" height="340" fill="#d5d8dc"/>
+<line x1="340" y1="140" x2="420" y2="140" stroke="#555" stroke-width="3"/>
+<line x1="229" y1="420" x2="309" y2="100" stroke="#8e44ad" stroke-width="4"/>
+<line x1="255" y1="420" x2="335" y2="100" stroke="#8e44ad" stroke-width="4"/>
+<line x1="235.66666666666666" y1="393.3333333333333" x2="261.66666666666663" y2="393.3333333333333" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="242.33333333333334" y1="366.6666666666667" x2="268.33333333333337" y2="366.6666666666667" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="249.0" y1="340.0" x2="275.0" y2="340.0" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="255.66666666666666" y1="313.33333333333337" x2="281.66666666666663" y2="313.33333333333337" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="262.3333333333333" y1="286.66666666666663" x2="288.3333333333333" y2="286.66666666666663" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="269.0" y1="260.0" x2="295.0" y2="260.0" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="275.6666666666667" y1="233.33333333333331" x2="301.6666666666667" y2="233.33333333333331" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="282.3333333333333" y1="206.66666666666669" x2="308.3333333333333" y2="206.66666666666669" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="289.0" y1="180.0" x2="315.0" y2="180.0" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="295.6666666666667" y1="153.33333333333331" x2="321.6666666666667" y2="153.33333333333331" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="302.3333333333333" y1="126.66666666666669" x2="328.3333333333333" y2="126.66666666666669" stroke="#8e44ad" stroke-width="2.5"/>
+<line x1="229" y1="440" x2="309" y2="440" stroke="#555" stroke-width="1.5"/><path d="M309.0 440.0 L300.7 443.5 L300.7 436.5 Z" fill="#555"/><path d="M229.0 440.0 L237.3 436.5 L237.3 443.5 Z" fill="#555"/>
+<text x="269" y="456" class="male" text-anchor="middle">1 część</text>
+<line x1="390" y1="420" x2="390" y2="140" stroke="#555" stroke-width="1.5"/><path d="M390.0 140.0 L393.5 148.3 L386.5 148.3 Z" fill="#555"/><path d="M390.0 420.0 L386.5 411.7 L393.5 411.7 Z" fill="#555"/>
+<text x="398" y="290" class="male" text-anchor="start">4 części</text>
+<text x="205" y="405" class="podt" text-anchor="middle">≈ 75°</text>
+<line x1="300" y1="100" x2="300" y2="140" stroke="#c0392b" stroke-width="1.5"/><path d="M300.0 140.0 L296.5 131.7 L303.5 131.7 Z" fill="#c0392b"/><path d="M300.0 100.0 L303.5 108.3 L296.5 108.3 Z" fill="#c0392b"/>
+<text x="250" y="116" class="male" text-anchor="end" style="fill:#c0392b;font-weight:bold">ok. 0,75 m</text>
+<text x="250" y="132" class="male" text-anchor="end" style="fill:#c0392b">ponad podest</text>
+<rect x="450" y="60" width="370" height="380" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="466" y="86" class="male" text-anchor="start">• Drabina z materiału nieprzewodzącego</text>
+<text x="466" y="107" class="male" text-anchor="start">  (włókno szklane, drewno) — nie aluminiowa</text>
+<text x="466" y="128" class="male" text-anchor="start">  przy pracach w pobliżu napięcia.</text>
+<text x="466" y="149" class="male" text-anchor="start">• Sprawdź przed wejściem: szczeble, stopki,</text>
+<text x="466" y="170" class="male" text-anchor="start">  rozpórka/łańcuch drabiny rozstawnej.</text>
+<text x="466" y="191" class="male" text-anchor="start">• Przystawna: kąt ok. 75° (1 : 4), wystaje</text>
+<text x="466" y="212" class="male" text-anchor="start">  ok. 0,75 m ponad podest, na którym się</text>
+<text x="466" y="233" class="male" text-anchor="start">  schodzi.</text>
+<text x="466" y="254" class="male" text-anchor="start">• Trzy punkty podparcia; nie stawaj na</text>
+<text x="466" y="275" class="male" text-anchor="start">  ostatnich szczeblach.</text>
+<text x="466" y="296" class="male" text-anchor="start">• Praca na wysokości od 1 m — wg BHP;</text>
+<text x="466" y="317" class="male" text-anchor="start">  w pracy zawodowej przy urządzeniach</text>
+<text x="466" y="338" class="male" text-anchor="start">  energetycznych to szczególne zagrożenie</text>
+<text x="466" y="359" class="male" text-anchor="start">  (praca na wysokości — polecenie, zespół).</text>
+<text x="466" y="380" class="male" text-anchor="start">• Porażenie na drabinie = upadek:</text>
+<text x="466" y="401" class="male" text-anchor="start">  dwa zagrożenia naraz.</text>
+</svg>

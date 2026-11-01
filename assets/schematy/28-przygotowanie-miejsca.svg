@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 535" width="840" height="535" role="img" aria-labelledby="t d">
+  <title id="t">Przygotowanie miejsca pracy</title>
+  <desc id="d">Dziewięć kroków w kolejności: wyłączenie wszystkich źródeł z widoczną przerwą; zabezpieczenie przed załączeniem kłódką, wyjęciem wkładek i tablicą; oznaczenie miejsc wyłączenia; sprawdzenie braku napięcia wskaźnikiem w miejscu pracy; uziemienie i zwarcie, gdy wymaga tego technologia, z uziemiaczem widocznym z miejsca pracy; oznaczenie strefy pracy i osłony; dopuszczenie z instruktażem i potwierdzeniem na piśmie; praca nadzorowana przez kierującego; zakończenie z usunięciem narzędzi i uziemień. Kroki 1–6 wykonuje dopuszczający, 7 z kierującym, 8–9 kierujący zespołem.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="535" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Od polecenia do zakończenia pracy — kolejność</text>
+<circle cx="50" cy="70" r="16" fill="#fdebd0" stroke="#555"/>
+<text x="50" y="76" class="podt" text-anchor="middle">1</text>
+<rect x="76" y="50" width="744" height="40" rx="6" fill="#fdebd0" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="76" class="podt" text-anchor="start">Wyłącz</text>
+<text x="330" y="76" class="male" text-anchor="start">wszystkie źródła; widoczna przerwa</text>
+<circle cx="50" cy="120" r="16" fill="#fdebd0" stroke="#555"/>
+<text x="50" y="126" class="podt" text-anchor="middle">2</text>
+<rect x="76" y="100" width="744" height="40" rx="6" fill="#fdebd0" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="126" class="podt" text-anchor="start">Zabezpiecz</text>
+<text x="330" y="126" class="male" text-anchor="start">kłódka, wyjęte wkładki, tablica „Nie załączać”</text>
+<circle cx="50" cy="170" r="16" fill="#fdebd0" stroke="#555"/>
+<text x="50" y="176" class="podt" text-anchor="middle">3</text>
+<rect x="76" y="150" width="744" height="40" rx="6" fill="#fdebd0" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="176" class="podt" text-anchor="start">Oznacz miejsca wyłączenia</text>
+<text x="330" y="176" class="male" text-anchor="start">każde miejsce, z którego może przyjść napięcie</text>
+<circle cx="50" cy="220" r="16" fill="#fdebd0" stroke="#555"/>
+<text x="50" y="226" class="podt" text-anchor="middle">4</text>
+<rect x="76" y="200" width="744" height="40" rx="6" fill="#fdebd0" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="226" class="podt" text-anchor="start">Sprawdź brak napięcia</text>
+<text x="330" y="226" class="male" text-anchor="start">wskaźnikiem, w miejscu pracy, na wszystkich żyłach</text>
+<circle cx="50" cy="270" r="16" fill="#fdebd0" stroke="#555"/>
+<text x="50" y="276" class="podt" text-anchor="middle">5</text>
+<rect x="76" y="250" width="744" height="40" rx="6" fill="#fdebd0" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="276" class="podt" text-anchor="start">Uziem i zewrzyj</text>
+<text x="330" y="276" class="male" text-anchor="start">gdy wymaga tego technologia; uziemiacz widoczny z miejsca pracy</text>
+<circle cx="50" cy="320" r="16" fill="#fdebd0" stroke="#555"/>
+<text x="50" y="326" class="podt" text-anchor="middle">6</text>
+<rect x="76" y="300" width="744" height="40" rx="6" fill="#fdebd0" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="326" class="podt" text-anchor="start">Oznacz strefę pracy</text>
+<text x="330" y="326" class="male" text-anchor="start">znaki, ogrodzenie, osłony części czynnych obok</text>
+<circle cx="50" cy="370" r="16" fill="#d6eaf8" stroke="#555"/>
+<text x="50" y="376" class="podt" text-anchor="middle">7</text>
+<rect x="76" y="350" width="744" height="40" rx="6" fill="#d6eaf8" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="376" class="podt" text-anchor="start">Dopuszczenie</text>
+<text x="330" y="376" class="male" text-anchor="start">sprawdzenie, wskazanie strefy, instruktaż, potwierdzenie na piśmie</text>
+<circle cx="50" cy="420" r="16" fill="#e9f7ef" stroke="#555"/>
+<text x="50" y="426" class="podt" text-anchor="middle">8</text>
+<rect x="76" y="400" width="744" height="40" rx="6" fill="#e9f7ef" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="426" class="podt" text-anchor="start">Praca</text>
+<text x="330" y="426" class="male" text-anchor="start">kierujący pilnuje; przerwa → sprawdzenie zabezpieczeń przed wznowieniem</text>
+<circle cx="50" cy="470" r="16" fill="#e8daef" stroke="#555"/>
+<text x="50" y="476" class="podt" text-anchor="middle">9</text>
+<rect x="76" y="450" width="744" height="40" rx="6" fill="#e8daef" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="90" y="476" class="podt" text-anchor="start">Zakończenie</text>
+<text x="330" y="476" class="male" text-anchor="start">narzędzia zabrane, ludzie wyprowadzeni, zdjęte uziemienia, informacja</text>
+<text x="30" y="520" class="male" text-anchor="start">Kroki 1–6 wykonuje dopuszczający (wg instrukcji eksploatacji); 7 — dopuszczający z kierującym; 8–9 — kierujący zespołem.</text>
+</svg>

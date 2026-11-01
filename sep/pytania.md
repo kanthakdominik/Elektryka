@@ -12,7 +12,7 @@ Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jes
 
 ## Bezpieczeństwo i BHP — (d)
 
-- [ ] ✅ Wymień pięć zasad bezpiecznej pracy przy urządzeniach elektrycznych w kolejności. → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep), [28](../modules/28-bhp-przy-urzadzeniach/README.md)
+- [ ] ✅ Wymień pięć zasad bezpiecznej pracy przy urządzeniach elektrycznych w kolejności. → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep), [28.03](../modules/28-bhp-przy-urzadzeniach/28.03-przygotowanie-miejsca-pracy-i-dopuszczenie-do.md#pytania-sep)
 - [ ] ✅ Na czym polega zabezpieczenie przed ponownym załączeniem? → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep)
 - [ ] ✅ Kiedy w instalacji nN zakłada się uziemienie i zwarcie? → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep)
 - [ ] ✅ Dlaczego po wyłączeniu wyłącznika głównego rozdzielnica nie jest w całości bez napięcia? → [00.01](../modules/00-bezpieczenstwo-najpierw/00.01-piec-zasad-bezpiecznej-pracy-przy-urzadzeniach.md#pytania-sep)
@@ -22,9 +22,18 @@ Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jes
 - [ ] ✅ Dlaczego wkrętak z neonówką nie nadaje się do sprawdzania braku napięcia? → [00.02](../modules/00-bezpieczenstwo-najpierw/00.02-sprawdzanie-braku-napiecia-probnik-dwubiegunowy.md#pytania-sep)
 - [ ] ✅ Między którymi przewodami sprawdza się brak napięcia w obwodzie trójfazowym? → [00.02](../modules/00-bezpieczenstwo-najpierw/00.02-sprawdzanie-braku-napiecia-probnik-dwubiegunowy.md#pytania-sep)
 - [ ] ✅ Co to jest napięcie indukowane na odłączonym przewodzie? → [00.02](../modules/00-bezpieczenstwo-najpierw/00.02-sprawdzanie-braku-napiecia-probnik-dwubiegunowy.md#pytania-sep)
-- [ ] Co to jest polecenie na wykonanie pracy i kiedy jest wymagane na piśmie? → [28](../modules/28-bhp-przy-urzadzeniach/README.md)
-- [ ] Jakie prace zalicza się do prac w warunkach szczególnego zagrożenia? → [28](../modules/28-bhp-przy-urzadzeniach/README.md)
-- [ ] Jaki sprzęt ochronny stosuje się przy pracach przy urządzeniach elektrycznych i jak się go sprawdza? → [28](../modules/28-bhp-przy-urzadzeniach/README.md)
+- [ ] ✅ Co to jest polecenie pisemne i co powinno zawierać? → [28.01](../modules/28-bhp-przy-urzadzeniach/28.01-organizacja-pracy-i-polecenia.md#pytania-sep)
+- [ ] ✅ Jakie funkcje wyróżnia się przy organizacji pracy na polecenie i jakie są wymagania kwalifikacyjne? → [28.01](../modules/28-bhp-przy-urzadzeniach/28.01-organizacja-pracy-i-polecenia.md#pytania-sep)
+- [ ] ✅ Kiedy można wykonywać pracę bez polecenia pisemnego? → [28.01](../modules/28-bhp-przy-urzadzeniach/28.01-organizacja-pracy-i-polecenia.md#pytania-sep)
+- [ ] ✅ Jakie prace przy urządzeniach elektroenergetycznych zalicza się do prac w warunkach szczególnego zagrożenia? → [28.02](../modules/28-bhp-przy-urzadzeniach/28.02-prace-w-warunkach-szczegolnego-zagrozenia.md#pytania-sep)
+- [ ] ✅ Dlaczego prace w warunkach szczególnego zagrożenia wykonuje zespół, a nie jedna osoba? → [28.02](../modules/28-bhp-przy-urzadzeniach/28.02-prace-w-warunkach-szczegolnego-zagrozenia.md#pytania-sep)
+- [ ] ✅ Jakie czynności należy wykonać przed przystąpieniem do pracy przy urządzeniu wyłączonym spod napięcia? → [28.03](../modules/28-bhp-przy-urzadzeniach/28.03-przygotowanie-miejsca-pracy-i-dopuszczenie-do.md#pytania-sep)
+- [ ] ✅ Na czym polega dopuszczenie do pracy? → [28.03](../modules/28-bhp-przy-urzadzeniach/28.03-przygotowanie-miejsca-pracy-i-dopuszczenie-do.md#pytania-sep)
+- [ ] ✅ Jak dzieli się sprzęt ochronny stosowany przy pracach przy urządzeniach elektroenergetycznych? → [28.04](../modules/28-bhp-przy-urzadzeniach/28.04-sprzet-ochronny-izolacyjny-i-ochrony-osobistej.md#pytania-sep)
+- [ ] ✅ Co należy sprawdzić przed użyciem sprzętu ochronnego elektroizolacyjnego? → [28.04](../modules/28-bhp-przy-urzadzeniach/28.04-sprzet-ochronny-izolacyjny-i-ochrony-osobistej.md#pytania-sep)
+- [ ] ✅ Jakie są rodzaje prac ze względu na napięcie i czym się różnią? → [28.05](../modules/28-bhp-przy-urzadzeniach/28.05-prace-pod-napieciem-dlaczego-nie.md#pytania-sep)
+- [ ] ✅ Jak bezpiecznie wymienić wkładkę bezpiecznikową w urządzeniu pod napięciem? → [28.05](../modules/28-bhp-przy-urzadzeniach/28.05-prace-pod-napieciem-dlaczego-nie.md#pytania-sep)
+- [ ] ✅ Jakie zasady obowiązują przy pracy na drabinie przy urządzeniach elektrycznych? → [28.06](../modules/28-bhp-przy-urzadzeniach/28.06-narzedzia-drabiny-i-praca-na-wysokosci.md#pytania-sep)
 
 ## Podstawy elektrotechniki — (a)
 
@@ -309,6 +318,10 @@ Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jes
 - [ ] ✅ Dlaczego w obwodzie ładowania samochodu nie wystarcza zwykły wyłącznik różnicowoprądowy typu A? → [26.05](../modules/26-fotowoltaika-pompy-wallboxy/26.05-wallbox-i-ladowanie-samochodu.md#pytania-sep)
 - [ ] ✅ O czym należy pamiętać, wykonując prace w instalacji z magazynem energii i funkcją zasilania rezerwowego? → [26.06](../modules/26-fotowoltaika-pompy-wallboxy/26.06-magazyn-energii.md#pytania-sep)
 - [ ] ✅ Jakie warunki musi spełniać zasilanie rezerwowe z magazynu energii, aby było bezpieczne? → [26.06](../modules/26-fotowoltaika-pompy-wallboxy/26.06-magazyn-energii.md#pytania-sep)
+- [ ] ✅ Na co należy zwrócić uwagę przy montażu modułów sterujących w puszkach instalacyjnych? → [27.01](../modules/27-inteligentny-dom/27.01-moduly-bezprzewodowe-w-puszce-bezpieczny-montaz.md#pytania-sep)
+- [ ] ✅ Dlaczego nie wolno wykorzystywać przewodu ochronnego PE jako przewodu neutralnego do zasilania urządzeń? → [27.02](../modules/27-inteligentny-dom/27.02-przewod-neutralny-w-puszce-lacznika.md#pytania-sep)
+- [ ] ✅ Jak należy prowadzić obwody bardzo niskiego napięcia (SELV) systemów automatyki względem obwodów 230 V? → [27.03](../modules/27-inteligentny-dom/27.03-systemy-przewodowe-knx-modbus-przeglad.md#pytania-sep)
+- [ ] ✅ Jakie zasady należy zachować przy montażu w rozdzielnicy aparatów obwodów 230 V i obwodów bardzo niskiego napięcia? → [27.04](../modules/27-inteligentny-dom/27.04-automatyka-w-rozdzielnicy.md#pytania-sep)
 
 ## Pomiary — (b), (c)
 
@@ -343,13 +356,18 @@ Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jes
 
 ## Eksploatacja — (b), (c)
 
-- [ ] ✅ Co obejmuje eksploatacja urządzeń? Wymień rodzaje prac. → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep), [29](../modules/29-eksploatacja/README.md)
-- [ ] Co powinna zawierać instrukcja eksploatacji? → [29](../modules/29-eksploatacja/README.md)
-- [ ] Czym różnią się oględziny od przeglądu? → [29](../modules/29-eksploatacja/README.md)
+- [ ] ✅ Co obejmuje eksploatacja urządzeń? Wymień rodzaje prac. → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep), [29.01](../modules/29-eksploatacja/29.01-rodzaje-prac-eksploatacyjnych.md#pytania-sep)
 - [ ] ✅ Kiedy świadectwo kwalifikacyjne nie jest wymagane? → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep)
 - [ ] ✅ Na jaki okres wydaje się świadectwo kwalifikacyjne? → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep)
 - [ ] ✅ Jak często bada się instalację w budynku i kto może to robić? → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep)
 - [ ] ✅ Kiedy instalację trzeba poddać sprawdzeniu odbiorczemu? → [00.03](../modules/00-bezpieczenstwo-najpierw/00.03-co-wolno-zrobic-samemu-a-co-wymaga-uprawnien-i.md#pytania-sep)
+- [ ] ✅ Co obejmuje eksploatacja urządzeń, instalacji i sieci? → [29.01](../modules/29-eksploatacja/29.01-rodzaje-prac-eksploatacyjnych.md#pytania-sep)
+- [ ] ✅ Czym różni się stanowisko eksploatacji od stanowiska dozoru? → [29.01](../modules/29-eksploatacja/29.01-rodzaje-prac-eksploatacyjnych.md#pytania-sep)
+- [ ] ✅ Co powinna zawierać instrukcja eksploatacji urządzeń? → [29.02](../modules/29-eksploatacja/29.02-instrukcja-eksploatacji.md#pytania-sep)
+- [ ] ✅ Jakie dokumenty składają się na dokumentację techniczną i eksploatacyjną urządzeń elektrycznych? → [29.03](../modules/29-eksploatacja/29.03-dokumentacja-techniczna-i-eksploatacyjna.md#pytania-sep)
+- [ ] ✅ Czym różnią się oględziny od przeglądu urządzeń elektrycznych? → [29.04](../modules/29-eksploatacja/29.04-ogledziny-przeglady-i-konserwacja.md#pytania-sep)
+- [ ] ✅ Co obejmuje kontrola okresowa instalacji elektrycznej budynku wymagana przez Prawo budowlane? → [29.04](../modules/29-eksploatacja/29.04-ogledziny-przeglady-i-konserwacja.md#pytania-sep)
+- [ ] ✅ Jakie warunki muszą być spełnione, aby przyjąć urządzenie lub instalację do eksploatacji? → [29.05](../modules/29-eksploatacja/29.05-przyjmowanie-urzadzen-do-eksploatacji.md#pytania-sep)
 
 ## Awaria, pożar, pierwsza pomoc — (d), (e)
 

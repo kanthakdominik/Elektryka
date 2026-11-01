@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 545" width="840" height="545" role="img" aria-labelledby="t d">
+  <title id="t">Magistrale KNX, Modbus i DALI</title>
+  <desc id="d">Trzy systemy. KNX: zasilacz 30 V z dławikiem zasila dwużyłową magistralę, do której dołączone są aktory, przyciski, czujniki i termostat; przewód YCYM 2×2×0,8, topologia liniowa, drzewiasta lub gwiazdowa, SELV. Modbus RTU na RS-485: sterownik nadrzędny i urządzenia (licznik, falownik, pompa) połączone łańcuchowo parą skręconą A/B z masą, z terminatorami 120 Ω na obu końcach. DALI: dwie żyły, do 64 opraw, zasilacz około 16 V, izolacja podstawowa — może biec w jednym przewodzie z 230 V. Magistrale SELV prowadzi się oddzielnie od 230 V lub z izolacją na najwyższe napięcie.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="545" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Systemy przewodowe: KNX, Modbus RTU, DALI</text>
+<rect x="20" y="50" width="800" height="150" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="36" y="74" class="podt" text-anchor="start">KNX TP — magistrala budynku</text>
+<rect x="40" y="100" width="100" height="46" rx="8" fill="#ffffff" stroke="#27ae60" stroke-width="1.4"/>
+<text x="90.0" y="123.0" class="podt" text-anchor="middle">zasilacz</text>
+<text x="90.0" y="143.0" class="male" text-anchor="middle">30 V + dławik</text>
+<line x1="140" y1="123" x2="760" y2="123" stroke="#1e8449" stroke-width="3"/>
+<line x1="140" y1="129" x2="760" y2="129" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="230" y1="129" x2="230" y2="150" stroke="#555" stroke-width="2"/>
+<rect x="190" y="150" width="80" height="32" rx="4" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="230" y="171" class="male" text-anchor="middle">aktor</text>
+<line x1="345" y1="129" x2="345" y2="150" stroke="#555" stroke-width="2"/>
+<rect x="305" y="150" width="80" height="32" rx="4" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="345" y="171" class="male" text-anchor="middle">przycisk</text>
+<line x1="460" y1="129" x2="460" y2="150" stroke="#555" stroke-width="2"/>
+<rect x="420" y="150" width="80" height="32" rx="4" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="460" y="171" class="male" text-anchor="middle">czujnik</text>
+<line x1="575" y1="129" x2="575" y2="150" stroke="#555" stroke-width="2"/>
+<rect x="535" y="150" width="80" height="32" rx="4" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="575" y="171" class="male" text-anchor="middle">termostat</text>
+<line x1="690" y1="129" x2="690" y2="150" stroke="#555" stroke-width="2"/>
+<rect x="650" y="150" width="80" height="32" rx="4" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="690" y="171" class="male" text-anchor="middle">aktor</text>
+<text x="560" y="74" class="male" text-anchor="middle">2 żyły: dane + zasilanie urządzeń; SELV 30 V DC</text>
+<text x="560" y="94" class="male" text-anchor="middle">przewód np. YCYM 2×2×0,8 (zielony); linia, drzewo, gwiazda</text>
+<rect x="20" y="210" width="800" height="140" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="36" y="234" class="podt" text-anchor="start">Modbus RTU (RS-485) — liczniki, falowniki, pompy ciepła</text>
+<rect x="40" y="260" width="110" height="46" rx="8" fill="#ffffff" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="95.0" y="283.0" class="podt" text-anchor="middle">master</text>
+<text x="95.0" y="303.0" class="male" text-anchor="middle">sterownik</text>
+<line x1="150" y1="276" x2="740" y2="276" stroke="#2e86c1" stroke-width="3"/>
+<line x1="150" y1="290" x2="740" y2="290" stroke="#85c1e9" stroke-width="3"/>
+<text x="170" y="270" class="male" text-anchor="start">A / B (para skręcona) + GND</text>
+<line x1="325" y1="290" x2="325" y2="310" stroke="#555" stroke-width="2"/>
+<rect x="280" y="310" width="90" height="30" rx="4" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="325" y="330" class="male" text-anchor="middle">licznik</text>
+<line x1="465" y1="290" x2="465" y2="310" stroke="#555" stroke-width="2"/>
+<rect x="420" y="310" width="90" height="30" rx="4" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="465" y="330" class="male" text-anchor="middle">falownik</text>
+<line x1="605" y1="290" x2="605" y2="310" stroke="#555" stroke-width="2"/>
+<rect x="560" y="310" width="90" height="30" rx="4" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="605" y="330" class="male" text-anchor="middle">pompa</text>
+<rect x="155" y="270" width="10" height="26" fill="#f5b041" stroke="#555"/>
+<rect x="735" y="270" width="10" height="26" fill="#f5b041" stroke="#555"/>
+<text x="760" y="288" class="male" text-anchor="start" style="font-weight:bold">120 Ω</text>
+<text x="560" y="256" class="male" text-anchor="middle">łańcuch (bez odgałęzień), terminatory 120 Ω na końcach</text>
+<rect x="20" y="360" width="800" height="110" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="36" y="384" class="podt" text-anchor="start">DALI — sterowanie oświetleniem</text>
+<text x="36" y="408" class="male" text-anchor="start">• 2 żyły DA+ / DA−, do 64 opraw na linię; zasilacz magistrali ok. 16 V DC.</text>
+<text x="36" y="430" class="male" text-anchor="start">• Izolacja podstawowa (to nie SELV) — dozwolone żyły DALI w jednym przewodzie z 230 V (np. 5×1,5).</text>
+<text x="36" y="452" class="male" text-anchor="start">• Przy pracach traktuj żyły DALI jak będące pod napięciem względem 230 V.</text>
+<rect x="20" y="480" width="800" height="50" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="40" y="502" class="male" text-anchor="start">Magistrale SELV (KNX, RS-485) prowadź oddzielnie od 230 V albo przewodem z izolacją na najwyższe napięcie;</text>
+<text x="40" y="520" class="male" text-anchor="start">w puszkach i rozdzielnicach — przegrody lub odstęp, zgodnie z instrukcją systemu.</text>
+</svg>

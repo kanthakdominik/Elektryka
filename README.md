@@ -116,14 +116,14 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 | 24 | [Silniki i napędy](modules/24-silniki-i-napedy/README.md) | 📋 | 8 | ✅ pełny |
 | 25 | [Transformatory, zasilacze, UPS i agregaty](modules/25-transformatory-ups-agregaty/README.md) | 🏠📋 | 5 | ✅ pełny |
 | 26 | [Fotowoltaika, pompy ciepła, wallboxy i magazyny energii](modules/26-fotowoltaika-pompy-wallboxy/README.md) | 🏠📋 | 6 | ✅ pełny |
-| 27 | [Inteligentny dom](modules/27-inteligentny-dom/README.md) | 🏠 | 4 | 🔲 szkielet |
+| 27 | [Inteligentny dom](modules/27-inteligentny-dom/README.md) | 🏠 | 4 | ✅ pełny |
 
 ### VII. BHP, eksploatacja i egzamin
 
 | # | Moduł | Oznaczenia | Tematów | Status |
 |---|-------|------------|---------|--------|
-| 28 | [BHP przy urządzeniach elektrycznych](modules/28-bhp-przy-urzadzeniach/README.md) | 📋 | 6 | 🔲 szkielet |
-| 29 | [Eksploatacja urządzeń i instalacji](modules/29-eksploatacja/README.md) | 📋 | 5 | 🔲 szkielet |
+| 28 | [BHP przy urządzeniach elektrycznych](modules/28-bhp-przy-urzadzeniach/README.md) | 📋 | 6 | ✅ pełny |
+| 29 | [Eksploatacja urządzeń i instalacji](modules/29-eksploatacja/README.md) | 📋 | 5 | ✅ pełny |
 | 30 | [Pożar i awaria](modules/30-pozar-i-awaria/README.md) | 📋 | 5 | 🔲 szkielet |
 | 31 | [Pierwsza pomoc przy porażeniu](modules/31-pierwsza-pomoc/README.md) | 📋 | 5 | 🔲 szkielet |
 | 32 | [Przepisy i normy](modules/32-przepisy-i-normy/README.md) | 📋 | 6 | 🔲 szkielet |

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 575" width="840" height="575" role="img" aria-labelledby="t d">
+  <title id="t">Rozdzielnica z automatyką</title>
+  <desc id="d">Widok rozdzielnicy w czterech rzędach: zasilanie i obwody 230 V (rozłącznik, ogranicznik przepięć, RCD, wyłączniki), przekaźniki i aktory 230 V, przerywana czerwona linia oznaczająca przegrodę lub odstęp między częścią 230 V a SELV, poniżej zasilacze 24 V i KNX, sterownik i moduł wejść/wyjść, na dole listwy i rezerwa. Zalecenia: opis aparatów, schemat w drzwiach, zasilacze SELV, sterownik z osobnego obwodu, co najmniej 20 procent rezerwy, uwaga na ciepło, przewody SELV osobnymi korytkami.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="575" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Rozdzielnica z automatyką — porządek i separacja</text>
+<rect x="30" y="50" width="520" height="420" rx="10" fill="#f4f6f7" stroke="#555" stroke-width="1.4"/>
+<line x1="50" y1="100" x2="530" y2="100" stroke="#bbb" stroke-width="6"/>
+<rect x="60" y="70" width="70" height="60" rx="3" fill="#ffffff" stroke="#555"/>
+<text x="95.0" y="105" class="male" text-anchor="middle">FR</text>
+<rect x="136" y="70" width="70" height="60" rx="3" fill="#ffffff" stroke="#555"/>
+<text x="171.0" y="105" class="male" text-anchor="middle">SPD</text>
+<rect x="212" y="70" width="70" height="60" rx="3" fill="#ffffff" stroke="#555"/>
+<text x="247.0" y="105" class="male" text-anchor="middle">RCD</text>
+<rect x="288" y="70" width="40" height="60" rx="3" fill="#ffffff" stroke="#555"/>
+<text x="308.0" y="105" class="male" text-anchor="middle">B16</text>
+<rect x="334" y="70" width="40" height="60" rx="3" fill="#ffffff" stroke="#555"/>
+<text x="354.0" y="105" class="male" text-anchor="middle">B16</text>
+<rect x="380" y="70" width="40" height="60" rx="3" fill="#ffffff" stroke="#555"/>
+<text x="400.0" y="105" class="male" text-anchor="middle">B10</text>
+<rect x="426" y="70" width="40" height="60" rx="3" fill="#ffffff" stroke="#555"/>
+<text x="446.0" y="105" class="male" text-anchor="middle">B6</text>
+<text x="560" y="105" class="male" text-anchor="start">← zasilanie i obwody 230 V</text>
+<line x1="50" y1="190" x2="530" y2="190" stroke="#bbb" stroke-width="6"/>
+<rect x="60" y="160" width="55" height="60" rx="3" fill="#eaf2f8" stroke="#555"/>
+<text x="87.5" y="195" class="male" text-anchor="middle">K1</text>
+<rect x="121" y="160" width="55" height="60" rx="3" fill="#eaf2f8" stroke="#555"/>
+<text x="148.5" y="195" class="male" text-anchor="middle">K2</text>
+<rect x="182" y="160" width="55" height="60" rx="3" fill="#eaf2f8" stroke="#555"/>
+<text x="209.5" y="195" class="male" text-anchor="middle">K3</text>
+<rect x="243" y="160" width="55" height="60" rx="3" fill="#eaf2f8" stroke="#555"/>
+<text x="270.5" y="195" class="male" text-anchor="middle">K4</text>
+<rect x="304" y="160" width="100" height="60" rx="3" fill="#eaf2f8" stroke="#555"/>
+<text x="354.0" y="195" class="male" text-anchor="middle">aktor 8×</text>
+<rect x="410" y="160" width="70" height="60" rx="3" fill="#eaf2f8" stroke="#555"/>
+<text x="445.0" y="195" class="male" text-anchor="middle">ściem.</text>
+<text x="560" y="195" class="male" text-anchor="start">← przekaźniki / aktory 230 V</text>
+<line x1="40" y1="250" x2="540" y2="250" stroke="#c0392b" stroke-width="3" stroke-dasharray="10 6"/>
+<text x="290" y="245" class="male" text-anchor="middle" style="fill:#c0392b;font-weight:bold">przegroda / odstęp: 230 V | SELV</text>
+<line x1="50" y1="300" x2="530" y2="300" stroke="#bbb" stroke-width="6"/>
+<rect x="60" y="270" width="80" height="60" rx="3" fill="#e9f7ef" stroke="#555"/>
+<text x="100.0" y="305" class="male" text-anchor="middle">zasil. 24 V</text>
+<rect x="146" y="270" width="80" height="60" rx="3" fill="#e9f7ef" stroke="#555"/>
+<text x="186.0" y="305" class="male" text-anchor="middle">zasil. KNX</text>
+<rect x="232" y="270" width="120" height="60" rx="3" fill="#e9f7ef" stroke="#555"/>
+<text x="292.0" y="305" class="male" text-anchor="middle">sterownik</text>
+<rect x="358" y="270" width="90" height="60" rx="3" fill="#e9f7ef" stroke="#555"/>
+<text x="403.0" y="305" class="male" text-anchor="middle">moduł I/O</text>
+<text x="560" y="305" class="male" text-anchor="start">← obwody SELV</text>
+<line x1="50" y1="400" x2="530" y2="400" stroke="#bbb" stroke-width="6"/>
+<rect x="60" y="370" width="130" height="60" rx="3" fill="#fdfefe" stroke="#555"/>
+<text x="125.0" y="405" class="male" text-anchor="middle">listwy SELV</text>
+<rect x="196" y="370" width="140" height="60" rx="3" fill="#fdfefe" stroke="#555"/>
+<text x="266.0" y="405" class="male" text-anchor="middle">listwy N / PE</text>
+<rect x="342" y="370" width="110" height="60" rx="3" fill="#fdfefe" stroke="#555"/>
+<text x="397.0" y="405" class="male" text-anchor="middle">rezerwa</text>
+<text x="560" y="405" class="male" text-anchor="start">← listwy i zapas miejsca</text>
+<rect x="30" y="485" width="790" height="75" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="46" y="508" class="male" text-anchor="start">• Opis każdego aparatu i żyły, schemat w drzwiach; zasilacze z izolacją SELV; sterownik z osobnego obwodu (np. B6).</text>
+<text x="46" y="532" class="male" text-anchor="start">• Min. ok. 20 % rezerwy miejsca; ciepło — zasilacze i ściemniacze się grzeją; przewody SELV osobnymi korytkami.</text>
+</svg>

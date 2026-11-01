@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 410" width="840" height="410" role="img" aria-labelledby="t d">
+  <title id="t">Dokumentacja techniczna i eksploatacyjna</title>
+  <desc id="d">Dwie kolumny. Dokumentacja techniczna: projekt i dokumentacja powykonawcza, dokumentacja techniczno-ruchowa i instrukcje producentów, deklaracje zgodności, protokoły odbiorcze, schemat rozdzielnicy. Dokumentacja eksploatacyjna: instrukcja eksploatacji, zapisy oględzin, przeglądów i napraw, protokoły pomiarów okresowych, polecenia i dopuszczenia, rejestr upoważnionych, ewidencja sprzętu ochronnego, książka obiektu budowlanego. Zasada: każda zmiana wymaga aktualizacji schematów; dokumentację przechowuje właściciel przez cały okres eksploatacji.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="410" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Dokumentacja urządzenia: techniczna i eksploatacyjna</text>
+<rect x="20" y="50" width="395" height="280" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="217" y="76" class="podt" text-anchor="middle">Techniczna (jak zbudowano)</text>
+<text x="36" y="104" class="male" text-anchor="start">• projekt i dokumentacja powykonawcza</text>
+<text x="36" y="130" class="male" text-anchor="start">  (schematy, trasy przewodów, zmiany),</text>
+<text x="36" y="156" class="male" text-anchor="start">• dokumentacja techniczno-ruchowa (DTR)</text>
+<text x="36" y="182" class="male" text-anchor="start">  i instrukcje producentów,</text>
+<text x="36" y="208" class="male" text-anchor="start">• deklaracje zgodności, karty katalogowe,</text>
+<text x="36" y="234" class="male" text-anchor="start">• protokoły odbiorcze i pomiary</text>
+<text x="36" y="260" class="male" text-anchor="start">  przy przyjęciu,</text>
+<text x="36" y="286" class="male" text-anchor="start">• schemat rozdzielnicy i opis obwodów.</text>
+<rect x="425" y="50" width="395" height="280" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="622" y="76" class="podt" text-anchor="middle">Eksploatacyjna (co się dzieje)</text>
+<text x="441" y="104" class="male" text-anchor="start">• instrukcja eksploatacji,</text>
+<text x="441" y="130" class="male" text-anchor="start">• zapisy oględzin, przeglądów, napraw</text>
+<text x="441" y="156" class="male" text-anchor="start">  (książka / dziennik / system),</text>
+<text x="441" y="182" class="male" text-anchor="start">• protokoły pomiarów okresowych,</text>
+<text x="441" y="208" class="male" text-anchor="start">• polecenia i dopuszczenia do pracy,</text>
+<text x="441" y="234" class="male" text-anchor="start">• rejestr upoważnionych osób,</text>
+<text x="441" y="260" class="male" text-anchor="start">• ewidencja sprzętu ochronnego,</text>
+<text x="441" y="286" class="male" text-anchor="start">• w budynku: książka obiektu</text>
+<text x="441" y="312" class="male" text-anchor="start">  budowlanego (wpisy kontroli).</text>
+<rect x="20" y="340" width="800" height="55" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="420" y="363" class="male" text-anchor="middle">Zasada: każda zmiana w instalacji → aktualizacja schematów i opisów. Nieaktualny schemat jest groźniejszy niż żaden.</text>
+<text x="420" y="383" class="male" text-anchor="middle">Dokumentację przechowuje właściciel / zarządca przez cały okres eksploatacji.</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 430" width="840" height="430" role="img" aria-labelledby="t d">
+  <title id="t">Moduł przekaźnikowy w puszce</title>
+  <desc id="d">Okrągła puszka podtynkowa, w niej moduł przekaźnikowy z zaciskami L, N, SW i O. Fazę L doprowadza się do zacisku L modułu i do łącznika, drugi zacisk łącznika łączy się z wejściem SW, wyjście O idzie do lampy, N i PE przechodzą do lampy. Uwagi: potrzebny przewód neutralny, obciążalność styku dla LED mniejsza niż dla grzałki, moduł się grzeje, linka w tulejce, obwód chroniony wyłącznikiem i RCD, przewody łącznika są pod napięciem 230 V.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="430" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Moduł przekaźnikowy w puszce za łącznikiem</text>
+<circle cx="230" cy="230" r="150" fill="#f4f6f7" stroke="#7f8c8d" stroke-width="3"/>
+<text x="230" y="400" class="male" text-anchor="middle">puszka głęboka (np. 60 mm) — moduł + przewody + łącznik</text>
+<rect x="170" y="150" width="120" height="110" rx="6" fill="#ffffff" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="230" y="172" class="podt" text-anchor="middle">moduł</text>
+<text x="230" y="190" class="male" text-anchor="middle">Wi-Fi / Zigbee</text>
+<text x="182" y="194" class="male" text-anchor="start" style="font-weight:bold">L</text>
+<text x="182" y="216" class="male" text-anchor="start" style="font-weight:bold">N</text>
+<text x="182" y="238" class="male" text-anchor="start" style="font-weight:bold">SW</text>
+<text x="278" y="238" class="male" text-anchor="end" style="font-weight:bold">O</text>
+<line x1="40" y1="190" x2="175" y2="190" stroke="#8b4513" stroke-width="3"/>
+<text x="36" y="194" class="male" text-anchor="end" style="fill:#8b4513">L</text>
+<line x1="40" y1="212" x2="175" y2="212" stroke="#1f5fbf" stroke-width="3"/>
+<text x="36" y="216" class="male" text-anchor="end" style="fill:#1f5fbf">N</text>
+<line x1="40" y1="300" x2="420" y2="300" stroke="#2e9e3e" stroke-width="3"/>
+<line x1="40" y1="300" x2="420" y2="300" stroke="#f1c40f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="36" y="304" class="male" text-anchor="end">PE</text>
+<rect x="120" y="320" width="60" height="40" rx="4" fill="#fdfefe" stroke="#555" stroke-width="1.4"/>
+<text x="150" y="345" class="male" text-anchor="middle">łącznik</text>
+<path d="M110 190 L110 340 L120 340" fill="none" stroke="#8b4513" stroke-width="2.5"/>
+<path d="M180 340 L195 340 L195 234 L175 234" fill="none" stroke="#e67e22" stroke-width="2.5"/>
+<text x="200" y="300" class="male" text-anchor="start"></text>
+<path d="M285 234 L420 234" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<path d="M110 212 L110 212" />
+<line x1="150" y1="212" x2="150" y2="270" stroke="#1f5fbf" stroke-width="2.5"/>
+<line x1="150" y1="270" x2="420" y2="270" stroke="#1f5fbf" stroke-width="3"/>
+<text x="425" y="238" class="male" text-anchor="start">→ lampa (L′)</text>
+<text x="425" y="274" class="male" text-anchor="start">→ lampa (N)</text>
+<text x="425" y="304" class="male" text-anchor="start">→ lampa (PE)</text>
+<rect x="560" y="60" width="260" height="360" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="575" y="86" class="male" text-anchor="start">Zanim zamontujesz:</text>
+<text x="575" y="108" class="male" text-anchor="start">• potrzebny N (większość</text>
+<text x="575" y="130" class="male" text-anchor="start">  modułów), patrz 27.02,</text>
+<text x="575" y="152" class="male" text-anchor="start">• obciążalność styku — dla LED</text>
+<text x="575" y="174" class="male" text-anchor="start">  zwykle dużo mniejsza niż</text>
+<text x="575" y="196" class="male" text-anchor="start">  dla grzałki (prąd załączania),</text>
+<text x="575" y="218" class="male" text-anchor="start">• moduł się grzeje — nie upychaj</text>
+<text x="575" y="240" class="male" text-anchor="start">  go z kilkunastoma przewodami,</text>
+<text x="575" y="262" class="male" text-anchor="start">• zaciski: linka w tulejce,</text>
+<text x="575" y="284" class="male" text-anchor="start">  przekrój wg instrukcji,</text>
+<text x="575" y="306" class="male" text-anchor="start">• obwód chroniony jak dotąd:</text>
+<text x="575" y="328" class="male" text-anchor="start">  wyłącznik + RCD,</text>
+<text x="575" y="350" class="male" text-anchor="start">• SW to wejście 230 V —</text>
+<text x="575" y="372" class="male" text-anchor="start">  przewody łącznika są pod</text>
+<text x="575" y="394" class="male" text-anchor="start">  napięciem, nie SELV!</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 495" width="840" height="495" role="img" aria-labelledby="t d">
+  <title id="t">Strefy prac pod napięciem i w pobliżu</title>
+  <desc id="d">Trzy koncentryczne strefy wokół nieosłoniętej części czynnej: najbliżej strefa prac pod napięciem do odległości DL, dalej strefa prac w pobliżu napięcia do odległości DV, dalej obszar poza strefami. Tabela odstępów minimalnych: do 1 kV — DL bez dotyku, DV 300 mm; 110 kV — 1000 i 2000 mm; 400 kV — 2500 i 4000 mm. Żadna część ciała ani narzędzia nie może przekroczyć odstępu minimalnego; prace pod napięciem i w pobliżu nieosłoniętych części to prace w warunkach szczególnego zagrożenia.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="495" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Strefy wokół nieosłoniętej części pod napięciem</text>
+<circle cx="230" cy="225" r="170" fill="#fef9e7" stroke="#f4d03f" stroke-width="2"/>
+<circle cx="230" cy="225" r="105" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+<circle cx="230" cy="225" r="45" fill="#f5b7b1" stroke="#c0392b" stroke-width="2"/>
+<circle cx="230" cy="225" r="9" fill="#c0392b"/>
+<line x1="230" y1="225" x2="275" y2="225" stroke="#555" stroke-width="1.5"/><path d="M275.0 225.0 L266.7 228.5 L266.7 221.5 Z" fill="#555"/>
+<text x="280" y="230" class="male" text-anchor="start" style="font-weight:bold">DL</text>
+<line x1="230" y1="225" x2="156" y2="299" stroke="#555" stroke-width="1.5"/><path d="M156.0 299.0 L159.4 290.7 L164.3 295.6 Z" fill="#555"/>
+<text x="138" y="323" class="male" text-anchor="start" style="font-weight:bold">DV</text>
+<rect x="40" y="401" width="14" height="14" fill="#c0392b" stroke="#555"/>
+<text x="62" y="413" class="male" text-anchor="start">część czynna (nieosłonięta)</text>
+<rect x="40" y="421" width="14" height="14" fill="#f5b7b1" stroke="#555"/>
+<text x="62" y="433" class="male" text-anchor="start">strefa prac pod napięciem (do DL)</text>
+<rect x="40" y="441" width="14" height="14" fill="#fdebd0" stroke="#555"/>
+<text x="62" y="453" class="male" text-anchor="start">strefa prac w pobliżu napięcia (DL–DV)</text>
+<rect x="40" y="461" width="14" height="14" fill="#fef9e7" stroke="#555"/>
+<text x="62" y="473" class="male" text-anchor="start">poza strefami (dalej niż DV)</text>
+<rect x="450" y="68" width="370" height="32" fill="#eaecee"/>
+<text x="460" y="90" class="male" text-anchor="start" style="font-weight:bold">Napięcie</text>
+<text x="560" y="90" class="male" text-anchor="start" style="font-weight:bold">DL (PPN)</text>
+<text x="670" y="90" class="male" text-anchor="start" style="font-weight:bold">DV (w pobliżu)</text>
+<text x="460" y="124" class="male" text-anchor="start">≤ 1 kV</text>
+<text x="560" y="124" class="male" text-anchor="start">bez dotyku</text>
+<text x="670" y="124" class="male" text-anchor="start">300 mm</text>
+<text x="460" y="158" class="male" text-anchor="start">110 kV</text>
+<text x="560" y="158" class="male" text-anchor="start">1000 mm</text>
+<text x="670" y="158" class="male" text-anchor="start">2000 mm</text>
+<text x="460" y="192" class="male" text-anchor="start">400 kV</text>
+<text x="560" y="192" class="male" text-anchor="start">2500 mm</text>
+<text x="670" y="192" class="male" text-anchor="start">4000 mm</text>
+<text x="460" y="240" class="male" text-anchor="start">Odstępy minimalne w powietrzu — § 23</text>
+<text x="460" y="258" class="male" text-anchor="start">rozporządzenia BHP przy urządzeniach energ.</text>
+<rect x="450" y="280" width="370" height="170" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="466" y="304" class="male" text-anchor="start">• Żadna część ciała, odzieży ani narzędzia</text>
+<text x="466" y="325" class="male" text-anchor="start">  nie może przekroczyć odstępu minimalnego.</text>
+<text x="466" y="346" class="male" text-anchor="start">• Praca w pobliżu nieosłoniętych części pod</text>
+<text x="466" y="367" class="male" text-anchor="start">  napięciem i praca pod napięciem — szczególne</text>
+<text x="466" y="388" class="male" text-anchor="start">  zagrożenie: polecenie pisemne, zespół.</text>
+<text x="466" y="409" class="male" text-anchor="start">• W domu: wyłącz albo osłoń — nie pracuj</text>
+<text x="466" y="430" class="male" text-anchor="start">  „obok” gołych zacisków.</text>
+</svg>
