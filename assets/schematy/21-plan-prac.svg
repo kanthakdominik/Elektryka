@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="840" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Plan wymiany instalacji</title>
+  <desc id="d">Wykres kolejności prac przy wymianie instalacji w mieszkaniu: ocena i projekt (przegląd, pomiary, plan obwodów), uzgodnienia z zarządcą i operatorem, demontaż starej instalacji po odłączeniu zasilania, bruzdy i puszki w strefach z dokumentacją zdjęciową, przewody z zapasem i opisami, rozdzielnica, tynki i gładzie z zabezpieczonymi puszkami, montaż osprzętu i opraw po malowaniu, na końcu pomiary i odbiór z protokołem i schematem.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="500" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Wymiana instalacji w mieszkaniu — kolejność prac</text>
+<line x1="180" y1="55" x2="180" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="220" y1="55" x2="220" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="260" y1="55" x2="260" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="300" y1="55" x2="300" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="340" y1="55" x2="340" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="380" y1="55" x2="380" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="420" y1="55" x2="420" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="460" y1="55" x2="460" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="500" y1="55" x2="500" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="540" y1="55" x2="540" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="580" y1="55" x2="580" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="620" y1="55" x2="620" y2="470" stroke="#eaecee" stroke-width="1"/>
+<line x1="660" y1="55" x2="660" y2="470" stroke="#eaecee" stroke-width="1"/>
+<text x="20" y="92" class="male" text-anchor="start" style="font-weight:bold">Ocena i projekt</text>
+<rect x="180" y="76" width="80" height="24" rx="5" fill="#5d6d7e"/>
+<text x="268" y="93" class="male" text-anchor="start">przegląd, pomiary, plan obwodów</text>
+<text x="20" y="136" class="male" text-anchor="start" style="font-weight:bold">Uzgodnienia</text>
+<rect x="220" y="120" width="80" height="24" rx="5" fill="#7f8c8d"/>
+<text x="308" y="137" class="male" text-anchor="start">zarządca (WLZ), OSD (moc)</text>
+<text x="20" y="180" class="male" text-anchor="start" style="font-weight:bold">Demontaż starej</text>
+<rect x="300" y="164" width="40" height="24" rx="5" fill="#c0392b"/>
+<text x="348" y="181" class="male" text-anchor="start">po odłączeniu zasilania</text>
+<text x="20" y="224" class="male" text-anchor="start" style="font-weight:bold">Bruzdy, puszki</text>
+<rect x="340" y="208" width="80" height="24" rx="5" fill="#e67e22"/>
+<text x="428" y="225" class="male" text-anchor="start">strefy, zdjęcia ścian</text>
+<text x="20" y="268" class="male" text-anchor="start" style="font-weight:bold">Przewody</text>
+<rect x="380" y="252" width="80" height="24" rx="5" fill="#d68910"/>
+<text x="468" y="269" class="male" text-anchor="start">z zapasem, opisane</text>
+<text x="20" y="312" class="male" text-anchor="start" style="font-weight:bold">Rozdzielnica</text>
+<rect x="420" y="296" width="80" height="24" rx="5" fill="#2e86c1"/>
+<text x="508" y="313" class="male" text-anchor="start">aparaty, listwy, opisy</text>
+<text x="20" y="356" class="male" text-anchor="start" style="font-weight:bold">Tynki, gładzie</text>
+<rect x="500" y="340" width="80" height="24" rx="5" fill="#95a5a6"/>
+<text x="588" y="357" class="male" text-anchor="start">puszki zabezpieczone</text>
+<text x="20" y="400" class="male" text-anchor="start" style="font-weight:bold">Osprzęt i oprawy</text>
+<rect x="580" y="384" width="40" height="24" rx="5" fill="#27ae60"/>
+<text x="628" y="401" class="male" text-anchor="start">po malowaniu</text>
+<text x="20" y="444" class="male" text-anchor="start" style="font-weight:bold">Pomiary i odbiór</text>
+<rect x="620" y="428" width="40" height="24" rx="5" fill="#1e8449"/>
+<text x="668" y="445" class="male" text-anchor="start">protokół, schemat</text>
+<text x="420" y="490" class="male" text-anchor="middle">etapy w czasie (umownie) →</text>
+</svg>

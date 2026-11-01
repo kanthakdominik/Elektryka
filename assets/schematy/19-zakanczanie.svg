@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="840" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Zakańczanie przewodów</title>
+  <desc id="d">Sześć przykładów zakończenia przewodu w zacisku śrubowym. Dobrze: drut odizolowany na długość zacisku; linka zaciśnięta w tulejce. Źle: przewód odizolowany za długo, z gołą miedzią poza zaciskiem; izolacja wciśnięta pod śrubę; linka bez tulejki z rozplecionymi drucikami poza zaciskiem; dwa przewody o różnym przekroju w jednym zacisku, cieńszy niedociśnięty. Pod spodem: długość odizolowania według producenta, typowo 10–12 mm, moment dokręcania z instrukcji, na przykład 2 N·m dla wyłączników do 25 A i 3,5 N·m dla 32–63 A u jednego producenta, 2,8 N·m u innego; po dokręceniu pociągnąć przewód; dwa przewody w zacisku tylko gdy producent pozwala.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="500" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Zakańczanie przewodów — dobrze i źle</text>
+<rect x="20" y="55" width="255" height="160" rx="8" fill="#eafaf1" stroke="#27ae60" stroke-width="1.4"/>
+<text x="148" y="79" class="male" text-anchor="middle" style="font-weight:bold;fill:#1e8449">✓ Drut — odpowiednia długość</text>
+<rect x="180" y="125" width="70" height="60" rx="4" fill="#d5d8dc" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="188" y="141" width="54" height="28" fill="#f4f6f6" stroke="#7f8c8d"/>
+<rect x="202" y="111" width="26" height="14" fill="#aab7b8" stroke="#1a1a1a"/>
+<line x1="206" y1="118" x2="224" y2="118" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="40" y="147" width="136" height="16" rx="4" fill="#8b4513"/>
+<rect x="176" y="151" width="62" height="8" fill="#c87533"/>
+<rect x="290" y="55" width="255" height="160" rx="8" fill="#eafaf1" stroke="#27ae60" stroke-width="1.4"/>
+<text x="418" y="79" class="male" text-anchor="middle" style="font-weight:bold;fill:#1e8449">✓ Linka w tulejce</text>
+<rect x="450" y="125" width="70" height="60" rx="4" fill="#d5d8dc" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="458" y="141" width="54" height="28" fill="#f4f6f6" stroke="#7f8c8d"/>
+<rect x="472" y="111" width="26" height="14" fill="#aab7b8" stroke="#1a1a1a"/>
+<line x1="476" y1="118" x2="494" y2="118" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="310" y="147" width="120" height="16" rx="4" fill="#1f5fbf"/>
+<rect x="428" y="146" width="20" height="18" rx="3" fill="#e74c3c"/>
+<rect x="448" y="150" width="60" height="10" fill="#bdc3c7" stroke="#7f8c8d"/>
+<rect x="560" y="55" width="255" height="160" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="688" y="79" class="male" text-anchor="middle" style="font-weight:bold;fill:#922b21">✗ Za długo odizolowany</text>
+<rect x="720" y="125" width="70" height="60" rx="4" fill="#d5d8dc" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="728" y="141" width="54" height="28" fill="#f4f6f6" stroke="#7f8c8d"/>
+<rect x="742" y="111" width="26" height="14" fill="#aab7b8" stroke="#1a1a1a"/>
+<line x1="746" y1="118" x2="764" y2="118" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="580" y="147" width="100" height="16" rx="4" fill="#8b4513"/>
+<rect x="678" y="151" width="100" height="8" fill="#c87533"/>
+<text x="650" y="199" class="male" text-anchor="middle" style="fill:#922b21">goła miedź na zewnątrz</text>
+<rect x="20" y="230" width="255" height="160" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="148" y="254" class="male" text-anchor="middle" style="font-weight:bold;fill:#922b21">✗ Izolacja pod zaciskiem</text>
+<rect x="180" y="300" width="70" height="60" rx="4" fill="#d5d8dc" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="188" y="316" width="54" height="28" fill="#f4f6f6" stroke="#7f8c8d"/>
+<rect x="202" y="286" width="26" height="14" fill="#aab7b8" stroke="#1a1a1a"/>
+<line x1="206" y1="293" x2="224" y2="293" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="40" y="322" width="190" height="16" rx="4" fill="#8b4513"/>
+<rect x="228" y="326" width="12" height="8" fill="#c87533"/>
+<text x="110" y="374" class="male" text-anchor="middle" style="fill:#922b21">śruba ściska izolację</text>
+<rect x="290" y="230" width="255" height="160" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="418" y="254" class="male" text-anchor="middle" style="font-weight:bold;fill:#922b21">✗ Linka bez tulejki, rozpleciona</text>
+<rect x="450" y="300" width="70" height="60" rx="4" fill="#d5d8dc" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="458" y="316" width="54" height="28" fill="#f4f6f6" stroke="#7f8c8d"/>
+<rect x="472" y="286" width="26" height="14" fill="#aab7b8" stroke="#1a1a1a"/>
+<line x1="476" y1="293" x2="494" y2="293" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="310" y="322" width="130" height="16" rx="4" fill="#1f5fbf"/>
+<line x1="440" y1="324" x2="505" y2="316.5" stroke="#c87533" stroke-width="1.5"/>
+<line x1="440" y1="326" x2="505" y2="321.0" stroke="#c87533" stroke-width="1.5"/>
+<line x1="440" y1="328" x2="505" y2="325.5" stroke="#c87533" stroke-width="1.5"/>
+<line x1="440" y1="330" x2="505" y2="330.0" stroke="#c87533" stroke-width="1.5"/>
+<line x1="440" y1="332" x2="505" y2="334.5" stroke="#c87533" stroke-width="1.5"/>
+<line x1="440" y1="334" x2="505" y2="339.0" stroke="#c87533" stroke-width="1.5"/>
+<line x1="440" y1="336" x2="505" y2="343.5" stroke="#c87533" stroke-width="1.5"/>
+<text x="380" y="374" class="male" text-anchor="middle" style="fill:#922b21">druciki poza zaciskiem</text>
+<rect x="560" y="230" width="255" height="160" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="688" y="254" class="male" text-anchor="middle" style="font-weight:bold;fill:#922b21">✗ Dwa różne przewody w zacisku</text>
+<rect x="720" y="300" width="70" height="60" rx="4" fill="#d5d8dc" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="728" y="316" width="54" height="28" fill="#f4f6f6" stroke="#7f8c8d"/>
+<rect x="742" y="286" width="26" height="14" fill="#aab7b8" stroke="#1a1a1a"/>
+<line x1="746" y1="293" x2="764" y2="293" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="580" y="316" width="136" height="12" rx="4" fill="#8b4513"/>
+<rect x="580" y="332" width="136" height="10" rx="4" fill="#5d4037"/>
+<rect x="716" y="319" width="62" height="6" fill="#c87533"/>
+<rect x="716" y="334" width="62" height="3" fill="#c87533"/>
+<text x="650" y="374" class="male" text-anchor="middle" style="fill:#922b21">cieńszy nie jest dociśnięty</text>
+<rect x="20" y="410" width="800" height="75" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="40" y="434" class="male" text-anchor="start">Długość odizolowania — jak podaje producent (typowo 10–12 mm dla aparatów modułowych). Moment z instrukcji,</text>
+<text x="40" y="454" class="male" text-anchor="start">np. 2 N·m (wyłączniki do 25 A) i 3,5 N·m (32–63 A) u jednego producenta, 2,8 N·m u innego. Potem pociągnij przewód.</text>
+<text x="40" y="474" class="male" text-anchor="start">Dwa przewody w jednym zacisku — tylko jeśli producent na to pozwala i tylko tego samego rodzaju i przekroju.</text>
+</svg>

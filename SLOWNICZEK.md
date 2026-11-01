@@ -111,5 +111,16 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Zasilacz CV / CC | Stałe napięcie / stały prąd dla LED | driver LED | constant voltage / current driver | 18 |
 | Strumień świetlny | Ile światła daje źródło | $\Phi$ [lm] | luminous flux | 18 |
 | Temperatura barwowa | Ciepła lub zimna barwa światła | CCT [K] | colour temperature | 18 |
+| Bruzda | Rowek w ścianie na przewód | bruzda (PN-EN 1996-1-1) | chase | 19 |
+| Tulejka | Końcówka zaciskana na lince | końcówka tulejkowa | bootlace ferrule | 19 |
+| Moment dokręcania | Siła dokręcenia śruby zacisku | moment [N·m] | tightening torque | 19 |
+| Mostek w płycie | Blaszka łącząca zaciski listwy płyty | zwora | jumper link | 19 |
+| Połowienie | Sprawdzanie środka łańcucha i zawężanie | metoda bisekcji | half-split method | 20 |
+| Przerwa N | Brak ciągłości przewodu neutralnego | — | open neutral, lost neutral | 20 |
+| Rezystancja styku | Opór w miejscu połączenia | $R_{styku}$ | contact resistance | 20 |
+| Żarzenie LED | Świecenie wyłączonej LED | — | LED ghosting | 20 |
+| Mostek N–bolec | Bolec gniazda połączony z N | „zerowanie” w gnieździe | neutral-to-earth bridge | 21 |
+| Złączka Al/Cu | Złączka dopuszczona do aluminium i miedzi | — | Al/Cu connector | 21 |
+| Modernizacja częściowa | Poprawa wybranych elementów starej instalacji | — | partial rewiring | 21 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

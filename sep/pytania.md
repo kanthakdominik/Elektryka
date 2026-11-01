@@ -275,6 +275,19 @@ Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jes
 - [ ] ✅ Jak działa i jak się podłącza przekaźnik impulsowy (bistabilny) do sterowania oświetleniem? → [18.04](../modules/18-oswietlenie/18.04-przekaznik-impulsowy-zamiast-lacznikow.md#pytania-sep)
 - [ ] ✅ Na jakiej zasadzie działa ściemniacz oświetlenia i jakie są jego rodzaje? → [18.05](../modules/18-oswietlenie/18.05-sciemniacze-i-wspolpraca-z-led.md#pytania-sep)
 - [ ] ✅ Jak zasilić taśmę LED i jak dobrać zasilacz? → [18.06](../modules/18-oswietlenie/18.06-tasmy-led-i-ich-zasilanie.md#pytania-sep)
+- [ ] ✅ Jak bezpiecznie wymienić gniazdo wtyczkowe w instalacji mieszkaniowej? → [19.01](../modules/19-prace-krok-po-kroku/19.01-wymiana-gniazda-wtyczkowego.md#pytania-sep)
+- [ ] ✅ Jakie czynności należy wykonać przy wymianie łącznika oświetleniowego? → [19.02](../modules/19-prace-krok-po-kroku/19.02-wymiana-lacznika.md#pytania-sep)
+- [ ] ✅ Jak podłącza się oprawę oświetleniową I klasy ochronności? → [19.03](../modules/19-prace-krok-po-kroku/19.03-montaz-lampy-i-oprawy.md#pytania-sep)
+- [ ] ✅ Jak podłączyć kuchenną płytę indukcyjną do instalacji trójfazowej? → [19.04](../modules/19-prace-krok-po-kroku/19.04-podlaczenie-plyty-indukcyjnej.md#pytania-sep)
+- [ ] ✅ Jakie czynności należy wykonać po dołączeniu nowego obwodu do istniejącej rozdzielnicy? → [19.05](../modules/19-prace-krok-po-kroku/19.05-dodanie-nowego-obwodu-w-rozdzielnicy.md#pytania-sep)
+- [ ] ✅ Jakie zasady obowiązują przy wykonywaniu bruzd na przewody w ścianach murowanych? → [19.06](../modules/19-prace-krok-po-kroku/19.06-bruzdy-puszki-i-prowadzenie-przewodow-w-scianie.md#pytania-sep)
+- [ ] ✅ W jaki sposób należy przygotować i przyłączyć przewód wielodrutowy do zacisku śrubowego? → [19.07](../modules/19-prace-krok-po-kroku/19.07-zakanczanie-przewodow-tulejki-zaciski-momenty.md#pytania-sep)
+- [ ] ✅ Po czym rozpoznać instalację wymagającą modernizacji? → [21.01](../modules/21-stare-instalacje/21.01-jak-rozpoznac-stara-instalacje.md#pytania-sep)
+- [ ] ✅ Jakie zagrożenia stwarzają przewody aluminiowe w starych instalacjach i jak z nimi postępować? → [21.02](../modules/21-stare-instalacje/21.02-przewody-aluminiowe-zagrozenia-i-postepowanie.md#pytania-sep)
+- [ ] ✅ Dlaczego nie wolno łączyć styku ochronnego gniazda z przewodem neutralnym w gnieździe? → [21.03](../modules/21-stare-instalacje/21.03-mostkowanie-bolca-ochronnego-w-gniazdku.md#pytania-sep)
+- [ ] ✅ Na czym polega modernizacja instalacji dwuprzewodowej w budynku mieszkalnym? → [21.04](../modules/21-stare-instalacje/21.04-modernizacja-czesciowa.md#pytania-sep)
+- [ ] ✅ Dlaczego po rozdzieleniu PEN na PE i N nie wolno ich ponownie połączyć? → [21.04](../modules/21-stare-instalacje/21.04-modernizacja-czesciowa.md#pytania-sep)
+- [ ] ✅ Jakie czynności obejmuje wymiana instalacji elektrycznej w mieszkaniu? → [21.05](../modules/21-stare-instalacje/21.05-wymiana-instalacji-plan-prac.md#pytania-sep)
 
 ## Pomiary — (b), (c)
 
@@ -312,6 +325,13 @@ Pytania z gotowymi wzorcowymi odpowiedziami są oznaczone ✅ — odpowiedź jes
 - [ ] ✅ Jakie objawy świadczą o przerwie w przewodzie N w instalacji trójfazowej? → [00.04](../modules/00-bezpieczenstwo-najpierw/00.04-czerwone-flagi-kiedy-przerwac-prace-i-wezwac.md#pytania-sep)
 - [ ] ✅ W jakich sytuacjach przerwiesz rozpoczętą pracę? → [00.04](../modules/00-bezpieczenstwo-najpierw/00.04-czerwone-flagi-kiedy-przerwac-prace-i-wezwac.md#pytania-sep)
 - [ ] ✅ Jak postąpisz, widząc zerwany przewód linii napowietrznej? → [00.04](../modules/00-bezpieczenstwo-najpierw/00.04-czerwone-flagi-kiedy-przerwac-prace-i-wezwac.md#pytania-sep)
+- [ ] ✅ Jak postępować przy lokalizacji uszkodzenia w instalacji elektrycznej? → [20.01](../modules/20-diagnostyka-usterek/20.01-metoda-szukania-usterek.md#pytania-sep)
+- [ ] ✅ Jak zlokalizować przerwę w obwodzie gniazd wtyczkowych? → [20.02](../modules/20-diagnostyka-usterek/20.02-nie-dziala-gniazdo-albo-caly-obwod.md#pytania-sep)
+- [ ] ✅ Jak ustalić przyczynę częstego zadziałania wyłącznika różnicowoprądowego? → [20.03](../modules/20-diagnostyka-usterek/20.03-wybija-wylacznik-roznicowopradowy.md#pytania-sep)
+- [ ] ✅ Po czym rozpoznać, czy wyłącznik nadprądowy zadziałał z powodu przeciążenia, czy zwarcia? → [20.04](../modules/20-diagnostyka-usterek/20.04-wybija-wylacznik-nadpradowy.md#pytania-sep)
+- [ ] ✅ Jakie są skutki przerwy w przewodzie neutralnym w instalacji trójfazowej? → [20.05](../modules/20-diagnostyka-usterek/20.05-przerwa-w-przewodzie-neutralnym.md#pytania-sep)
+- [ ] ✅ Jakie są przyczyny nagrzewania się połączeń w instalacji i jak im zapobiegać? → [20.06](../modules/20-diagnostyka-usterek/20.06-grzejace-sie-zaciski-i-zapach-spalenizny.md#pytania-sep)
+- [ ] ✅ Jakie mogą być przyczyny świecenia lub migania lamp LED po wyłączeniu łącznikiem? → [20.07](../modules/20-diagnostyka-usterek/20.07-migajace-i-zarzace-sie-led.md#pytania-sep)
 
 ## Przepisy — (a)–(e)
 

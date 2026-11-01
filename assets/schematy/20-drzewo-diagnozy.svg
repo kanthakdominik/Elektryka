@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 470" width="840" height="470" role="img" aria-labelledby="t d">
+  <title id="t">Drzewo diagnozy</title>
+  <desc id="d">Schemat decyzji przy braku prądu. Zacznij od rozdzielnicy. Jeśli w dole jest różnicówka: wyłącz wszystkie wyłączniki za nią, załącz różnicówkę i potem kolejno obwody, żeby znaleźć obwód; odłącz odbiorniki, żeby odróżnić obwód od urządzenia; zmierz izolację. Jeśli w dole jest wyłącznik nadprądowy: odłącz odbiorniki, załącz raz; zadziałanie od razu oznacza zwarcie, po czasie przeciążenie; nie zwiększaj wyłącznika. Jeśli wszystko jest załączone: sprawdź, czy brak prądu jest w całym mieszkaniu (licznik, zabezpieczenie przedlicznikowe, sąsiedzi, operator), czy w jednym gnieździe (zacisk, puszka, przerwa); dziwne napięcia i nierówne świecenie żarówek wskazują na przerwę N. Ostrzeżenie: przy zapachu spalenizny, cieple, iskrzeniu lub dymie wyłącz zasilanie i nie załączaj do czasu znalezienia przyczyny.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="470" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Coś nie działa — od czego zacząć</text>
+<rect x="230" y="50" width="380" height="46" rx="8" fill="#f8f9f9" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="420.0" y="78.0" class="podt" text-anchor="middle">Brak prądu — co widać w rozdzielnicy?</text>
+<line x1="420" y1="96" x2="140" y2="128" stroke="#7f8c8d" stroke-width="1.8"/><path d="M140.0 128.0 L147.8 123.6 L148.6 130.5 Z" fill="#7f8c8d"/>
+<rect x="20" y="130" width="240" height="40" rx="8" fill="#e8daef" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="140.0" y="155.0" class="male" text-anchor="middle">Różnicówka w dole</text>
+<line x1="420" y1="96" x2="420" y2="128" stroke="#7f8c8d" stroke-width="1.8"/><path d="M420.0 128.0 L416.5 119.7 L423.5 119.7 Z" fill="#7f8c8d"/>
+<rect x="300" y="130" width="240" height="40" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="420.0" y="155.0" class="male" text-anchor="middle">Wyłącznik nadprądowy w dole</text>
+<line x1="420" y1="96" x2="700" y2="128" stroke="#7f8c8d" stroke-width="1.8"/><path d="M700.0 128.0 L691.4 130.5 L692.2 123.6 Z" fill="#7f8c8d"/>
+<rect x="580" y="130" width="240" height="40" rx="8" fill="#d6eaf8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="700.0" y="155.0" class="male" text-anchor="middle">Wszystko załączone</text>
+<rect x="20" y="190" width="240" height="200" rx="8" fill="#ffffff" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="34" y="214" class="male" text-anchor="start">Wyłącz wszystkie wyłączniki</text>
+<text x="34" y="236" class="male" text-anchor="start">za nią, załącz RCD,</text>
+<text x="34" y="258" class="male" text-anchor="start">potem obwody po kolei</text>
+<text x="34" y="280" class="male" text-anchor="start">→ który obwód?</text>
+<text x="34" y="302" class="male" text-anchor="start">Odłącz odbiorniki z gniazd</text>
+<text x="34" y="324" class="male" text-anchor="start">→ obwód czy urządzenie?</text>
+<text x="34" y="346" class="male" text-anchor="start">Pomiar izolacji obwodu</text>
+<text x="34" y="368" class="male" text-anchor="start">→ 20.03</text>
+<rect x="300" y="190" width="240" height="200" rx="8" fill="#ffffff" stroke="#e67e22" stroke-width="1.4"/>
+<text x="314" y="214" class="male" text-anchor="start">Odłącz odbiorniki</text>
+<text x="314" y="236" class="male" text-anchor="start">z tego obwodu</text>
+<text x="314" y="258" class="male" text-anchor="start">Załącz raz</text>
+<text x="314" y="280" class="male" text-anchor="start">→ wybija od razu: zwarcie</text>
+<text x="314" y="302" class="male" text-anchor="start">→ po czasie: przeciążenie</text>
+<text x="314" y="324" class="male" text-anchor="start">Nie zwiększaj wyłącznika!</text>
+<text x="314" y="346" class="male" text-anchor="start"></text>
+<text x="314" y="368" class="male" text-anchor="start">→ 20.04</text>
+<rect x="580" y="190" width="240" height="200" rx="8" fill="#ffffff" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="594" y="214" class="male" text-anchor="start">Czy brak w całym</text>
+<text x="594" y="236" class="male" text-anchor="start">mieszkaniu? → licznik,</text>
+<text x="594" y="258" class="male" text-anchor="start">przedlicznikowe, sąsiedzi, OSD</text>
+<text x="594" y="280" class="male" text-anchor="start">Jedno gniazdo / kilka?</text>
+<text x="594" y="302" class="male" text-anchor="start">→ zacisk, puszka, przerwa</text>
+<text x="594" y="324" class="male" text-anchor="start">Dziwne napięcia, jasne/</text>
+<text x="594" y="346" class="male" text-anchor="start">ciemne żarówki → przerwa N</text>
+<text x="594" y="368" class="male" text-anchor="start">→ 20.02, 20.05</text>
+<rect x="20" y="405" width="800" height="50" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="420" y="427" class="male" text-anchor="middle">⚠ Zapach spalenizny, ciepła obudowa, iskrzenie, dym — wyłącz zasilanie i nie załączaj ponownie</text>
+<text x="420" y="445" class="male" text-anchor="middle">do czasu znalezienia przyczyny (20.06). Niejasna sytuacja — przerwij i wezwij elektryka (00.04).</text>
+</svg>

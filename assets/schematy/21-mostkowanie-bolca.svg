@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" width="840" height="490" role="img" aria-labelledby="t d">
+  <title id="t">Mostkowanie bolca</title>
+  <desc id="d">Trzy panele gniazda z mostkiem łączącym przewód N z bolcem ochronnym i pralką o metalowej obudowie. Normalnie obudowa ma potencjał bliski ziemi. Przy przerwie przewodu N przed gniazdem bolec i obudowa dostają fazę przez odbiornik, około 230 V. Przy zamianie L i N w gnieździe bolec dostaje fazę wprost. Żadne zabezpieczenie tego nie wyłączy, a różnicówka za mostkiem nie zadziała. Mostka nie wolno wykonywać; prawidłowo osobny PE z rozdzielnicy albo przejściowo gniazdo bez bolca z ochroną różnicowoprądową.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="490" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Mostek N–bolec w gnieździe: kiedy obudowa ma 230 V</text>
+<rect x="20" y="50" width="260" height="320" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="150" y="76" class="podt" text-anchor="middle">Normalnie</text>
+<text x="34" y="115" class="male" text-anchor="start" style="fill:#8b4513;font-weight:bold">L</text>
+<text x="34" y="155" class="male" text-anchor="start" style="fill:#1f5fbf;font-weight:bold">N</text>
+<rect x="170" y="90" width="70" height="80" rx="8" fill="#f2f3f4" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="54" y1="110" x2="190" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="54" y1="150" x2="190" y2="150" stroke="#1f5fbf" stroke-width="3"/>
+<path d="M190 150 L220 150 L220 100" fill="none" stroke="#7f8c8d" stroke-width="2.5" stroke-dasharray="5 3"/>
+<circle cx="220" cy="100" r="5" fill="#27ae60"/>
+<text x="212" y="104" class="male" text-anchor="end">bolec</text>
+<rect x="80" y="210" width="140" height="80" rx="8" fill="#eaecee" stroke="#1a1a1a" stroke-width="2"/>
+<text x="150" y="245" class="male" text-anchor="middle">obudowa pralki</text>
+<text x="150" y="268" class="podt" text-anchor="middle" style="fill:#1e8449">≈ 0 V</text>
+<line x1="220" y1="105" x2="220" y2="210" stroke="#27ae60" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="150" y="320" class="male" text-anchor="middle">bolec = N = potencjał</text>
+<text x="150" y="338" class="male" text-anchor="middle">ziemi</text>
+<rect x="290" y="50" width="260" height="320" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="420" y="76" class="podt" text-anchor="middle">Przerwa N przed gniazdem</text>
+<text x="304" y="115" class="male" text-anchor="start" style="fill:#8b4513;font-weight:bold">L</text>
+<text x="304" y="155" class="male" text-anchor="start" style="fill:#1f5fbf;font-weight:bold">N</text>
+<rect x="440" y="90" width="70" height="80" rx="8" fill="#f2f3f4" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="324" y1="110" x2="460" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="324" y1="150" x2="380" y2="150" stroke="#1f5fbf" stroke-width="3"/>
+<text x="392" y="156" class="podt" text-anchor="middle" style="fill:#c0392b">✗</text>
+<line x1="404" y1="150" x2="460" y2="150" stroke="#1f5fbf" stroke-width="3"/>
+<path d="M460 150 L490 150 L490 100" fill="none" stroke="#7f8c8d" stroke-width="2.5" stroke-dasharray="5 3"/>
+<circle cx="490" cy="100" r="5" fill="#27ae60"/>
+<text x="482" y="104" class="male" text-anchor="end">bolec</text>
+<rect x="350" y="210" width="140" height="80" rx="8" fill="#fadbd8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="420" y="245" class="male" text-anchor="middle">obudowa pralki</text>
+<text x="420" y="268" class="podt" text-anchor="middle" style="fill:#c0392b">≈ 230 V !</text>
+<line x1="490" y1="105" x2="490" y2="210" stroke="#27ae60" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="420" y="320" class="male" text-anchor="middle">bolec = N = potencjał</text>
+<text x="420" y="338" class="male" text-anchor="middle">fazy przez odbiornik</text>
+<rect x="560" y="50" width="260" height="320" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="690" y="76" class="podt" text-anchor="middle">Zamienione L i N</text>
+<text x="574" y="115" class="male" text-anchor="start" style="fill:#1f5fbf;font-weight:bold">N</text>
+<text x="574" y="155" class="male" text-anchor="start" style="fill:#8b4513;font-weight:bold">L</text>
+<rect x="710" y="90" width="70" height="80" rx="8" fill="#f2f3f4" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="594" y1="110" x2="730" y2="110" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="594" y1="150" x2="730" y2="150" stroke="#8b4513" stroke-width="3"/>
+<path d="M730 150 L760 150 L760 100" fill="none" stroke="#7f8c8d" stroke-width="2.5" stroke-dasharray="5 3"/>
+<circle cx="760" cy="100" r="5" fill="#27ae60"/>
+<text x="752" y="104" class="male" text-anchor="end">bolec</text>
+<rect x="620" y="210" width="140" height="80" rx="8" fill="#fadbd8" stroke="#1a1a1a" stroke-width="2"/>
+<text x="690" y="245" class="male" text-anchor="middle">obudowa pralki</text>
+<text x="690" y="268" class="podt" text-anchor="middle" style="fill:#c0392b">≈ 230 V !</text>
+<line x1="760" y1="105" x2="760" y2="210" stroke="#27ae60" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="690" y="320" class="male" text-anchor="middle">bolec = N = potencjał</text>
+<text x="690" y="338" class="male" text-anchor="middle">fazy wprost</text>
+<rect x="20" y="385" width="800" height="92" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="40" y="409" class="male" text-anchor="start">Mostek działa, dopóki wszystko jest w porządku. Jedna usterka — luźny N w puszce albo odwrotnie podłączone</text>
+<text x="40" y="429" class="male" text-anchor="start">gniazdo — i metalowa obudowa ma napięcie fazy. Żadne zabezpieczenie tego nie wyłączy, a RCD za mostkiem nie zadziała.</text>
+<text x="40" y="449" class="male" text-anchor="start" style="font-weight:bold">Mostka nie wolno wykonywać. Prawidłowo: osobny PE z rozdzielnicy,</text>
+<text x="40" y="467" class="male" text-anchor="start" style="font-weight:bold">a przejściowo — gniazdo bez bolca i obwód za RCD 30 mA.</text>
+</svg>

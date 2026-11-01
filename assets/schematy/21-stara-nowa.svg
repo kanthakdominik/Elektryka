@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" width="840" height="490" role="img" aria-labelledby="t d">
+  <title id="t">Stara a nowa instalacja</title>
+  <desc id="d">Tabela porównująca starą i współczesną instalację. Przewody: aluminiowe dwużyłowe kontra miedziane trzyżyłowe z PE. Izolacja: twarda i krucha kontra elastyczna PVC z oznaczeniami. Zabezpieczenia: bezpieczniki topikowe, często z drucikami, kontra wyłączniki nadprądowe. Ochrona: zerowanie lub brak kontra TN-S z PE i różnicówką 30 mA. Gniazda: bez bolca lub z mostkiem kontra bolec podłączony do PE. Obwody: jeden lub dwa na mieszkanie kontra wiele obwodów. Połączenia: skręcane kontra złączki w dostępnych puszkach. Przepięcia: brak kontra ograniczniki.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="490" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Stara instalacja a nowa — po czym poznać</text>
+<rect x="20" y="48" width="800" height="34" fill="#eaecee"/>
+<text x="30" y="72" class="male" text-anchor="start" style="font-weight:bold"></text>
+<text x="180" y="72" class="male" text-anchor="start" style="font-weight:bold">Stara (zwykle przed ok. 1990–2000)</text>
+<text x="510" y="72" class="male" text-anchor="start" style="font-weight:bold">Współczesna</text>
+<rect x="170" y="92" width="320" height="38" rx="4" fill="#fdedec"/>
+<rect x="500" y="92" width="320" height="38" rx="4" fill="#e9f7ef"/>
+<text x="30" y="116" class="male" text-anchor="start" style="font-weight:bold">Przewody</text>
+<text x="180" y="116" class="male" text-anchor="start">aluminiowe, 2 żyły (L, N/PEN), 1,5–2,5 mm²</text>
+<text x="510" y="116" class="male" text-anchor="start">miedziane, 3 żyły (L, N, PE), 1,5 / 2,5 mm²</text>
+<rect x="170" y="136" width="320" height="38" rx="4" fill="#fdedec"/>
+<rect x="500" y="136" width="320" height="38" rx="4" fill="#e9f7ef"/>
+<text x="30" y="160" class="male" text-anchor="start" style="font-weight:bold">Izolacja</text>
+<text x="180" y="160" class="male" text-anchor="start">twarda, krucha, czasem guma lub bawełna</text>
+<text x="510" y="160" class="male" text-anchor="start">PVC, elastyczna, oznaczenia na powłoce</text>
+<rect x="170" y="180" width="320" height="38" rx="4" fill="#fdedec"/>
+<rect x="500" y="180" width="320" height="38" rx="4" fill="#e9f7ef"/>
+<text x="30" y="204" class="male" text-anchor="start" style="font-weight:bold">Zabezpieczenia</text>
+<text x="180" y="204" class="male" text-anchor="start">bezpieczniki topikowe (wkręcane), często „druciki”</text>
+<text x="510" y="204" class="male" text-anchor="start">wyłączniki nadprądowe B/C</text>
+<rect x="170" y="224" width="320" height="38" rx="4" fill="#fdedec"/>
+<rect x="500" y="224" width="320" height="38" rx="4" fill="#e9f7ef"/>
+<text x="30" y="248" class="male" text-anchor="start" style="font-weight:bold">Ochrona</text>
+<text x="180" y="248" class="male" text-anchor="start">zerowanie (mostek w gnieździe) albo brak</text>
+<text x="510" y="248" class="male" text-anchor="start">TN-S/TN-C-S, PE, RCD 30 mA</text>
+<rect x="170" y="268" width="320" height="38" rx="4" fill="#fdedec"/>
+<rect x="500" y="268" width="320" height="38" rx="4" fill="#e9f7ef"/>
+<text x="30" y="292" class="male" text-anchor="start" style="font-weight:bold">Gniazda</text>
+<text x="180" y="292" class="male" text-anchor="start">bez bolca lub z bolcem zmostkowanym z N</text>
+<text x="510" y="292" class="male" text-anchor="start">z bolcem podłączonym do PE</text>
+<rect x="170" y="312" width="320" height="38" rx="4" fill="#fdedec"/>
+<rect x="500" y="312" width="320" height="38" rx="4" fill="#e9f7ef"/>
+<text x="30" y="336" class="male" text-anchor="start" style="font-weight:bold">Obwody</text>
+<text x="180" y="336" class="male" text-anchor="start">1–2 na mieszkanie, gniazda i światło razem</text>
+<text x="510" y="336" class="male" text-anchor="start">wiele obwodów, wydzielone odbiorniki</text>
+<rect x="170" y="356" width="320" height="38" rx="4" fill="#fdedec"/>
+<rect x="500" y="356" width="320" height="38" rx="4" fill="#e9f7ef"/>
+<text x="30" y="380" class="male" text-anchor="start" style="font-weight:bold">Połączenia</text>
+<text x="180" y="380" class="male" text-anchor="start">skręcane, lutowane, w puszkach natynkowych</text>
+<text x="510" y="380" class="male" text-anchor="start">złączki, zaciski, dostępne puszki</text>
+<rect x="170" y="400" width="320" height="38" rx="4" fill="#fdedec"/>
+<rect x="500" y="400" width="320" height="38" rx="4" fill="#e9f7ef"/>
+<text x="30" y="424" class="male" text-anchor="start" style="font-weight:bold">Przepięcia</text>
+<text x="180" y="424" class="male" text-anchor="start">brak</text>
+<text x="510" y="424" class="male" text-anchor="start">ograniczniki przepięć (SPD)</text>
+<text x="420" y="470" class="opis" text-anchor="middle">Wystarczą dwie cechy z lewej kolumny, żeby zaplanować przegląd i pomiary przez elektryka.</text>
+</svg>

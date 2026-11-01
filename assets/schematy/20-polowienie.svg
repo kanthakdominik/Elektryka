@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 415" width="840" height="415" role="img" aria-labelledby="t d">
+  <title id="t">Metoda połowienia</title>
+  <desc id="d">Obwód gniazd z sześcioma gniazdami G1 do G6 połączonymi szeregowo od rozdzielnicy. Gniazda G1, G2, G3 mają 230 V, G4, G5, G6 nie mają napięcia. Przerwa jest między G3 a G4, najczęściej w luźnym zacisku gniazda G3 albo w puszce. Kroki: ustal kolejność gniazd, sprawdź gniazdo w połowie, zawężaj, aż zostaną dwa sąsiednie gniazda, przerwa jest w zaciskach ostatniego działającego gniazda, w puszce lub w przewodzie; wyłącz obwód i otwórz ostatnie działające gniazdo.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="415" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Szukanie przerwy w obwodzie gniazd — metoda połowienia</text>
+<rect x="20" y="100" width="70" height="60" rx="6" fill="#2c3e50" stroke="#2c3e50" stroke-width="1.4"/>
+<text x="55" y="135" class="podt" text-anchor="middle" style="fill:#ffffff">RG</text>
+<line x1="90" y1="130" x2="118" y2="130" stroke="#8b4513" stroke-width="4"/>
+<rect x="118" y="108" width="44" height="44" rx="6" fill="#d5f5e3" stroke="#1a1a1a" stroke-width="1.5"/>
+<circle cx="133" cy="130" r="3" fill="#1a1a1a"/><circle cx="147" cy="130" r="3" fill="#1a1a1a"/>
+<text x="140" y="172" class="male" text-anchor="middle" style="font-weight:bold">G1</text>
+<text x="140" y="100" class="male" text-anchor="middle" style="fill:#1e8449">230 V</text>
+<line x1="162" y1="130" x2="243" y2="130" stroke="#8b4513" stroke-width="4"/>
+<rect x="243" y="108" width="44" height="44" rx="6" fill="#d5f5e3" stroke="#1a1a1a" stroke-width="1.5"/>
+<circle cx="258" cy="130" r="3" fill="#1a1a1a"/><circle cx="272" cy="130" r="3" fill="#1a1a1a"/>
+<text x="265" y="172" class="male" text-anchor="middle" style="font-weight:bold">G2</text>
+<text x="265" y="100" class="male" text-anchor="middle" style="fill:#1e8449">230 V</text>
+<line x1="287" y1="130" x2="368" y2="130" stroke="#8b4513" stroke-width="4"/>
+<rect x="368" y="108" width="44" height="44" rx="6" fill="#d5f5e3" stroke="#1a1a1a" stroke-width="1.5"/>
+<circle cx="383" cy="130" r="3" fill="#1a1a1a"/><circle cx="397" cy="130" r="3" fill="#1a1a1a"/>
+<text x="390" y="172" class="male" text-anchor="middle" style="font-weight:bold">G3</text>
+<text x="390" y="100" class="male" text-anchor="middle" style="fill:#1e8449">230 V</text>
+<line x1="412" y1="130" x2="493" y2="130" stroke="#8b4513" stroke-width="4"/>
+<rect x="493" y="108" width="44" height="44" rx="6" fill="#fadbd8" stroke="#1a1a1a" stroke-width="1.5"/>
+<circle cx="508" cy="130" r="3" fill="#1a1a1a"/><circle cx="522" cy="130" r="3" fill="#1a1a1a"/>
+<text x="515" y="172" class="male" text-anchor="middle" style="font-weight:bold">G4</text>
+<text x="515" y="100" class="male" text-anchor="middle" style="fill:#922b21">0 V</text>
+<line x1="537" y1="130" x2="618" y2="130" stroke="#8b4513" stroke-width="4"/>
+<rect x="618" y="108" width="44" height="44" rx="6" fill="#fadbd8" stroke="#1a1a1a" stroke-width="1.5"/>
+<circle cx="633" cy="130" r="3" fill="#1a1a1a"/><circle cx="647" cy="130" r="3" fill="#1a1a1a"/>
+<text x="640" y="172" class="male" text-anchor="middle" style="font-weight:bold">G5</text>
+<text x="640" y="100" class="male" text-anchor="middle" style="fill:#922b21">0 V</text>
+<line x1="662" y1="130" x2="743" y2="130" stroke="#8b4513" stroke-width="4"/>
+<rect x="743" y="108" width="44" height="44" rx="6" fill="#fadbd8" stroke="#1a1a1a" stroke-width="1.5"/>
+<circle cx="758" cy="130" r="3" fill="#1a1a1a"/><circle cx="772" cy="130" r="3" fill="#1a1a1a"/>
+<text x="765" y="172" class="male" text-anchor="middle" style="font-weight:bold">G6</text>
+<text x="765" y="100" class="male" text-anchor="middle" style="fill:#922b21">0 V</text>
+<rect x="442.5" y="118" width="20" height="24" fill="#ffffff"/>
+<text x="452.5" y="136" class="podt" text-anchor="middle" style="fill:#c0392b">✗</text>
+<text x="452.5" y="200" class="male" text-anchor="middle" style="fill:#c0392b;font-weight:bold">luźny zacisk w G3</text>
+<text x="452.5" y="216" class="male" text-anchor="middle" style="fill:#c0392b">albo w puszce</text>
+<text x="30" y="260" class="male" text-anchor="start">1. Ustal kolejność gniazd w obwodzie (od rozdzielnicy) — z planu lub sprawdzając, co działa.</text>
+<text x="30" y="284" class="male" text-anchor="start">2. Sprawdź gniazdo w połowie łańcucha. Działa → przerwa dalej. Nie działa → bliżej.</text>
+<text x="30" y="308" class="male" text-anchor="start">3. Powtarzaj, aż zostaną dwa sąsiednie gniazda: ostatnie działające i pierwsze martwe.</text>
+<text x="30" y="332" class="male" text-anchor="start">4. Przerwa jest w zaciskach ostatniego działającego gniazda (przelotowe połączenie), w puszce lub w przewodzie między nimi.</text>
+<text x="30" y="356" class="male" text-anchor="start">5. Wyłącz obwód, sprawdź brak napięcia, otwórz ostatnie działające gniazdo — tam zwykle jest przyczyna.</text>
+<text x="420" y="395" class="opis" text-anchor="middle">Przy 6 gniazdach wystarczą 2–3 sprawdzenia zamiast otwierania wszystkich.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 510" width="840" height="510" role="img" aria-labelledby="t d">
+  <title id="t">Przerwa N w instalacji trójfazowej</title>
+  <desc id="d">Dwa panele. Po lewej normalna praca: lampka 100 W na fazie L1 i czajnik 1000 W na fazie L2, oba mają wspólny przewód N i dostają po 230 V. Po prawej przerwa w przewodzie N: lampka i czajnik łączą się szeregowo między fazami L1 i L2 na napięciu 400 V. Lampka o rezystancji około 529 omów dostaje około 364 V i się przepala, czajnik o rezystancji około 53 omów dostaje około 36 V. Objawy: nierówne świecenie, uszkodzenia elektroniki, skaczące napięcie. Natychmiast wyłączyć rozłącznik główny; przy przerwie PEN w TN-C dodatkowo napięcie na obudowach.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="510" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Przerwa N w instalacji trójfazowej</text>
+<rect x="20" y="50" width="390" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="215" y="76" class="podt" text-anchor="middle">Normalnie: każdy odbiornik ma 230 V</text>
+<text x="34" y="115" class="male" text-anchor="start" style="fill:#8b4513;font-weight:bold">L1</text>
+<text x="34" y="145" class="male" text-anchor="start" style="font-weight:bold">L2</text>
+<text x="34" y="325" class="male" text-anchor="start" style="fill:#1f5fbf;font-weight:bold">N</text>
+<line x1="60" y1="110" x2="140" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="60" y1="140" x2="300" y2="140" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="60" y1="320" x2="300" y2="320" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="140" y1="110" x2="140" y2="185" stroke="#8b4513" stroke-width="3"/>
+<rect x="110" y="185" width="60" height="70" rx="3" fill="#fdebd0" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="140" y="216" class="male" text-anchor="middle" style="font-weight:bold">100 W</text>
+<text x="140" y="236" class="male" text-anchor="middle">lampka</text>
+<line x1="140" y1="255" x2="140" y2="320" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="300" y1="140" x2="300" y2="185" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="270" y="185" width="60" height="70" rx="3" fill="#fdebd0" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="300" y="216" class="male" text-anchor="middle" style="font-weight:bold">1000 W</text>
+<text x="300" y="236" class="male" text-anchor="middle">czajnik</text>
+<line x1="300" y1="255" x2="300" y2="320" stroke="#1f5fbf" stroke-width="3"/>
+<text x="140" y="360" class="podt" text-anchor="middle" style="fill:#1e8449">230 V</text>
+<text x="300" y="360" class="podt" text-anchor="middle" style="fill:#1e8449">230 V</text>
+<rect x="430" y="50" width="390" height="330" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="625" y="76" class="podt" text-anchor="middle">Przerwa N: odbiorniki szeregowo na 400 V</text>
+<text x="444" y="115" class="male" text-anchor="start" style="fill:#8b4513;font-weight:bold">L1</text>
+<text x="444" y="145" class="male" text-anchor="start" style="font-weight:bold">L2</text>
+<text x="444" y="325" class="male" text-anchor="start" style="fill:#1f5fbf;font-weight:bold">N</text>
+<line x1="470" y1="110" x2="550" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="470" y1="140" x2="710" y2="140" stroke="#1a1a1a" stroke-width="3"/>
+<line x1="470" y1="320" x2="505" y2="320" stroke="#1f5fbf" stroke-width="3"/>
+<text x="518" y="326" class="podt" text-anchor="middle" style="fill:#c0392b">✗</text>
+<line x1="530" y1="320" x2="710" y2="320" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="550" y1="110" x2="550" y2="185" stroke="#8b4513" stroke-width="3"/>
+<rect x="520" y="185" width="60" height="70" rx="3" fill="#fdebd0" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="550" y="216" class="male" text-anchor="middle" style="font-weight:bold">100 W</text>
+<text x="550" y="236" class="male" text-anchor="middle">lampka</text>
+<line x1="550" y1="255" x2="550" y2="320" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="710" y1="140" x2="710" y2="185" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="680" y="185" width="60" height="70" rx="3" fill="#fdebd0" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="710" y="216" class="male" text-anchor="middle" style="font-weight:bold">1000 W</text>
+<text x="710" y="236" class="male" text-anchor="middle">czajnik</text>
+<line x1="710" y1="255" x2="710" y2="320" stroke="#1f5fbf" stroke-width="3"/>
+<text x="550" y="360" class="podt" text-anchor="middle" style="fill:#c0392b">≈ 364 V !</text>
+<text x="710" y="360" class="podt" text-anchor="middle" style="fill:#7f8c8d">≈ 36 V</text>
+<rect x="20" y="395" width="800" height="100" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="40" y="418" class="male" text-anchor="start">Lampka (R ≈ 529 Ω) i czajnik (R ≈ 53 Ω) tworzą dzielnik na napięciu międzyfazowym 400 V:</text>
+<text x="40" y="440" class="male" text-anchor="start">na lampce 400 · 529/582 ≈ 364 V — przepala się; czajnik ledwo grzeje. Mały odbiornik dostaje najwięcej.</text>
+<text x="40" y="462" class="male" text-anchor="start">Objawy: jedne żarówki bardzo jasne, inne ciemne, „pada” elektronika, napięcie skacze przy włączaniu urządzeń.</text>
+<text x="40" y="484" class="male" text-anchor="start" style="font-weight:bold">Natychmiast wyłącz rozłącznik główny. Przy przerwie PEN w TN-C dodatkowo napięcie na obudowach.</text>
+</svg>

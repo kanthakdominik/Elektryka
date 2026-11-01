@@ -98,9 +98,9 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 | 16 | [Planowanie obwodów](modules/16-planowanie-obwodow/README.md) | 🏠📋 | 6 | ✅ pełny |
 | 17 | [Pomieszczenia i miejsca szczególne](modules/17-pomieszczenia-szczegolne/README.md) | 🏠📋 | 5 | ✅ pełny |
 | 18 | [Oświetlenie](modules/18-oswietlenie/README.md) | 🏠 | 6 | ✅ pełny |
-| 19 | [Prace krok po kroku](modules/19-prace-krok-po-kroku/README.md) | 🏠 | 7 | 🔲 szkielet |
-| 20 | [Diagnostyka usterek](modules/20-diagnostyka-usterek/README.md) | 🏠📋 | 7 | 🔲 szkielet |
-| 21 | [Stare instalacje](modules/21-stare-instalacje/README.md) | 🏠📋 | 5 | 🔲 szkielet |
+| 19 | [Prace krok po kroku](modules/19-prace-krok-po-kroku/README.md) | 🏠 | 7 | ✅ pełny |
+| 20 | [Diagnostyka usterek](modules/20-diagnostyka-usterek/README.md) | 🏠📋 | 7 | ✅ pełny |
+| 21 | [Stare instalacje](modules/21-stare-instalacje/README.md) | 🏠📋 | 5 | ✅ pełny |
 
 ### V. Pomiary
 
