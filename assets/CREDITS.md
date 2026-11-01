@@ -119,3 +119,16 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `21-bezpieczniki-stare.jpg` | ktulu87 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fuse_box_in_old_house.JPG) |
 | `21-tablica-stara.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Old_USSR_fuse_box.JPG) |
 | `21-wkladka-stara.jpg` | Jarlhelm | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Used_older_fuse_(Panzersicherung).jpg) |
+| `22-cegi.jpg` | Harke | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clampmeter_Fluke_337.jpg) |
+| `22-cegi-2.jpg` | ZianMan | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fluke_Clamp_meter.jpg) |
+| `22-termowizja-usterka.jpg` | Hotflashhome | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electrical_fault.jpg) |
+| `22-termowizja-praca.jpg` | U.S. Navy photo by Photographer's Mate 3rd Class Konstandinos Goumenidis | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:US_Navy_050524-N-8213G-009_Electrician%27s_Mate_Fireman_Kenneth_Kimbrell_from_Temple,_Texas,_checks_the_fuse_temperature_on_an_infrared_thermal_camera_used_for_maintenance.jpg) |
+| `23-miernik-izolacji.jpg` | Megger Ltd. | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MIT520_by_Megger.jpg) |
+| `23-induktor.jpg` | Tambo | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Megger.jpeg) |
+| `24-tabliczka.jpg` | Rotkaeppchen68 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Typenschild_eines_Drehstromasynchronmotors.jpg) |
+| `24-tabliczka-2.jpg` | Denis Apel | CC BY-SA 2.0 de | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Typenschild-Drehstrom-Asynchronmaschine_apel.jpg) |
+| `24-przekaznik-termiczny.jpg` | Mik81 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Motorschutzrelais.jpg) |
+| `24-wylacznik-silnikowy.jpg` | Dmitry G | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thermo-Magnetic_interrupter_from_motor-protective_circuit_breaker.JPG) |
+| `24-falownik.jpg` | Sarah Adrita | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Siemens_VFD.jpg) |
+| `24-falownik-pompa.jpg` | KSB Aktiengesellschaft, Frankenthal | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:KSB_09_Etanorm_mit_Motor_und_Frequenzumrichter.jpg) |
+| `24-silnik-kondensator.png` | Elcap | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Motor-with-run-capacitor.png) |
