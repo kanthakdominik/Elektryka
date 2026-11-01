@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 505" width="840" height="505" role="img" aria-labelledby="t d">
+  <title id="t">Agregat i przełącznik zasilania</title>
+  <desc id="d">Po lewej poprawnie: sieć przez licznik idzie do pozycji I czterobiegunowego przełącznika I-0-II, agregat do pozycji II, z przełącznika zasilana jest rozdzielnica; pozycja 0 zapobiega jednoczesnemu podłączeniu obu źródeł. Po prawej błędnie: agregat podłączony do gniazda kablem z dwiema wtyczkami — bolce drugiej wtyczki są pod napięciem, energia płynie przez instalację domu do sieci, transformator podnosi napięcie do 15 kV i zagraża monterowi pracującemu na wyłączonej linii; po powrocie napięcia agregat ulega zniszczeniu. Uwagi: przełącznik montuje elektryk z uprawnieniami, agregat stoi na zewnątrz, moc z zapasem około 25 procent, ochrona przeciwporażeniowa według instrukcji i projektu.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="505" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Agregat w domu: przełącznik sieć–0–agregat, nigdy przez gniazdo</text>
+<rect x="20" y="50" width="390" height="380" rx="8" fill="#eafaf1" stroke="#27ae60" stroke-width="1.4"/>
+<text x="215" y="76" class="podt" text-anchor="middle" style="fill:#1e8449">✓ Przełącznik I-0-II za licznikiem</text>
+<rect x="40" y="100" width="90" height="50" rx="8" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="85.0" y="130.0" class="podt" text-anchor="middle">sieć</text>
+<rect x="40" y="180" width="90" height="50" rx="8" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="85.0" y="210.0" class="podt" text-anchor="middle">licznik</text>
+<line x1="85" y1="150" x2="85" y2="180" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="280" y="100" width="110" height="50" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="335.0" y="130.0" class="podt" text-anchor="middle">agregat</text>
+<rect x="150" y="250" width="120" height="70" rx="8" fill="#ffffff" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="210" y="272" class="podt" text-anchor="middle">I – 0 – II</text>
+<text x="210" y="292" class="male" text-anchor="middle">4-biegunowy</text>
+<text x="210" y="310" class="male" text-anchor="middle">(L1 L2 L3 N)</text>
+<path d="M85 230 L85 270 L150 270" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<text x="110" y="262" class="podt" text-anchor="middle">I</text>
+<path d="M335 150 L335 270 L270 270" fill="none" stroke="#e67e22" stroke-width="3"/>
+<text x="305" y="262" class="podt" text-anchor="middle">II</text>
+<line x1="210" y1="320" x2="210" y2="350" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="150" y="350" width="120" height="50" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="210.0" y="380.0" class="podt" text-anchor="middle">rozdzielnica</text>
+<text x="215" y="418" class="male" text-anchor="middle">nigdy oba źródła naraz — pozycja 0 pomiędzy</text>
+<rect x="430" y="50" width="390" height="380" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="625" y="76" class="podt" text-anchor="middle" style="fill:#922b21">✗ „Kabel samobójca” do gniazda</text>
+<rect x="460" y="100" width="100" height="50" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="510.0" y="130.0" class="podt" text-anchor="middle">agregat</text>
+<path d="M510 150 L510 200 L600 200" fill="none" stroke="#e67e22" stroke-width="3"/>
+<rect x="600" y="186" width="40" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a"/>
+<text x="620" y="230" class="male" text-anchor="middle">gniazdo</text>
+<text x="520" y="250" class="male" text-anchor="start" style="fill:#922b21">wtyczka z drugiej</text>
+<text x="520" y="266" class="male" text-anchor="start" style="fill:#922b21">strony: bolce pod 230 V!</text>
+<path d="M640 200 L700 200 L700 130" fill="none" stroke="#c0392b" stroke-width="3"/>
+<rect x="660" y="90" width="120" height="40" rx="8" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="720.0" y="115.0" class="opis" text-anchor="middle">instalacja domu</text>
+<path d="M780 110 L800 110 L800 300 L760 300" fill="none" stroke="#c0392b" stroke-width="3"/>
+<path d="M724 272.5 A7.5 7.5 0 0 1 724 287.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M724 287.5 A7.5 7.5 0 0 1 724 302.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M724 302.5 A7.5 7.5 0 0 1 724 317.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M724 317.5 A7.5 7.5 0 0 1 724 332.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M756 272.5 A7.5 7.5 0 0 0 756 287.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M756 287.5 A7.5 7.5 0 0 0 756 302.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M756 302.5 A7.5 7.5 0 0 0 756 317.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M756 317.5 A7.5 7.5 0 0 0 756 332.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="737" y1="270" x2="737" y2="330" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="743" y1="270" x2="743" y2="330" stroke="#1a1a1a" stroke-width="2"/>
+<text x="700" y="350" class="male" text-anchor="middle">transformator sieci</text>
+<text x="700" y="366" class="male" text-anchor="middle" style="fill:#922b21;font-weight:bold">podnosi do 15 kV</text>
+<circle cx="520" cy="300" r="9" fill="none" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="309" x2="520" y2="340" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="320" x2="504" y2="312" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="320" x2="534" y2="330" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="340" x2="510" y2="362" stroke="#555" stroke-width="2.5"/>
+<line x1="520" y1="340" x2="530" y2="362" stroke="#555" stroke-width="2.5"/>
+<path d="M724 300 L560 300 L534 328" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="640" y="292" class="male" text-anchor="middle" style="fill:#922b21">linia SN</text>
+<text x="540" y="392" class="male" text-anchor="middle" style="fill:#922b21">monter na „wyłączonej” linii</text>
+<text x="625" y="418" class="male" text-anchor="middle">+ powrót napięcia sieci = zniszczony agregat</text>
+<rect x="20" y="440" width="800" height="52" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="40" y="462" class="male" text-anchor="start">Przełącznik montuje elektryk z uprawnieniami; agregat — na zewnątrz (spaliny, CO). Moc agregatu z zapasem ok. 25 %.</text>
+<text x="40" y="482" class="male" text-anchor="start">Ochrona przeciwporażeniowa przy zasilaniu z agregatu (połączenie N–PE, RCD) — według instrukcji agregatu i projektu.</text>
+</svg>

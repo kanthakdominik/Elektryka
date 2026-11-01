@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 465" width="840" height="465" role="img" aria-labelledby="t d">
+  <title id="t">Zasilacz impulsowy</title>
+  <desc id="d">Schemat blokowy zasilacza impulsowego: filtr przeciwzakłóceniowy z bezpiecznikiem, prostownik z kondensatorem, tranzystor kluczujący z częstotliwością 50–200 kHz, mały transformator ferrytowy, prostownik z filtrem dający 12 lub 24 V DC. Sprzężenie zwrotne przez transoptor reguluje napięcie, zachowując izolację wzmocnioną między stroną sieciową a wyjściem SELV. Kondensatory Y do PE dają prąd upływu około 0,5–3 mA. Zalety: mały rozmiar, sprawność 85–95 procent, szeroki zakres napięć. Uwagi: prąd załączania, prąd upływu, harmoniczne, naładowany kondensator wejściowy.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="465" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Zasilacz impulsowy — co jest w środku</text>
+<rect x="20" y="70" width="150" height="80" rx="8" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="95.0" y="110.0" class="podt" text-anchor="middle">filtr EMC</text>
+<text x="95.0" y="130.0" class="male" text-anchor="middle">+ bezpiecznik</text>
+<rect x="180" y="70" width="150" height="80" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="255.0" y="110.0" class="podt" text-anchor="middle">prostownik</text>
+<text x="255.0" y="130.0" class="male" text-anchor="middle">+ kondensator</text>
+<rect x="340" y="70" width="150" height="80" rx="8" fill="#d6eaf8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="415.0" y="110.0" class="podt" text-anchor="middle">klucz</text>
+<text x="415.0" y="130.0" class="male" text-anchor="middle">tranzystor 50–200 kHz</text>
+<rect x="500" y="70" width="150" height="80" rx="8" fill="#e8daef" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="575.0" y="110.0" class="podt" text-anchor="middle">transformator</text>
+<text x="575.0" y="130.0" class="male" text-anchor="middle">mały, ferrytowy</text>
+<rect x="660" y="70" width="150" height="80" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="735.0" y="110.0" class="podt" text-anchor="middle">prostownik</text>
+<text x="735.0" y="130.0" class="male" text-anchor="middle">+ filtr → 12/24 V DC</text>
+<line x1="170" y1="110" x2="180" y2="110" stroke="#555" stroke-width="2"/><path d="M180.0 110.0 L171.7 113.5 L171.7 106.5 Z" fill="#555"/>
+<line x1="330" y1="110" x2="340" y2="110" stroke="#555" stroke-width="2"/><path d="M340.0 110.0 L331.7 113.5 L331.7 106.5 Z" fill="#555"/>
+<line x1="490" y1="110" x2="500" y2="110" stroke="#555" stroke-width="2"/><path d="M500.0 110.0 L491.7 113.5 L491.7 106.5 Z" fill="#555"/>
+<line x1="650" y1="110" x2="660" y2="110" stroke="#555" stroke-width="2"/><path d="M660.0 110.0 L651.7 113.5 L651.7 106.5 Z" fill="#555"/>
+<path d="M735 150 L735 195 L415 195 L415 152" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M415 152 l-6 10 l12 0 Z" fill="#555"/>
+<text x="575" y="215" class="male" text-anchor="middle">regulacja przez transoptor (izolacja zachowana)</text>
+<line x1="575" y1="55" x2="575" y2="92" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="8 5"/>
+<line x1="575" y1="138" x2="575" y2="175" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="8 5"/>
+<text x="575" y="50" class="male" text-anchor="middle" style="fill:#c0392b;font-weight:bold">izolacja wzmocniona (SELV)</text>
+<text x="95" y="175" class="male" text-anchor="middle">kondensatory Y do PE →</text>
+<text x="95" y="192" class="male" text-anchor="middle" style="font-weight:bold">prąd upływu ~0,5–3 mA</text>
+<rect x="20" y="240" width="395" height="210" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="36" y="266" class="male" text-anchor="start">Zalety:</text>
+<text x="36" y="291" class="male" text-anchor="start">• mały i lekki (wysoka częstotliwość = mały</text>
+<text x="36" y="316" class="male" text-anchor="start">  transformator),</text>
+<text x="36" y="341" class="male" text-anchor="start">• sprawność 85–95 %,</text>
+<text x="36" y="366" class="male" text-anchor="start">• szeroki zakres napięcia wejściowego</text>
+<text x="36" y="391" class="male" text-anchor="start">  (często 100–240 V),</text>
+<text x="36" y="416" class="male" text-anchor="start">• stabilne napięcie wyjściowe.</text>
+<rect x="425" y="240" width="395" height="210" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="441" y="266" class="male" text-anchor="start">Na co uważać:</text>
+<text x="441" y="291" class="male" text-anchor="start">• prąd załączania (ładowanie kondensatora)</text>
+<text x="441" y="316" class="male" text-anchor="start">  — wiele zasilaczy na jednym wyłączniku,</text>
+<text x="441" y="341" class="male" text-anchor="start">• prąd upływu do PE — suma za jednym RCD,</text>
+<text x="441" y="366" class="male" text-anchor="start">• harmoniczne prądu (bez PFC),</text>
+<text x="441" y="391" class="male" text-anchor="start">• kondensator wejściowy po wyłączeniu</text>
+<text x="441" y="416" class="male" text-anchor="start">  może być naładowany do ~325 V.</text>
+</svg>

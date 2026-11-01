@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="840" height="520" role="img" aria-labelledby="t d">
+  <title id="t">Pompa ciepła — obwody</title>
+  <desc id="d">Schemat typowych obwodów pompy ciepła z rozdzielnicy głównej: sprężarka jednostki zewnętrznej z zabezpieczeniem według instrukcji, na przykład C16 lub C20; grzałka elektryczna, na przykład 3 × B16 i przewód 5 × 2,5 mm²; sterownik i pompy obiegowe na osobnym obwodzie B10; sygnał taryfy lub SG Ready. Uwagi: typ RCD według instrukcji, jednostka zewnętrzna z odpowiednim IP, przewód w rurce, wyłącznik serwisowy przy urządzeniu, sprawdzenie mocy przyłączeniowej i taryfy. Wartości są przykładowe, obowiązuje instrukcja montażu.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="520" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Pompa ciepła — typowe obwody zasilania</text>
+<rect x="30" y="70" width="140" height="60" rx="8" fill="#ecf0f1" stroke="#555" stroke-width="1.4"/>
+<text x="100.0" y="105.0" class="podt" text-anchor="middle">RG domu</text>
+<path d="M100 130 L100 190 L200 190" fill="none" stroke="#555" stroke-width="2"/>
+<rect x="200" y="160" width="400" height="60" rx="8" fill="#d6eaf8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="215" y="184" class="podt" text-anchor="start">sprężarka (jedn. zewn.)</text>
+<text x="215" y="206" class="male" text-anchor="start">wg instrukcji, np. C16 / C20; przewód wg instrukcji</text>
+<path d="M100 130 L100 265 L200 265" fill="none" stroke="#555" stroke-width="2"/>
+<rect x="200" y="235" width="400" height="60" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="215" y="259" class="podt" text-anchor="start">grzałka elektryczna</text>
+<text x="215" y="281" class="male" text-anchor="start">np. 3 × B16 (3–9 kW); 5 × 2,5 mm²</text>
+<path d="M100 130 L100 340 L200 340" fill="none" stroke="#555" stroke-width="2"/>
+<rect x="200" y="310" width="400" height="60" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="215" y="334" class="podt" text-anchor="start">sterownik / pompy obiegowe</text>
+<text x="215" y="356" class="male" text-anchor="start">B10, osobny obwód; 3 × 1,5 mm²</text>
+<path d="M100 130 L100 415 L200 415" fill="none" stroke="#555" stroke-width="2"/>
+<rect x="200" y="385" width="400" height="60" rx="8" fill="#e8daef" stroke="#8e44ad" stroke-width="1.4"/>
+<text x="215" y="409" class="podt" text-anchor="start">sygnał taryfy / SG Ready</text>
+<text x="215" y="431" class="male" text-anchor="start">styk z licznika / sterownika; przewód sterujący</text>
+<text x="620" y="170" class="male" text-anchor="start">RCD: typ wg instrukcji</text>
+<text x="620" y="191" class="male" text-anchor="start">(falownikowe sprężarki —</text>
+<text x="620" y="212" class="male" text-anchor="start">często typ B lub A/F</text>
+<text x="620" y="233" class="male" text-anchor="start">z ograniczeniami).</text>
+<text x="620" y="254" class="male" text-anchor="start"></text>
+<text x="620" y="275" class="male" text-anchor="start">Jednostka zewnętrzna:</text>
+<text x="620" y="296" class="male" text-anchor="start">IP, przewód w rurce,</text>
+<text x="620" y="317" class="male" text-anchor="start">wyłącznik serwisowy</text>
+<text x="620" y="338" class="male" text-anchor="start">przy urządzeniu.</text>
+<text x="620" y="359" class="male" text-anchor="start"></text>
+<text x="620" y="380" class="male" text-anchor="start">Moc przyłączeniowa:</text>
+<text x="620" y="401" class="male" text-anchor="start">sprawdź przed zakupem;</text>
+<text x="620" y="422" class="male" text-anchor="start">taryfa z tańszą strefą.</text>
+<rect x="20" y="465" width="800" height="40" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="420" y="490" class="male" text-anchor="middle">Przekroje i zabezpieczenia to przykład — obowiązuje instrukcja montażu konkretnej pompy (prąd rozruchu, typ RCD, przekrój).</text>
+</svg>

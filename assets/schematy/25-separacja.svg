@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 505" width="840" height="505" role="img" aria-labelledby="t d">
+  <title id="t">Transformator separacyjny</title>
+  <desc id="d">Dwa panele. Po lewej zwykła sieć: przewód N jest uziemiony, człowiek stojący na ziemi i dotykający L zamyka obwód przez ziemię do N — porażenie. Po prawej odbiornik zasilany przez transformator separacyjny: obwód wtórny 230 V nie ma połączenia z ziemią, więc dotknięcie jednego przewodu nie daje drogi powrotu prądu — brak porażenia. Zasady: jeden odbiornik na uzwojenie, obwód wtórny nieuziemiony, dotknięcie obu przewodów nadal poraża, autotransformator nie daje separacji; transformator bezpieczeństwa daje SELV do 50 V.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="505" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Transformator separacyjny: dotyk jednego przewodu nie poraża</text>
+<rect x="20" y="50" width="390" height="360" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="215" y="76" class="podt" text-anchor="middle">Zwykła sieć (TN)</text>
+<line x1="50" y1="110" x2="150" y2="110" stroke="#8b4513" stroke-width="3"/>
+<text x="46" y="114" class="male" text-anchor="end" style="fill:#8b4513">L</text>
+<line x1="50" y1="200" x2="150" y2="200" stroke="#1f5fbf" stroke-width="3"/>
+<text x="46" y="204" class="male" text-anchor="end" style="fill:#1f5fbf">N</text>
+<line x1="80" y1="200" x2="80" y2="210" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="69.0" y1="210" x2="91.0" y2="210" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="73.0" y1="215" x2="87.0" y2="215" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="77.0" y1="220" x2="83.0" y2="220" stroke="#1a1a1a" stroke-width="2"/>
+<text x="95" y="240" class="male" text-anchor="start">N sieci uziemiony</text>
+<line x1="150" y1="110" x2="350" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="150" y1="200" x2="350" y2="200" stroke="#1f5fbf" stroke-width="3"/>
+<circle cx="320" cy="230" r="9" fill="none" stroke="#555" stroke-width="2.5"/>
+<line x1="320" y1="239" x2="320" y2="270" stroke="#555" stroke-width="2.5"/>
+<line x1="320" y1="250" x2="304" y2="242" stroke="#555" stroke-width="2.5"/>
+<line x1="320" y1="250" x2="334" y2="260" stroke="#555" stroke-width="2.5"/>
+<line x1="320" y1="270" x2="310" y2="292" stroke="#555" stroke-width="2.5"/>
+<line x1="320" y1="270" x2="330" y2="292" stroke="#555" stroke-width="2.5"/>
+<line x1="304" y1="242" x2="300" y2="110" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="270" y="292" width="100" height="8" fill="#a1887f"/>
+<path d="M320 300 L320 315 L80 315 L80 222" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="215" y="340" class="opis" text-anchor="middle">Prąd: L → człowiek → ziemia → N sieci</text>
+<text x="215" y="380" class="male" text-anchor="middle" style="fill:#c0392b;font-weight:bold">✗ porażenie</text>
+<rect x="430" y="50" width="390" height="360" rx="8" fill="#ffffff" stroke="#d5d8dc" stroke-width="1.4"/>
+<text x="625" y="76" class="podt" text-anchor="middle">Za transformatorem separacyjnym</text>
+<line x1="460" y1="110" x2="560" y2="110" stroke="#8b4513" stroke-width="3"/>
+<text x="456" y="114" class="male" text-anchor="end" style="fill:#8b4513">L</text>
+<line x1="460" y1="200" x2="560" y2="200" stroke="#1f5fbf" stroke-width="3"/>
+<text x="456" y="204" class="male" text-anchor="end" style="fill:#1f5fbf">N</text>
+<line x1="490" y1="200" x2="490" y2="210" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="479.0" y1="210" x2="501.0" y2="210" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="483.0" y1="215" x2="497.0" y2="215" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="487.0" y1="220" x2="493.0" y2="220" stroke="#1a1a1a" stroke-width="2"/>
+<text x="505" y="240" class="male" text-anchor="start">N sieci uziemiony</text>
+<line x1="560" y1="110" x2="594" y2="110" stroke="#8b4513" stroke-width="3"/>
+<line x1="594" y1="110" x2="594" y2="120" stroke="#8b4513" stroke-width="3"/>
+<line x1="560" y1="200" x2="594" y2="200" stroke="#1f5fbf" stroke-width="3"/>
+<line x1="594" y1="190" x2="594" y2="200" stroke="#1f5fbf" stroke-width="3"/>
+<path d="M594 122.5 A7.5 7.5 0 0 1 594 137.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M594 137.5 A7.5 7.5 0 0 1 594 152.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M594 152.5 A7.5 7.5 0 0 1 594 167.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M594 167.5 A7.5 7.5 0 0 1 594 182.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M626 122.5 A7.5 7.5 0 0 0 626 137.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M626 137.5 A7.5 7.5 0 0 0 626 152.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M626 152.5 A7.5 7.5 0 0 0 626 167.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M626 167.5 A7.5 7.5 0 0 0 626 182.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="607" y1="120" x2="607" y2="190" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="613" y1="120" x2="613" y2="190" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="626" y1="120" x2="626" y2="110" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="626" y1="110" x2="760" y2="110" stroke="#e67e22" stroke-width="3"/>
+<line x1="626" y1="190" x2="626" y2="200" stroke="#1a1a1a" stroke-width="2.5"/>
+<line x1="626" y1="200" x2="760" y2="200" stroke="#e67e22" stroke-width="3"/>
+<text x="695" y="100" class="male" text-anchor="middle">230 V — bez połączenia z ziemią</text>
+<circle cx="730" cy="230" r="9" fill="none" stroke="#555" stroke-width="2.5"/>
+<line x1="730" y1="239" x2="730" y2="270" stroke="#555" stroke-width="2.5"/>
+<line x1="730" y1="250" x2="714" y2="242" stroke="#555" stroke-width="2.5"/>
+<line x1="730" y1="250" x2="744" y2="260" stroke="#555" stroke-width="2.5"/>
+<line x1="730" y1="270" x2="720" y2="292" stroke="#555" stroke-width="2.5"/>
+<line x1="730" y1="270" x2="740" y2="292" stroke="#555" stroke-width="2.5"/>
+<line x1="714" y1="242" x2="710" y2="110" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="680" y="292" width="100" height="8" fill="#a1887f"/>
+<text x="625" y="330" class="opis" text-anchor="middle">Prąd nie ma którędy wrócić:</text>
+<text x="625" y="350" class="opis" text-anchor="middle">obwód wtórny nie ma połączenia z ziemią.</text>
+<text x="625" y="380" class="male" text-anchor="middle" style="fill:#1e8449;font-weight:bold">✓ dotyk jednego przewodu — bez porażenia</text>
+<rect x="20" y="420" width="800" height="70" rx="8" fill="#fef9e7" stroke="#f4d03f" stroke-width="1.4"/>
+<text x="40" y="442" class="male" text-anchor="start">Zasady: jeden odbiornik na uzwojenie, obwód wtórny nieuziemiony i niepołączony z PE, przewody krótkie i widoczne.</text>
+<text x="40" y="462" class="male" text-anchor="start">Dotknięcie OBU przewodów wtórnych poraża jak zwykle. Autotransformator NIE daje separacji — uzwojenia są połączone.</text>
+<text x="40" y="482" class="male" text-anchor="start">Transformator bezpieczeństwa (PN-EN 61558-2-6) daje dodatkowo SELV ≤ 50 V AC; separacyjny — PN-EN 61558-2-4.</text>
+</svg>

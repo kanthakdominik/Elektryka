@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 495" width="840" height="495" role="img" aria-labelledby="t d">
+  <title id="t">Wallbox — moc i zasilanie</title>
+  <desc id="d">Tabela: wallbox 3,7 kW jednofazowy 16 A, przewód przykładowo 3 × 2,5, zabezpieczenie 16 A; 7,4 kW jednofazowy 32 A, 3 × 6 mm², C32; 11 kW trójfazowy 16 A, 5 × 4 mm² lub 5 × 6 przy długiej trasie, C16 trójbiegunowy; 22 kW trójfazowy 32 A, 5 × 10 mm², C32; zawsze z RCD; przekroje przykładowe. Dynamiczne zarządzanie mocą: przekładniki lub licznik na zasilaniu domu przekazują wallboxowi informację o poborze, wallbox zmniejsza prąd ładowania. Wymagania: osobny obwód, RCD typu B albo typu A z wykrywaniem 6 mA DC; na zewnątrz w TN-C-S wykrywanie przerwy PEN lub uziom; ładowanie z gniazda tylko ładowarką z zabezpieczeniem, bez przedłużacza, z ograniczonym prądem.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="495" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Wallbox: moc, prąd i zasilanie</text>
+<rect x="30" y="55" width="780" height="30" fill="#eaecee"/>
+<text x="40" y="75" class="male" text-anchor="start" style="font-weight:bold">moc</text>
+<text x="140" y="75" class="male" text-anchor="start" style="font-weight:bold">zasilanie</text>
+<text x="260" y="75" class="male" text-anchor="start" style="font-weight:bold">prąd</text>
+<text x="340" y="75" class="male" text-anchor="start" style="font-weight:bold">przykładowy przewód Cu*</text>
+<text x="640" y="75" class="male" text-anchor="start" style="font-weight:bold">zabezpieczenie*</text>
+<text x="40" y="105" class="male" text-anchor="start" style="font-weight:bold">3,7 kW</text>
+<text x="140" y="105" class="male" text-anchor="start">1 × 230 V</text>
+<text x="260" y="105" class="male" text-anchor="start">16 A</text>
+<text x="340" y="105" class="male" text-anchor="start">3 × 2,5 mm²</text>
+<text x="640" y="105" class="male" text-anchor="start">B/C 16 + RCD</text>
+<text x="40" y="135" class="male" text-anchor="start" style="font-weight:bold">7,4 kW</text>
+<text x="140" y="135" class="male" text-anchor="start">1 × 230 V</text>
+<text x="260" y="135" class="male" text-anchor="start">32 A</text>
+<text x="340" y="135" class="male" text-anchor="start">3 × 6 mm²</text>
+<text x="640" y="135" class="male" text-anchor="start">C 32 + RCD</text>
+<text x="40" y="165" class="male" text-anchor="start" style="font-weight:bold">11 kW</text>
+<text x="140" y="165" class="male" text-anchor="start">3 × 400 V</text>
+<text x="260" y="165" class="male" text-anchor="start">16 A</text>
+<text x="340" y="165" class="male" text-anchor="start">5 × 2,5 mm² (5 × 4 przy długiej trasie)</text>
+<text x="640" y="165" class="male" text-anchor="start">C 16 3P + RCD</text>
+<text x="40" y="195" class="male" text-anchor="start" style="font-weight:bold">22 kW</text>
+<text x="140" y="195" class="male" text-anchor="start">3 × 400 V</text>
+<text x="260" y="195" class="male" text-anchor="start">32 A</text>
+<text x="340" y="195" class="male" text-anchor="start">5 × 6 mm² (5 × 10 przy długiej trasie)</text>
+<text x="640" y="195" class="male" text-anchor="start">C 32 3P + RCD</text>
+<text x="30" y="240" class="male" text-anchor="start">* przykład dla krótkiej trasy w tynku — przekrój liczy się dla długości i ułożenia (16.02, 16.03).</text>
+<text x="420" y="272" class="podt" text-anchor="middle">Dynamiczne zarządzanie mocą</text>
+<rect x="40" y="300" width="120" height="50" rx="8" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="100.0" y="325.0" class="podt" text-anchor="middle">sieć</text>
+<text x="100.0" y="345.0" class="male" text-anchor="middle">przyłącze</text>
+<line x1="160" y1="325" x2="230" y2="325" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="250" cy="325" r="18" fill="none" stroke="#e67e22" stroke-width="5"/>
+<text x="250" y="365" class="male" text-anchor="middle">przekładniki / licznik</text>
+<line x1="268" y1="325" x2="330" y2="325" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="330" y="300" width="120" height="50" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="390.0" y="330.0" class="podt" text-anchor="middle">RG domu</text>
+<line x1="450" y1="325" x2="520" y2="325" stroke="#1a1a1a" stroke-width="3"/>
+<rect x="520" y="300" width="120" height="50" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="580.0" y="330.0" class="podt" text-anchor="middle">wallbox</text>
+<path d="M250 307 L250 290 L580 290 L580 300" fill="none" stroke="#e67e22" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="670" y="320" class="male" text-anchor="start">zmniejsza prąd ładowania,</text>
+<text x="670" y="338" class="male" text-anchor="start">gdy dom pobiera dużo</text>
+<rect x="20" y="390" width="800" height="90" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="40" y="413" class="male" text-anchor="start">• Osobny obwód, RCD 30 mA typu B albo typu A + wykrywanie DC 6 mA w wallboxie (PN-HD 60364-7-722).</text>
+<text x="40" y="436" class="male" text-anchor="start">• Na zewnątrz w TN-C-S: wallbox z wykrywaniem przerwy PEN albo własny uziom (warunek R·IΔn ≤ 50 V).</text>
+<text x="40" y="459" class="male" text-anchor="start">• Ładowanie z gniazda (Mode 2) — tylko ładowarką z zabezpieczeniem w przewodzie, bez przedłużacza, ok. 8–10 A.</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 485" width="840" height="485" role="img" aria-labelledby="t d">
+  <title id="t">Rodzaje UPS</title>
+  <desc id="d">Trzy rodzaje zasilaczy UPS. Offline: sieć zasila odbiornik bezpośrednio, przy zaniku napięcia UPS w kilka milisekund przełącza na falownik zasilany z baterii. Line-interactive: jak offline, ale dodatkowo układ AVR z autotransformatorem wyrównuje wahania napięcia bez używania baterii. Online z podwójną konwersją: energia zawsze płynie przez prostownik, obwód DC z baterią i falownik, bez czasu przełączenia; bypass omija UPS przy jego awarii. Moc UPS podaje się w VA i W, odbiorniki muszą zmieścić się w obu.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="485" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">UPS — trzy rodzaje pracy</text>
+<rect x="20" y="55" width="800" height="120" rx="8" fill="#fdebd0" stroke="#e67e22" stroke-width="1.4"/>
+<text x="40" y="81" class="podt" text-anchor="start">Offline (standby)</text>
+<text x="40" y="101" class="male" text-anchor="start">sieć idzie prosto do odbiornika; przy zaniku przełącza na falownik (kilka ms)</text>
+<text x="60" y="145" class="male" text-anchor="middle" style="font-weight:bold">sieć</text>
+<line x1="85" y1="141" x2="640" y2="141" stroke="#8b4513" stroke-width="3"/>
+<rect x="400" y="113" width="80" height="28" rx="5" fill="#ffffff" stroke="#555"/>
+<text x="440" y="132" class="male" text-anchor="middle">bateria</text>
+<rect x="500" y="113" width="90" height="28" rx="5" fill="#ffffff" stroke="#555"/>
+<text x="545" y="132" class="male" text-anchor="middle">falownik</text>
+<line x1="480" y1="127" x2="500" y2="127" stroke="#555" stroke-width="2" stroke-dasharray="4 3"/>
+<path d="M590 127 L615 127 L615 141" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="608" y="163" class="male" text-anchor="end">przełączenie</text>
+<rect x="650" y="121" width="140" height="40" rx="6" fill="#d6eaf8" stroke="#555"/>
+<text x="720" y="146" class="male" text-anchor="middle" style="font-weight:bold">odbiornik</text>
+<rect x="20" y="190" width="800" height="120" rx="8" fill="#fcf3cf" stroke="#d4ac0d" stroke-width="1.4"/>
+<text x="40" y="216" class="podt" text-anchor="start">Line-interactive</text>
+<text x="40" y="236" class="male" text-anchor="start">jak offline + autotransformator wyrównuje wahania napięcia bez baterii</text>
+<text x="60" y="280" class="male" text-anchor="middle" style="font-weight:bold">sieć</text>
+<line x1="85" y1="276" x2="640" y2="276" stroke="#8b4513" stroke-width="3"/>
+<rect x="250" y="260" width="100" height="32" rx="5" fill="#ffffff" stroke="#555"/>
+<text x="300" y="281" class="male" text-anchor="middle" style="font-weight:bold">AVR</text>
+<rect x="400" y="248" width="80" height="28" rx="5" fill="#ffffff" stroke="#555"/>
+<text x="440" y="267" class="male" text-anchor="middle">bateria</text>
+<rect x="500" y="248" width="90" height="28" rx="5" fill="#ffffff" stroke="#555"/>
+<text x="545" y="267" class="male" text-anchor="middle">falownik</text>
+<line x1="480" y1="262" x2="500" y2="262" stroke="#555" stroke-width="2" stroke-dasharray="4 3"/>
+<path d="M590 262 L615 262 L615 276" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="608" y="298" class="male" text-anchor="end">przełączenie</text>
+<rect x="650" y="256" width="140" height="40" rx="6" fill="#d6eaf8" stroke="#555"/>
+<text x="720" y="281" class="male" text-anchor="middle" style="font-weight:bold">odbiornik</text>
+<rect x="20" y="325" width="800" height="120" rx="8" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.4"/>
+<text x="40" y="351" class="podt" text-anchor="start">Online (podwójna konwersja)</text>
+<text x="40" y="371" class="male" text-anchor="start">zawsze: prostownik → bateria/DC → falownik; zero czasu przełączenia; przerywana linia = bypass przy awarii UPS</text>
+<text x="60" y="415" class="male" text-anchor="middle" style="font-weight:bold">sieć</text>
+<rect x="180" y="395" width="110" height="32" rx="5" fill="#ffffff" stroke="#555"/>
+<text x="235" y="416" class="male" text-anchor="middle">prostownik</text>
+<rect x="330" y="395" width="110" height="32" rx="5" fill="#ffffff" stroke="#555"/>
+<text x="385" y="416" class="male" text-anchor="middle">bateria / DC</text>
+<rect x="480" y="395" width="110" height="32" rx="5" fill="#ffffff" stroke="#555"/>
+<text x="535" y="416" class="male" text-anchor="middle">falownik</text>
+<line x1="85" y1="411" x2="180" y2="411" stroke="#555" stroke-width="2"/><path d="M180.0 411.0 L171.7 414.5 L171.7 407.5 Z" fill="#555"/>
+<line x1="290" y1="411" x2="330" y2="411" stroke="#555" stroke-width="2"/><path d="M330.0 411.0 L321.7 414.5 L321.7 407.5 Z" fill="#555"/>
+<line x1="440" y1="411" x2="480" y2="411" stroke="#555" stroke-width="2"/><path d="M480.0 411.0 L471.7 414.5 L471.7 407.5 Z" fill="#555"/>
+<line x1="590" y1="411" x2="640" y2="411" stroke="#555" stroke-width="2"/><path d="M640.0 411.0 L631.7 414.5 L631.7 407.5 Z" fill="#555"/>
+<path d="M120 395 L120 383 L615 383 L615 411" fill="none" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="5 4"/>
+<rect x="650" y="391" width="140" height="40" rx="6" fill="#d6eaf8" stroke="#555"/>
+<text x="720" y="416" class="male" text-anchor="middle" style="font-weight:bold">odbiornik</text>
+<text x="420" y="470" class="male" text-anchor="middle">Moc UPS podaje się w VA i w W (np. 1000 VA / 600 W) — odbiorniki muszą zmieścić się w obu wartościach.</text>
+</svg>

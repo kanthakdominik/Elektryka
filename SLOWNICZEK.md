@@ -137,5 +137,20 @@ Pojęcia z repozytorium: najpierw wyjaśnienie po ludzku, potem termin normowy i
 | Przekaźnik termiczny | Zabezpieczenie silnika przed przeciążeniem | przekaźnik przeciążeniowy | thermal overload relay | 24 |
 | Przemiennik częstotliwości | Falownik regulujący prędkość silnika | VFD | variable frequency drive | 24 |
 | Softstart | Układ łagodnego rozruchu | — | soft starter | 24 |
+| Agregat prądotwórczy | Silnik spalinowy z prądnicą | zespół prądotwórczy | generator set | 25 |
+| Autotransformator | Transformator z jednym uzwojeniem — bez separacji | — | autotransformer | 25 |
+| Przełącznik zasilania I-0-II | Wybiera sieć albo agregat, z pozycją 0 | przełącznik sieć–agregat | changeover switch | 25 |
+| SZR | Automatyczne przełączenie na zasilanie rezerwowe | samoczynne załączanie rezerwy | automatic transfer switch (ATS) | 25 |
+| Transformator separacyjny | Oddziela odbiornik od uziemionej sieci | PN-EN 61558-2-4 | isolating transformer | 25 |
+| UPS | Zasilacz awaryjny z baterią | system bezprzerwowego zasilania | uninterruptible power supply | 25 |
+| Zasilacz impulsowy | Zasilacz z kluczowaniem wysokiej częstotliwości | — | switched-mode power supply (SMPS) | 25 |
+| Anti-islanding | Wyłączenie falownika przy zaniku sieci | ochrona przed pracą wyspową | anti-islanding protection | 26 |
+| Falownik hybrydowy | Falownik PV z obsługą magazynu i backupu | — | hybrid inverter | 26 |
+| Łańcuch (string) | Panele PV połączone szeregowo | — | string | 26 |
+| Magazyn energii | Bateria z falownikiem do przechowywania energii | — | battery energy storage | 26 |
+| Mikroinstalacja | Instalacja OZE do 50 kW | ustawa o OZE | micro-installation | 26 |
+| Pompa ciepła | Urządzenie przepompowujące ciepło z otoczenia | — | heat pump | 26 |
+| RDC-DD | Wykrywanie prądu stałego 6 mA w wallboxie | IEC 62955 | residual direct current detecting device | 26 |
+| Wallbox | Domowa stacja ładowania samochodu (Mode 3) | punkt ładowania | wallbox, EV charger | 26 |
 
 <!-- Kolejne hasła dopisuj alfabetycznie w obrębie modułu przy jego wypełnianiu. -->

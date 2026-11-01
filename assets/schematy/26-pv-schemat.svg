@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 475" width="840" height="475" role="img" aria-labelledby="t d">
+  <title id="t">Mikroinstalacja PV</title>
+  <desc id="d">Schemat instalacji fotowoltaicznej: dwa łańcuchy paneli do około 1000 V DC, skrzynka DC z rozłącznikiem DC, ogranicznikiem przepięć DC i bezpiecznikami gPV przy trzech lub więcej łańcuchach, falownik zamieniający DC na AC 230/400 V, skrzynka AC z wyłącznikiem nadprądowym, ogranicznikiem przepięć AC i RCD według falownika, rozdzielnica główna, licznik dwukierunkowy i sieć operatora. Uwagi: mikroinstalacja do 50 kW na zgłoszenie, falownik wyłącza się przy zaniku sieci i przy napięciu powyżej 253 V, strona DC zawsze pod napięciem w dzień, powyżej 6,5 kW uzgodnienie ppoż i zawiadomienie PSP, połączenia wyrównawcze ram, norma PN-HD 60364-7-712.</desc>
+  <defs>
+    <pattern id="zz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#f1c40f"/><rect width="8" height="16" fill="#27ae60"/>
+    </pattern>
+    <pattern id="kresk" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ece7df"/><line x1="0" y1="0" x2="0" y2="8" stroke="#b9ad9b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+    .tytul { font-size: 20px; font-weight: bold; }
+    .podt { font-size: 15px; font-weight: bold; }
+    .opis { font-size: 13.5px; fill: #333333; }
+    .male { font-size: 12px; fill: #444444; }
+    .duze { font-size: 34px; font-weight: bold; }
+    .os { stroke: #555555; stroke-width: 1.5; }
+    .siatka { stroke: #e5e8e8; stroke-width: 1; }
+    .ramka { fill: #f8f9f9; stroke: #b3b6b7; stroke-width: 1.2; }
+  </style>
+  <rect width="840" height="475" fill="#ffffff"/>
+<text x="420" y="30" class="tytul" text-anchor="middle">Mikroinstalacja fotowoltaiczna — od panelu do sieci</text>
+<rect x="30" y="70" width="46" height="56" fill="#1f3a93" stroke="#555"/>
+<line x1="45" y1="70" x2="45" y2="126" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="60" y1="70" x2="60" y2="126" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="30" y1="98" x2="76" y2="98" stroke="#5d6d7e" stroke-width="0.8"/>
+<rect x="82" y="70" width="46" height="56" fill="#1f3a93" stroke="#555"/>
+<line x1="97" y1="70" x2="97" y2="126" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="112" y1="70" x2="112" y2="126" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="82" y1="98" x2="128" y2="98" stroke="#5d6d7e" stroke-width="0.8"/>
+<rect x="134" y="70" width="46" height="56" fill="#1f3a93" stroke="#555"/>
+<line x1="149" y1="70" x2="149" y2="126" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="164" y1="70" x2="164" y2="126" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="134" y1="98" x2="180" y2="98" stroke="#5d6d7e" stroke-width="0.8"/>
+<rect x="186" y="70" width="46" height="56" fill="#1f3a93" stroke="#555"/>
+<line x1="201" y1="70" x2="201" y2="126" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="216" y1="70" x2="216" y2="126" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="186" y1="98" x2="232" y2="98" stroke="#5d6d7e" stroke-width="0.8"/>
+<rect x="30" y="140" width="46" height="56" fill="#1f3a93" stroke="#555"/>
+<line x1="45" y1="140" x2="45" y2="196" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="60" y1="140" x2="60" y2="196" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="30" y1="168" x2="76" y2="168" stroke="#5d6d7e" stroke-width="0.8"/>
+<rect x="82" y="140" width="46" height="56" fill="#1f3a93" stroke="#555"/>
+<line x1="97" y1="140" x2="97" y2="196" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="112" y1="140" x2="112" y2="196" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="82" y1="168" x2="128" y2="168" stroke="#5d6d7e" stroke-width="0.8"/>
+<rect x="134" y="140" width="46" height="56" fill="#1f3a93" stroke="#555"/>
+<line x1="149" y1="140" x2="149" y2="196" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="164" y1="140" x2="164" y2="196" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="134" y1="168" x2="180" y2="168" stroke="#5d6d7e" stroke-width="0.8"/>
+<rect x="186" y="140" width="46" height="56" fill="#1f3a93" stroke="#555"/>
+<line x1="201" y1="140" x2="201" y2="196" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="216" y1="140" x2="216" y2="196" stroke="#5d6d7e" stroke-width="0.8"/>
+<line x1="186" y1="168" x2="232" y2="168" stroke="#5d6d7e" stroke-width="0.8"/>
+<text x="130" y="222" class="male" text-anchor="middle">łańcuchy (stringi) paneli</text>
+<text x="130" y="238" class="male" text-anchor="middle" style="font-weight:bold">do ok. 1000 V DC</text>
+<path d="M240 100 L280 100" fill="none" stroke="#c0392b" stroke-width="3"/>
+<path d="M240 170 L280 170" fill="none" stroke="#c0392b" stroke-width="3"/>
+<rect x="280" y="70" width="140" height="150" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.4"/>
+<text x="350" y="92" class="podt" text-anchor="middle">skrzynka DC</text>
+<text x="292" y="118" class="male" text-anchor="start">rozłącznik DC</text>
+<text x="292" y="140" class="male" text-anchor="start">SPD DC (Ucpv)</text>
+<text x="292" y="162" class="male" text-anchor="start">bezpieczniki gPV</text>
+<text x="292" y="184" class="male" text-anchor="start">(gdy ≥ 3 łańcuchy)</text>
+<line x1="420" y1="145" x2="460" y2="145" stroke="#c0392b" stroke-width="3"/>
+<rect x="460" y="105" width="120" height="80" rx="8" fill="#d6eaf8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="520.0" y="145.0" class="podt" text-anchor="middle">falownik</text>
+<text x="520.0" y="165.0" class="male" text-anchor="middle">DC → AC 230/400 V</text>
+<line x1="580" y1="145" x2="610" y2="145" stroke="#8b4513" stroke-width="3"/>
+<rect x="610" y="70" width="120" height="150" rx="8" fill="#eaf2f8" stroke="#2e86c1" stroke-width="1.4"/>
+<text x="670" y="92" class="podt" text-anchor="middle">skrzynka AC</text>
+<text x="620" y="118" class="male" text-anchor="start">wyłącznik</text>
+<text x="620" y="140" class="male" text-anchor="start">nadprądowy</text>
+<text x="620" y="162" class="male" text-anchor="start">SPD AC</text>
+<text x="620" y="184" class="male" text-anchor="start">RCD wg falownika</text>
+<line x1="730" y1="145" x2="760" y2="145" stroke="#8b4513" stroke-width="3"/>
+<rect x="760" y="115" width="60" height="60" rx="8" fill="#ecf0f1" stroke="#555" stroke-width="1.4"/>
+<text x="790.0" y="150.0" class="podt" text-anchor="middle">RG</text>
+<line x1="790" y1="175" x2="790" y2="250" stroke="#8b4513" stroke-width="3"/>
+<rect x="728" y="250" width="104" height="50" rx="8" fill="#ffffff" stroke="#555" stroke-width="1.4"/>
+<text x="780.0" y="275.0" class="podt" text-anchor="middle">licznik</text>
+<text x="780.0" y="295.0" class="male" text-anchor="middle">dwukierunk.</text>
+<line x1="790" y1="300" x2="790" y2="330" stroke="#8b4513" stroke-width="3"/>
+<text x="790" y="348" class="male" text-anchor="middle" style="font-weight:bold">sieć OSD</text>
+<rect x="20" y="260" width="680" height="200" rx="8" fill="#f8f9f9" stroke="#b3b6b7" stroke-width="1.4"/>
+<text x="36" y="286" class="male" text-anchor="start">• Mikroinstalacja: do 50 kW, sieć poniżej 110 kV — na zgłoszenie do OSD (moc ≤ przyłączeniowa).</text>
+<text x="36" y="311" class="male" text-anchor="start">• Falownik on-grid wyłącza się przy zaniku sieci (anti-islanding) — bez backupu dom nie ma prądu.</text>
+<text x="36" y="336" class="male" text-anchor="start">• Falownik odłącza się też przy za wysokim napięciu (powyżej 253 V) — patrz 26.03.</text>
+<text x="36" y="361" class="male" text-anchor="start">• Strona DC: zawsze pod napięciem w dzień, łuk DC nie gaśnie sam (26.02).</text>
+<text x="36" y="386" class="male" text-anchor="start">• Powyżej 6,5 kW — uzgodnienie z rzeczoznawcą ppoż. i zawiadomienie PSP.</text>
+<text x="36" y="411" class="male" text-anchor="start">• Ramy paneli i konstrukcja — połączenie wyrównawcze; odstępy od instalacji odgromowej.</text>
+<text x="36" y="436" class="male" text-anchor="start">• Wymagania: PN-HD 60364-7-712; po montażu — pomiary i protokół.</text>
+</svg>

@@ -132,7 +132,6 @@ Schematy z `assets/schematy/` są treścią własną repozytorium (CC BY-SA 4.0)
 | `24-falownik-pompa.jpg` | KSB Aktiengesellschaft, Frankenthal | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:KSB_09_Etanorm_mit_Motor_und_Frequenzumrichter.jpg) |
 | `24-silnik-kondensator.png` | Elcap | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Motor-with-run-capacitor.png) |
 | `25-zasilacz-impulsowy.jpg` | Phiarc | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mean_Well_HRP-100_smps.jpg) |
-| `25-zasilacz-pc-pcb.jpg` | Hans Haase | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:XT-PC-Power-Supply-PCB-IMG_0436.JPG) |
 | `25-ups.jpg` | MSDN.WhiteKnight | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:APC_Back-UPS_ES525.jpg) |
 | `25-ups-wnetrze.jpg` | Hundehalter | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apc_ups_rs500_08.jpg) |
 | `25-agregat.jpg` | Thiemo Schuff | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tragbares_stromaggregat.jpg) |
