@@ -1,0 +1,973 @@
+#separator:tab
+#html:true
+#tags column:3
+Liczba zasad<br><small>każda praca przy urządzeniu odłączonym od napięcia</small><br><small>00.01</small>	<b>5</b>, zawsze w tej samej kolejności<br><small>źródło: PN-EN 50110-1, rozdz. 6.2</small>	elektryka::00 temat::00_01 liczby
+Kolejność po pracy<br><small>zakończenie pracy</small><br><small>00.01</small>	<b>odwrotna</b>: osłony → uziemienia → blokada → załączenie<br><small>źródło: PN-EN 50110-1, rozdz. 6.2</small>	elektryka::00 temat::00_01 liczby
+Ile biegunów odłączać<br><small>odłączanie obwodu</small><br><small>00.01</small>	<b>wszystkie przewody czynne</b> (L i N; w trójfazowym L1, L2, L3, N)<br><small>źródło: PN-EN 50110-1, rozdz. 6.2</small>	elektryka::00 temat::00_01 liczby
+Uziemienie<br><small>instalacje nN w budynkach</small><br><small>00.01</small>	jeśli wymaga tego technologia prac; w instalacji nN bez ryzyka pojawienia się napięcia zwykle pomijane<br><small>źródło: rozporządzenie BHP 2019, § 25 ust. 1</small>	elektryka::00 temat::00_01 liczby
+Widoczność uziemienia<br><small>gdy uziemienie jest zakładane</small><br><small>00.01</small>	co najmniej jedno uziemienie widoczne z miejsca pracy<br><small>źródło: rozporządzenie BHP 2019, § 25 ust. 2</small>	elektryka::00 temat::00_01 liczby
+Pary do sprawdzenia, jednofazowo<br><small>obwód z L, N, PE</small><br><small>00.02</small>	<b>3</b>: L–N, L–PE, N–PE<br><small>źródło: zasada: wszystkie przewody czynne i PE</small>	elektryka::00 temat::00_02 liczby
+Pary do sprawdzenia, trójfazowo<br><small>obwód z L1, L2, L3, N, PE</small><br><small>00.02</small>	<b>10</b>: 3 × L–L, 3 × L–N, 3 × L–PE, N–PE<br><small>źródło: zasada: wszystkie przewody czynne i PE</small>	elektryka::00 temat::00_02 liczby
+Napięcie fantomowe na multimetrze<br><small>wyłączony przewód obok przewodu pod napięciem, przyrząd o dużej impedancji wejściowej</small><br><small>00.02</small>	może sięgać <b>kilkudziesięciu V</b><br><small>źródło: zjawisko fizyczne; moduł 22</small>	elektryka::00 temat::00_02 liczby
+Kategoria wskaźnika w instalacji domowej<br><small>wybór przyrządu</small><br><small>00.02</small>	co najmniej <b>CAT III</b> (najlepiej CAT IV przy złączu i liczniku)<br><small>źródło: PN-EN 61010-1; moduł 22</small>	elektryka::00 temat::00_02 liczby
+Kolejność<br><small>każde sprawdzanie braku napięcia</small><br><small>00.02</small>	<b>sprawdź → zmierz → sprawdź</b><br><small>źródło: dobra praktyka i instrukcje producentów</small>	elektryka::00 temat::00_02 liczby
+Obsługa bez świadectwa — urządzenia elektryczne<br><small>gdy dokumentacja urządzenia określa zasady obsługi; dotyczy tylko obsługi</small><br><small>00.03</small>	<b>do 1 kV i do 20 kW</b><br><small>źródło: rozporządzenie z 2022 r., § 5 pkt 1</small>	elektryka::00 temat::00_03 liczby
+Obsługa bez świadectwa — urządzenia cieplne<br><small>tylko obsługa</small><br><small>00.03</small>	<b>do 50 kW</b><br><small>źródło: rozporządzenie z 2022 r., § 5 pkt 2</small>	elektryka::00 temat::00_03 liczby
+Ważność świadectwa kwalifikacyjnego<br><small>świadectwa dla osób zajmujących się eksploatacją</small><br><small>00.03</small>	<b>5 lat</b> od dnia wydania<br><small>źródło: Prawo energetyczne, art. 54 ust. 1aa</small>	elektryka::00 temat::00_03 liczby
+Kontrola okresowa budynku z badaniem instalacji elektrycznej<br><small>każdy obiekt budowlany, także dom jednorodzinny</small><br><small>00.03</small>	<b>co najmniej raz na 5 lat</b><br><small>źródło: Prawo budowlane, art. 62 ust. 1 pkt 2</small>	elektryka::00 temat::00_03 liczby
+Kto może badać instalację w ramach kontroli<br><small>kontrola z art. 62 ust. 1 pkt 2</small><br><small>00.03</small>	osoba z kwalifikacjami <b>dozoru</b><br><small>źródło: Prawo budowlane, art. 62 ust. 5</small>	elektryka::00 temat::00_03 liczby
+Numer alarmowy<br><small>pożar, porażenie, zagrożenie życia</small><br><small>00.04</small>	<b>112</b><br><small>źródło: ratownictwo, straż pożarna</small>	elektryka::00 temat::00_04 liczby
+Pogotowie energetyczne<br><small>brak zasilania w okolicy, zerwany przewód, uszkodzone złącze, problem przed licznikiem</small><br><small>00.04</small>	<b>991</b><br><small>źródło: operator sieci</small>	elektryka::00 temat::00_04 liczby
+Napięcie w mieszkaniu przy przerwie N w instalacji trójfazowej<br><small>przerwa przewodu neutralnego przed rozdzielnicą</small><br><small>00.04</small>	od kilkudziesięciu do <b>prawie 400 V</b> w zależności od obciążenia faz<br><small>źródło: niszczy sprzęt, grozi pożarem — wyłącz wyłącznik główny</small>	elektryka::00 temat::00_04 liczby
+Przegląd instalacji<br><small>każdy budynek</small><br><small>00.04</small>	co najmniej <b>raz na 5 lat</b><br><small>źródło: Prawo budowlane, art. 62 (00.03)</small>	elektryka::00 temat::00_04 liczby
+Prąd<br><small>prąd stały lub wartość średnia w czasie \(t\)</small><br><small>01.01</small>	\(I = \dfrac{Q}{t}\)<br><small>źródło: definicja</small>	elektryka::01 temat::01_01 liczby
+1 amper<br><small>—</small><br><small>01.01</small>	1 kulomb na sekundę ≈ <b>6,24·10¹⁸</b> elektronów na sekundę<br><small>źródło: ładunek elektronu \(e = 1{,}602 \cdot 10^{-19}\ \mathrm{C}\)</small>	elektryka::01 temat::01_01 liczby
+1 Ah<br><small>pojemność akumulatorów</small><br><small>01.01</small>	<b>3600 C</b><br><small>źródło: \(1\ \mathrm{A} \cdot 3600\ \mathrm{s}\)</small>	elektryka::01 temat::01_01 liczby
+Prędkość dryfu elektronów<br><small>przewód miedziany</small><br><small>01.01</small>	ułamki <b>mm/s</b> (ok. 0,5 mm/s przy 10 A w 1,5 mm²)<br><small>źródło: \(v = \dfrac{I}{n\,e\,S}\), \(n_{Cu} \approx 8{,}5 \cdot 10^{28}\ \mathrm{m^{-3}}\)</small>	elektryka::01 temat::01_01 liczby
+Typowe prądy<br><small>230 V</small><br><small>01.01</small>	LED ~0,03 A · laptop ~0,3 A · czajnik ~8,7 A · obwód gniazd z wyłącznikiem B16 — do 16 A<br><small>źródło: 01.04</small>	elektryka::01 temat::01_01 liczby
+Prąd groźny dla człowieka<br><small>prąd przemienny 50 Hz</small><br><small>01.01</small>	już <b>dziesiątki miliamperów</b> (stąd różnicówki 30 mA)<br><small>źródło: moduł 04</small>	elektryka::01 temat::01_01 liczby
+Napięcie fazowe (L–N, L–PE)<br><small>sieć nN w Polsce</small><br><small>01.02</small>	<b>230 V</b><br><small>źródło: PN-EN 60038</small>	elektryka::01 temat::01_02 liczby
+Napięcie międzyfazowe (L–L)<br><small>sieć trójfazowa nN</small><br><small>01.02</small>	<b>400 V</b> ≈ \(230 \cdot \sqrt{3}\)<br><small>źródło: PN-EN 60038; moduł 02</small>	elektryka::01 temat::01_02 liczby
+N–PE<br><small>układ TN, poprawna instalacja</small><br><small>01.02</small>	<b>prawie 0 V</b> (w praktyce do kilku V)<br><small>źródło: moduł 11</small>	elektryka::01 temat::01_02 liczby
+Dopuszczalne odchylenie napięcia<br><small>odbiorcy zasilani z sieci nN (grupy przyłączeniowe III–V)</small><br><small>01.02</small>	<b>±10 %</b>, czyli 207–253 V, dla 95 % średnich 10-minutowych w tygodniu<br><small>źródło: rozporządzenie MKiŚ z 2023 r., § 45 ust. 5 pkt 2; PN-EN 50160</small>	elektryka::01 temat::01_02 liczby
+Częstotliwość<br><small>sieć połączona z systemem</small><br><small>01.02</small>	<b>50 Hz ±1 %</b> przez 99,5 % tygodnia<br><small>źródło: rozporządzenie MKiŚ z 2023 r., § 45 ust. 5 pkt 2; PN-EN 50160, § 45 ust. 5 pkt 1</small>	elektryka::01 temat::01_02 liczby
+Prawo Ohma<br><small>przewodniki liniowe (metale w stałej temperaturze)</small><br><small>01.03</small>	\(I = \dfrac{U}{R}\), \(U = I \cdot R\), \(R = \dfrac{U}{I}\)<br><small>źródło: definicja</small>	elektryka::01 temat::01_03 liczby
+Opór przewodu<br><small>przewód o stałym przekroju</small><br><small>01.03</small>	\(R = \rho \dfrac{l}{S}\)<br><small>źródło: definicja</small>	elektryka::01 temat::01_03 liczby
+Rezystywność miedzi<br><small>ok. 20 °C; w obliczeniach instalacyjnych</small><br><small>01.03</small>	<b>0,0175 Ω·mm²/m</b> (≈ 1/57)<br><small>źródło: tabele producentów, PN-EN 60228 (dokładnie 0,01724 przy 20 °C)</small>	elektryka::01 temat::01_03 liczby
+Rezystywność aluminium<br><small>ok. 20 °C</small><br><small>01.03</small>	<b>0,0286 Ω·mm²/m</b> (≈ 1/35) — ok. <b>1,6 ×</b> więcej niż miedź<br><small>źródło: tabele producentów, PN-EN 60228 (dokładnie 0,01724 przy 20 °C)</small>	elektryka::01 temat::01_03 liczby
+Wzrost oporu miedzi z temperaturą<br><small>metale</small><br><small>01.03</small>	ok. <b>0,4 % na 1 °C</b>; przy 70 °C ok. <b>+20 %</b> względem 20 °C<br><small>źródło: α ≈ 0,0039 1/K</small>	elektryka::01 temat::01_03 liczby
+Opór 1 m przewodu Cu 1,5 mm²<br><small>ok. 20 °C</small><br><small>01.03</small>	ok. <b>0,012 Ω</b><br><small>źródło: \(0{,}0175 / 1{,}5\)</small>	elektryka::01 temat::01_03 liczby
+Opór 1 m przewodu Cu 2,5 mm²<br><small>ok. 20 °C</small><br><small>01.03</small>	ok. <b>0,007 Ω</b><br><small>źródło: \(0{,}0175 / 2{,}5\)</small>	elektryka::01 temat::01_03 liczby
+Opór ciała człowieka<br><small>szacunek przy 230 V</small><br><small>01.03</small>	rzędu <b>1000 Ω</b> (bardzo zależny od napięcia, wilgotności i drogi prądu)<br><small>źródło: moduł 04</small>	elektryka::01 temat::01_03 liczby
+Moc<br><small>prąd stały; przy przemiennym dla odbiorników rezystancyjnych (grzałki, żarówki)</small><br><small>01.04</small>	\(P = U \cdot I\)<br><small>źródło: moduł 02 — współczynnik mocy</small>	elektryka::01 temat::01_04 liczby
+Moc a opór<br><small>odbiornik o stałym oporze</small><br><small>01.04</small>	\(P = I^2 R = \dfrac{U^2}{R}\)<br><small>źródło: z prawa Ohma</small>	elektryka::01 temat::01_04 liczby
+Energia<br><small>stała moc</small><br><small>01.04</small>	\(E = P \cdot t\)<br><small>źródło: definicja</small>	elektryka::01 temat::01_04 liczby
+1 kWh<br><small>—</small><br><small>01.04</small>	<b>3,6 MJ</b><br><small>źródło: \(1000\ \mathrm{W} \cdot 3600\ \mathrm{s}\)</small>	elektryka::01 temat::01_04 liczby
+Prąd przy 230 V<br><small>odbiornik jednofazowy rezystancyjny</small><br><small>01.04</small>	ok. <b>4,35 A na każdy 1 kW</b><br><small>źródło: \(I = P / 230\)</small>	elektryka::01 temat::01_04 liczby
+Moc przy 16 A i 230 V<br><small>granica typowego gniazda i obwodu z wyłącznikiem B16</small><br><small>01.04</small>	<b>3680 W</b><br><small>źródło: \(230 \cdot 16\)</small>	elektryka::01 temat::01_04 liczby
+Moc grzałki przy 207 V<br><small>dolna granica napięcia (230 V − 10 %)</small><br><small>01.04</small>	<b>81 %</b> mocy znamionowej<br><small>źródło: \(P \sim U^2\)</small>	elektryka::01 temat::01_04 liczby
+Moc z licznika tarczowego<br><small>\(n\) obrotów w czasie \(t\), stała \(C\) obr/kWh</small><br><small>01.04</small>	\(P\,[\mathrm{kW}] = \dfrac{n \cdot 3600}{C \cdot t\,[\mathrm{s}]}\)	elektryka::01 temat::01_04 liczby
+Prąd<br><small>suma: \(I = I_1 + I_2 + \ldots\)</small><br><small>01.05</small>	ten sam: \(I = I_1 = I_2 = \ldots\)<br><small>źródło: prawa Kirchhoffa</small>	elektryka::01 temat::01_05 liczby
+Napięcie<br><small>to samo: \(U = U_1 = U_2 = \ldots\)</small><br><small>01.05</small>	suma: \(U = U_1 + U_2 + \ldots\)<br><small>źródło: prawa Kirchhoffa</small>	elektryka::01 temat::01_05 liczby
+Opór zastępczy<br><small>\(\dfrac{1}{R} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \ldots\)</small><br><small>01.05</small>	\(R = R_1 + R_2 + \ldots\)<br><small>źródło: prawa Kirchhoffa</small>	elektryka::01 temat::01_05 liczby
+Dwa jednakowe opory<br><small>\(R/2\)</small><br><small>01.05</small>	\(2R\)<br><small>źródło: prawa Kirchhoffa</small>	elektryka::01 temat::01_05 liczby
+Moc całkowita<br><small>suma mocy (zawsze)</small><br><small>01.05</small>	suma mocy (zawsze)<br><small>źródło: zasada zachowania energii</small>	elektryka::01 temat::01_05 liczby
+Granica<br><small>Uwagi</small><br><small>01.05</small>	Wartość	elektryka::01 temat::01_05 liczby
+Gniazdo i wtyczka z bolcem (typ E/F)<br><small>maksymalnie dla gniazda i całej listwy z takim gniazdem</small><br><small>01.05</small>	<b>16 A / 3680 W</b>	elektryka::01 temat::01_05 liczby
+Płaska wtyczka „euro” (bez styku ochronnego)<br><small>lampki, ładowarki, małe RTV</small><br><small>01.05</small>	<b>2,5 A / ok. 575 W</b>	elektryka::01 temat::01_05 liczby
+Obwód gniazd z wyłącznikiem B16<br><small>suma prądów, nie na każde gniazdo</small><br><small>01.05</small>	<b>16 A łącznie</b> dla wszystkich gniazd obwodu	elektryka::01 temat::01_05 liczby
+Ciepło w przewodzie<br><small>zawsze</small><br><small>01.06</small>	\(P = I^2 R\) — <b>2 × prąd = 4 × ciepło</b><br><small>źródło: prawo Joule'a</small>	elektryka::01 temat::01_06 liczby
+Spadek napięcia (1 faza)<br><small>obwód jednofazowy, odbiornik rezystancyjny</small><br><small>01.06</small>	\(\Delta U = \dfrac{2\, l\, I\, \rho}{S}\); \(\Delta U\% = \dfrac{\Delta U}{230} \cdot 100\%\)<br><small>źródło: dokładniejsze wzory — moduł 16</small>	elektryka::01 temat::01_06 liczby
+Dopuszczalny spadek od licznika do odbiornika<br><small>instalacje w budynkach mieszkalnych</small><br><small>01.06</small>	<b>3 %</b><br><small>źródło: N SEP-E-002</small>	elektryka::01 temat::01_06 liczby
+Zalecany maksymalny spadek (od złącza)<br><small>instalacje zasilane z publicznej sieci nN</small><br><small>01.06</small>	<b>3 %</b> oświetlenie, <b>5 %</b> inne odbiorniki<br><small>źródło: PN-HD 60364-5-52, zał. G (informacyjny)</small>	elektryka::01 temat::01_06 liczby
+Temperatura pracy izolacji PVC<br><small>praca długotrwała</small><br><small>01.06</small>	<b>70 °C</b><br><small>źródło: normy przewodów, moduł 05</small>	elektryka::01 temat::01_06 liczby
+Przedłużacz na bębnie<br><small>wartości z etykiety bębna</small><br><small>01.06</small>	moc dla <b>zwiniętego</b> przewodu kilka razy mniejsza niż dla rozwiniętego<br><small>źródło: instrukcja producenta</small>	elektryka::01 temat::01_06 liczby
+Ciepło w luźnym zacisku przy 16 A<br><small>ilustracja</small><br><small>01.06</small>	<b>12,8 W</b> przy 0,05 Ω (vs 0,26 W przy 0,001 Ω)<br><small>źródło: \(P = I^2 R\)</small>	elektryka::01 temat::01_06 liczby
+Prąd zwarcia<br><small>\(U_0\) = 230 V, \(Z_s\) — impedancja pętli</small><br><small>01.07</small>	\(I_{zw} = \dfrac{U_0}{Z_s}\)<br><small>źródło: prawo Ohma; moduł 12</small>	elektryka::01 temat::01_07 liczby
+Umowny prąd niezadziałania<br><small>wyłączniki do 63 A, stan zimny</small><br><small>01.07</small>	<b>1,13 \(I_n\)</b> — nie zadziała przez 1 h<br><small>źródło: PN-EN 60898-1</small>	elektryka::01 temat::01_07 liczby
+Umowny prąd zadziałania<br><small>wyłączniki do 63 A, po próbie 1,13 \(I_n\)</small><br><small>01.07</small>	<b>1,45 \(I_n\)</b> — zadziała w czasie krótszym niż 1 h<br><small>źródło: PN-EN 60898-1</small>	elektryka::01 temat::01_07 liczby
+Strefa między 1,13 a 1,45 \(I_n\)<br><small>przeciążenie</small><br><small>01.07</small>	czas zadziałania <b>nieokreślony</b> — od minut do ponad godziny<br><small>źródło: PN-EN 60898-1</small>	elektryka::01 temat::01_07 liczby
+Zadziałanie natychmiastowe (człon elektromagnetyczny)<br><small>prąd przemienny</small><br><small>01.07</small>	<b>B: 3–5 \(I_n\)</b> · <b>C: 5–10 \(I_n\)</b> · <b>D: 10–20 \(I_n\)</b><br><small>źródło: PN-EN 60898-1; moduł 07</small>	elektryka::01 temat::01_07 liczby
+B16 — prąd pewnego zadziałania natychmiastowego<br><small>charakterystyka B</small><br><small>01.07</small>	<b>80 A</b> (5 × 16 A)<br><small>źródło: PN-EN 60898-1; moduł 07</small>	elektryka::01 temat::01_07 liczby
+Częstotliwość sieci<br><small>sieć połączona z systemem</small><br><small>02.01</small>	<b>50 Hz</b> (±1 % przez 99,5 % tygodnia)<br><small>źródło: rozporządzenie MKiŚ z 2023 r., § 45 ust. 5 pkt 1</small>	elektryka::02 temat::02_01 liczby
+Okres<br><small>50 Hz</small><br><small>02.01</small>	<b>20 ms</b><br><small>źródło: \(T = 1/f\)</small>	elektryka::02 temat::02_01 liczby
+Przejścia przez zero<br><small>50 Hz</small><br><small>02.01</small>	<b>100 na sekundę</b><br><small>źródło: dwa na okres</small>	elektryka::02 temat::02_01 liczby
+Wartość szczytowa 230 V<br><small>przebieg sinusoidalny</small><br><small>02.01</small>	<b>≈ 325 V</b><br><small>źródło: \(U_{max} = \sqrt{2} \cdot U\)</small>	elektryka::02 temat::02_01 liczby
+Międzyszczytowa 230 V<br><small>przebieg sinusoidalny</small><br><small>02.01</small>	<b>≈ 650 V</b><br><small>źródło: \(2 \sqrt{2} \cdot U\)</small>	elektryka::02 temat::02_01 liczby
+Wartość szczytowa 400 V<br><small>przebieg sinusoidalny</small><br><small>02.01</small>	<b>≈ 566 V</b><br><small>źródło: \(2 \sqrt{2} \cdot U\)</small>	elektryka::02 temat::02_01 liczby
+Wartość skuteczna z szczytowej<br><small>tylko sinusoida</small><br><small>02.01</small>	\(U = U_{max} / \sqrt{2} \approx 0{,}707\, U_{max}\)	elektryka::02 temat::02_01 liczby
+Przewód<br><small>Napięcie względem ziemi (sprawna instalacja)</small><br><small>02.02</small>	Barwa<br><small>źródło: Prąd w normalnej pracy</small>	elektryka::02 temat::02_02 liczby
+L (L1, L2, L3)<br><small>230 V</small><br><small>02.02</small>	brązowy, czarny, szary<br><small>źródło: prąd roboczy</small>	elektryka::02 temat::02_02 liczby
+N<br><small>≈ 0 V</small><br><small>02.02</small>	niebieski<br><small>źródło: prąd roboczy (taki jak w L)</small>	elektryka::02 temat::02_02 liczby
+PE<br><small>0 V</small><br><small>02.02</small>	żółto-zielony<br><small>źródło: <b>brak</b> (tylko prąd upływu, mA)</small>	elektryka::02 temat::02_02 liczby
+PEN<br><small>≈ 0 V</small><br><small>02.02</small>	żółto-zielony + niebieskie oznaczenie końców (lub odwrotnie)<br><small>źródło: prąd roboczy</small>	elektryka::02 temat::02_02 liczby
+Napięcie fazowe<br><small>sieć nN</small><br><small>02.03</small>	<b>230 V</b><br><small>źródło: PN-EN 60038</small>	elektryka::02 temat::02_03 liczby
+Napięcie międzyfazowe<br><small>sieć nN</small><br><small>02.03</small>	<b>400 V</b> = \(\sqrt{3} \cdot 230\)<br><small>źródło: PN-EN 60038</small>	elektryka::02 temat::02_03 liczby
+Przesunięcie faz<br><small>50 Hz</small><br><small>02.03</small>	<b>120°</b> = 6,67 ms	elektryka::02 temat::02_03 liczby
+Moc trójfazowa<br><small>\(U\) = 400 V, \(I\) — prąd fazowy</small><br><small>02.03</small>	\(P = \sqrt{3} \cdot U \cdot I \cdot \cos\varphi\)<br><small>źródło: 02.04</small>	elektryka::02 temat::02_03 liczby
+Prąd na 1 kW (trójfazowo, cos φ = 1)<br><small>odbiornik symetryczny</small><br><small>02.03</small>	ok. <b>1,44 A</b> na fazę<br><small>źródło: \(1000 / (\sqrt{3} \cdot 400)\)</small>	elektryka::02 temat::02_03 liczby
+Barwy faz<br><small>nowe instalacje</small><br><small>02.03</small>	L1 <b>brązowy</b>, L2 <b>czarny</b>, L3 <b>szary</b><br><small>źródło: PN-EN 60445</small>	elektryka::02 temat::02_03 liczby
+Gniazdo CEE<br><small>gniazda przemysłowe</small><br><small>02.03</small>	czerwone <b>400 V</b>, niebieskie <b>230 V</b>; 16 A, 32 A, 63 A…<br><small>źródło: PN-EN 60309</small>	elektryka::02 temat::02_03 liczby
+Moc pozorna<br><small>zawsze</small><br><small>02.04</small>	\(S = U \cdot I\) (1f), \(S = \sqrt{3}\, U I\) (3f)<br><small>źródło: definicja</small>	elektryka::02 temat::02_04 liczby
+Moc czynna<br><small>przebiegi sinusoidalne</small><br><small>02.04</small>	\(P = S \cos\varphi\)<br><small>źródło: definicja</small>	elektryka::02 temat::02_04 liczby
+Moc bierna<br><small>przebiegi sinusoidalne</small><br><small>02.04</small>	\(Q = S \sin\varphi\)<br><small>źródło: definicja</small>	elektryka::02 temat::02_04 liczby
+Trójkąt mocy<br><small>przebiegi sinusoidalne</small><br><small>02.04</small>	\(S^2 = P^2 + Q^2\)<br><small>źródło: definicja</small>	elektryka::02 temat::02_04 liczby
+Typowe cos φ<br><small>wartości orientacyjne</small><br><small>02.04</small>	grzałka, żarówka <b>1</b> · silnik <b>0,7–0,9</b> · świetlówka bez kompensacji <b>≈ 0,5</b><br><small>źródło: tabliczki znamionowe</small>	elektryka::02 temat::02_04 liczby
+Próg opłat za energię bierną<br><small>odbiorcy biznesowi w niektórych grupach taryfowych; <b>nie dotyczy</b> gospodarstw domowych (grupa G)</small><br><small>02.04</small>	zwykle <b>tg φ = 0,4</b> (cos φ ≈ 0,93)<br><small>źródło: taryfy operatorów</small>	elektryka::02 temat::02_04 liczby
+Częstotliwości harmonicznych<br><small>sieć 50 Hz</small><br><small>02.05</small>	3. — <b>150 Hz</b>, 5. — <b>250 Hz</b>, 7. — <b>350 Hz</b><br><small>źródło: \(f_n = n \cdot 50\ \mathrm{Hz}\)</small>	elektryka::02 temat::02_05 liczby
+Dopuszczalny THD napięcia<br><small>odbiorcy w grupach przyłączeniowych III–V</small><br><small>02.05</small>	<b>≤ 8 %</b> (maks. ze średnich 10-min w tygodniu)<br><small>źródło: rozporządzenie MKiŚ z 2023 r., § 45 ust. 5</small>	elektryka::02 temat::02_05 liczby
+Prąd w N przy odbiornikach nieliniowych<br><small>sieć trójfazowa, dużo zasilaczy impulsowych</small><br><small>02.05</small>	może <b>przekroczyć prąd fazowy</b> (do ok. 1,7 ×)	elektryka::02 temat::02_05 liczby
+Harmoniczne sumujące się w N<br><small>układ trójfazowy</small><br><small>02.05</small>	<b>3., 9., 15.</b> (wielokrotności 3)	elektryka::02 temat::02_05 liczby
+Kierunek pola<br><small>przewód prostoliniowy</small><br><small>03.01</small>	reguła prawej dłoni: kciuk — prąd, palce — pole	elektryka::03 temat::03_01 liczby
+Reaktancja cewki<br><small>prąd przemienny</small><br><small>03.01</small>	\(X_L = 2\pi f L\) — rośnie z częstotliwością<br><small>źródło: definicja</small>	elektryka::03 temat::03_01 liczby
+Przy 50 Hz<br><small>sieć 50 Hz</small><br><small>03.01</small>	\(X_L \approx 314 \cdot L\)<br><small>źródło: \(2\pi \cdot 50 \approx 314\)</small>	elektryka::03 temat::03_01 liczby
+Cewka przy prądzie stałym<br><small>DC</small><br><small>03.01</small>	tylko rezystancja drutu (po ustaleniu prądu)	elektryka::03 temat::03_01 liczby
+Wpływ rdzenia stalowego<br><small>rdzeń nienasycony</small><br><small>03.01</small>	pole wielokrotnie silniejsze (setki–tysiące razy)	elektryka::03 temat::03_01 liczby
+Przekładnia napięciowa<br><small>transformator idealny, prąd przemienny</small><br><small>03.02</small>	\(U_1 / U_2 = N_1 / N_2\)<br><small>źródło: prawo Faradaya</small>	elektryka::03 temat::03_02 liczby
+Przekładnia prądowa<br><small>transformator idealny, prąd przemienny, pod obciążeniem</small><br><small>03.02</small>	\(I_1 / I_2 = N_2 / N_1\)<br><small>źródło: bilans mocy</small>	elektryka::03 temat::03_02 liczby
+Moc<br><small>—</small><br><small>03.02</small>	\(U_1 I_1 \approx U_2 I_2\) (sprawność dużych transformatorów > 95 %)	elektryka::03 temat::03_02 liczby
+Prąd stały<br><small>DC</small><br><small>03.02</small>	transformator <b>nie działa</b> (zwarcie dla źródła)	elektryka::03 temat::03_02 liczby
+Typowe przekładnie<br><small>—</small><br><small>03.02</small>	stacja 15 kV / 0,4 kV; zasilacz dzwonka 230 / 8–12 V; transformator bezpieczeństwa 230 / 12–24 V	elektryka::03 temat::03_02 liczby
+Zaciski cewki<br><small>styczniki, przekaźniki</small><br><small>03.03</small>	<b>A1, A2</b><br><small>źródło: PN-EN 60947, PN-EN 60445</small>	elektryka::03 temat::03_03 liczby
+Styki główne<br><small>styczniki</small><br><small>03.03</small>	<b>1-2, 3-4, 5-6</b><br><small>źródło: PN-EN 60947, PN-EN 60445</small>	elektryka::03 temat::03_03 liczby
+Druga cyfra styku pomocniczego<br><small>13-14 NO, 21-22 NC, 31-32 NC, 43-44 NO</small><br><small>03.03</small>	<b>3-4 zwierny</b>, <b>1-2 rozwierny</b><br><small>źródło: PN-EN 60947, PN-EN 60445</small>	elektryka::03 temat::03_03 liczby
+Typowe napięcia cewek<br><small>—</small><br><small>03.03</small>	<b>230 V AC</b>, 24 V AC/DC, 12 V DC<br><small>źródło: tabliczka aparatu</small>	elektryka::03 temat::03_03 liczby
+Stan rysowany na schemacie<br><small>schematy</small><br><small>03.03</small>	<b>bez zasilania cewki</b><br><small>źródło: zasada rysunku</small>	elektryka::03 temat::03_03 liczby
+Prędkość synchroniczna<br><small>\(p\) — liczba par biegunów</small><br><small>03.04</small>	\(n_s = 60 \cdot f / p\)	elektryka::03 temat::03_04 liczby
+Przy 50 Hz<br><small>—</small><br><small>03.04</small>	<b>3000 / 1500 / 1000 / 750</b> obr/min dla \(p\) = 1 / 2 / 3 / 4	elektryka::03 temat::03_04 liczby
+Poślizg znamionowy<br><small>silniki małej i średniej mocy</small><br><small>03.04</small>	ok. <b>2–6 %</b><br><small>źródło: typowe wartości</small>	elektryka::03 temat::03_04 liczby
+Prąd rozruchowy<br><small>rozruch bezpośredni</small><br><small>03.04</small>	ok. <b>5–8 ×</b> prąd znamionowy<br><small>źródło: katalogi producentów</small>	elektryka::03 temat::03_04 liczby
+Zmiana kierunku obrotów<br><small>silnik trójfazowy</small><br><small>03.04</small>	zamiana <b>dwóch</b> faz	elektryka::03 temat::03_04 liczby
+Siła na przewód<br><small>przewód prostopadły do pola</small><br><small>03.04</small>	\(F = B I l\)	elektryka::03 temat::03_04 liczby
+Próg odczuwania AC<br><small>50 Hz, niezależnie od czasu</small><br><small>04.01</small>	<b>0,5 mA</b><br><small>źródło: IEC TS 60479-1</small>	elektryka::04 temat::04_01 liczby
+Próg odczuwania DC<br><small>prąd stały</small><br><small>04.01</small>	ok. <b>2 mA</b><br><small>źródło: IEC TS 60479-1</small>	elektryka::04 temat::04_01 liczby
+Próg samouwolnienia AC<br><small>50 Hz, dorośli</small><br><small>04.01</small>	ok. <b>10 mA</b> (u części osób ok. 5 mA)<br><small>źródło: IEC TS 60479-1</small>	elektryka::04 temat::04_01 liczby
+Migotanie komór — długi przepływ<br><small>czas powyżej ok. 1–3 s</small><br><small>04.01</small>	od ok. <b>40–50 mA</b><br><small>źródło: IEC TS 60479-1, krzywa c₁</small>	elektryka::04 temat::04_01 liczby
+Migotanie komór — krótki przepływ<br><small>10–100 ms</small><br><small>04.01</small>	ok. <b>400–500 mA</b><br><small>źródło: IEC TS 60479-1, krzywa c₁</small>	elektryka::04 temat::04_01 liczby
+Różnicówka ochrony uzupełniającej<br><small>obwody gniazd, łazienki itd.</small><br><small>04.01</small>	<b>30 mA</b><br><small>źródło: PN-HD 60364-4-41 (moduł 08)</small>	elektryka::04 temat::04_01 liczby
+Czas zadziałania RCD 30 mA<br><small>wyłączniki ogólnego typu</small><br><small>04.01</small>	≤ <b>300 ms</b> przy 30 mA, ≤ <b>40 ms</b> przy 150 mA<br><small>źródło: PN-EN 61008-1 (moduł 08)</small>	elektryka::04 temat::04_01 liczby
+F: lewa ręka → stopy<br><small>—</small><br><small>04.02</small>	<b>1,0</b> (droga odniesienia)<br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+F: obie ręce → stopy<br><small>—</small><br><small>04.02</small>	<b>1,0</b><br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+F: prawa ręka → stopy<br><small>—</small><br><small>04.02</small>	<b>0,8</b><br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+F: ręka → ręka<br><small>—</small><br><small>04.02</small>	<b>0,4</b><br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+F: klatka piersiowa → lewa ręka<br><small>—</small><br><small>04.02</small>	<b>1,5</b><br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+F: stopa → stopa<br><small>—</small><br><small>04.02</small>	<b>0,04</b><br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+Prąd równoważny<br><small>porównanie z drogą lewa ręka → stopy</small><br><small>04.02</small>	\(I_{ref} = F \cdot I_h\)<br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+Impedancja ciała przy 230 V<br><small>ręka → ręka</small><br><small>04.02</small>	rząd <b>1000–2000 Ω</b> (sucha skóra, duży styk); mniej przy wilgoci<br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+Impedancja ręka → stopy<br><small>—</small><br><small>04.02</small>	ok. <b>70–90 %</b> wartości ręka → ręka<br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+Najgroźniejsze częstotliwości<br><small>—</small><br><small>04.02</small>	<b>15–100 Hz</b><br><small>źródło: IEC TS 60479-1, tab. 12</small>	elektryka::04 temat::04_02 liczby
+\(U_L\) — warunki normalne<br><small>instalacje w budynkach</small><br><small>04.03</small>	<b>50 V AC</b>, <b>120 V DC</b><br><small>źródło: PN-HD 60364-4-41; dawne przepisy ochrony przeciwporażeniowej</small>	elektryka::04 temat::04_03 liczby
+\(U_L\) — warunki zwiększonego zagrożenia<br><small>wilgoć, przewodzące otoczenie, np. obiekty rolnicze</small><br><small>04.03</small>	<b>25 V AC</b>, <b>60 V DC</b><br><small>źródło: PN-HD 60364-7-705 i in.</small>	elektryka::04 temat::04_03 liczby
+Granica SELV/PELV<br><small>obwody bardzo niskiego napięcia</small><br><small>04.03</small>	<b>50 V AC</b>, <b>120 V DC</b> (bez tętnień)<br><small>źródło: PN-HD 60364-4-41 (moduł 12)</small>	elektryka::04 temat::04_03 liczby
+Krok (do obliczeń napięcia krokowego)<br><small>—</small><br><small>04.03</small>	<b>1 m</b><br><small>źródło: konwencja</small>	elektryka::04 temat::04_03 liczby
+Ucieczka ze strefy<br><small>zerwany przewód, uziom w czasie zwarcia</small><br><small>04.03</small>	drobne kroki, stopy złączone, lub skoki obunóż<br><small>źródło: dobra praktyka</small>	elektryka::04 temat::04_03 liczby
+TN, 230 V, obwody odbiorcze<br><small>gniazda ≤ 63 A, odbiorniki stałe ≤ 32 A</small><br><small>04.04</small>	<b>0,4 s</b><br><small>źródło: PN-HD 60364-4-41, tabl. 41.1</small>	elektryka::04 temat::04_04 liczby
+TT, 230 V, obwody odbiorcze<br><small>gniazda ≤ 63 A, odbiorniki stałe ≤ 32 A</small><br><small>04.04</small>	<b>0,2 s</b><br><small>źródło: PN-HD 60364-4-41, tabl. 41.1</small>	elektryka::04 temat::04_04 liczby
+TN, obwody rozdzielcze i pozostałe<br><small>—</small><br><small>04.04</small>	<b>5 s</b><br><small>źródło: PN-HD 60364-4-41, 411.3.2.3</small>	elektryka::04 temat::04_04 liczby
+TT, obwody rozdzielcze i pozostałe<br><small>—</small><br><small>04.04</small>	<b>1 s</b><br><small>źródło: PN-HD 60364-4-41, 411.3.2.4</small>	elektryka::04 temat::04_04 liczby
+Warunek skuteczności (TN)<br><small>—</small><br><small>04.04</small>	\(Z_s \cdot I_a \le U_0\)<br><small>źródło: PN-HD 60364-4-41, 411.4.4 (moduł 12)</small>	elektryka::04 temat::04_04 liczby
+\(I_a\) dla wyłączników B / C / D<br><small>wyłączniki wg PN-EN 60898-1</small><br><small>04.04</small>	<b>5 / 10 / 20 × \(I_n\)</b> (zadziałanie < 0,1 s)<br><small>źródło: moduł 07</small>	elektryka::04 temat::04_04 liczby
+RCD 30 mA w obwodach gniazd<br><small>ochrona uzupełniająca</small><br><small>04.04</small>	wymagany dla gniazd ≤ 32 A dla laików<br><small>źródło: PN-HD 60364-4-41, 411.3.3</small>	elektryka::04 temat::04_04 liczby
+Temperatura plazmy łuku<br><small>łuk w powietrzu</small><br><small>04.05</small>	<b>kilka–kilkanaście tysięcy °C</b><br><small>źródło: fizyka łuku</small>	elektryka::04 temat::04_05 liczby
+Prąd zwarcia w gnieździe<br><small>koniec obwodu odbiorczego</small><br><small>04.05</small>	<b>setki A</b><br><small>źródło: 01.07</small>	elektryka::04 temat::04_05 liczby
+Prąd zwarcia przy złączu / rozdzielnicy głównej<br><small>blisko transformatora</small><br><small>04.05</small>	<b>kilka–kilkanaście kA</b><br><small>źródło: zdolność zwarciowa aparatów 6–10 kA (moduł 07)</small>	elektryka::04 temat::04_05 liczby
+Konsultacja lekarska<br><small>—</small><br><small>04.05</small>	<b>po każdym porażeniu</b> napięciem sieciowym<br><small>źródło: moduł 31</small>	elektryka::04 temat::04_05 liczby
+Dopuszczalna temperatura żyły, PVC<br><small>praca ciągła</small><br><small>05.01</small>	<b>70 °C</b><br><small>źródło: PN-HD 60364-5-52, tab. 52.1</small>	elektryka::05 temat::05_01 liczby
+Dopuszczalna temperatura żyły, XLPE<br><small>praca ciągła</small><br><small>05.01</small>	<b>90 °C</b><br><small>źródło: PN-HD 60364-5-52, tab. 52.1</small>	elektryka::05 temat::05_01 liczby
+Temperatura żyły przy zwarciu, PVC<br><small>przez czas zwarcia (≤ 5 s)</small><br><small>05.01</small>	do <b>160 °C</b><br><small>źródło: PN-HD 60364-4-43</small>	elektryka::05 temat::05_01 liczby
+Napięcie przewodów instalacyjnych<br><small>—</small><br><small>05.01</small>	<b>450/750 V</b> (YDY, H07V-U)<br><small>źródło: normy wyrobu</small>	elektryka::05 temat::05_01 liczby
+Napięcie przewodów do odbiorników<br><small>przewody giętkie</small><br><small>05.01</small>	<b>300/500 V</b> (H05VV-F)<br><small>źródło: normy wyrobu</small>	elektryka::05 temat::05_01 liczby
+Napięcie kabli nn<br><small>—</small><br><small>05.01</small>	<b>0,6/1 kV</b> (YKY)<br><small>źródło: normy wyrobu</small>	elektryka::05 temat::05_01 liczby
+H03 / H05 / H07<br><small>przewody zharmonizowane</small><br><small>05.02</small>	<b>300/300 V / 300/500 V / 450/750 V</b><br><small>źródło: PN-EN 50525</small>	elektryka::05 temat::05_02 liczby
+YDY, YDYp, H07V-U<br><small>przewody instalacyjne</small><br><small>05.02</small>	<b>450/750 V</b><br><small>źródło: normy wyrobu</small>	elektryka::05 temat::05_02 liczby
+YKY, YAKY<br><small>kable nn</small><br><small>05.02</small>	<b>0,6/1 kV</b><br><small>źródło: normy wyrobu</small>	elektryka::05 temat::05_02 liczby
+Zapis „3×2,5”<br><small>—</small><br><small>05.02</small>	<b>3 żyły po 2,5 mm²</b>	elektryka::05 temat::05_02 liczby
+Zapis „5×4”<br><small>obwód trójfazowy</small><br><small>05.02</small>	<b>5 żył po 4 mm²</b> (L1, L2, L3, N, PE)	elektryka::05 temat::05_02 liczby
+PE<br><small>zawsze i wyłącznie</small><br><small>05.03</small>	<b>żółto-zielony</b><br><small>źródło: PN-EN 60445</small>	elektryka::05 temat::05_03 liczby
+N<br><small>—</small><br><small>05.03</small>	<b>niebieski</b><br><small>źródło: PN-EN 60445</small>	elektryka::05 temat::05_03 liczby
+PEN<br><small>układ TN-C</small><br><small>05.03</small>	<b>żółto-zielony + niebieskie oznaczenia</b> na końcach (lub odwrotnie)<br><small>źródło: PN-EN 60445</small>	elektryka::05 temat::05_03 liczby
+L1 / L2 / L3<br><small>obwody trójfazowe</small><br><small>05.03</small>	<b>brązowy / czarny / szary</b><br><small>źródło: PN-EN 60445</small>	elektryka::05 temat::05_03 liczby
+L w obwodzie 1-fazowym<br><small>—</small><br><small>05.03</small>	zwykle <b>brązowy</b><br><small>źródło: PN-EN 60445</small>	elektryka::05 temat::05_03 liczby
+Iz Cu 1,5 mm²<br><small>PVC, 2 żyły obciążone, 30 °C</small><br><small>05.04</small>	A1 <b>14,5 A</b> · B1 <b>17,5 A</b> · C <b>19,5 A</b> · E <b>22 A</b><br><small>źródło: PN-HD 60364-5-52, tab. B.52.2–B.52.10</small>	elektryka::05 temat::05_04 liczby
+Iz Cu 2,5 mm²<br><small>PVC, 2 żyły obciążone, 30 °C</small><br><small>05.04</small>	A1 <b>19,5 A</b> · B1 <b>24 A</b> · C <b>27 A</b> · E <b>30 A</b><br><small>źródło: PN-HD 60364-5-52, tab. B.52.2–B.52.10</small>	elektryka::05 temat::05_04 liczby
+Iz Cu 4 mm²<br><small>PVC, 2 żyły obciążone, 30 °C</small><br><small>05.04</small>	A1 <b>26 A</b> · B1 <b>32 A</b> · C <b>36 A</b> · E <b>40 A</b><br><small>źródło: PN-HD 60364-5-52, tab. B.52.2–B.52.10</small>	elektryka::05 temat::05_04 liczby
+Iz Cu 6 mm²<br><small>PVC, 2 żyły obciążone, 30 °C</small><br><small>05.04</small>	A1 <b>34 A</b> · B1 <b>41 A</b> · C <b>46 A</b> · E <b>51 A</b><br><small>źródło: PN-HD 60364-5-52, tab. B.52.2–B.52.10</small>	elektryka::05 temat::05_04 liczby
+Iz Cu 2,5 mm², 3 żyły obciążone<br><small>obwód trójfazowy</small><br><small>05.04</small>	A1 <b>18 A</b> · B1 <b>21 A</b> · C <b>24 A</b> · E <b>25 A</b><br><small>źródło: PN-HD 60364-5-52, tab. B.52.2–B.52.10</small>	elektryka::05 temat::05_04 liczby
+Poprawka na temperaturę (PVC)<br><small>otoczenie inne niż 30 °C</small><br><small>05.04</small>	25 °C <b>1,06</b> · 35 °C <b>0,94</b> · 40 °C <b>0,87</b><br><small>źródło: tab. B.52.14</small>	elektryka::05 temat::05_04 liczby
+Poprawka na grupowanie<br><small>przewody obok siebie</small><br><small>05.04</small>	2 obwody <b>0,80</b> · 3 <b>0,70</b> · 4 <b>0,65</b> · 6 <b>0,57</b><br><small>źródło: tab. B.52.17</small>	elektryka::05 temat::05_04 liczby
+Minimalny przekrój Cu<br><small>instalacje stałe, obwody siłowe i oświetleniowe</small><br><small>05.04</small>	<b>1,5 mm²</b><br><small>źródło: PN-HD 60364-5-52, tab. 52.2</small>	elektryka::05 temat::05_04 liczby
+Typowo w mieszkaniu<br><small>—</small><br><small>05.04</small>	oświetlenie <b>1,5 mm²</b>, gniazda <b>2,5 mm²</b><br><small>źródło: praktyka, N SEP-E-002</small>	elektryka::05 temat::05_04 liczby
+Iz Cu 2,5 mm², A1<br><small>PVC, 2 żyły obciążone, 30 °C</small><br><small>05.05</small>	<b>19,5 A</b><br><small>źródło: PN-HD 60364-5-52</small>	elektryka::05 temat::05_05 liczby
+Iz Cu 2,5 mm², B1<br><small>PVC, 2 żyły obciążone, 30 °C</small><br><small>05.05</small>	<b>24 A</b><br><small>źródło: PN-HD 60364-5-52</small>	elektryka::05 temat::05_05 liczby
+Iz Cu 2,5 mm², C<br><small>PVC, 2 żyły obciążone, 30 °C</small><br><small>05.05</small>	<b>27 A</b><br><small>źródło: PN-HD 60364-5-52</small>	elektryka::05 temat::05_05 liczby
+Iz Cu 2,5 mm², E<br><small>PVC, 2 żyły obciążone, 30 °C</small><br><small>05.05</small>	<b>30 A</b><br><small>źródło: PN-HD 60364-5-52</small>	elektryka::05 temat::05_05 liczby
+Przewód w izolacji cieplnej na długości > 0,5 m<br><small>brak dokładniejszych danych</small><br><small>05.05</small>	obciążalność × <b>0,5</b><br><small>źródło: PN-HD 60364-5-52, 523.9</small>	elektryka::05 temat::05_05 liczby
+Głębokość ułożenia kabla nn<br><small>teren bez ruchu kołowego</small><br><small>05.06</small>	<b>0,7 m</b> (minimum)<br><small>źródło: N SEP-E-004</small>	elektryka::05 temat::05_06 liczby
+Podsypka / zasypka piaskiem<br><small>—</small><br><small>05.06</small>	ok. <b>10 cm</b> pod i nad kablem<br><small>źródło: N SEP-E-004, praktyka wykonawcza</small>	elektryka::05 temat::05_06 liczby
+Folia ostrzegawcza nad kablem nn<br><small>—</small><br><small>05.06</small>	<b>niebieska</b>, ok. <b>25 cm</b> nad kablem<br><small>źródło: N SEP-E-004, praktyka wykonawcza</small>	elektryka::05 temat::05_06 liczby
+Typowa klasa zwykłego YDY<br><small>—</small><br><small>05.06</small>	<b>Eca</b><br><small>źródło: deklaracje producentów (CPR)</small>	elektryka::05 temat::05_06 liczby
+Napięcie kabla ziemnego nn<br><small>YKY, YAKXS</small><br><small>05.06</small>	<b>0,6/1 kV</b><br><small>źródło: normy wyrobu</small>	elektryka::05 temat::05_06 liczby
+Rezystywność Cu<br><small>20 °C</small><br><small>05.07</small>	<b>0,0175 Ω·mm²/m</b> (γ ≈ 56–57)<br><small>źródło: dane materiałowe</small>	elektryka::05 temat::05_07 liczby
+Rezystywność Al<br><small>20 °C</small><br><small>05.07</small>	<b>0,0286 Ω·mm²/m</b> (γ ≈ 34–35)<br><small>źródło: dane materiałowe</small>	elektryka::05 temat::05_07 liczby
+Al / Cu<br><small>ten sam przekrój</small><br><small>05.07</small>	rezystancja ok. <b>1,6×</b> większa	elektryka::05 temat::05_07 liczby
+Odpowiednik przekroju<br><small>obciążalność</small><br><small>05.07</small>	Al 4 mm² ≈ Cu 2,5 mm²<br><small>źródło: PN-HD 60364-5-52</small>	elektryka::05 temat::05_07 liczby
+Wymóg żył Cu (dawne WT, § 183)<br><small>instalacje w budynkach</small><br><small>05.07</small>	do <b>10 mm²</b><br><small>źródło: rozporządzenie z 2002 r.</small>	elektryka::05 temat::05_07 liczby
+Gniazdo jednofazowe domowe<br><small>typ E / F</small><br><small>06.01</small>	<b>16 A, 250 V</b><br><small>źródło: PN-IEC 60884-1</small>	elektryka::06 temat::06_01 liczby
+Typowe zabezpieczenie obwodu gniazd<br><small>mieszkania</small><br><small>06.01</small>	<b>B16</b>, przewód <b>2,5 mm²</b><br><small>źródło: praktyka, N SEP-E-002</small>	elektryka::06 temat::06_01 liczby
+Moc „na obwód” przy B16<br><small>230 V × 16 A</small><br><small>06.01</small>	ok. <b>3,7 kW</b><br><small>źródło: obliczenie</small>	elektryka::06 temat::06_01 liczby
+Faza w gnieździe<br><small>zasada przyjęta w Polsce</small><br><small>06.01</small>	<b>lewy otwór</b> (patrząc od przodu, bolec u góry)<br><small>źródło: praktyka montażowa</small>	elektryka::06 temat::06_01 liczby
+Gniazdo siłowe niebieskie / czerwone<br><small>CEE</small><br><small>06.01</small>	<b>230 V / 400 V</b><br><small>źródło: PN-EN 60309</small>	elektryka::06 temat::06_01 liczby
+Ochrona różnicowoprądowa gniazd<br><small>gniazda do 32 A</small><br><small>06.01</small>	RCD <b>≤ 30 mA</b><br><small>źródło: PN-HD 60364-4-41, 411.3.3</small>	elektryka::06 temat::06_01 liczby
+Prąd znamionowy łącznika domowego<br><small>—</small><br><small>06.02</small>	zwykle <b>10 A</b> (10 AX), 250 V<br><small>źródło: PN-EN 60669-1, dane producentów</small>	elektryka::06 temat::06_02 liczby
+Liczba żył między łącznikami schodowymi<br><small>+ PE, jeśli łącznik jest w obudowie metalowej / dla porządku</small><br><small>06.02</small>	<b>2</b> korespondencyjne	elektryka::06 temat::06_02 liczby
+Łącznik krzyżowy<br><small>—</small><br><small>06.02</small>	<b>4</b> zaciski	elektryka::06 temat::06_02 liczby
+Łącznik schodowy<br><small>—</small><br><small>06.02</small>	<b>3</b> zaciski	elektryka::06 temat::06_02 liczby
+Średnica standardowej puszki osprzętowej<br><small>osprzęt podtynkowy</small><br><small>06.03</small>	<b>60 mm</b><br><small>źródło: normy i katalogi producentów</small>	elektryka::06 temat::06_03 liczby
+Rozstaw puszek w ramce wielokrotnej<br><small>typowy system ramek</small><br><small>06.03</small>	<b>71 mm</b><br><small>źródło: katalogi producentów</small>	elektryka::06 temat::06_03 liczby
+Głębokość puszki płytkiej / głębokiej<br><small>—</small><br><small>06.03</small>	ok. <b>40 / 60 mm</b><br><small>źródło: katalogi producentów</small>	elektryka::06 temat::06_03 liczby
+Puszka na zewnątrz, w garażu<br><small>wg warunków</small><br><small>06.03</small>	zwykle <b>IP44–IP55</b> i więcej<br><small>źródło: PN-EN 60529, projekt</small>	elektryka::06 temat::06_03 liczby
+Długość odizolowania<br><small>wg oznaczenia na złączce</small><br><small>06.04</small>	zwykle <b>9–12 mm</b><br><small>źródło: instrukcje producentów</small>	elektryka::06 temat::06_04 liczby
+Żyły w jednym otworze złączki<br><small>złączki sprężynowe</small><br><small>06.04</small>	<b>1</b><br><small>źródło: instrukcje producentów</small>	elektryka::06 temat::06_04 liczby
+Moc wydzielana na styku<br><small>—</small><br><small>06.04</small>	\(P = I^2 \cdot R_{styku}\)<br><small>źródło: 01.06</small>	elektryka::06 temat::06_04 liczby
+Styk 0,1 Ω przy 16 A<br><small>—</small><br><small>06.04</small>	ok. <b>26 W</b> w jednym punkcie<br><small>źródło: obliczenie</small>	elektryka::06 temat::06_04 liczby
+Pokoje mieszkalne<br><small>suche pomieszczenia</small><br><small>06.05</small>	<b>IP20</b><br><small>źródło: praktyka</small>	elektryka::06 temat::06_05 liczby
+Łazienka, strefy 1 i 2<br><small>—</small><br><small>06.05</small>	<b>IPX4</b> (IPX5 przy myciu strumieniem)<br><small>źródło: PN-HD 60364-7-701</small>	elektryka::06 temat::06_05 liczby
+Łazienka, strefa 0<br><small>—</small><br><small>06.05</small>	<b>IPX7</b><br><small>źródło: PN-HD 60364-7-701</small>	elektryka::06 temat::06_05 liczby
+Na zewnątrz<br><small>wg warunków</small><br><small>06.05</small>	zwykle <b>≥ IP44</b><br><small>źródło: praktyka, projekt</small>	elektryka::06 temat::06_05 liczby
+1. cyfra 2 / 4<br><small>—</small><br><small>06.05</small>	palec <b>12,5 mm</b> / drut <b>1 mm</b><br><small>źródło: PN-EN 60529</small>	elektryka::06 temat::06_05 liczby
+2. cyfra 4 / 7<br><small>—</small><br><small>06.05</small>	<b>bryzgi</b> / <b>chwilowe zanurzenie</b><br><small>źródło: PN-EN 60529</small>	elektryka::06 temat::06_05 liczby
+Klasa 0<br><small>nie stosuje się w zwykłych instalacjach</small><br><small>06.06</small>	tylko izolacja podstawowa, <b>brak PE</b><br><small>źródło: PN-EN 61140</small>	elektryka::06 temat::06_06 liczby
+Klasa I<br><small>wymaga gniazda z PE</small><br><small>06.06</small>	izolacja podstawowa + <b>PE</b><br><small>źródło: PN-EN 61140</small>	elektryka::06 temat::06_06 liczby
+Klasa II<br><small>—</small><br><small>06.06</small>	izolacja <b>podwójna lub wzmocniona</b>, bez PE<br><small>źródło: PN-EN 61140</small>	elektryka::06 temat::06_06 liczby
+Klasa III<br><small>—</small><br><small>06.06</small>	zasilanie <b>SELV/PELV ≤ 50 V AC</b> (≤ 120 V DC)<br><small>źródło: PN-EN 61140, PN-HD 60364-4-41</small>	elektryka::06 temat::06_06 liczby
+Prąd zwarcia<br><small>pętla L–N lub L–PE</small><br><small>07.01</small>	\(I_k = U_0 / Z_s\)<br><small>źródło: prawo Ohma</small>	elektryka::07 temat::07_01 liczby
+Typowe przeciążenie<br><small>—</small><br><small>07.01</small>	ok. <b>1,1–3 × In</b>	elektryka::07 temat::07_01 liczby
+Typowe zwarcie w mieszkaniu<br><small>zależnie od \(Z_s\)</small><br><small>07.01</small>	od <b>~100 A</b> do <b>kilku kA</b>	elektryka::07 temat::07_01 liczby
+Czas wyłączenia zwarcia przez wyłącznik<br><small>powyżej progu wyzwalacza elektromagnetycznego</small><br><small>07.01</small>	<b>< 0,1 s</b> (zwykle kilka ms)<br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_01 liczby
+Czas dopuszczalny zwarcia dla przewodu<br><small>\(t \le 5\) s; Cu/PVC k = 115</small><br><small>07.01</small>	\(t = (k \cdot S / I)^2\)<br><small>źródło: PN-HD 60364-4-43, 434.5.2</small>	elektryka::07 temat::07_01 liczby
+gG: prąd umowny niezadziałania<br><small>In ≥ 16 A, czas umowny 1 h (do 63 A)</small><br><small>07.02</small>	<b>1,25 × In</b><br><small>źródło: PN-EN 60269-1</small>	elektryka::07 temat::07_02 liczby
+gG: prąd umowny zadziałania \(I_2\)<br><small>In ≥ 16 A, czas umowny 1 h (do 63 A)</small><br><small>07.02</small>	<b>1,6 × In</b><br><small>źródło: PN-EN 60269-1</small>	elektryka::07 temat::07_02 liczby
+gG, 4 A < In < 16 A<br><small>—</small><br><small>07.02</small>	\(I_{nf}\) = <b>1,5 × In</b>, \(I_2\) = <b>1,9 × In</b><br><small>źródło: PN-EN 60269-1</small>	elektryka::07 temat::07_02 liczby
+Selektywność wkładek gG<br><small>wkładki tej samej klasy</small><br><small>07.02</small>	stosunek prądów <b>≥ 1,6</b><br><small>źródło: PN-EN 60269-1</small>	elektryka::07 temat::07_02 liczby
+Kolor wskaźnika D/D0<br><small>—</small><br><small>07.02</small>	6 A zielony · 10 A czerwony · 16 A szary · 20 A niebieski · 25 A żółty · 35 A czarny · 63 A miedziany<br><small>źródło: normy wkładek</small>	elektryka::07 temat::07_02 liczby
+Zdolność wyłączania wkładek<br><small>typowo</small><br><small>07.02</small>	<b>50 kA</b> (D/D0), <b>120 kA</b> (NH)<br><small>źródło: dane producentów</small>	elektryka::07 temat::07_02 liczby
+Prądy znamionowe (typoszereg)<br><small>wyłączniki domowe</small><br><small>07.03</small>	6, 10, 13, 16, 20, 25, 32, 40, 50, 63 A<br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_03 liczby
+Prąd umowny niezadziałania<br><small>temperatura odniesienia 30 °C</small><br><small>07.03</small>	<b>1,13 × In</b> (≥ 1 h bez zadziałania)<br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_03 liczby
+Prąd umowny zadziałania \(I_2\)<br><small>temperatura odniesienia 30 °C</small><br><small>07.03</small>	<b>1,45 × In</b> (< 1 h)<br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_03 liczby
+2,55 × In<br><small>temperatura odniesienia 30 °C</small><br><small>07.03</small>	<b>1–60 s</b> (In ≤ 32 A), 1–120 s (In > 32 A)<br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_03 liczby
+Zdolność zwarciowa<br><small>oznaczenie w prostokącie</small><br><small>07.03</small>	<b>4500 / 6000 / 10 000 A</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_03 liczby
+B — wyłączenie natychmiastowe<br><small>—</small><br><small>07.04</small>	<b>3–5 × In</b> (< 0,1 s przy 5 × In)<br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_04 liczby
+C — wyłączenie natychmiastowe<br><small>—</small><br><small>07.04</small>	<b>5–10 × In</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_04 liczby
+D — wyłączenie natychmiastowe<br><small>—</small><br><small>07.04</small>	<b>10–20 × In</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_04 liczby
+Część termiczna (wszystkie)<br><small>30 °C</small><br><small>07.04</small>	1,13 × In — nie wyłącza w 1 h; 1,45 × In — wyłącza < 1 h<br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_04 liczby
+\(Z_s\) max dla B16 / C16<br><small>TN, 230 V, 0,4 s</small><br><small>07.04</small>	<b>2,88 Ω / 1,44 Ω</b><br><small>źródło: PN-HD 60364-4-41 (04.04)</small>	elektryka::07 temat::07_04 liczby
+Typowe Icn wyłączników domowych<br><small>—</small><br><small>07.05</small>	<b>4,5 / 6 / 10 kA</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_05 liczby
+Warunek doboru<br><small>lub ochrona wsteczna</small><br><small>07.05</small>	\(I_{cn} \ge I_k\) w miejscu montażu<br><small>źródło: PN-HD 60364-4-43, 434.5.1</small>	elektryka::07 temat::07_05 liczby
+Spodziewany prąd zwarciowy<br><small>z pomiaru \(Z_s\)</small><br><small>07.05</small>	\(I_k = U_0 / Z_s\)	elektryka::07 temat::07_05 liczby
+Zdolność wyłączania wkładek<br><small>typowo</small><br><small>07.05</small>	<b>50 kA</b> (D/D0), <b>120 kA</b> (NH)<br><small>źródło: dane producentów</small>	elektryka::07 temat::07_05 liczby
+Najlepsza klasa ograniczania energii<br><small>—</small><br><small>07.05</small>	<b>3</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::07 temat::07_05 liczby
+Warunek przeciążeniowy 1<br><small>zawsze</small><br><small>07.06</small>	\(I_B \le I_n \le I_z\)<br><small>źródło: PN-HD 60364-4-43, 433.1</small>	elektryka::07 temat::07_06 liczby
+Warunek przeciążeniowy 2<br><small>zawsze</small><br><small>07.06</small>	\(I_2 \le 1{,}45 \cdot I_z\)<br><small>źródło: PN-HD 60364-4-43, 433.1</small>	elektryka::07 temat::07_06 liczby
+\(I_2\) wyłącznika nadprądowego<br><small>PN-EN 60898-1</small><br><small>07.06</small>	<b>1,45 × In</b><br><small>źródło: PN-HD 60364-4-43, 433.1</small>	elektryka::07 temat::07_06 liczby
+\(I_2\) wkładki gG<br><small>→ \(I_n \le 0{,}9 \cdot I_z\)</small><br><small>07.06</small>	<b>1,6 × In</b> (In ≥ 16 A)<br><small>źródło: PN-EN 60269-1</small>	elektryka::07 temat::07_06 liczby
+Warunek zwarciowy<br><small>t ≤ 5 s</small><br><small>07.06</small>	\(t \le (k S / I)^2\)<br><small>źródło: PN-HD 60364-4-43, 434.5.2</small>	elektryka::07 temat::07_06 liczby
+k dla żył<br><small>przekroje ≤ 300 mm²</small><br><small>07.06</small>	Cu/PVC <b>115</b>, Cu/XLPE <b>143</b>, Al/PVC <b>76</b><br><small>źródło: PN-HD 60364-4-43, 434.5.2, tab. 43A</small>	elektryka::07 temat::07_06 liczby
+Typowo<br><small>mieszkania, bez niekorzystnych warunków</small><br><small>07.06</small>	<b>1,5 mm² — B10</b>, <b>2,5 mm² — B16</b><br><small>źródło: praktyka</small>	elektryka::07 temat::07_06 liczby
+Selektywność wkładek gG<br><small>wkładki tej samej klasy</small><br><small>07.07</small>	stosunek In <b>≥ 1,6</b><br><small>źródło: PN-EN 60269-1</small>	elektryka::07 temat::07_07 liczby
+Wyłącznik nadprądowy za wkładką<br><small>wg tabel producenta</small><br><small>07.07</small>	selektywność do prądu granicznego \(I_s\)<br><small>źródło: dane producentów</small>	elektryka::07 temat::07_07 liczby
+Wyłącznik nadprądowy za wyłącznikiem nadprądowym<br><small>—</small><br><small>07.07</small>	zwykle <b>brak</b> selektywności przy zwarciach<br><small>źródło: dane producentów</small>	elektryka::07 temat::07_07 liczby
+Typowe zabezpieczenie przedlicznikowe w mieszkaniu<br><small>zależnie od mocy przyłączeniowej</small><br><small>07.07</small>	<b>gG 20–25 A</b><br><small>źródło: warunki przyłączenia OSD</small>	elektryka::07 temat::07_07 liczby
+Zakres zadziałania<br><small>prąd sinusoidalny</small><br><small>08.01</small>	<b>0,5 IΔn – IΔn</b><br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_01 liczby
+Czas zadziałania przy IΔn<br><small>RCD ogólnego typu</small><br><small>08.01</small>	≤ <b>300 ms</b><br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_01 liczby
+Czas przy 2 IΔn / 5 IΔn<br><small>RCD ogólnego typu</small><br><small>08.01</small>	≤ <b>150 ms</b> / ≤ <b>40 ms</b><br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_01 liczby
+Czas zadziałania typu S przy IΔn<br><small>RCD selektywny</small><br><small>08.01</small>	<b>130–500 ms</b><br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_01 liczby
+Typ S przy 5 IΔn<br><small>RCD selektywny</small><br><small>08.01</small>	<b>50–150 ms</b><br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_01 liczby
+Ochrona uzupełniająca<br><small>—</small><br><small>08.01</small>	IΔn ≤ <b>30 mA</b><br><small>źródło: PN-HD 60364-4-41, 415.1</small>	elektryka::08 temat::08_01 liczby
+Ochrona uzupełniająca (ludzie)<br><small>gniazda ≤ 32 A, oświetlenie w mieszkaniach, łazienki</small><br><small>08.02</small>	IΔn ≤ <b>30 mA</b><br><small>źródło: PN-HD 60364-4-41:2017, 411.3.3, 411.3.4</small>	elektryka::08 temat::08_02 liczby
+Ochrona przeciwpożarowa<br><small>miejsca z zagrożeniem pożarowym</small><br><small>08.02</small>	IΔn ≤ <b>300 mA</b><br><small>źródło: PN-HD 60364-4-42</small>	elektryka::08 temat::08_02 liczby
+Selektywność RCD<br><small>RCD szeregowo</small><br><small>08.02</small>	wyżej typ <b>S</b> i IΔn co najmniej <b>3×</b> większy<br><small>źródło: praktyka, dane producentów</small>	elektryka::08 temat::08_02 liczby
+Warunek TT<br><small>ochrona przy uszkodzeniu</small><br><small>08.02</small>	\(R_A \cdot I_{\Delta n} \le 50\ \mathrm{V}\)<br><small>źródło: PN-HD 60364-4-41, 411.5.3</small>	elektryka::08 temat::08_02 liczby
+Migotanie komór (długi przepływ)<br><small>> 1 s</small><br><small>08.02</small>	ok. <b>40–50 mA</b><br><small>źródło: IEC TS 60479-1</small>	elektryka::08 temat::08_02 liczby
+Typ A — dopuszczalna składowa stała<br><small>bez utraty działania</small><br><small>08.03</small>	do <b>6 mA</b><br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_03 liczby
+Typ F — dopuszczalna składowa stała<br><small>bez utraty działania</small><br><small>08.03</small>	do <b>10 mA</b><br><small>źródło: PN-EN 62423</small>	elektryka::08 temat::08_03 liczby
+Typ B<br><small>—</small><br><small>08.03</small>	prąd stały wygładzony<br><small>źródło: PN-EN 62423</small>	elektryka::08 temat::08_03 liczby
+W mieszkaniu<br><small>nowe instalacje</small><br><small>08.03</small>	co najmniej <b>typ A</b><br><small>źródło: praktyka, zalecenia producentów</small>	elektryka::08 temat::08_03 liczby
+Ładowarka EV<br><small>—</small><br><small>08.03</small>	<b>typ B</b> albo typ A + wykrywanie DC <b>6 mA</b><br><small>źródło: PN-HD 60364-7-722</small>	elektryka::08 temat::08_03 liczby
+Typowe RCBO w mieszkaniu<br><small>obwody gniazd</small><br><small>08.04</small>	<b>B16 / 30 mA / typ A</b>, 6 kA<br><small>źródło: praktyka</small>	elektryka::08 temat::08_04 liczby
+Część nadprądowa<br><small>—</small><br><small>08.04</small>	jak w wyłączniku nadprądowym (1,13 / 1,45 × In, B/C)<br><small>źródło: PN-EN 61009-1</small>	elektryka::08 temat::08_04 liczby
+Część różnicowa<br><small>—</small><br><small>08.04</small>	jak w RCD (≤ 300 ms przy IΔn)<br><small>źródło: PN-EN 61009-1</small>	elektryka::08 temat::08_04 liczby
+Szerokość<br><small>1P+N</small><br><small>08.04</small>	<b>1–2 moduły</b><br><small>źródło: katalogi producentów</small>	elektryka::08 temat::08_04 liczby
+Prąd zadziałania (pomiar)<br><small>prąd sinusoidalny</small><br><small>08.05</small>	<b>0,5 IΔn – IΔn</b> (15–30 mA dla 30 mA)<br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_05 liczby
+Czas zadziałania przy IΔn<br><small>—</small><br><small>08.05</small>	≤ <b>300 ms</b> (ogólny), <b>130–500 ms</b> (S)<br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_05 liczby
+Czas przy 5 IΔn<br><small>—</small><br><small>08.05</small>	≤ <b>40 ms</b> (ogólny)<br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_05 liczby
+Naciskanie TEST<br><small>użytkownik</small><br><small>08.05</small>	wg producenta, zwykle <b>co 1–6 miesięcy</b><br><small>źródło: instrukcje producentów</small>	elektryka::08 temat::08_05 liczby
+Suma prądów upływowych za RCD<br><small>zalecenie</small><br><small>08.06</small>	≤ <b>0,3 IΔn</b> (≈ 9 mA dla 30 mA)<br><small>źródło: PN-HD 60364-5-53 (531.3.2); starsza literatura: 0,33–0,5 IΔn</small>	elektryka::08 temat::08_06 liczby
+Typowy upływ urządzenia z filtrem<br><small>komputery, RTV, AGD</small><br><small>08.06</small>	ok. <b>0,5–3 mA</b><br><small>źródło: dane urządzeń</small>	elektryka::08 temat::08_06 liczby
+Rezystancja izolacji instalacji<br><small>obwody do 500 V</small><br><small>08.06</small>	≥ <b>1 MΩ</b> przy napięciu probierczym <b>500 V DC</b><br><small>źródło: PN-HD 60364-6, tab. 6A</small>	elektryka::08 temat::08_06 liczby
+Zakres zadziałania RCD<br><small>—</small><br><small>08.06</small>	<b>0,5–1 IΔn</b><br><small>źródło: PN-EN 61008-1</small>	elektryka::08 temat::08_06 liczby
+Obwody na jeden RCD<br><small>mieszkania</small><br><small>08.07</small>	najlepiej <b>1</b> (RCBO), zwykle <b>2–3</b><br><small>źródło: praktyka, Inżynier Budownictwa</small>	elektryka::08 temat::08_07 liczby
+Suma upływu za RCD<br><small>—</small><br><small>08.07</small>	≤ <b>0,3 IΔn</b><br><small>źródło: PN-HD 60364-5-53</small>	elektryka::08 temat::08_07 liczby
+Selektywność RCD szeregowo<br><small>—</small><br><small>08.07</small>	wyżej <b>typ S</b> i IΔn ≥ <b>3×</b> IΔn niższego<br><small>źródło: dane producentów</small>	elektryka::08 temat::08_07 liczby
+Prąd znamionowy RCD<br><small>—</small><br><small>08.07</small>	≥ prąd zabezpieczenia przed nim lub suma obciążeń wg producenta<br><small>źródło: instrukcje producentów</small>	elektryka::08 temat::08_07 liczby
+Prąd pioruna<br><small>wyładowania doziemne</small><br><small>09.01</small>	typowo <b>kilkadziesiąt kA</b>, maksymalnie przyjmuje się do <b>200 kA</b><br><small>źródło: PN-EN 62305-1</small>	elektryka::09 temat::09_01 liczby
+Udar prądu piorunowego<br><small>badanie SPD typu 1</small><br><small>09.01</small>	<b>10/350 μs</b><br><small>źródło: PN-EN 61643-11</small>	elektryka::09 temat::09_01 liczby
+Udar przepięć indukowanych<br><small>badanie SPD typu 2</small><br><small>09.01</small>	<b>8/20 μs</b><br><small>źródło: PN-EN 61643-11</small>	elektryka::09 temat::09_01 liczby
+Udar napięciowy<br><small>badanie wytrzymałości i SPD typu 3</small><br><small>09.01</small>	<b>1,2/50 μs</b><br><small>źródło: PN-EN 61643-11</small>	elektryka::09 temat::09_01 liczby
+Zasięg szkodliwych przepięć indukowanych<br><small>—</small><br><small>09.01</small>	do ok. <b>1–2 km</b> od uderzenia<br><small>źródło: materiały producentów SPD</small>	elektryka::09 temat::09_01 liczby
+Kategoria IV<br><small>początek instalacji 230/400 V</small><br><small>09.02</small>	\(U_W\) = <b>6 kV</b><br><small>źródło: PN-HD 60364-4-443, tab. 443.2</small>	elektryka::09 temat::09_02 liczby
+Kategoria III<br><small>instalacja stała</small><br><small>09.02</small>	\(U_W\) = <b>4 kV</b><br><small>źródło: PN-HD 60364-4-443, tab. 443.2</small>	elektryka::09 temat::09_02 liczby
+Kategoria II<br><small>odbiorniki</small><br><small>09.02</small>	\(U_W\) = <b>2,5 kV</b><br><small>źródło: PN-HD 60364-4-443, tab. 443.2</small>	elektryka::09 temat::09_02 liczby
+Kategoria I<br><small>wrażliwa elektronika</small><br><small>09.02</small>	\(U_W\) = <b>1,5 kV</b><br><small>źródło: PN-HD 60364-4-443, tab. 443.2</small>	elektryka::09 temat::09_02 liczby
+Warunek doboru SPD<br><small>—</small><br><small>09.02</small>	\(U_P\) (z połączeniami) < \(U_W\) chronionych urządzeń<br><small>źródło: PN-HD 60364-5-534</small>	elektryka::09 temat::09_02 liczby
+SPD typu 1<br><small>—</small><br><small>09.02</small>	wymagany przy <b>instalacji odgromowej</b><br><small>źródło: PN-HD 60364-5-534, materiały producentów</small>	elektryka::09 temat::09_02 liczby
+Typ 1 — udar probierczy<br><small>—</small><br><small>09.03</small>	<b>10/350 μs</b>, \(I_{imp}\)<br><small>źródło: PN-EN 61643-11</small>	elektryka::09 temat::09_03 liczby
+Typ 2 — udar probierczy<br><small>—</small><br><small>09.03</small>	<b>8/20 μs</b>, \(I_n\), \(I_{max}\)<br><small>źródło: PN-EN 61643-11</small>	elektryka::09 temat::09_03 liczby
+Typ 3 — udar probierczy<br><small>—</small><br><small>09.03</small>	kombinowany <b>1,2/50 + 8/20 μs</b><br><small>źródło: PN-EN 61643-11</small>	elektryka::09 temat::09_03 liczby
+\(I_{imp}\) typu 1 bez analizy ryzyka<br><small>instalacje 230/400 V</small><br><small>09.03</small>	≥ <b>12,5 kA</b> na biegun<br><small>źródło: PN-HD 60364-5-534</small>	elektryka::09 temat::09_03 liczby
+\(I_n\) typu 2<br><small>instalacje 230/400 V</small><br><small>09.03</small>	≥ <b>5 kA</b> (typowo 20 kA)<br><small>źródło: PN-HD 60364-5-534</small>	elektryka::09 temat::09_03 liczby
+\(U_C\) w sieci 230/400 V<br><small>TN</small><br><small>09.03</small>	typowo <b>275 V</b> (≥ 1,1 × 230 V)<br><small>źródło: PN-HD 60364-5-534, katalogi</small>	elektryka::09 temat::09_03 liczby
+\(U_P\) typu 2<br><small>—</small><br><small>09.03</small>	typowo <b>1,2–1,5 kV</b><br><small>źródło: katalogi producentów</small>	elektryka::09 temat::09_03 liczby
+Dawne oznaczenia<br><small>—</small><br><small>09.03</small>	B = typ 1, C = typ 2, D = typ 3	elektryka::09 temat::09_03 liczby
+Długość połączeń a + b<br><small>każdy SPD</small><br><small>09.04</small>	≤ <b>0,5 m</b><br><small>źródło: PN-HD 60364-5-534</small>	elektryka::09 temat::09_04 liczby
+Spadek na przewodach przy udarze<br><small>orientacyjnie</small><br><small>09.04</small>	ok. <b>1 kV/m</b><br><small>źródło: materiały producentów</small>	elektryka::09 temat::09_04 liczby
+Odległość ochronna<br><small>dalej — dodatkowy SPD</small><br><small>09.04</small>	ok. <b>10 m</b><br><small>źródło: PN-HD 60364-5-534</small>	elektryka::09 temat::09_04 liczby
+Przekrój przewodu do PE<br><small>—</small><br><small>09.04</small>	≥ <b>16 mm² Cu</b> (T1), ≥ <b>6 mm² Cu</b> (T2)<br><small>źródło: PN-HD 60364-5-534, Hager</small>	elektryka::09 temat::09_04 liczby
+Układ przed RCD i w TT<br><small>—</small><br><small>09.04</small>	<b>3+1</b> (CT2)<br><small>źródło: PN-HD 60364-5-534, Hager</small>	elektryka::09 temat::09_04 liczby
+Pomiar izolacji z SPD w obwodzie<br><small>gdy SPD nie da się odłączyć</small><br><small>09.04</small>	napięcie probiercze <b>250 V DC</b>, ≥ <b>1 MΩ</b><br><small>źródło: PN-HD 60364-6</small>	elektryka::09 temat::09_04 liczby
+Klasy instalacji odgromowej<br><small>—</small><br><small>09.05</small>	<b>I–IV</b> (I najostrzejsza)<br><small>źródło: PN-EN 62305-3</small>	elektryka::09 temat::09_05 liczby
+Typowy odstęp przewodów odprowadzających<br><small>wokół obwodu budynku</small><br><small>09.05</small>	I–II <b>10 m</b>, III <b>15 m</b>, IV <b>20 m</b><br><small>źródło: PN-EN 62305-3</small>	elektryka::09 temat::09_05 liczby
+Wymiar oczek siatki zwodów<br><small>—</small><br><small>09.05</small>	I <b>5×5</b>, II <b>10×10</b>, III <b>15×15</b>, IV <b>20×20 m</b><br><small>źródło: PN-EN 62305-3</small>	elektryka::09 temat::09_05 liczby
+Promień toczącej się kuli<br><small>—</small><br><small>09.05</small>	I <b>20 m</b>, II <b>30 m</b>, III <b>45 m</b>, IV <b>60 m</b><br><small>źródło: PN-EN 62305-3</small>	elektryka::09 temat::09_05 liczby
+Rezystancja uziemienia<br><small>pomiar na rozłączonym złączu</small><br><small>09.05</small>	zalecana <b>< 10 Ω</b><br><small>źródło: PN-EN 62305-3</small>	elektryka::09 temat::09_05 liczby
+Kontrola okresowa<br><small>instalacja elektryczna i piorunochronna</small><br><small>09.05</small>	co najmniej <b>raz na 5 lat</b><br><small>źródło: Prawo budowlane, art. 62 ust. 1 pkt 2</small>	elektryka::09 temat::09_05 liczby
+Ograniczniki w budynku z LPS<br><small>—</small><br><small>09.05</small>	<b>typ 1</b><br><small>źródło: PN-HD 60364-5-534</small>	elektryka::09 temat::09_05 liczby
+Typowy rozłącznik główny mieszkania<br><small>—</small><br><small>10.01</small>	<b>40–63 A</b>, 3P lub 4P (1P+N w instalacji 1-fazowej)<br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_01 liczby
+Bieguny w układzie TT<br><small>—</small><br><small>10.01</small>	odłącza się <b>L i N</b><br><small>źródło: PN-HD 60364-4-46</small>	elektryka::10 temat::10_01 liczby
+PEN<br><small>—</small><br><small>10.01</small>	<b>nigdy</b> przez łącznik<br><small>źródło: PN-HD 60364-5-54</small>	elektryka::10 temat::10_01 liczby
+Szerokość modułu<br><small>aparaty na szynę TH35</small><br><small>10.01</small>	<b>17,5–18 mm</b><br><small>źródło: PN-EN 60715</small>	elektryka::10 temat::10_01 liczby
+Typowe styczniki modułowe<br><small>—</small><br><small>10.02</small>	<b>20 / 25 / 40 / 63 A</b>, 1–4 styki<br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_02 liczby
+Napięcie cewki<br><small>—</small><br><small>10.02</small>	zwykle <b>230 V AC</b> (bywa 24 V AC/DC)<br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_02 liczby
+Typowy przekaźnik bistabilny<br><small>—</small><br><small>10.02</small>	<b>16 A</b>, 1 moduł<br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_02 liczby
+Kategorie AC-7a / AC-7b<br><small>—</small><br><small>10.02</small>	rezystancyjne / silnikowe obciążenia domowe<br><small>źródło: PN-EN 61095</small>	elektryka::10 temat::10_02 liczby
+Próg zmierzchowy<br><small>—</small><br><small>10.03</small>	regulowany, typowo <b>od kilku do ok. 100 lx</b><br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_03 liczby
+Opóźnienie zmierzchowego<br><small>eliminuje błyski</small><br><small>10.03</small>	<b>kilkadziesiąt sekund</b><br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_03 liczby
+Czas automatu schodowego<br><small>—</small><br><small>10.03</small>	typowo <b>0,5–10 min</b><br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_03 liczby
+Styk zegara / zmierzchowego<br><small>—</small><br><small>10.03</small>	typowo <b>16 A</b> rezystancyjnie, mniej dla LED<br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_03 liczby
+Dopuszczalne napięcie sieci<br><small>warunki normalne</small><br><small>10.04</small>	<b>230 V ± 10 %</b> (207–253 V)<br><small>źródło: 01.02, rozporządzenie systemowe</small>	elektryka::10 temat::10_04 liczby
+Typowe progi przekaźnika napięciowego<br><small>ustawiane</small><br><small>10.04</small>	ok. <b>250–260 V</b> / <b>180–200 V</b>, zwłoka ułamek s–kilka s<br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_04 liczby
+Napięcie przy przerwie PEN<br><small>najgorszy przypadek</small><br><small>10.04</small>	do ok. <b>400 V</b> na najmniej obciążonej fazie<br><small>źródło: 11.04</small>	elektryka::10 temat::10_04 liczby
+Kontrolka zgaszona<br><small>—</small><br><small>10.04</small>	<b>nie oznacza</b> braku napięcia	elektryka::10 temat::10_04 liczby
+Wyłączenie łuku 2,5 A<br><small>łuki o małym prądzie</small><br><small>10.05</small>	w ciągu <b>1 s</b><br><small>źródło: PN-EN 62606 (za opracowaniem PG)</small>	elektryka::10 temat::10_05 liczby
+Wyłączenie łuku 63 A<br><small>łuki o małym prądzie</small><br><small>10.05</small>	w ciągu <b>0,12 s</b><br><small>źródło: PN-EN 62606 (za opracowaniem PG)</small>	elektryka::10 temat::10_05 liczby
+Prądy znamionowe AFDD<br><small>—</small><br><small>10.05</small>	<b>6–63 A</b><br><small>źródło: PN-EN 62606 (za opracowaniem PG)</small>	elektryka::10 temat::10_05 liczby
+Status w Polsce<br><small>sypialnie, materiały palne, budynki drewniane</small><br><small>10.05</small>	<b>zalecany</b>, nie obowiązkowy<br><small>źródło: PN-HD 60364-4-42</small>	elektryka::10 temat::10_05 liczby
+Klasa B / A<br><small>liczniki energii czynnej</small><br><small>10.06</small>	błąd ok. <b>1 % / 2 %</b><br><small>źródło: PN-EN 50470-3</small>	elektryka::10 temat::10_06 liczby
+Pomiar bezpośredni<br><small>podliczniki modułowe</small><br><small>10.06</small>	zwykle do <b>63–100 A</b><br><small>źródło: katalogi producentów</small>	elektryka::10 temat::10_06 liczby
+Moc z obrotów tarczy<br><small>n — obroty, C — obr/kWh, t — s</small><br><small>10.06</small>	\(P = \dfrac{3600 \cdot n}{C \cdot t}\) [kW]	elektryka::10 temat::10_06 liczby
+Szerokość podlicznika<br><small>—</small><br><small>10.06</small>	<b>1–2 moduły</b> (1-faz.), <b>3–4 moduły</b> (3-faz.)<br><small>źródło: katalogi</small>	elektryka::10 temat::10_06 liczby
+1. litera<br><small>—</small><br><small>11.01</small>	<b>T</b> — źródło uziemione, <b>I</b> — izolowane<br><small>źródło: PN-HD 60364-1, 312.2</small>	elektryka::11 temat::11_01 liczby
+2. litera<br><small>—</small><br><small>11.01</small>	<b>T</b> — obudowy uziemione osobno, <b>N</b> — połączone z punktem neutralnym<br><small>źródło: PN-HD 60364-1, 312.2</small>	elektryka::11 temat::11_01 liczby
+Dopisek<br><small>układy TN</small><br><small>11.01</small>	<b>S</b> — N i PE osobno, <b>C</b> — wspólny PEN<br><small>źródło: PN-HD 60364-1, 312.2</small>	elektryka::11 temat::11_01 liczby
+Typowo w Polsce<br><small>—</small><br><small>11.01</small>	sieć <b>TN-C</b>, budynek <b>TN-S</b> → <b>TN-C-S</b><br><small>źródło: warunki przyłączenia OSD</small>	elektryka::11 temat::11_01 liczby
+Minimalny przekrój PEN<br><small>instalacje stałe</small><br><small>11.02</small>	<b>10 mm² Cu / 16 mm² Al</b><br><small>źródło: PN-HD 60364-5-54, 543.4.1</small>	elektryka::11 temat::11_02 liczby
+RCD w TN-C<br><small>—</small><br><small>11.02</small>	<b>nie stosuje się</b><br><small>źródło: PN-HD 60364-4-41</small>	elektryka::11 temat::11_02 liczby
+Przewodów w sieci TN-C (3-faz.)<br><small>—</small><br><small>11.02</small>	<b>4</b> (L1, L2, L3, PEN)	elektryka::11 temat::11_02 liczby
+Napięcie na obudowie przy przerwie PEN<br><small>najgorszy przypadek</small><br><small>11.02</small>	do ok. <b>230 V</b>	elektryka::11 temat::11_02 liczby
+Czas wyłączenia obwodów odbiorczych<br><small>TN, gniazda ≤ 63 A, odbiory stałe ≤ 32 A</small><br><small>11.03</small>	<b>0,4 s</b> (230 V)<br><small>źródło: PN-HD 60364-4-41, tab. 41.1</small>	elektryka::11 temat::11_03 liczby
+Czas wyłączenia obwodów rozdzielczych<br><small>TN</small><br><small>11.03</small>	<b>5 s</b><br><small>źródło: PN-HD 60364-4-41, tab. 41.1, 411.3.2.3</small>	elektryka::11 temat::11_03 liczby
+Warunek ochrony<br><small>TN</small><br><small>11.03</small>	\(Z_s \cdot I_a \le U_0\)<br><small>źródło: PN-HD 60364-4-41, tab. 41.1, 411.3.2.3, 411.4.4</small>	elektryka::11 temat::11_03 liczby
+Przewodów w obwodzie 3-faz.<br><small>—</small><br><small>11.03</small>	<b>5</b> (L1, L2, L3, N, PE)	elektryka::11 temat::11_03 liczby
+Punkt podziału<br><small>—</small><br><small>11.04</small>	<b>jeden</b>, w złączu lub rozdzielnicy głównej<br><small>źródło: PN-HD 60364-5-54, praktyka OSD</small>	elektryka::11 temat::11_04 liczby
+Kolejność<br><small>—</small><br><small>11.04</small>	PEN → <b>szyna PE</b> → mostek → szyna N<br><small>źródło: PN-HD 60364-5-54, 543.4.3</small>	elektryka::11 temat::11_04 liczby
+Po podziale<br><small>—</small><br><small>11.04</small>	N i PE <b>nigdy</b> się nie łączą<br><small>źródło: PN-HD 60364-5-54, 543.4.3</small>	elektryka::11 temat::11_04 liczby
+Minimalny przekrój PEN<br><small>—</small><br><small>11.04</small>	<b>10 mm² Cu / 16 mm² Al</b><br><small>źródło: PN-HD 60364-5-54, 543.4.3, 543.4.1</small>	elektryka::11 temat::11_04 liczby
+Przerwa PEN — napięcie fazy<br><small>najgorszy przypadek</small><br><small>11.04</small>	do ok. <b>400 V</b>	elektryka::11 temat::11_04 liczby
+Warunek ochrony z RCD<br><small>TT</small><br><small>11.05</small>	\(R_A \cdot I_{\Delta n} \le 50\ \mathrm{V}\)<br><small>źródło: PN-HD 60364-4-41, 411.5.3</small>	elektryka::11 temat::11_05 liczby
+Czas wyłączenia obwodów odbiorczych<br><small>TT, gniazda ≤ 63 A, stałe ≤ 32 A</small><br><small>11.05</small>	<b>0,2 s</b> (230 V)<br><small>źródło: PN-HD 60364-4-41, 411.5.3, tab. 41.1</small>	elektryka::11 temat::11_05 liczby
+Czas wyłączenia obwodów rozdzielczych<br><small>TT</small><br><small>11.05</small>	<b>1 s</b><br><small>źródło: PN-HD 60364-4-41, 411.5.3, tab. 41.1, 411.3.2.4</small>	elektryka::11 temat::11_05 liczby
+\(R_A\) max dla RCD 30 / 100 / 300 mA<br><small>z warunku 50 V</small><br><small>11.05</small>	ok. <b>1667 / 500 / 167 Ω</b><br><small>źródło: obliczenie</small>	elektryka::11 temat::11_05 liczby
+Prąd uszkodzenia<br><small>typowe uziomy</small><br><small>11.05</small>	kilka–kilkanaście A	elektryka::11 temat::11_05 liczby
+Pierwsze zwarcie<br><small>—</small><br><small>11.06</small>	<b>bez wyłączenia</b>, sygnalizacja<br><small>źródło: PN-HD 60364-4-41, 411.6</small>	elektryka::11 temat::11_06 liczby
+Warunek przy pierwszym zwarciu<br><small>\(I_d\) — prąd pierwszego zwarcia</small><br><small>11.06</small>	\(R_A \cdot I_d \le 50\ \mathrm{V}\)<br><small>źródło: PN-HD 60364-4-41, 411.6, 411.6.2</small>	elektryka::11 temat::11_06 liczby
+Drugie zwarcie<br><small>—</small><br><small>11.06</small>	<b>wyłączenie</b> jak w TN lub TT<br><small>źródło: PN-HD 60364-4-41, 411.6, 411.6.2, 411.6.4</small>	elektryka::11 temat::11_06 liczby
+Przewód N<br><small>—</small><br><small>11.06</small>	zaleca się <b>nie prowadzić</b><br><small>źródło: PN-HD 60364-4-41, 411.6, 411.6.2, 411.6.4</small>	elektryka::11 temat::11_06 liczby
+Obudowy i osłony<br><small>części czynne</small><br><small>12.01</small>	co najmniej <b>IP2X / IPXXB</b><br><small>źródło: PN-HD 60364-4-41, 416.2</small>	elektryka::12 temat::12_01 liczby
+Górne poziome powierzchnie<br><small>łatwo dostępne</small><br><small>12.01</small>	co najmniej <b>IP4X / IPXXD</b><br><small>źródło: PN-HD 60364-4-41, 416.2</small>	elektryka::12 temat::12_01 liczby
+Zasięg ręki<br><small>od miejsca stania</small><br><small>12.01</small>	<b>2,5 m</b> w górę, <b>1,25 m</b> w bok, <b>0,75 m</b> w dół<br><small>źródło: PN-HD 60364-4-41, 416.2, zał. B</small>	elektryka::12 temat::12_01 liczby
+Przeszkody i poza zasięgiem<br><small>—</small><br><small>12.01</small>	tylko przy dostępie <b>osób wykwalifikowanych lub poinstruowanych</b><br><small>źródło: PN-HD 60364-4-41, 416.2, zał. B, 410.3.5</small>	elektryka::12 temat::12_01 liczby
+Czas wyłączenia TN<br><small>obwody odbiorcze ≤ 63 A gniazd. / ≤ 32 A stałe</small><br><small>12.02</small>	<b>0,4 s</b> (230 V), <b>5 s</b> — obwody rozdzielcze<br><small>źródło: PN-HD 60364-4-41, tab. 41.1</small>	elektryka::12 temat::12_02 liczby
+Czas wyłączenia TT<br><small>obwody odbiorcze ≤ 63 A gniazd. / ≤ 32 A stałe</small><br><small>12.02</small>	<b>0,2 s</b> (230 V), <b>1 s</b> — obwody rozdzielcze<br><small>źródło: PN-HD 60364-4-41, tab. 41.1</small>	elektryka::12 temat::12_02 liczby
+Napięcie dotykowe dopuszczalne<br><small>warunki normalne</small><br><small>12.02</small>	\(U_L\) = <b>50 V AC</b><br><small>źródło: 04.03</small>	elektryka::12 temat::12_02 liczby
+Elementy<br><small>wszystkie trzy</small><br><small>12.02</small>	<b>PE + wyrównanie + zabezpieczenie</b><br><small>źródło: 411.3</small>	elektryka::12 temat::12_02 liczby
+Warunek TN<br><small>—</small><br><small>12.03</small>	\(Z_s \cdot I_a \le U_0\)<br><small>źródło: PN-HD 60364-4-41, 411.4.4</small>	elektryka::12 temat::12_03 liczby
+Warunek TT<br><small>z RCD</small><br><small>12.03</small>	\(R_A \cdot I_{\Delta n} \le 50\) V<br><small>źródło: PN-HD 60364-4-41, 411.4.4, 411.5.3</small>	elektryka::12 temat::12_03 liczby
+\(I_a\) wyłączników B / C / D<br><small>0,4 s i 5 s</small><br><small>12.03</small>	<b>5 / 10 / 20 × In</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::12 temat::12_03 liczby
+\(Z_{s,max}\) B10 / B16 / B20 / B25<br><small>TN, 230 V</small><br><small>12.03</small>	<b>4,60 / 2,88 / 2,30 / 1,84 Ω</b><br><small>źródło: obliczenie</small>	elektryka::12 temat::12_03 liczby
+\(Z_{s,max}\) C10 / C16 / C20<br><small>TN, 230 V</small><br><small>12.03</small>	<b>2,30 / 1,44 / 1,15 Ω</b><br><small>źródło: obliczenie</small>	elektryka::12 temat::12_03 liczby
+Ocena pomiaru z zapasem<br><small>pomiar „na zimno”</small><br><small>12.03</small>	\(Z_s \le \tfrac{2}{3} \cdot U_0 / I_a\)<br><small>źródło: PN-HD 60364-6, zał. informacyjny</small>	elektryka::12 temat::12_03 liczby
+SELV / PELV<br><small>—</small><br><small>12.04</small>	≤ <b>50 V AC</b>, ≤ <b>120 V DC</b> (bez tętnień)<br><small>źródło: PN-HD 60364-4-41, 414</small>	elektryka::12 temat::12_04 liczby
+Bez ochrony podstawowej<br><small>SELV, PELV</small><br><small>12.04</small>	do <b>25 V AC / 60 V DC</b> (sucho), do <b>12 V AC / 30 V DC</b> (pozostałe)<br><small>źródło: PN-HD 60364-4-41, 414, 414.4.5</small>	elektryka::12 temat::12_04 liczby
+Separacja — napięcie<br><small>obwód separowany</small><br><small>12.04</small>	do <b>500 V</b><br><small>źródło: PN-HD 60364-4-41, 414, 414.4.5, 413</small>	elektryka::12 temat::12_04 liczby
+Separacja — długość<br><small>zalecenie</small><br><small>12.04</small>	iloczyn <b>U · L ≤ 100 000 V·m</b>, <b>L ≤ 500 m</b><br><small>źródło: PN-HD 60364-4-41, 414, 414.4.5, 413</small>	elektryka::12 temat::12_04 liczby
+Separacja — odbiorniki<br><small>—</small><br><small>12.04</small>	zasadniczo <b>1</b> na źródło<br><small>źródło: PN-HD 60364-4-41, 414, 414.4.5, 413, 413.1.2</small>	elektryka::12 temat::12_04 liczby
+RCD ochrony uzupełniającej<br><small>—</small><br><small>12.05</small>	IΔn ≤ <b>30 mA</b><br><small>źródło: PN-HD 60364-4-41, 415.1</small>	elektryka::12 temat::12_05 liczby
+Obowiązkowo RCD 30 mA<br><small>—</small><br><small>12.05</small>	gniazda ≤ 32 A, urządzenia ruchome na zewnątrz ≤ 32 A, oświetlenie w mieszkaniach<br><small>źródło: PN-HD 60364-4-41, 415.1, 411.3.3, 411.3.4</small>	elektryka::12 temat::12_05 liczby
+Warunek połączeń dodatkowych<br><small>między częściami jednocześnie dostępnymi</small><br><small>12.05</small>	\(R \le 50\ \mathrm{V} / I_a\) (AC)<br><small>źródło: PN-HD 60364-4-41, 415.1, 411.3.3, 411.3.4, 415.2.2</small>	elektryka::12 temat::12_05 liczby
+Zerowanie<br><small>dawna nazwa</small><br><small>12.06</small>	= samoczynne wyłączenie w <b>TN</b><br><small>źródło: PN-HD 60364-4-41 (nazwy obecne)</small>	elektryka::12 temat::12_06 liczby
+Uziemienie ochronne<br><small>dawna nazwa</small><br><small>12.06</small>	= samoczynne wyłączenie w <b>TT</b><br><small>źródło: PN-HD 60364-4-41 (nazwy obecne)</small>	elektryka::12 temat::12_06 liczby
+Dotyk bezpośredni / pośredni<br><small>dawna nazwa</small><br><small>12.06</small>	= ochrona <b>podstawowa / przy uszkodzeniu</b><br><small>źródło: PN-HD 60364-4-41 (nazwy obecne)</small>	elektryka::12 temat::12_06 liczby
+Napięcie bezpieczne<br><small>dawna nazwa</small><br><small>12.06</small>	= <b>SELV/PELV</b>, ≤ 50 V AC<br><small>źródło: PN-HD 60364-4-41 (nazwy obecne)</small>	elektryka::12 temat::12_06 liczby
+Taśma stalowa ocynkowana<br><small>uziom</small><br><small>13.01</small>	≥ <b>90 mm²</b>, grubość ≥ <b>3 mm</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.1</small>	elektryka::13 temat::13_01 liczby
+Pręt stalowy ocynkowany<br><small>uziom pionowy</small><br><small>13.01</small>	średnica ≥ <b>16 mm</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.1</small>	elektryka::13 temat::13_01 liczby
+Pręt stalowy pokryty miedzią<br><small>uziom pionowy</small><br><small>13.01</small>	średnica ≥ <b>14 mm</b>, powłoka <b>250 μm</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.1</small>	elektryka::13 temat::13_01 liczby
+Taśma miedziana<br><small>—</small><br><small>13.01</small>	≥ <b>50 mm²</b>, grubość <b>2 mm</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.1</small>	elektryka::13 temat::13_01 liczby
+Uziom otokowy<br><small>—</small><br><small>13.01</small>	głębokość ≥ <b>0,5 m</b>, ok. <b>1 m</b> od ścian<br><small>źródło: PN-EN 62305-3</small>	elektryka::13 temat::13_01 liczby
+Rury z gazem lub cieczami palnymi<br><small>—</small><br><small>13.01</small>	<b>nie wolno</b> jako uziom<br><small>źródło: PN-HD 60364-5-54</small>	elektryka::13 temat::13_01 liczby
+Uziom prętowy<br><small>grunt jednorodny</small><br><small>13.02</small>	\(R \approx \dfrac{\rho}{2\pi L} \ln\dfrac{4L}{d}\)<br><small>źródło: wzór teoretyczny</small>	elektryka::13 temat::13_02 liczby
+Szybkie oszacowanie pręta<br><small>L — długość w m</small><br><small>13.02</small>	\(R \approx \rho / L\)<br><small>źródło: reguła praktyczna</small>	elektryka::13 temat::13_02 liczby
+Zalecana rezystancja ogólnie / odgromowa<br><small>—</small><br><small>13.02</small>	<b>< 10 Ω</b><br><small>źródło: PN-EN 62305-3, Inżynier Budownictwa</small>	elektryka::13 temat::13_02 liczby
+Warunek TT<br><small>z RCD</small><br><small>13.02</small>	\(R_A \le 50\ \mathrm{V} / I_{\Delta n}\)<br><small>źródło: PN-HD 60364-4-41</small>	elektryka::13 temat::13_02 liczby
+Rezystywność gruntu (rząd)<br><small>—</small><br><small>13.02</small>	glina <b>kilkadziesiąt</b>, piasek suchy <b>setki–tysiące</b> Ω·m<br><small>źródło: literatura</small>	elektryka::13 temat::13_02 liczby
+Rozstaw prętów<br><small>uziomy wielokrotne</small><br><small>13.02</small>	≥ <b>długość pręta</b><br><small>źródło: praktyka</small>	elektryka::13 temat::13_02 liczby
+Przewód uziemiający<br><small>—</small><br><small>13.03</small>	≥ <b>6 mm² Cu</b> lub <b>50 mm² Fe</b>; bez aluminium<br><small>źródło: PN-HD 60364-5-54, 542.3.1</small>	elektryka::13 temat::13_03 liczby
+Przewód uziemiający z instalacją odgromową<br><small>—</small><br><small>13.03</small>	≥ <b>16 mm² Cu</b> lub <b>50 mm² Fe</b><br><small>źródło: PN-HD 60364-5-54, 542.3.1</small>	elektryka::13 temat::13_03 liczby
+Przewody wyrównawcze główne<br><small>—</small><br><small>13.03</small>	≥ <b>6 mm² Cu</b> (½ największego PE, nie trzeba > 25 mm² Cu)<br><small>źródło: PN-HD 60364-5-54, 542.3.1, 544.1</small>	elektryka::13 temat::13_03 liczby
+Odłączanie przewodów<br><small>—</small><br><small>13.03</small>	każdy osobno, <b>tylko narzędziem</b><br><small>źródło: PN-HD 60364-5-54, 542.3.1, 544.1, 542.4</small>	elektryka::13 temat::13_03 liczby
+Przekrój przewodu wyrównawczego głównego<br><small>—</small><br><small>13.04</small>	≥ <b>½ największego PE</b> instalacji<br><small>źródło: PN-HD 60364-5-54, 544.1</small>	elektryka::13 temat::13_04 liczby
+Minimum<br><small>—</small><br><small>13.04</small>	<b>6 mm² Cu</b>, 16 mm² Al, 50 mm² Fe<br><small>źródło: PN-HD 60364-5-54, 544.1</small>	elektryka::13 temat::13_04 liczby
+Maksimum wymagane<br><small>—</small><br><small>13.04</small>	<b>25 mm² Cu</b> (lub równoważny)<br><small>źródło: PN-HD 60364-5-54, 544.1</small>	elektryka::13 temat::13_04 liczby
+Gaz<br><small>—</small><br><small>13.04</small>	połączenie <b>za wstawką izolacyjną</b> (od strony budynku)<br><small>źródło: wymagania dostawców gazu</small>	elektryka::13 temat::13_04 liczby
+Warunek skuteczności<br><small>AC</small><br><small>13.05</small>	\(R \le 50\ \mathrm{V} / I_a\)<br><small>źródło: PN-HD 60364-4-41, 415.2.2</small>	elektryka::13 temat::13_05 liczby
+Przewód między dwiema częściami dostępnymi<br><small>—</small><br><small>13.05</small>	przewodność ≥ <b>mniejszego z PE</b><br><small>źródło: PN-HD 60364-5-54, 544.2.1</small>	elektryka::13 temat::13_05 liczby
+Przewód między częścią dostępną a obcą<br><small>—</small><br><small>13.05</small>	przewodność ≥ <b>½ PE</b><br><small>źródło: PN-HD 60364-5-54, 544.2.1, 544.2.2</small>	elektryka::13 temat::13_05 liczby
+Minimalny przekrój<br><small>—</small><br><small>13.05</small>	<b>2,5 mm² Cu</b> z ochroną mechaniczną, <b>4 mm² Cu</b> bez ochrony<br><small>źródło: PN-HD 60364-5-54, 544.2.1, 544.2.2, 544.2.3</small>	elektryka::13 temat::13_05 liczby
+PE przy fazowym S ≤ 16 mm²<br><small>ten sam materiał</small><br><small>13.06</small>	<b>S</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.2</small>	elektryka::13 temat::13_06 liczby
+PE przy 16 < S ≤ 35 mm²<br><small>ten sam materiał</small><br><small>13.06</small>	<b>16 mm²</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.2</small>	elektryka::13 temat::13_06 liczby
+PE przy S > 35 mm²<br><small>ten sam materiał</small><br><small>13.06</small>	<b>S/2</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.2</small>	elektryka::13 temat::13_06 liczby
+PE prowadzony osobno<br><small>—</small><br><small>13.06</small>	<b>2,5 mm² Cu</b> z ochroną, <b>4 mm² Cu</b> bez<br><small>źródło: PN-HD 60364-5-54, tab. 54.2, 543.1.3</small>	elektryka::13 temat::13_06 liczby
+PEN<br><small>instalacje stałe</small><br><small>13.06</small>	≥ <b>10 mm² Cu / 16 mm² Al</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.2, 543.1.3, 543.4.1</small>	elektryka::13 temat::13_06 liczby
+Przewód uziemiający<br><small>bez Al</small><br><small>13.06</small>	≥ <b>6 mm² Cu / 50 mm² Fe</b>; z LPS <b>16 mm² Cu</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.2, 543.1.3, 543.4.1, 542.3.1</small>	elektryka::13 temat::13_06 liczby
+Wyrównawczy główny<br><small>—</small><br><small>13.06</small>	≥ ½ PE, min <b>6 mm² Cu</b>, max wymagane <b>25 mm² Cu</b><br><small>źródło: PN-HD 60364-5-54, tab. 54.2, 543.1.3, 543.4.1, 542.3.1, 544.1</small>	elektryka::13 temat::13_06 liczby
+Wyrównawczy miejscowy<br><small>—</small><br><small>13.06</small>	<b>2,5 / 4 mm² Cu</b> (z ochroną / bez)<br><small>źródło: PN-HD 60364-5-54, tab. 54.2, 543.1.3, 543.4.1, 542.3.1, 544.1, 544.2</small>	elektryka::13 temat::13_06 liczby
+Prąd upływu > 10 mA<br><small>—</small><br><small>13.06</small>	PE ≥ <b>10 mm² Cu</b> lub podwójny<br><small>źródło: PN-HD 60364-5-54, tab. 54.2, 543.1.3, 543.4.1, 542.3.1, 544.1, 544.2, 543.7</small>	elektryka::13 temat::13_06 liczby
+Wzór adiabatyczny<br><small>t ≤ 5 s; Cu/PVC k = 115 (żyła w przewodzie)</small><br><small>13.06</small>	\(S = \sqrt{I^2 t}\,/\,k\)<br><small>źródło: PN-HD 60364-5-54, tab. 54.2, 543.1.3, 543.4.1, 542.3.1, 544.1, 544.2, 543.7, 543.1.2</small>	elektryka::13 temat::13_06 liczby
+Napięcie przyłącza nn<br><small>gospodarstwa domowe</small><br><small>14.01</small>	<b>230/400 V</b>	elektryka::14 temat::14_01 liczby
+Liczba żył przyłącza 3-faz.<br><small>sieć TN-C</small><br><small>14.01</small>	<b>4</b> (L1, L2, L3, PEN)	elektryka::14 temat::14_01 liczby
+Głębokość kabla nn w ziemi<br><small>—</small><br><small>14.01</small>	≥ <b>0,7 m</b><br><small>źródło: N SEP-E-004 (05.06)</small>	elektryka::14 temat::14_01 liczby
+Kto buduje przyłącze<br><small>na podstawie umowy o przyłączenie</small><br><small>14.01</small>	<b>operator (OSD)</b><br><small>źródło: Prawo energetyczne, art. 7</small>	elektryka::14 temat::14_01 liczby
+Granica własności<br><small>wg umowy o przyłączenie</small><br><small>14.02</small>	zwykle <b>zaciski w złączu</b><br><small>źródło: umowa z OSD</small>	elektryka::14 temat::14_02 liczby
+Złącze ZKP<br><small>domy jednorodzinne</small><br><small>14.02</small>	złącze + <b>licznik</b> w jednej szafce<br><small>źródło: praktyka OSD</small>	elektryka::14 temat::14_02 liczby
+Dostęp do złącza<br><small>nowe przyłącza</small><br><small>14.02</small>	<b>od strony drogi publicznej</b><br><small>źródło: wymagania OSD</small>	elektryka::14 temat::14_02 liczby
+Moc jednofazowa<br><small>25 A → ok. <b>5,75 kW</b></small><br><small>14.03</small>	\(P \approx 230 \cdot I_n\)<br><small>źródło: obliczenie</small>	elektryka::14 temat::14_03 liczby
+Moc trójfazowa<br><small>25 A → ok. <b>17 kW</b></small><br><small>14.03</small>	\(P \approx \sqrt{3} \cdot 400 \cdot I_n\)<br><small>źródło: obliczenie, przy symetrii</small>	elektryka::14 temat::14_03 liczby
+Selektywność gG<br><small>wkładki szeregowo</small><br><small>14.03</small>	stosunek ≥ <b>1,6</b><br><small>źródło: 07.07</small>	elektryka::14 temat::14_03 liczby
+Właściciel licznika i zabezpieczenia<br><small>—</small><br><small>14.03</small>	<b>operator (OSD)</b><br><small>źródło: umowa</small>	elektryka::14 temat::14_03 liczby
+Spadek napięcia od licznika do odbiornika<br><small>instalacje w budynkach mieszkalnych</small><br><small>14.04</small>	≤ <b>3 %</b><br><small>źródło: N SEP-E-002</small>	elektryka::14 temat::14_04 liczby
+Spadek napięcia w WLZ<br><small>zalecenie</small><br><small>14.04</small>	rzędu <b>0,5 %</b> (dla mocy do ok. 100 kVA)<br><small>źródło: N SEP-E-002</small>	elektryka::14 temat::14_04 liczby
+Przewody WLZ w nowych budynkach<br><small>za punktem podziału PEN</small><br><small>14.04</small>	<b>5 żył Cu</b> (L1–L3, N, PE)<br><small>źródło: praktyka, 11.04</small>	elektryka::14 temat::14_04 liczby
+Moc umowna<br><small>—</small><br><small>14.05</small>	≤ <b>moc przyłączeniowa</b><br><small>źródło: umowa z OSD</small>	elektryka::14 temat::14_05 liczby
+Moc 3-faz. a zabezpieczenie<br><small>symetryczne obciążenie</small><br><small>14.05</small>	\(P \approx 0{,}69 \cdot I_n\) [kW]<br><small>źródło: obliczenie</small>	elektryka::14 temat::14_05 liczby
+G12 — strefa tańsza<br><small>wg taryfy OSD</small><br><small>14.05</small>	zwykle <b>noc + kilka godzin po południu</b><br><small>źródło: taryfy operatorów</small>	elektryka::14 temat::14_05 liczby
+G12w<br><small>wg taryfy OSD</small><br><small>14.05</small>	<b>weekend cały w strefie tańszej</b><br><small>źródło: taryfy operatorów</small>	elektryka::14 temat::14_05 liczby
+Szyna montażowa<br><small>—</small><br><small>15.01</small>	<b>35 mm</b> (TH35)<br><small>źródło: PN-EN 60715</small>	elektryka::15 temat::15_01 liczby
+Szerokość modułu<br><small>—</small><br><small>15.01</small>	ok. <b>17,5–18 mm</b><br><small>źródło: katalogi</small>	elektryka::15 temat::15_01 liczby
+Wyłącznik nadprądowy 1P<br><small>—</small><br><small>15.01</small>	<b>1 moduł</b><br><small>źródło: katalogi</small>	elektryka::15 temat::15_01 liczby
+RCD 2P / 4P<br><small>—</small><br><small>15.01</small>	<b>2 / 4 moduły</b><br><small>źródło: katalogi</small>	elektryka::15 temat::15_01 liczby
+Rezerwa miejsca<br><small>planowanie</small><br><small>15.01</small>	<b>20–30 %</b><br><small>źródło: praktyka, N SEP-E-002</small>	elektryka::15 temat::15_01 liczby
+Stopień ochrony obudowy<br><small>wnętrza</small><br><small>15.01</small>	co najmniej <b>IP2X</b> od frontu, typowo IP30–IP40<br><small>źródło: 06.05</small>	elektryka::15 temat::15_01 liczby
+3 kreski<br><small>obwód 1-fazowy</small><br><small>15.02</small>	<b>3 żyły</b> (L, N, PE)<br><small>źródło: PN-EN 60617</small>	elektryka::15 temat::15_02 liczby
+5 kresek<br><small>obwód 3-fazowy</small><br><small>15.02</small>	<b>5 żył</b> (L1–L3, N, PE)<br><small>źródło: PN-EN 60617</small>	elektryka::15 temat::15_02 liczby
+Opis obwodu<br><small>—</small><br><small>15.02</small>	<b>numer, aparat, przewód, przeznaczenie, faza</b><br><small>źródło: praktyka</small>	elektryka::15 temat::15_02 liczby
+Oznaczenie aparatu<br><small>każdy aparat</small><br><small>15.03</small>	<b>numer + nazwa obwodu</b><br><small>źródło: PN-HD 60364-5-51, 514</small>	elektryka::15 temat::15_03 liczby
+Schemat<br><small>—</small><br><small>15.03</small>	<b>w rozdzielnicy</b> lub przy niej<br><small>źródło: PN-HD 60364-5-51, 514</small>	elektryka::15 temat::15_03 liczby
+Wiele źródeł zasilania<br><small>PV, agregat</small><br><small>15.03</small>	<b>ostrzeżenie</b> na rozdzielnicy<br><small>źródło: PN-HD 60364-7-712, jw.</small>	elektryka::15 temat::15_03 liczby
+Moc przy 25 A, 1-faz.<br><small>teoretycznie</small><br><small>15.04</small>	ok. <b>5,75 kW</b><br><small>źródło: 14.03</small>	elektryka::15 temat::15_04 liczby
+Oświetlenie<br><small>typowo</small><br><small>15.04</small>	<b>B10, 3×1,5</b><br><small>źródło: 07.06</small>	elektryka::15 temat::15_04 liczby
+Gniazda<br><small>typowo</small><br><small>15.04</small>	<b>B16, 3×2,5</b><br><small>źródło: 07.06</small>	elektryka::15 temat::15_04 liczby
+RCD<br><small>—</small><br><small>15.04</small>	<b>30 mA, typ A</b>, co najmniej <b>2 grupy</b><br><small>źródło: 08.07</small>	elektryka::15 temat::15_04 liczby
+Moduły (przykład)<br><small>—</small><br><small>15.04</small>	ok. <b>20</b> + rezerwa<br><small>źródło: obliczenie</small>	elektryka::15 temat::15_04 liczby
+Moc przy 3 × 25 A<br><small>—</small><br><small>15.05</small>	ok. <b>17 kW</b> (teoretycznie, symetrycznie)<br><small>źródło: 14.03</small>	elektryka::15 temat::15_05 liczby
+Płyta indukcyjna 3-faz.<br><small>—</small><br><small>15.05</small>	<b>B16 3P, 5×2,5</b> (typowo, wg producenta)<br><small>źródło: instrukcje producentów</small>	elektryka::15 temat::15_05 liczby
+RCD 4P<br><small>—</small><br><small>15.05</small>	<b>40 A / 30 mA, typ A</b> (typowo)	elektryka::15 temat::15_05 liczby
+Napięcie między fazami<br><small>—</small><br><small>15.05</small>	<b>400 V</b><br><small>źródło: 02.03</small>	elektryka::15 temat::15_05 liczby
+Czas wyłączenia obwodu rozdzielczego TN<br><small>zasilanie podrozdzielnic</small><br><small>15.06</small>	<b>5 s</b><br><small>źródło: PN-HD 60364-4-41, 411.3.2.3</small>	elektryka::15 temat::15_06 liczby
+Czas wyłączenia obwodu odbiorczego TN<br><small>gniazda, odbiory</small><br><small>15.06</small>	<b>0,4 s</b><br><small>źródło: PN-HD 60364-4-41, 411.3.2.3</small>	elektryka::15 temat::15_06 liczby
+SPD przy linii napowietrznej / LPS<br><small>—</small><br><small>15.06</small>	<b>typ 1+2</b><br><small>źródło: 09.02</small>	elektryka::15 temat::15_06 liczby
+Spadek napięcia od licznika<br><small>do najdalszego odbiornika</small><br><small>15.06</small>	≤ <b>3 %</b><br><small>źródło: N SEP-E-002</small>	elektryka::15 temat::15_06 liczby
+Przewody pod zaciskiem<br><small>—</small><br><small>15.07</small>	<b>1</b> (chyba że producent dopuszcza więcej)<br><small>źródło: instrukcje aparatów</small>	elektryka::15 temat::15_07 liczby
+Moment dokręcenia<br><small>aparaty modułowe</small><br><small>15.07</small>	wg producenta, typowo <b>2–3,5 N·m</b><br><small>źródło: katalogi</small>	elektryka::15 temat::15_07 liczby
+Kolejność podłączania<br><small>—</small><br><small>15.07</small>	<b>PE → N → L</b><br><small>źródło: praktyka</small>	elektryka::15 temat::15_07 liczby
+Kolejność odłączania<br><small>—</small><br><small>15.07</small>	<b>L → N → PE</b><br><small>źródło: praktyka</small>	elektryka::15 temat::15_07 liczby
+Minimalna liczba obwodów oświetlenia i gniazd<br><small>mieszkanie; obwody wydzielone dochodzą osobno</small><br><small>16.01</small>	do 50 m² — <b>2</b>; 50–75 m² — <b>3</b>; 75–100 m² — <b>4</b>; 100–125 m² — <b>5</b>; ponad 125 m² — <b>6</b><br><small>źródło: N SEP-E-002, Inżynier Budownictwa</small>	elektryka::16 temat::16_01 liczby
+Osobny obwód<br><small>praktyka</small><br><small>16.01</small>	odbiornik powyżej ok. <b>2 kW</b><br><small>źródło: Murator, N SEP-E-002</small>	elektryka::16 temat::16_01 liczby
+Typowe zabezpieczenie<br><small>przewody 1,5 / 2,5 mm² Cu</small><br><small>16.01</small>	oświetlenie <b>B10</b>, gniazda <b>B16</b><br><small>źródło: 07.06</small>	elektryka::16 temat::16_01 liczby
+Rezerwa w rozdzielnicy<br><small>planowanie</small><br><small>16.01</small>	<b>20–30 %</b> miejsca<br><small>źródło: 15.01</small>	elektryka::16 temat::16_01 liczby
+Prąd 1-fazowy<br><small>cos φ = 1</small><br><small>16.02</small>	\(I_B = P / (230 \cdot \cos\varphi)\); <b>1 kW ≈ 4,35 A</b>	elektryka::16 temat::16_02 liczby
+Prąd 3-fazowy<br><small>odbiornik symetryczny, cos φ = 1</small><br><small>16.02</small>	\(I_B = P / (\sqrt{3} \cdot 400 \cdot \cos\varphi)\); <b>1 kW ≈ 1,44 A</b> na fazę	elektryka::16 temat::16_02 liczby
+Łańcuch doboru<br><small>zawsze</small><br><small>16.02</small>	\(I_B \le I_n \le I_z\) i \(I_2 \le 1{,}45 I_z\)<br><small>źródło: PN-HD 60364-4-43, 433.1</small>	elektryka::16 temat::16_02 liczby
+Szereg prądów wyłączników<br><small>wyłączniki nadprądowe</small><br><small>16.02</small>	6, 10, 13, 16, 20, 25, 32, 40, 50, 63 A<br><small>źródło: PN-EN 60898-1</small>	elektryka::16 temat::16_02 liczby
+Typowe pary<br><small>Cu, PVC, ułożenie C, bez grupowania</small><br><small>16.02</small>	<b>1,5 mm² — B10</b>, <b>2,5 mm² — B16</b>, <b>4 mm² — B20/B25</b>, <b>6 mm² — B32</b><br><small>źródło: tablice obciążalności, praktyka</small>	elektryka::16 temat::16_02 liczby
+Spadek 1-faz.<br><small>przekroje do ok. 16 mm², U = 230 V</small><br><small>16.03</small>	\(\Delta U\% = \dfrac{200 P l}{\gamma S U^2}\)	elektryka::16 temat::16_03 liczby
+Spadek 3-faz.<br><small>obciążenie symetryczne, U = 400 V</small><br><small>16.03</small>	\(\Delta U\% = \dfrac{100 P l}{\gamma S U^2}\)	elektryka::16 temat::16_03 liczby
+Konduktywność γ<br><small>ok. 20 °C; w temperaturze pracy opór większy o ok. 20 %</small><br><small>16.03</small>	Cu <b>56</b>, Al <b>34</b> m/(Ω·mm²)<br><small>źródło: dane materiałowe</small>	elektryka::16 temat::16_03 liczby
+Dopuszczalny spadek od licznika do odbiornika<br><small>budynki mieszkalne</small><br><small>16.03</small>	<b>3 %</b><br><small>źródło: N SEP-E-002</small>	elektryka::16 temat::16_03 liczby
+Zalecany maks. spadek od złącza<br><small>instalacje zasilane z sieci publicznej nN</small><br><small>16.03</small>	<b>3 %</b> oświetlenie, <b>5 %</b> inne<br><small>źródło: PN-HD 60364-5-52, zał. G</small>	elektryka::16 temat::16_03 liczby
+Ile to woltów<br><small>—</small><br><small>16.03</small>	3 % z 230 V = <b>6,9 V</b>; 5 % = <b>11,5 V</b>	elektryka::16 temat::16_03 liczby
+Strefa pozioma górna<br><small>ściany w pomieszczeniach mieszkalnych</small><br><small>16.04</small>	<b>15–45 cm</b> pod sufitem (praktyka PL: ok. <b>30 cm</b>)<br><small>źródło: DIN 18015-3 🇩🇪, ZPE</small>	elektryka::16 temat::16_04 liczby
+Strefa pozioma dolna<br><small>ściany w pomieszczeniach mieszkalnych</small><br><small>16.04</small>	<b>15–45 cm</b> nad podłogą<br><small>źródło: DIN 18015-3 🇩🇪</small>	elektryka::16 temat::16_04 liczby
+Strefa pozioma środkowa<br><small>ściany w pomieszczeniach mieszkalnych</small><br><small>16.04</small>	<b>100–130 cm</b> nad podłogą<br><small>źródło: DIN 18015-3 🇩🇪</small>	elektryka::16 temat::16_04 liczby
+Strefa pionowa<br><small>ściany w pomieszczeniach mieszkalnych</small><br><small>16.04</small>	<b>10–30 cm</b> od drzwi, okien, narożników (praktyka PL: ok. <b>15 cm</b> od krawędzi)<br><small>źródło: DIN 18015-3 🇩🇪, ZPE</small>	elektryka::16 temat::16_04 liczby
+Strefy w łazience<br><small>łazienki</small><br><small>16.04</small>	przewody w strefach 1 i 2 — natynkowo albo na głębokości ≥ <b>5 cm</b><br><small>źródło: Inżynier Budownictwa, 17.01</small>	elektryka::16 temat::16_04 liczby
+Łącznik<br><small>pomieszczenia mieszkalne</small><br><small>16.05</small>	ok. <b>105 cm</b> nad podłogą, ok. <b>15 cm</b> od ościeżnicy, po stronie klamki<br><small>źródło: N SEP-E-002, ZPE</small>	elektryka::16 temat::16_05 liczby
+Gniazdo w pokoju<br><small>pomieszczenia mieszkalne</small><br><small>16.05</small>	ok. <b>30 cm</b> nad podłogą<br><small>źródło: N SEP-E-002, ZPE</small>	elektryka::16 temat::16_05 liczby
+Gniazdo nad blatem<br><small>kuchnia</small><br><small>16.05</small>	<b>20–30 cm</b> nad blatem (ok. 110–120 cm nad podłogą)<br><small>źródło: Murator</small>	elektryka::16 temat::16_05 liczby
+Gniazda dla urządzeń w zabudowie<br><small>kuchnia</small><br><small>16.05</small>	<b>30–50 cm</b> nad podłogą, w sąsiedniej szafce<br><small>źródło: Murator</small>	elektryka::16 temat::16_05 liczby
+Łącznik światła łazienki<br><small>praktyka</small><br><small>16.05</small>	<b>na zewnątrz</b> łazienki, po stronie klamki<br><small>źródło: ZPE</small>	elektryka::16 temat::16_05 liczby
+Płyta indukcyjna<br><small>typowa płyta 7–7,5 kW; zawsze wg instrukcji</small><br><small>16.06</small>	<b>3 × B16</b>, przewód <b>5 × 2,5 mm²</b>, puszka pod blatem<br><small>źródło: instrukcje producentów, praktyka</small>	elektryka::16 temat::16_06 liczby
+Piekarnik, zmywarka, pralka<br><small>typowo 2–3,6 kW</small><br><small>16.06</small>	<b>B16</b>, <b>3 × 2,5 mm²</b>, każdy osobno<br><small>źródło: N SEP-E-002 (osobne obwody)</small>	elektryka::16 temat::16_06 liczby
+RCD dla obwodów z silnikiem/falownikiem<br><small>pralki, zmywarki, płyty, pompy ciepła</small><br><small>16.06</small>	typ <b>A</b> lub <b>F</b> (nie AC)<br><small>źródło: zalecenia producentów, 08.03</small>	elektryka::16 temat::16_06 liczby
+Moc 3-faz. na fazę<br><small>płyta na 3 fazach</small><br><small>16.06</small>	<b>7,2 kW ≈ 3 × 2,4 kW</b> → ok. <b>10,4 A</b> na fazę<br><small>źródło: \(I = P / (\sqrt{3} \cdot 400)\)</small>	elektryka::16 temat::16_06 liczby
+Wysokość strefy 1 i 2<br><small>lub do głowicy prysznica, jeśli wyżej</small><br><small>17.01</small>	<b>2,25 m</b> nad podłogą<br><small>źródło: PN-HD 60364-7-701</small>	elektryka::17 temat::17_01 liczby
+Szerokość strefy 2<br><small>wanna, brodzik</small><br><small>17.01</small>	<b>0,6 m</b> od strefy 1<br><small>źródło: PN-HD 60364-7-701</small>	elektryka::17 temat::17_01 liczby
+Strefa 1 przy prysznicu bez brodzika<br><small>—</small><br><small>17.01</small>	<b>1,2 m</b> od wylotu wody, bez strefy 2<br><small>źródło: PN-HD 60364-7-701</small>	elektryka::17 temat::17_01 liczby
+SELV w strefie 0<br><small>urządzenia stałe do strefy 0</small><br><small>17.01</small>	≤ <b>12 V AC</b> / 30 V DC<br><small>źródło: PN-HD 60364-7-701</small>	elektryka::17 temat::17_01 liczby
+SELV w strefach 1–2<br><small>—</small><br><small>17.01</small>	≤ <b>25 V AC</b> / 60 V DC<br><small>źródło: PN-HD 60364-7-701, Inżynier Budownictwa</small>	elektryka::17 temat::17_01 liczby
+IP<br><small>—</small><br><small>17.01</small>	strefa 0 <b>IPX7</b>; strefy 1, 2 <b>IPX4</b>; strumień wody <b>IPX5</b><br><small>źródło: PN-HD 60364-7-701, Inżynier Budownictwa</small>	elektryka::17 temat::17_01 liczby
+RCD<br><small>poza SELV/PELV i separacją</small><br><small>17.01</small>	<b>30 mA</b> dla <b>wszystkich</b> obwodów łazienki<br><small>źródło: PN-HD 60364-7-701, Inżynier Budownictwa</small>	elektryka::17 temat::17_01 liczby
+Przewody w strefach 1, 2<br><small>—</small><br><small>17.01</small>	natynkowo albo ≥ <b>5 cm</b> w głąb ściany<br><small>źródło: PN-HD 60364-7-701, Inżynier Budownictwa</small>	elektryka::17 temat::17_01 liczby
+Gniazda nad blatem<br><small>kuchnia</small><br><small>17.02</small>	<b>20–30 cm</b> nad blatem, typowo <b>3–4 podwójne</b><br><small>źródło: Murator</small>	elektryka::17 temat::17_02 liczby
+Gniazda za urządzeniami w zabudowie<br><small>kuchnia</small><br><small>17.02</small>	<b>30–50 cm</b> nad podłogą, w sąsiedniej szafce<br><small>źródło: Murator</small>	elektryka::17 temat::17_02 liczby
+Gniazd na obwodzie nad blatem<br><small>praktyka</small><br><small>17.02</small>	najwyżej ok. <b>5</b> pojedynczych miejsc zasilania<br><small>źródło: Murator</small>	elektryka::17 temat::17_02 liczby
+Czajnik + ekspres<br><small>jednoczesna praca</small><br><small>17.02</small>	2,2 + 1,5 kW ≈ <b>16 A</b><br><small>źródło: \(I = P/U\)</small>	elektryka::17 temat::17_02 liczby
+RCD<br><small>gniazda do 32 A</small><br><small>17.02</small>	<b>30 mA</b> dla gniazd<br><small>źródło: PN-HD 60364-4-41, 411.3.3</small>	elektryka::17 temat::17_02 liczby
+Gniazda w garażu<br><small>wilgoć, kurz</small><br><small>17.03</small>	<b>IP44</b>; przy myciu strumieniem <b>IPX5</b><br><small>źródło: 06.05</small>	elektryka::17 temat::17_03 liczby
+RCD gniazd<br><small>gniazda do 32 A</small><br><small>17.03</small>	<b>30 mA</b><br><small>źródło: PN-HD 60364-4-41, 411.3.3</small>	elektryka::17 temat::17_03 liczby
+Punkt ładowania EV<br><small>każdy punkt</small><br><small>17.03</small>	osobny obwód; RCD ≥ <b>typ A 30 mA</b> + ochrona DC (<b>typ B</b> lub RDC-DD <b>6 mA</b>)<br><small>źródło: PN-HD 60364-7-722</small>	elektryka::17 temat::17_03 liczby
+Ciasna przestrzeń metalowa<br><small>kanały, zbiorniki</small><br><small>17.03</small>	lampy ręczne <b>SELV</b>, narzędzia SELV lub separacja; źródło <b>na zewnątrz</b><br><small>źródło: PN-HD 60364-7-706</small>	elektryka::17 temat::17_03 liczby
+Głębokość kabla nN<br><small>grunt bez ruchu pojazdów</small><br><small>17.04</small>	<b>0,7 m</b><br><small>źródło: N SEP-E-004</small>	elektryka::17 temat::17_04 liczby
+Podsypka i zasypka piaskiem<br><small>—</small><br><small>17.04</small>	<b>10 cm</b> pod i nad kablem<br><small>źródło: N SEP-E-004, Murator</small>	elektryka::17 temat::17_04 liczby
+Folia ostrzegawcza<br><small>nN</small><br><small>17.04</small>	ok. <b>25 cm</b> nad kablem, niebieska<br><small>źródło: N SEP-E-004, Murator</small>	elektryka::17 temat::17_04 liczby
+Rura na skrzyżowaniu<br><small>skrzyżowania</small><br><small>17.04</small>	wystaje <b>0,5 m</b> z każdej strony<br><small>źródło: Murator</small>	elektryka::17 temat::17_04 liczby
+Gniazdo zewnętrzne<br><small>—</small><br><small>17.04</small>	≥ <b>IP44</b>, lepiej IP54–IP65; <b>RCD 30 mA</b><br><small>źródło: PN-HD 60364-4-41, 411.3.3</small>	elektryka::17 temat::17_04 liczby
+RCD gniazd<br><small>gniazda do <b>32 A</b> i narzędzia ręczne</small><br><small>17.05</small>	<b>30 mA</b><br><small>źródło: PN-HD 60364-7-704</small>	elektryka::17 temat::17_05 liczby
+RCD gniazd dużych<br><small>gniazda powyżej 32 A</small><br><small>17.05</small>	≤ <b>500 mA</b><br><small>źródło: PN-HD 60364-7-704</small>	elektryka::17 temat::17_05 liczby
+Obudowa rozdzielnicy<br><small>na zewnątrz</small><br><small>17.05</small>	≥ <b>IP44</b><br><small>źródło: PN-EN 61439-4, przewodnik 704 🇬🇧</small>	elektryka::17 temat::17_05 liczby
+Odłącznik główny<br><small>zawsze</small><br><small>17.05</small>	z możliwością <b>zablokowania w pozycji otwartej</b><br><small>źródło: PN-HD 60364-7-704</small>	elektryka::17 temat::17_05 liczby
+Przewody<br><small>ciężkie warunki, woda</small><br><small>17.05</small>	giętkie w gumie, np. <b>H07RN-F</b><br><small>źródło: PN-HD 60364-7-704</small>	elektryka::17 temat::17_05 liczby
+Odpowiedniki żarówek<br><small>żarówki ogólnego przeznaczenia</small><br><small>18.01</small>	25 W ≈ <b>250 lm</b>; 40 W ≈ <b>470 lm</b>; 60 W ≈ <b>806 lm</b>; 75 W ≈ <b>1055 lm</b>; 100 W ≈ <b>1521 lm</b><br><small>źródło: rozp. (UE) nr 1194/2012</small>	elektryka::18 temat::18_01 liczby
+Barwa<br><small>—</small><br><small>18.01</small>	<b>2700–3000 K</b> ciepła, <b>4000 K</b> neutralna, <b>6500 K</b> zimna	elektryka::18 temat::18_01 liczby
+Ra<br><small>—</small><br><small>18.01</small>	≥ <b>80</b> w domu, ≥ <b>90</b> przy ocenie kolorów<br><small>źródło: praktyka</small>	elektryka::18 temat::18_01 liczby
+Typowe napięcia zasilaczy CV<br><small>taśmy, moduły</small><br><small>18.01</small>	<b>12 V</b>, <b>24 V</b> DC<br><small>źródło: katalogi</small>	elektryka::18 temat::18_01 liczby
+Typowe prądy zasilaczy CC<br><small>oprawy, panele</small><br><small>18.01</small>	<b>350</b>, <b>500</b>, <b>700</b> mA<br><small>źródło: katalogi</small>	elektryka::18 temat::18_01 liczby
+Skala etykiet energetycznych<br><small>źródła światła w UE</small><br><small>18.01</small>	<b>A–G</b>, nowa od <b>1.09.2021</b><br><small>źródło: rozp. (UE) 2019/2015</small>	elektryka::18 temat::18_01 liczby
+Łącznik przerywa<br><small>łącznik jednobiegunowy</small><br><small>18.02</small>	<b>fazę L</b><br><small>źródło: PN-HD 60364 (łączniki jednobiegunowe tylko w przewodzie fazowym)</small>	elektryka::18 temat::18_02 liczby
+Przewód do łącznika 1<br><small>wg układu połączeń</small><br><small>18.02</small>	<b>3 żyły</b> (L, łącznikowy, PE lub N)<br><small>źródło: praktyka</small>	elektryka::18 temat::18_02 liczby
+Przewód do lampy przy łączniku 5<br><small>żyrandol na 2 grupy</small><br><small>18.02</small>	<b>4 żyły</b> (2 × łącznikowy, N, PE)<br><small>źródło: praktyka</small>	elektryka::18 temat::18_02 liczby
+Prąd łączników<br><small>230 V</small><br><small>18.02</small>	zwykle <b>10 A</b> (10 AX)<br><small>źródło: katalogi, PN-EN 60669-1</small>	elektryka::18 temat::18_02 liczby
+Wysokość łącznika<br><small>16.05</small><br><small>18.02</small>	ok. <b>105 cm</b><br><small>źródło: N SEP-E-002</small>	elektryka::18 temat::18_02 liczby
+Miejsca sterowania<br><small>—</small><br><small>18.03</small>	<b>2</b> — dwa łączniki 6; <b>3</b> — 6 + 7 + 6; <b>n</b> — 6 + (n−2) × 7 + 6	elektryka::18 temat::18_03 liczby
+Zaciski<br><small>—</small><br><small>18.03</small>	łącznik 6: <b>3</b>; łącznik 7: <b>4</b><br><small>źródło: PN-EN 60669-1</small>	elektryka::18 temat::18_03 liczby
+Żyły między łącznikami<br><small>—</small><br><small>18.03</small>	<b>2</b> korespondencje (+ PE)<br><small>źródło: praktyka</small>	elektryka::18 temat::18_03 liczby
+Przewód przy 3+ miejscach<br><small>wiele miejsc</small><br><small>18.03</small>	rozważ przekaźnik impulsowy<br><small>źródło: 18.04</small>	elektryka::18 temat::18_03 liczby
+Przewód do przycisku<br><small>przekaźnik impulsowy</small><br><small>18.04</small>	<b>2 żyły</b> (+ PE wg potrzeby)<br><small>źródło: praktyka</small>	elektryka::18 temat::18_04 liczby
+Napięcie cewki<br><small>wg wersji</small><br><small>18.04</small>	typowo <b>230 V AC</b>, także <b>12/24 V</b> AC/DC<br><small>źródło: katalogi producentów</small>	elektryka::18 temat::18_04 liczby
+Prąd styku<br><small>—</small><br><small>18.04</small>	typowo <b>16 A</b> (obciążalność LED mniejsza — wg katalogu)<br><small>źródło: katalogi, 10.02</small>	elektryka::18 temat::18_04 liczby
+Czas automatu schodowego<br><small>—</small><br><small>18.04</small>	typowo <b>0,5–7 min</b> (lub więcej)<br><small>źródło: katalogi</small>	elektryka::18 temat::18_04 liczby
+Kiedy przekaźnik<br><small>praktyka</small><br><small>18.04</small>	od <b>3–4 miejsc</b> sterowania	elektryka::18 temat::18_04 liczby
+RL (narastające)<br><small>—</small><br><small>18.05</small>	żarówki, halogeny, transformatory żelazne (L)<br><small>źródło: katalogi producentów</small>	elektryka::18 temat::18_05 liczby
+RC (opadające)<br><small>—</small><br><small>18.05</small>	LED, zasilacze elektroniczne (C)<br><small>źródło: katalogi producentów</small>	elektryka::18 temat::18_05 liczby
+Moc dla LED<br><small>—</small><br><small>18.05</small>	zwykle <b>dużo mniejsza</b> niż dla żarówek (często kilka–kilkanaście razy)<br><small>źródło: instrukcje ściemniaczy</small>	elektryka::18 temat::18_05 liczby
+Moc minimalna<br><small>—</small><br><small>18.05</small>	≤ moc podłączonych źródeł<br><small>źródło: Shelly</small>	elektryka::18 temat::18_05 liczby
+Ściemniacze w ramce wielokrotnej<br><small>—</small><br><small>18.05</small>	moc każdego <b>obniżona</b> wg instrukcji<br><small>źródło: instrukcje</small>	elektryka::18 temat::18_05 liczby
+Moc zasilacza<br><small>—</small><br><small>18.06</small>	moc taśmy × długość + <b>ok. 20 %</b><br><small>źródło: praktyka, AVSL 🇬🇧</small>	elektryka::18 temat::18_06 liczby
+Długość z jednego punktu<br><small>typowe taśmy</small><br><small>18.06</small>	<b>5 m</b> przy 12 V, <b>10 m</b> przy 24 V<br><small>źródło: AVSL 🇬🇧</small>	elektryka::18 temat::18_06 liczby
+Przewód zasilający<br><small>typowe obciążenia</small><br><small>18.06</small>	<b>0,75 mm²</b> do ok. 10 m, <b>1 mm²</b> do ok. 20 m<br><small>źródło: AVSL 🇬🇧</small>	elektryka::18 temat::18_06 liczby
+Złączki zaciskowe do taśm<br><small>wg katalogu</small><br><small>18.06</small>	często <b>max 2 A</b><br><small>źródło: Kanlux</small>	elektryka::18 temat::18_06 liczby
+IP<br><small>—</small><br><small>18.06</small>	<b>IP20</b> wnętrza suche, <b>IP65</b> kuchnia, łazienka<br><small>źródło: katalogi</small>	elektryka::18 temat::18_06 liczby
+Prąd taśmy<br><small>—</small><br><small>18.06</small>	\(I = P / U\): 40 W przy 12 V = <b>3,3 A</b>, przy 24 V = <b>1,7 A</b>	elektryka::18 temat::18_06 liczby
+Kolejność podłączania<br><small>zawsze</small><br><small>19.01</small>	<b>PE → N → L</b> (odłączanie odwrotnie)<br><small>źródło: praktyka, 15.07</small>	elektryka::19 temat::19_01 liczby
+Faza w gnieździe<br><small>konwencja w Polsce</small><br><small>19.01</small>	<b>lewy</b> otwór przy bolcu u góry<br><small>źródło: 06.01</small>	elektryka::19 temat::19_01 liczby
+Gniazdo jednofazowe<br><small>typowe gniazdo domowe</small><br><small>19.01</small>	<b>16 A, 250 V</b><br><small>źródło: PN-IEC 60884-1</small>	elektryka::19 temat::19_01 liczby
+Długość odizolowania<br><small>—</small><br><small>19.01</small>	wg oznaczenia na gnieździe, zwykle <b>8–12 mm</b><br><small>źródło: instrukcje producentów</small>	elektryka::19 temat::19_01 liczby
+Zapas przewodu w puszce<br><small>—</small><br><small>19.01</small>	tyle, żeby wyjąć gniazdo przed puszkę (kilka–kilkanaście cm)<br><small>źródło: praktyka</small>	elektryka::19 temat::19_01 liczby
+Prąd łącznika<br><small>łączniki oświetleniowe</small><br><small>19.02</small>	typowo <b>10 A</b> (10 AX), 250 V<br><small>źródło: PN-EN 60669-1</small>	elektryka::19 temat::19_02 liczby
+Zaciski<br><small>—</small><br><small>19.02</small>	1 → <b>2</b>, 5 → <b>3</b>, 6 → <b>3</b>, 7 → <b>4</b>	elektryka::19 temat::19_02 liczby
+Wysokość<br><small>—</small><br><small>19.02</small>	ok. <b>105 cm</b><br><small>źródło: 16.05</small>	elektryka::19 temat::19_02 liczby
+Moc LED na łączniku/ściemniaczu<br><small>LED</small><br><small>19.02</small>	wg katalogu (często mniejsza niż dla żarówek)<br><small>źródło: instrukcje</small>	elektryka::19 temat::19_02 liczby
+Żyły przy lampie<br><small>—</small><br><small>19.03</small>	<b>3</b> (łącznikowy, N, PE), przy świeczniku <b>4</b><br><small>źródło: 18.02</small>	elektryka::19 temat::19_03 liczby
+Klasa I<br><small>oprawy metalowe</small><br><small>19.03</small>	zacisk ⏚ — <b>musi</b> być PE<br><small>źródło: PN-EN 60598-1</small>	elektryka::19 temat::19_03 liczby
+Klasa II<br><small>—</small><br><small>19.03</small>	symbol ⧈ — <b>bez</b> PE<br><small>źródło: PN-EN 60598-1</small>	elektryka::19 temat::19_03 liczby
+Obwód oświetlenia<br><small>—</small><br><small>19.03</small>	typowo <b>B10</b>, 1,5 mm²<br><small>źródło: 16.02</small>	elektryka::19 temat::19_03 liczby
+Obwód płyty<br><small>typowa płyta 7–7,5 kW, 3 fazy</small><br><small>19.04</small>	<b>5 × 2,5 mm²</b>, <b>3 × B16</b><br><small>źródło: instrukcje producentów</small>	elektryka::19 temat::19_04 liczby
+Prąd przy 1 fazie<br><small>7–7,4 kW na 230 V</small><br><small>19.04</small>	ok. <b>30–32 A</b><br><small>źródło: \(I = P/U\)</small>	elektryka::19 temat::19_04 liczby
+Przewód przyłączeniowy<br><small>wg instrukcji</small><br><small>19.04</small>	np. <b>H05VV-F 5G2,5</b><br><small>źródło: \(I = P/U\)</small>	elektryka::19 temat::19_04 liczby
+Mostki<br><small>zawsze</small><br><small>19.04</small>	wg rysunku <b>na płycie</b><br><small>źródło: \(I = P/U\)</small>	elektryka::19 temat::19_04 liczby
+Kolejność podłączania<br><small>rozdzielnica</small><br><small>19.05</small>	<b>PE → N → L</b><br><small>źródło: praktyka</small>	elektryka::19 temat::19_05 liczby
+N nowego obwodu<br><small>zawsze</small><br><small>19.05</small>	listwa N <b>tej samej</b> grupy RCD<br><small>źródło: 08.07</small>	elektryka::19 temat::19_05 liczby
+Pod napięciem mimo wyłączenia rozłącznika<br><small>zawsze</small><br><small>19.05</small>	<b>zaciski wejściowe rozłącznika i WLZ</b>	elektryka::19 temat::19_05 liczby
+Po zmianie instalacji<br><small>nowy obwód</small><br><small>19.05</small>	<b>pomiary</b> przed oddaniem do użytku<br><small>źródło: PN-HD 60364-6</small>	elektryka::19 temat::19_05 liczby
+Rezystancja izolacji<br><small>obwody do 500 V</small><br><small>19.05</small>	≥ <b>1 MΩ</b> przy 500 V DC<br><small>źródło: PN-HD 60364-6, tab. 6.1</small>	elektryka::19 temat::19_05 liczby
+Bruzda pionowa<br><small>gotowy mur, bez obliczeń</small><br><small>19.06</small>	głęb. ≤ <b>30 mm</b>; szer. <b>100–200 mm</b> wg grubości ściany<br><small>źródło: PN-EN 1996-1-1, tab. 8.2; IB</small>	elektryka::19 temat::19_06 liczby
+Bruzda pozioma<br><small>bez obliczeń</small><br><small>19.06</small>	ściana ≤ 115 mm: <b>niedozwolona</b>; 116–175 mm: <b>15 mm</b> (do 1,25 m); 176–225 mm: <b>10/20 mm</b><br><small>źródło: PN-EN 1996-1-1, tab. 8.3</small>	elektryka::19 temat::19_06 liczby
+Położenie bruzd poziomych<br><small>—</small><br><small>19.06</small>	w pasie <b>1/8 wysokości ściany</b> przy stropie<br><small>źródło: PN-EN 1996-1-1, tab. 8.3, p. 8.6.3</small>	elektryka::19 temat::19_06 liczby
+Odstęp od otworu<br><small>—</small><br><small>19.06</small>	≥ <b>0,5 m</b> (bruzda pozioma)<br><small>źródło: PN-EN 1996-1-1, tab. 8.3, p. 8.6.3</small>	elektryka::19 temat::19_06 liczby
+Ściana < 85 mm<br><small>—</small><br><small>19.06</small>	bez obliczeń bruzd <b>nie wolno</b><br><small>źródło: PN-EN 1996-1-1, tab. 8.3, p. 8.6.3</small>	elektryka::19 temat::19_06 liczby
+Długość odizolowania<br><small>osprzęt, aparaty</small><br><small>19.07</small>	zwykle <b>8–12 mm</b> (wg zacisku)<br><small>źródło: instrukcje producentów</small>	elektryka::19 temat::19_07 liczby
+Moment — przykład 1<br><small>wyłączniki jednego producenta</small><br><small>19.07</small>	<b>2 N·m</b> (0,5–25 A), <b>3,5 N·m</b> (32–63 A)<br><small>źródło: Schneider Electric</small>	elektryka::19 temat::19_07 liczby
+Moment — przykład 2<br><small>wyłącznik B20 innego producenta</small><br><small>19.07</small>	<b>2,8 N·m</b><br><small>źródło: Hager</small>	elektryka::19 temat::19_07 liczby
+Tulejki (DIN)<br><small>system DIN</small><br><small>19.07</small>	1,5 mm² <b>czarna</b>, 2,5 mm² <b>niebieska</b>, 6 mm² <b>żółta</b><br><small>źródło: DIN 46228-4</small>	elektryka::19 temat::19_07 liczby
+Przewodów w zacisku<br><small>—</small><br><small>19.07</small>	<b>1</b>, chyba że producent pozwala na 2 tego samego przekroju<br><small>źródło: instrukcje</small>	elektryka::19 temat::19_07 liczby
+Kroki<br><small>każda usterka</small><br><small>20.01</small>	bezpieczeństwo → wywiad → oględziny → zawężanie → pomiar i naprawa<br><small>źródło: praktyka</small>	elektryka::20 temat::20_01 liczby
+Połowienie<br><small>łańcuch gniazd</small><br><small>20.01</small>	<b>n</b> gniazd → ok. <b>log₂ n</b> sprawdzeń (8 gniazd → 3)	elektryka::20 temat::20_01 liczby
+Napięcie w gnieździe<br><small>sieć nN</small><br><small>20.01</small>	<b>230 V ± 10 %</b> (207–253 V)<br><small>źródło: PN-EN 50160</small>	elektryka::20 temat::20_01 liczby
+Ponowne załączenie po zadziałaniu<br><small>wyłącznik nadprądowy, RCD</small><br><small>20.01</small>	<b>raz</b>, po odłączeniu odbiorników<br><small>źródło: 07.01</small>	elektryka::20 temat::20_01 liczby
+L–N 0, L–PE 0<br><small>martwe gniazdo</small><br><small>20.02</small>	<b>brak fazy</b>	elektryka::20 temat::20_02 liczby
+L–N 0, L–PE 230 V<br><small>martwe gniazdo</small><br><small>20.02</small>	<b>przerwa N</b>	elektryka::20 temat::20_02 liczby
+L–N 230, L–PE 0<br><small>martwe gniazdo</small><br><small>20.02</small>	<b>przerwa PE</b> — groźne	elektryka::20 temat::20_02 liczby
+Połowienie<br><small>—</small><br><small>20.02</small>	6 gniazd → <b>2–3</b> sprawdzenia	elektryka::20 temat::20_02 liczby
+Rezystancja izolacji<br><small>obwody do 500 V</small><br><small>20.03</small>	≥ <b>1 MΩ</b> przy <b>500 V DC</b><br><small>źródło: PN-HD 60364-6, tab. 6.1</small>	elektryka::20 temat::20_03 liczby
+Upływ za RCD 30 mA<br><small>zalecenie</small><br><small>20.03</small>	≤ <b>0,3 IΔn</b> ≈ <b>9 mA</b><br><small>źródło: PN-HD 60364-5-53</small>	elektryka::20 temat::20_03 liczby
+Upływ urządzenia z filtrem<br><small>komputery, RTV, AGD</small><br><small>20.03</small>	<b>0,5–3 mA</b><br><small>źródło: 08.06</small>	elektryka::20 temat::20_03 liczby
+RCD zadziała<br><small>RCD 30 mA</small><br><small>20.03</small>	między <b>0,5 IΔn</b> a <b>IΔn</b> (15–30 mA)<br><small>źródło: PN-EN 61008-1</small>	elektryka::20 temat::20_03 liczby
+Nie zadziała przez 1 h<br><small>wyłączniki nadprądowe</small><br><small>20.04</small>	<b>1,13 In</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::20 temat::20_04 liczby
+Zadziała w < 1 h<br><small>wyłączniki nadprądowe</small><br><small>20.04</small>	<b>1,45 In</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::20 temat::20_04 liczby
+Natychmiast<br><small>wyłączniki nadprądowe</small><br><small>20.04</small>	B <b>3–5 In</b>, C <b>5–10 In</b>, D <b>10–20 In</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::20 temat::20_04 liczby
+Moc na B16<br><small>cos φ = 1</small><br><small>20.04</small>	ok. <b>3,7 kW</b> przy 230 V<br><small>źródło: \(P = U \cdot I\)</small>	elektryka::20 temat::20_04 liczby
+Ponowne załączenie<br><small>—</small><br><small>20.04</small>	<b>raz</b>, po odłączeniu odbiorników<br><small>źródło: 07.01</small>	elektryka::20 temat::20_04 liczby
+Napięcie między fazami<br><small>sieć 230/400 V</small><br><small>20.05</small>	<b>400 V</b>	elektryka::20 temat::20_05 liczby
+Przykład 100 W + 1000 W<br><small>przerwa N, odbiorniki na różnych fazach</small><br><small>20.05</small>	ok. <b>364 V / 36 V</b><br><small>źródło: obliczenie</small>	elektryka::20 temat::20_05 liczby
+Dopuszczalne napięcie sieci<br><small>normalna praca</small><br><small>20.05</small>	<b>230 V ± 10 %</b><br><small>źródło: PN-EN 50160</small>	elektryka::20 temat::20_05 liczby
+Pierwsza czynność<br><small>podejrzenie przerwy N</small><br><small>20.05</small>	<b>wyłączyć rozłącznik główny</b>	elektryka::20 temat::20_05 liczby
+Moc na styku<br><small>—</small><br><small>20.06</small>	\(P = I^2 R\); 0,1 Ω przy 16 A → <b>26 W</b><br><small>źródło: 06.04</small>	elektryka::20 temat::20_06 liczby
+Temperatura pracy izolacji PVC<br><small>praca ciągła</small><br><small>20.06</small>	<b>70 °C</b><br><small>źródło: 05.01</small>	elektryka::20 temat::20_06 liczby
+MCB / RCD<br><small>—</small><br><small>20.06</small>	<b>nie wykrywają</b> luźnego połączenia	elektryka::20 temat::20_06 liczby
+AFDD<br><small>—</small><br><small>20.06</small>	wykrywa łuk szeregowy<br><small>źródło: 10.05</small>	elektryka::20 temat::20_06 liczby
+Prąd wystarczający do żarzenia LED<br><small>—</small><br><small>20.07</small>	rząd <b>miliamperów</b> i mniej	elektryka::20 temat::20_07 liczby
+Częstotliwość migotania<br><small>tanie zasilacze</small><br><small>20.07</small>	<b>100 Hz</b> (dwa razy częstotliwość sieci)	elektryka::20 temat::20_07 liczby
+Łącznik musi przerywać<br><small>zawsze</small><br><small>20.07</small>	<b>L</b><br><small>źródło: 18.02</small>	elektryka::20 temat::20_07 liczby
+Kontrola instalacji w budynku<br><small>budynki</small><br><small>21.01</small>	co najmniej raz na <b>5 lat</b><br><small>źródło: art. 62 Prawa budowlanego</small>	elektryka::21 temat::21_01 liczby
+Wymóg żył miedzianych (dawne WT, § 183)<br><small>nowe instalacje</small><br><small>21.01</small>	do <b>10 mm²</b><br><small>źródło: rozporządzenie z 2002 r.</small>	elektryka::21 temat::21_01 liczby
+Typowe stare przewody<br><small>ok. lata 60.–90.</small><br><small>21.01</small>	Al <b>1,5–4 mm²</b>, <b>2 żyły</b><br><small>źródło: praktyka</small>	elektryka::21 temat::21_01 liczby
+Rezystancja izolacji<br><small>obwody do 500 V</small><br><small>21.01</small>	≥ <b>1 MΩ</b> (500 V)<br><small>źródło: PN-HD 60364-6</small>	elektryka::21 temat::21_01 liczby
+Rezystywność Al<br><small>20 °C</small><br><small>21.02</small>	<b>0,0286 Ω·mm²/m</b> (ok. 1,6 × Cu)<br><small>źródło: 05.07</small>	elektryka::21 temat::21_02 liczby
+Odpowiednik przekroju<br><small>obciążalność</small><br><small>21.02</small>	Al 4 mm² ≈ Cu 2,5 mm²<br><small>źródło: PN-HD 60364-5-52</small>	elektryka::21 temat::21_02 liczby
+PEN aluminiowy<br><small>instalacje stałe</small><br><small>21.02</small>	≥ <b>16 mm²</b><br><small>źródło: PN-HD 60364-5-54</small>	elektryka::21 temat::21_02 liczby
+Wymóg Cu w nowych instalacjach (dawne WT)<br><small>budynki</small><br><small>21.02</small>	do <b>10 mm²</b><br><small>źródło: § 183 rozp. z 2002 r.</small>	elektryka::21 temat::21_02 liczby
+PEN — minimalny przekrój<br><small>instalacje stałe</small><br><small>21.03</small>	<b>10 mm² Cu / 16 mm² Al</b><br><small>źródło: PN-HD 60364-5-54</small>	elektryka::21 temat::21_03 liczby
+Napięcie na obudowie przy przerwie N<br><small>gniazdo z mostkiem</small><br><small>21.03</small>	ok. <b>230 V</b>	elektryka::21 temat::21_03 liczby
+RCD za mostkiem<br><small>—</small><br><small>21.03</small>	<b>nie działa</b> przy uszkodzeniu obudowy<br><small>źródło: 08.01</small>	elektryka::21 temat::21_03 liczby
+Przekrój PEN<br><small>rozdział w rozdzielnicy</small><br><small>21.04</small>	≥ <b>10 mm² Cu / 16 mm² Al</b><br><small>źródło: PN-HD 60364-5-54</small>	elektryka::21 temat::21_04 liczby
+Połączenie PE z N<br><small>zawsze</small><br><small>21.04</small>	<b>tylko</b> w punkcie rozdziału<br><small>źródło: PN-HD 60364-5-54</small>	elektryka::21 temat::21_04 liczby
+RCD dla nowych obwodów<br><small>gniazda, łazienka, kuchnia</small><br><small>21.04</small>	<b>30 mA</b>, typ A<br><small>źródło: PN-HD 60364-4-41, 7-701</small>	elektryka::21 temat::21_04 liczby
+Priorytet<br><small>najwyższe ryzyko</small><br><small>21.04</small>	łazienka, kuchnia, pralka<br><small>źródło: praktyka</small>	elektryka::21 temat::21_04 liczby
+Minimalna liczba obwodów oświetl. + gniazd<br><small>mieszkania</small><br><small>21.05</small>	2–6 wg metrażu (+ obwody wydzielone)<br><small>źródło: N SEP-E-002, 16.01</small>	elektryka::21 temat::21_05 liczby
+Rezerwa w rozdzielnicy<br><small>—</small><br><small>21.05</small>	<b>20–30 %</b><br><small>źródło: 15.01</small>	elektryka::21 temat::21_05 liczby
+Rezystancja izolacji<br><small>przed tynkiem i przy odbiorze</small><br><small>21.05</small>	≥ <b>1 MΩ</b> (500 V)<br><small>źródło: PN-HD 60364-6</small>	elektryka::21 temat::21_05 liczby
+Kontrola okresowa<br><small>budynki</small><br><small>21.05</small>	co <b>5 lat</b><br><small>źródło: art. 62 Prawa budowlanego</small>	elektryka::21 temat::21_05 liczby
+Napięcie udarowe 600 V<br><small>wg napięcia pracy względem ziemi</small><br><small>22.01</small>	CAT II <b>4 kV</b>, CAT III <b>6 kV</b>, CAT IV <b>8 kV</b><br><small>źródło: PN-EN 61010; Fluke</small>	elektryka::22 temat::22_01 liczby
+Napięcie udarowe 1000 V<br><small>wg napięcia pracy względem ziemi</small><br><small>22.01</small>	CAT II <b>6 kV</b>, CAT III <b>8 kV</b><br><small>źródło: PN-EN 61010; Fluke</small>	elektryka::22 temat::22_01 liczby
+Do rozdzielnicy mieszkaniowej<br><small>230/400 V</small><br><small>22.01</small>	min. <b>CAT III 300 V</b> (zwykle CAT III 600/1000 V)<br><small>źródło: PN-EN 61010; Fluke</small>	elektryka::22 temat::22_01 liczby
+Przy złączu i liczniku<br><small>230/400 V</small><br><small>22.01</small>	<b>CAT IV</b><br><small>źródło: PN-EN 61010; Fluke</small>	elektryka::22 temat::22_01 liczby
+Rezystancja sprawnych przewodów<br><small>test zwarcia sond</small><br><small>22.01</small>	ok. <b>0,1–0,3 Ω</b><br><small>źródło: PN-EN 61010; Fluke</small>	elektryka::22 temat::22_01 liczby
+Rezystancja wewnętrzna przy V<br><small>typowe multimetry cyfrowe</small><br><small>22.02</small>	rząd <b>10 MΩ</b><br><small>źródło: instrukcje</small>	elektryka::22 temat::22_02 liczby
+Rezystancja przy A<br><small>gniazdo A</small><br><small>22.02</small>	bliska <b>0 Ω</b>	elektryka::22 temat::22_02 liczby
+Napięcie w gnieździe<br><small>sieć nN</small><br><small>22.02</small>	<b>230 V ± 10 %</b> (207–253 V)<br><small>źródło: PN-EN 50160</small>	elektryka::22 temat::22_02 liczby
+Pomiar Ω<br><small>zawsze</small><br><small>22.02</small>	tylko <b>bez napięcia</b>	elektryka::22 temat::22_02 liczby
+L + N w cęgach<br><small>sprawny obwód</small><br><small>22.03</small>	<b>≈ 0 A</b>	elektryka::22 temat::22_03 liczby
+Upływ za RCD 30 mA<br><small>zalecenie</small><br><small>22.03</small>	≤ <b>ok. 9 mA</b> (0,3 IΔn)<br><small>źródło: PN-HD 60364-5-53</small>	elektryka::22 temat::22_03 liczby
+Upływ urządzenia z filtrem<br><small>typowo</small><br><small>22.03</small>	<b>0,5–3 mA</b><br><small>źródło: 08.06</small>	elektryka::22 temat::22_03 liczby
+Moc z prądu<br><small>1 faza</small><br><small>22.03</small>	\(P \approx 230 \cdot I \cdot \cos\varphi\)	elektryka::22 temat::22_03 liczby
+Pary pomiaru 1-faz.<br><small>sprawdzenie braku napięcia</small><br><small>22.04</small>	<b>3</b> (L–N, L–PE, N–PE)<br><small>źródło: 00.02</small>	elektryka::22 temat::22_04 liczby
+Pary pomiaru 3-faz. z N i PE<br><small>sprawdzenie braku napięcia</small><br><small>22.04</small>	<b>10</b><br><small>źródło: 00.02</small>	elektryka::22 temat::22_04 liczby
+Kolejność<br><small>zawsze</small><br><small>22.04</small>	<b>sprawdź — zmierz — sprawdź</b><br><small>źródło: 00.02</small>	elektryka::22 temat::22_04 liczby
+Norma wskaźników dwubiegunowych<br><small>do 1000 V AC / 1500 V DC</small><br><small>22.04</small>	<b>PN-EN 61243-3</b><br><small>źródło: PN-EN 61243-3</small>	elektryka::22 temat::22_04 liczby
+Ciągłość<br><small>PE, połączenia wyrównawcze</small><br><small>22.05</small>	źródło <b>4–24 V</b>, prąd <b>≥ 0,2 A</b><br><small>źródło: PN-EN 61557-4</small>	elektryka::22 temat::22_05 liczby
+Izolacja<br><small>wg napięcia obwodu</small><br><small>22.05</small>	<b>250 / 500 / 1000 V DC</b>, prąd znamionowy ≥ 1 mA<br><small>źródło: PN-EN 61557-2</small>	elektryka::22 temat::22_05 liczby
+Dopuszczalny błąd przyrządu<br><small>wg części 61557</small><br><small>22.05</small>	<b>± 30 %</b> (ciągłość, izolacja, pętla)<br><small>źródło: PN-EN 61557</small>	elektryka::22 temat::22_05 liczby
+Wzorcowanie<br><small>praktyka, zalecenia producentów</small><br><small>22.05</small>	zwykle co <b>1–2 lata</b>	elektryka::22 temat::22_05 liczby
+ΔT do podobnego elementu<br><small>podobne obciążenie</small><br><small>22.06</small>	<b>1–3</b> możliwa · <b>4–15</b> prawdopodobna · <b>> 15 °C</b> natychmiast<br><small>źródło: ANSI/NETA MTS, tab. 100.18 🇬🇧</small>	elektryka::22 temat::22_06 liczby
+ΔT do otoczenia<br><small>brak elementu odniesienia</small><br><small>22.06</small>	<b>1–10 · 11–20 · 21–40 · > 40 °C</b><br><small>źródło: ANSI/NETA MTS, tab. 100.18 🇬🇧</small>	elektryka::22 temat::22_06 liczby
+Emisyjność błyszczącej miedzi<br><small>pomiar „zaniżony”</small><br><small>22.06</small>	bardzo mała (rzędu <b>0,1</b> i mniej)<br><small>źródło: dane materiałowe</small>	elektryka::22 temat::22_06 liczby
+Temperatura pracy PVC<br><small>izolacja przewodów</small><br><small>22.06</small>	<b>70 °C</b><br><small>źródło: 05.01</small>	elektryka::22 temat::22_06 liczby
+Kolejność<br><small>każde sprawdzenie</small><br><small>23.01</small>	<b>oględziny przed próbami</b><br><small>źródło: PN-HD 60364-6</small>	elektryka::23 temat::23_01 liczby
+Zasilanie przy oględzinach<br><small>—</small><br><small>23.01</small>	zwykle <b>wyłączone</b><br><small>źródło: PN-HD 60364-6</small>	elektryka::23 temat::23_01 liczby
+Barwy<br><small>instalacje</small><br><small>23.01</small>	N <b>niebieski</b>, PE <b>żółto-zielony</b><br><small>źródło: PN-EN 60445</small>	elektryka::23 temat::23_01 liczby
+Kontrola instalacji w budynku<br><small>budynki</small><br><small>23.01</small>	co najmniej co <b>5 lat</b><br><small>źródło: art. 62 Prawa budowlanego</small>	elektryka::23 temat::23_01 liczby
+Źródło pomiarowe<br><small>ciągłość PE</small><br><small>23.02</small>	<b>4–24 V</b>, prąd <b>≥ 0,2 A</b><br><small>źródło: PN-EN 61557-4</small>	elektryka::23 temat::23_02 liczby
+Błąd przyrządu<br><small>—</small><br><small>23.02</small>	≤ <b>± 30 %</b> w zakresie 0,2–2 Ω<br><small>źródło: PN-EN 61557-4</small>	elektryka::23 temat::23_02 liczby
+Rezystancja Cu (20 °C)<br><small>—</small><br><small>23.02</small>	1,5 mm² <b>12,1 mΩ/m</b>, 2,5 mm² <b>7,41</b>, 4 mm² <b>4,61</b>, 6 mm² <b>3,08</b><br><small>źródło: PN-EN 60228</small>	elektryka::23 temat::23_02 liczby
+Połączenia wyrównawcze dodatkowe<br><small>—</small><br><small>23.02</small>	\(R \le 50\ \mathrm{V} / I_a\)<br><small>źródło: PN-HD 60364-4-41, 415.2</small>	elektryka::23 temat::23_02 liczby
+Obwody 230/400 V<br><small>do 500 V</small><br><small>23.03</small>	<b>500 V DC</b>, ≥ <b>1,0 MΩ</b><br><small>źródło: PN-HD 60364-6, tab. 6.1</small>	elektryka::23 temat::23_03 liczby
+SELV / PELV<br><small>—</small><br><small>23.03</small>	<b>250 V DC</b>, ≥ <b>0,5 MΩ</b><br><small>źródło: PN-HD 60364-6, tab. 6.1</small>	elektryka::23 temat::23_03 liczby
+Powyżej 500 V<br><small>—</small><br><small>23.03</small>	<b>1000 V DC</b>, ≥ <b>1,0 MΩ</b><br><small>źródło: PN-HD 60364-6, tab. 6.1</small>	elektryka::23 temat::23_03 liczby
+Z SPD, którego nie da się odłączyć<br><small>—</small><br><small>23.03</small>	<b>250 V DC</b>, ≥ <b>1 MΩ</b><br><small>źródło: PN-HD 60364-6, tab. 6.1, 6.4.3.3</small>	elektryka::23 temat::23_03 liczby
+Przyrząd<br><small>—</small><br><small>23.03</small>	prąd znamionowy ≥ <b>1 mA</b>, napięcie jałowe ≤ <b>1,5 U_N</b><br><small>źródło: PN-EN 61557-2</small>	elektryka::23 temat::23_03 liczby
+Dawne wymaganie (dla porównania)<br><small>wcześniejsze wydanie</small><br><small>23.03</small>	0,5 MΩ przy 500 V<br><small>źródło: SEP</small>	elektryka::23 temat::23_03 liczby
+Warunek<br><small>TN</small><br><small>23.04</small>	\(Z_s \cdot I_a \le U_0\)<br><small>źródło: PN-HD 60364-4-41, 411.4.4</small>	elektryka::23 temat::23_04 liczby
+\(I_a\) wyłącznika<br><small>0,4 s</small><br><small>23.04</small>	B <b>5 × In</b>, C <b>10 × In</b>, D <b>20 × In</b><br><small>źródło: PN-EN 60898-1</small>	elektryka::23 temat::23_04 liczby
+\(Z_{s,max}\) B10 / B16 / B20<br><small>TN, 230 V</small><br><small>23.04</small>	<b>4,60 / 2,88 / 2,30 Ω</b><br><small>źródło: obliczenie</small>	elektryka::23 temat::23_04 liczby
+\(Z_{s,max}\) C10 / C16<br><small>TN, 230 V</small><br><small>23.04</small>	<b>2,30 / 1,44 Ω</b><br><small>źródło: obliczenie</small>	elektryka::23 temat::23_04 liczby
+Ocena z zapasem<br><small>pomiar „na zimno”</small><br><small>23.04</small>	\(Z_s \le \tfrac{2}{3} \cdot U_0 / I_a\)<br><small>źródło: PN-HD 60364-6, zał. informacyjny</small>	elektryka::23 temat::23_04 liczby
+Błąd przyrządu<br><small>—</small><br><small>23.04</small>	≤ <b>± 30 %</b><br><small>źródło: PN-EN 61557-3</small>	elektryka::23 temat::23_04 liczby
+Czas przy IΔn / 2 IΔn / 5 IΔn<br><small>RCD ogólnego typu</small><br><small>23.05</small>	≤ <b>300 / 150 / 40 ms</b><br><small>źródło: PN-EN 61008-1, 61009-1</small>	elektryka::23 temat::23_05 liczby
+RCD typu S<br><small>selektywne</small><br><small>23.05</small>	<b>130–500 / 60–200 / 50–150 ms</b><br><small>źródło: PN-EN 61008-1, 61009-1</small>	elektryka::23 temat::23_05 liczby
+Prąd zadziałania (AC)<br><small>—</small><br><small>23.05</small>	<b>0,5–1,0 IΔn</b><br><small>źródło: PN-EN 61008-1, 61009-1</small>	elektryka::23 temat::23_05 liczby
+Napięcie dotykowe<br><small>przy IΔn</small><br><small>23.05</small>	\(U_B \le\) <b>50 V</b><br><small>źródło: PN-HD 60364-4-41</small>	elektryka::23 temat::23_05 liczby
+Błąd przyrządu (prąd)<br><small>—</small><br><small>23.05</small>	≤ <b>± 10 %</b> IΔn<br><small>źródło: PN-EN 61557-6</small>	elektryka::23 temat::23_05 liczby
+Przycisk TEST<br><small>użytkownik</small><br><small>23.05</small>	regularnie (np. co miesiąc–kwartał wg producenta)<br><small>źródło: 08.05</small>	elektryka::23 temat::23_05 liczby
+Sonda prądowa<br><small>metoda techniczna</small><br><small>23.06</small>	≥ <b>40 m</b> (≥ ok. 5 × długość uziomu)<br><small>źródło: instrukcje mierników</small>	elektryka::23 temat::23_06 liczby
+Sonda napięciowa<br><small>metoda techniczna</small><br><small>23.06</small>	ok. <b>62 %</b> odległości E–H<br><small>źródło: instrukcje mierników</small>	elektryka::23 temat::23_06 liczby
+Sprawdzenie<br><small>metoda techniczna</small><br><small>23.06</small>	przesunięcie S o <b>±10 %</b><br><small>źródło: instrukcje mierników</small>	elektryka::23 temat::23_06 liczby
+Warunek TT<br><small>TT z RCD</small><br><small>23.06</small>	\(R_A \cdot I_{\Delta n} \le 50\) V (30 mA → do <b>1667 Ω</b>)<br><small>źródło: PN-HD 60364-4-41, 411.5.3</small>	elektryka::23 temat::23_06 liczby
+Zalecane uziemienie (LPS, ogólnie)<br><small>zalecenie</small><br><small>23.06</small>	< <b>10 Ω</b><br><small>źródło: 13.02</small>	elektryka::23 temat::23_06 liczby
+Błąd przyrządu<br><small>—</small><br><small>23.06</small>	≤ <b>± 30 %</b><br><small>źródło: PN-EN 61557-5</small>	elektryka::23 temat::23_06 liczby
+Prawidłowa kolejność<br><small>instalacje wielofazowe</small><br><small>23.07</small>	<b>L1 → L2 → L3</b> (prawa)<br><small>źródło: PN-HD 60364-6, 6.4.3.9</small>	elektryka::23 temat::23_07 liczby
+Przesunięcie faz<br><small>sieć 3-faz.</small><br><small>23.07</small>	<b>120°</b><br><small>źródło: 02.03</small>	elektryka::23 temat::23_07 liczby
+Zmiana kierunku<br><small>—</small><br><small>23.07</small>	zamiana <b>dwóch</b> faz	elektryka::23 temat::23_07 liczby
+Kontrola instalacji elektrycznej i piorunochronnej<br><small>budynki</small><br><small>23.08</small>	co najmniej co <b>5 lat</b><br><small>źródło: art. 62 ust. 1 pkt 2 Prawa budowlanego</small>	elektryka::23 temat::23_08 liczby
+Przegląd elementów narażonych na czynniki atmosferyczne<br><small>budynki</small><br><small>23.08</small>	co najmniej <b>raz w roku</b><br><small>źródło: art. 62 ust. 1 pkt 1</small>	elektryka::23 temat::23_08 liczby
+Duże obiekty<br><small>zabudowa > 2000 m², dach > 1000 m²</small><br><small>23.08</small>	<b>2 razy w roku</b> (do 31.05 i 30.11)<br><small>źródło: art. 62 ust. 1 pkt 3</small>	elektryka::23 temat::23_08 liczby
+Zalecenie normy — mieszkania<br><small>informacyjne</small><br><small>23.08</small>	co <b>10 lat</b> + zmiana użytkownika<br><small>źródło: PN-HD 60364-6</small>	elektryka::23 temat::23_08 liczby
+Zalecenie normy — inne budynki<br><small>informacyjne</small><br><small>23.08</small>	co <b>4 lata</b><br><small>źródło: PN-HD 60364-6</small>	elektryka::23 temat::23_08 liczby
+Ważność świadectwa kwalifikacyjnego<br><small>—</small><br><small>23.08</small>	<b>5 lat</b><br><small>źródło: art. 54 Prawa energetycznego</small>	elektryka::23 temat::23_08 liczby
+Prędkość synchroniczna<br><small>50 Hz, p = 1…4</small><br><small>24.01</small>	\(n_s = 60 f / p\): <b>3000 / 1500 / 1000 / 750</b> obr/min	elektryka::24 temat::24_01 liczby
+Poślizg<br><small>znamionowo, silniki małe i średnie</small><br><small>24.01</small>	<b>2–6 %</b><br><small>źródło: katalogi</small>	elektryka::24 temat::24_01 liczby
+Prąd rozruchowy<br><small>rozruch bezpośredni</small><br><small>24.01</small>	<b>5–8 × In</b><br><small>źródło: katalogi</small>	elektryka::24 temat::24_01 liczby
+Moment rozruchowy<br><small>silniki klatkowe</small><br><small>24.01</small>	ok. <b>1,5–3 × Mn</b><br><small>źródło: katalogi</small>	elektryka::24 temat::24_01 liczby
+Wymóg IE3<br><small>silniki 3-faz. w UE</small><br><small>24.01</small>	<b>0,75–1000 kW</b> od 1.07.2021<br><small>źródło: rozp. (UE) 2019/1781</small>	elektryka::24 temat::24_01 liczby
+Wymóg IE4<br><small>2, 4, 6 biegunów</small><br><small>24.01</small>	<b>75–200 kW</b> od 1.07.2023<br><small>źródło: rozp. (UE) 2019/1781</small>	elektryka::24 temat::24_01 liczby
+Klasy izolacji<br><small>uzwojenia</small><br><small>24.02</small>	B <b>130 °C</b>, F <b>155 °C</b>, H <b>180 °C</b><br><small>źródło: PN-EN 60085</small>	elektryka::24 temat::24_02 liczby
+Rodzaj pracy<br><small>—</small><br><small>24.02</small>	<b>S1</b> ciągła, <b>S2</b> dorywcza, <b>S3</b> przerywana<br><small>źródło: PN-EN 60034-1</small>	elektryka::24 temat::24_02 liczby
+Prąd 3-faz.<br><small>P — moc na wale</small><br><small>24.02</small>	\(I = P / (\sqrt{3} \cdot U \cdot \cos\varphi \cdot \eta)\)	elektryka::24 temat::24_02 liczby
+Szybki szacunek<br><small>silniki kilku kW</small><br><small>24.02</small>	ok. <b>2 A na 1 kW</b> przy 400 V<br><small>źródło: praktyka</small>	elektryka::24 temat::24_02 liczby
+Nastawa termika<br><small>—</small><br><small>24.02</small>	<b>= prąd znamionowy</b> dla danego połączenia<br><small>źródło: 24.05</small>	elektryka::24 temat::24_02 liczby
+Napięcie uzwojenia w Y<br><small>sieć 400 V</small><br><small>24.03</small>	\(U / \sqrt{3}\) = <b>230 V</b>	elektryka::24 temat::24_03 liczby
+Napięcie uzwojenia w Δ<br><small>sieć 400 V</small><br><small>24.03</small>	\(U\) = <b>400 V</b>	elektryka::24 temat::24_03 liczby
+Prąd przewodu w Δ<br><small>—</small><br><small>24.03</small>	<b>√3 ×</b> prąd uzwojenia	elektryka::24 temat::24_03 liczby
+Oznaczenia zacisków<br><small>PN-EN 60034-8</small><br><small>24.03</small>	<b>U1 V1 W1 / W2 U2 V2</b><br><small>źródło: PN-EN 60034-8</small>	elektryka::24 temat::24_03 liczby
+230/400 V w sieci 400 V<br><small>—</small><br><small>24.03</small>	<b>Y</b>	elektryka::24 temat::24_03 liczby
+400/690 V w sieci 400 V<br><small>—</small><br><small>24.03</small>	<b>Δ</b>	elektryka::24 temat::24_03 liczby
+Prąd rozruchu bezpośredniego<br><small>silniki klatkowe</small><br><small>24.04</small>	<b>5–8 × In</b><br><small>źródło: katalogi</small>	elektryka::24 temat::24_04 liczby
+Y-Δ: prąd i moment<br><small>silnik pracujący w Δ</small><br><small>24.04</small>	<b>⅓</b> wartości przy rozruchu bezpośrednim	elektryka::24 temat::24_04 liczby
+Softstart: moment<br><small>—</small><br><small>24.04</small>	∝ <b>U²</b>	elektryka::24 temat::24_04 liczby
+Falownik: prąd rozruchowy<br><small>pełny moment</small><br><small>24.04</small>	ok. <b>1–1,5 × In</b><br><small>źródło: katalogi</small>	elektryka::24 temat::24_04 liczby
+Warunek Y-Δ<br><small>—</small><br><small>24.04</small>	tabliczka <b>400/690 V Δ/Y</b> w sieci 400 V<br><small>źródło: 24.03</small>	elektryka::24 temat::24_04 liczby
+Styk termika<br><small>przekaźniki termiczne</small><br><small>24.05</small>	<b>95-96</b> rozwierny (97-98 zwierny — sygnalizacja)<br><small>źródło: PN-EN 60947</small>	elektryka::24 temat::24_05 liczby
+Podtrzymanie<br><small>styk zwierny stycznika</small><br><small>24.05</small>	<b>13-14</b><br><small>źródło: PN-EN 60947</small>	elektryka::24 temat::24_05 liczby
+Cewka<br><small>styk zwierny stycznika</small><br><small>24.05</small>	<b>A1-A2</b><br><small>źródło: PN-EN 60947</small>	elektryka::24 temat::24_05 liczby
+Nastawa termika<br><small>dla danego połączenia Y/Δ</small><br><small>24.05</small>	<b>= In silnika</b><br><small>źródło: instrukcje</small>	elektryka::24 temat::24_05 liczby
+Klasa 10<br><small>rozruch normalny</small><br><small>24.05</small>	zadziała w <b>≤ 10 s</b> przy <b>7,2 ×</b> prąd nastawy<br><small>źródło: PN-EN 60947-4-1</small>	elektryka::24 temat::24_05 liczby
+Kolory przycisków<br><small>—</small><br><small>24.05</small>	<b>STOP czerwony</b>, START zielony/biały/czarny<br><small>źródło: PN-EN 60204-1</small>	elektryka::24 temat::24_05 liczby
+Zmiana kierunku<br><small>silnik 3-faz.</small><br><small>24.06</small>	zamiana <b>dwóch</b> faz	elektryka::24 temat::24_06 liczby
+Styk blokady<br><small>styczniki</small><br><small>24.06</small>	<b>21-22</b> (rozwierny)<br><small>źródło: PN-EN 60947</small>	elektryka::24 temat::24_06 liczby
+Liczba blokad<br><small>układy nawrotne</small><br><small>24.06</small>	<b>elektryczna + mechaniczna</b> (zalecane obie)<br><small>źródło: praktyka</small>	elektryka::24 temat::24_06 liczby
+Napięcie DC<br><small>zasilanie 3 × 400 V</small><br><small>24.07</small>	ok. <b>560 V</b> (\(400 \cdot \sqrt{2}\))	elektryka::24 temat::24_07 liczby
+Moc pompy / wentylatora<br><small>prawa podobieństwa</small><br><small>24.07</small>	∝ <b>n³</b> (80 % obrotów → <b>51 %</b> mocy)	elektryka::24 temat::24_07 liczby
+RCD<br><small>falowniki</small><br><small>24.07</small>	typ <b>B</b> (lub F wg producenta)<br><small>źródło: instrukcje producentów, 08.03</small>	elektryka::24 temat::24_07 liczby
+Klasa sprawności przemienników<br><small>0,12–1000 kW</small><br><small>24.07</small>	<b>IE2</b> od 1.07.2021<br><small>źródło: rozp. (UE) 2019/1781</small>	elektryka::24 temat::24_07 liczby
+Czas rozładowania DC<br><small>po wyłączeniu</small><br><small>24.07</small>	wg tabliczki, często <b>kilka minut</b><br><small>źródło: instrukcje</small>	elektryka::24 temat::24_07 liczby
+Kondensator w układzie Steinmetza<br><small>silnik 230/400 V w Δ na 230 V</small><br><small>24.08</small>	ok. <b>70 µF / kW</b><br><small>źródło: reguła praktyczna</small>	elektryka::24 temat::24_08 liczby
+Moc w układzie Steinmetza<br><small>silnik 230/400 V w Δ na 230 V</small><br><small>24.08</small>	ok. <b>⅔</b> mocy znamionowej<br><small>źródło: reguła praktyczna</small>	elektryka::24 temat::24_08 liczby
+Napięcie kondensatorów silnikowych<br><small>—</small><br><small>24.08</small>	typowo <b>400–450 V AC</b><br><small>źródło: katalogi</small>	elektryka::24 temat::24_08 liczby
+Objaw uszkodzonego kondensatora<br><small>silniki kondensatorowe</small><br><small>24.08</small>	<b>buczy, nie rusza</b> (rusza „popchnięty”)	elektryka::24 temat::24_08 liczby
+Górna granica ELV (SELV/PELV)<br><small>obwody bardzo niskiego napięcia</small><br><small>25.01</small>	<b>50 V AC</b>, <b>120 V DC</b> (nietętniące)<br><small>źródło: PN-HD 60364-4-41</small>	elektryka::25 temat::25_01 liczby
+Napięcie obwodu separowanego<br><small>separacja elektryczna</small><br><small>25.01</small>	<b>≤ 500 V</b><br><small>źródło: PN-HD 60364-4-41, 413</small>	elektryka::25 temat::25_01 liczby
+Długość oprzewodowania separowanego<br><small>separacja, zalecenie normy</small><br><small>25.01</small>	iloczyn <b>U · l ≤ 100 000 V·m</b>, maks. <b>500 m</b><br><small>źródło: PN-HD 60364-4-41, 413</small>	elektryka::25 temat::25_01 liczby
+Odbiorniki na jedno uzwojenie<br><small>separacja</small><br><small>25.01</small>	<b>1</b> (przy kilku — nieuziemione połączenia wyrównawcze)<br><small>źródło: PN-HD 60364-4-41, 413</small>	elektryka::25 temat::25_01 liczby
+Typowe napięcia trafo bezpieczeństwa<br><small>lampy, dzwonki, sterowanie</small><br><small>25.01</small>	<b>12 V, 24 V</b><br><small>źródło: katalogi</small>	elektryka::25 temat::25_01 liczby
+Napięcie kondensatora wejściowego<br><small>zasilanie 230 V</small><br><small>25.02</small>	ok. <b>325 V DC</b> (z PFC ok. <b>400 V</b>)<br><small>źródło: √2 · 230 V</small>	elektryka::25 temat::25_02 liczby
+Częstotliwość kluczowania<br><small>typowe zasilacze</small><br><small>25.02</small>	<b>dziesiątki–setki kHz</b><br><small>źródło: katalogi</small>	elektryka::25 temat::25_02 liczby
+Sprawność<br><small>zasilacze dobrej jakości</small><br><small>25.02</small>	<b>85–95 %</b><br><small>źródło: katalogi</small>	elektryka::25 temat::25_02 liczby
+Suma prądów upływu za RCD<br><small>podział obwodów</small><br><small>25.02</small>	najlepiej <b>≤ 0,3 · IΔn</b> (≈ 9 mA dla 30 mA)<br><small>źródło: PN-HD 60364-5-53</small>	elektryka::25 temat::25_02 liczby
+Prąd upływu urządzenia klasy I<br><small>sprzęt IT</small><br><small>25.02</small>	do ok. <b>3,5 mA</b> (typowo mniej)<br><small>źródło: PN-EN 62368-1</small>	elektryka::25 temat::25_02 liczby
+Czas przełączenia offline / line-interactive<br><small>zanik sieci</small><br><small>25.03</small>	ok. <b>2–10 ms</b><br><small>źródło: katalogi</small>	elektryka::25 temat::25_03 liczby
+Czas przełączenia online<br><small>praca normalna → bateryjna</small><br><small>25.03</small>	<b>0 ms</b><br><small>źródło: PN-EN 62040-3 (VFI)</small>	elektryka::25 temat::25_03 liczby
+Moc UPS<br><small>dobór</small><br><small>25.03</small>	<b>VA i W</b> — np. 1000 VA / 600 W<br><small>źródło: katalogi</small>	elektryka::25 temat::25_03 liczby
+Żywotność akumulatora VRLA<br><small>temperatura ok. 20–25 °C</small><br><small>25.03</small>	ok. <b>3–5 lat</b><br><small>źródło: katalogi</small>	elektryka::25 temat::25_03 liczby
+Energia akumulatora<br><small>obliczenie orientacyjne</small><br><small>25.03</small>	<b>U · Ah</b> — 12 V · 9 Ah = <b>108 Wh</b>	elektryka::25 temat::25_03 liczby
+Realnie użyteczna energia<br><small>małe UPS-y, szybkie rozładowanie</small><br><small>25.03</small>	ok. <b>60–70 %</b> nominalnej<br><small>źródło: szacunek</small>	elektryka::25 temat::25_03 liczby
+Zapas mocy agregatu<br><small>dobór</small><br><small>25.04</small>	ok. <b>25 %</b> ponad sumę odbiorników<br><small>źródło: TAURON Dystrybucja</small>	elektryka::25 temat::25_04 liczby
+Rozruch silników<br><small>pompy, sprężarki</small><br><small>25.04</small>	kilka razy <b>In</b><br><small>źródło: 24.01</small>	elektryka::25 temat::25_04 liczby
+Pozycje przełącznika<br><small>podłączenie do domu</small><br><small>25.04</small>	<b>I – 0 – II</b> (sieć – wyłączone – agregat)<br><small>źródło: TAURON Dystrybucja</small>	elektryka::25 temat::25_04 liczby
+Miejsce przełącznika<br><small>instalacja odbiorcy</small><br><small>25.04</small>	<b>za licznikiem</b><br><small>źródło: TAURON Dystrybucja</small>	elektryka::25 temat::25_04 liczby
+Napięcie po stronie SN transformatora<br><small>sieć rozdzielcza</small><br><small>25.04</small>	ok. <b>15 kV</b> (typowo 15–20 kV)<br><small>źródło: 14.01</small>	elektryka::25 temat::25_04 liczby
+Przekładnia stacji SN/nn<br><small>typowa sieć rozdzielcza</small><br><small>25.05</small>	ok. <b>15 000 / 400 V</b><br><small>źródło: 14.01</small>	elektryka::25 temat::25_05 liczby
+Napięcie po stronie SN przy 230 V „wepchniętym” od dołu<br><small>zasilanie zwrotne</small><br><small>25.05</small>	<b>tysiące V</b> (do ok. 15 kV)<br><small>źródło: prawo transformacji</small>	elektryka::25 temat::25_05 liczby
+Obwód gniazdowy<br><small>typowa instalacja</small><br><small>25.05</small>	<b>B16, 2,5 mm²</b> — nie do zasilania domu<br><small>źródło: 16.01</small>	elektryka::25 temat::25_05 liczby
+Mikroinstalacja<br><small>definicja</small><br><small>26.01</small>	<b>≤ 50 kW</b>, sieć <b>< 110 kV</b><br><small>źródło: ustawa o OZE</small>	elektryka::26 temat::26_01 liczby
+Uzgodnienie ppoż. + zawiadomienie PSP<br><small>instalacje PV</small><br><small>26.01</small>	<b>> 6,5 kW</b><br><small>źródło: Prawo budowlane; KM PSP</small>	elektryka::26 temat::26_01 liczby
+Napięcie łańcucha<br><small>domy, firmy</small><br><small>26.01</small>	do ok. <b>1000 V DC</b> (typowo 1000 V, czasem 1500 V w farmach)<br><small>źródło: katalogi falowników</small>	elektryka::26 temat::26_01 liczby
+Uzysk roczny<br><small>Polska</small><br><small>26.01</small>	ok. <b>900–1100 kWh/kWp</b><br><small>źródło: dane branżowe</small>	elektryka::26 temat::26_01 liczby
+Panel<br><small>typowe moduły</small><br><small>26.01</small>	ok. <b>400–500 W</b>, Voc ok. <b>35–50 V</b><br><small>źródło: katalogi</small>	elektryka::26 temat::26_01 liczby
+Norma instalacji PV<br><small>zasilanie PV</small><br><small>26.01</small>	<b>PN-HD 60364-7-712</b>	elektryka::26 temat::26_01 liczby
+Wzrost Voc na mrozie<br><small>niska temperatura, słońce</small><br><small>26.02</small>	do ok. <b>15–20 %</b><br><small>źródło: ETI Polam</small>	elektryka::26 temat::26_02 liczby
+Dobór Ucpv ogranicznika DC<br><small>SPD po stronie DC</small><br><small>26.02</small>	<b>≥ 1,2 × Uoc łańcucha</b> (STC)<br><small>źródło: ETI Polam</small>	elektryka::26 temat::26_02 liczby
+SPD przy panelach<br><small>ochrona falownika i modułów</small><br><small>26.02</small>	gdy trasa DC <b>> 10 m</b><br><small>źródło: ETI Polam</small>	elektryka::26 temat::26_02 liczby
+Bezpieczniki gPV<br><small>ochrona przed prądem wstecznym</small><br><small>26.02</small>	zwykle przy <b>≥ 3</b> łańcuchach równoległych<br><small>źródło: dane producentów</small>	elektryka::26 temat::26_02 liczby
+Przekroje przewodów DC<br><small>domowe łańcuchy</small><br><small>26.02</small>	typowo <b>4–6 mm²</b><br><small>źródło: katalogi</small>	elektryka::26 temat::26_02 liczby
+Górna granica napięcia<br><small>sieć nn</small><br><small>26.03</small>	<b>253 V</b> (230 V + 10 %) — falownik się odłącza<br><small>źródło: Globenergia; PN-EN 50160</small>	elektryka::26 temat::26_03 liczby
+Napięcie znamionowe<br><small>sieć nn</small><br><small>26.03</small>	<b>230 V ± 10 %</b><br><small>źródło: PN-EN 50160</small>	elektryka::26 temat::26_03 liczby
+Rozliczenie nowych prosumentów<br><small>mikroinstalacje</small><br><small>26.03</small>	<b>net-billing</b> od <b>1.04.2022</b><br><small>źródło: ustawa o OZE</small>	elektryka::26 temat::26_03 liczby
+RCD falownika<br><small>strona AC</small><br><small>26.03</small>	<b>typ A</b> gdy producent dopuszcza (RCMU), inaczej <b>typ B</b><br><small>źródło: instrukcja falownika; PN-HD 60364-7-712</small>	elektryka::26 temat::26_03 liczby
+Moc instalacji<br><small>przyłączenie na zgłoszenie</small><br><small>26.03</small>	<b>≤ moc przyłączeniowa</b><br><small>źródło: ustawa o OZE</small>	elektryka::26 temat::26_03 liczby
+SCOP<br><small>pompy powietrze–woda</small><br><small>26.04</small>	ok. <b>3–4</b> (zależnie od pompy i domu)<br><small>źródło: katalogi</small>	elektryka::26 temat::26_04 liczby
+Grzałka wspomagająca<br><small>typowe pompy domowe</small><br><small>26.04</small>	ok. <b>3–9 kW</b><br><small>źródło: katalogi</small>	elektryka::26 temat::26_04 liczby
+Moc elektryczna sprężarki<br><small>domy jednorodzinne</small><br><small>26.04</small>	ok. <b>2–5 kW</b> przy maksimum<br><small>źródło: katalogi</small>	elektryka::26 temat::26_04 liczby
+Typ RCD<br><small>obwody pompy</small><br><small>26.04</small>	<b>wg instrukcji</b> (A, F lub B)<br><small>źródło: instrukcja producenta</small>	elektryka::26 temat::26_04 liczby
+Typowa moc przyłączeniowa domu<br><small>przed zakupem</small><br><small>26.04</small>	<b>11–14 kW</b> — sprawdź bilans<br><small>źródło: 14.05</small>	elektryka::26 temat::26_04 liczby
+Typowa moc domowa<br><small>ładowanie AC</small><br><small>26.05</small>	<b>11 kW = 3 × 16 A</b><br><small>źródło: 🇬🇧 NEN guide</small>	elektryka::26 temat::26_05 liczby
+RCD<br><small>każdy punkt ładowania</small><br><small>26.05</small>	<b>30 mA typ B</b> lub <b>typ A + 6 mA DC</b> w wallboxie<br><small>źródło: PN-HD 60364-7-722</small>	elektryka::26 temat::26_05 liczby
+Wykrycie przerwy PEN<br><small>TN-C-S, ładowanie na zewnątrz</small><br><small>26.05</small>	odłączenie w ciągu ok. <b>5 s</b><br><small>źródło: PN-HD 60364-7-722</small>	elektryka::26 temat::26_05 liczby
+Wysokość złącza<br><small>montaż</small><br><small>26.05</small>	ok. <b>0,5–1,5 m</b><br><small>źródło: 🇬🇧 NEN guide</small>	elektryka::26 temat::26_05 liczby
+Mode 2 z gniazda 230 V<br><small>ładowanie awaryjne</small><br><small>26.05</small>	ok. <b>8–10 A</b><br><small>źródło: instrukcje ładowarek</small>	elektryka::26 temat::26_05 liczby
+Zasięg z 1 h ładowania 11 kW<br><small>szacunek</small><br><small>26.05</small>	ok. <b>50–70 km</b> (przy 15–20 kWh/100 km)	elektryka::26 temat::26_05 liczby
+Pojemność domowa<br><small>typowe magazyny</small><br><small>26.06</small>	ok. <b>5–15 kWh</b><br><small>źródło: katalogi</small>	elektryka::26 temat::26_06 liczby
+Chemia<br><small>domowe magazyny</small><br><small>26.06</small>	najczęściej <b>LFP</b><br><small>źródło: katalogi</small>	elektryka::26 temat::26_06 liczby
+Trwałość LFP<br><small>według producenta</small><br><small>26.06</small>	ok. <b>3000–6000 cykli</b><br><small>źródło: katalogi</small>	elektryka::26 temat::26_06 liczby
+Sprawność cyklu<br><small>ładowanie + rozładowanie</small><br><small>26.06</small>	ok. <b>85–95 %</b><br><small>źródło: katalogi</small>	elektryka::26 temat::26_06 liczby
+Czas przełączenia na backup<br><small>zależnie od modelu</small><br><small>26.06</small>	<b>ms – kilka s</b><br><small>źródło: instrukcje</small>	elektryka::26 temat::26_06 liczby
+Głębokość puszki pod moduł<br><small>moduł + łącznik w jednej puszce</small><br><small>27.01</small>	zwykle <b>≥ 60 mm</b><br><small>źródło: instrukcje producentów</small>	elektryka::27 temat::27_01 liczby
+Obciążalność styku<br><small>dobór do odbiornika</small><br><small>27.01</small>	podana w A, dla <b>LED</b> zwykle <b>dużo mniejsza</b><br><small>źródło: instrukcja modułu</small>	elektryka::27 temat::27_01 liczby
+Napięcie wejść SW<br><small>moduły zasilane z sieci</small><br><small>27.01</small>	<b>230 V</b> (o ile instrukcja nie mówi inaczej)<br><small>źródło: instrukcja modułu</small>	elektryka::27 temat::27_01 liczby
+Zabezpieczenie obwodu<br><small>wymagania producenta</small><br><small>27.01</small>	nie większe niż dopuszcza moduł (np. <b>10 / 16 A</b>)<br><small>źródło: instrukcja modułu</small>	elektryka::27 temat::27_01 liczby
+Żyły do łącznika (klasycznie)<br><small>obwód z łącznikiem 1-biegunowym</small><br><small>27.02</small>	<b>2 + PE</b> (L, L′)<br><small>źródło: 18.02</small>	elektryka::27 temat::27_02 liczby
+Żyły do łącznika z N<br><small>łączniki elektroniczne, moduły</small><br><small>27.02</small>	<b>3 + PE</b> (L, N, L′)<br><small>źródło: dobra praktyka</small>	elektryka::27 temat::27_02 liczby
+Minimalne obciążenie modułu bez N<br><small>moduły 2-przewodowe</small><br><small>27.02</small>	często <b>kilka W–kilkanaście W</b> (wg instrukcji)<br><small>źródło: instrukcje producentów</small>	elektryka::27 temat::27_02 liczby
+Napięcie KNX<br><small>magistrala TP</small><br><small>27.03</small>	ok. <b>30 V DC</b>, SELV<br><small>źródło: ABB i-bus KNX</small>	elektryka::27 temat::27_03 liczby
+Przewód KNX<br><small>instalacja TP</small><br><small>27.03</small>	np. <b>YCYM 2×2×0,8</b><br><small>źródło: ABB i-bus KNX</small>	elektryka::27 temat::27_03 liczby
+Linia KNX<br><small>segment linii</small><br><small>27.03</small>	do <b>64</b> urządzeń, <b>1000 m</b><br><small>źródło: wytyczne KNX</small>	elektryka::27 temat::27_03 liczby
+Odległości KNX<br><small>segment linii</small><br><small>27.03</small>	zasilacz–urządzenie <b>≤ 350 m</b>, urządzenie–urządzenie <b>≤ 700 m</b><br><small>źródło: wytyczne KNX</small>	elektryka::27 temat::27_03 liczby
+Terminator RS-485<br><small>Modbus RTU</small><br><small>27.03</small>	<b>120 Ω</b> na obu końcach<br><small>źródło: standard RS-485</small>	elektryka::27 temat::27_03 liczby
+DALI<br><small>sterowanie oświetleniem</small><br><small>27.03</small>	<b>64</b> oprawy na linię, ok. <b>16 V DC</b><br><small>źródło: IEC 62386</small>	elektryka::27 temat::27_03 liczby
+Rezerwa miejsca<br><small>rozdzielnice domowe</small><br><small>27.04</small>	ok. <b>20 %</b> wolnych pól<br><small>źródło: dobra praktyka</small>	elektryka::27 temat::27_04 liczby
+Obwód zasilania automatyki<br><small>sterownik, zasilacze</small><br><small>27.04</small>	osobny, np. <b>B6</b><br><small>źródło: dobra praktyka</small>	elektryka::27 temat::27_04 liczby
+Napięcie zasilaczy automatyki<br><small>sterowniki, czujniki</small><br><small>27.04</small>	<b>12 / 24 V DC</b> (SELV)<br><small>źródło: katalogi</small>	elektryka::27 temat::27_04 liczby
+Szerokość modułu<br><small>aparatura na TH35</small><br><small>27.04</small>	<b>17,5–18 mm</b><br><small>źródło: PN-EN 60715</small>	elektryka::27 temat::27_04 liczby
+Zespół<br><small>prace w warunkach szczególnego zagrożenia</small><br><small>28.01</small>	co najmniej <b>2 osoby</b><br><small>źródło: rozp. BHP, § 2 pkt 12, § 27 ust. 4</small>	elektryka::28 temat::28_01 liczby
+Łączenie funkcji<br><small>praca na polecenie pisemne</small><br><small>28.01</small>	najwyżej <b>2</b> naraz<br><small>źródło: § 30 ust. 3</small>	elektryka::28 temat::28_01 liczby
+Przechowywanie poleceń<br><small>polecenia pisemne</small><br><small>28.01</small>	co najmniej <b>90 dni</b> od zakończenia pracy<br><small>źródło: § 28 ust. 4</small>	elektryka::28 temat::28_01 liczby
+Poleceniodawca, koordynujący<br><small>—</small><br><small>28.01</small>	świadectwo <b>D</b><br><small>źródło: § 2 pkt 8–9</small>	elektryka::28 temat::28_01 liczby
+Dopuszczający, kierujący zespołem<br><small>—</small><br><small>28.01</small>	świadectwo <b>E</b><br><small>źródło: § 2 pkt 10–11</small>	elektryka::28 temat::28_01 liczby
+Zespół<br><small>prace szczególnie niebezpieczne</small><br><small>28.02</small>	<b>≥ 2 osoby</b><br><small>źródło: § 27 ust. 4</small>	elektryka::28 temat::28_02 liczby
+Podstawa pracy<br><small>prace szczególnie niebezpieczne</small><br><small>28.02</small>	<b>polecenie pisemne</b><br><small>źródło: § 27 ust. 1</small>	elektryka::28 temat::28_02 liczby
+Uziemienie<br><small>prace przy urządzeniach wyłączonych</small><br><small>28.02</small>	min. <b>jedno widoczne</b> z miejsca pracy<br><small>źródło: § 25 ust. 2</small>	elektryka::28 temat::28_02 liczby
+Odstęp ≤ 1 kV<br><small>części nieosłonięte</small><br><small>28.02</small>	praca pod napięciem: <b>bez dotyku</b>; w pobliżu: <b>300 mm</b><br><small>źródło: § 23 ust. 3</small>	elektryka::28 temat::28_02 liczby
+Rurociągi<br><small>demontaż armatury</small><br><small>28.02</small>	<b>≥ 50 kPa</b><br><small>źródło: § 27 ust. 2 pkt 17</small>	elektryka::28 temat::28_02 liczby
+Kroki przygotowania<br><small>prace przy urządzeniach wyłączonych</small><br><small>28.03</small>	wyłącz → zabezpiecz → oznacz → sprawdź → uziem → oznacz strefę<br><small>źródło: § 25 ust. 1</small>	elektryka::28 temat::28_03 liczby
+Uziemienie widoczne<br><small>gdy uziemia się urządzenie</small><br><small>28.03</small>	co najmniej <b>1</b> z miejsca pracy<br><small>źródło: § 25 ust. 2</small>	elektryka::28 temat::28_03 liczby
+Wznowienie po przerwie<br><small>przerwy w pracy</small><br><small>28.03</small>	sprawdzenie zabezpieczeń <b>przed każdym</b> wznowieniem<br><small>źródło: § 31 ust. 4</small>	elektryka::28 temat::28_03 liczby
+Dopuszczenie<br><small>praca na polecenie</small><br><small>28.03</small>	potwierdzone <b>na piśmie</b><br><small>źródło: § 30 ust. 1 pkt 3</small>	elektryka::28 temat::28_03 liczby
+Rękawice klasy 00 / 0<br><small>instalacje nN</small><br><small>28.04</small>	<b>500 V / 1000 V</b> AC<br><small>źródło: PN-EN 60903</small>	elektryka::28 temat::28_04 liczby
+Rękawice klasy 1–4<br><small>sieci SN</small><br><small>28.04</small>	<b>7,5 / 17 / 26,5 / 36 kV</b><br><small>źródło: PN-EN 60903</small>	elektryka::28 temat::28_04 liczby
+Narzędzia izolowane<br><small>prace przy nN</small><br><small>28.04</small>	<b>1000 V AC</b> (1500 V DC), próba <b>10 kV</b><br><small>źródło: PN-EN 60900</small>	elektryka::28 temat::28_04 liczby
+Badania okresowe<br><small>sprzęt elektroizolacyjny, wskaźniki</small><br><small>28.04</small>	wg <b>dokumentacji producenta</b>, z ewidencją<br><small>źródło: rozp. BHP, § 26</small>	elektryka::28 temat::28_04 liczby
+Odstęp PPN ≤ 1 kV<br><small>granica DL</small><br><small>28.05</small>	<b>bez dotyku</b> części czynnych (poza technologią PPN)<br><small>źródło: rozp. BHP, § 23 ust. 3</small>	elektryka::28 temat::28_05 liczby
+Strefa w pobliżu ≤ 1 kV<br><small>granica DV</small><br><small>28.05</small>	<b>300 mm</b><br><small>źródło: rozp. BHP, § 23 ust. 3</small>	elektryka::28 temat::28_05 liczby
+110 kV<br><small>—</small><br><small>28.05</small>	DL <b>1000 mm</b>, DV <b>2000 mm</b><br><small>źródło: rozp. BHP, § 23 ust. 3</small>	elektryka::28 temat::28_05 liczby
+400 kV<br><small>—</small><br><small>28.05</small>	DL <b>2500 mm</b>, DV <b>4000 mm</b><br><small>źródło: rozp. BHP, § 23 ust. 3</small>	elektryka::28 temat::28_05 liczby
+Praca na wysokości<br><small>wszystkie prace</small><br><small>28.06</small>	<b>> 1 m</b> nad podłogą lub ziemią<br><small>źródło: ogólne przepisy BHP</small>	elektryka::28 temat::28_06 liczby
+Kąt drabiny przystawnej<br><small>ustawienie drabiny</small><br><small>28.06</small>	ok. <b>75°</b> (1 : 4)<br><small>źródło: instrukcje drabin, PN-EN 131</small>	elektryka::28 temat::28_06 liczby
+Wysunięcie ponad podest<br><small>wejście na podest</small><br><small>28.06</small>	ok. <b>0,75 m</b><br><small>źródło: przepisy BHP przy robotach budowlanych</small>	elektryka::28 temat::28_06 liczby
+Narzędzia izolowane<br><small>prace przy nN</small><br><small>28.06</small>	<b>1000 V AC / 1500 V DC</b><br><small>źródło: PN-EN 60900</small>	elektryka::28 temat::28_06 liczby
+Zakresy eksploatacji<br><small>świadectwa kwalifikacyjne</small><br><small>29.01</small>	<b>7</b>: obsługa, konserwacja, remont, naprawa, montaż, demontaż, kontrolno-pomiarowe<br><small>źródło: rozp. z 2022 r. w sprawie kwalifikacji</small>	elektryka::29 temat::29_01 liczby
+Ważność świadectwa<br><small>E i D</small><br><small>29.01</small>	<b>5 lat</b><br><small>źródło: Prawo energetyczne, art. 54 ust. 1aa</small>	elektryka::29 temat::29_01 liczby
+Stanowiska<br><small>—</small><br><small>29.01</small>	<b>E</b> (eksploatacja), <b>D</b> (dozór)<br><small>źródło: Prawo energetyczne, art. 54 ust. 1aa</small>	elektryka::29 temat::29_01 liczby
+Grupy urządzeń<br><small>—</small><br><small>29.01</small>	<b>G1</b> elektryczne, <b>G2</b> cieplne, <b>G3</b> gazowe<br><small>źródło: Prawo energetyczne, art. 54 ust. 1aa</small>	elektryka::29 temat::29_01 liczby
+Elementy instrukcji<br><small>instrukcja eksploatacji</small><br><small>29.02</small>	<b>11</b> punktów<br><small>źródło: rozp. BHP, § 4 ust. 1</small>	elektryka::29 temat::29_02 liczby
+Język schematów i opisów<br><small>rysunki, schematy, wykresy</small><br><small>29.02</small>	<b>polski</b><br><small>źródło: rozp. BHP, § 4 ust. 1, § 4 ust. 1 pkt 3</small>	elektryka::29 temat::29_02 liczby
+Kto opracowuje i aktualizuje<br><small>—</small><br><small>29.02</small>	<b>pracodawca</b><br><small>źródło: rozp. BHP, § 4 ust. 1, § 4 ust. 1 pkt 3, § 4 ust. 2</small>	elektryka::29 temat::29_02 liczby
+Kontrola instalacji elektrycznej budynku<br><small>wszystkie budynki</small><br><small>29.03</small>	co najmniej <b>raz na 5 lat</b><br><small>źródło: Prawo budowlane, art. 62 ust. 1 pkt 2</small>	elektryka::29 temat::29_03 liczby
+Polecenia pisemne<br><small>po zakończeniu pracy</small><br><small>29.03</small>	przechowywanie <b>≥ 90 dni</b><br><small>źródło: rozp. BHP, § 28 ust. 4</small>	elektryka::29 temat::29_03 liczby
+Książka obiektu<br><small>budynki</small><br><small>29.03</small>	przez <b>cały okres</b> użytkowania obiektu<br><small>źródło: Prawo budowlane</small>	elektryka::29 temat::29_03 liczby
+Kontrola instalacji elektrycznej i piorunochronnej<br><small>każdy budynek</small><br><small>29.04</small>	<b>≥ raz na 5 lat</b><br><small>źródło: Prawo budowlane, art. 62 ust. 1 pkt 2</small>	elektryka::29 temat::29_04 liczby
+Kontrola roczna<br><small>m.in. stan techniczny elementów narażonych na czynniki atmosferyczne</small><br><small>29.04</small>	<b>raz w roku</b> (bez domów jednorodzinnych)<br><small>źródło: art. 62 ust. 1 pkt 1</small>	elektryka::29 temat::29_04 liczby
+Test RCD przyciskiem<br><small>użytkownik</small><br><small>29.04</small>	wg producenta, np. <b>co pół roku</b><br><small>źródło: instrukcja RCD</small>	elektryka::29 temat::29_04 liczby
+Różnica temperatur w termowizji<br><small>ocena wyników</small><br><small>29.04</small>	<b>> 15 °C</b> względem podobnego elementu → pilnie<br><small>źródło: 22.06</small>	elektryka::29 temat::29_04 liczby
+Izolacja obwodów do 500 V<br><small>pomiary odbiorcze</small><br><small>29.05</small>	<b>≥ 1 MΩ</b> przy 500 V DC<br><small>źródło: PN-HD 60364-6</small>	elektryka::29 temat::29_05 liczby
+Warunki przyjęcia<br><small>przyjęcie do eksploatacji</small><br><small>29.05</small>	<b>7</b>: zgodność, sprawdzenia, dokumentacja, instrukcja, szkolenie, oznaczenia, formalności<br><small>źródło: zasady eksploatacji</small>	elektryka::29 temat::29_05 liczby
+Kontrola okresowa po przyjęciu<br><small>instalacje w budynkach</small><br><small>29.05</small>	<b>≤ 5 lat</b><br><small>źródło: Prawo budowlane, art. 62</small>	elektryka::29 temat::29_05 liczby
+Moc w złym styku<br><small>luźny zacisk</small><br><small>30.01</small>	\(P = I^2 R\): 16 A × 0,1 Ω → <b>25,6 W</b><br><small>źródło: prawo Joule'a</small>	elektryka::30 temat::30_01 liczby
+RCD przeciwpożarowy<br><small>miejsca zagrożone pożarem</small><br><small>30.01</small>	<b>IΔn ≤ 300 mA</b><br><small>źródło: PN-HD 60364-4-42</small>	elektryka::30 temat::30_01 liczby
+Bęben przedłużacza<br><small>przedłużacze bębnowe</small><br><small>30.01</small>	moc dopuszczalna <b>zwinięty ≪ rozwinięty</b> (wg tabliczki)<br><small>źródło: tabliczka producenta</small>	elektryka::30 temat::30_01 liczby
+Gaśnica proszkowa / śniegowa<br><small>urządzenia pod napięciem</small><br><small>30.02</small>	do <b>1000 V</b>, z odległości <b>≥ 1 m</b><br><small>źródło: instrukcje PSP, etykiety</small>	elektryka::30 temat::30_02 liczby
+Temperatura CO₂ przy wypływie<br><small>gaśnica śniegowa</small><br><small>30.02</small>	ok. <b>−80 °C</b><br><small>źródło: instrukcje PSP, etykiety</small>	elektryka::30 temat::30_02 liczby
+Przegląd gaśnic<br><small>gaśnice w obiektach</small><br><small>30.02</small>	co najmniej <b>raz w roku</b><br><small>źródło: rozp. MSWiA z 2010 r.</small>	elektryka::30 temat::30_02 liczby
+Grupy pożarów<br><small>klasyfikacja</small><br><small>30.02</small>	<b>A, B, C, D, F</b><br><small>źródło: PN-EN 2</small>	elektryka::30 temat::30_02 liczby
+Kubatura obiektu / strefy<br><small>wymóg PWP</small><br><small>30.03</small>	<b>> 1000 m³</b><br><small>źródło: WT, § 183 ust. 2</small>	elektryka::30 temat::30_03 liczby
+Strefa zagrożona wybuchem<br><small>niezależnie od kubatury</small><br><small>30.03</small>	PWP <b>wymagany</b><br><small>źródło: WT, § 183 ust. 2</small>	elektryka::30 temat::30_03 liczby
+Miejsce<br><small>—</small><br><small>30.03</small>	przy <b>głównym wejściu</b> lub <b>złączu</b>, oznakowany<br><small>źródło: WT, § 183 ust. 3</small>	elektryka::30 temat::30_03 liczby
+Drugie źródło<br><small>po zadziałaniu PWP</small><br><small>30.03</small>	<b>nie</b> załącza się samoczynnie (poza oświetleniem awaryjnym)<br><small>źródło: WT, § 183 ust. 4</small>	elektryka::30 temat::30_03 liczby
+Numer alarmowy<br><small>zagrożenie życia, pożar</small><br><small>30.04</small>	<b>112</b>	elektryka::30 temat::30_04 liczby
+Pogotowie energetyczne<br><small>awarie sieci, brak napięcia, zerwane przewody</small><br><small>30.04</small>	<b>991</b><br><small>źródło: OSD</small>	elektryka::30 temat::30_04 liczby
+Izolacja po zalaniu / pożarze<br><small>instalacje do 500 V</small><br><small>30.04</small>	<b>≥ 1 MΩ</b> przy 500 V przed ponownym załączeniem<br><small>źródło: PN-HD 60364-6</small>	elektryka::30 temat::30_04 liczby
+Numer alarmowy<br><small>pożar</small><br><small>30.05</small>	<b>112</b> (straż: 998)	elektryka::30 temat::30_05 liczby
+Odległość gaszenia<br><small>urządzenia pod napięciem do 1000 V</small><br><small>30.05</small>	<b>≥ 1 m</b><br><small>źródło: 30.02</small>	elektryka::30 temat::30_05 liczby
+Czas „próby” gaszenia<br><small>gaśnica podręczna</small><br><small>30.05</small>	<b>kilkanaście sekund</b> — potem ewakuacja<br><small>źródło: zasady PSP</small>	elektryka::30 temat::30_05 liczby
+Próg samouwolnienia<br><small>50 Hz, dorośli</small><br><small>31.01</small>	ok. <b>10 mA</b> AC<br><small>źródło: IEC 60479-1 (04.01)</small>	elektryka::31 temat::31_01 liczby
+Granica niskiego napięcia<br><small>metody uwalniania</small><br><small>31.01</small>	<b>1 kV</b> AC<br><small>źródło: przepisy</small>	elektryka::31 temat::31_01 liczby
+Numery<br><small>zdarzenia z prądem</small><br><small>31.01</small>	<b>112</b>, pogotowie energetyczne <b>991</b>	elektryka::31 temat::31_01 liczby
+Ocena oddechu<br><small>po udrożnieniu</small><br><small>31.02</small>	<b>≤ 10 s</b><br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_02 liczby
+Numer alarmowy<br><small>wezwanie pomocy</small><br><small>31.02</small>	<b>112</b> (także 999 — pogotowie)	elektryka::31 temat::31_02 liczby
+AED „po drodze”<br><small>ratownik sam</small><br><small>31.02</small>	gdy da się go przynieść i uruchomić w <b>≤ 1 min</b><br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_02 liczby
+Stosunek<br><small>dorośli</small><br><small>31.03</small>	<b>30 : 2</b><br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_03 liczby
+Głębokość<br><small>dorośli</small><br><small>31.03</small>	<b>5–6 cm</b><br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_03 liczby
+Tempo<br><small>dorośli</small><br><small>31.03</small>	<b>100–120/min</b><br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_03 liczby
+Oddech ratowniczy<br><small>dorośli</small><br><small>31.03</small>	ok. <b>1 s</b> każdy<br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_03 liczby
+Przerwa w uciśnięciach<br><small>na oddechy</small><br><small>31.03</small>	<b>≤ 10 s</b><br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_03 liczby
+Zmiana ratowników<br><small>dwóch ratowników</small><br><small>31.03</small>	co ok. <b>2 min</b><br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_03 liczby
+Spadek szansy przeżycia<br><small>defibrylacja</small><br><small>31.04</small>	ok. <b>10 % na minutę</b> zwłoki<br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_04 liczby
+RKO między analizami<br><small>praca z AED</small><br><small>31.04</small>	<b>2 min</b><br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_04 liczby
+Przeżycie przy pomocy świadków<br><small>pozaszpitalne NZK</small><br><small>31.04</small>	ok. <b>15 %</b> (wobec mniejszej bez pomocy)<br><small>źródło: ERC 2025</small>	elektryka::31 temat::31_04 liczby
+Chłodzenie oparzenia<br><small>oparzenia termiczne i elektryczne</small><br><small>31.05</small>	<b>od razu</b>, bieżącą wodą, zwykle ok. <b>10–20 min</b><br><small>źródło: ILCOR (FA 770)</small>	elektryka::31 temat::31_05 liczby
+Po porażeniu<br><small>prąd sieciowy i wyższe napięcia</small><br><small>31.05</small>	<b>zawsze</b> kontakt z lekarzem<br><small>źródło: 04.01</small>	elektryka::31 temat::31_05 liczby
+Temperatura łuku<br><small>łuk elektryczny</small><br><small>31.05</small>	<b>tysiące °C</b><br><small>źródło: 04.05</small>	elektryka::31 temat::31_05 liczby
+Ważność świadectwa<br><small>E i D</small><br><small>32.01</small>	<b>5 lat</b><br><small>źródło: art. 54 ust. 1aa</small>	elektryka::32 temat::32_01 liczby
+Kadencja komisji<br><small>komisje kwalifikacyjne</small><br><small>32.01</small>	<b>5 lat</b><br><small>źródło: art. 54 ust. 3</small>	elektryka::32 temat::32_01 liczby
+Grupy pod nadzorem bez świadectwa<br><small>art. 54 ust. 2</small><br><small>32.01</small>	<b>4</b> (przygotowanie zawodowe, uczniowie, organy nadzoru, serwis)<br><small>źródło: art. 54 ust. 3</small>	elektryka::32 temat::32_01 liczby
+Obsługa bez świadectwa<br><small>tylko obsługa</small><br><small>32.01</small>	urządzenia <b>≤ 1 kV i ≤ 20 kW</b> (z instrukcją), cieplne <b>≤ 50 kW</b><br><small>źródło: rozp. z 2022 r., § 5</small>	elektryka::32 temat::32_01 liczby
+Punkty grupy 1<br><small>załącznik nr 1</small><br><small>32.02</small>	<b>13</b><br><small>źródło: rozp. z 2022 r.</small>	elektryka::32 temat::32_02 liczby
+Typowy elektryk instalacji<br><small>budynki</small><br><small>32.02</small>	<b>G1 pkt 2</b> (≤ 1 kV), często + <b>pkt 13</b><br><small>źródło: rozp. z 2022 r.</small>	elektryka::32 temat::32_02 liczby
+Zespoły prądotwórcze<br><small>agregaty</small><br><small>32.02</small>	pkt 6: <b>> 50 kW</b><br><small>źródło: rozp. z 2022 r.</small>	elektryka::32 temat::32_02 liczby
+Magazyny energii<br><small>oddające energię do sieci</small><br><small>32.02</small>	pkt 12: <b>> 10 kW</b><br><small>źródło: rozp. z 2022 r.</small>	elektryka::32 temat::32_02 liczby
+Stanowiska<br><small>—</small><br><small>32.02</small>	<b>2</b>: E i D<br><small>źródło: § 4</small>	elektryka::32 temat::32_02 liczby
+Kontrola instalacji elektrycznej i piorunochronnej<br><small>każdy budynek, także jednorodzinny</small><br><small>32.03</small>	<b>≥ raz na 5 lat</b><br><small>źródło: art. 62 ust. 1 pkt 2</small>	elektryka::32 temat::32_03 liczby
+Kontrola roczna<br><small>gaz, kominy, elementy zewnętrzne</small><br><small>32.03</small>	<b>≥ raz w roku</b> (bez jednorodzinnych)<br><small>źródło: art. 62 ust. 1 pkt 1, ust. 2</small>	elektryka::32 temat::32_03 liczby
+Duże obiekty<br><small>zabudowa > 2000 m², dach > 1000 m²</small><br><small>32.03</small>	<b>2 × w roku</b> (do 31.05 i 30.11)<br><small>źródło: art. 62 ust. 1 pkt 3</small>	elektryka::32 temat::32_03 liczby
+Kto przeprowadza<br><small>instalacje elektryczne</small><br><small>32.03</small>	kwalifikacje <b>dozoru</b><br><small>źródło: art. 62 ust. 5</small>	elektryka::32 temat::32_03 liczby
+Przewody wyłącznie Cu<br><small>instalacje w budynkach</small><br><small>32.04</small>	przekrój <b>≤ 10 mm²</b><br><small>źródło: WT, § 183 ust. 1 pkt 9</small>	elektryka::32 temat::32_04 liczby
+PWP<br><small>ochrona ppoż.</small><br><small>32.04</small>	obiekty / strefy <b>> 1000 m³</b>, strefy Ex<br><small>źródło: WT, § 183 ust. 2</small>	elektryka::32 temat::32_04 liczby
+Okres przejściowy<br><small>projekty wg dotychczasowych WT</small><br><small>32.04</small>	<b>18 miesięcy</b> od <b>20.09.2026</b><br><small>źródło: art. 102a Prawa budowlanego</small>	elektryka::32 temat::32_04 liczby
+Wymagania § 183 ust. 1<br><small>instalacja elektryczna</small><br><small>32.04</small>	<b>10</b> punktów<br><small>źródło: WT</small>	elektryka::32 temat::32_04 liczby
+Szkolenie okresowe — robotnicze<br><small>stanowiska robotnicze</small><br><small>32.05</small>	co najmniej <b>co 3 lata</b><br><small>źródło: rozp. w sprawie szkolenia BHP</small>	elektryka::32 temat::32_05 liczby
+Szkolenie przy pracach szczególnie niebezpiecznych<br><small>stanowiska robotnicze</small><br><small>32.05</small>	<b>co roku</b><br><small>źródło: rozp. w sprawie szkolenia BHP</small>	elektryka::32 temat::32_05 liczby
+Polecenia pisemne<br><small>—</small><br><small>32.05</small>	przechowywanie <b>≥ 90 dni</b><br><small>źródło: rozp. BHP, § 28 ust. 4</small>	elektryka::32 temat::32_05 liczby
+Zespół<br><small>szczególne zagrożenie</small><br><small>32.05</small>	<b>≥ 2 osoby</b><br><small>źródło: § 27 ust. 4</small>	elektryka::32 temat::32_05 liczby
+Stosowanie norm<br><small>z zastrzeżeniem przywołania w przepisach</small><br><small>32.06</small>	<b>dobrowolne</b><br><small>źródło: ustawa o normalizacji, art. 5 ust. 3</small>	elektryka::32 temat::32_06 liczby
+Napięcie znamionowe sieci<br><small>sieci nN</small><br><small>32.06</small>	<b>230/400 V</b><br><small>źródło: PN-IEC 60038</small>	elektryka::32 temat::32_06 liczby
+Tolerancja napięcia<br><small>sieci publiczne</small><br><small>32.06</small>	<b>±10 %</b><br><small>źródło: PN-EN 50160</small>	elektryka::32 temat::32_06 liczby
+Miejsca szczególne<br><small>łazienki, PV, EV</small><br><small>32.06</small>	część <b>7-7xx</b> (np. 701, 712, 722)<br><small>źródło: PN-HD 60364</small>	elektryka::32 temat::32_06 liczby
+Obszary egzaminu D<br><small>stanowisko dozoru</small><br><small>33.01</small>	<b>9</b> (lit. a–i) + cały zakres E<br><small>źródło: rozp. z 2022 r., § 6</small>	elektryka::33 temat::33_01 liczby
+Ważność świadectwa D<br><small>—</small><br><small>33.01</small>	<b>5 lat</b><br><small>źródło: Prawo energetyczne, art. 54 ust. 1aa</small>	elektryka::33 temat::33_01 liczby
+Kontrola okresowa budynku<br><small>art. 62 ust. 5 PB</small><br><small>33.01</small>	wymaga kwalifikacji <b>D</b><br><small>źródło: 32.03</small>	elektryka::33 temat::33_01 liczby
+Ważność świadectw podwładnych<br><small>kontrola przez dozór</small><br><small>33.02</small>	<b>5 lat</b><br><small>źródło: art. 54 ust. 1aa PE</small>	elektryka::33 temat::33_02 liczby
+Przechowywanie poleceń<br><small>po zakończeniu pracy</small><br><small>33.02</small>	<b>≥ 90 dni</b><br><small>źródło: rozp. BHP, § 28 ust. 4</small>	elektryka::33 temat::33_02 liczby
+Łączenie funkcji<br><small>praca na polecenie</small><br><small>33.02</small>	najwyżej <b>2</b><br><small>źródło: rozp. BHP, § 30 ust. 3</small>	elektryka::33 temat::33_02 liczby
+Kontrola instalacji budynku<br><small>art. 62 PB</small><br><small>33.02</small>	<b>≥ co 5 lat</b>, przez osobę z D<br><small>źródło: 32.03</small>	elektryka::33 temat::33_02 liczby
+Grupa V<br><small>typowy dom</small><br><small>33.03</small>	<b>≤ 1 kV, ≤ 40 kW, ≤ 63 A</b><br><small>źródło: rozp. systemowe, § 3</small>	elektryka::33 temat::33_03 liczby
+Napięcie<br><small>grupy III–V</small><br><small>33.03</small>	<b>± 10 %</b> Un przez 95 % tygodnia<br><small>źródło: § 45 ust. 5</small>	elektryka::33 temat::33_03 liczby
+THD<br><small>grupy III–V</small><br><small>33.03</small>	<b>≤ 8 %</b><br><small>źródło: § 45 ust. 5</small>	elektryka::33 temat::33_03 liczby
+Przerwa jednorazowa (IV–V)<br><small>—</small><br><small>33.03</small>	planowana <b>≤ 16 h</b>, nieplanowana <b>≤ 24 h</b><br><small>źródło: § 47 ust. 5</small>	elektryka::33 temat::33_03 liczby
+Przerwy roczne (IV–V)<br><small>długie i bardzo długie</small><br><small>33.03</small>	planowane <b>≤ 35 h</b>, nieplanowane <b>≤ 48 h</b><br><small>źródło: § 47 ust. 5</small>	elektryka::33 temat::33_03 liczby
+Powiadomienie o przerwie planowanej<br><small>—</small><br><small>33.03</small>	<b>≥ 5 dni</b> wcześniej<br><small>źródło: § 49</small>	elektryka::33 temat::33_03 liczby
+Odpowiedź na reklamację<br><small>—</small><br><small>33.03</small>	<b>≤ 14 dni</b><br><small>źródło: § 49</small>	elektryka::33 temat::33_03 liczby
+Polecenia pisemne<br><small>po zakończeniu pracy</small><br><small>33.04</small>	<b>≥ 90 dni</b><br><small>źródło: rozp. BHP, § 28 ust. 4</small>	elektryka::33 temat::33_04 liczby
+Książka obiektu<br><small>budynki</small><br><small>33.04</small>	<b>cały okres</b> użytkowania<br><small>źródło: Prawo budowlane</small>	elektryka::33 temat::33_04 liczby
+Instrukcja eksploatacji<br><small>każde urządzenie / instalacja</small><br><small>33.04</small>	<b>11</b> elementów<br><small>źródło: rozp. BHP, § 4</small>	elektryka::33 temat::33_04 liczby
+Typowe tg φ₀<br><small>rozliczenie energii biernej</small><br><small>33.05</small>	<b>0,4</b> (cos φ ≈ 0,93)<br><small>źródło: taryfy OSD</small>	elektryka::33 temat::33_05 liczby
+Audyt energetyczny<br><small>duzi przedsiębiorcy (zasady w zmianie)</small><br><small>33.05</small>	<b>co 4 lata</b><br><small>źródło: ustawa o efektywności energetycznej</small>	elektryka::33 temat::33_05 liczby
+Próg projektowany (EED)<br><small>audyt wg zużycia</small><br><small>33.05</small>	ok. <b>10 TJ ≈ 2,78 GWh/rok</b><br><small>źródło: projekt nowelizacji</small>	elektryka::33 temat::33_05 liczby
+Silniki<br><small>nowe silniki w UE</small><br><small>33.05</small>	min. <b>IE3</b> (0,75–1000 kW)<br><small>źródło: rozp. (UE) 2019/1781</small>	elektryka::33 temat::33_05 liczby
+Stopnie zasilania<br><small>ograniczenia w poborze</small><br><small>33.06</small>	<b>11</b> (bez ograniczeń) … <b>20</b> (minimum)<br><small>źródło: plan ograniczeń PSE</small>	elektryka::33 temat::33_06 liczby
+Kto podlega<br><small>odbiorcy</small><br><small>33.06</small>	moc umowna <b>≥ 300 kW</b><br><small>źródło: plan ograniczeń PSE</small>	elektryka::33 temat::33_06 liczby
+Komunikaty radiowe<br><small>ogłaszanie stopni</small><br><small>33.06</small>	<b>7:55 i 19:55</b>, Program 1 PR<br><small>źródło: plan ograniczeń PSE</small>	elektryka::33 temat::33_06 liczby
+Ograniczenia w nagłym zagrożeniu<br><small>dłużej — Rada Ministrów</small><br><small>33.06</small>	do <b>72 h</b> (OSP)<br><small>źródło: Prawo energetyczne</small>	elektryka::33 temat::33_06 liczby
+Typowe napięcia SN<br><small>sieci dystrybucyjne w Polsce</small><br><small>34.01</small>	<b>15 kV</b>, <b>20 kV</b>, 30 kV (6, 10 kV — zakłady)<br><small>źródło: OSD</small>	elektryka::34 temat::34_01 liczby
+Przekładnia stacji<br><small>stacje SN/nN</small><br><small>34.01</small>	<b>15 / 0,4 kV</b> (lub 20 / 0,4 kV)<br><small>źródło: OSD</small>	elektryka::34 temat::34_01 liczby
+GPZ<br><small>stacje SN/nN</small><br><small>34.01</small>	<b>110 / 15 (20) kV</b><br><small>źródło: OSD</small>	elektryka::34 temat::34_01 liczby
+Świadectwo<br><small>prace przy SN</small><br><small>34.01</small>	<b>G1 pkt 3</b>: > 1 kV do 30 kV<br><small>źródło: rozp. z 2022 r.</small>	elektryka::34 temat::34_01 liczby
+Stacje słupowe<br><small>sieci wiejskie</small><br><small>34.02</small>	zwykle <b>do ok. 250 kVA</b><br><small>źródło: OSD</small>	elektryka::34 temat::34_02 liczby
+Stacje wnętrzowe / kontenerowe<br><small>miasta, zakłady</small><br><small>34.02</small>	zwykle <b>250–630 kVA</b> (i więcej)<br><small>źródło: OSD</small>	elektryka::34 temat::34_02 liczby
+Napięcie po stronie nN<br><small>transformatory 15 kV</small><br><small>34.02</small>	<b>0,42 / 0,4 kV</b><br><small>źródło: OSD</small>	elektryka::34 temat::34_02 liczby
+Regulacja przełącznikiem zaczepów<br><small>beznapięciowo</small><br><small>34.02</small>	typowo <b>± 2 × 2,5 %</b><br><small>źródło: katalogi</small>	elektryka::34 temat::34_02 liczby
+Grupa połączeń<br><small>transformatory rozdzielcze</small><br><small>34.02</small>	zwykle <b>Dyn5</b><br><small>źródło: katalogi</small>	elektryka::34 temat::34_02 liczby
+Kolejność wyłączania<br><small>pola SN</small><br><small>34.03</small>	<b>wyłącznik → odłącznik → sprawdzenie → uziemnik</b><br><small>źródło: zasady eksploatacji</small>	elektryka::34 temat::34_03 liczby
+Kolejność załączania<br><small>pola SN</small><br><small>34.03</small>	<b>uziemnik off → odłącznik → wyłącznik</b><br><small>źródło: zasady eksploatacji</small>	elektryka::34 temat::34_03 liczby
+Odłącznik<br><small>—</small><br><small>34.03</small>	<b>0 A</b> obciążenia przy łączeniu<br><small>źródło: PN-EN 62271-102</small>	elektryka::34 temat::34_03 liczby
+Dopuszczalne napięcie dotykowe<br><small>instalacje > 1 kV</small><br><small>34.04</small>	zależne od <b>czasu zwarcia</b> (kilkadziesiąt V dla długich, kilkaset V dla krótkich)<br><small>źródło: PN-EN 50522</small>	elektryka::34 temat::34_04 liczby
+Granica stosowania norm<br><small>instalacje i uziemienia</small><br><small>34.04</small>	<b>> 1 kV AC</b><br><small>źródło: PN-EN 61936-1, PN-EN 50522</small>	elektryka::34 temat::34_04 liczby
+Odstęp „w pobliżu” dla 15 kV<br><small>prace</small><br><small>34.04</small>	<b>1160 mm</b><br><small>źródło: rozp. BHP, § 23</small>	elektryka::34 temat::34_04 liczby
+15 kV<br><small>odstępy minimalne</small><br><small>34.05</small>	DL <b>160 mm</b>, DV <b>1160 mm</b><br><small>źródło: rozp. BHP, § 23 ust. 3</small>	elektryka::34 temat::34_05 liczby
+20 kV<br><small>odstępy minimalne</small><br><small>34.05</small>	DL <b>220 mm</b>, DV <b>1220 mm</b><br><small>źródło: rozp. BHP, § 23 ust. 3</small>	elektryka::34 temat::34_05 liczby
+30 kV<br><small>odstępy minimalne</small><br><small>34.05</small>	DL <b>320 mm</b>, DV <b>1320 mm</b><br><small>źródło: rozp. BHP, § 23 ust. 3</small>	elektryka::34 temat::34_05 liczby
+Zespół<br><small>prace w warunkach szczególnego zagrożenia</small><br><small>34.05</small>	<b>≥ 2 osoby</b><br><small>źródło: § 27 ust. 4</small>	elektryka::34 temat::34_05 liczby
+Uziemienie<br><small>prace przy wyłączonych</small><br><small>34.05</small>	<b>z każdej strony</b>, min. <b>1</b> widoczne<br><small>źródło: § 25 ust. 2</small>	elektryka::34 temat::34_05 liczby

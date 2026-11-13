@@ -1,0 +1,216 @@
+<title>Kalkulatory elektryka</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Condensed:wght@600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/*CSS*/
+.jump { display: flex; flex-wrap: wrap; gap: 8px }
+.jump a { border: 1.5px solid var(--line); border-radius: 999px; padding: 6px 12px; text-decoration: none; background: var(--surface) }
+.jump a:hover { border-color: var(--ink) }
+.calc h2 { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap }
+.calc h2 .sym { font: 500 1rem var(--f-mono); color: var(--muted) }
+.wzor { font: 500 .9rem var(--f-mono); color: var(--muted); overflow-x: auto; white-space: nowrap }
+.out { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px }
+.out div { background: var(--soft); border-radius: var(--r); padding: 10px 12px; display: grid; gap: 2px; min-width: 0 }
+.out span { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted) }
+.out output { font-size: 1.35rem; font-weight: 500 }
+.verdict { border-left: 4px solid var(--muted); padding: 8px 12px; background: var(--soft); border-radius: 0 var(--r) var(--r) 0 }
+.verdict.ok { border-left-color: var(--ok) } .verdict.bad { border-left-color: var(--bad) }
+.verdict b { font-family: var(--f-disp); font-size: 1.1rem; letter-spacing: .02em }
+.verdict.ok b { color: var(--ok) } .verdict.bad b { color: var(--bad) }
+.unit { position: relative } .unit input { padding-right: 46px }
+.unit::after { content: attr(data-u); position: absolute; right: 10px; bottom: 10px; font: 500 .85rem var(--f-mono); color: var(--muted); pointer-events: none }
+.odb input { min-height: 36px; padding: 4px 8px }
+.odb td { padding: 4px }
+.odb td:nth-child(2) { min-width: 150px } .odb td:nth-child(3), .odb td:nth-child(4) { min-width: 70px }
+.x { background: none; border: 0; color: var(--muted); font-size: 1.2rem; cursor: pointer; min-width: 32px; min-height: 32px }
+td.lp { color: var(--muted); font-family: var(--f-mono) }
+.tag { font: 600 .72rem var(--f-body); letter-spacing: .08em; text-transform: uppercase; background: var(--accent); color: var(--accent-ink); padding: 2px 6px; border-radius: 3px }
+</style>
+
+<div class="wrap">
+  <header class="plate">
+    <div class="bolt" aria-hidden="true">Σ</div>
+    <div class="eyebrow">Elektryka · obliczenia do instalacji nn</div>
+    <h1>Kalkulatory elektryka</h1>
+    <p>Pięć rachunków, które wracają przy każdym obwodzie i na egzaminie SEP. Wyniki liczą się od razu; pod każdym kalkulatorem jest wzór i link do tematu z wyjaśnieniem. Wartości na start to przykład — wpisz swoje.</p>
+  </header>
+
+  <nav class="jump" aria-label="Kalkulatory">
+    <a href="#prad">Prąd z mocy</a><a href="#przekroj">Przekrój i spadek napięcia</a><a href="#petla">Pętla zwarcia Z<sub>s</sub></a><a href="#bilans">Bilans mocy</a><a href="#kompensacja">Kompensacja cos φ</a>
+  </nav>
+
+  <!-- 1. PRĄD -->
+  <section class="panel calc" id="prad">
+    <h2>Prąd z mocy <span class="sym">I = P / (U·cos φ)</span></h2>
+    <div class="grid2">
+      <div class="field"><label for="p-p">Moc odbiornika</label><div class="unit" data-u="kW"><input type="number" id="p-p" value="3.5" min="0" step="0.1"></div></div>
+      <div class="field"><label for="p-u">Zasilanie</label><select id="p-u"><option value="1">1-fazowe 230 V</option><option value="3">3-fazowe 400 V</option></select></div>
+      <div class="field"><label for="p-cos">cos φ</label><input type="number" id="p-cos" value="1" min="0.1" max="1" step="0.01"></div>
+    </div>
+    <div class="out"><div><span>Prąd obciążenia I<sub>B</sub></span><output id="p-i" class="num"></output></div><div><span>Najbliższe I<sub>n</sub> ≥ I<sub>B</sub></span><output id="p-in" class="num"></output></div><div><span>Szybki szacunek</span><output id="p-sz" class="num"></output></div></div>
+    <div class="wzor">1f: I = P / (230·cos φ) · 3f: I = P / (√3·400·cos φ) — 1 kW ≈ 4,35 A (1f) ≈ 1,44 A/fazę (3f)</div>
+    <div class="small muted">Temat: <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/16-planowanie-obwodow/16.02-dobor-przekroju-i-zabezpieczenia-procedura-krok.md" target="_blank" rel="noopener">16.02 Dobór przekroju i zabezpieczenia</a>, <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/02-prad-przemienny-230-400/02.04-moc-czynna-bierna-i-pozorna-wspolczynnik-mocy.md" target="_blank" rel="noopener">02.04 Moc czynna, bierna i pozorna</a></div>
+  </section>
+
+  <!-- 2. PRZEKRÓJ -->
+  <section class="panel calc" id="przekroj">
+    <h2>Przekrój i spadek napięcia <span class="sym">I<sub>B</sub> ≤ I<sub>n</sub> ≤ I<sub>z</sub> · ΔU ≤ 3 %</span></h2>
+    <div class="grid2">
+      <div class="field"><label for="s-u">Obwód</label><select id="s-u"><option value="1">1-fazowy 230 V</option><option value="3">3-fazowy 400 V</option></select></div>
+      <div class="field"><label for="s-p">Moc</label><div class="unit" data-u="kW"><input type="number" id="s-p" value="3" min="0" step="0.1"></div></div>
+      <div class="field"><label for="s-l">Długość przewodu</label><div class="unit" data-u="m"><input type="number" id="s-l" value="25" min="0" step="1"></div></div>
+      <div class="field"><label for="s-s">Przekrój żyły</label><select id="s-s"><option>1.5</option><option selected>2.5</option><option>4</option><option>6</option><option>10</option><option>16</option></select></div>
+      <div class="field"><label for="s-m">Materiał</label><select id="s-m"><option value="56">miedź (γ = 56)</option><option value="34">aluminium (γ = 34)</option></select></div>
+      <div class="field"><label for="s-in">Zabezpieczenie I<sub>n</sub></label><select id="s-in"><option>6</option><option>10</option><option>13</option><option selected>16</option><option>20</option><option>25</option><option>32</option><option>40</option><option>50</option><option>63</option></select></div>
+      <div class="field"><label for="s-ul">Sposób ułożenia</label><select id="s-ul"><option value="0">A1 — w rurce w ścianie izolacyjnej</option><option value="1" selected>B1/B2 — w rurce na ścianie / pod tynkiem</option><option value="2">C — bezpośrednio na ścianie lub w tynku</option><option value="3">E — na drabince, w powietrzu</option></select></div>
+      <div class="field"><label for="s-k">Współczynnik poprawkowy</label><input type="number" id="s-k" value="1" min="0.3" max="1.2" step="0.01"></div>
+    </div>
+    <div class="out"><div><span>I<sub>B</sub></span><output id="s-ib" class="num"></output></div><div><span>I<sub>z</sub> przewodu</span><output id="s-iz" class="num"></output></div><div><span>Spadek ΔU</span><output id="s-du" class="num"></output></div><div><span>Min. S dla 3 %</span><output id="s-smin" class="num"></output></div></div>
+    <div class="verdict" id="s-v"></div>
+    <div class="wzor">ΔU% 1f = 200·P·l / (γ·S·U²) · 3f = 100·P·l / (γ·S·U²), P w W, U = 230 / 400 V, cos φ = 1</div>
+    <div class="small muted">I<sub>z</sub>: Cu, izolacja PVC, 30 °C, PN-HD 60364-5-52 (2 żyły obciążone dla 1f, 3 dla 3f). Współczynnik poprawkowy = temperatura × grupowanie (np. 2 obwody obok siebie 0,80). Dla Al tylko spadek napięcia. Tematy: <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/05-przewody-i-kable/05.04-przekroj-i-obciazalnosc-pradowa.md" target="_blank" rel="noopener">05.04</a>, <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/07-zabezpieczenia-nadpradowe/07.06-koordynacja-zabezpieczenia-z-przewodem.md" target="_blank" rel="noopener">07.06</a>, <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/16-planowanie-obwodow/16.03-sprawdzanie-spadku-napiecia.md" target="_blank" rel="noopener">16.03</a></div>
+  </section>
+
+  <!-- 3. PĘTLA -->
+  <section class="panel calc" id="petla">
+    <h2>Pętla zwarcia <span class="sym">Z<sub>s</sub> · I<sub>a</sub> ≤ U<sub>0</sub></span></h2>
+    <div class="grid2">
+      <div class="field"><label for="z-ch">Charakterystyka</label><select id="z-ch"><option value="5">B (Ia = 5·In)</option><option value="10">C (Ia = 10·In)</option><option value="20">D (Ia = 20·In)</option></select></div>
+      <div class="field"><label for="z-in">I<sub>n</sub></label><select id="z-in"><option>6</option><option>10</option><option>13</option><option selected>16</option><option>20</option><option>25</option><option>32</option><option>40</option><option>50</option><option>63</option></select></div>
+      <div class="field"><label for="z-m">Zmierzone Z<sub>s</sub> (opcjonalnie)</label><div class="unit" data-u="Ω"><input type="number" id="z-m" value="0.84" min="0" step="0.01"></div></div>
+    </div>
+    <div class="out"><div><span>I<sub>a</sub></span><output id="z-ia" class="num"></output></div><div><span>Z<sub>s</sub> dopuszczalne</span><output id="z-max" class="num"></output></div><div><span>⅔ — ocena pomiaru</span><output id="z-23" class="num"></output></div><div><span>Prąd zwarcia I<sub>k</sub></span><output id="z-ik" class="num"></output></div></div>
+    <div class="verdict" id="z-v"></div>
+    <div class="wzor">Z<sub>s</sub> ≤ U<sub>0</sub>/I<sub>a</sub>, U<sub>0</sub> = 230 V, TN, wyłączenie ≤ 0,4 s · ocena wyniku pomiaru z zapasem: Z<sub>s</sub> ≤ ⅔·U<sub>0</sub>/I<sub>a</sub></div>
+    <div class="tbl"><table id="z-tab"></table></div>
+    <div class="small muted">Tematy: <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/12-ochrona-przeciwporazeniowa/12.03-warunek-skutecznosci-samoczynnego-wylaczenia.md" target="_blank" rel="noopener">12.03 Warunek samoczynnego wyłączenia</a>, <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/23-pomiary-odbiorcze-i-okresowe/23.04-impedancja-petli-zwarcia.md" target="_blank" rel="noopener">23.04 Pomiar impedancji pętli</a></div>
+  </section>
+
+  <!-- 4. BILANS -->
+  <section class="panel calc" id="bilans">
+    <h2>Bilans mocy <span class="sym">P<sub>s</sub> = Σ k<sub>j</sub>·P<sub>i</sub></span></h2>
+    <p class="small muted" style="margin:0"><span class="tag">przykład</span> Lista odbiorników i współczynniki jednoczesności k<sub>j</sub> poniżej są przykładowe — zmień je na swoje. k<sub>j</sub> to część mocy, która realnie pracuje w szczycie.</p>
+    <div class="tbl"><table class="odb"><thead><tr><th>#</th><th>Odbiornik</th><th class="num">P [kW]</th><th class="num">k<sub>j</sub></th><th class="num">k<sub>j</sub>·P</th><th></th></tr></thead><tbody id="b-rows"></tbody></table></div>
+    <div class="row"><button class="btn" id="b-add">Dodaj odbiornik</button></div>
+    <div class="grid2">
+      <div class="field"><label for="b-pp">Moc przyłączeniowa z umowy</label><div class="unit" data-u="kW"><input type="number" id="b-pp" value="14" min="0" step="0.5"></div></div>
+      <div class="field"><label for="b-u">Przyłącze</label><select id="b-u"><option value="3">3-fazowe 400 V</option><option value="1">1-fazowe 230 V</option></select></div>
+    </div>
+    <div class="out"><div><span>Moc zainstalowana</span><output id="b-pi" class="num"></output></div><div><span>Moc szczytowa P<sub>s</sub></span><output id="b-ps" class="num"></output></div><div><span>Prąd szczytowy</span><output id="b-i" class="num"></output></div><div><span>Zabezp. przedlicznikowe</span><output id="b-zab" class="num"></output></div></div>
+    <div class="verdict" id="b-v"></div>
+    <div class="small muted">Prąd liczony przy cos φ = 1 i równym rozkładzie na fazy. Zabezpieczenie przedlicznikowe dobiera operator sieci do mocy przyłączeniowej. Tematy: <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/14-od-slupa-do-gniazdka/14.05-moc-przylaczeniowa-i-taryfy.md" target="_blank" rel="noopener">14.05 Moc przyłączeniowa</a>, <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/14-od-slupa-do-gniazdka/14.04-wewnetrzna-linia-zasilajaca-wlz.md" target="_blank" rel="noopener">14.04 WLZ</a></div>
+  </section>
+
+  <!-- 5. KOMPENSACJA -->
+  <section class="panel calc" id="kompensacja">
+    <h2>Kompensacja mocy biernej <span class="sym">Q<sub>c</sub> = P·(tg φ<sub>1</sub> − tg φ<sub>2</sub>)</span></h2>
+    <div class="grid2">
+      <div class="field"><label for="k-p">Moc czynna</label><div class="unit" data-u="kW"><input type="number" id="k-p" value="40" min="0" step="1"></div></div>
+      <div class="field"><label for="k-c1">cos φ teraz</label><input type="number" id="k-c1" value="0.78" min="0.1" max="1" step="0.01"></div>
+      <div class="field"><label for="k-t2">Docelowe tg φ</label><input type="number" id="k-t2" value="0.4" min="0" max="2" step="0.01"></div>
+    </div>
+    <div class="out"><div><span>tg φ teraz</span><output id="k-t1" class="num"></output></div><div><span>Docelowe cos φ</span><output id="k-c2" class="num"></output></div><div><span>Moc baterii Q<sub>c</sub></span><output id="k-q" class="num"></output></div><div><span>C na fazę (trójkąt, 400 V)</span><output id="k-cap" class="num"></output></div></div>
+    <div class="verdict" id="k-v"></div>
+    <div class="wzor">C = Q<sub>c</sub> / (3·2π·50·400²) — kondensatory połączone w trójkąt · tg φ<sub>0</sub> = 0,4 ↔ cos φ ≈ 0,93</div>
+    <div class="small muted">Energię bierną ponad tg φ<sub>0</sub> z taryfy operator nalicza dodatkowo. Tematy: <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/33-dozor/33.05-racjonalne-uzytkowanie-energii.md" target="_blank" rel="noopener">33.05 Racjonalne użytkowanie energii</a>, <a href="https://github.com/kanthakdominik/elektryka/blob/main/modules/02-prad-przemienny-230-400/02.04-moc-czynna-bierna-i-pozorna-wspolczynnik-mocy.md" target="_blank" rel="noopener">02.04</a></div>
+  </section>
+
+  <footer class="foot">Kalkulatory pomagają sprawdzić rachunek, nie zastępują projektu ani pomiarów. Część bazy wiedzy <a href="https://github.com/kanthakdominik/elektryka" target="_blank" rel="noopener">Elektryka</a> · zadania z rozwiązaniami: <a href="https://github.com/kanthakdominik/elektryka/blob/main/ZADANIA.md" target="_blank" rel="noopener">ZADANIA.md</a> · trening: <a href="https://github.com/kanthakdominik/elektryka/blob/main/www/egzamin.html" target="_blank" rel="noopener">egzamin.html</a></footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const v = id => parseFloat(String($(id).value).replace(",", ".")) || 0;
+const pl = (x, d = 2) => Number.isFinite(x) ? x.toLocaleString("pl-PL", {minimumFractionDigits: d, maximumFractionDigits: d}) : "—";
+const IN = [6, 10, 13, 16, 20, 25, 32, 40, 50, 63, 80, 100, 125, 160];
+const PRZEDL = [16, 20, 25, 32, 40, 50, 63, 80, 100, 125, 160];
+const nast = (lista, x) => lista.find(n => n >= x - 1e-9);
+function werdykt(el, ok, tekst) { el.className = "verdict " + (ok === null ? "" : ok ? "ok" : "bad"); el.innerHTML = tekst }
+// Iz Cu/PVC 30 °C — [A1, B1, C, E]; 2 i 3 żyły obciążone (PN-HD 60364-5-52, tab. B.52.2–B.52.5, B.52.10)
+const IZ2 = {1.5: [14.5, 17.5, 19.5, 22], 2.5: [19.5, 24, 27, 30], 4: [26, 32, 36, 40], 6: [34, 41, 46, 51], 10: [46, 57, 63, 70], 16: [61, 76, 85, 94]};
+const IZ3 = {1.5: [13.5, 15.5, 17.5, 18.5], 2.5: [18, 21, 24, 25], 4: [24, 28, 32, 34], 6: [31, 36, 41, 43], 10: [42, 50, 57, 60], 16: [56, 68, 76, 80]};
+const SS = [1.5, 2.5, 4, 6, 10, 16, 25, 35];
+
+function prad() {
+  const P = v("#p-p") * 1000, f = $("#p-u").value, c = Math.min(Math.max(v("#p-cos"), 0.1), 1);
+  const I = f === "1" ? P / (230 * c) : P / (Math.sqrt(3) * 400 * c);
+  $("#p-i").textContent = pl(I, 1) + " A" + (f === "3" ? "/fazę" : "");
+  const n = nast(IN, I); $("#p-in").textContent = n ? n + " A" : "> 160 A";
+  $("#p-sz").textContent = (f === "1" ? "4,35" : "1,44") + " A/kW";
+}
+function przekroj() {
+  const f = $("#s-u").value, P = v("#s-p") * 1000, l = v("#s-l"), S = parseFloat($("#s-s").value), g = parseFloat($("#s-m").value);
+  const In = parseFloat($("#s-in").value), ul = +$("#s-ul").value, k = v("#s-k") || 1, U = f === "1" ? 230 : 400;
+  const IB = f === "1" ? P / 230 : P / (Math.sqrt(3) * 400);
+  const du = (f === "1" ? 200 : 100) * P * l / (g * S * U * U);
+  const cu = g === 56, tab = f === "1" ? IZ2 : IZ3, Iz = cu ? tab[S][ul] * k : NaN;
+  const smin = (f === "1" ? 200 : 100) * P * l / (g * 3 * U * U);
+  $("#s-ib").textContent = pl(IB, 1) + " A"; $("#s-iz").textContent = cu ? pl(Iz, 1) + " A" : "tylko Cu";
+  $("#s-du").textContent = pl(du, 2) + " %"; $("#s-smin").textContent = (nast(SS, smin) ? pl(nast(SS, smin), nast(SS, smin) % 1 ? 1 : 0) : "> 35") + " mm²";
+  const w = [];
+  let ok = true;
+  if (IB > In) { ok = false; w.push(`I<sub>B</sub> = ${pl(IB, 1)} A > I<sub>n</sub> = ${In} A — zabezpieczenie za małe`) }
+  if (cu && In > Iz) { ok = false; w.push(`I<sub>n</sub> = ${In} A > I<sub>z</sub> = ${pl(Iz, 1)} A — przewód nie jest chroniony przed przeciążeniem; większy przekrój albo mniejsze I<sub>n</sub>`) }
+  if (du > 3) { ok = false; w.push(`spadek ${pl(du, 2)} % > 3 % — zwiększ przekrój do ${nast(SS, smin) ? pl(nast(SS, smin), nast(SS, smin) % 1 ? 1 : 0) : "> 35"} mm² albo skróć trasę`) }
+  if (!cu) w.push("dla aluminium sprawdź I<sub>z</sub> w tabeli normy");
+  werdykt($("#s-v"), ok, ok ? `<b>Warunki spełnione.</b> I<sub>B</sub> ≤ I<sub>n</sub>${cu ? " ≤ I<sub>z</sub>" : ""}, spadek ≤ 3 %. Sprawdź jeszcze pętlę zwarcia poniżej.${w.length ? "<br>" + w.join("<br>") : ""}` : `<b>Do poprawy.</b><br>${w.join("<br>")}`);
+}
+function petla() {
+  const m = +$("#z-ch").value, In = parseFloat($("#z-in").value), Ia = m * In, max = 230 / Ia, d23 = 2 / 3 * max, z = v("#z-m");
+  $("#z-ia").textContent = pl(Ia, 0) + " A"; $("#z-max").textContent = pl(max, 2) + " Ω"; $("#z-23").textContent = pl(d23, 2) + " Ω";
+  $("#z-ik").textContent = z > 0 ? pl(230 / z, 0) + " A" : "—";
+  if (z > 0) werdykt($("#z-v"), z <= d23, z <= d23 ? `<b>Pozytywnie.</b> ${pl(z, 2)} Ω ≤ ${pl(d23, 2)} Ω — wyłącznik zadziała w czasie ≤ 0,4 s z zapasem.` :
+    z <= max ? `<b>Na granicy.</b> ${pl(z, 2)} Ω mieści się w ${pl(max, 2)} Ω, ale nie w zapasie ⅔ (${pl(d23, 2)} Ω). Nagrzany przewód może przekroczyć wartość dopuszczalną.` :
+    `<b>Negatywnie.</b> ${pl(z, 2)} Ω > ${pl(max, 2)} Ω — przy zwarciu wyłącznik nie wyłączy w 0,4 s. Mniejsze I<sub>n</sub>, charakterystyka B, większy przekrój albo RCD.`);
+  else werdykt($("#z-v"), null, "Wpisz zmierzone Z<sub>s</sub>, żeby ocenić wynik.");
+  const ins = [6, 10, 13, 16, 20, 25, 32, 40, 50, 63];
+  $("#z-tab").innerHTML = `<thead><tr><th>Z<sub>s</sub> max [Ω]</th>${ins.map(i => `<th class="num">${i} A</th>`).join("")}</tr></thead><tbody>` +
+    [["B", 5], ["C", 10], ["D", 20]].map(([c, k]) => `<tr><td><b>${c}</b></td>${ins.map(i => `<td class="num">${pl(230 / (k * i), 2)}</td>`).join("")}</tr>`).join("") + "</tbody>";
+}
+
+const ODB = [["Płyta indukcyjna", 7.2, 0.5], ["Piekarnik", 3.5, 0.5], ["Pralka", 2.2, 0.5], ["Zmywarka", 2.0, 0.5], ["Czajnik", 2.2, 0.3],
+  ["Oświetlenie", 1.0, 0.7], ["Gniazda ogólne", 3.0, 0.3], ["Pompa ciepła", 3.5, 1.0]];
+function wiersz(n = "", p = "", k = "") {
+  const tr = document.createElement("tr");
+  tr.innerHTML = `<td class="lp"></td><td><input type="text" aria-label="Odbiornik" value="${n}"></td><td><input type="number" aria-label="Moc kW" step="0.1" min="0" value="${p}" class="num"></td>
+    <td><input type="number" aria-label="kj" step="0.05" min="0" max="1" value="${k}" class="num"></td><td class="num kp"></td><td><button class="x" aria-label="Usuń">×</button></td>`;
+  tr.querySelector(".x").onclick = () => { tr.remove(); bilans() };
+  tr.querySelectorAll("input").forEach(i => i.addEventListener("input", bilans));
+  $("#b-rows").append(tr);
+}
+function bilans() {
+  let pi = 0, ps = 0;
+  [...$("#b-rows").children].forEach((tr, i) => {
+    tr.querySelector(".lp").textContent = i + 1;
+    const [, p, k] = [...tr.querySelectorAll("input")].map(x => parseFloat(String(x.value).replace(",", ".")) || 0);
+    pi += p; ps += p * k; tr.querySelector(".kp").textContent = pl(p * k, 2);
+  });
+  const f = $("#b-u").value, I = f === "3" ? ps * 1000 / (Math.sqrt(3) * 400) : ps * 1000 / 230, pp = v("#b-pp");
+  $("#b-pi").textContent = pl(pi, 1) + " kW"; $("#b-ps").textContent = pl(ps, 1) + " kW";
+  $("#b-i").textContent = pl(I, 1) + " A" + (f === "3" ? "/fazę" : "");
+  const z = nast(PRZEDL, I); $("#b-zab").textContent = (z ? z + " A" : "> 160 A") + (f === "3" ? " 3f" : "");
+  const zpp = f === "3" ? pp * 1000 / (Math.sqrt(3) * 400) : pp * 1000 / 230;
+  werdykt($("#b-v"), ps <= pp, ps <= pp ? `<b>Mieści się.</b> P<sub>s</sub> = ${pl(ps, 1)} kW ≤ ${pl(pp, 1)} kW mocy przyłączeniowej (≈ ${pl(zpp, 0)} A${f === "3" ? "/fazę" : ""}). Zapas ${pl(pp - ps, 1)} kW.` :
+    `<b>Za mało mocy.</b> P<sub>s</sub> = ${pl(ps, 1)} kW > ${pl(pp, 1)} kW. Wniosek do operatora o zwiększenie mocy albo sterowanie obciążeniem (np. wallbox i pompa ciepła nie naraz).`);
+}
+function kompensacja() {
+  const P = v("#k-p"), c1 = Math.min(Math.max(v("#k-c1"), 0.1), 1), t2 = Math.max(v("#k-t2"), 0);
+  const t1 = Math.tan(Math.acos(c1)), c2 = Math.cos(Math.atan(t2)), Q = P * (t1 - t2);
+  $("#k-t1").textContent = pl(t1, 2); $("#k-c2").textContent = pl(c2, 3);
+  $("#k-q").textContent = Q > 0 ? pl(Q, 1) + " kvar" : "0 kvar";
+  $("#k-cap").textContent = Q > 0 ? pl(Q * 1000 / (3 * 2 * Math.PI * 50 * 400 * 400) * 1e6, 0) + " µF" : "—";
+  werdykt($("#k-v"), t1 <= t2, t1 <= t2 ? `<b>Kompensacja niepotrzebna.</b> tg φ = ${pl(t1, 2)} ≤ ${pl(t2, 2)}.` :
+    `<b>Potrzebna bateria ok. ${pl(Q, 1)} kvar</b> (najbliższy typoszereg w górę). Przy zmiennym obciążeniu — regulator i stopnie, żeby nie przekompensować.`);
+}
+
+document.querySelectorAll("#prad input, #prad select").forEach(e => e.addEventListener("input", prad));
+document.querySelectorAll("#przekroj input, #przekroj select").forEach(e => e.addEventListener("input", przekroj));
+document.querySelectorAll("#petla input, #petla select").forEach(e => e.addEventListener("input", petla));
+document.querySelectorAll("#b-pp, #b-u").forEach(e => e.addEventListener("input", bilans));
+document.querySelectorAll("#kompensacja input").forEach(e => e.addEventListener("input", kompensacja));
+$("#b-add").onclick = () => { wiersz("", "", "0.5"); bilans(); $("#b-rows").lastElementChild.querySelector("input").focus() };
+ODB.forEach(o => wiersz(...o));
+prad(); przekroj(); petla(); bilans(); kompensacja();
+</script>

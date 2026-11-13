@@ -1,0 +1,33 @@
+name: pdf
+# Buduje całą bazę jako jeden PDF (z obrazami) i udostępnia go jako artefakt przebiegu.
+# Ściągi, listy kontrolne i wzory są w repozytorium w pdf/ (python3 tools/build_pdf.py).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["modules/**", "sep/**", "listy-kontrolne/**", "wzory/**", "tools/build_pdf.py"]
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Zależności
+        run: |
+          pip install markdown playwright
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-dejavu-core >/dev/null
+      - name: Cała baza → build/elektryka.pdf
+        run: python3 tools/build_pdf.py --ksiazka
+      - name: Ściągi i listy (kontrola, czy się budują)
+        run: python3 tools/build_pdf.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: elektryka-pdf
+          path: |
+            build/elektryka.pdf
+            pdf/*.pdf
+          retention-days: 90

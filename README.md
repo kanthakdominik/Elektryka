@@ -1,5 +1,7 @@
 # Elektryka — od podstaw do rozdzielnicy i uprawnień SEP
 
+**Wersja do czytania w przeglądarce (wzory, wyszukiwarka, menu modułów): [kanthakdominik.github.io/Elektryka](https://kanthakdominik.github.io/Elektryka/)**
+
 Otwarta baza wiedzy z elektryki ogólnej, pisana prostym językiem i z dużą liczbą zdjęć i schematów. Ma dwa cele:
 
 - **zrozumieć instalację elektryczną w domu i mieszkaniu** — od gniazdka, przez rozdzielnicę, po przyłącze — na tyle, żeby świadomie planować, oceniać i wykonywać prace,
@@ -44,6 +46,22 @@ Zasady:
 
 6. Do powtórki: każdy moduł ma **ściągę** (`SCIAGA.md`), a przed egzaminem jest [powtórka 48 h](sep/powtorka-48h.md). Nieznane słowo sprawdzisz w [słowniczku](SLOWNICZEK.md).
 7. Postęp odznaczaj w checklistach (`- [ ]` → `- [x]`) we własnym forku.
+
+## Narzędzia do nauki i pracy
+
+| Co | Do czego |
+|----|----------|
+| [Trening do egzaminu SEP](https://kanthakdominik.github.io/Elektryka/www/egzamin.html) ([plik](www/egzamin.html)) | 624 pytania i 970 fiszek z liczbami w przeglądarce: filtr po zakresie (a)–(e), dozór, SN; postępy zapamiętane lokalnie |
+| [Egzaminy próbne](sep/egzaminy-probne.md) | 17 zestawów po 6 pytań (E, D, SN) z odpowiedziami pod `<details>` |
+| [Fiszki Anki](sep/anki/README.md) | dwie talie do importu: pytania (624) i liczby do zapamiętania (970) |
+| [Pułapki egzaminacyjne](sep/pulapki.md) | 47 typowych pomyłek: co się myli, jak jest naprawdę, link do tematu |
+| [Ściąga przepisów dla D](sep/sciaga-dozor.md) | akty, paragrafy i liczby do egzaminu na dozór |
+| [Zbiór zadań](ZADANIA.md) | 206 zadań i sytuacji z rozwiązaniami — 🧮 obliczeniowe i 🔎 do oceny |
+| [Kalkulatory](https://kanthakdominik.github.io/Elektryka/www/kalkulatory.html) ([plik](www/kalkulatory.html)) | prąd z mocy, przekrój i spadek napięcia, $Z_s$ dla B/C/D, bilans mocy, kompensacja cos φ |
+| [Listy kontrolne](listy-kontrolne/README.md) | przed pracą, odbiór instalacji, kupno domu, przegląd rozdzielnicy, po burzy lub zalaniu, przed pomiarami |
+| [Wzory dokumentów](wzory/README.md) | protokół z pomiarów i opis rozdzielnicy |
+| [Przepisy i normy — indeks](PRZEPISY.md) | każdy akt i norma z listą tematów, które je cytują |
+| [PDF do druku](pdf/README.md) | ściągi modułów, powtórka SEP, listy kontrolne, wzory; cała baza jako artefakt GitHub Actions |
 
 ### Oznaczenia
 
@@ -147,6 +165,9 @@ Numeracja prowadzi od fizyki zjawisk, przez elementy instalacji i ochronę, do p
 - **Odnośniki** sprawdza [tools/check_links.py](tools/check_links.py): przy każdym pushu odnośniki wewnętrzne (pliki i kotwice), raz w tygodniu także linki zewnętrzne.
 - **Obrazy** sprawdza [tools/check_images.py](tools/check_images.py): czy plik istnieje, czy ma tekst alternatywny i czy każde zdjęcie z `assets/foto/` ma wpis w [assets/CREDITS.md](assets/CREDITS.md). Skrypt wypisuje też listę zdjęć oznaczonych jako `📷 DO ZROBIENIA`.
 - Zdjęcia z Wikimedia Commons pobiera [tools/commons.py](tools/commons.py) — razem z autorem i licencją. Lista źródeł zdjęć jest w [assets/foto/ZDJECIA.tsv](assets/foto/ZDJECIA.tsv); po jej zmianie brakujące pliki pobiera automatycznie GitHub Actions ([zdjecia.yml](.github/workflows/zdjecia.yml)).
+- **Strona** [kanthakdominik.github.io/Elektryka](https://kanthakdominik.github.io/Elektryka/) buduje się automatycznie z tych samych plików .md przy każdym pushu ([tools/build_site.py](tools/build_site.py), [konfiguracja](.github/workflows/pages.yml)); trafiają na nią też schematy, zdjęcia, strony z [www/](www/) i PDF-y.
+- **Pliki generowane** (nie edytuj ręcznie — popraw temat i uruchom skrypt): [ZADANIA.md](ZADANIA.md) ← `tools/gen_zadania.py`, [egzaminy próbne](sep/egzaminy-probne.md) ← `tools/gen_egzaminy.py`, [talie Anki](sep/anki/README.md) ← `tools/gen_anki.py`, [PRZEPISY.md](PRZEPISY.md) ← `tools/gen_przepisy.py`, strony [www/](www/) ← `tools/gen_www.py`, [pdf/](pdf/README.md) ← `tools/build_pdf.py`.
+- **Zmiany w przepisach:** raz w miesiącu [przepisy.yml](.github/workflows/przepisy.yml) sprawdza kluczowe akty w API Sejmu (ELI) i szuka nowych warunków technicznych; przy zmianie zakłada zgłoszenie (issue) z etykietą `przepisy`.
 - Wzory są pisane pod renderer GitHuba (MathJax): przecinek dziesiętny jako `{,}` (np. `0{,}4\ \mathrm{s}`), jednostki pismem prostym.
 
 ---

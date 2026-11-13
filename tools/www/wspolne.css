@@ -1,0 +1,74 @@
+/* Układ: wąska kolumna robocza (karta pytania / kalkulator) na tle „papieru” z tabliczką znamionową u góry.
+   Barwy zakresów egzaminu = barwy żył: (a) L1 brązowy, (b) L2 czarny, (c) L3 szary, (d) N niebieski, (e) PE żółto-zielony. */
+:root {
+  --bg: #f2f3ef; --surface: #ffffff; --ink: #1a1e23; --muted: #5a636d; --line: #d8dbd3;
+  --accent: #f2c300; --accent-ink: #1a1e23; --ok: #2c7a4b; --bad: #b3261e; --soft: #e9ebe5;
+  --zl1: #8b5a2b; --zl2: #1a1e23; --zl3: #8a9099; --zn: #2f6db5; --zpe-a: #2e9e44; --zpe-b: #f2c300;
+  --f-disp: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --f-body: "Barlow", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --r: 6px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121519; --surface: #1b1f25; --ink: #e7e9e4; --muted: #9aa3ad; --line: #2c323a; --soft: #22272e;
+  --accent: #f2c300; --accent-ink: #121519; --ok: #5bbe84; --bad: #f07167; --zl2: #0b0d10; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121519; --surface: #1b1f25; --ink: #e7e9e4; --muted: #9aa3ad; --line: #2c323a; --soft: #22272e;
+  --accent: #f2c300; --accent-ink: #121519; --ok: #5bbe84; --bad: #f07167; --zl2: #0b0d10; color-scheme: dark }
+
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--f-body); margin: 0;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px }
+.wrap { max-width: 760px; margin: 0 auto; display: grid; gap: 20px }
+a { color: inherit; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px }
+a:hover { text-decoration-color: currentColor }
+h1, h2, h3 { font-family: var(--f-disp); font-weight: 600; letter-spacing: .01em; line-height: 1.1; text-wrap: balance; margin: 0 }
+h1 { font-size: clamp(2rem, 6vw, 2.75rem) }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.15rem }
+.num, input[type=number], output, .mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px }
+
+/* tabliczka znamionowa */
+.plate { display: grid; grid-template-columns: auto 1fr; gap: 4px 16px; align-items: end; padding-block: 28px 18px; border-bottom: 2px solid var(--ink) }
+.plate .bolt { width: 44px; height: 44px; background: var(--accent); clip-path: polygon(50% 4%, 96% 92%, 4% 92%); display: grid; place-items: end center; padding-bottom: 6px; font: 700 20px var(--f-disp); color: var(--accent-ink); grid-row: span 2 }
+.plate .eyebrow { font: 600 .78rem var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--muted) }
+.plate p { grid-column: 1 / -1; margin: 6px 0 0; color: var(--muted); max-width: 62ch }
+
+/* zakładki */
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 1px solid var(--line) }
+.tabs button { font: 600 1rem var(--f-disp); letter-spacing: .04em; text-transform: uppercase; background: none; border: 0; color: var(--muted); padding: 10px 14px; border-bottom: 3px solid transparent; cursor: pointer }
+.tabs button[aria-selected=true] { color: var(--ink); border-bottom-color: var(--accent) }
+
+.btn { font: 600 1rem var(--f-body); border-radius: var(--r); padding: 10px 18px; border: 1.5px solid var(--ink); background: var(--surface); color: var(--ink); cursor: pointer; min-height: 44px }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.btn.ok { border-color: var(--ok); color: var(--ok) }
+.btn.bad { border-color: var(--bad); color: var(--bad) }
+.btn:disabled { opacity: .45; cursor: default }
+.btn kbd { font: 500 .75rem var(--f-mono); opacity: .65; margin-left: 6px }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 20px; display: grid; gap: 14px; min-width: 0 }
+.muted { color: var(--muted) }
+.small { font-size: .875rem }
+label { font-weight: 500 }
+select, input[type=number], input[type=text] { font: inherit; color: var(--ink); background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--r); padding: 8px 10px; min-height: 42px; width: 100%; min-width: 0 }
+select:focus, input:focus { border-color: var(--ink) }
+.field { display: grid; gap: 4px; min-width: 0 }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px }
+
+/* żyły = zakresy */
+.wire { display: inline-flex; align-items: center; gap: 6px; font: 600 .8rem var(--f-body); letter-spacing: .04em; white-space: nowrap }
+.wire::before { content: ""; width: 22px; height: 8px; border-radius: 4px; background: var(--w, var(--muted)); box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink) 30%, transparent) }
+.w-a { --w: var(--zl1) } .w-b { --w: var(--zl2) } .w-c { --w: var(--zl3) } .w-d { --w: var(--zn) }
+.w-e { --w: repeating-linear-gradient(-60deg, var(--zpe-a) 0 5px, var(--zpe-b) 5px 10px) }
+.w-D { --w: var(--ink) } .w-SN { --w: var(--bad) }
+
+.tbl { overflow-x: auto }
+table { border-collapse: collapse; width: 100%; font-size: .9rem }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top }
+th { font: 600 .78rem var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+td.num, th.num { text-align: right }
+.foot { color: var(--muted); font-size: .85rem; border-top: 1px solid var(--line); padding-top: 14px }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important } }

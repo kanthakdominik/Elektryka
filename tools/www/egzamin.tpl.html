@@ -1,0 +1,229 @@
+<title>Trening do egzaminu SEP</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Condensed:wght@600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/*CSS*/
+.chips { display: flex; flex-wrap: wrap; gap: 8px }
+.chip { position: relative; display: inline-flex }
+.chip input { position: absolute; opacity: 0; inset: 0; cursor: pointer; margin: 0 }
+.chip span { border: 1.5px solid var(--line); border-radius: 999px; padding: 6px 12px; background: var(--surface) }
+.chip input:checked + span { border-color: var(--ink); background: var(--soft) }
+.chip input:focus-visible + span { outline: 3px solid var(--accent); outline-offset: 2px }
+.card { gap: 18px }
+.progress { height: 6px; background: var(--soft); border-radius: 3px; overflow: hidden }
+.progress i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .25s }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: .875rem; color: var(--muted) }
+.meta a { color: var(--muted) }
+.q { font: 600 1.3rem/1.35 var(--f-body); margin: 0; text-wrap: pretty }
+.q.lic { font-size: 1.15rem }
+.ans { border-top: 2px solid var(--accent); padding-top: 14px; display: grid; gap: 10px }
+.ans p, .ans ul { margin: 0 }
+.ans ul { padding-left: 1.2em }
+.ans .big { font: 600 1.5rem/1.3 var(--f-mono); font-variant-numeric: tabular-nums }
+.m { font-family: var(--f-mono); font-size: .92em; white-space: nowrap }
+.hint { font-size: .85rem; color: var(--muted) }
+.score { font: 600 3rem/1 var(--f-disp) }
+.missed { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none }
+.missed li { border-left: 3px solid var(--bad); padding: 4px 0 4px 10px; min-width: 0 }
+.confirm { display: flex; gap: 8px; align-items: center; flex-wrap: wrap }
+.bar { display: inline-block; height: 8px; border-radius: 4px; background: var(--ok); vertical-align: middle }
+.bar.bad { background: var(--bad) }
+</style>
+
+<div class="wrap">
+  <header class="plate">
+    <div class="bolt" aria-hidden="true">!</div>
+    <div class="eyebrow">Elektryka · egzamin kwalifikacyjny G1</div>
+    <h1>Trening do egzaminu SEP</h1>
+    <p>Egzamin jest ustny, więc tu też: przeczytaj pytanie, odpowiedz na głos, odsłoń odpowiedź i oceń się uczciwie. Pytania i liczby pochodzą z <a href="https://github.com/kanthakdominik/elektryka" target="_blank" rel="noopener">bazy wiedzy Elektryka</a>; przy każdym jest link do tematu.</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Tryb">
+    <button role="tab" id="tab-pyt" aria-selected="true" data-tab="pyt">Pytania</button>
+    <button role="tab" id="tab-lic" aria-selected="false" data-tab="lic">Liczby — fiszki</button>
+    <button role="tab" id="tab-post" aria-selected="false" data-tab="post">Postępy</button>
+  </nav>
+
+  <section class="panel" id="ustawienia" aria-label="Ustawienia sesji">
+    <div class="field">
+      <span class="small muted">Zakres egzaminu (nic nie zaznaczone = wszystko)</span>
+      <div class="chips" id="zakresy"></div>
+    </div>
+    <div class="grid2">
+      <div class="field" id="f-rodzaj"><label for="rodzaj">Pytania</label>
+        <select id="rodzaj"><option value="S">egzaminacyjne (Pytania SEP)</option><option value="P">kontrolne (Sprawdź się)</option><option value="">wszystkie</option></select></div>
+      <div class="field"><label for="ile">Ile w sesji</label>
+        <select id="ile"><option>10</option><option selected>20</option><option>40</option><option value="0">wszystkie</option></select></div>
+      <div class="field"><label for="kolejnosc">Kolejność</label>
+        <select id="kolejnosc"><option value="los">losowo</option><option value="trudne">najpierw te, które nie wychodzą</option><option value="nowe">najpierw jeszcze nieprzerobione</option></select></div>
+    </div>
+    <div class="row"><button class="btn primary" id="start">Nowa sesja</button><span class="small muted" id="pula"></span></div>
+  </section>
+
+  <section class="panel card" id="karta" aria-live="polite">
+    <div class="row" style="justify-content: space-between"><span class="small num" id="licznik"></span><span class="small num" id="wynik"></span></div>
+    <div class="progress" aria-hidden="true"><i id="pasek"></i></div>
+    <div class="meta" id="meta"></div>
+    <div id="pytanie"></div>
+    <div class="ans" id="odpowiedz" hidden></div>
+    <div class="row" id="akcje"></div>
+    <div class="hint">Klawisze: <span class="mono">spacja</span> — pokaż odpowiedź, <span class="mono">1</span> — umiałem, <span class="mono">2</span> — nie umiałem.</div>
+  </section>
+
+  <section class="panel" id="koniec" hidden></section>
+
+  <section class="panel" id="postepy" hidden></section>
+
+  <footer class="foot" id="stopka"></footer>
+</div>
+
+<script>
+const DANE = /*DANE*/;
+const GRUPY = [
+  ["a", "(a) budowa i działanie"], ["b", "(b) przyłączanie"], ["c", "(c) eksploatacja i BHP"],
+  ["d", "(d) ochrona przeciwporażeniowa"], ["e", "(e) pomiary i próby"], ["D", "dozór (D)"], ["SN", "sieci SN"]
+];
+const KLUCZ = "sep-trening-v1";
+let STAT = {};
+try { STAT = JSON.parse(localStorage.getItem(KLUCZ)) || {} } catch (e) { STAT = {} }
+function zapisz() { try { localStorage.setItem(KLUCZ, JSON.stringify(STAT)) } catch (e) {} }
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+let tryb = "pyt";
+const sesja = { pyt: null, lic: null };
+
+// filtry
+$("#zakresy").innerHTML = GRUPY.map(([k, n]) =>
+  `<label class="chip"><input type="checkbox" value="${k}" id="z-${k}"><span class="wire w-${k}">${n}</span></label>`).join("");
+document.querySelectorAll("#zakresy input, #rodzaj").forEach(el => el.addEventListener("change", pokazPule));
+
+function wybrane() { return [...document.querySelectorAll("#zakresy input:checked")].map(i => i.value) }
+function pula() {
+  const z = wybrane(), r = $("#rodzaj").value;
+  const zrodlo = tryb === "lic" ? DANE.liczby : DANE.pytania;
+  return zrodlo.filter(x => (!z.length || x.z.some(g => z.includes(g))) && (tryb === "lic" || !r || x.r === r));
+}
+function pokazPule() {
+  const n = pula().length;
+  $("#pula").textContent = `${n} ${tryb === "lic" ? "fiszek" : "pytań"} w wybranym zakresie`;
+  $("#start").disabled = !n;
+}
+function waga(x) { const s = STAT[x.id] || {ok: 0, bad: 0}; return (s.bad + 1) / (s.ok + 1) }
+function tasuj(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]] } return a }
+function nowa(lista) {
+  let l = lista || tasuj(pula().slice());
+  if (!lista) {
+    const k = $("#kolejnosc").value;
+    if (k === "trudne") l.sort((p, q) => waga(q) - waga(p));
+    if (k === "nowe") l.sort((p, q) => (STAT[p.id] ? 1 : 0) - (STAT[q.id] ? 1 : 0));
+    const ile = +$("#ile").value; if (ile) l = l.slice(0, ile);
+  }
+  sesja[tryb] = { l, i: 0, ok: 0, bad: 0, zle: [], odkryta: false };
+  pokaz();
+}
+
+function chipy(x) { return x.z.map(g => `<span class="wire w-${g}">${g.length === 1 ? "(" + g + ")" : g}</span>`).join("") }
+function pokaz() {
+  const s = sesja[tryb];
+  $("#koniec").hidden = true; $("#karta").hidden = false;
+  if (s.i >= s.l.length) return koniec();
+  const x = s.l[s.i];
+  $("#licznik").textContent = `${tryb === "lic" ? "Fiszka" : "Pytanie"} ${s.i + 1} z ${s.l.length}`;
+  $("#wynik").textContent = `umiem ${s.ok} · nie umiem ${s.bad}`;
+  $("#pasek").style.width = (100 * s.i / s.l.length) + "%";
+  const st = STAT[x.id];
+  $("#meta").innerHTML = chipy(x) + `<a href="${x.u}" target="_blank" rel="noopener">${x.n} ${esc(x.t)}</a>` +
+    (st ? `<span>wcześniej: ${st.ok}✓ ${st.bad}✗</span>` : "");
+  if (tryb === "lic") {
+    $("#pytanie").innerHTML = `<p class="q lic">${x.w}${x.k ? ` <span class="muted small">— ${x.k}</span>` : ""}</p>`;
+    $("#odpowiedz").innerHTML = `<div class="big">${x.v}</div>${x.s ? `<div class="small muted">Źródło: ${x.s}</div>` : ""}`;
+  } else {
+    $("#pytanie").innerHTML = `<p class="q">${x.q}</p>`;
+    $("#odpowiedz").innerHTML = x.a + `<div class="small"><a href="${x.u}" target="_blank" rel="noopener">Pełne wyjaśnienie: ${x.n} ${esc(x.t)} ↗</a></div>`;
+  }
+  s.odkryta = false; $("#odpowiedz").hidden = true;
+  $("#akcje").innerHTML = `<button class="btn primary" id="odkryj">Pokaż odpowiedź <kbd>spacja</kbd></button>`;
+  $("#odkryj").onclick = odkryj;
+}
+function odkryj() {
+  const s = sesja[tryb]; if (!s || s.odkryta || s.i >= s.l.length) return;
+  s.odkryta = true; $("#odpowiedz").hidden = false;
+  $("#akcje").innerHTML = `<button class="btn ok" id="tak">Umiałem <kbd>1</kbd></button><button class="btn bad" id="nie">Nie umiałem <kbd>2</kbd></button>`;
+  $("#tak").onclick = () => ocen(true); $("#nie").onclick = () => ocen(false);
+  $("#tak").focus({preventScroll: true});
+}
+function ocen(dobrze) {
+  const s = sesja[tryb]; if (!s || !s.odkryta) return;
+  const x = s.l[s.i], st = STAT[x.id] || (STAT[x.id] = {ok: 0, bad: 0});
+  if (dobrze) { s.ok++; st.ok++ } else { s.bad++; st.bad++; s.zle.push(x) }
+  st.t = Date.now(); zapisz();
+  s.i++; pokaz();
+}
+function koniec() {
+  const s = sesja[tryb], n = s.l.length, proc = n ? Math.round(100 * s.ok / n) : 0;
+  $("#karta").hidden = true; const k = $("#koniec"); k.hidden = false;
+  k.innerHTML = `<h2>Koniec sesji</h2>
+    <div class="row"><span class="score num">${proc}%</span><span class="muted">${s.ok} z ${n} — ${proc >= 80 ? "dobrze, możesz rozszerzyć zakres" : proc >= 50 ? "połowa za Tobą, powtórz błędne" : "wróć do tematów z listy poniżej"}</span></div>
+    ${s.zle.length ? `<h3>Do powtórki</h3><ul class="missed">${s.zle.map(x => `<li><a href="${x.u}" target="_blank" rel="noopener">${x.n}</a> · ${tryb === "lic" ? x.w + " — <span class=\"m\">" + x.v + "</span>" : x.q}</li>`).join("")}</ul>` : ""}
+    <div class="row">${s.zle.length ? `<button class="btn primary" id="powtorz">Powtórz błędne (${s.zle.length})</button>` : ""}<button class="btn" id="znowu">Nowa sesja</button></div>`;
+  const p = $("#powtorz"); if (p) p.onclick = () => nowa(tasuj(s.zle.slice()));
+  $("#znowu").onclick = () => nowa();
+}
+
+// postępy
+function postepy() {
+  const wiersz = (lista, nazwa) => {
+    const r = GRUPY.map(([g, opis]) => {
+      const l = lista.filter(x => x.z.includes(g));
+      let widziane = 0, umiem = 0, slabe = 0;
+      l.forEach(x => { const s = STAT[x.id]; if (s) { widziane++; if (s.ok > s.bad) umiem++; else slabe++ } });
+      const w = l.length || 1;
+      return `<tr><td><span class="wire w-${g}">${opis}</span></td><td class="num">${l.length}</td><td class="num">${widziane}</td>
+        <td><span class="bar" style="width:${Math.round(80 * umiem / w)}px"></span> <span class="num">${umiem}</span></td>
+        <td><span class="bar bad" style="width:${Math.round(80 * slabe / w)}px"></span> <span class="num">${slabe}</span></td></tr>`;
+    }).join("");
+    return `<h3>${nazwa}</h3><div class="tbl"><table><thead><tr><th>Zakres</th><th class="num">Razem</th><th class="num">Przerobione</th><th>Umiem</th><th>Słabe</th></tr></thead><tbody>${r}</tbody></table></div>`;
+  };
+  const p = $("#postepy");
+  p.innerHTML = `<h2>Postępy</h2><p class="small muted">Zapisywane tylko w tej przeglądarce. „Umiem” = więcej odpowiedzi dobrych niż złych.</p>
+    ${wiersz(DANE.pytania, "Pytania")}${wiersz(DANE.liczby, "Liczby")}
+    <div class="confirm" id="reset"><button class="btn" id="r1">Wyczyść postępy</button></div>`;
+  $("#r1").onclick = () => {
+    $("#reset").innerHTML = `<span>Na pewno usunąć wszystkie wyniki?</span><button class="btn bad" id="r2">Tak, usuń</button><button class="btn" id="r3">Anuluj</button>`;
+    $("#r2").onclick = () => { STAT = {}; zapisz(); postepy() };
+    $("#r3").onclick = postepy;
+  };
+}
+
+function zakladka(t, zHash) {
+  tryb = t === "post" ? tryb : t;
+  document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
+  const post = t === "post";
+  $("#ustawienia").hidden = post; $("#postepy").hidden = !post;
+  if (post) { $("#karta").hidden = true; $("#koniec").hidden = true; postepy() }
+  else {
+    $("#f-rodzaj").hidden = t === "lic";
+    pokazPule();
+    if (!sesja[t]) nowa(); else pokaz();
+  }
+  if (!zHash) { try { history.replaceState(null, "", "#" + {pyt: "pytania", lic: "liczby", post: "postepy"}[t]) } catch (e) {} }
+}
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => zakladka(b.dataset.tab));
+$("#start").onclick = () => nowa();
+document.addEventListener("keydown", e => {
+  if (e.target.closest("select, input, textarea") || e.ctrlKey || e.metaKey || e.altKey) return;
+  if ($("#karta").hidden) return;
+  if ((e.key === " " || e.key === "Enter") && !sesja[tryb].odkryta) { e.preventDefault(); odkryj() }
+  else if (e.key === "1") ocen(true);
+  else if (e.key === "2") ocen(false);
+});
+function zHasha() { const h = location.hash.slice(1); zakladka(h === "liczby" ? "lic" : h === "postepy" ? "post" : "pyt", true) }
+window.addEventListener("hashchange", zHasha);
+$("#stopka").innerHTML = `${DANE.pytania.length} pytań i ${DANE.liczby.length} liczb z ${DANE.meta.tematy} tematów · stan bazy: ${DANE.meta.data} ·
+  <a href="https://github.com/kanthakdominik/elektryka/tree/main/sep" target="_blank" rel="noopener">materiały SEP w repozytorium</a> ·
+  <a href="https://github.com/kanthakdominik/elektryka/blob/main/sep/pulapki.md" target="_blank" rel="noopener">pułapki egzaminacyjne</a>`;
+zHasha();
+</script>

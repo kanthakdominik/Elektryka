@@ -2,7 +2,7 @@
 
 Jak wygląda egzamin na świadectwo kwalifikacyjne, co wpisać we wniosek i jak przygotować się z tego repozytorium.
 
-[← README](../README.md) · [zakres → moduły](zakres.md) · [bank pytań](pytania.md) · [powtórka 48 h](powtorka-48h.md)
+[← README](../README.md) · [zakres → moduły](zakres.md) · [bank pytań](pytania.md) · [egzaminy próbne](egzaminy-probne.md) · [trening online](https://kanthakdominik.github.io/Elektryka/www/egzamin.html) · [Anki](anki/README.md) · [pułapki](pulapki.md) · [ściąga D](sciaga-dozor.md) · [powtórka 48 h](powtorka-48h.md)
 
 > Podstawa prawna: art. 54 ustawy — Prawo energetyczne oraz [rozporządzenie Ministra Klimatu i Środowiska z 1 lipca 2022 r.](https://eli.gov.pl/api/acts/DU/2022/1392/text.html) (Dz.U. 2022 poz. 1392), dalej „rozporządzenie”. Potocznie mówi się „uprawnienia SEP”, bo większość komisji działa przy Stowarzyszeniu Elektryków Polskich, ale komisje powołane przez Prezesa URE działają też przy innych organizacjach.
 
@@ -29,14 +29,18 @@ We wniosku nie wybiera się „do 1 kV / powyżej 1 kV”, tylko konkretne punkt
 | 1 | Urządzenia prądotwórcze przyłączone do sieci przesyłowej lub dystrybucyjnej, bez względu na wysokość napięcia znamionowego | Fotowoltaika, magazyny energii współpracujące z siecią (moduł 26) |
 | **2** | **Urządzenia, instalacje i sieci elektroenergetyczne o napięciu znamionowym nie wyższym niż 1 kV** | **Rdzeń: instalacje w domach, mieszkaniach, budynkach** |
 | 3 | Urządzenia, instalacje i sieci o napięciu znamionowym wyższym niż 1 kV i nie wyższym niż 30 kV | Sieci i stacje SN (moduł 34) |
+| 4 | Urządzenia, instalacje i sieci o napięciu znamionowym wyższym niż 30 kV i nie wyższym niż 110 kV | Linie i stacje 110 kV |
+| 5 | Urządzenia, instalacje i sieci o napięciu znamionowym wyższym niż 110 kV | Sieć przesyłowa |
 | 6 | Zespoły prądotwórcze o mocy wyższej niż 50 kW | Duże agregaty |
 | 7 | Urządzenia elektrotermiczne | Piece, nagrzewnice przemysłowe |
+| 8 | Urządzenia do elektrolizy | Galwanizernie, elektrolizery wodoru |
 | 9 | Sieci elektrycznego oświetlenia ulicznego | Oświetlenie dróg |
 | 10 | Elektryczna sieć trakcyjna | Kolej, tramwaje |
 | 11 | Elektryczne urządzenia w wykonaniu przeciwwybuchowym | Strefy Ex |
+| 12 | Urządzenia umożliwiające magazynowanie energii elektrycznej i jej wprowadzanie do sieci, o mocy wyższej niż 10 kW | Magazyny energii (moduł 26) |
 | 13 | Aparatura kontrolno-pomiarowa oraz urządzenia i instalacje automatycznej regulacji, sterowania i zabezpieczeń urządzeń z pkt 1–12 | Automatyka, sterowanie, inteligentny dom (moduły 10, 24, 27) |
 
-<!-- TODO: dopisać brzmienie pkt 4, 5, 8 i 12 z tekstu rozporządzenia (załącznik nr 1, PDF na eli.gov.pl). -->
+Pełna lista 13 punktów ze schematem: [32.02](../modules/32-przepisy-i-normy/32.02-rozporzadzenie-o-kwalifikacjach-grupy-punkty.md).
 
 **Typowy wniosek pod instalacje w budynkach:** G1, stanowisko eksploatacji, pkt 2 (i często pkt 13), opcjonalnie pkt 1 dla fotowoltaiki.
 
@@ -91,8 +95,9 @@ Wyjątek dotyczy tylko obsługi — nie montażu, naprawy ani pomiarów. To czę
 1. Ustal, jakie punkty i rodzaje prac wpiszesz we wniosek.
 2. Przerób ścieżkę SEP z [ROADMAP.md](../ROADMAP.md) — w każdym temacie przeczytaj szczególnie „Liczby do zapamiętania” i „Pytania SEP”.
 3. Sprawdź pokrycie zakresu w [zakres.md](zakres.md).
-4. Odpowiadaj **na głos** na pytania z [pytania.md](pytania.md) — egzamin jest ustny i liczy się umiejętność wyjaśnienia.
-5. Dzień–dwa przed egzaminem: [powtorka-48h.md](powtorka-48h.md).
+4. Odpowiadaj **na głos** na pytania z [pytania.md](pytania.md) — egzamin jest ustny i liczy się umiejętność wyjaśnienia. To samo w przeglądarce, z losowaniem i zapamiętywaniem słabych pytań: [trening](https://kanthakdominik.github.io/Elektryka/www/egzamin.html) ([plik](../www/egzamin.html)); w telefonie: [talie Anki](anki/README.md).
+5. Zrób kilka [egzaminów próbnych](egzaminy-probne.md) — zestawy jak na komisji, z odpowiedziami. Rachunki przećwicz w [zbiorze zadań](../ZADANIA.md).
+6. Dzień–dwa przed egzaminem: [powtorka-48h.md](powtorka-48h.md) i [pułapki egzaminacyjne](pulapki.md). Na dozór dodatkowo [ściąga przepisów](sciaga-dozor.md). Wszystko do druku: [pdf/sep-powtorka.pdf](../pdf/sep-powtorka.pdf).
 
 ## Na samym egzaminie
 

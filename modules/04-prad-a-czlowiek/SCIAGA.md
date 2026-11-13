@@ -11,8 +11,8 @@
 | Próg samouwolnienia AC | ok. **10 mA** (u części osób ok. 5 mA) | 50 Hz, dorośli | jw. |
 | Migotanie komór — długi przepływ | od ok. **40–50 mA** | czas powyżej ok. 1–3 s | jw., krzywa c₁ |
 | Migotanie komór — krótki przepływ | ok. **400–500 mA** | 10–100 ms | jw. |
-| Różnicówka ochrony uzupełniającej | **30 mA** | obwody gniazd, łazienki itd. | PN-HD 60364-4-41 (moduł 08) |
-| Czas zadziałania RCD 30 mA | ≤ **300 ms** przy 30 mA, ≤ **40 ms** przy 150 mA | wyłączniki ogólnego typu | PN-EN 61008-1 (moduł 08) |
+| Różnicówka ochrony uzupełniającej | **30 mA** | obwody gniazd, łazienki itd. | PN-HD 60364-4-41 ([moduł 08](../08-wylaczniki-roznicowopradowe/README.md)) |
+| Czas zadziałania RCD 30 mA | ≤ **300 ms** przy 30 mA, ≤ **40 ms** przy 150 mA | wyłączniki ogólnego typu | PN-EN 61008-1 ([moduł 08](../08-wylaczniki-roznicowopradowe/README.md)) |
 
 ## [04.02 Droga przepływu, czas i częstotliwość](04.02-droga-przeplywu-czas-i-czestotliwosc.md)
 
@@ -35,7 +35,7 @@
 |----------|---------|------------------|--------|
 | $U_L$ — warunki normalne | **50 V AC**, **120 V DC** | instalacje w budynkach | PN-HD 60364-4-41; dawne przepisy ochrony przeciwporażeniowej |
 | $U_L$ — warunki zwiększonego zagrożenia | **25 V AC**, **60 V DC** | wilgoć, przewodzące otoczenie, np. obiekty rolnicze | PN-HD 60364-7-705 i in. |
-| Granica SELV/PELV | **50 V AC**, **120 V DC** (bez tętnień) | obwody bardzo niskiego napięcia | PN-HD 60364-4-41 (moduł 12) |
+| Granica SELV/PELV | **50 V AC**, **120 V DC** (bez tętnień) | obwody bardzo niskiego napięcia | PN-HD 60364-4-41 ([moduł 12](../12-ochrona-przeciwporazeniowa/README.md)) |
 | Krok (do obliczeń napięcia krokowego) | **1 m** | — | konwencja |
 | Ucieczka ze strefy | drobne kroki, stopy złączone, lub skoki obunóż | zerwany przewód, uziom w czasie zwarcia | dobra praktyka |
 
@@ -47,8 +47,8 @@
 | TT, 230 V, obwody odbiorcze | **0,2 s** | jw. | jw. |
 | TN, obwody rozdzielcze i pozostałe | **5 s** | — | PN-HD 60364-4-41, 411.3.2.3 |
 | TT, obwody rozdzielcze i pozostałe | **1 s** | — | PN-HD 60364-4-41, 411.3.2.4 |
-| Warunek skuteczności (TN) | $Z_s \cdot I_a \le U_0$ | — | PN-HD 60364-4-41, 411.4.4 (moduł 12) |
-| $I_a$ dla wyłączników B / C / D | **5 / 10 / 20 × $I_n$** (zadziałanie < 0,1 s) | wyłączniki wg PN-EN 60898-1 | moduł 07 |
+| Warunek skuteczności (TN) | $Z_s \cdot I_a \le U_0$ | — | PN-HD 60364-4-41, 411.4.4 ([moduł 12](../12-ochrona-przeciwporazeniowa/README.md)) |
+| $I_a$ dla wyłączników B / C / D | **5 / 10 / 20 × $I_n$** (zadziałanie < 0,1 s) | wyłączniki wg PN-EN 60898-1 | [moduł 07](../07-zabezpieczenia-nadpradowe/README.md) |
 | RCD 30 mA w obwodach gniazd | wymagany dla gniazd ≤ 32 A dla laików | ochrona uzupełniająca | PN-HD 60364-4-41, 411.3.3 |
 
 ## [04.05 Łuk elektryczny i oparzenia](04.05-luk-elektryczny-i-oparzenia.md)
@@ -57,5 +57,5 @@
 |----------|---------|------------------|--------|
 | Temperatura plazmy łuku | **kilka–kilkanaście tysięcy °C** | łuk w powietrzu | fizyka łuku |
 | Prąd zwarcia w gnieździe | **setki A** | koniec obwodu odbiorczego | [01.07](../01-prad-napiecie-opor/01.07-przeciazenie-a-zwarcie-dwie-rozne-awarie.md) |
-| Prąd zwarcia przy złączu / rozdzielnicy głównej | **kilka–kilkanaście kA** | blisko transformatora | zdolność zwarciowa aparatów 6–10 kA (moduł 07) |
-| Konsultacja lekarska | **po każdym porażeniu** napięciem sieciowym | — | moduł 31 |
+| Prąd zwarcia przy złączu / rozdzielnicy głównej | **kilka–kilkanaście kA** | blisko transformatora | zdolność zwarciowa aparatów 6–10 kA ([moduł 07](../07-zabezpieczenia-nadpradowe/README.md)) |
+| Konsultacja lekarska | **po każdym porażeniu** napięciem sieciowym | — | [moduł 31](../31-pierwsza-pomoc/README.md) |

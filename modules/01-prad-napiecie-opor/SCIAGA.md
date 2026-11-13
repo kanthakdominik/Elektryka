@@ -79,4 +79,4 @@ Gniazdo z bolcem: 16 A / 3680 W · wtyczka płaska „euro”: 2,5 A / 575 W · 
 | B16 pewnie natychmiast | ≥ 80 A |
 | Przeciążenie | człon **termiczny** (bimetal) |
 | Zwarcie | człon **elektromagnetyczny** (cewka) + komora gaszeniowa |
-| Luźny zacisk | **żaden** z nich — AFDD (moduł 10) |
+| Luźny zacisk | **żaden** z nich — AFDD ([moduł 10](../10-aparatura-modulowa/README.md)) |
