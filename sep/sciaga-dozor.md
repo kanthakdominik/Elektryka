@@ -12,7 +12,7 @@
 | Rozp. ME z 28.08.2019 r. — **BHP przy urządzeniach energetycznych** | t.j. Dz.U. 2021 poz. 1210 | instrukcje, polecenia, funkcje, strefy, odstępy | [32.05](../modules/32-przepisy-i-normy/32.05-bhp-przy-urzadzeniach-energetycznych.md) |
 | Rozp. MKiŚ z 22.03.2023 r. — **system elektroenergetyczny** („systemowe”) | Dz.U. 2023 poz. 819 (t.j. 2025 poz. 919) | grupy przyłączeniowe, parametry jakości, przerwy, reklamacje | [33.03](../modules/33-dozor/33.03-przylaczanie-do-sieci-i-dostarczanie-energii.md) |
 | Ustawa z 7.07.1994 r. — **Prawo budowlane** | t.j. Dz.U. 2026 poz. 524 | kontrole okresowe (art. 62), książka obiektu (art. 64), okres przejściowy WT (art. 102a) | [32.03](../modules/32-przepisy-i-normy/32.03-prawo-budowlane-kontrole-okresowe.md) |
-| Rozp. MI z 12.04.2002 r. — **warunki techniczne** (WT) | wielokrotnie zmieniane | § 183 — wymagania dla instalacji elektrycznej | [32.04](../modules/32-przepisy-i-normy/32.04-warunki-techniczne-budynkow-instalacja.md) |
+| Rozp. MI z 12.04.2002 r. — **warunki techniczne** (WT) | utraciło moc 20.09.2026; stosowane w okresie przejściowym | § 183 — wymagania dla instalacji elektrycznej | [32.04](../modules/32-przepisy-i-normy/32.04-warunki-techniczne-budynkow-instalacja.md) |
 | Ustawa z 20.05.2016 r. — **efektywność energetyczna** | — | audyt energetyczny | [33.05](../modules/33-dozor/33.05-racjonalne-uzytkowanie-energii.md) |
 | Ustawa z 12.09.2002 r. — **normalizacja** | — | art. 5 ust. 3: normy są dobrowolne | [32.06](../modules/32-przepisy-i-normy/32.06-normy-pn-hd-60364-i-pozostale.md) |
 | Rozp. MKiŚ w sprawie **szkolenia BHP** | t.j. Dz.U. 2024 poz. 1327 | szkolenia okresowe | [32.05](../modules/32-przepisy-i-normy/32.05-bhp-przy-urzadzeniach-energetycznych.md) |
@@ -99,7 +99,7 @@
 | art. 62 ust. 1 pkt 3 | Duże obiekty (zabudowa > 2000 m², dach > 1000 m²) | **2 × w roku** (do 31.05 i 30.11) |
 | art. 62 ust. 5 | Kontrolę instalacji elektrycznej przeprowadza osoba z kwalifikacjami **dozoru** | — |
 | art. 64 | Książka obiektu budowlanego — przez cały okres użytkowania | — |
-| art. 102a | Okres przejściowy dla projektów wg dotychczasowych WT (ustawa z 31.07.2026, Dz.U. 2026 poz. 1161) | **18 miesięcy** od 20.09.2026 |
+| art. 102a–102c | Okres przejściowy: projekt wg dotychczasowych WT na podstawie oświadczenia inwestora (ustawa z 31.07.2026, Dz.U. 2026 poz. 1161) | **18 miesięcy** od 20.09.2026 (do 20.03.2028) |
 
 → [32.03](../modules/32-przepisy-i-normy/32.03-prawo-budowlane-kontrole-okresowe.md), [33.04](../modules/33-dozor/33.04-prowadzenie-dokumentacji-technicznej-i.md)
 
@@ -107,7 +107,7 @@
 
 **Ust. 1** — instalacja elektryczna musi mieć: (1) złącze, (2) oddzielny PE i N, (3) RCD, (4) wyłączniki nadprądowe, (5) selektywność, (6) PWP (gdy wymagany), (7) połączenia wyrównawcze, (8) trasy proste, (9) przewody **Cu do 10 mm²**, (10) ochronę przeciwprzepięciową.
 **Ust. 2–4** — przeciwpożarowy wyłącznik prądu w obiektach i strefach **> 1000 m³** oraz w strefach Ex; przy wejściu lub złączu; jego zadziałanie nie może samoczynnie załączać drugiego źródła, np. agregatu (wyjątek: źródło oświetlenia awaryjnego).
-**Status nowych WT (XI 2026):** nieogłoszone; obowiązują dotychczasowe.
+**Status (XI 2026):** rozporządzenie z 2002 r. utraciło moc 20.09.2026; nowe WT nieogłoszone; dotychczasowe WT stosuje się w okresie przejściowym (art. 102a–102c PB, oświadczenie inwestora, do 20.03.2028).
 
 → [32.04](../modules/32-przepisy-i-normy/32.04-warunki-techniczne-budynkow-instalacja.md), [30.03](../modules/30-pozar-i-awaria/30.03-przeciwpozarowy-wylacznik-pradu.md)
 

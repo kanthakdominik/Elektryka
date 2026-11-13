@@ -22,7 +22,7 @@ AKTY = [
      "eli": "DU/2023/819", "tj": "Dz.U. 2025 poz. 919", "co": "grupy przyłączeniowe, parametry jakości, przerwy, reklamacje",
      "wzor": r"22 marca 2023|2023 poz\. 819|systemow\w+|funkcjonowania systemu"},
     {"klucz": "wt", "nazwa": "Rozporządzenie MI z 12 kwietnia 2002 r. w sprawie warunków technicznych, jakim powinny odpowiadać budynki",
-     "eli": "DU/2002/690", "tj": "wielokrotnie zmieniane — nowe WT zapowiedziane, stan: [32.04](modules/32-przepisy-i-normy/32.04-warunki-techniczne-budynkow-instalacja.md)",
+     "eli": "DU/2002/690", "tj": "utraciło moc 20.09.2026, stosowane w okresie przejściowym (art. 102a–102c PB); nowe WT nieogłoszone — [32.04](modules/32-przepisy-i-normy/32.04-warunki-techniczne-budynkow-instalacja.md)",
      "co": "§ 180–186: instalacja elektryczna w budynku, PWP",
      "wzor": r"12 kwietnia 2002|warunk\w+ techniczn\w+|\bWT\b"},
     {"klucz": "kp", "nazwa": "Ustawa z 26 czerwca 1974 r. — Kodeks pracy", "eli": "DU/1974/141", "tj": "—",

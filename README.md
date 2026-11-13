@@ -51,9 +51,9 @@ Zasady:
 
 | Co | Do czego |
 |----|----------|
-| [Trening do egzaminu SEP](https://kanthakdominik.github.io/Elektryka/www/egzamin.html) ([plik](www/egzamin.html)) | 624 pytania i 970 fiszek z liczbami w przeglądarce: filtr po zakresie (a)–(e), dozór, SN; postępy zapamiętane lokalnie |
+| [Trening do egzaminu SEP](https://kanthakdominik.github.io/Elektryka/www/egzamin.html) ([plik](www/egzamin.html)) | 624 pytania i ok. 970 fiszek z liczbami w przeglądarce: filtr po zakresie (a)–(e), dozór, SN; postępy zapamiętane lokalnie |
 | [Egzaminy próbne](sep/egzaminy-probne.md) | 17 zestawów po 6 pytań (E, D, SN) z odpowiedziami pod `<details>` |
-| [Fiszki Anki](sep/anki/README.md) | dwie talie do importu: pytania (624) i liczby do zapamiętania (970) |
+| [Fiszki Anki](sep/anki/README.md) | dwie talie do importu: pytania (624) i liczby do zapamiętania (ok. 970) |
 | [Pułapki egzaminacyjne](sep/pulapki.md) | 47 typowych pomyłek: co się myli, jak jest naprawdę, link do tematu |
 | [Ściąga przepisów dla D](sep/sciaga-dozor.md) | akty, paragrafy i liczby do egzaminu na dozór |
 | [Zbiór zadań](ZADANIA.md) | 206 zadań i sytuacji z rozwiązaniami — 🧮 obliczeniowe i 🔎 do oceny |

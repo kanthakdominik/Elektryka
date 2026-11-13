@@ -36,7 +36,8 @@
 |----------|---------|------------------|--------|
 | Przewody wyłącznie Cu | przekrój **≤ 10 mm²** | instalacje w budynkach | WT, § 183 ust. 1 pkt 9 |
 | PWP | obiekty / strefy **> 1000 m³**, strefy Ex | ochrona ppoż. | WT, § 183 ust. 2 |
-| Okres przejściowy | **18 miesięcy** od **20.09.2026** | projekty wg dotychczasowych WT | art. 102a Prawa budowlanego |
+| Utrata mocy WT z 2002 r. | **20.09.2026** | nowe WT nieogłoszone (XI 2026) | ustawa o zapewnianiu dostępności; ELI DU/2002/690 |
+| Okres przejściowy | **18 miesięcy** od **20.09.2026** (do 20.03.2028) | projekty wg dotychczasowych WT, oświadczenie inwestora | art. 102a–102c Prawa budowlanego |
 | Wymagania § 183 ust. 1 | **10** punktów | instalacja elektryczna | WT |
 
 ## [32.05 BHP przy urządzeniach energetycznych — rozporządzenie](32.05-bhp-przy-urzadzeniach-energetycznych.md)

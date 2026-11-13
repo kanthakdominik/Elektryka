@@ -37,8 +37,8 @@
    ✅ Stosowanie Polskich Norm jest **dobrowolne** (ustawa o normalizacji). Wymagania stają się obowiązkowe, gdy przywołuje je przepis, np. warunki techniczne. Normy są też zasadami wiedzy technicznej: przy wypadku sprawdza się, czy instalacja je spełniała.
    → [32.06](../modules/32-przepisy-i-normy/32.06-normy-pn-hd-60364-i-pozostale.md)
 
-8. **„Nowe warunki techniczne obowiązują od 20 września 2026 r.”**
-   ✅ Według komunikatów z września i października 2026 r. nowe WT **nie zostały ogłoszone**. Stosuje się dotychczasowe WT z 2002 r. Dodatkowo art. 102a Prawa budowlanego daje **18 miesięcy** okresu przejściowego. Przed egzaminem sprawdź aktualny stan.
+8. **„Warunki techniczne z 2002 r. nadal obowiązują, nic się nie zmieniło.”**
+   ✅ Rozporządzenie z 2002 r. **utraciło moc 20 września 2026 r.**, a nowe WT do listopada 2026 r. **nie zostały ogłoszone**. Art. 102a–102c Prawa budowlanego pozwalają przez **18 miesięcy** (do 20 marca 2028 r.), na podstawie oświadczenia inwestora, projektować według dotychczasowych WT. Wymagania § 183 dla instalacji elektrycznej warto więc znać nadal. Przed egzaminem sprawdź aktualny stan.
    → [32.04](../modules/32-przepisy-i-normy/32.04-warunki-techniczne-budynkow-instalacja.md)
 
 ## Ochrona przeciwporażeniowa
