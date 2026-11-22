@@ -65,4 +65,4 @@ Tylko tam, gdzie nie ma dobrego polskiego odpowiednika. Uwaga: przepisy brytyjsk
 
 | Źródło | Do czego |
 |--------|----------|
-| [Wikimedia Commons](https://commons.wikimedia.org) | Zdjęcia na wolnych licencjach (zasady w [docs/GRAFIKI.md](docs/GRAFIKI.md)) |
+| [Wikimedia Commons](https://commons.wikimedia.org) | Zdjęcia na wolnych licencjach |

@@ -1,6 +1,6 @@
 # 11 — Układy sieci: TN, TT, IT
 
-> **Część III** · **Oznaczenia:** 🟢📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 4 h · **Status:** ✅ pełny
+> **Część III** · **Oznaczenia:** 🟢📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 4 h
 
 ## Po co ten moduł
 
@@ -17,14 +17,14 @@ Litery TN-C-S na schemacie mówią, jak instalacja jest połączona z ziemią �
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 11.01 | [Co oznaczają litery w nazwie układu sieci](11.01-co-oznaczaja-litery-w-nazwie-ukladu-sieci.md) | ✅ |
-| 11.02 | [Układ TN-C](11.02-uklad-tn-c.md) | ✅ |
-| 11.03 | [Układ TN-S](11.03-uklad-tn-s.md) | ✅ |
-| 11.04 | [Układ TN-C-S i punkt rozdziału PEN](11.04-uklad-tn-c-s-i-punkt-rozdzialu-pen.md) | ✅ |
-| 11.05 | [Układ TT](11.05-uklad-tt.md) | ✅ |
-| 11.06 | [Układ IT](11.06-uklad-it.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 11.01 | [Co oznaczają litery w nazwie układu sieci](11.01-co-oznaczaja-litery-w-nazwie-ukladu-sieci.md) |
+| 11.02 | [Układ TN-C](11.02-uklad-tn-c.md) |
+| 11.03 | [Układ TN-S](11.03-uklad-tn-s.md) |
+| 11.04 | [Układ TN-C-S i punkt rozdziału PEN](11.04-uklad-tn-c-s-i-punkt-rozdzialu-pen.md) |
+| 11.05 | [Układ TT](11.05-uklad-tt.md) |
+| 11.06 | [Układ IT](11.06-uklad-it.md) |
 
 ## Po tym module potrafisz
 
@@ -50,12 +50,3 @@ Litery TN-C-S na schemacie mówią, jak instalacja jest połączona z ziemią �
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 11.01 Co oznaczają litery w nazwie układu sieci
-- [ ] 11.02 Układ TN-C
-- [ ] 11.03 Układ TN-S
-- [ ] 11.04 Układ TN-C-S i punkt rozdziału PEN
-- [ ] 11.05 Układ TT
-- [ ] 11.06 Układ IT

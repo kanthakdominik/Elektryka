@@ -1,6 +1,6 @@
 # 30 — Pożar i awaria
 
-> **Część VII** · **Oznaczenia:** 📋 · **Ścieżki:** SEP · **Szacowany czas:** ok. 3 h · **Status:** ✅ pełny
+> **Część VII** · **Oznaczenia:** 📋 · **Ścieżki:** SEP · **Szacowany czas:** ok. 3 h
 
 ## Po co ten moduł
 
@@ -17,13 +17,13 @@ Co zrobić, gdy z rozdzielnicy leci dym: gaśnice do urządzeń pod napięciem, 
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 30.01 | [Przyczyny pożarów od instalacji elektrycznej](30.01-przyczyny-pozarow-od-instalacji-elektrycznej.md) | ✅ |
-| 30.02 | [Gaśnice do urządzeń elektrycznych](30.02-gasnice-do-urzadzen-elektrycznych.md) | ✅ |
-| 30.03 | [Przeciwpożarowy wyłącznik prądu](30.03-przeciwpozarowy-wylacznik-pradu.md) | ✅ |
-| 30.04 | [Postępowanie przy awarii](30.04-postepowanie-przy-awarii.md) | ✅ |
-| 30.05 | [Pożar w rozdzielnicy — kolejność działań](30.05-pozar-w-rozdzielnicy-kolejnosc-dzialan.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 30.01 | [Przyczyny pożarów od instalacji elektrycznej](30.01-przyczyny-pozarow-od-instalacji-elektrycznej.md) |
+| 30.02 | [Gaśnice do urządzeń elektrycznych](30.02-gasnice-do-urzadzen-elektrycznych.md) |
+| 30.03 | [Przeciwpożarowy wyłącznik prądu](30.03-przeciwpozarowy-wylacznik-pradu.md) |
+| 30.04 | [Postępowanie przy awarii](30.04-postepowanie-przy-awarii.md) |
+| 30.05 | [Pożar w rozdzielnicy — kolejność działań](30.05-pozar-w-rozdzielnicy-kolejnosc-dzialan.md) |
 
 ## Po tym module potrafisz
 
@@ -47,11 +47,3 @@ Co zrobić, gdy z rozdzielnicy leci dym: gaśnice do urządzeń pod napięciem, 
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 30.01 Przyczyny pożarów od instalacji elektrycznej
-- [ ] 30.02 Gaśnice do urządzeń elektrycznych
-- [ ] 30.03 Przeciwpożarowy wyłącznik prądu
-- [ ] 30.04 Postępowanie przy awarii
-- [ ] 30.05 Pożar w rozdzielnicy — kolejność działań

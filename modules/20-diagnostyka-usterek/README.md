@@ -1,6 +1,6 @@
 # 20 — Diagnostyka usterek
 
-> **Część IV** · **Oznaczenia:** 🏠📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 5 h · **Status:** ✅ pełny
+> **Część IV** · **Oznaczenia:** 🏠📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 5 h
 
 ## Po co ten moduł
 
@@ -17,15 +17,15 @@ Systematyczne szukanie usterek zamiast zgadywania — drzewka decyzyjne dla najc
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 20.01 | [Metoda szukania usterek](20.01-metoda-szukania-usterek.md) | ✅ |
-| 20.02 | [Nie działa gniazdo albo cały obwód](20.02-nie-dziala-gniazdo-albo-caly-obwod.md) | ✅ |
-| 20.03 | [Wybija wyłącznik różnicowoprądowy](20.03-wybija-wylacznik-roznicowopradowy.md) | ✅ |
-| 20.04 | [Wybija wyłącznik nadprądowy](20.04-wybija-wylacznik-nadpradowy.md) | ✅ |
-| 20.05 | [Przerwa w przewodzie neutralnym](20.05-przerwa-w-przewodzie-neutralnym.md) | ✅ |
-| 20.06 | [Grzejące się zaciski i zapach spalenizny](20.06-grzejace-sie-zaciski-i-zapach-spalenizny.md) | ✅ |
-| 20.07 | [Migające i żarzące się LED](20.07-migajace-i-zarzace-sie-led.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 20.01 | [Metoda szukania usterek](20.01-metoda-szukania-usterek.md) |
+| 20.02 | [Nie działa gniazdo albo cały obwód](20.02-nie-dziala-gniazdo-albo-caly-obwod.md) |
+| 20.03 | [Wybija wyłącznik różnicowoprądowy](20.03-wybija-wylacznik-roznicowopradowy.md) |
+| 20.04 | [Wybija wyłącznik nadprądowy](20.04-wybija-wylacznik-nadpradowy.md) |
+| 20.05 | [Przerwa w przewodzie neutralnym](20.05-przerwa-w-przewodzie-neutralnym.md) |
+| 20.06 | [Grzejące się zaciski i zapach spalenizny](20.06-grzejace-sie-zaciski-i-zapach-spalenizny.md) |
+| 20.07 | [Migające i żarzące się LED](20.07-migajace-i-zarzace-sie-led.md) |
 
 ## Po tym module potrafisz
 
@@ -53,13 +53,3 @@ Systematyczne szukanie usterek zamiast zgadywania — drzewka decyzyjne dla najc
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 20.01 Metoda szukania usterek
-- [ ] 20.02 Nie działa gniazdo albo cały obwód
-- [ ] 20.03 Wybija wyłącznik różnicowoprądowy
-- [ ] 20.04 Wybija wyłącznik nadprądowy
-- [ ] 20.05 Przerwa w przewodzie neutralnym
-- [ ] 20.06 Grzejące się zaciski i zapach spalenizny
-- [ ] 20.07 Migające i żarzące się LED

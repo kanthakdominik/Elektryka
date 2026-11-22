@@ -1,6 +1,6 @@
 # 04 — Prąd a człowiek
 
-> **Część I** · **Oznaczenia:** 🟢📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 4 h · **Status:** ✅ pełny
+> **Część I** · **Oznaczenia:** 🟢📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 4 h
 
 ## Po co ten moduł
 
@@ -17,13 +17,13 @@ Dlaczego prąd zabija, od czego zależy skutek porażenia i skąd biorą się wa
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 04.01 | [Jak prąd działa na organizm — progi odczuwania, samouwolnienia i migotania komór](04.01-jak-prad-dziala-na-organizm-progi-odczuwania.md) | ✅ |
-| 04.02 | [Droga przepływu, czas i częstotliwość](04.02-droga-przeplywu-czas-i-czestotliwosc.md) | ✅ |
-| 04.03 | [Napięcie dotykowe i krokowe, napięcia dopuszczalne długotrwale](04.03-napiecie-dotykowe-i-krokowe-napiecia.md) | ✅ |
-| 04.04 | [Maksymalne czasy samoczynnego wyłączenia](04.04-maksymalne-czasy-samoczynnego-wylaczenia.md) | ✅ |
-| 04.05 | [Łuk elektryczny i oparzenia](04.05-luk-elektryczny-i-oparzenia.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 04.01 | [Jak prąd działa na organizm — progi odczuwania, samouwolnienia i migotania komór](04.01-jak-prad-dziala-na-organizm-progi-odczuwania.md) |
+| 04.02 | [Droga przepływu, czas i częstotliwość](04.02-droga-przeplywu-czas-i-czestotliwosc.md) |
+| 04.03 | [Napięcie dotykowe i krokowe, napięcia dopuszczalne długotrwale](04.03-napiecie-dotykowe-i-krokowe-napiecia.md) |
+| 04.04 | [Maksymalne czasy samoczynnego wyłączenia](04.04-maksymalne-czasy-samoczynnego-wylaczenia.md) |
+| 04.05 | [Łuk elektryczny i oparzenia](04.05-luk-elektryczny-i-oparzenia.md) |
 
 ## Po tym module potrafisz
 
@@ -47,11 +47,3 @@ Dlaczego prąd zabija, od czego zależy skutek porażenia i skąd biorą się wa
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 04.01 Jak prąd działa na organizm — progi odczuwania, samouwolnienia i migotania komór
-- [ ] 04.02 Droga przepływu, czas i częstotliwość
-- [ ] 04.03 Napięcie dotykowe i krokowe, napięcia dopuszczalne długotrwale
-- [ ] 04.04 Maksymalne czasy samoczynnego wyłączenia
-- [ ] 04.05 Łuk elektryczny i oparzenia

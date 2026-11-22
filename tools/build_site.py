@@ -19,7 +19,7 @@ REPO = "https://github.com/kanthakdominik/Elektryka"
 LINK = re.compile(r"(\]\()([^)\s]+)(\))")
 
 PLIKI_GLOWNE = ["README.md", "ROADMAP.md", "RESOURCES.md", "NARZEDZIA.md", "SLOWNICZEK.md", "ZADANIA.md",
-                "PRZEPISY.md", "LICENSE.md", "docs/SZABLON-TEMATU.md", "docs/GRAFIKI.md", "assets/CREDITS.md",
+                "PRZEPISY.md", "LICENSE.md", "assets/CREDITS.md",
                 "pdf/README.md", "sep/anki/README.md"]
 # katalogi kopiowane na stronę bez zmian (obrazy, strony HTML, PDF-y) — odnośniki do nich zostają względne
 STATYCZNE = {"assets": (".svg", ".png", ".jpg", ".jpeg", ".gif", ".webp"), "www": (".html",), "pdf": (".pdf",)}
@@ -165,8 +165,8 @@ nav += pozycje([(tytul(p), p) for p in glob_md("wzory/*.md") if not p.endswith("
 nav += ['    - "Kalkulatory ↗": https://kanthakdominik.github.io/Elektryka/www/kalkulatory.html']
 nav += ["  - Materiały:"]
 nav += pozycje([("Przepisy i normy — indeks", "PRZEPISY.md"), ("Źródła", "RESOURCES.md"), ("Narzędzia i przyrządy", "NARZEDZIA.md"),
-                ("Słowniczek", "SLOWNICZEK.md"), ("PDF do druku", "pdf/index.md"), ("Zasady grafik", "docs/GRAFIKI.md"),
-                ("Szablon tematu", "docs/SZABLON-TEMATU.md"), ("Autorzy zdjęć", "assets/CREDITS.md"), ("Licencja", "LICENSE.md")], 4)
+                ("Słowniczek", "SLOWNICZEK.md"), ("PDF do druku", "pdf/index.md"),
+                ("Autorzy zdjęć", "assets/CREDITS.md"), ("Licencja", "LICENSE.md")], 4)
 
 os.makedirs(os.path.join(SRC, "javascripts"), exist_ok=True)
 shutil.copy(os.path.join(ROOT, "tools", "site", "mathjax.js"), os.path.join(SRC, "javascripts", "mathjax.js"))
