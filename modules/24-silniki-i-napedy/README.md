@@ -1,6 +1,6 @@
 # 24 — Silniki i napędy
 
-> **Część VI** · **Oznaczenia:** 📋 · **Ścieżki:** SEP · **Szacowany czas:** ok. 6 h · **Status:** ✅ pełny
+> **Część VI** · **Oznaczenia:** 📋 · **Ścieżki:** SEP · **Szacowany czas:** ok. 6 h
 
 ## Po co ten moduł
 
@@ -18,16 +18,16 @@ Silnik indukcyjny, układ gwiazda-trójkąt i stycznik z przekaźnikiem termiczn
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 24.01 | [Silnik indukcyjny trójfazowy](24.01-silnik-indukcyjny-trojfazowy.md) | ✅ |
-| 24.02 | [Tabliczka znamionowa silnika](24.02-tabliczka-znamionowa-silnika.md) | ✅ |
-| 24.03 | [Połączenie w gwiazdę i w trójkąt](24.03-polaczenie-w-gwiazde-i-w-trojkat.md) | ✅ |
-| 24.04 | [Rozruch: bezpośredni, gwiazda-trójkąt, softstart](24.04-rozruch-bezposredni-gwiazda-trojkat-softstart.md) | ✅ |
-| 24.05 | [Układ start-stop ze stycznikiem i przekaźnikiem termicznym](24.05-uklad-start-stop-ze-stycznikiem-i-przekaznikiem.md) | ✅ |
-| 24.06 | [Zmiana kierunku obrotów](24.06-zmiana-kierunku-obrotow.md) | ✅ |
-| 24.07 | [Przemienniki częstotliwości](24.07-przemienniki-czestotliwosci.md) | ✅ |
-| 24.08 | [Silniki jednofazowe](24.08-silniki-jednofazowe.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 24.01 | [Silnik indukcyjny trójfazowy](24.01-silnik-indukcyjny-trojfazowy.md) |
+| 24.02 | [Tabliczka znamionowa silnika](24.02-tabliczka-znamionowa-silnika.md) |
+| 24.03 | [Połączenie w gwiazdę i w trójkąt](24.03-polaczenie-w-gwiazde-i-w-trojkat.md) |
+| 24.04 | [Rozruch: bezpośredni, gwiazda-trójkąt, softstart](24.04-rozruch-bezposredni-gwiazda-trojkat-softstart.md) |
+| 24.05 | [Układ start-stop ze stycznikiem i przekaźnikiem termicznym](24.05-uklad-start-stop-ze-stycznikiem-i-przekaznikiem.md) |
+| 24.06 | [Zmiana kierunku obrotów](24.06-zmiana-kierunku-obrotow.md) |
+| 24.07 | [Przemienniki częstotliwości](24.07-przemienniki-czestotliwosci.md) |
+| 24.08 | [Silniki jednofazowe](24.08-silniki-jednofazowe.md) |
 
 ## Po tym module potrafisz
 

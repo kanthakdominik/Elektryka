@@ -1,6 +1,6 @@
 # 23 — Pomiary odbiorcze i okresowe
 
-> **Część V** · **Oznaczenia:** 📋 · **Ścieżki:** SEP · **Szacowany czas:** ok. 8 h · **Status:** ✅ pełny
+> **Część V** · **Oznaczenia:** 📋 · **Ścieżki:** SEP · **Szacowany czas:** ok. 8 h
 
 ## Po co ten moduł
 
@@ -17,16 +17,16 @@ Czynności kontrolno-pomiarowe to osobny zakres na świadectwie. Moduł prowadzi
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 23.01 | [Oględziny instalacji](23.01-ogledziny-instalacji.md) | ✅ |
-| 23.02 | [Ciągłość przewodów ochronnych i wyrównawczych](23.02-ciaglosc-przewodow-ochronnych-i-wyrownawczych.md) | ✅ |
-| 23.03 | [Rezystancja izolacji](23.03-rezystancja-izolacji.md) | ✅ |
-| 23.04 | [Impedancja pętli zwarcia](23.04-impedancja-petli-zwarcia.md) | ✅ |
-| 23.05 | [Badanie wyłączników różnicowoprądowych](23.05-badanie-wylacznikow-roznicowopradowych.md) | ✅ |
-| 23.06 | [Rezystancja uziemienia](23.06-rezystancja-uziemienia.md) | ✅ |
-| 23.07 | [Kolejność faz](23.07-kolejnosc-faz.md) | ✅ |
-| 23.08 | [Protokół z pomiarów i terminy badań okresowych](23.08-protokol-z-pomiarow-i-terminy-badan-okresowych.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 23.01 | [Oględziny instalacji](23.01-ogledziny-instalacji.md) |
+| 23.02 | [Ciągłość przewodów ochronnych i wyrównawczych](23.02-ciaglosc-przewodow-ochronnych-i-wyrownawczych.md) |
+| 23.03 | [Rezystancja izolacji](23.03-rezystancja-izolacji.md) |
+| 23.04 | [Impedancja pętli zwarcia](23.04-impedancja-petli-zwarcia.md) |
+| 23.05 | [Badanie wyłączników różnicowoprądowych](23.05-badanie-wylacznikow-roznicowopradowych.md) |
+| 23.06 | [Rezystancja uziemienia](23.06-rezystancja-uziemienia.md) |
+| 23.07 | [Kolejność faz](23.07-kolejnosc-faz.md) |
+| 23.08 | [Protokół z pomiarów i terminy badań okresowych](23.08-protokol-z-pomiarow-i-terminy-badan-okresowych.md) |
 
 ## Po tym module potrafisz
 

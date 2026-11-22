@@ -1,6 +1,6 @@
 # 26 — Fotowoltaika, pompy ciepła, wallboxy i magazyny energii
 
-> **Część VI** · **Oznaczenia:** 🏠📋 · **Ścieżki:** dom · **Szacowany czas:** ok. 6 h · **Status:** ✅ pełny
+> **Część VI** · **Oznaczenia:** 🏠📋 · **Ścieżki:** dom · **Szacowany czas:** ok. 6 h
 
 ## Po co ten moduł
 
@@ -19,14 +19,14 @@ Nowe odbiorniki i źródła w domu. Mikroinstalacja PV to „urządzenie prądot
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 26.01 | [Fotowoltaika — budowa instalacji](26.01-fotowoltaika-budowa-instalacji.md) | ✅ |
-| 26.02 | [Strona DC — zagrożenia i zabezpieczenia](26.02-strona-dc-zagrozenia-i-zabezpieczenia.md) | ✅ |
-| 26.03 | [Falownik i przyłączenie mikroinstalacji](26.03-falownik-i-przylaczenie-mikroinstalacji.md) | ✅ |
-| 26.04 | [Pompa ciepła — zasilanie i zabezpieczenia](26.04-pompa-ciepla-zasilanie-i-zabezpieczenia.md) | ✅ |
-| 26.05 | [Wallbox i ładowanie samochodu](26.05-wallbox-i-ladowanie-samochodu.md) | ✅ |
-| 26.06 | [Magazyn energii](26.06-magazyn-energii.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 26.01 | [Fotowoltaika — budowa instalacji](26.01-fotowoltaika-budowa-instalacji.md) |
+| 26.02 | [Strona DC — zagrożenia i zabezpieczenia](26.02-strona-dc-zagrozenia-i-zabezpieczenia.md) |
+| 26.03 | [Falownik i przyłączenie mikroinstalacji](26.03-falownik-i-przylaczenie-mikroinstalacji.md) |
+| 26.04 | [Pompa ciepła — zasilanie i zabezpieczenia](26.04-pompa-ciepla-zasilanie-i-zabezpieczenia.md) |
+| 26.05 | [Wallbox i ładowanie samochodu](26.05-wallbox-i-ladowanie-samochodu.md) |
+| 26.06 | [Magazyn energii](26.06-magazyn-energii.md) |
 
 ## Po tym module potrafisz
 

@@ -1,6 +1,6 @@
 # 27 — Inteligentny dom
 
-> **Część VI** · **Oznaczenia:** 🏠 · **Ścieżki:** pełna (rozszerzenie) · **Szacowany czas:** ok. 3 h · **Status:** ✅ pełny
+> **Część VI** · **Oznaczenia:** 🏠 · **Ścieżki:** pełna (rozszerzenie) · **Szacowany czas:** ok. 3 h
 
 ## Po co ten moduł
 
@@ -16,12 +16,12 @@ Przekaźniki w puszkach, sterowanie oświetleniem i systemy przewodowe — jak j
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 27.01 | [Moduły bezprzewodowe w puszce — bezpieczny montaż](27.01-moduly-bezprzewodowe-w-puszce-bezpieczny-montaz.md) | ✅ |
-| 27.02 | [Przewód neutralny w puszce łącznika](27.02-przewod-neutralny-w-puszce-lacznika.md) | ✅ |
-| 27.03 | [Systemy przewodowe: KNX, Modbus — przegląd](27.03-systemy-przewodowe-knx-modbus-przeglad.md) | ✅ |
-| 27.04 | [Automatyka w rozdzielnicy](27.04-automatyka-w-rozdzielnicy.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 27.01 | [Moduły bezprzewodowe w puszce — bezpieczny montaż](27.01-moduly-bezprzewodowe-w-puszce-bezpieczny-montaz.md) |
+| 27.02 | [Przewód neutralny w puszce łącznika](27.02-przewod-neutralny-w-puszce-lacznika.md) |
+| 27.03 | [Systemy przewodowe: KNX, Modbus — przegląd](27.03-systemy-przewodowe-knx-modbus-przeglad.md) |
+| 27.04 | [Automatyka w rozdzielnicy](27.04-automatyka-w-rozdzielnicy.md) |
 
 ## Po tym module potrafisz
 

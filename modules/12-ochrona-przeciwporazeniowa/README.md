@@ -1,6 +1,6 @@
 # 12 — Ochrona przeciwporażeniowa
 
-> **Część III** · **Oznaczenia:** 📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 7 h · **Status:** ✅ pełny
+> **Część III** · **Oznaczenia:** 📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 7 h
 
 ## Po co ten moduł
 
@@ -18,14 +18,14 @@ Serce egzaminu: jakie środki chronią przed dotykiem bezpośrednim i pośrednim
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 12.01 | [Ochrona podstawowa: izolacja, obudowy, przegrody](12.01-ochrona-podstawowa-izolacja-obudowy-przegrody.md) | ✅ |
-| 12.02 | [Ochrona przy uszkodzeniu: samoczynne wyłączenie zasilania](12.02-ochrona-przy-uszkodzeniu-samoczynne-wylaczenie.md) | ✅ |
-| 12.03 | [Warunek skuteczności samoczynnego wyłączenia](12.03-warunek-skutecznosci-samoczynnego-wylaczenia.md) | ✅ |
-| 12.04 | [Izolacja podwójna, separacja elektryczna, SELV i PELV](12.04-izolacja-podwojna-separacja-elektryczna-selv-i.md) | ✅ |
-| 12.05 | [Ochrona uzupełniająca](12.05-ochrona-uzupelniajaca.md) | ✅ |
-| 12.06 | [Dawne nazwy: zerowanie, uziemienie ochronne — słownik przejściowy](12.06-dawne-nazwy-zerowanie-uziemienie-ochronne.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 12.01 | [Ochrona podstawowa: izolacja, obudowy, przegrody](12.01-ochrona-podstawowa-izolacja-obudowy-przegrody.md) |
+| 12.02 | [Ochrona przy uszkodzeniu: samoczynne wyłączenie zasilania](12.02-ochrona-przy-uszkodzeniu-samoczynne-wylaczenie.md) |
+| 12.03 | [Warunek skuteczności samoczynnego wyłączenia](12.03-warunek-skutecznosci-samoczynnego-wylaczenia.md) |
+| 12.04 | [Izolacja podwójna, separacja elektryczna, SELV i PELV](12.04-izolacja-podwojna-separacja-elektryczna-selv-i.md) |
+| 12.05 | [Ochrona uzupełniająca](12.05-ochrona-uzupelniajaca.md) |
+| 12.06 | [Dawne nazwy: zerowanie, uziemienie ochronne — słownik przejściowy](12.06-dawne-nazwy-zerowanie-uziemienie-ochronne.md) |
 
 ## Po tym module potrafisz
 

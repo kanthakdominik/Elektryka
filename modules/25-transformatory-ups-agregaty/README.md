@@ -1,6 +1,6 @@
 # 25 — Transformatory, zasilacze, UPS i agregaty
 
-> **Część VI** · **Oznaczenia:** 🏠📋 · **Ścieżki:** pełna (rozszerzenie) · **Szacowany czas:** ok. 4 h · **Status:** ✅ pełny
+> **Część VI** · **Oznaczenia:** 🏠📋 · **Ścieżki:** pełna (rozszerzenie) · **Szacowany czas:** ok. 4 h
 
 ## Po co ten moduł
 
@@ -18,13 +18,13 @@
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 25.01 | [Transformator separacyjny i bezpieczeństwa](25.01-transformator-separacyjny-i-bezpieczenstwa.md) | ✅ |
-| 25.02 | [Zasilacze impulsowe](25.02-zasilacze-impulsowe.md) | ✅ |
-| 25.03 | [UPS — rodzaje i zastosowanie](25.03-ups-rodzaje-i-zastosowanie.md) | ✅ |
-| 25.04 | [Agregat prądotwórczy i przełącznik zasilania](25.04-agregat-pradotworczy-i-przelacznik-zasilania.md) | ✅ |
-| 25.05 | [Dlaczego nie zasila się domu przez gniazdo](25.05-dlaczego-nie-zasila-sie-domu-przez-gniazdo.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 25.01 | [Transformator separacyjny i bezpieczeństwa](25.01-transformator-separacyjny-i-bezpieczenstwa.md) |
+| 25.02 | [Zasilacze impulsowe](25.02-zasilacze-impulsowe.md) |
+| 25.03 | [UPS — rodzaje i zastosowanie](25.03-ups-rodzaje-i-zastosowanie.md) |
+| 25.04 | [Agregat prądotwórczy i przełącznik zasilania](25.04-agregat-pradotworczy-i-przelacznik-zasilania.md) |
+| 25.05 | [Dlaczego nie zasila się domu przez gniazdo](25.05-dlaczego-nie-zasila-sie-domu-przez-gniazdo.md) |
 
 ## Po tym module potrafisz
 

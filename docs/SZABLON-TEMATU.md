@@ -9,7 +9,7 @@ Każdy plik tematu w `modules/NN-nazwa/` ma ten sam układ. Ten dokument opisuje
 ```markdown
 # 07.04 — Charakterystyki B, C i D
 
-> **Moduł:** [07 — Zabezpieczenia nadprądowe](README.md) · **Oznaczenia:** 🏠📋 · **Zakres SEP:** (a) (c) · **Status:** ✅ pełny
+> **Moduł:** [07 — Zabezpieczenia nadprądowe](README.md) · **Oznaczenia:** 🏠📋 · **Zakres SEP:** (a) (c)
 >
 > **Czytaj:**
 >
@@ -71,11 +71,3 @@ Brakujące zdjęcie:
 - W tabelach Markdown zamiast `|` w module liczby pisz `\lvert x \rvert`.
 - Oznaczenia przewodów i aparatów pisz jak na nadruku: `YDYp 3×2,5`, `B16`, `RCD 40/0,03 A typ A`.
 - Odwołania do przepisów: „rozporządzenie z 2022 r., § 5 pkt 1”, do norm: „PN-HD 60364-4-41, p. 411.3.2”.
-
-## Status tematu i modułu
-
-- 🔲 szkielet — tylko nagłówki.
-- 🟡 w trakcie — część sekcji wypełniona.
-- ✅ pełny — wszystkie sekcje, zdjęcia lub znaczniki `📷`, pytania z odpowiedziami, źródła.
-
-Po wypełnieniu tematu zmień status w nagłówku pliku, w tabeli tematów w `README.md` modułu, wpisz „Liczby do zapamiętania” do `SCIAGA.md`, a gdy cały moduł jest gotowy — zmień status w mapie modułów w głównym `README.md`.

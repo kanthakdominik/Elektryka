@@ -80,81 +80,79 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 <!-- mapa:start -->
 ### I. Fundamenty po ludzku
 
-| # | Moduł | Oznaczenia | Tematów | Status |
-|---|-------|------------|---------|--------|
-| 00 | [Zanim dotkniesz czegokolwiek](modules/00-bezpieczenstwo-najpierw/README.md) | 🟢🏠📋 | 4 | ✅ pełny |
-| 01 | [Prąd, napięcie, opór, moc i energia](modules/01-prad-napiecie-opor/README.md) | 🟢 | 7 | ✅ pełny |
-| 02 | [Prąd przemienny i sieć 230/400 V](modules/02-prad-przemienny-230-400/README.md) | 🟢📋 | 5 | ✅ pełny |
-| 03 | [Elektromagnetyzm w praktyce](modules/03-elektromagnetyzm-w-praktyce/README.md) | 🟢 | 4 | ✅ pełny |
-| 04 | [Prąd a człowiek](modules/04-prad-a-czlowiek/README.md) | 🟢📋 | 5 | ✅ pełny |
+| # | Moduł | Oznaczenia | Tematów |
+|---|-------|------------|---------|
+| 00 | [Zanim dotkniesz czegokolwiek](modules/00-bezpieczenstwo-najpierw/README.md) | 🟢🏠📋 | 4 |
+| 01 | [Prąd, napięcie, opór, moc i energia](modules/01-prad-napiecie-opor/README.md) | 🟢 | 7 |
+| 02 | [Prąd przemienny i sieć 230/400 V](modules/02-prad-przemienny-230-400/README.md) | 🟢📋 | 5 |
+| 03 | [Elektromagnetyzm w praktyce](modules/03-elektromagnetyzm-w-praktyce/README.md) | 🟢 | 4 |
+| 04 | [Prąd a człowiek](modules/04-prad-a-czlowiek/README.md) | 🟢📋 | 5 |
 
 ### II. Elementy instalacji
 
-| # | Moduł | Oznaczenia | Tematów | Status |
-|---|-------|------------|---------|--------|
-| 05 | [Przewody i kable](modules/05-przewody-i-kable/README.md) | 🏠📋 | 7 | ✅ pełny |
-| 06 | [Osprzęt instalacyjny](modules/06-osprzet-instalacyjny/README.md) | 🏠 | 6 | ✅ pełny |
-| 07 | [Zabezpieczenia nadprądowe](modules/07-zabezpieczenia-nadpradowe/README.md) | 🏠📋 | 7 | ✅ pełny |
-| 08 | [Wyłączniki różnicowoprądowe](modules/08-wylaczniki-roznicowopradowe/README.md) | 🏠📋 | 7 | ✅ pełny |
-| 09 | [Ochrona przeciwprzepięciowa](modules/09-ochrona-przeciwprzepieciowa/README.md) | 🏠📋 | 5 | ✅ pełny |
-| 10 | [Aparatura modułowa](modules/10-aparatura-modulowa/README.md) | 🏠 | 6 | ✅ pełny |
+| # | Moduł | Oznaczenia | Tematów |
+|---|-------|------------|---------|
+| 05 | [Przewody i kable](modules/05-przewody-i-kable/README.md) | 🏠📋 | 7 |
+| 06 | [Osprzęt instalacyjny](modules/06-osprzet-instalacyjny/README.md) | 🏠 | 6 |
+| 07 | [Zabezpieczenia nadprądowe](modules/07-zabezpieczenia-nadpradowe/README.md) | 🏠📋 | 7 |
+| 08 | [Wyłączniki różnicowoprądowe](modules/08-wylaczniki-roznicowopradowe/README.md) | 🏠📋 | 7 |
+| 09 | [Ochrona przeciwprzepięciowa](modules/09-ochrona-przeciwprzepieciowa/README.md) | 🏠📋 | 5 |
+| 10 | [Aparatura modułowa](modules/10-aparatura-modulowa/README.md) | 🏠 | 6 |
 
 ### III. Systemy ochrony
 
-| # | Moduł | Oznaczenia | Tematów | Status |
-|---|-------|------------|---------|--------|
-| 11 | [Układy sieci: TN, TT, IT](modules/11-uklady-sieci/README.md) | 🟢📋 | 6 | ✅ pełny |
-| 12 | [Ochrona przeciwporażeniowa](modules/12-ochrona-przeciwporazeniowa/README.md) | 📋 | 6 | ✅ pełny |
-| 13 | [Uziemienia i połączenia wyrównawcze](modules/13-uziemienia-i-wyrownanie/README.md) | 🏠📋 | 6 | ✅ pełny |
+| # | Moduł | Oznaczenia | Tematów |
+|---|-------|------------|---------|
+| 11 | [Układy sieci: TN, TT, IT](modules/11-uklady-sieci/README.md) | 🟢📋 | 6 |
+| 12 | [Ochrona przeciwporażeniowa](modules/12-ochrona-przeciwporazeniowa/README.md) | 📋 | 6 |
+| 13 | [Uziemienia i połączenia wyrównawcze](modules/13-uziemienia-i-wyrownanie/README.md) | 🏠📋 | 6 |
 
 ### IV. Dom i mieszkanie
 
-| # | Moduł | Oznaczenia | Tematów | Status |
-|---|-------|------------|---------|--------|
-| 14 | [Od słupa do gniazdka](modules/14-od-slupa-do-gniazdka/README.md) | 🏠📋 | 5 | ✅ pełny |
-| 15 | [Rozdzielnica mieszkaniowa](modules/15-rozdzielnica-mieszkaniowa/README.md) | 🏠📋 | 7 | ✅ pełny |
-| 16 | [Planowanie obwodów](modules/16-planowanie-obwodow/README.md) | 🏠📋 | 6 | ✅ pełny |
-| 17 | [Pomieszczenia i miejsca szczególne](modules/17-pomieszczenia-szczegolne/README.md) | 🏠📋 | 5 | ✅ pełny |
-| 18 | [Oświetlenie](modules/18-oswietlenie/README.md) | 🏠 | 6 | ✅ pełny |
-| 19 | [Prace krok po kroku](modules/19-prace-krok-po-kroku/README.md) | 🏠 | 7 | ✅ pełny |
-| 20 | [Diagnostyka usterek](modules/20-diagnostyka-usterek/README.md) | 🏠📋 | 7 | ✅ pełny |
-| 21 | [Stare instalacje](modules/21-stare-instalacje/README.md) | 🏠📋 | 5 | ✅ pełny |
+| # | Moduł | Oznaczenia | Tematów |
+|---|-------|------------|---------|
+| 14 | [Od słupa do gniazdka](modules/14-od-slupa-do-gniazdka/README.md) | 🏠📋 | 5 |
+| 15 | [Rozdzielnica mieszkaniowa](modules/15-rozdzielnica-mieszkaniowa/README.md) | 🏠📋 | 7 |
+| 16 | [Planowanie obwodów](modules/16-planowanie-obwodow/README.md) | 🏠📋 | 6 |
+| 17 | [Pomieszczenia i miejsca szczególne](modules/17-pomieszczenia-szczegolne/README.md) | 🏠📋 | 5 |
+| 18 | [Oświetlenie](modules/18-oswietlenie/README.md) | 🏠 | 6 |
+| 19 | [Prace krok po kroku](modules/19-prace-krok-po-kroku/README.md) | 🏠 | 7 |
+| 20 | [Diagnostyka usterek](modules/20-diagnostyka-usterek/README.md) | 🏠📋 | 7 |
+| 21 | [Stare instalacje](modules/21-stare-instalacje/README.md) | 🏠📋 | 5 |
 
 ### V. Pomiary
 
-| # | Moduł | Oznaczenia | Tematów | Status |
-|---|-------|------------|---------|--------|
-| 22 | [Przyrządy pomiarowe](modules/22-przyrzady-pomiarowe/README.md) | 🏠📋 | 6 | ✅ pełny |
-| 23 | [Pomiary odbiorcze i okresowe](modules/23-pomiary-odbiorcze-i-okresowe/README.md) | 📋 | 8 | ✅ pełny |
+| # | Moduł | Oznaczenia | Tematów |
+|---|-------|------------|---------|
+| 22 | [Przyrządy pomiarowe](modules/22-przyrzady-pomiarowe/README.md) | 🏠📋 | 6 |
+| 23 | [Pomiary odbiorcze i okresowe](modules/23-pomiary-odbiorcze-i-okresowe/README.md) | 📋 | 8 |
 
 ### VI. Odbiorniki i nowe technologie
 
-| # | Moduł | Oznaczenia | Tematów | Status |
-|---|-------|------------|---------|--------|
-| 24 | [Silniki i napędy](modules/24-silniki-i-napedy/README.md) | 📋 | 8 | ✅ pełny |
-| 25 | [Transformatory, zasilacze, UPS i agregaty](modules/25-transformatory-ups-agregaty/README.md) | 🏠📋 | 5 | ✅ pełny |
-| 26 | [Fotowoltaika, pompy ciepła, wallboxy i magazyny energii](modules/26-fotowoltaika-pompy-wallboxy/README.md) | 🏠📋 | 6 | ✅ pełny |
-| 27 | [Inteligentny dom](modules/27-inteligentny-dom/README.md) | 🏠 | 4 | ✅ pełny |
+| # | Moduł | Oznaczenia | Tematów |
+|---|-------|------------|---------|
+| 24 | [Silniki i napędy](modules/24-silniki-i-napedy/README.md) | 📋 | 8 |
+| 25 | [Transformatory, zasilacze, UPS i agregaty](modules/25-transformatory-ups-agregaty/README.md) | 🏠📋 | 5 |
+| 26 | [Fotowoltaika, pompy ciepła, wallboxy i magazyny energii](modules/26-fotowoltaika-pompy-wallboxy/README.md) | 🏠📋 | 6 |
+| 27 | [Inteligentny dom](modules/27-inteligentny-dom/README.md) | 🏠 | 4 |
 
 ### VII. BHP, eksploatacja i egzamin
 
-| # | Moduł | Oznaczenia | Tematów | Status |
-|---|-------|------------|---------|--------|
-| 28 | [BHP przy urządzeniach elektrycznych](modules/28-bhp-przy-urzadzeniach/README.md) | 📋 | 6 | ✅ pełny |
-| 29 | [Eksploatacja urządzeń i instalacji](modules/29-eksploatacja/README.md) | 📋 | 5 | ✅ pełny |
-| 30 | [Pożar i awaria](modules/30-pozar-i-awaria/README.md) | 📋 | 5 | ✅ pełny |
-| 31 | [Pierwsza pomoc przy porażeniu](modules/31-pierwsza-pomoc/README.md) | 📋 | 5 | ✅ pełny |
-| 32 | [Przepisy i normy](modules/32-przepisy-i-normy/README.md) | 📋 | 6 | ✅ pełny |
+| # | Moduł | Oznaczenia | Tematów |
+|---|-------|------------|---------|
+| 28 | [BHP przy urządzeniach elektrycznych](modules/28-bhp-przy-urzadzeniach/README.md) | 📋 | 6 |
+| 29 | [Eksploatacja urządzeń i instalacji](modules/29-eksploatacja/README.md) | 📋 | 5 |
+| 30 | [Pożar i awaria](modules/30-pozar-i-awaria/README.md) | 📋 | 5 |
+| 31 | [Pierwsza pomoc przy porażeniu](modules/31-pierwsza-pomoc/README.md) | 📋 | 5 |
+| 32 | [Przepisy i normy](modules/32-przepisy-i-normy/README.md) | 📋 | 6 |
 
 ### VIII. Rozszerzenia (opcjonalne)
 
-| # | Moduł | Oznaczenia | Tematów | Status |
-|---|-------|------------|---------|--------|
-| 33 | [Dozór (D)](modules/33-dozor/README.md) | 📋 | 6 | ✅ pełny |
-| 34 | [Sieci SN i stacje transformatorowe](modules/34-sieci-sn-i-stacje/README.md) | 📋 | 5 | ✅ pełny |
+| # | Moduł | Oznaczenia | Tematów |
+|---|-------|------------|---------|
+| 33 | [Dozór (D)](modules/33-dozor/README.md) | 📋 | 6 |
+| 34 | [Sieci SN i stacje transformatorowe](modules/34-sieci-sn-i-stacje/README.md) | 📋 | 5 |
 <!-- mapa:end -->
-
-🔲 szkielet — lista tematów i układ sekcji · 🟡 w trakcie — część tematów wypełniona · ✅ pełny — wyjaśnienia, zdjęcia, schematy, pytania z odpowiedziami, źródła
 
 Numeracja prowadzi od fizyki zjawisk, przez elementy instalacji i ochronę, do praktyki i przepisów, ale nie jest sztywną kolejnością nauki — zależności między modułami są w [ROADMAP.md](ROADMAP.md). Moduły **33–34** są rozszerzeniami: dozór (D) oraz sieci powyżej 1 kV.
 
@@ -163,7 +161,7 @@ Numeracja prowadzi od fizyki zjawisk, przez elementy instalacji i ochronę, do p
 ## Sprawdzanie materiałów
 
 - **Odnośniki** sprawdza [tools/check_links.py](tools/check_links.py): przy każdym pushu odnośniki wewnętrzne (pliki i kotwice), raz w tygodniu także linki zewnętrzne.
-- **Obrazy** sprawdza [tools/check_images.py](tools/check_images.py): czy plik istnieje, czy ma tekst alternatywny i czy każde zdjęcie z `assets/foto/` ma wpis w [assets/CREDITS.md](assets/CREDITS.md). Skrypt wypisuje też listę zdjęć oznaczonych jako `📷 DO ZROBIENIA`.
+- **Obrazy** sprawdza [tools/check_images.py](tools/check_images.py): czy plik istnieje, czy ma tekst alternatywny i czy każde zdjęcie z `assets/foto/` ma wpis w [assets/CREDITS.md](assets/CREDITS.md).
 - Zdjęcia z Wikimedia Commons pobiera [tools/commons.py](tools/commons.py) — razem z autorem i licencją. Lista źródeł zdjęć jest w [assets/foto/ZDJECIA.tsv](assets/foto/ZDJECIA.tsv); po jej zmianie brakujące pliki pobiera automatycznie GitHub Actions ([zdjecia.yml](.github/workflows/zdjecia.yml)).
 - **Strona** [kanthakdominik.github.io/Elektryka](https://kanthakdominik.github.io/Elektryka/) buduje się automatycznie z tych samych plików .md przy każdym pushu ([tools/build_site.py](tools/build_site.py), [konfiguracja](.github/workflows/pages.yml)); trafiają na nią też schematy, zdjęcia, strony z [www/](www/) i PDF-y.
 - **Pliki generowane** (nie edytuj ręcznie — popraw temat i uruchom skrypt): [ZADANIA.md](ZADANIA.md) ← `tools/gen_zadania.py`, [egzaminy próbne](sep/egzaminy-probne.md) ← `tools/gen_egzaminy.py`, [talie Anki](sep/anki/README.md) ← `tools/gen_anki.py`, [PRZEPISY.md](PRZEPISY.md) ← `tools/gen_przepisy.py`, strony [www/](www/) ← `tools/gen_www.py`, [pdf/](pdf/README.md) ← `tools/build_pdf.py`.

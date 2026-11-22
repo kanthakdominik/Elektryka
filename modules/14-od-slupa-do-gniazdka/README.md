@@ -1,6 +1,6 @@
 # 14 — Od słupa do gniazdka
 
-> **Część IV** · **Oznaczenia:** 🏠📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 4 h · **Status:** ✅ pełny
+> **Część IV** · **Oznaczenia:** 🏠📋 · **Ścieżki:** SEP, dom · **Szacowany czas:** ok. 4 h
 
 ## Po co ten moduł
 
@@ -17,13 +17,13 @@ Droga energii od sieci operatora do Twojej rozdzielnicy: przyłącze, złącze, 
 
 ## Tematy
 
-| # | Temat | Status |
-|---|-------|--------|
-| 14.01 | [Przyłącze napowietrzne i kablowe](14.01-przylacze-napowietrzne-i-kablowe.md) | ✅ |
-| 14.02 | [Złącze i granica własności](14.02-zlacze-i-granica-wlasnosci.md) | ✅ |
-| 14.03 | [Licznik i zabezpieczenie przedlicznikowe](14.03-licznik-i-zabezpieczenie-przedlicznikowe.md) | ✅ |
-| 14.04 | [Wewnętrzna linia zasilająca (WLZ)](14.04-wewnetrzna-linia-zasilajaca-wlz.md) | ✅ |
-| 14.05 | [Moc przyłączeniowa i taryfy](14.05-moc-przylaczeniowa-i-taryfy.md) | ✅ |
+| # | Temat |
+|---|-------|
+| 14.01 | [Przyłącze napowietrzne i kablowe](14.01-przylacze-napowietrzne-i-kablowe.md) |
+| 14.02 | [Złącze i granica własności](14.02-zlacze-i-granica-wlasnosci.md) |
+| 14.03 | [Licznik i zabezpieczenie przedlicznikowe](14.03-licznik-i-zabezpieczenie-przedlicznikowe.md) |
+| 14.04 | [Wewnętrzna linia zasilająca (WLZ)](14.04-wewnetrzna-linia-zasilajaca-wlz.md) |
+| 14.05 | [Moc przyłączeniowa i taryfy](14.05-moc-przylaczeniowa-i-taryfy.md) |
 
 ## Po tym module potrafisz
 
