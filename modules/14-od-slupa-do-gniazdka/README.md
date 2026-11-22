@@ -47,11 +47,3 @@ Droga energii od sieci operatora do Twojej rozdzielnicy: przyłącze, złącze, 
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 14.01 Przyłącze napowietrzne i kablowe
-- [ ] 14.02 Złącze i granica własności
-- [ ] 14.03 Licznik i zabezpieczenie przedlicznikowe
-- [ ] 14.04 Wewnętrzna linia zasilająca (WLZ)
-- [ ] 14.05 Moc przyłączeniowa i taryfy

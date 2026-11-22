@@ -47,11 +47,3 @@ Pytanie, które pada niemal na każdym egzaminie: jak uwolnić porażonego i co 
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 31.01 Uwolnienie porażonego spod działania prądu
-- [ ] 31.02 Ocena stanu i wezwanie pomocy
-- [ ] 31.03 Resuscytacja krążeniowo-oddechowa
-- [ ] 31.04 AED
-- [ ] 31.05 Oparzenia elektryczne — dlaczego zawsze do lekarza

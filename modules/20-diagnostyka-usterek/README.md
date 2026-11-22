@@ -53,13 +53,3 @@ Systematyczne szukanie usterek zamiast zgadywania — drzewka decyzyjne dla najc
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 20.01 Metoda szukania usterek
-- [ ] 20.02 Nie działa gniazdo albo cały obwód
-- [ ] 20.03 Wybija wyłącznik różnicowoprądowy
-- [ ] 20.04 Wybija wyłącznik nadprądowy
-- [ ] 20.05 Przerwa w przewodzie neutralnym
-- [ ] 20.06 Grzejące się zaciski i zapach spalenizny
-- [ ] 20.07 Migające i żarzące się LED

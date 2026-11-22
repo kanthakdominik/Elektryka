@@ -50,12 +50,3 @@ Wszystko, czego dotyka się na co dzień: gniazda, łączniki, puszki i złączk
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 06.01 Gniazda wtyczkowe: jednofazowe, z bolcem ochronnym, trójfazowe
-- [ ] 06.02 Łączniki: jednobiegunowy, dwubiegunowy, świecznikowy, schodowy, krzyżowy
-- [ ] 06.03 Puszki instalacyjne i rozgałęźne
-- [ ] 06.04 Złączki i łączenie przewodów — dlaczego nie skręcamy
-- [ ] 06.05 Stopnie ochrony IP
-- [ ] 06.06 Klasy ochronności urządzeń: 0, I, II, III

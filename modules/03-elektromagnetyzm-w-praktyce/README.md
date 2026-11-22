@@ -43,10 +43,3 @@ Cewka, transformator, stycznik i silnik działają na tej samej zasadzie. Wystar
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 03.01 Pole magnetyczne prądu i cewka
-- [ ] 03.02 Indukcja elektromagnetyczna i transformator
-- [ ] 03.03 Elektromagnes w pracy: przekaźnik i stycznik
-- [ ] 03.04 Jak działa silnik elektryczny — intuicja

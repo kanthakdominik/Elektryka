@@ -46,11 +46,3 @@ W gniazdku jest prąd przemienny, a do domu dochodzą zwykle trzy fazy. Moduł w
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 02.01 Sinusoida, 50 Hz i wartość skuteczna
-- [ ] 02.02 Faza, przewód neutralny i przewód ochronny — L, N, PE
-- [ ] 02.03 Układ trójfazowy: 230 V i 400 V, kolejność faz
-- [ ] 02.04 Moc czynna, bierna i pozorna, współczynnik mocy
-- [ ] 02.05 Odbiorniki nieliniowe i wyższe harmoniczne — podstawy

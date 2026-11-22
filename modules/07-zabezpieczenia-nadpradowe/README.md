@@ -52,13 +52,3 @@
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 07.01 Przeciążenie i zwarcie z punktu widzenia zabezpieczenia
-- [ ] 07.02 Bezpieczniki topikowe: wkładki gG, gwintowe i przemysłowe
-- [ ] 07.03 Wyłącznik nadprądowy — budowa i dwa wyzwalacze
-- [ ] 07.04 Charakterystyki B, C i D
-- [ ] 07.05 Zdolność zwarciowa: 6 kA, 10 kA
-- [ ] 07.06 Koordynacja zabezpieczenia z przewodem
-- [ ] 07.07 Selektywność zabezpieczeń

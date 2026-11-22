@@ -48,11 +48,3 @@ Woda i elektryczność: strefy w łazience, kuchnia, garaż, ogród. Tu przepisy
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 17.01 Łazienka: strefy 0, 1 i 2
-- [ ] 17.02 Kuchnia
-- [ ] 17.03 Garaż i warsztat
-- [ ] 17.04 Instalacje zewnętrzne i ogród
-- [ ] 17.05 Tymczasowa instalacja na budowie

@@ -56,14 +56,3 @@ Czynności kontrolno-pomiarowe to osobny zakres na świadectwie. Moduł prowadzi
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 23.01 Oględziny instalacji
-- [ ] 23.02 Ciągłość przewodów ochronnych i wyrównawczych
-- [ ] 23.03 Rezystancja izolacji
-- [ ] 23.04 Impedancja pętli zwarcia
-- [ ] 23.05 Badanie wyłączników różnicowoprądowych
-- [ ] 23.06 Rezystancja uziemienia
-- [ ] 23.07 Kolejność faz
-- [ ] 23.08 Protokół z pomiarów i terminy badań okresowych

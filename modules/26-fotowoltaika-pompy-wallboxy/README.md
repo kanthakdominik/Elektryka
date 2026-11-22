@@ -53,12 +53,3 @@ Nowe odbiorniki i źródła w domu. Mikroinstalacja PV to „urządzenie prądot
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 26.01 Fotowoltaika — budowa instalacji
-- [ ] 26.02 Strona DC — zagrożenia i zabezpieczenia
-- [ ] 26.03 Falownik i przyłączenie mikroinstalacji
-- [ ] 26.04 Pompa ciepła — zasilanie i zabezpieczenia
-- [ ] 26.05 Wallbox i ładowanie samochodu
-- [ ] 26.06 Magazyn energii

@@ -50,12 +50,3 @@ Jak podzielić mieszkanie na obwody, dobrać przewód i zabezpieczenie do każde
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 16.01 Podział instalacji na obwody
-- [ ] 16.02 Dobór przekroju i zabezpieczenia — procedura krok po kroku
-- [ ] 16.03 Sprawdzanie spadku napięcia
-- [ ] 16.04 Strefy instalacyjne i trasy przewodów
-- [ ] 16.05 Wysokości montażu i liczba gniazd
-- [ ] 16.06 Obwody wydzielone: płyta, piekarnik, pralka, zmywarka

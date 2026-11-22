@@ -47,11 +47,3 @@ Ochronniki przepięć chronią sprzęt przed skutkami wyładowań i przełącze�
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 09.01 Skąd biorą się przepięcia
-- [ ] 09.02 Kategorie wytrzymałości udarowej I–IV
-- [ ] 09.03 Ograniczniki przepięć typu 1, 2 i 3
-- [ ] 09.04 Montaż ogranicznika: długość połączeń i zabezpieczenie
-- [ ] 09.05 Ochrona odgromowa budynku — podstawy

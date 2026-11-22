@@ -15,7 +15,7 @@ Zasady:
 
 - **Treść jest po polsku** i odnosi się do polskich przepisów i norm.
 - **Najpierw intuicja, potem liczby.** Każde pojęcie jest najpierw wyjaśnione „po ludzku”, a dopiero potem podany jest termin normowy i wzór.
-- **Dużo obrazów.** Własne schematy SVG oraz zdjęcia na wolnych licencjach z podanym autorem (zasady w [docs/GRAFIKI.md](docs/GRAFIKI.md)).
+- **Dużo obrazów.** Własne schematy SVG oraz zdjęcia na wolnych licencjach z podanym autorem.
 - **Przepisy z dokładnym odnośnikiem** — akt, paragraf, punkt. Normy z numerem i częścią.
 - Linki i obrazy są sprawdzane automatycznie przy każdym pushu.
 
@@ -27,7 +27,7 @@ Zasady:
 2. Przejrzyj [RESOURCES.md](RESOURCES.md) — przepisy, normy, książki i poradniki, do których odwołują się moduły.
 3. Przygotowujesz się do egzaminu? Zacznij od [sep/](sep/README.md): jak wygląda egzamin, co wpisać we wniosek, [mapa zakresu egzaminu na moduły](sep/zakres.md) i [bank pytań](sep/pytania.md).
 4. Sprawdź [NARZEDZIA.md](NARZEDZIA.md) — czego potrzebujesz do bezpiecznej pracy i pomiarów.
-5. Przerabiaj moduły. Każdy temat ma ten sam układ (pełny opis w [docs/SZABLON-TEMATU.md](docs/SZABLON-TEMATU.md)):
+5. Przerabiaj moduły. Każdy temat ma ten sam układ:
 
 | Sekcja | Co zawiera |
 |--------|------------|
@@ -45,7 +45,6 @@ Zasady:
 | **Źródła** | Konkretne paragrafy, rozdziały norm i poradników |
 
 6. Do powtórki: każdy moduł ma **ściągę** (`SCIAGA.md`), a przed egzaminem jest [powtórka 48 h](sep/powtorka-48h.md). Nieznane słowo sprawdzisz w [słowniczku](SLOWNICZEK.md).
-7. Postęp odznaczaj w checklistach (`- [ ]` → `- [x]`) we własnym forku.
 
 ## Narzędzia do nauki i pracy
 
@@ -155,18 +154,6 @@ Temat może mieć kilka oznaczeń. Przy każdym temacie podany jest też **zakre
 <!-- mapa:end -->
 
 Numeracja prowadzi od fizyki zjawisk, przez elementy instalacji i ochronę, do praktyki i przepisów, ale nie jest sztywną kolejnością nauki — zależności między modułami są w [ROADMAP.md](ROADMAP.md). Moduły **33–34** są rozszerzeniami: dozór (D) oraz sieci powyżej 1 kV.
-
----
-
-## Sprawdzanie materiałów
-
-- **Odnośniki** sprawdza [tools/check_links.py](tools/check_links.py): przy każdym pushu odnośniki wewnętrzne (pliki i kotwice), raz w tygodniu także linki zewnętrzne.
-- **Obrazy** sprawdza [tools/check_images.py](tools/check_images.py): czy plik istnieje, czy ma tekst alternatywny i czy każde zdjęcie z `assets/foto/` ma wpis w [assets/CREDITS.md](assets/CREDITS.md).
-- Zdjęcia z Wikimedia Commons pobiera [tools/commons.py](tools/commons.py) — razem z autorem i licencją. Lista źródeł zdjęć jest w [assets/foto/ZDJECIA.tsv](assets/foto/ZDJECIA.tsv); po jej zmianie brakujące pliki pobiera automatycznie GitHub Actions ([zdjecia.yml](.github/workflows/zdjecia.yml)).
-- **Strona** [kanthakdominik.github.io/Elektryka](https://kanthakdominik.github.io/Elektryka/) buduje się automatycznie z tych samych plików .md przy każdym pushu ([tools/build_site.py](tools/build_site.py), [konfiguracja](.github/workflows/pages.yml)); trafiają na nią też schematy, zdjęcia, strony z [www/](www/) i PDF-y.
-- **Pliki generowane** (nie edytuj ręcznie — popraw temat i uruchom skrypt): [ZADANIA.md](ZADANIA.md) ← `tools/gen_zadania.py`, [egzaminy próbne](sep/egzaminy-probne.md) ← `tools/gen_egzaminy.py`, [talie Anki](sep/anki/README.md) ← `tools/gen_anki.py`, [PRZEPISY.md](PRZEPISY.md) ← `tools/gen_przepisy.py`, strony [www/](www/) ← `tools/gen_www.py`, [pdf/](pdf/README.md) ← `tools/build_pdf.py`.
-- **Zmiany w przepisach:** raz w miesiącu [przepisy.yml](.github/workflows/przepisy.yml) sprawdza kluczowe akty w API Sejmu (ELI) i szuka nowych warunków technicznych; przy zmianie zakłada zgłoszenie (issue) z etykietą `przepisy`.
-- Wzory są pisane pod renderer GitHuba (MathJax): przecinek dziesiętny jako `{,}` (np. `0{,}4\ \mathrm{s}`), jednostki pismem prostym.
 
 ---
 

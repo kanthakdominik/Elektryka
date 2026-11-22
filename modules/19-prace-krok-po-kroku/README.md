@@ -50,13 +50,3 @@ Instrukcje typowych prac w domu, każda zaczynająca się od pięciu zasad bezpi
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 19.01 Wymiana gniazda wtyczkowego
-- [ ] 19.02 Wymiana łącznika
-- [ ] 19.03 Montaż lampy i oprawy
-- [ ] 19.04 Podłączenie płyty indukcyjnej
-- [ ] 19.05 Dodanie nowego obwodu w rozdzielnicy
-- [ ] 19.06 Bruzdy, puszki i prowadzenie przewodów w ścianie
-- [ ] 19.07 Zakańczanie przewodów: tulejki, zaciski, momenty dokręcania

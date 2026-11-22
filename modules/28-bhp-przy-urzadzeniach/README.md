@@ -50,12 +50,3 @@ Organizacja bezpiecznej pracy według przepisów BHP przy urządzeniach energety
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 28.01 Organizacja pracy i polecenia
-- [ ] 28.02 Prace w warunkach szczególnego zagrożenia
-- [ ] 28.03 Przygotowanie miejsca pracy i dopuszczenie do pracy
-- [ ] 28.04 Sprzęt ochronny izolacyjny i ochrony osobistej
-- [ ] 28.05 Prace pod napięciem — dlaczego nie
-- [ ] 28.06 Narzędzia, drabiny i praca na wysokości

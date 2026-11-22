@@ -46,10 +46,3 @@ brak — od tego modułu można zacząć.
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 00.01 Pięć zasad bezpiecznej pracy przy urządzeniach elektrycznych
-- [ ] 00.02 Sprawdzanie braku napięcia: próbnik dwubiegunowy a śrubokręt z neonówką
-- [ ] 00.03 Co wolno zrobić samemu, a co wymaga uprawnień i pomiarów
-- [ ] 00.04 Czerwone flagi — kiedy przerwać pracę i wezwać elektryka

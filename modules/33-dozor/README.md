@@ -50,12 +50,3 @@ Rozszerzenie dla osób, które chcą świadectwa D. Egzamin na dozór obejmuje w
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 33.01 Zakres egzaminu na stanowisku dozoru
-- [ ] 33.02 Obowiązki osoby dozoru
-- [ ] 33.03 Przyłączanie do sieci i dostarczanie energii — przepisy
-- [ ] 33.04 Prowadzenie dokumentacji technicznej i eksploatacyjnej
-- [ ] 33.05 Racjonalne użytkowanie energii
-- [ ] 33.06 Dysponowanie mocą i postępowanie przy zagrożeniu ruchu sieci

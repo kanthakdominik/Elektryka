@@ -49,11 +49,3 @@
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 25.01 Transformator separacyjny i bezpieczeństwa
-- [ ] 25.02 Zasilacze impulsowe
-- [ ] 25.03 UPS — rodzaje i zastosowanie
-- [ ] 25.04 Agregat prądotwórczy i przełącznik zasilania
-- [ ] 25.05 Dlaczego nie zasila się domu przez gniazdo

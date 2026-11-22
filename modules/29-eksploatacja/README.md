@@ -47,11 +47,3 @@ Co znaczy „eksploatacja” w rozumieniu przepisów: instrukcje, dokumentacja, 
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 29.01 Rodzaje prac eksploatacyjnych
-- [ ] 29.02 Instrukcja eksploatacji
-- [ ] 29.03 Dokumentacja techniczna i eksploatacyjna
-- [ ] 29.04 Oględziny, przeglądy i konserwacja
-- [ ] 29.05 Przyjmowanie urządzeń do eksploatacji

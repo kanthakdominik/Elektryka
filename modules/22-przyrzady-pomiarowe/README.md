@@ -51,12 +51,3 @@ Czym mierzyć i jak nie zrobić sobie krzywdy przyrządem: kategorie pomiarowe, 
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 22.01 Kategorie pomiarowe CAT II–IV i bezpieczeństwo przyrządów
-- [ ] 22.02 Multimetr — co i jak mierzy
-- [ ] 22.03 Cęgi prądowe
-- [ ] 22.04 Wskaźniki napięcia i próbniki
-- [ ] 22.05 Miernik parametrów instalacji (MPI) — przegląd funkcji
-- [ ] 22.06 Kamera termowizyjna — kiedy się przydaje

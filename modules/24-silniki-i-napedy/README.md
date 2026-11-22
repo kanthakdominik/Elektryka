@@ -57,14 +57,3 @@ Silnik indukcyjny, układ gwiazda-trójkąt i stycznik z przekaźnikiem termiczn
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 24.01 Silnik indukcyjny trójfazowy
-- [ ] 24.02 Tabliczka znamionowa silnika
-- [ ] 24.03 Połączenie w gwiazdę i w trójkąt
-- [ ] 24.04 Rozruch: bezpośredni, gwiazda-trójkąt, softstart
-- [ ] 24.05 Układ start-stop ze stycznikiem i przekaźnikiem termicznym
-- [ ] 24.06 Zmiana kierunku obrotów
-- [ ] 24.07 Przemienniki częstotliwości
-- [ ] 24.08 Silniki jednofazowe

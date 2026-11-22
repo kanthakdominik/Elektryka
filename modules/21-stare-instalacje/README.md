@@ -48,11 +48,3 @@ Instalacje z PRL-u wciąż są w milionach mieszkań. Jak je rozpoznać, co w ni
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 21.01 Jak rozpoznać starą instalację
-- [ ] 21.02 Przewody aluminiowe — zagrożenia i postępowanie
-- [ ] 21.03 Mostkowanie bolca ochronnego w gniazdku — dlaczego zabija
-- [ ] 21.04 Modernizacja częściowa
-- [ ] 21.05 Wymiana instalacji — plan prac

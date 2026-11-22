@@ -50,12 +50,3 @@ Uziom, szyna wyrównawcza i żółto-zielone połączenia z rurami — co robią
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 13.01 Uziom: fundamentowy, otokowy, prętowy
-- [ ] 13.02 Rezystancja uziemienia — od czego zależy
-- [ ] 13.03 Główna szyna uziemiająca
-- [ ] 13.04 Połączenia wyrównawcze ochronne główne
-- [ ] 13.05 Połączenia wyrównawcze miejscowe
-- [ ] 13.06 Przekroje przewodów ochronnych i wyrównawczych

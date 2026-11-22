@@ -50,12 +50,3 @@ Od żarówki LED po układ krzyżowy na trzech łącznikach: schematy łączenia
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 18.01 Źródła światła i zasilacze LED
-- [ ] 18.02 Łącznik jednobiegunowy i świecznikowy — schematy
-- [ ] 18.03 Układ schodowy i krzyżowy — schematy
-- [ ] 18.04 Przekaźnik impulsowy zamiast łączników schodowych
-- [ ] 18.05 Ściemniacze i współpraca z LED
-- [ ] 18.06 Taśmy LED i ich zasilanie

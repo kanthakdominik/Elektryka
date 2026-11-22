@@ -51,12 +51,3 @@ Serce egzaminu: jakie środki chronią przed dotykiem bezpośrednim i pośrednim
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 12.01 Ochrona podstawowa: izolacja, obudowy, przegrody
-- [ ] 12.02 Ochrona przy uszkodzeniu: samoczynne wyłączenie zasilania
-- [ ] 12.03 Warunek skuteczności samoczynnego wyłączenia
-- [ ] 12.04 Izolacja podwójna, separacja elektryczna, SELV i PELV
-- [ ] 12.05 Ochrona uzupełniająca
-- [ ] 12.06 Dawne nazwy: zerowanie, uziemienie ochronne — słownik przejściowy

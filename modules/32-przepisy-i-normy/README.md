@@ -53,12 +53,3 @@ Mapa przepisów: które ustawy, rozporządzenia i normy dotyczą elektryka i do 
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 32.01 Prawo energetyczne i świadectwa kwalifikacyjne
-- [ ] 32.02 Rozporządzenie o kwalifikacjach: grupy, punkty, stanowiska E i D
-- [ ] 32.03 Prawo budowlane — kontrole okresowe
-- [ ] 32.04 Warunki techniczne budynków — instalacja elektryczna
-- [ ] 32.05 BHP przy urządzeniach energetycznych — rozporządzenie
-- [ ] 32.06 Normy: PN-HD 60364 i pozostałe

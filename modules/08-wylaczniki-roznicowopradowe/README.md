@@ -54,13 +54,3 @@ Różnicówka to najważniejsze urządzenie ratujące życie w domowej instalacj
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 08.01 Zasada działania wyłącznika różnicowoprądowego
-- [ ] 08.02 Prąd różnicowy znamionowy: 30 mA, 100 mA, 300 mA
-- [ ] 08.03 Typy AC, A, F i B — który do czego
-- [ ] 08.04 RCBO — wyłącznik nadprądowy z członem różnicowoprądowym
-- [ ] 08.05 Przycisk TEST i okresowe sprawdzanie
-- [ ] 08.06 Dlaczego różnicówka wybija — przyczyny i szukanie winnego
-- [ ] 08.07 Podział obwodów między wyłączniki różnicowoprądowe

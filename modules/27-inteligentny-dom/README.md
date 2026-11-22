@@ -43,10 +43,3 @@ Przekaźniki w puszkach, sterowanie oświetleniem i systemy przewodowe — jak j
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 27.01 Moduły bezprzewodowe w puszce — bezpieczny montaż
-- [ ] 27.02 Przewód neutralny w puszce łącznika
-- [ ] 27.03 Systemy przewodowe: KNX, Modbus — przegląd
-- [ ] 27.04 Automatyka w rozdzielnicy

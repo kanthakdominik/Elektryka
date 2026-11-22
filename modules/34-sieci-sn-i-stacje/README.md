@@ -48,11 +48,3 @@ Poglądowe rozszerzenie dla zakresu powyżej 1 kV. Bez praktyki w zakładzie ene
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 34.01 Sieci średniego napięcia — budowa
-- [ ] 34.02 Stacje transformatorowe SN/nN
-- [ ] 34.03 Łączniki SN: odłącznik, rozłącznik, wyłącznik
-- [ ] 34.04 Ochrona przeciwporażeniowa powyżej 1 kV
-- [ ] 34.05 Zasady pracy przy urządzeniach SN

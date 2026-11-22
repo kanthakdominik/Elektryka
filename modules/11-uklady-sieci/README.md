@@ -50,12 +50,3 @@ Litery TN-C-S na schemacie mówią, jak instalacja jest połączona z ziemią �
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 11.01 Co oznaczają litery w nazwie układu sieci
-- [ ] 11.02 Układ TN-C
-- [ ] 11.03 Układ TN-S
-- [ ] 11.04 Układ TN-C-S i punkt rozdziału PEN
-- [ ] 11.05 Układ TT
-- [ ] 11.06 Układ IT

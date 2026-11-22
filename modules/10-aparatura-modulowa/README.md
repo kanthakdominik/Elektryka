@@ -50,12 +50,3 @@ Reszta „klocków” na szynie TH35: rozłącznik główny, styczniki, przekaź
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 10.01 Rozłącznik izolacyjny — wyłącznik główny
-- [ ] 10.02 Stycznik modułowy i przekaźnik bistabilny
-- [ ] 10.03 Programatory czasowe i wyłączniki zmierzchowe
-- [ ] 10.04 Kontrolki faz, przekaźniki zaniku fazy i ograniczniki mocy
-- [ ] 10.05 Detektory iskrzenia AFDD
-- [ ] 10.06 Podliczniki energii

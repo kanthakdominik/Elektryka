@@ -47,11 +47,3 @@ Co zrobić, gdy z rozdzielnicy leci dym: gaśnice do urządzeń pod napięciem, 
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 30.01 Przyczyny pożarów od instalacji elektrycznej
-- [ ] 30.02 Gaśnice do urządzeń elektrycznych
-- [ ] 30.03 Przeciwpożarowy wyłącznik prądu
-- [ ] 30.04 Postępowanie przy awarii
-- [ ] 30.05 Pożar w rozdzielnicy — kolejność działań

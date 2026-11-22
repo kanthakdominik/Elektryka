@@ -52,13 +52,3 @@ Najważniejszy moduł praktyczny: co jest w rozdzielnicy, jak to czytać na sche
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 15.01 Budowa rozdzielnicy: obudowa, szyna TH35, listwy N i PE, mostki
-- [ ] 15.02 Schemat jednokreskowy — jak czytać i jak rysować
-- [ ] 15.03 Oznaczanie obwodów i opis rozdzielnicy
-- [ ] 15.04 Przykład: kawalerka, zasilanie jednofazowe
-- [ ] 15.05 Przykład: mieszkanie, zasilanie trójfazowe
-- [ ] 15.06 Przykład: dom jednorodzinny
-- [ ] 15.07 Montaż i porządek przewodów w rozdzielnicy

@@ -53,13 +53,3 @@ brak — od tego modułu można zacząć.
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 01.01 Ładunek i prąd — co właściwie płynie w przewodzie
-- [ ] 01.02 Napięcie — różnica „ciśnień” między dwoma punktami
-- [ ] 01.03 Opór i prawo Ohma
-- [ ] 01.04 Moc i energia — waty, kilowatogodziny i rachunek za prąd
-- [ ] 01.05 Połączenie szeregowe i równoległe
-- [ ] 01.06 Grzanie przewodów i spadek napięcia
-- [ ] 01.07 Przeciążenie a zwarcie — dwie różne awarie

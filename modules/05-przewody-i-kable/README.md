@@ -52,13 +52,3 @@ Rozpoznasz przewód po nadruku, dobierzesz przekrój do obciążenia i sposobu u
 
 - [Ściąga modułu](SCIAGA.md) — wszystkie „liczby do zapamiętania” na jednej stronie.
 - Pytania SEP z tego modułu trafiają też do [sep/pytania.md](../../sep/pytania.md).
-
-## Postęp
-
-- [ ] 05.01 Budowa przewodu i kabla: żyła, izolacja, powłoka
-- [ ] 05.02 Oznaczenia literowe: YDY, YDYp, YLY, YKY, H07V-K, H05VV-F, N2XH
-- [ ] 05.03 Kolory żył i ich znaczenie
-- [ ] 05.04 Przekrój i obciążalność prądowa
-- [ ] 05.05 Sposoby układania przewodów (A1, B1, C, E…) i ich wpływ na obciążalność
-- [ ] 05.06 Przewody bezhalogenowe i kable ziemne
-- [ ] 05.07 Miedź a aluminium
