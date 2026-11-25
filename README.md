@@ -2,6 +2,8 @@
 
 **Wersja do czytania w przeglądarce (wzory, wyszukiwarka, menu modułów): [kanthakdominik.github.io/Elektryka](https://kanthakdominik.github.io/Elektryka/)**
 
+[← Wszystkie bazy wiedzy](https://kanthakdominik.github.io/)
+
 Otwarta baza wiedzy z elektryki ogólnej, pisana prostym językiem i z dużą liczbą zdjęć i schematów. Ma dwa cele:
 
 - **zrozumieć instalację elektryczną w domu i mieszkaniu** — od gniazdka, przez rozdzielnicę, po przyłącze — na tyle, żeby świadomie planować, oceniać i wykonywać prace,
